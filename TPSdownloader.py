@@ -39,7 +39,7 @@ def parse_known_terpenes(filename="terpene_names.uniq.txt"):
                     _terpenes.append(_line[:-1])
                 else:
                     _terpenes.append(_line[1:-1])
-    if myoptions.debug: print("Debug: %s" % str(_terpenes))
+    if myoptions.debug: print("Debug: terpenes=%s" % str(_terpenes))
     return _terpenes
 
 
@@ -94,14 +94,14 @@ def parse_uniprot_xml(filename, terpenes):
     _accessions = []
     _uniprot_name = None
     _protein_names = [] # sometimes UniProt has unset protein_names and also feature_description
-    _feature_description = None
+    _feature_descriptions = []
     _chebi_ids = []
     _sequence = None
     _organism = None
     _lineage = None
 
-    # blacklist of IDs of reaction substrates or non-cyclic terpenes, etc.
-    non_terpene_chebi_ids = ['CHEBI:15377', 'CHEBI:33019', 'CHEBI:58057', 'CHEBI:128769', 'CHEBI:175763', 'CHEBI:57533', 'CHEBI:49263', 'CHEBI:10418', 'CHEBI:10280', 'CHEBI:175763', 'CHEBI:64283', 'CHEBI:58756', 'CHEBI:15441', 'CHEBI:58622', 'CHEBI:58553', 'CHEBI:57665', 'CHEBI:58635', 'CHEBI:15440', 'CHEBI:138223', 'CHEBI:128769', 'CHEBI:57907', 'CHEBI:64801', 'CHEBI:61984', 'CHEBI:58206', 'CHEBI:138167', 'CHEBI:15347', 'CHEBI:162247', 'CHEBI:17221', 'CHEBI:60374', 'CHEBI:61746', 'CHEBI:98']
+    # blacklist of IDs of reaction substrates or non-cyclic terpenes, etc., but including β-farnesene CHEBI:10418
+    non_terpene_chebi_ids = ['CHEBI:15377', 'CHEBI:33019', 'CHEBI:58057', 'CHEBI:128769', 'CHEBI:175763', 'CHEBI:57533', 'CHEBI:10418', 'CHEBI:10280', 'CHEBI:175763', 'CHEBI:64283', 'CHEBI:58756', 'CHEBI:15441', 'CHEBI:58622', 'CHEBI:58553', 'CHEBI:57665', 'CHEBI:58635', 'CHEBI:15440', 'CHEBI:138223', 'CHEBI:128769', 'CHEBI:57907', 'CHEBI:64801', 'CHEBI:61984', 'CHEBI:58206', 'CHEBI:138167', 'CHEBI:15347', 'CHEBI:162247', 'CHEBI:17221', 'CHEBI:60374', 'CHEBI:61746', 'CHEBI:98']
     # CHEBI:33019 - diphosphate(3−)
     # CHEBI:58057 - geranyl diphosphate(3−)
     # CHEBI:128769 - isopentenyl diphosphate(3−)
@@ -127,7 +127,7 @@ def parse_uniprot_xml(filename, terpenes):
                 _sequence = child.text
             if child.tag == '{http://uniprot.org/uniprot}feature':
                 if 'type' in child.attrib.keys() and 'description' in child.attrib.keys() and child.attrib['type'] == 'chain':
-                    _feature_description = child.attrib['description']
+                    _feature_descriptions += [child.attrib['description']]
                     
             for subchild in child:
                 if myoptions.debug: print("Level 2: ", subchild.tag, ' ', subchild.attrib, ' ', subchild.text)
@@ -144,6 +144,10 @@ def parse_uniprot_xml(filename, terpenes):
                     elif subchild.tag == '{http://uniprot.org/uniprot}alternativeName':
                         if sschild.tag == '{http://uniprot.org/uniprot}fullName':
                             _protein_names += [sschild.text]
+                    elif child.tag == '{http://uniprot.org/uniprot}protein':
+                        if subchild.tag == '{http://uniprot.org/uniprot}submittedName':
+                            if sschild.tag == '{http://uniprot.org/uniprot}fullName':
+                                _protein_names += [sschild.text] # G1JUH4
                     elif child.tag == '{http://uniprot.org/uniprot}comment' and 'type' in child.attrib.keys() and child.attrib['type'] == 'catalytic activity' and subchild.tag == '{http://uniprot.org/uniprot}reaction' and sschild.tag == '{http://uniprot.org/uniprot}dbReference' and sschild.attrib['type'] == 'ChEBI':
                         if sschild.attrib['id'] not in non_terpene_chebi_ids:
                             if not _chebi_ids_local:
@@ -173,9 +177,23 @@ def parse_uniprot_xml(filename, terpenes):
                     _chebi_ids_local = []
 
     for _i in range(0,len(_chebi_ids)-1):
-        print("Info: accessions: %s, chebi_ids: %s, _protein_names: %s, description: %s, organism: %s, lineage: %s, sequence: %s" % (str(_accessions), str(_chebi_ids[_i]), str(_protein_names), str(_feature_description), str(_organism), str(_lineage), str(_sequence)))
+        if len(_chebi_ids) != len(_protein_names):
+            print("Warning: Number of ChEBI entries does not match number of alternative protein names : _chebi_ids=%s _protein_names=%s" % (str(_chebi_ids), str(_protein_names)))
+            print("Info: accessions: %s, chebi_ids: %s, _protein_names: %s, description: %s, organism: %s, lineage: %s, sequence: %s" % (str(_accessions), str(_chebi_ids[_i]), str(_protein_names), str(_feature_descriptions), str(_organism), str(_lineage), str(_sequence)))
+        else:
+            print("Info: accessions: %s, chebi_ids: %s, _protein_names: %s, description: %s, organism: %s, lineage: %s, sequence: %s" % (str(_accessions), str(_chebi_ids[_i]), str(_protein_names[_i]), str(_feature_descriptions), str(_organism), str(_lineage), str(_sequence)))
 
-    return(_accessions, _chebi_ids, _protein_names, _feature_description, _organism, _lineage, _sequence)
+    if not _protein_names:
+        # <uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+        #   <entry created="2011-10-19" dataset="TrEMBL" modified="2021-04-07" version="68">
+        #     <accession>G1JUH4</accession>
+        #     <name>G1JUH4_SOLLC</name>
+        #     <protein>
+        #       <submittedName>
+        #         <fullName evidence="4 5">Beta myrcene/limonene synthase</fullName>
+        #       </submittedName>
+        raise ValueError("No proteins descriptions were parsed for _accessions=%s" % str(_accessions))
+    return(_accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence)
 
 
 def create_cache(cachedir=".TPSdownloader_cache"):
@@ -323,7 +341,7 @@ def fetch_ids_from_xlsx(terpenes):
             download_uniprot(_i)
             _filename = ".TPSdownloader_cache" + os.path.sep + 'uniprot' + os.path.sep + _i + '.xml'
             if os.path.exists(_filename) and os.path.getsize(_filename):
-                (_accessions, _chebi_ids, _protein_names, _feature_description, _organism, _lineage, _sequence) = parse_uniprot_xml(_filename, terpenes)
+                (_accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence) = parse_uniprot_xml(_filename, terpenes)
                 for _uniprot_id in _accessions:
                     _all_uniprot_ids.update([_uniprot_id])
                 for _chebi_id in _chebi_ids:
