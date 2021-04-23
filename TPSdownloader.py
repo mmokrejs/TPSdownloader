@@ -50,6 +50,7 @@ def parse_chebi_xml(filename):
     _chebi_id = None
     _definition = None
     _names = None
+    _formula = None
     _smiles = None
     _inchi = None
 
@@ -73,6 +74,9 @@ def parse_chebi_xml(filename):
             if child.tag == 'DEFINITION':
                 if not _definition:
                     _definition = [child.text]
+            if child.tag == 'FORMULA':
+                if not _formula:
+                    _formula = [child.text]
             if child.tag == 'SYNONYM':
                 if not _names:
                     _names = [child.text]
@@ -83,8 +87,8 @@ def parse_chebi_xml(filename):
             if child.tag == 'INCHI':
                 _inchi = [child.text]
 
-    print("Info: IDs: %s, names: %s, definition: %s, smiles: %s, inchi: %s" % (str(_chebi_id), str(_names), str(_definition), str(_smiles), str(_inchi)))
-    return(_chebi_id, _names, _definition, _smiles, _inchi)
+    print("Info: IDs: %s, names: %s, definition: %s, formula: %s, smiles: %s, inchi: %s" % (str(_chebi_id), str(_names), str(_definition), str(_formula), str(_smiles), str(_inchi)))
+    return(_chebi_id, _names, _definition, _formula, _smiles, _inchi)
 
 
 def parse_uniprot_xml(filename, terpenes):
@@ -365,7 +369,7 @@ def main():
         download_chebi(_chebi_id)
         _filename = ".TPSdownloader_cache" + os.path.sep + 'chebi' + os.path.sep + _chebi_id + '.xml'
         if os.path.exists(_filename) and os.path.getsize(_filename):
-            _chebi_id2, _names, _definition, _smiles, _inchi = parse_chebi_xml(_filename)
+            _chebi_id2, _names, _definition, _formula, _smiles, _inchi = parse_chebi_xml(_filename)
 
 
 if __name__ == "__main__":
