@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2020-10-07" dataset="Swiss-Prot" modified="2020-10-07" version="5">
+    <accession>A0A5Q0QNH9</accession>
+    <name>AGR7_AGRAE</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="5">Delta(6)-protoilludene synthase</fullName>
+        <ecNumber evidence="4">4.2.3.135</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="5">Terpene cyclase Agr6</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="5" type="primary">Agr7</name>
+    </gene>
+    <organism>
+      <name type="scientific">Agrocybe aegerita</name>
+      <name type="common">Black poplar mushroom</name>
+      <name type="synonym">Agaricus aegerita</name>
+      <dbReference id="5400" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Basidiomycota</taxon>
+        <taxon>Agaricomycotina</taxon>
+        <taxon>Agaricomycetes</taxon>
+        <taxon>Agaricomycetidae</taxon>
+        <taxon>Agaricales</taxon>
+        <taxon>Bolbitiaceae</taxon>
+        <taxon>Agrocybe</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2020" first="1268" last="1277" name="ACS Chem. Biol." type="journal article" volume="15">
+        <title>Agrocybe aegerita serves as a gateway for identifying sesquiterpene biosynthetic enzymes in higher fungi.</title>
+        <authorList>
+          <person name="Zhang C."/>
+          <person name="Chen X."/>
+          <person name="Orban A."/>
+          <person name="Shukal S."/>
+          <person name="Birk F."/>
+          <person name="Too H.P."/>
+          <person name="Ruehl M."/>
+        </authorList>
+        <dbReference id="32233445" type="PubMed"/>
+        <dbReference id="10.1021/acschembio.0c00155" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>DOMAIN</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <source>
+        <strain>AAE3_05024</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2018" first="48" last="48" name="BMC Genomics" type="journal article" volume="19">
+        <title>The genome sequence of the commercially cultivated mushroom Agrocybe aegerita reveals a conserved repertoire of fruiting-related genes and a versatile suite of biopolymer-degrading enzymes.</title>
+        <authorList>
+          <person name="Gupta D.K."/>
+          <person name="Ruehl M."/>
+          <person name="Mishra B."/>
+          <person name="Kleofas V."/>
+          <person name="Hofrichter M."/>
+          <person name="Herzog R."/>
+          <person name="Pecyna M.J."/>
+          <person name="Sharma R."/>
+          <person name="Kellner H."/>
+          <person name="Hennicke F."/>
+          <person name="Thines M."/>
+        </authorList>
+        <dbReference id="29334897" type="PubMed"/>
+        <dbReference id="10.1186/s12864-017-4430-y" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>AAE3_05024</strain>
+      </source>
+    </reference>
+    <comment type="function">
+      <text evidence="4">Terpene cyclase that catalyzes the cyclization of farnesyl diphosphate (FPP) to delta(6)-protoilludene.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="4">
+        <text>(2E,6E)-farnesyl diphosphate = Delta(6)-protoilludene + diphosphate</text>
+        <dbReference id="RHEA:34695" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:68655" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.135" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="4">
+        <dbReference id="RHEA:34696" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="4">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+    </comment>
+    <comment type="domain">
+      <text evidence="4">The DDXXD motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="6">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="4" id="4.2.3.135" type="EC"/>
+    <dbReference id="MN146030" type="EMBL">
+      <property type="protein sequence ID" value="QGA30883.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="GO:0016829" type="GO">
+      <property type="term" value="F:lyase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034686" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_2"/>
+    </dbReference>
+    <dbReference id="SFLDG01020" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Delta(6)-protoilludene synthase" id="PRO_0000451261" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="387"/>
+      </location>
+    </feature>
+    <feature description="Substrate-binding" evidence="3" type="region of interest">
+      <location>
+        <begin position="332"/>
+        <end position="333"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="2" type="short sequence motif">
+      <location>
+        <begin position="90"/>
+        <end position="94"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="3" type="metal ion-binding site">
+      <location>
+        <position position="90"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="3" type="metal ion-binding site">
+      <location>
+        <position position="90"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="3" type="metal ion-binding site">
+      <location>
+        <position position="226"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="3" type="metal ion-binding site">
+      <location>
+        <position position="230"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="3" type="metal ion-binding site">
+      <location>
+        <position position="234"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="3" type="binding site">
+      <location>
+        <position position="182"/>
+      </location>
+    </feature>
+    <feature description="Plays a critical role in the stabilization of intermediate cation" evidence="1" type="site">
+      <location>
+        <position position="87"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="B5HDJ6" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000250">
+      <source>
+        <dbReference id="P0DL13" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000250">
+      <source>
+        <dbReference id="Q9UR08" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="32233445" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000303">
+      <source>
+        <dbReference id="32233445" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000305"/>
+    <sequence checksum="DACE2F440966C55C" length="387" mass="44849" modified="2020-02-26" version="1">MSFFKSSQPTIYIPDTLRNWPWPREINPHYEECKRESAAWVEKFGAFSAKAQKAFNKCDFNLLASLAWSRVNRDGCRIGCDLMNLFFVFDEWSDVSDAEETRRMADIIMDALYDPHKPRPTGEWVGGEVTRQYWLNAIRTATPSAQKRFIKAFKLYTDSVVQQSADRDKHLIRDIDSYFEVRRDTIGAKPSFAINEVHMNLPDYVMEHPVIKNLTAYCIDMLCIGNDLCSYNVEQSRGDDGHNLVTIVMHQLNLDVQGAFDWIGKLHDELVDKFLEEYKNVPTFKDKQVTKECAEYAFGLGNWVRGNDQWSFESERYFRKDGMRVLTERTVVLLPKKREPPPKPLDEDPIYSALPWWGWTALFGFLATAFTFSARQLSTRISANLIA</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

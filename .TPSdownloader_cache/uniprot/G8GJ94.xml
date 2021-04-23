@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2020-02-26" dataset="Swiss-Prot" modified="2020-12-02" version="33">
+    <accession>G8GJ94</accession>
+    <accession>K4HYB0</accession>
+    <name>SCLS_SALSC</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="5 6">Sclareol synthase, chloroplastic</fullName>
+        <shortName evidence="5">ScSCS</shortName>
+        <shortName evidence="6">SsSS</shortName>
+        <ecNumber evidence="3 4">4.2.3.141</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="6">Diterpene synthase 1132</fullName>
+        <shortName evidence="6">SsTps1132</shortName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="6" type="primary">SCS</name>
+      <name evidence="5" type="synonym">SS</name>
+      <name evidence="6" type="synonym">Tps1132</name>
+    </gene>
+    <organism>
+      <name type="scientific">Salvia sclarea</name>
+      <name type="common">Clary sage</name>
+      <dbReference id="38869" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>lamiids</taxon>
+        <taxon>Lamiales</taxon>
+        <taxon>Lamiaceae</taxon>
+        <taxon>Nepetoideae</taxon>
+        <taxon>Mentheae</taxon>
+        <taxon>Salvia</taxon>
+        <taxon>Salvia incertae sedis</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2012" first="119" last="119" name="BMC Plant Biol." type="journal article" volume="12">
+        <title>Discovery and functional characterization of two diterpene synthases for sclareol biosynthesis in Salvia sclarea (L.) and their relevance for perfume manufacture.</title>
+        <authorList>
+          <person name="Caniard A."/>
+          <person name="Zerbe P."/>
+          <person name="Legrand S."/>
+          <person name="Cohade A."/>
+          <person name="Valot N."/>
+          <person name="Magnard J.L."/>
+          <person name="Bohlmann J."/>
+          <person name="Legendre L."/>
+        </authorList>
+        <dbReference id="22834731" type="PubMed"/>
+        <dbReference id="10.1186/1471-2229-12-119" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>SUBCELLULAR LOCATION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>PATHWAY</scope>
+      <scope>BIOTECHNOLOGY</scope>
+    </reference>
+    <reference key="2">
+      <citation date="2012" first="18900" last="18903" name="J. Am. Chem. Soc." type="journal article" volume="134">
+        <title>Toward a biosynthetic route to sclareol and amber odorants.</title>
+        <authorList>
+          <person name="Schalk M."/>
+          <person name="Pastore L."/>
+          <person name="Mirata M.A."/>
+          <person name="Khim S."/>
+          <person name="Schouwey M."/>
+          <person name="Deguerry F."/>
+          <person name="Pineda V."/>
+          <person name="Rocci L."/>
+          <person name="Daviet L."/>
+        </authorList>
+        <dbReference id="23113661" type="PubMed"/>
+        <dbReference id="10.1021/ja307404u" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>PATHWAY</scope>
+      <scope>BIOTECHNOLOGY</scope>
+      <source>
+        <tissue>Flower</tissue>
+        <tissue>Flower bud</tissue>
+        <tissue>Leaf</tissue>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2019" first="626" last="665" name="Nat. Prod. Rep." type="journal article" volume="36">
+        <title>Non-volatile natural products in plant glandular trichomes: chemistry, biological activities and biosynthesis.</title>
+        <authorList>
+          <person name="Liu Y."/>
+          <person name="Jing S.-X."/>
+          <person name="Luo S.-H."/>
+          <person name="Li S.-H."/>
+        </authorList>
+        <dbReference id="30468448" type="PubMed"/>
+        <dbReference id="10.1039/c8np00077h" type="DOI"/>
+      </citation>
+      <scope>PATHWAY</scope>
+      <scope>REVIEW</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="3 4 9 10 11">Involved in the biosynthesis of labdane-type diterpenoid including sclareol, a diterpene-diol that is used as fragrance and flavoring, and has anticancer effects (able to kill leukemic and colon cancer cells by apoptosis) (Probable). Sclareol can also be used as synthesis precursor of ambergris substitution fragance products such as ambrox (Probable). Terpene synthase that catalyzes the conversion of 8-hydroxy-copalyl diphosphate to sclareol (PubMed:23113661, PubMed:22834731).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3 4">
+        <text>8-hydroxycopalyl diphosphate + H2O = diphosphate + sclareol</text>
+        <dbReference id="RHEA:34459" type="Rhea"/>
+        <dbReference id="CHEBI:9053" type="ChEBI"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:64283" type="ChEBI"/>
+        <dbReference id="4.2.3.141" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="3 4">
+        <dbReference id="RHEA:34460" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment evidence="3 4 7" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="3">Plastid</location>
+        <location evidence="3">Chloroplast</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="domain">
+      <text evidence="8">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="biotechnology">
+      <text evidence="4">Escherichia coli expressing SsLPS and SsSCS from Salvia sclarea and CrtE from Pantoea agglomerans can produce sclareol in high-cell-density fermentation conditions, thus being an alternative, sustainable, and cost-efficient route to sclareol and other diterpene analogs.</text>
+    </comment>
+    <comment type="biotechnology">
+      <text evidence="3">Yeast (S.cerevisiae) engineered to express S.cerevisiae GGPPS and Salvia sclarea LPS and SCS is an efficient way to produce sclareol in a scalable and potentially industrial way.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="8">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="3 4" id="4.2.3.141" type="EC"/>
+    <dbReference id="JQ478435" type="EMBL">
+      <property type="protein sequence ID" value="AFU61898.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="JN133922" type="EMBL">
+      <property type="protein sequence ID" value="AET21246.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="G8GJ94" type="SMR"/>
+    <dbReference id="ag:AFU61898" type="KEGG"/>
+    <dbReference id="4.2.3.141" type="BRENDA">
+      <property type="organism ID" value="13177"/>
+    </dbReference>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="GO:0009507" type="GO">
+      <property type="term" value="C:chloroplast"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016102" type="GO">
+      <property type="term" value="P:diterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0150">Chloroplast</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-0934">Plastid</keyword>
+    <keyword id="KW-0809">Transit peptide</keyword>
+    <feature description="Chloroplast" evidence="2" type="transit peptide">
+      <location>
+        <begin position="1"/>
+        <end position="51"/>
+      </location>
+    </feature>
+    <feature description="Sclareol synthase, chloroplastic" evidence="2" id="PRO_0000448859" type="chain">
+      <location>
+        <begin position="52"/>
+        <end position="575"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="8" type="short sequence motif">
+      <location>
+        <begin position="329"/>
+        <end position="333"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="329"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="329"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="333"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="333"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="473"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="477"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="481"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AFU61898." evidence="8" ref="1" type="sequence conflict">
+      <original>K</original>
+      <variation>N</variation>
+      <location>
+        <position position="23"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AFU61898." evidence="8" ref="1" type="sequence conflict">
+      <original>I</original>
+      <variation>V</variation>
+      <location>
+        <position position="297"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="Q40577" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000255"/>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="22834731" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="23113661" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000303">
+      <source>
+        <dbReference id="22834731" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000303">
+      <source>
+        <dbReference id="23113661" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000303">
+      <source>
+        <dbReference id="30468448" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000305"/>
+    <evidence key="9" type="ECO:0000305">
+      <source>
+        <dbReference id="22834731" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0000305">
+      <source>
+        <dbReference id="23113661" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="11" type="ECO:0000305">
+      <source>
+        <dbReference id="30468448" type="PubMed"/>
+      </source>
+    </evidence>
+    <sequence checksum="AA83712A0DF5475C" length="575" mass="66681" modified="2012-01-25" precursor="true" version="1">MSLAFNVGVTPFSGQRVGSRKEKFPVQGFPVTTPNRSRLIVNCSLTTIDFMAKMKENFKREDDKFPTTTTLRSEDIPSNLCIIDTLQRLGVDQFFQYEINTILDNTFRLWQEKHKVIYGNVTTHAMAFRLLRVKGYEVSSEELAPYGNQEAVSQQTNDLPMIIELYRAANERIYEEERSLEKILAWTTIFLNKQVQDNSIPDKKLHKLVEFYLRNYKGITIRLGARRNLELYDMTYYQALKSTNRFSNLCNEDFLVFAKQDFDIHEAQNQKGLQQLQRWYADCRLDTLNFGRDVVIIANYLASLIIGDHAFDYVRLAFAKTSVLVTIMDDFFDCHGSSQECDKIIELVKEWKENPDAEYGSEELEILFMALYNTVNELAERARVEQGRSVKEFLVKLWVEILSAFKIELDTWSNGTQQSFDEYISSSWLSNGSRLTGLLTMQFVGVKLSDEMLMSEECTDLARHVCMVGRLLNDVCSSEREREENIAGKSYSILLATEKDGRKVSEDEAIAEINEMVEYHWRKVLQIVYKKESILPRRCKDVFLEMAKGTFYAYGINDELTSPQQSKEDMKSFVF</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2005-04-26" dataset="Swiss-Prot" modified="2020-12-02" version="76">
+    <accession>Q9UVY5</accession>
+    <accession>O74290</accession>
+    <name>CPSKS_GIBFU</name>
+    <protein>
+      <recommendedName>
+        <fullName>Ent-kaur-16-ene synthase</fullName>
+        <ecNumber>4.2.3.19</ecNumber>
+        <ecNumber>5.5.1.13</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>CPS/KS</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Ent-copalyl diphosphate synthase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Ent-kaurene synthase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>GfCPS/KS</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name type="primary">cps</name>
+    </gene>
+    <organism>
+      <name type="scientific">Gibberella fujikuroi</name>
+      <name type="common">Bakanae and foot rot disease fungus</name>
+      <name type="synonym">Fusarium fujikuroi</name>
+      <dbReference id="5127" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Ascomycota</taxon>
+        <taxon>Pezizomycotina</taxon>
+        <taxon>Sordariomycetes</taxon>
+        <taxon>Hypocreomycetidae</taxon>
+        <taxon>Hypocreales</taxon>
+        <taxon>Nectriaceae</taxon>
+        <taxon>Fusarium</taxon>
+        <taxon>Fusarium fujikuroi species complex</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2000" first="660" last="664" name="Biosci. Biotechnol. Biochem." type="journal article" volume="64">
+        <title>Cloning of a full-length cDNA encoding ent-kaurene synthase from Gibberella fujikuroi: functional analysis of a bifunctional diterpene cyclase.</title>
+        <authorList>
+          <person name="Toyomasu T."/>
+          <person name="Kawaide H."/>
+          <person name="Ishizaki A."/>
+          <person name="Shinoda S."/>
+          <person name="Otsuka M."/>
+          <person name="Mitsuhashi W."/>
+          <person name="Sassa T."/>
+        </authorList>
+        <dbReference id="10803977" type="PubMed"/>
+        <dbReference id="10.1271/bbb.64.660" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <source>
+        <strain>NBRC 30336</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="1998" first="234" last="240" name="Curr. Genet." type="journal article" volume="34">
+        <title>Gibberellin biosynthesis in Gibberella fujikuroi: cloning and characterization of the copalyl diphosphate synthase gene.</title>
+        <authorList>
+          <person name="Tudzynski B."/>
+          <person name="Kawaide H."/>
+          <person name="Kamiya Y."/>
+        </authorList>
+        <dbReference id="9745028" type="PubMed"/>
+        <dbReference id="10.1007/s002940050392" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+      <source>
+        <strain>m567</strain>
+        <tissue>Mycelium</tissue>
+      </source>
+    </reference>
+    <comment type="function">
+      <text>Catalyzes the conversion of geranylgeranyl diphosphate to the gibberellin precursor ent-kaurene diphosphate in a two step process.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction>
+        <text>ent-copalyl diphosphate = diphosphate + ent-kaur-16-ene</text>
+        <dbReference id="RHEA:22220" type="Rhea"/>
+        <dbReference id="CHEBI:15415" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:58553" type="ChEBI"/>
+        <dbReference id="4.2.3.19" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction>
+        <text>(2E,6E,10E)-geranylgeranyl diphosphate = ent-copalyl diphosphate</text>
+        <dbReference id="RHEA:14841" type="Rhea"/>
+        <dbReference id="CHEBI:58553" type="ChEBI"/>
+        <dbReference id="CHEBI:58756" type="ChEBI"/>
+        <dbReference id="5.5.1.13" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment type="pathway">
+      <text>Plant hormone biosynthesis; gibberellin biosynthesis.</text>
+    </comment>
+    <comment type="domain">
+      <text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="2">Belongs to the terpene synthase family.</text>
+    </comment>
+    <comment evidence="2" type="sequence caution">
+      <conflict type="erroneous gene model prediction">
+        <sequence id="CAA75244" resource="EMBL-CDS" version="1"/>
+      </conflict>
+    </comment>
+    <dbReference id="4.2.3.19" type="EC"/>
+    <dbReference id="5.5.1.13" type="EC"/>
+    <dbReference id="AB013295" type="EMBL">
+      <property type="protein sequence ID" value="BAA84917.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="Y15013" type="EMBL">
+      <property type="protein sequence ID" value="CAA75244.1"/>
+      <property type="status" value="ALT_SEQ"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="JC7227" type="PIR">
+      <property type="entry name" value="JC7227"/>
+    </dbReference>
+    <dbReference id="5127.CCT69398" type="STRING"/>
+    <dbReference id="ag:BAA84917" type="KEGG"/>
+    <dbReference id="ENOG502QQN6" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="MetaCyc:MONOMER-15973" type="BioCyc"/>
+    <dbReference id="5.5.1.13" type="BRENDA">
+      <property type="organism ID" value="2425"/>
+    </dbReference>
+    <dbReference id="UPA00390" type="UniPathway"/>
+    <dbReference id="GO:0009905" type="GO">
+      <property type="term" value="F:ent-copalyl diphosphate synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0009899" type="GO">
+      <property type="term" value="F:ent-kaurene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0009686" type="GO">
+      <property type="term" value="P:gibberellin biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="IPR017057" type="InterPro">
+      <property type="entry name" value="Ent-kaurene_synthase_fun"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PIRSF036498" type="PIRSF">
+      <property type="entry name" value="Ent-kaurene_synthase_fungi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Ent-kaur-16-ene synthase" id="PRO_0000186444" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="952"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif; degenerate" type="short sequence motif">
+      <location>
+        <begin position="668"/>
+        <end position="672"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="668"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="668"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="672"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="672"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="848"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="852"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="856"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000305"/>
+    <sequence checksum="111DC1636276A52D" length="952" mass="106804" modified="2000-05-01" version="1">MPGKIENGTPKDLKTGNDFVSAAKSLLDRAFKSHHSYYGLCSTSCQVYDTAWVAMIPKTRDNVKQWLFPECFHYLLKTQAADGSWGSLPTTQTAGILDTASAVLALLCHAQEPLQILDVSPDEMGLRIEHGVTSLKRQLAVWNDVEDTNHIGVEFIIPALLSMLEKELDVPSFEFPCRSILERMHGEKLGHFDLEQVYGKPSSLLHSLEAFLGKLDFDRLSHHLYHGSMMASPSSTAAYLIGATKWDDEAEDYLRHVMRNGAGHGNGGISGTFPTTHFECSWIIATLLKVGFTLKQIDGDGLRGLSTILLEALRDENGVIGFAPRTADVDDTAKALLALSLVNQPVSPDIMIKVFEGKDHFTTFGSERDPSLTSNLHVLLSLLKQSNLSQYHPQILKTTLFTCRWWWGSDHCVKDKWNLSHLYPTMLLVEAFTEVLHLIDGGELSSLFDESFKCKIGLSIFQAVLRIILTQDNDGSWRGYREQTCYAILALVQARHVCFFTHMVDRLQSCVDRGFSWLKSCSFHSQDLTWTSKTAYEVGFVAEAYKLAALQSASLEVPAATIGHSVTSAVPSSDLEKYMRLVRKTALFSPLDEWGLMASIIESSFFVPLLQAQRVEIYPRDNIKVDEDKYLSIIPFTWVGCNNRSRTFASNRWLYDMMYLSLLGYQTDEYMEAVAGPVFGDVSLLHQTIDKVIDNTMGNLARANGTVHSGNGHQHESPNIGQVEDTLTRFTNSVLNHKDVLNSSSSDQDTLRREFRTFMHAHITQIEDNSRFSKQASSDAFSSPEQSYFQWVNSTGGSHVACAYSFAFSNCLMSANLLQGKDAFPSGTQKYLISSVMRHATNMCRMYNDFGSIARDNAERNVNSIHFPEFTLCNGTSQNLDERKERLLKIATYEQGYLDRALEALERQSRDDAGDRAGSKDMRKLKIVKLFCDVTDLYDQLYVIKDLSSSMK</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

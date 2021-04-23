@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2010-05-18" modified="2021-04-07" version="49">
+<accession>D4IIJ0</accession>
+<name>D4IIJ0_HELAN</name>
+<protein>
+<submittedName>
+<fullName evidence="5">Kaurene synthase</fullName>
+<ecNumber evidence="5">4.2.3.19</ecNumber>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="5">ks2L</name>
+</gene>
+<organism evidence="5">
+<name type="scientific">Helianthus annuus</name>
+<name type="common">Common sunflower</name>
+<dbReference type="NCBI Taxonomy" id="4232"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>campanulids</taxon>
+<taxon>Asterales</taxon>
+<taxon>Asteraceae</taxon>
+<taxon>Asteroideae</taxon>
+<taxon>Heliantheae alliance</taxon>
+<taxon>Heliantheae</taxon>
+<taxon>Helianthus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="6">
+<citation type="submission" date="2010-06" db="EMBL/GenBank/DDBJ databases">
+<title>Molecular cloning and expression profile analysis of three sunflower (Helianthus annuus L.) diterpene synthases.</title>
+<authorList>
+<person name="Pugliesi C."/>
+<person name="Fambrini M."/>
+<person name="Salvini M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="6">Vegetative shoots</tissue>
+</source>
+</reference>
+<reference key="2" evidence="5">
+<citation type="journal article" date="2011" name="Biochem. Genet." volume="49" first="46" last="62">
+<title>Molecular Cloning and Expression Profile Analysis of Three Sunflower (Helianthus annuus) Diterpene Synthase Genes.</title>
+<authorList>
+<person name="Pugliesi C."/>
+<person name="Fambrini M."/>
+<person name="Salvini M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="5">Shoot</tissue>
+</source>
+</reference>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<dbReference type="EC" id="4.2.3.19" evidence="5"/>
+<dbReference type="EMBL" id="FN689858">
+<property type="protein sequence ID" value="CBL42916.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="FN908809">
+<property type="protein sequence ID" value="CBM82408.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="OMA" id="FACDIRD"/>
+<dbReference type="BRENDA" id="4.2.3.19">
+<property type="organism ID" value="2597"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009899">
+<property type="term" value="F:ent-kaurene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0175" evidence="2">Coiled coil</keyword>
+<keyword id="KW-0456" evidence="5">Lyase</keyword>
+<feature type="domain" description="Terpene_synth" evidence="3">
+<location>
+<begin position="222"/>
+<end position="411"/>
+</location>
+</feature>
+<feature type="domain" description="Terpene_synth_C" evidence="4">
+<location>
+<begin position="454"/>
+<end position="718"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="678"/>
+<end position="698"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="705"/>
+<end position="725"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00001946"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF01397"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF03936"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CBL42916.1"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CBM82408.1"/>
+</source>
+</evidence>
+<sequence length="774" mass="87993" checksum="AC13CFE7F6D29002" modified="2010-05-18" version="1">MNITITQSMTGPLSITKPYRSWALSAIHTAPSHVGQANPTNLAIDTTKERIRKLFNNVDLSVSSYDTAWVAMVPSPSSPKSPCFPECLNWLVDNQLDDGSWGLVNHSSTHPLIKDSLSSTLACIVALKRWNVGEDQINKGLRFIESNLASATDKSQPSPFGFDIIFPGMLEYAQQLNINLRSKQTDFTLMLHERDLELKRCHSNEMEAYLAYNSEGLGNLYDWHMVKKYQMKNGSVFNSPSATAAAFINRQDTGCLNYLTSLLEKFGNAVPTVYPLELYIRLSMVDTLERLGIARHFSVEIKNVLDETYRCWVERDEQIFMDVVTCALAFRLLRINGYEVSPDPLEEITNEGAFKDEYAALEVYNASQILYPKELAFGEQILRSGDFLRRITSTDSNRLSTFIQKEAENALKVPFNTGIERINVKRYIDHYHVDHTRILKTTYRSSNISNEDYLKFAVEDFNSCQSIYLEEMKGFKRWLAETKLDQLTFAREKSAYCYFTAAATLPAPELSDARLSWAKNSILTAITDDFIDGGATIDESINLVYCVEKWNVDVDKDCCSETVRILFSAIKDAICWMGDAGFKWQERDVTSHVTQIWLDLLNSMLTEAIWRRDAYTPTMDEYMKNASVSFALGPIVLNTLYFVGPKLSEEIVESSEYHNIFDQMSVMGRLLNDIYSFMREIKEELNAIELQLRNGESATGEEEVIKEITTVIKNMRKEIMKLVTEEKGSVVPRACKDVFLNMSNVLNLFYATDDGFTGDAILGIVKDTFYEPLS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

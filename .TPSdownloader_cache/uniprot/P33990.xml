@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="1994-02-01" dataset="Swiss-Prot" modified="2021-04-07" version="127">
+    <accession>P33990</accession>
+    <accession>Q5NP64</accession>
+    <name>SQHC_ZYMMO</name>
+    <protein>
+      <recommendedName>
+        <fullName>Squalene--hopene cyclase</fullName>
+        <ecNumber>4.2.1.129</ecNumber>
+        <ecNumber>5.4.99.17</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>Squalene--hopanol cyclase</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name type="primary">shc</name>
+      <name type="ordered locus">ZMO0872</name>
+    </gene>
+    <organism>
+      <name type="scientific">Zymomonas mobilis subsp. mobilis (strain ATCC 31821 / ZM4 / CP4)</name>
+      <dbReference id="264203" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Bacteria</taxon>
+        <taxon>Proteobacteria</taxon>
+        <taxon>Alphaproteobacteria</taxon>
+        <taxon>Sphingomonadales</taxon>
+        <taxon>Sphingomonadaceae</taxon>
+        <taxon>Zymomonas</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="1995" first="155" last="161" name="Microbiology" type="journal article" volume="141">
+        <title>Zymomonas mobilis squalene-hopene cyclase gene (shc): cloning, DNA sequence analysis, and expression in Escherichia coli.</title>
+        <authorList>
+          <person name="Reipen I.G."/>
+          <person name="Poralla K."/>
+          <person name="Sahm H."/>
+          <person name="Sprenger G.A."/>
+        </authorList>
+        <dbReference id="7894707" type="PubMed"/>
+        <dbReference id="10.1099/00221287-141-1-155" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC 31821 / ZM4 / CP4</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="1997-11" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <authorList>
+          <person name="Reipen I.G."/>
+          <person name="Sahm H."/>
+          <person name="Sprenger G.A."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC 31821 / ZM4 / CP4</strain>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="1999-11" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <authorList>
+          <person name="Um H.W."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC 31821 / ZM4 / CP4</strain>
+      </source>
+    </reference>
+    <reference key="4">
+      <citation date="2005" first="63" last="68" name="Nat. Biotechnol." type="journal article" volume="23">
+        <title>The genome sequence of the ethanologenic bacterium Zymomonas mobilis ZM4.</title>
+        <authorList>
+          <person name="Seo J.-S."/>
+          <person name="Chong H."/>
+          <person name="Park H.S."/>
+          <person name="Yoon K.-O."/>
+          <person name="Jung C."/>
+          <person name="Kim J.J."/>
+          <person name="Hong J.H."/>
+          <person name="Kim H."/>
+          <person name="Kim J.-H."/>
+          <person name="Kil J.-I."/>
+          <person name="Park C.J."/>
+          <person name="Oh H.-M."/>
+          <person name="Lee J.-S."/>
+          <person name="Jin S.-J."/>
+          <person name="Um H.-W."/>
+          <person name="Lee H.-J."/>
+          <person name="Oh S.-J."/>
+          <person name="Kim J.Y."/>
+          <person name="Kang H.L."/>
+          <person name="Lee S.Y."/>
+          <person name="Lee K.J."/>
+          <person name="Kang H.S."/>
+        </authorList>
+        <dbReference id="15592456" type="PubMed"/>
+        <dbReference id="10.1038/nbt1045" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC 31821 / ZM4 / CP4</strain>
+      </source>
+    </reference>
+    <comment type="function">
+      <text>Catalyzes the cyclization of squalene into hopene.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction>
+        <text>squalene = hop-22(29)-ene</text>
+        <dbReference id="RHEA:17637" type="Rhea"/>
+        <dbReference id="CHEBI:4648" type="ChEBI"/>
+        <dbReference id="CHEBI:15440" type="ChEBI"/>
+        <dbReference id="5.4.99.17" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction>
+        <text>H2O + squalene = hopan-22-ol</text>
+        <dbReference id="RHEA:16561" type="Rhea"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:15440" type="ChEBI"/>
+        <dbReference id="CHEBI:36484" type="ChEBI"/>
+        <dbReference id="4.2.1.129" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="pathway">
+      <text>Secondary metabolite biosynthesis; hopanoid biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="1">Cell membrane</location>
+        <topology evidence="1">Peripheral membrane protein</topology>
+      </subcellularLocation>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene cyclase/mutase family.</text>
+    </comment>
+    <dbReference id="4.2.1.129" type="EC"/>
+    <dbReference id="5.4.99.17" type="EC"/>
+    <dbReference id="X80766" type="EMBL">
+      <property type="protein sequence ID" value="CAA56749.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="X73561" type="EMBL">
+      <property type="protein sequence ID" value="CAA51958.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="AJ001401" type="EMBL">
+      <property type="protein sequence ID" value="CAA04735.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="AF203881" type="EMBL">
+      <property type="protein sequence ID" value="AAF12829.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="AE008692" type="EMBL">
+      <property type="protein sequence ID" value="AAV89496.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="S37494" type="PIR">
+      <property type="entry name" value="S37494"/>
+    </dbReference>
+    <dbReference id="WP_011240738.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NZ_CP035711.1"/>
+    </dbReference>
+    <dbReference id="P33990" type="SMR"/>
+    <dbReference id="264203.ZMO0872" type="STRING"/>
+    <dbReference id="P33990" type="PRIDE"/>
+    <dbReference id="AAV89496" type="EnsemblBacteria">
+      <property type="protein sequence ID" value="AAV89496"/>
+      <property type="gene ID" value="ZMO0872"/>
+    </dbReference>
+    <dbReference id="58026676" type="GeneID"/>
+    <dbReference id="zmo:ZMO0872" type="KEGG"/>
+    <dbReference id="COG1657" type="eggNOG">
+      <property type="taxonomic scope" value="Bacteria"/>
+    </dbReference>
+    <dbReference id="CLU_019345_0_0_5" type="HOGENOM"/>
+    <dbReference id="CWARQTI" type="OMA"/>
+    <dbReference id="260889at2" type="OrthoDB"/>
+    <dbReference id="5.4.99.17" type="BRENDA">
+      <property type="organism ID" value="6765"/>
+    </dbReference>
+    <dbReference id="UPA00337" type="UniPathway"/>
+    <dbReference id="UP000001173" type="Proteomes">
+      <property type="component" value="Chromosome"/>
+    </dbReference>
+    <dbReference id="GO:0005811" type="GO">
+      <property type="term" value="C:lipid droplet"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0005886" type="GO">
+      <property type="term" value="C:plasma membrane"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0042300" type="GO">
+      <property type="term" value="F:beta-amyrin synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0000250" type="GO">
+      <property type="term" value="F:lanosterol synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016829" type="GO">
+      <property type="term" value="F:lyase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0051007" type="GO">
+      <property type="term" value="F:squalene-hopene cyclase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0019746" type="GO">
+      <property type="term" value="P:hopanoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="cd02892" type="CDD">
+      <property type="entry name" value="SQCY_1"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR006400" type="InterPro">
+      <property type="entry name" value="Hopene-cyclase"/>
+    </dbReference>
+    <dbReference id="IPR032696" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_C"/>
+    </dbReference>
+    <dbReference id="IPR032697" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_N"/>
+    </dbReference>
+    <dbReference id="IPR018333" type="InterPro">
+      <property type="entry name" value="Squalene_cyclase"/>
+    </dbReference>
+    <dbReference id="IPR002365" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_CS"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF13243" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF13249" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01016" type="SFLD">
+      <property type="entry name" value="Prenyltransferase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="TIGR01507" type="TIGRFAMs">
+      <property type="entry name" value="hopene_cyclase"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="TIGR01787" type="TIGRFAMs">
+      <property type="entry name" value="squalene_cyclas"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PS01074" type="PROSITE">
+      <property type="entry name" value="TERPENE_SYNTHASES"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="inferred from homology"/>
+    <keyword id="KW-1003">Cell membrane</keyword>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0472">Membrane</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0677">Repeat</keyword>
+    <feature description="Squalene--hopene cyclase" id="PRO_0000072653" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="658"/>
+      </location>
+    </feature>
+    <feature description="PFTB 1" type="repeat">
+      <location>
+        <begin position="69"/>
+        <end position="110"/>
+      </location>
+    </feature>
+    <feature description="PFTB 2" type="repeat">
+      <location>
+        <begin position="418"/>
+        <end position="459"/>
+      </location>
+    </feature>
+    <feature description="PFTB 3" type="repeat">
+      <location>
+        <begin position="486"/>
+        <end position="526"/>
+      </location>
+    </feature>
+    <feature description="PFTB 4" type="repeat">
+      <location>
+        <begin position="534"/>
+        <end position="584"/>
+      </location>
+    </feature>
+    <feature description="Proton donor" evidence="2" type="active site">
+      <location>
+        <position position="392"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1, 2 and 3." evidence="3" ref="1 2 3" type="sequence conflict">
+      <original>H</original>
+      <variation>Q</variation>
+      <location>
+        <position position="34"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1, 2 and 3." evidence="3" ref="1 2 3" type="sequence conflict">
+      <original>Q</original>
+      <variation>E</variation>
+      <location>
+        <position position="64"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1, 2 and 3." evidence="3" ref="1 2 3" type="sequence conflict">
+      <original>R</original>
+      <variation>H</variation>
+      <location>
+        <position position="411"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1, 2 and 3." evidence="3" ref="1 2 3" type="sequence conflict">
+      <original>I</original>
+      <variation>V</variation>
+      <location>
+        <position position="534"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000250">
+      <source>
+        <dbReference id="P48449" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <sequence checksum="42D2D8FC06EA1D9C" length="658" mass="74109" modified="2005-02-15" version="2">MTVSTSSAFHHSPLSDDVEPIIQKATRALLEKQHQDGHWVFELEADATIPAEYILLKHYLGEPQDLEIEAKIGRYLRRIQGEHGGWSLFYGGDLDLSATVKAYFALKMIGDSPDAPHMLRARNEILARGGAMRANVFTRIQLALFGAMSWEHVPQMPVELMLMPEWFPVHINKMAYWARTVLVPLLVLQALKPVARNRRGILVDELFVPDVLPTLQESGDPIWRRFFSALDKVLHKVEPYWPKNMRAKAIHSCVHFVTERLNGEDGLGAIYPAIANSVMMYDALGYPENHPERAIARRAVEKLMVLDGTEDQGDKEVYCQPCLSPIWDTALVAHAMLEVGGDEAEKSAISALSWLKPQQILDVKGDWAWRRPDLRPGGWAFQYRNDYYPDVDDTAVVTMAMDRAAKLSDLRDDFEESKARAMEWTIGMQSDNGGWGAFDANNSYTYLNNIPFADHGALLDPPTVDVSARCVSMMAQAGISITDPKMKAAVDYLLKEQEEDGSWFGRWGVNYIYGTWSALCALNVAALPHDHLAIQKAVAWLKTIQNEDGGWGENCDSYALDYSGYEPMDSTASQTAWALLGLMAVGEANSEAVTKGINWLAQNQDEEGLWKEDYYSGGGFPRVFYLRYHGYSKYFPLWALARYRNLKKANQPIVHYGM</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

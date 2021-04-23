@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2009-03-03" dataset="Swiss-Prot" modified="2021-04-07" version="98">
+    <accession>Q1G1A4</accession>
+    <accession>A0A1I9LTE2</accession>
+    <accession>Q9M1U6</accession>
+    <name>LAS1_ARATH</name>
+    <protein>
+      <recommendedName>
+        <fullName>Lanosterol synthase</fullName>
+        <ecNumber>5.4.99.7</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="primary">LAS1</name>
+      <name type="synonym">LSS</name>
+      <name type="ordered locus">At3g45130</name>
+      <name type="ORF">T14D3.70</name>
+    </gene>
+    <organism>
+      <name type="scientific">Arabidopsis thaliana</name>
+      <name type="common">Mouse-ear cress</name>
+      <dbReference id="3702" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>malvids</taxon>
+        <taxon>Brassicales</taxon>
+        <taxon>Brassicaceae</taxon>
+        <taxon>Camelineae</taxon>
+        <taxon>Arabidopsis</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2006" first="87" last="95" name="Arch. Biochem. Biophys." type="journal article" volume="447">
+        <title>Lanosterol biosynthesis in plants.</title>
+        <authorList>
+          <person name="Kolesnikova M.D."/>
+          <person name="Xiong Q."/>
+          <person name="Lodeiro S."/>
+          <person name="Hua L."/>
+          <person name="Matsuda S.P.T."/>
+        </authorList>
+        <dbReference id="16445886" type="PubMed"/>
+        <dbReference id="10.1016/j.abb.2005.12.010" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="2">
+      <citation date="2006" first="565" last="571" name="Plant Cell Physiol." type="journal article" volume="47">
+        <title>Lanosterol synthase in dicotyledonous plants.</title>
+        <authorList>
+          <person name="Suzuki M."/>
+          <person name="Xiang T."/>
+          <person name="Ohyama K."/>
+          <person name="Seki H."/>
+          <person name="Saito K."/>
+          <person name="Muranaka T."/>
+          <person name="Hayashi H."/>
+          <person name="Katsube Y."/>
+          <person name="Kushiro T."/>
+          <person name="Shibuya M."/>
+          <person name="Ebizuka Y."/>
+        </authorList>
+        <dbReference id="16531458" type="PubMed"/>
+        <dbReference id="10.1093/pcp/pcj031" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>DISRUPTION PHENOTYPE</scope>
+      <scope>TISSUE SPECIFICITY</scope>
+    </reference>
+    <reference key="3">
+      <citation date="2000" first="820" last="822" name="Nature" type="journal article" volume="408">
+        <title>Sequence and analysis of chromosome 3 of the plant Arabidopsis thaliana.</title>
+        <authorList>
+          <person name="Salanoubat M."/>
+          <person name="Lemcke K."/>
+          <person name="Rieger M."/>
+          <person name="Ansorge W."/>
+          <person name="Unseld M."/>
+          <person name="Fartmann B."/>
+          <person name="Valle G."/>
+          <person name="Bloecker H."/>
+          <person name="Perez-Alonso M."/>
+          <person name="Obermaier B."/>
+          <person name="Delseny M."/>
+          <person name="Boutry M."/>
+          <person name="Grivell L.A."/>
+          <person name="Mache R."/>
+          <person name="Puigdomenech P."/>
+          <person name="De Simone V."/>
+          <person name="Choisne N."/>
+          <person name="Artiguenave F."/>
+          <person name="Robert C."/>
+          <person name="Brottier P."/>
+          <person name="Wincker P."/>
+          <person name="Cattolico L."/>
+          <person name="Weissenbach J."/>
+          <person name="Saurin W."/>
+          <person name="Quetier F."/>
+          <person name="Schaefer M."/>
+          <person name="Mueller-Auer S."/>
+          <person name="Gabel C."/>
+          <person name="Fuchs M."/>
+          <person name="Benes V."/>
+          <person name="Wurmbach E."/>
+          <person name="Drzonek H."/>
+          <person name="Erfle H."/>
+          <person name="Jordan N."/>
+          <person name="Bangert S."/>
+          <person name="Wiedelmann R."/>
+          <person name="Kranz H."/>
+          <person name="Voss H."/>
+          <person name="Holland R."/>
+          <person name="Brandt P."/>
+          <person name="Nyakatura G."/>
+          <person name="Vezzi A."/>
+          <person name="D'Angelo M."/>
+          <person name="Pallavicini A."/>
+          <person name="Toppo S."/>
+          <person name="Simionati B."/>
+          <person name="Conrad A."/>
+          <person name="Hornischer K."/>
+          <person name="Kauer G."/>
+          <person name="Loehnert T.-H."/>
+          <person name="Nordsiek G."/>
+          <person name="Reichelt J."/>
+          <person name="Scharfe M."/>
+          <person name="Schoen O."/>
+          <person name="Bargues M."/>
+          <person name="Terol J."/>
+          <person name="Climent J."/>
+          <person name="Navarro P."/>
+          <person name="Collado C."/>
+          <person name="Perez-Perez A."/>
+          <person name="Ottenwaelder B."/>
+          <person name="Duchemin D."/>
+          <person name="Cooke R."/>
+          <person name="Laudie M."/>
+          <person name="Berger-Llauro C."/>
+          <person name="Purnelle B."/>
+          <person name="Masuy D."/>
+          <person name="de Haan M."/>
+          <person name="Maarse A.C."/>
+          <person name="Alcaraz J.-P."/>
+          <person name="Cottet A."/>
+          <person name="Casacuberta E."/>
+          <person name="Monfort A."/>
+          <person name="Argiriou A."/>
+          <person name="Flores M."/>
+          <person name="Liguori R."/>
+          <person name="Vitale D."/>
+          <person name="Mannhaupt G."/>
+          <person name="Haase D."/>
+          <person name="Schoof H."/>
+          <person name="Rudd S."/>
+          <person name="Zaccaria P."/>
+          <person name="Mewes H.-W."/>
+          <person name="Mayer K.F.X."/>
+          <person name="Kaul S."/>
+          <person name="Town C.D."/>
+          <person name="Koo H.L."/>
+          <person name="Tallon L.J."/>
+          <person name="Jenkins J."/>
+          <person name="Rooney T."/>
+          <person name="Rizzo M."/>
+          <person name="Walts A."/>
+          <person name="Utterback T."/>
+          <person name="Fujii C.Y."/>
+          <person name="Shea T.P."/>
+          <person name="Creasy T.H."/>
+          <person name="Haas B."/>
+          <person name="Maiti R."/>
+          <person name="Wu D."/>
+          <person name="Peterson J."/>
+          <person name="Van Aken S."/>
+          <person name="Pai G."/>
+          <person name="Militscher J."/>
+          <person name="Sellers P."/>
+          <person name="Gill J.E."/>
+          <person name="Feldblyum T.V."/>
+          <person name="Preuss D."/>
+          <person name="Lin X."/>
+          <person name="Nierman W.C."/>
+          <person name="Salzberg S.L."/>
+          <person name="White O."/>
+          <person name="Venter J.C."/>
+          <person name="Fraser C.M."/>
+          <person name="Kaneko T."/>
+          <person name="Nakamura Y."/>
+          <person name="Sato S."/>
+          <person name="Kato T."/>
+          <person name="Asamizu E."/>
+          <person name="Sasamoto S."/>
+          <person name="Kimura T."/>
+          <person name="Idesawa K."/>
+          <person name="Kawashima K."/>
+          <person name="Kishida Y."/>
+          <person name="Kiyokawa C."/>
+          <person name="Kohara M."/>
+          <person name="Matsumoto M."/>
+          <person name="Matsuno A."/>
+          <person name="Muraki A."/>
+          <person name="Nakayama S."/>
+          <person name="Nakazaki N."/>
+          <person name="Shinpo S."/>
+          <person name="Takeuchi C."/>
+          <person name="Wada T."/>
+          <person name="Watanabe A."/>
+          <person name="Yamada M."/>
+          <person name="Yasuda M."/>
+          <person name="Tabata S."/>
+        </authorList>
+        <dbReference id="11130713" type="PubMed"/>
+        <dbReference id="10.1038/35048706" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>cv. Columbia</strain>
+      </source>
+    </reference>
+    <reference key="4">
+      <citation date="2017" first="789" last="804" name="Plant J." type="journal article" volume="89">
+        <title>Araport11: a complete reannotation of the Arabidopsis thaliana reference genome.</title>
+        <authorList>
+          <person name="Cheng C.Y."/>
+          <person name="Krishnakumar V."/>
+          <person name="Chan A.P."/>
+          <person name="Thibaud-Nissen F."/>
+          <person name="Schobel S."/>
+          <person name="Town C.D."/>
+        </authorList>
+        <dbReference id="27862469" type="PubMed"/>
+        <dbReference id="10.1111/tpj.13415" type="DOI"/>
+      </citation>
+      <scope>GENOME REANNOTATION</scope>
+      <source>
+        <strain>cv. Columbia</strain>
+      </source>
+    </reference>
+    <comment type="function">
+      <text evidence="2 3">Converts oxidosqualene to lanosterol.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction>
+        <text>(S)-2,3-epoxysqualene = lanosterol</text>
+        <dbReference id="RHEA:14621" type="Rhea"/>
+        <dbReference id="CHEBI:15441" type="ChEBI"/>
+        <dbReference id="CHEBI:16521" type="ChEBI"/>
+        <dbReference id="5.4.99.7" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="tissue specificity">
+      <text evidence="3">Expressed in roots, stems and siliques. Low expression in rosette leaves.</text>
+    </comment>
+    <comment type="disruption phenotype">
+      <text evidence="3">No visible phenotype.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="4">Belongs to the terpene cyclase/mutase family.</text>
+    </comment>
+    <comment evidence="4" type="sequence caution">
+      <conflict type="erroneous gene model prediction">
+        <sequence id="CAB72151" resource="EMBL-CDS" version="1"/>
+      </conflict>
+    </comment>
+    <dbReference id="5.4.99.7" type="EC"/>
+    <dbReference id="DQ508794" type="EMBL">
+      <property type="protein sequence ID" value="ABF57670.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AB247155" type="EMBL">
+      <property type="protein sequence ID" value="BAE95408.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AL138649" type="EMBL">
+      <property type="protein sequence ID" value="CAB72151.1"/>
+      <property type="status" value="ALT_SEQ"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="CP002686" type="EMBL">
+      <property type="protein sequence ID" value="AEE77996.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="CP002686" type="EMBL">
+      <property type="protein sequence ID" value="ANM65849.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="CP002686" type="EMBL">
+      <property type="protein sequence ID" value="ANM65850.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="T47453" type="PIR">
+      <property type="entry name" value="T47453"/>
+    </dbReference>
+    <dbReference id="NP_001327787.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_001339197.1"/>
+    </dbReference>
+    <dbReference id="NP_001327788.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_001339196.1"/>
+    </dbReference>
+    <dbReference id="NP_190099.3" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_114382.5"/>
+    </dbReference>
+    <dbReference id="Q1G1A4" type="SMR"/>
+    <dbReference id="3702.AT3G45130.1" type="STRING"/>
+    <dbReference id="Q1G1A4" type="PaxDb"/>
+    <dbReference id="Q1G1A4" type="PRIDE"/>
+    <dbReference id="237148" type="ProteomicsDB"/>
+    <dbReference id="AT3G45130.1" type="EnsemblPlants">
+      <property type="protein sequence ID" value="AT3G45130.1"/>
+      <property type="gene ID" value="AT3G45130"/>
+    </dbReference>
+    <dbReference id="AT3G45130.4" type="EnsemblPlants">
+      <property type="protein sequence ID" value="AT3G45130.4"/>
+      <property type="gene ID" value="AT3G45130"/>
+    </dbReference>
+    <dbReference id="AT3G45130.5" type="EnsemblPlants">
+      <property type="protein sequence ID" value="AT3G45130.5"/>
+      <property type="gene ID" value="AT3G45130"/>
+    </dbReference>
+    <dbReference id="823649" type="GeneID"/>
+    <dbReference id="AT3G45130.1" type="Gramene">
+      <property type="protein sequence ID" value="AT3G45130.1"/>
+      <property type="gene ID" value="AT3G45130"/>
+    </dbReference>
+    <dbReference id="AT3G45130.4" type="Gramene">
+      <property type="protein sequence ID" value="AT3G45130.4"/>
+      <property type="gene ID" value="AT3G45130"/>
+    </dbReference>
+    <dbReference id="AT3G45130.5" type="Gramene">
+      <property type="protein sequence ID" value="AT3G45130.5"/>
+      <property type="gene ID" value="AT3G45130"/>
+    </dbReference>
+    <dbReference id="ath:AT3G45130" type="KEGG"/>
+    <dbReference id="AT3G45130" type="Araport"/>
+    <dbReference id="locus:2096905" type="TAIR">
+      <property type="gene designation" value="AT3G45130"/>
+    </dbReference>
+    <dbReference id="KOG0497" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="CLU_009074_2_1_1" type="HOGENOM"/>
+    <dbReference id="Q1G1A4" type="InParanoid"/>
+    <dbReference id="CMISYSS" type="OMA"/>
+    <dbReference id="Q1G1A4" type="PhylomeDB"/>
+    <dbReference id="ARA:AT3G45130-MONOMER" type="BioCyc"/>
+    <dbReference id="5.4.99.7" type="BRENDA">
+      <property type="organism ID" value="399"/>
+    </dbReference>
+    <dbReference id="PR:Q1G1A4" type="PRO"/>
+    <dbReference id="UP000006548" type="Proteomes">
+      <property type="component" value="Chromosome 3"/>
+    </dbReference>
+    <dbReference id="Q1G1A4" type="ExpressionAtlas">
+      <property type="expression patterns" value="baseline and differential"/>
+    </dbReference>
+    <dbReference id="Q1G1A4" type="Genevisible">
+      <property type="organism ID" value="AT"/>
+    </dbReference>
+    <dbReference id="GO:0005811" type="GO">
+      <property type="term" value="C:lipid droplet"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0042300" type="GO">
+      <property type="term" value="F:beta-amyrin synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0000250" type="GO">
+      <property type="term" value="F:lanosterol synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="TAIR"/>
+    </dbReference>
+    <dbReference id="GO:0016104" type="GO">
+      <property type="term" value="P:triterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="cd02892" type="CDD">
+      <property type="entry name" value="SQCY_1"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR032696" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_C"/>
+    </dbReference>
+    <dbReference id="IPR032697" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_N"/>
+    </dbReference>
+    <dbReference id="IPR018333" type="InterPro">
+      <property type="entry name" value="Squalene_cyclase"/>
+    </dbReference>
+    <dbReference id="IPR002365" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_CS"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF13243" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF13249" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01016" type="SFLD">
+      <property type="entry name" value="Prenyltransferase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="TIGR01787" type="TIGRFAMs">
+      <property type="entry name" value="squalene_cyclas"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PS01074" type="PROSITE">
+      <property type="entry name" value="TERPENE_SYNTHASES"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0677">Repeat</keyword>
+    <feature description="Lanosterol synthase" id="PRO_0000366143" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="756"/>
+      </location>
+    </feature>
+    <feature description="PFTB 1" type="repeat">
+      <location>
+        <begin position="147"/>
+        <end position="188"/>
+      </location>
+    </feature>
+    <feature description="PFTB 2" type="repeat">
+      <location>
+        <begin position="512"/>
+        <end position="557"/>
+      </location>
+    </feature>
+    <feature description="PFTB 3" type="repeat">
+      <location>
+        <begin position="589"/>
+        <end position="629"/>
+      </location>
+    </feature>
+    <feature description="PFTB 4" type="repeat">
+      <location>
+        <begin position="638"/>
+        <end position="679"/>
+      </location>
+    </feature>
+    <feature description="Proton donor" evidence="1" type="active site">
+      <location>
+        <position position="483"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="P48449" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="16445886" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="16531458" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000305"/>
+    <sequence checksum="010E5B3FA7AF1E7E" length="756" mass="86518" modified="2006-06-27" version="1">MWRLKLSEGDEESVNQHVGRQFWEYDNQFGTSEERHHINHLRSNFTLNRFSSKHSSDLLYRFQCWKEKGKGMERLPQVKVKEGEERLINEEVVNVTLRRSLRFYSILQSQDGFWPGDYGGPLFLLPALVIGLYVTEVLDGTLTAQHQIEIRRYLYNHQNKDGGWGLHVEGNSTMFCTVLSYVALRLMGEELDGGDGAMESARSWIHHHGGATFIPSWGKFWLSVLGAYEWSGNNPLPPELWLLPYSLPFHPGRMWCHCRMVYLPMSYLYGRRFVCRTNGTILSLRRELYTIPYHHIDWDTARNQCAKEDLYYPHPKIQDVLWSCLNKFGEPLLERWPLNNLRNHALQTVMQHIHYEDQNSHYICIGPVNKVLNMLCCWVESSNSEAFKSHLSRIKDYLWVAEDGMKMQGYNGSQLWDVTLAVQAILATNLVDDYGLMLKKAHNYIKNTQIRKDTSGDPGLWYRHPCKGGWGFSTGDNPWPVSDCTAEALKAALLLSQMPVNLVGEPMPEEHLVDAVNFILSLQNKNGGFASYELTRSYPELEVINPSETFGDIIIDYQYVECTSAAIQGLVLFTTLNSSYKRKEIVGSINKAVEFIEKTQLPDGSWYGSWGVCFTYATWFGIKGMLASGKTYESSLCIRKACGFLLSKQLCCGGWGESYLSCQNKVYTNLPGNKSHIVNTSWALLALIEAGQASRDPMPLHRGAKSLINSQMEDGDYPQQEILGVFNRNCMISYSAYRNIFPIWALGEYRKLMLSL</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

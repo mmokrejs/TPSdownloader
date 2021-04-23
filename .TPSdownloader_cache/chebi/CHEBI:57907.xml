@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:57907</ID>
+<NAME>all-trans-pentaprenyl diphosphate(3-)</NAME>
+<DEFINITION>The trianion resulting from the removal of the three protons from the diphosphate group of all-trans-pentaprenyl diphosphate; major species at pH 7.3.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>{[(2E,6E,10E,14E)-3,7,11,15,19-pentamethylicosa-2,6,10,14,18-pentaen-1-yl phosphonato]oxy}phosphonate(3-)</SYNONYM>
+<SYNONYM>all-trans-geranylfarnesyl pyrophosphate(3-)</SYNONYM>
+<SYNONYM>all-trans-geranylfarnesyl pyrophosphate trianion</SYNONYM>
+<SYNONYM>all-trans-geranylfarnesyl diphosphate(3-)</SYNONYM>
+<SYNONYM>all-trans-geranylfarnesyl diphosphate trianion</SYNONYM>
+<SYNONYM>all-trans-farnesylgeranyl pyrophosphate(3-)</SYNONYM>
+<SYNONYM>all-trans-farnesylgeranyl pyrophosphate trianion</SYNONYM>
+<SYNONYM>all-trans-farnesylgeranyl diphosphate(3-)</SYNONYM>
+<SYNONYM>all-trans-farnesylgeranyl diphosphate trianion</SYNONYM>
+<SYNONYM>2-trans,6-trans,10-trans,14-trans-geranylfarnesyl diphosphate(3-)</SYNONYM>
+<SYNONYM>2-trans,6-trans,10-trans,14-trans-geranylfarnesyl diphosphate trianion</SYNONYM>
+<SYNONYM>(2E,6E,10E,14E)-geranylfarnesyl diphosphate(3-)</SYNONYM>
+<SYNONYM>(2E,6E,10E,14E)-geranylfarnesyl diphosphate trianion</SYNONYM>
+<SYNONYM>(2E,6E,10E,14E)-geranylfarnesyl diphosphate</SYNONYM>
+<IUPAC_NAME>(2E,6E,10E,14E)-3,7,11,15,19-pentamethylicosa-2,6,10,14,18-pentaen-1-yl diphosphate</IUPAC_NAME>
+<FORMULA>C25H41O7P2</FORMULA>
+<MASS>515.53640</MASS>
+<MONOISOTOPIC_MASS>515.23440</MONOISOTOPIC_MASS>
+<CHARGE>-3</CHARGE>
+<SMILES>CC(C)=CCC\C(C)=C\CC\C(C)=C\CC\C(C)=C\CC\C(C)=C\COP([O-])(=O)OP([O-])([O-])=O</SMILES>
+<INCHI>InChI=1S/C25H44O7P2/c1-21(2)11-7-12-22(3)13-8-14-23(4)15-9-16-24(5)17-10-18-25(6)19-20-31-34(29,30)32-33(26,27)28/h11,13,15,17,19H,7-10,12,14,16,18,20H2,1-6H3,(H,29,30)(H2,26,27,28)/p-3/b22-13+,23-15+,24-17+,25-19+</INCHI>
+<INCHIKEY>JMVSBFJBMXQNJW-GIXZANJISA-K</INCHIKEY>
+</ENTRY>
+</TABLE>

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2016-09-07" dataset="Swiss-Prot" modified="2021-04-07" version="35">
+    <accession>M4VQY9</accession>
+    <accession>Q4WAZ7</accession>
+    <name>FMAA_ASPFU</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="10">Fumagillin beta-trans-bergamotene synthase af520</fullName>
+        <ecNumber evidence="5">4.2.3.-</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="10">Fumagillin biosynthesis terpene cyclase</fullName>
+        <shortName evidence="10">Fma-TC</shortName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="10" type="primary">af520</name>
+      <name evidence="11" type="synonym">fmaA</name>
+      <name type="ORF">AFUA_8G00520</name>
+    </gene>
+    <organism>
+      <name type="scientific">Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100)</name>
+      <name type="synonym">Aspergillus fumigatus</name>
+      <dbReference id="330879" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Ascomycota</taxon>
+        <taxon>Pezizomycotina</taxon>
+        <taxon>Eurotiomycetes</taxon>
+        <taxon>Eurotiomycetidae</taxon>
+        <taxon>Eurotiales</taxon>
+        <taxon>Aspergillaceae</taxon>
+        <taxon>Aspergillus</taxon>
+        <taxon>Aspergillus subgen. Fumigati</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2013" first="4616" last="4619" name="J. Am. Chem. Soc." type="journal article" volume="135">
+        <title>The fumagillin biosynthetic gene cluster in Aspergillus fumigatus encodes a cryptic terpene cyclase involved in the formation of beta-trans-bergamotene.</title>
+        <authorList>
+          <person name="Lin H.C."/>
+          <person name="Chooi Y.H."/>
+          <person name="Dhingra S."/>
+          <person name="Xu W."/>
+          <person name="Calvo A.M."/>
+          <person name="Tang Y."/>
+        </authorList>
+        <dbReference id="23488861" type="PubMed"/>
+        <dbReference id="10.1021/ja312503y" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <source>
+        <strain>ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2005" first="1151" last="1156" name="Nature" type="journal article" volume="438">
+        <title>Genomic sequence of the pathogenic and allergenic filamentous fungus Aspergillus fumigatus.</title>
+        <authorList>
+          <person name="Nierman W.C."/>
+          <person name="Pain A."/>
+          <person name="Anderson M.J."/>
+          <person name="Wortman J.R."/>
+          <person name="Kim H.S."/>
+          <person name="Arroyo J."/>
+          <person name="Berriman M."/>
+          <person name="Abe K."/>
+          <person name="Archer D.B."/>
+          <person name="Bermejo C."/>
+          <person name="Bennett J.W."/>
+          <person name="Bowyer P."/>
+          <person name="Chen D."/>
+          <person name="Collins M."/>
+          <person name="Coulsen R."/>
+          <person name="Davies R."/>
+          <person name="Dyer P.S."/>
+          <person name="Farman M.L."/>
+          <person name="Fedorova N."/>
+          <person name="Fedorova N.D."/>
+          <person name="Feldblyum T.V."/>
+          <person name="Fischer R."/>
+          <person name="Fosker N."/>
+          <person name="Fraser A."/>
+          <person name="Garcia J.L."/>
+          <person name="Garcia M.J."/>
+          <person name="Goble A."/>
+          <person name="Goldman G.H."/>
+          <person name="Gomi K."/>
+          <person name="Griffith-Jones S."/>
+          <person name="Gwilliam R."/>
+          <person name="Haas B.J."/>
+          <person name="Haas H."/>
+          <person name="Harris D.E."/>
+          <person name="Horiuchi H."/>
+          <person name="Huang J."/>
+          <person name="Humphray S."/>
+          <person name="Jimenez J."/>
+          <person name="Keller N."/>
+          <person name="Khouri H."/>
+          <person name="Kitamoto K."/>
+          <person name="Kobayashi T."/>
+          <person name="Konzack S."/>
+          <person name="Kulkarni R."/>
+          <person name="Kumagai T."/>
+          <person name="Lafton A."/>
+          <person name="Latge J.-P."/>
+          <person name="Li W."/>
+          <person name="Lord A."/>
+          <person name="Lu C."/>
+          <person name="Majoros W.H."/>
+          <person name="May G.S."/>
+          <person name="Miller B.L."/>
+          <person name="Mohamoud Y."/>
+          <person name="Molina M."/>
+          <person name="Monod M."/>
+          <person name="Mouyna I."/>
+          <person name="Mulligan S."/>
+          <person name="Murphy L.D."/>
+          <person name="O'Neil S."/>
+          <person name="Paulsen I."/>
+          <person name="Penalva M.A."/>
+          <person name="Pertea M."/>
+          <person name="Price C."/>
+          <person name="Pritchard B.L."/>
+          <person name="Quail M.A."/>
+          <person name="Rabbinowitsch E."/>
+          <person name="Rawlins N."/>
+          <person name="Rajandream M.A."/>
+          <person name="Reichard U."/>
+          <person name="Renauld H."/>
+          <person name="Robson G.D."/>
+          <person name="Rodriguez de Cordoba S."/>
+          <person name="Rodriguez-Pena J.M."/>
+          <person name="Ronning C.M."/>
+          <person name="Rutter S."/>
+          <person name="Salzberg S.L."/>
+          <person name="Sanchez M."/>
+          <person name="Sanchez-Ferrero J.C."/>
+          <person name="Saunders D."/>
+          <person name="Seeger K."/>
+          <person name="Squares R."/>
+          <person name="Squares S."/>
+          <person name="Takeuchi M."/>
+          <person name="Tekaia F."/>
+          <person name="Turner G."/>
+          <person name="Vazquez de Aldana C.R."/>
+          <person name="Weidman J."/>
+          <person name="White O."/>
+          <person name="Woodward J.R."/>
+          <person name="Yu J.-H."/>
+          <person name="Fraser C.M."/>
+          <person name="Galagan J.E."/>
+          <person name="Asai K."/>
+          <person name="Machida M."/>
+          <person name="Hall N."/>
+          <person name="Barrell B.G."/>
+          <person name="Denning D.W."/>
+        </authorList>
+        <dbReference id="16372009" type="PubMed"/>
+        <dbReference id="10.1038/nature04332" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100</strain>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="1952" first="71" last="72" name="Science" type="journal article" volume="115">
+        <title>The treatment of amebiasis with fumagillin.</title>
+        <authorList>
+          <person name="Killough J.H."/>
+          <person name="Magill G.B."/>
+          <person name="Smith R.C."/>
+        </authorList>
+        <dbReference id="14913169" type="PubMed"/>
+        <dbReference id="10.1126/science.115.2977.71" type="DOI"/>
+      </citation>
+      <scope>BIOTECHNOLOGY</scope>
+    </reference>
+    <reference key="4">
+      <citation date="1997" first="6099" last="6103" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="94">
+        <title>The anti-angiogenic agent fumagillin covalently binds and inhibits the methionine aminopeptidase, MetAP-2.</title>
+        <authorList>
+          <person name="Sin N."/>
+          <person name="Meng L."/>
+          <person name="Wang M.Q."/>
+          <person name="Wen J.J."/>
+          <person name="Bornmann W.G."/>
+          <person name="Crews C.M."/>
+        </authorList>
+        <dbReference id="9177176" type="PubMed"/>
+        <dbReference id="10.1073/pnas.94.12.6099" type="DOI"/>
+      </citation>
+      <scope>BIOTECHNOLOGY</scope>
+    </reference>
+    <reference key="5">
+      <citation date="2002" first="1963" last="1969" name="N. Engl. J. Med." type="journal article" volume="346">
+        <title>Fumagillin treatment of intestinal microsporidiosis.</title>
+        <authorList>
+          <consortium name="Agence Nationale de Recherches sur le SIDA 090 Study Group"/>
+          <person name="Molina J.M."/>
+          <person name="Tourneur M."/>
+          <person name="Sarfati C."/>
+          <person name="Chevret S."/>
+          <person name="de Gouvello A."/>
+          <person name="Gobert J.G."/>
+          <person name="Balkan S."/>
+          <person name="Derouin F."/>
+        </authorList>
+        <dbReference id="12075057" type="PubMed"/>
+        <dbReference id="10.1056/nejmoa012924" type="DOI"/>
+      </citation>
+      <scope>BIOTECHNOLOGY</scope>
+    </reference>
+    <reference key="6">
+      <citation date="2008" first="18" last="27" name="Inflamm. Res." type="journal article" volume="57">
+        <title>An inhibitor of methionine aminopeptidase type-2, PPI-2458, ameliorates the pathophysiological disease processes of rheumatoid arthritis.</title>
+        <authorList>
+          <person name="Lazarus D.D."/>
+          <person name="Doyle E.G."/>
+          <person name="Bernier S.G."/>
+          <person name="Rogers A.B."/>
+          <person name="Labenski M.T."/>
+          <person name="Wakefield J.D."/>
+          <person name="Karp R.M."/>
+          <person name="Clark E.J."/>
+          <person name="Lorusso J."/>
+          <person name="Hoyt J.G."/>
+          <person name="Thompson C.D."/>
+          <person name="Hannig G."/>
+          <person name="Westlin W.F."/>
+        </authorList>
+        <dbReference id="18209961" type="PubMed"/>
+        <dbReference id="10.1007/s00011-007-7075-5" type="DOI"/>
+      </citation>
+      <scope>BIOTECHNOLOGY</scope>
+    </reference>
+    <reference key="7">
+      <citation date="2013" first="E77147" last="E77147" name="PLoS ONE" type="journal article" volume="8">
+        <title>The fumagillin gene cluster, an example of hundreds of genes under veA control in Aspergillus fumigatus.</title>
+        <authorList>
+          <person name="Dhingra S."/>
+          <person name="Lind A.L."/>
+          <person name="Lin H.C."/>
+          <person name="Tang Y."/>
+          <person name="Rokas A."/>
+          <person name="Calvo A.M."/>
+        </authorList>
+        <dbReference id="24116213" type="PubMed"/>
+        <dbReference id="10.1371/journal.pone.0077147" type="DOI"/>
+      </citation>
+      <scope>INDUCTION</scope>
+    </reference>
+    <reference key="8">
+      <citation date="2013" first="17065" last="17070" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="110">
+        <title>Prototype of an intertwined secondary-metabolite supercluster.</title>
+        <authorList>
+          <person name="Wiemann P."/>
+          <person name="Guo C.J."/>
+          <person name="Palmer J.M."/>
+          <person name="Sekonyela R."/>
+          <person name="Wang C.C."/>
+          <person name="Keller N.P."/>
+        </authorList>
+        <dbReference id="24082142" type="PubMed"/>
+        <dbReference id="10.1073/pnas.1313258110" type="DOI"/>
+      </citation>
+      <scope>IDENTIFICATION</scope>
+      <scope>INDUCTION</scope>
+      <scope>DISRUPTION PHENOTYPE</scope>
+    </reference>
+    <reference key="9">
+      <citation date="2014" first="4426" last="4436" name="J. Am. Chem. Soc." type="journal article" volume="136">
+        <title>Generation of complexity in fungal terpene biosynthesis: discovery of a multifunctional cytochrome P450 in the fumagillin pathway.</title>
+        <authorList>
+          <person name="Lin H.C."/>
+          <person name="Tsunematsu Y."/>
+          <person name="Dhingra S."/>
+          <person name="Xu W."/>
+          <person name="Fukutomi M."/>
+          <person name="Chooi Y.H."/>
+          <person name="Cane D.E."/>
+          <person name="Calvo A.M."/>
+          <person name="Watanabe K."/>
+          <person name="Tang Y."/>
+        </authorList>
+        <dbReference id="24568283" type="PubMed"/>
+        <dbReference id="10.1021/ja500881e" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="5 8">Beta-trans-bergamotene synthase; part of the gene cluster that mediates the biosynthesis of fumagillin, a meroterpenoid that has numerous biological activities including irreversible inhibition of human type 2 methionine aminopeptidase (METAP2) (PubMed:23488861, PubMed:24568283). The pathway begins with the conversion of farnesyl pyrophosphate (FPP) to beta-trans-bergamotene by the membrane-bound beta-trans-bergamotene synthase af520 (PubMed:23488861). The initial oxidation of beta-trans-bergamotene by the multifunctional cytochrome P450 monooxygenase af510 involves C-H hydroxylation at the bridgehead C5 position to yield 5R-hydroxyl-beta-trans-bergamotene (PubMed:24568283). Subsequently, a four electron oxidation initiated at C-9 coupled to cleavage of the cyclobutane C5-C8 bond of the bicyclo[3.1.1] core yields the epoxyketone intermediate 5-keto-cordycol (PubMed:24568283). An additional epoxidation reaction also catalyzed by af510 then furnishes the characteristic bisepoxide ketone 5-keto-demethoxyfumagillol (PubMed:24568283). 5-keto-demethoxyfumagillol is then subjected to successive C-6 hydroxylation and O-methylation by the dioxygenase af480 and O-methyltransferase af390-400, respectively, to yield 5-keto-fumagillol, which is then stereoselectively reduced by the keto-reductase af490 to 5R-hydroxy-seco-sesquiterpene (PubMed:24568283). The next step is the polyketide transferase af380-catalyzed transfer of a dodecapentaenoyl group synthesized by the polyketide synthase af370 onto 5R-hydroxy-seco-sesquiterpene which leads to the production of prefumagillin (PubMed:24568283). Finally, oxidative cleavage by the monooxygenase af470 converts prefumagillin to fumagillin (PubMed:24568283).</text>
+    </comment>
+    <comment evidence="5" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="1">Membrane</location>
+        <topology evidence="1">Multi-pass membrane protein</topology>
+      </subcellularLocation>
+    </comment>
+    <comment type="induction">
+      <text evidence="6 7">Expression is controlled by the fumagillin biosynthesis cluster regulator fumR (PubMed:24082142). Expression is also under the control of the developmental and secondary metabolism regulator veA (PubMed:24116213).</text>
+    </comment>
+    <comment type="disruption phenotype">
+      <text evidence="6">Completely abolishes the production of fumagillin (PubMed:24082142).</text>
+    </comment>
+    <comment type="biotechnology">
+      <text evidence="2 3 4 9">Fumagillin and its derivatives have been intensely studied for their potential use in the treatment of amebiasis, microsporidiosis and rheumatoid arthritis (PubMed:14913169, PubMed:12075057, PubMed:18209961). They have also interesting antiangiogenic properties by the irreversible inhibition of human type 2 methionine aminopeptidase (METAP2) (PubMed:9177176).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="12">Belongs to the paxB family.</text>
+    </comment>
+    <comment evidence="12" type="sequence caution">
+      <conflict type="erroneous gene model prediction">
+        <sequence id="EAL85115" resource="EMBL-CDS" version="1"/>
+      </conflict>
+    </comment>
+    <dbReference evidence="5" id="4.2.3.-" type="EC"/>
+    <dbReference id="KC407776" type="EMBL">
+      <property type="protein sequence ID" value="AGI05042.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AAHF01000014" type="EMBL">
+      <property type="protein sequence ID" value="EAL85115.1"/>
+      <property type="status" value="ALT_SEQ"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="XP_747153.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="XM_742060.1"/>
+    </dbReference>
+    <dbReference id="746128.CADAFUBP00008383" type="STRING"/>
+    <dbReference id="3504512" type="GeneID"/>
+    <dbReference id="afm:AFUA_8G00520" type="KEGG"/>
+    <dbReference id="FungiDB:Afu8g00520" type="VEuPathDB"/>
+    <dbReference id="ENOG502RZB9" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="NTISCTL" type="OMA"/>
+    <dbReference id="1231215at2759" type="OrthoDB"/>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="UP000002530" type="Proteomes">
+      <property type="component" value="Chromosome 8"/>
+    </dbReference>
+    <dbReference id="UP000002530" type="Proteomes">
+      <property type="component" value="Unassembled WGS sequence"/>
+    </dbReference>
+    <dbReference id="GO:0016021" type="GO">
+      <property type="term" value="C:integral component of membrane"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0016829" type="GO">
+      <property type="term" value="F:lyase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0016765" type="GO">
+      <property type="term" value="F:transferase activity, transferring alkyl or aryl (other than methyl) groups"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:1902086" type="GO">
+      <property type="term" value="P:fumagillin biosynthetic process"/>
+      <property type="evidence" value="ECO:0000315"/>
+      <property type="project" value="AspGD"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="IPR000537" type="InterPro">
+      <property type="entry name" value="UbiA_prenyltransferase"/>
+    </dbReference>
+    <dbReference id="PF01040" type="Pfam">
+      <property type="entry name" value="UbiA"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0472">Membrane</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0812">Transmembrane</keyword>
+    <keyword id="KW-1133">Transmembrane helix</keyword>
+    <feature description="Fumagillin beta-trans-bergamotene synthase af520" id="PRO_0000437038" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="289"/>
+      </location>
+    </feature>
+    <feature description="Helical" evidence="1" type="transmembrane region">
+      <location>
+        <begin position="35"/>
+        <end position="55"/>
+      </location>
+    </feature>
+    <feature description="Helical" evidence="1" type="transmembrane region">
+      <location>
+        <begin position="95"/>
+        <end position="115"/>
+      </location>
+    </feature>
+    <feature description="Helical" evidence="1" type="transmembrane region">
+      <location>
+        <begin position="142"/>
+        <end position="162"/>
+      </location>
+    </feature>
+    <feature description="Helical" evidence="1" type="transmembrane region">
+      <location>
+        <begin position="165"/>
+        <end position="185"/>
+      </location>
+    </feature>
+    <feature description="Helical" evidence="1" type="transmembrane region">
+      <location>
+        <begin position="222"/>
+        <end position="242"/>
+      </location>
+    </feature>
+    <feature description="Helical" evidence="1" type="transmembrane region">
+      <location>
+        <begin position="262"/>
+        <end position="282"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000255"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="12075057" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="14913169" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="18209961" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000269">
+      <source>
+        <dbReference id="23488861" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000269">
+      <source>
+        <dbReference id="24082142" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000269">
+      <source>
+        <dbReference id="24116213" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000269">
+      <source>
+        <dbReference id="24568283" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0000269">
+      <source>
+        <dbReference id="9177176" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0000303">
+      <source>
+        <dbReference id="23488861" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="11" type="ECO:0000303">
+      <source>
+        <dbReference id="24082142" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="12" type="ECO:0000305"/>
+    <sequence checksum="3F836CC17360104F" length="289" mass="31676" modified="2013-05-29" version="1">MDRVLSLGKLPISFLKTLYLFSKSDIPAATLPSMAVALVLAAPCSFHLIIKGFLWNQLHLLTFQVKNQIDGIDEDSIAKPHRPLPSGRITPGQATLLYRVLFFLMWVAAVYTNTISCTLVYSIAIVVYNEGGLAAIPVVKNLIGAIGLGCYCWGTTIIFDGGKELHGLKAVAVLMIVGIFATTGHAQDFRDRTADATRGRKTIPLLLSQPVARWSLATITAAWTIGLIALWKPPAIVTLAYVAASLRCLDGFLSSYDEKDDYVSYCWYGFWLLGSNILPIFPRLRGELP</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

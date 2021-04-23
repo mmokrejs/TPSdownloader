@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:62514</ID>
+<NAME>10-epi-gamma-eudesmol</NAME>
+<DEFINITION>A eudesmane sesquiterpenoid in which the eudesmane skeleton carries a hydroxy substituent at C-11, has a double bond between C-4 and C-5 and has inversion of configuration at C-10.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>10-epi-gamma-eudesmol</SYNONYM>
+<IUPAC_NAME>2-[(2R,4aS)-4a,8-dimethyl-1,2,3,4,4a,5,6,7-octahydronaphthalen-2-yl]propan-2-ol</IUPAC_NAME>
+<IUPAC_NAME>10-epi-eudesm-4-en-11-ol</IUPAC_NAME>
+<FORMULA>C15H26O</FORMULA>
+<MASS>222.36630</MASS>
+<MONOISOTOPIC_MASS>222.19837</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>CC1=C2C[C@@H](CC[C@]2(C)CCC1)C(C)(C)O</SMILES>
+<INCHI>InChI=1S/C15H26O/c1-11-6-5-8-15(4)9-7-12(10-13(11)15)14(2,3)16/h12,16H,5-10H2,1-4H3/t12-,15+/m1/s1</INCHI>
+<INCHIKEY>WMOPMQRJLLIEJV-DOMZBBRYSA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>1871246</REAXYS_REGISTRY_NUMBER>
+<PUBMED_CITATION>18242187</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

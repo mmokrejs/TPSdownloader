@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="1994-10-01" dataset="Swiss-Prot" modified="2021-04-07" version="182">
+    <accession>P38604</accession>
+    <accession>D3DL21</accession>
+    <accession>Q92327</accession>
+    <name>ERG7_YEAST</name>
+    <protein>
+      <recommendedName>
+        <fullName>Lanosterol synthase</fullName>
+        <ecNumber>5.4.99.7</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>2,3-epoxysqualene--lanosterol cyclase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Oxidosqualene--lanosterol cyclase</fullName>
+        <shortName>OSC</shortName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name type="primary">ERG7</name>
+      <name type="ordered locus">YHR072W</name>
+    </gene>
+    <organism>
+      <name type="scientific">Saccharomyces cerevisiae (strain ATCC 204508 / S288c)</name>
+      <name type="common">Baker's yeast</name>
+      <dbReference id="559292" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Ascomycota</taxon>
+        <taxon>Saccharomycotina</taxon>
+        <taxon>Saccharomycetes</taxon>
+        <taxon>Saccharomycetales</taxon>
+        <taxon>Saccharomycetaceae</taxon>
+        <taxon>Saccharomyces</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="1994" first="2211" last="2215" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="91">
+        <title>Molecular cloning, characterization, and overexpression of ERG7, the Saccharomyces cerevisiae gene encoding lanosterol synthase.</title>
+        <authorList>
+          <person name="Corey E.J."/>
+          <person name="Matsuda S.P.T."/>
+          <person name="Bartel B."/>
+        </authorList>
+        <dbReference id="8134375" type="PubMed"/>
+        <dbReference id="10.1073/pnas.91.6.2211" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+      <scope>PROTEIN SEQUENCE OF 2-9</scope>
+    </reference>
+    <reference key="2">
+      <citation date="1994" first="7370" last="7374" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="91">
+        <title>Isolation and characterization of the gene encoding 2,3-oxidosqualene-lanosterol cyclase from Saccharomyces cerevisiae.</title>
+        <authorList>
+          <person name="Shi Z."/>
+          <person name="Buntel C.J."/>
+          <person name="Griffin J.H."/>
+        </authorList>
+        <dbReference id="8041797" type="PubMed"/>
+        <dbReference id="10.1073/pnas.91.15.7370" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    </reference>
+    <reference key="3">
+      <citation date="1996-06" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Mutations in the oxidosqualene-lanosterol cyclase gene of Saccharomyces cerevisiae.</title>
+        <authorList>
+          <person name="Griffin J.H."/>
+          <person name="Buntel C.J."/>
+          <person name="Siregar J.J."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+      <scope>VARIANT 359-GLU--LEU-731 DEL</scope>
+      <source>
+        <strain>SGL9</strain>
+      </source>
+    </reference>
+    <reference key="4">
+      <citation date="1994" first="2077" last="2082" name="Science" type="journal article" volume="265">
+        <title>Complete nucleotide sequence of Saccharomyces cerevisiae chromosome VIII.</title>
+        <authorList>
+          <person name="Johnston M."/>
+          <person name="Andrews S."/>
+          <person name="Brinkman R."/>
+          <person name="Cooper J."/>
+          <person name="Ding H."/>
+          <person name="Dover J."/>
+          <person name="Du Z."/>
+          <person name="Favello A."/>
+          <person name="Fulton L."/>
+          <person name="Gattung S."/>
+          <person name="Geisel C."/>
+          <person name="Kirsten J."/>
+          <person name="Kucaba T."/>
+          <person name="Hillier L.W."/>
+          <person name="Jier M."/>
+          <person name="Johnston L."/>
+          <person name="Langston Y."/>
+          <person name="Latreille P."/>
+          <person name="Louis E.J."/>
+          <person name="Macri C."/>
+          <person name="Mardis E."/>
+          <person name="Menezes S."/>
+          <person name="Mouser L."/>
+          <person name="Nhan M."/>
+          <person name="Rifkin L."/>
+          <person name="Riles L."/>
+          <person name="St Peter H."/>
+          <person name="Trevaskis E."/>
+          <person name="Vaughan K."/>
+          <person name="Vignati D."/>
+          <person name="Wilcox L."/>
+          <person name="Wohldman P."/>
+          <person name="Waterston R."/>
+          <person name="Wilson R."/>
+          <person name="Vaudin M."/>
+        </authorList>
+        <dbReference id="8091229" type="PubMed"/>
+        <dbReference id="10.1126/science.8091229" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC 204508 / S288c</strain>
+      </source>
+    </reference>
+    <reference key="5">
+      <citation date="2014" first="389" last="398" name="G3 (Bethesda)" type="journal article" volume="4">
+        <title>The reference genome sequence of Saccharomyces cerevisiae: Then and now.</title>
+        <authorList>
+          <person name="Engel S.R."/>
+          <person name="Dietrich F.S."/>
+          <person name="Fisk D.G."/>
+          <person name="Binkley G."/>
+          <person name="Balakrishnan R."/>
+          <person name="Costanzo M.C."/>
+          <person name="Dwight S.S."/>
+          <person name="Hitz B.C."/>
+          <person name="Karra K."/>
+          <person name="Nash R.S."/>
+          <person name="Weng S."/>
+          <person name="Wong E.D."/>
+          <person name="Lloyd P."/>
+          <person name="Skrzypek M.S."/>
+          <person name="Miyasato S.R."/>
+          <person name="Simison M."/>
+          <person name="Cherry J.M."/>
+        </authorList>
+        <dbReference id="24374639" type="PubMed"/>
+        <dbReference id="10.1534/g3.113.008995" type="DOI"/>
+      </citation>
+      <scope>GENOME REANNOTATION</scope>
+      <scope>SEQUENCE REVISION TO 530</scope>
+      <source>
+        <strain>ATCC 204508 / S288c</strain>
+      </source>
+    </reference>
+    <reference key="6">
+      <citation date="2007" first="536" last="543" name="Genome Res." type="journal article" volume="17">
+        <title>Approaching a complete repository of sequence-verified protein-encoding clones for Saccharomyces cerevisiae.</title>
+        <authorList>
+          <person name="Hu Y."/>
+          <person name="Rolfs A."/>
+          <person name="Bhullar B."/>
+          <person name="Murthy T.V.S."/>
+          <person name="Zhu C."/>
+          <person name="Berger M.F."/>
+          <person name="Camargo A.A."/>
+          <person name="Kelley F."/>
+          <person name="McCarron S."/>
+          <person name="Jepson D."/>
+          <person name="Richardson A."/>
+          <person name="Raphael J."/>
+          <person name="Moreira D."/>
+          <person name="Taycher E."/>
+          <person name="Zuo D."/>
+          <person name="Mohr S."/>
+          <person name="Kane M.F."/>
+          <person name="Williamson J."/>
+          <person name="Simpson A.J.G."/>
+          <person name="Bulyk M.L."/>
+          <person name="Harlow E."/>
+          <person name="Marsischky G."/>
+          <person name="Kolodner R.D."/>
+          <person name="LaBaer J."/>
+        </authorList>
+        <dbReference id="17322287" type="PubMed"/>
+        <dbReference id="10.1101/gr.6037607" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC 204508 / S288c</strain>
+      </source>
+    </reference>
+    <reference key="7">
+      <citation date="2005-06" db="UniProtKB" type="submission">
+        <authorList>
+          <person name="Bienvenut W.V."/>
+          <person name="Peters C."/>
+        </authorList>
+      </citation>
+      <scope>PROTEIN SEQUENCE OF 2-13</scope>
+      <scope>CLEAVAGE OF INITIATOR METHIONINE</scope>
+      <scope>ACETYLATION AT THR-2</scope>
+      <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    </reference>
+    <reference key="8">
+      <citation date="1992" first="122" last="129" name="Arch. Biochem. Biophys." type="journal article" volume="293">
+        <title>Characterization and partial purification of squalene-2,3-oxide cyclase from Saccharomyces cerevisiae.</title>
+        <authorList>
+          <person name="Balliano G."/>
+          <person name="Viola F."/>
+          <person name="Ceruti M."/>
+          <person name="Cattel L."/>
+        </authorList>
+        <dbReference id="1731628" type="PubMed"/>
+        <dbReference id="10.1016/0003-9861(92)90374-6" type="DOI"/>
+      </citation>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    </reference>
+    <reference key="9">
+      <citation date="2002" first="2406" last="2412" name="J. Biol. Chem." type="journal article" volume="277">
+        <title>Yeast oxidosqualene cyclase (Erg7p) is a major component of lipid particles.</title>
+        <authorList>
+          <person name="Milla P."/>
+          <person name="Athenstaedt K."/>
+          <person name="Viola F."/>
+          <person name="Oliaro-Bosso S."/>
+          <person name="Kohlwein S.D."/>
+          <person name="Daum G."/>
+          <person name="Balliano G."/>
+        </authorList>
+        <dbReference id="11706015" type="PubMed"/>
+        <dbReference id="10.1074/jbc.m104195200" type="DOI"/>
+      </citation>
+      <scope>SUBCELLULAR LOCATION</scope>
+    </reference>
+    <reference key="10">
+      <citation date="2003" first="68" last="74" name="Biochim. Biophys. Acta" type="journal article" volume="1633">
+        <title>In yeast sterol biosynthesis the 3-keto reductase protein (Erg27p) is required for oxidosqualene cyclase (Erg7p) activity.</title>
+        <authorList>
+          <person name="Mo C."/>
+          <person name="Milla P."/>
+          <person name="Athenstaedt K."/>
+          <person name="Ott R."/>
+          <person name="Balliano G."/>
+          <person name="Daum G."/>
+          <person name="Bard M."/>
+        </authorList>
+        <dbReference id="12842197" type="PubMed"/>
+        <dbReference id="10.1016/s1388-1981(03)00088-x" type="DOI"/>
+      </citation>
+      <scope>ACTIVITY REGULATION</scope>
+    </reference>
+    <reference key="11">
+      <citation date="2003" first="686" last="691" name="Nature" type="journal article" volume="425">
+        <title>Global analysis of protein localization in budding yeast.</title>
+        <authorList>
+          <person name="Huh W.-K."/>
+          <person name="Falvo J.V."/>
+          <person name="Gerke L.C."/>
+          <person name="Carroll A.S."/>
+          <person name="Howson R.W."/>
+          <person name="Weissman J.S."/>
+          <person name="O'Shea E.K."/>
+        </authorList>
+        <dbReference id="14562095" type="PubMed"/>
+        <dbReference id="10.1038/nature02026" type="DOI"/>
+      </citation>
+      <scope>SUBCELLULAR LOCATION [LARGE SCALE ANALYSIS]</scope>
+    </reference>
+    <reference key="12">
+      <citation date="2003" first="737" last="741" name="Nature" type="journal article" volume="425">
+        <title>Global analysis of protein expression in yeast.</title>
+        <authorList>
+          <person name="Ghaemmaghami S."/>
+          <person name="Huh W.-K."/>
+          <person name="Bower K."/>
+          <person name="Howson R.W."/>
+          <person name="Belle A."/>
+          <person name="Dephoure N."/>
+          <person name="O'Shea E.K."/>
+          <person name="Weissman J.S."/>
+        </authorList>
+        <dbReference id="14562106" type="PubMed"/>
+        <dbReference id="10.1038/nature02046" type="DOI"/>
+      </citation>
+      <scope>LEVEL OF PROTEIN EXPRESSION [LARGE SCALE ANALYSIS]</scope>
+    </reference>
+    <reference key="13">
+      <citation date="2005" first="2221" last="2228" name="ChemBioChem" type="journal article" volume="6">
+        <title>Access of the substrate to the active site of yeast oxidosqualene cyclase: an inhibition and site-directed mutagenesis approach.</title>
+        <authorList>
+          <person name="Oliaro-Bosso S."/>
+          <person name="Schulz-Gasch T."/>
+          <person name="Balliano G."/>
+          <person name="Viola F."/>
+        </authorList>
+        <dbReference id="16235265" type="PubMed"/>
+        <dbReference id="10.1002/cbic.200500107" type="DOI"/>
+      </citation>
+      <scope>MUTAGENESIS OF CYS-457 AND GLU-526</scope>
+    </reference>
+    <reference key="14">
+      <citation date="2012" first="12449" last="12454" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="109">
+        <title>N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.</title>
+        <authorList>
+          <person name="Van Damme P."/>
+          <person name="Lasa M."/>
+          <person name="Polevoda B."/>
+          <person name="Gazquez C."/>
+          <person name="Elosegui-Artola A."/>
+          <person name="Kim D.S."/>
+          <person name="De Juan-Pardo E."/>
+          <person name="Demeyer K."/>
+          <person name="Hole K."/>
+          <person name="Larrea E."/>
+          <person name="Timmerman E."/>
+          <person name="Prieto J."/>
+          <person name="Arnesen T."/>
+          <person name="Sherman F."/>
+          <person name="Gevaert K."/>
+          <person name="Aldabe R."/>
+        </authorList>
+        <dbReference id="22814378" type="PubMed"/>
+        <dbReference id="10.1073/pnas.1210303109" type="DOI"/>
+      </citation>
+      <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    </reference>
+    <comment type="function">
+      <text>Catalyzes the cyclization of (S)-2,3 oxidosqualene to lanosterol, a reaction that forms the sterol nucleus.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction>
+        <text>(S)-2,3-epoxysqualene = lanosterol</text>
+        <dbReference id="RHEA:14621" type="Rhea"/>
+        <dbReference id="CHEBI:15441" type="ChEBI"/>
+        <dbReference id="CHEBI:16521" type="ChEBI"/>
+        <dbReference id="5.4.99.7" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="activity regulation">
+      <text evidence="2">ERG27 is required for activity.</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <phDependence>
+        <text evidence="5">Optimum pH is 7.</text>
+      </phDependence>
+      <temperatureDependence>
+        <text evidence="5">Optimum temperature is 35 degrees Celsius.</text>
+      </temperatureDependence>
+    </comment>
+    <comment type="pathway">
+      <text>Terpene metabolism; lanosterol biosynthesis; lanosterol from farnesyl diphosphate: step 3/3.</text>
+    </comment>
+    <comment type="interaction">
+      <interactant intactId="EBI-6572">
+        <id>P38604</id>
+      </interactant>
+      <interactant intactId="EBI-38132">
+        <id>Q12452</id>
+        <label>ERG27</label>
+      </interactant>
+      <organismsDiffer>false</organismsDiffer>
+      <experiments>4</experiments>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location>Lipid droplet</location>
+      </subcellularLocation>
+      <subcellularLocation>
+        <location>Endoplasmic reticulum membrane</location>
+        <topology>Peripheral membrane protein</topology>
+      </subcellularLocation>
+      <text>Predominantly in lipid particles.</text>
+    </comment>
+    <comment type="miscellaneous">
+      <text evidence="3">Present with 2193 molecules/cell in log phase SD medium.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="9">Belongs to the terpene cyclase/mutase family.</text>
+    </comment>
+    <dbReference id="5.4.99.7" type="EC"/>
+    <dbReference id="U04841" type="EMBL">
+      <property type="protein sequence ID" value="AAA16975.1"/>
+      <property type="molecule type" value="Unassigned_DNA"/>
+    </dbReference>
+    <dbReference id="U23488" type="EMBL">
+      <property type="protein sequence ID" value="AAA64377.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="U60996" type="EMBL">
+      <property type="protein sequence ID" value="AAB08472.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="U10556" type="EMBL">
+      <property type="protein sequence ID" value="AAB68891.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="AY693043" type="EMBL">
+      <property type="protein sequence ID" value="AAT93062.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="BK006934" type="EMBL">
+      <property type="protein sequence ID" value="DAA06765.2"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="S46813" type="PIR">
+      <property type="entry name" value="S46813"/>
+    </dbReference>
+    <dbReference id="NP_011939.2" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_001179202.2"/>
+    </dbReference>
+    <dbReference id="P38604" type="SMR"/>
+    <dbReference id="36505" type="BioGRID">
+      <property type="interactions" value="287"/>
+    </dbReference>
+    <dbReference id="DIP-8319N" type="DIP"/>
+    <dbReference id="P38604" type="IntAct">
+      <property type="interactions" value="19"/>
+    </dbReference>
+    <dbReference id="P38604" type="MINT"/>
+    <dbReference id="4932.YHR072W" type="STRING"/>
+    <dbReference id="P38604" type="BindingDB"/>
+    <dbReference id="CHEMBL5355" type="ChEMBL"/>
+    <dbReference id="P38604" type="iPTMnet"/>
+    <dbReference id="P38604" type="MaxQB"/>
+    <dbReference id="P38604" type="PaxDb"/>
+    <dbReference id="P38604" type="PRIDE"/>
+    <dbReference id="YHR072W_mRNA" type="EnsemblFungi">
+      <property type="protein sequence ID" value="YHR072W"/>
+      <property type="gene ID" value="YHR072W"/>
+    </dbReference>
+    <dbReference id="856470" type="GeneID"/>
+    <dbReference id="sce:YHR072W" type="KEGG"/>
+    <dbReference id="S000001114" type="SGD">
+      <property type="gene designation" value="ERG7"/>
+    </dbReference>
+    <dbReference id="FungiDB:YHR072W" type="VEuPathDB"/>
+    <dbReference id="KOG0497" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="ENSGT00390000011570" type="GeneTree"/>
+    <dbReference id="CLU_009074_2_1_1" type="HOGENOM"/>
+    <dbReference id="P38604" type="InParanoid"/>
+    <dbReference id="CWARQTI" type="OMA"/>
+    <dbReference id="MetaCyc:YHR072W-MONOMER" type="BioCyc"/>
+    <dbReference id="5.4.99.7" type="BRENDA">
+      <property type="organism ID" value="984"/>
+    </dbReference>
+    <dbReference id="R-SCE-191273" type="Reactome">
+      <property type="pathway name" value="Cholesterol biosynthesis"/>
+    </dbReference>
+    <dbReference id="P38604" type="SABIO-RK"/>
+    <dbReference id="UPA00767" type="UniPathway">
+      <property type="reaction ID" value="UER00753"/>
+    </dbReference>
+    <dbReference id="PR:P38604" type="PRO"/>
+    <dbReference id="UP000002311" type="Proteomes">
+      <property type="component" value="Chromosome VIII"/>
+    </dbReference>
+    <dbReference id="P38604" type="RNAct">
+      <property type="molecule type" value="protein"/>
+    </dbReference>
+    <dbReference id="GO:0005789" type="GO">
+      <property type="term" value="C:endoplasmic reticulum membrane"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0005811" type="GO">
+      <property type="term" value="C:lipid droplet"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="SGD"/>
+    </dbReference>
+    <dbReference id="GO:0042300" type="GO">
+      <property type="term" value="F:beta-amyrin synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0000250" type="GO">
+      <property type="term" value="F:lanosterol synthase activity"/>
+      <property type="evidence" value="ECO:0000315"/>
+      <property type="project" value="SGD"/>
+    </dbReference>
+    <dbReference id="GO:0006696" type="GO">
+      <property type="term" value="P:ergosterol biosynthetic process"/>
+      <property type="evidence" value="ECO:0000315"/>
+      <property type="project" value="SGD"/>
+    </dbReference>
+    <dbReference id="GO:0016104" type="GO">
+      <property type="term" value="P:triterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="cd02892" type="CDD">
+      <property type="entry name" value="SQCY_1"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR032696" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_C"/>
+    </dbReference>
+    <dbReference id="IPR032697" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_N"/>
+    </dbReference>
+    <dbReference id="IPR018333" type="InterPro">
+      <property type="entry name" value="Squalene_cyclase"/>
+    </dbReference>
+    <dbReference id="IPR002365" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_CS"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF13243" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF13249" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01016" type="SFLD">
+      <property type="entry name" value="Prenyltransferase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="TIGR01787" type="TIGRFAMs">
+      <property type="entry name" value="squalene_cyclas"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PS01074" type="PROSITE">
+      <property type="entry name" value="TERPENE_SYNTHASES"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0007">Acetylation</keyword>
+    <keyword id="KW-0903">Direct protein sequencing</keyword>
+    <keyword id="KW-0256">Endoplasmic reticulum</keyword>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0444">Lipid biosynthesis</keyword>
+    <keyword id="KW-0551">Lipid droplet</keyword>
+    <keyword id="KW-0443">Lipid metabolism</keyword>
+    <keyword id="KW-0472">Membrane</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0677">Repeat</keyword>
+    <keyword id="KW-0752">Steroid biosynthesis</keyword>
+    <feature description="Removed" evidence="6 8" type="initiator methionine">
+      <location>
+        <position position="1"/>
+      </location>
+    </feature>
+    <feature description="Lanosterol synthase" id="PRO_0000072657" type="chain">
+      <location>
+        <begin position="2"/>
+        <end position="731"/>
+      </location>
+    </feature>
+    <feature description="PFTB 1" type="repeat">
+      <location>
+        <begin position="125"/>
+        <end position="167"/>
+      </location>
+    </feature>
+    <feature description="PFTB 2" type="repeat">
+      <location>
+        <begin position="566"/>
+        <end position="603"/>
+      </location>
+    </feature>
+    <feature description="PFTB 3" type="repeat">
+      <location>
+        <begin position="615"/>
+        <end position="661"/>
+      </location>
+    </feature>
+    <feature description="Proton donor" evidence="1" type="active site">
+      <location>
+        <position position="456"/>
+      </location>
+    </feature>
+    <feature description="N-acetylthreonine" evidence="8" type="modified residue">
+      <location>
+        <position position="2"/>
+      </location>
+    </feature>
+    <feature description="In strain: SGL9; loss of activity." evidence="7" type="sequence variant">
+      <location>
+        <begin position="359"/>
+        <end position="731"/>
+      </location>
+    </feature>
+    <feature description="Reduces thermal stability and enzyme activity; when associated with A-526 or C-526. No effect; when associated with D-526 or Q-526." evidence="4" type="mutagenesis site">
+      <original>C</original>
+      <variation>D</variation>
+      <location>
+        <position position="457"/>
+      </location>
+    </feature>
+    <feature description="Reduces thermal stability and enzyme activity; when associated with D-457." evidence="4" type="mutagenesis site">
+      <original>E</original>
+      <variation>A</variation>
+      <variation>C</variation>
+      <location>
+        <position position="526"/>
+      </location>
+    </feature>
+    <feature description="No effect; when associated with D-457." evidence="4" type="mutagenesis site">
+      <original>E</original>
+      <variation>D</variation>
+      <variation>Q</variation>
+      <location>
+        <position position="526"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAA16975." evidence="9" ref="1" type="sequence conflict">
+      <original>H</original>
+      <variation>N</variation>
+      <location>
+        <position position="61"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAA16975 and 4; AAB68891." evidence="9" ref="1 4" type="sequence conflict">
+      <original>N</original>
+      <variation>D</variation>
+      <location>
+        <position position="530"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="P48449" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="12842197" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="14562106" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="16235265" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000269">
+      <source>
+        <dbReference id="1731628" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000269">
+      <source>
+        <dbReference id="8134375" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000269">
+      <source ref="3"/>
+    </evidence>
+    <evidence key="8" type="ECO:0000269">
+      <source ref="7"/>
+    </evidence>
+    <evidence key="9" type="ECO:0000305"/>
+    <sequence checksum="9CE85BE1A7F5F52A" length="731" mass="83460" modified="2011-07-27" version="6">MTEFYSDTIGLPKTDPRLWRLRTDELGRESWEYLTPQQAANDPPSTFTQWLLQDPKFPQPHPERNKHSPDFSAFDACHNGASFFKLLQEPDSGIFPCQYKGPMFMTIGYVAVNYIAGIEIPEHERIELIRYIVNTAHPVDGGWGLHSVDKSTVFGTVLNYVILRLLGLPKDHPVCAKARSTLLRLGGAIGSPHWGKIWLSALNLYKWEGVNPAPPETWLLPYSLPMHPGRWWVHTRGVYIPVSYLSLVKFSCPMTPLLEELRNEIYTKPFDKINFSKNRNTVCGVDLYYPHSTTLNIANSLVVFYEKYLRNRFIYSLSKKKVYDLIKTELQNTDSLCIAPVNQAFCALVTLIEEGVDSEAFQRLQYRFKDALFHGPQGMTIMGTNGVQTWDCAFAIQYFFVAGLAERPEFYNTIVSAYKFLCHAQFDTECVPGSYRDKRKGAWGFSTKTQGYTVADCTAEAIKAIIMVKNSPVFSEVHHMISSERLFEGIDVLLNLQNIGSFEYGSFATYEKIKAPLAMETLNPAEVFGNIMVEYPYVECTDSSVLGLTYFHKYFDYRKEEIRTRIRIAIEFIKKSQLPDGSWYGSWGICFTYAGMFALEALHTVGETYENSSTVRKGCDFLVSKQMKDGGWGESMKSSELHSYVDSEKSLVVQTAWALIALLFAEYPNKEVIDRGIDLLKNRQEESGEWKFESVEGVFNHSCAIEYPSYRFLFPIKALGMYSRAYETHTL</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2018-06-20" dataset="TrEMBL" modified="2020-08-12" version="11">
+    <accession>A0A2R4QKX7</accession>
+    <name>A0A2R4QKX7_9MAGN</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="5">Copaene synthase</fullName>
+      </submittedName>
+    </protein>
+    <organism evidence="5">
+      <name type="scientific">Piper nigrum</name>
+      <dbReference id="13216" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>Magnoliidae</taxon>
+        <taxon>Piperales</taxon>
+        <taxon>Piperaceae</taxon>
+        <taxon>Piper</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="5" key="1">
+      <citation date="2017-05" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <authorList>
+          <person name="Song R."/>
+          <person name="Chenine A.L."/>
+          <person name="Ruprecht R.M."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+      <source>
+        <tissue evidence="5">Fruit</tissue>
+      </source>
+    </reference>
+    <dbReference id="MF104556" type="EMBL">
+      <property type="protein sequence ID" value="AVY53326.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="2" id="KW-0175">Coiled coil</keyword>
+    <keyword evidence="1" id="KW-0479">Metal-binding</keyword>
+    <feature description="Terpene_synth" evidence="3" type="domain">
+      <location>
+        <begin position="33"/>
+        <end position="209"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="4" type="domain">
+      <location>
+        <begin position="240"/>
+        <end position="504"/>
+      </location>
+    </feature>
+    <feature evidence="2" type="coiled-coil region">
+      <location>
+        <begin position="53"/>
+        <end position="73"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="Coils" type="SAM"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000313">
+      <source>
+        <dbReference id="AVY53326.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="48D906F1B3A7A02D" length="561" mass="64520" modified="2018-06-20" version="1">MGFSFVTNAAIAAHMPPSKQEIIRRDAKFHPTIWGDHFIQYLDTPIDPPQKVVERMEELKKQVRAMLRDTNLDISLIDWIQRTGIAYHFEEQIAETLKHVYEASTLTTDSSKYLEHFDLRHIALRFRLSRQQGYHASTDVFKRFMDEGDKFKQSIANDIEGMLSLYEASFMSVKGEAILDEALAFTGKNLEATLPNLTGSLAQQVECALEIPLRRCTDLVKARRSISCYENKNGRNEVVLELAKLDFNLLQAVHQRELALLTSWWNELGASTNLPFTRNRVVELYFWVLEVLSKPEHARAREIMVKSIIMASILDDVYDVYGTLEELQLFTSALERWDLQALEQLPNTIKTAYSIVLRVFKEYEDLLKPHEVYRVGFARKALIPYMNAYFLEAKWFYSHHHPSFEEYMDNALVSCGYPFLFLVSLVGLDEIATKDVFEWAIKRPNIVVAASMICRNRDDIVGHKEEQERGDVPSGVECYTKDHGCTEEEACMALQAMVDDAWKDINCELLHDTSMPKAILMRAVGLARIISILYQYRDGYSDSTHETKAHVTQVLVQPIPL</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

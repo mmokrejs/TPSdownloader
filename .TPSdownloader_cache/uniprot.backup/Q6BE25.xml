@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2011-10-19" modified="2021-04-07" version="49">
+<accession>Q6BE25</accession>
+<name>CAS1_CUCPE</name>
+<protein>
+<recommendedName>
+<fullName>Cycloartenol synthase</fullName>
+<ecNumber>5.4.99.8</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">CPX</name>
+</gene>
+<organism>
+<name type="scientific">Cucurbita pepo</name>
+<name type="common">Vegetable marrow</name>
+<name type="synonym">Summer squash</name>
+<dbReference type="NCBI Taxonomy" id="3663"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>fabids</taxon>
+<taxon>Cucurbitales</taxon>
+<taxon>Cucurbitaceae</taxon>
+<taxon>Cucurbiteae</taxon>
+<taxon>Cucurbita</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2004" name="Tetrahedron" volume="60" first="6995" last="7003">
+<title>Cucurbitadienol synthase, the first committed enzyme for cucurbitacin biosynthesis, is a distinct enzyme from cycloartenol synthase for phytosterol biosynthesis.</title>
+<authorList>
+<person name="Shibuya M."/>
+<person name="Adachi S."/>
+<person name="Ebizuka Y."/>
+</authorList>
+<dbReference type="DOI" id="10.1016/j.tet.2004.04.088"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+</reference>
+<comment type="function">
+<text evidence="2">Oxidosqualene cyclase involved in the biosynthesis of cycloartenol.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(S)-2,3-epoxysqualene = cycloartenol</text>
+<dbReference type="Rhea" id="RHEA:21308"/>
+<dbReference type="ChEBI" id="CHEBI:15441"/>
+<dbReference type="ChEBI" id="CHEBI:17030"/>
+<dbReference type="EC" id="5.4.99.8"/>
+</reaction>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the terpene cyclase/mutase family.</text>
+</comment>
+<dbReference type="EC" id="5.4.99.8"/>
+<dbReference type="EMBL" id="AB116237">
+<property type="protein sequence ID" value="BAD34644.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="Q6BE25"/>
+<dbReference type="GO" id="GO:0005811">
+<property type="term" value="C:lipid droplet"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042300">
+<property type="term" value="F:beta-amyrin synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016871">
+<property type="term" value="F:cycloartenol synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000250">
+<property type="term" value="F:lanosterol synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016104">
+<property type="term" value="P:triterpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="CDD" id="cd02892">
+<property type="entry name" value="SQCY_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032696">
+<property type="entry name" value="SQ_cyclase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032697">
+<property type="entry name" value="SQ_cyclase_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018333">
+<property type="entry name" value="Squalene_cyclase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002365">
+<property type="entry name" value="Terpene_synthase_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13243">
+<property type="entry name" value="SQHop_cyclase_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13249">
+<property type="entry name" value="SQHop_cyclase_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01016">
+<property type="entry name" value="Prenyltransferase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01787">
+<property type="entry name" value="squalene_cyclas"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01074">
+<property type="entry name" value="TERPENE_SYNTHASES"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0413">Isomerase</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<feature type="chain" description="Cycloartenol synthase" id="PRO_0000412985">
+<location>
+<begin position="1"/>
+<end position="766"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 1">
+<location>
+<begin position="155"/>
+<end position="196"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 2">
+<location>
+<begin position="520"/>
+<end position="565"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 3">
+<location>
+<begin position="597"/>
+<end position="637"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 4">
+<location>
+<begin position="646"/>
+<end position="687"/>
+</location>
+</feature>
+<feature type="active site" description="Proton donor" evidence="1">
+<location>
+<position position="491"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P48449"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source ref="1"/>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="766" mass="87364" checksum="C01270A357B60007" modified="2004-09-13" version="1">MWQLKIGADTVPSDPSNAGGWLSTLNNHVGRQVWHFHPELGSPEDLQQIQQARQHFSDHRFEKKHSADLLMRMQFAKENSSFVNLPQVKVKDKEDVTEEAVTRTLRRAINFYSTIQADDGHWPGDYGGPMFLIPGLVITLSITGALNAVLSTEHQREICRYLYNHQNKDGGWGLHIEGPSTMFGSVLNYVTLRLLGEEAEDGQGAVDKARKWILDHGGAAAITSWGKMWLSVLGVYEWAGNNPLPPELWLLPYLLPCHPGRMWCHCRMVYLPMCYLYGKRFVGPITPIIRSLRKELYLVPYHEVDWNKARNQCAKEDLYYPHPLVQDILWATLHHVYEPLFMHWPAKRLREKALQSVMQHIHYEDENTRYICIGPVNKVLNMLCCWAEDPHSEAFKLHIPRIYDYLWIAEDGMKMQGYNGSQLWDTAFAVQAIISTELAEEYETTLRKAHKYIKDSQVLEDCPGDLQSWYRHISKGAWPFSTADHGWPISDCTAEGLKAVLLLSKLPSEIVGKSIDEQQLYNAVNVILSLQNTDGGFATYELTRSYRWLELMNPAETFGDIVIDYPYVECSSAAIQALAAFKKLYPGHRRDEIDNCIAEAADFIESIQATDGSWYGSWGVCFTYGGWFGIRGLVAAGRRYNNCSSLRKACDFLLSKELAAGGWGESYLSCQNKVYTNIKDDRPHIVNTGWAMLSLIDAGQSERDPTPLHRAARVLINSQMEDGDFPQEEIMGVFNKNCMISYSAYRNIFPIWALGEYRSRVLKPLK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

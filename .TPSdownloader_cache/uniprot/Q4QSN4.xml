@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2011-09-21" dataset="Swiss-Prot" modified="2020-12-02" version="54">
+    <accession>Q4QSN4</accession>
+    <name>TPSBS_PSEMZ</name>
+    <protein>
+      <recommendedName>
+        <fullName>(E)-gamma-bisabolene synthase</fullName>
+        <shortName>PmeTPS3</shortName>
+        <ecNumber>4.2.3.59</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="primary">TPS3</name>
+    </gene>
+    <organism>
+      <name type="scientific">Pseudotsuga menziesii</name>
+      <name type="common">Douglas-fir</name>
+      <name type="synonym">Abies menziesii</name>
+      <dbReference id="3357" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Pinopsida</taxon>
+        <taxon>Pinidae</taxon>
+        <taxon>Pinales</taxon>
+        <taxon>Pinaceae</taxon>
+        <taxon>Pseudotsuga</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2005" first="1427" last="1439" name="Phytochemistry" type="journal article" volume="66">
+        <title>Characterization of four terpene synthase cDNAs from methyl jasmonate-induced Douglas-fir, Pseudotsuga menziesii.</title>
+        <authorList>
+          <person name="Huber D.P."/>
+          <person name="Philippe R.N."/>
+          <person name="Godard K.A."/>
+          <person name="Sturrock R.N."/>
+          <person name="Bohlmann J."/>
+        </authorList>
+        <dbReference id="15921711" type="PubMed"/>
+        <dbReference id="10.1016/j.phytochem.2005.04.030" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>INDUCTION BY METHYL JASMONATE</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Involved in defensive oleoresin formation in conifers in response to insect attack or other injury. Involved in sesquiterpene (C15) olefins biosynthesis. Produces mainly (E)-gamma-bisabolene when used with farnesyl diphosphate as substrate. No activity with geranyl diphosphate or geranylgeranyl diphosphate.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = (E)-gamma-bisabolene + diphosphate</text>
+        <dbReference id="RHEA:28298" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:49239" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.59" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <cofactor evidence="1">
+        <name>Mn(2+)</name>
+        <dbReference id="CHEBI:29035" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+    </comment>
+    <comment type="pathway">
+      <text>Terpene metabolism; oleoresin biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="3">Cytoplasm</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="induction">
+      <text evidence="2">Up-regulated by methyl jasmonate.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene synthase family. Tpsd subfamily.</text>
+    </comment>
+    <dbReference id="4.2.3.59" type="EC"/>
+    <dbReference id="AY906868" type="EMBL">
+      <property type="protein sequence ID" value="AAX07266.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="Q4QSN4" type="SMR"/>
+    <dbReference id="Q4QSN4" type="PRIDE"/>
+    <dbReference id="ag:AAX07266" type="KEGG"/>
+    <dbReference id="MetaCyc:MONOMER-16024" type="BioCyc"/>
+    <dbReference id="4.2.3.59" type="BRENDA">
+      <property type="organism ID" value="5214"/>
+    </dbReference>
+    <dbReference id="UPA00924" type="UniPathway"/>
+    <dbReference id="GO:0005737" type="GO">
+      <property type="term" value="C:cytoplasm"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0963">Cytoplasm</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0464">Manganese</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="(E)-gamma-bisabolene synthase" id="PRO_0000412238" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="815"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="561"/>
+        <end position="565"/>
+      </location>
+    </feature>
+    <feature description="Poly-Asp" type="compositionally biased region">
+      <location>
+        <begin position="765"/>
+        <end position="768"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="561"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="561"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="565"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="565"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="709"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="717"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="15921711" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <sequence checksum="A15F575A326C513E" length="815" mass="93717" modified="2005-07-19" version="1">MAASTLPSGLSTNDLIRRTANPHPNVWGYDLLCSLKSPYSRDSSYKERADTLINEIKAMLGAAFGDGKEMITPSAYDTAWVARIPSIDGSSGSARPQFPQTVDWILKNQLKDGSWGTESHFLLSEPLLATISCVLALFKWQVGDLQVERGIEFLKSSLEKIKNESDQDSLVTDFEIIFPSMLREAQSLHLGLPYDLPYIQLLQTKRQERLANLSREKIHGGILQLSSLEGIEDMVEWERLMDLQSLDGSFLSSPASTAFVFIHTGDLKCLAFLNSVLAKFGAFVPCLYHVDLLERLLIVDNIERLGIDRHFEKEINEALDYVYRYWSNERGIGWGRMNATADLETTALGFRLLRLHRYHVSPVVFKKFKDADGEFLSSIGQFNKDVASMLNLYRACELAFPGENILDEAKGFTAKYLREALEKTETFSSWNIKRNLSQEIKYALKTSWHASIPRVEAKRYCQVYRPDYARLDKSVYKLHHVNNEKILELAKLDFNIIQSILQEEMKNVTSWFRDSGLPLFSFARQRPLEFYFLITAGTYEPRYAKCRLLFTKVACVETVLDDMYDTYGTLDELKLFTQAVRRWDPSLTENLPDYMKRCYKIFYDIVHEAAWEAEKEQGRELVSFLRKAWEDFVLSYHEEAEWLSAEYVPGFDEYIKNGITSIGQRVLLLSGLLVMDGQLLSQKALEKIDYPERSRVLMEQICLISRLADDTQSYKAEKARGELASGIECYMKDHPECTEEEALNHIYGIMEVTAKELTKEYLKVDDDDVPFACKKMLFEETRVTMVIFKDGDRLSNSKLEMKDHFKECLIEPLPL</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

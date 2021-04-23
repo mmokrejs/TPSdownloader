@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2016-02-17" modified="2020-12-02" version="21">
+<accession>M1V9Q0</accession>
+<name>DTCYA_STRSQ</name>
+<protein>
+<recommendedName>
+<fullName evidence="3">Diterpene cyclase DtcycA</fullName>
+</recommendedName>
+<alternativeName>
+<fullName evidence="4">Cembrene C synthase</fullName>
+<ecNumber evidence="2">4.2.3.148</ecNumber>
+</alternativeName>
+<alternativeName>
+<fullName evidence="4">Nephthenol synthase</fullName>
+<ecNumber evidence="2">4.2.3.149</ecNumber>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="3">dtcycA</name>
+</gene>
+<organism>
+<name type="scientific">Streptomyces sp.</name>
+<dbReference type="NCBI Taxonomy" id="1931"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Streptomycetales</taxon>
+<taxon>Streptomycetaceae</taxon>
+<taxon>Streptomyces</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2013" name="ChemBioChem" volume="14" first="316" last="321">
+<title>Identification and characterization of bacterial diterpene cyclases that synthesize the cembrane skeleton.</title>
+<authorList>
+<person name="Meguro A."/>
+<person name="Tomita T."/>
+<person name="Nishiyama M."/>
+<person name="Kuzuyama T."/>
+</authorList>
+<dbReference type="PubMed" id="23386483"/>
+<dbReference type="DOI" id="10.1002/cbic.201200651"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>COFACTOR</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>SUBUNIT</scope>
+<source>
+<strain>SANK 60404</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2">Diterpene cyclases that can form multiple diterpene products.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E,10E)-geranylgeranyl diphosphate = cembrene C + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:42988"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:58756"/>
+<dbReference type="ChEBI" id="CHEBI:82798"/>
+<dbReference type="EC" id="4.2.3.148"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E,10E)-geranylgeranyl diphosphate + H2O = (R)-nephthenol + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:42992"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:58756"/>
+<dbReference type="ChEBI" id="CHEBI:82799"/>
+<dbReference type="EC" id="4.2.3.149"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="2">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2">93.7 uM for geranylgeranyl diphosphate</KM>
+<text evidence="2">kcat is 2.8 min(-1).</text>
+</kinetics>
+</comment>
+<comment type="subunit">
+<text evidence="2">Homodimer.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.148" evidence="2"/>
+<dbReference type="EC" id="4.2.3.149" evidence="2"/>
+<dbReference type="EMBL" id="AB738084">
+<property type="protein sequence ID" value="BAM78697.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="SMR" id="M1V9Q0"/>
+<dbReference type="KEGG" id="ag:BAM78697"/>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034686">
+<property type="entry name" value="Terpene_cyclase-like_2"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01020">
+<property type="entry name" value="Terpene_Cyclase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<feature type="chain" description="Diterpene cyclase DtcycA" id="PRO_0000435481">
+<location>
+<begin position="1"/>
+<end position="371"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="234"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="238"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="242"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q9UR08"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="23386483"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="23386483"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="371" mass="41747" checksum="33420AE28AA90E23" modified="2013-05-01" version="1">MTDPAVTPLAFSIPQLYCPFPTAIHPEVDTLTRAGMDFMTHHGFCNTEADRLVVANIDAGAIVARWYPNPDFPVDRLQMVTDFLYLYFLIDDLRFEVINSDTGLAGPIALFAQHLDLWEYPQAHRREELDLFHQAIHDLASRMAELTTPTKAARMRRSINGWFLALLREIALFNDDHAVMAEEYLPIRVVTVASRLMIDVNGFICPAEVPGDEWYSLKVQAAAEAAMSVCLYDNELYSAGKEQWLKSRATAHDRRPRNLVALIQAQTGGSTEHALQEVAEYRNRTVCLYLNLRSQLEKTASPALLAYLSVLDGVISGNLDAHATSSRYHNPDGHHPHAIAFTPLRTTDECSARAHTPIAPPIAWWWEQLDQ</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

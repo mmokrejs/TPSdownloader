@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2017-02-15" dataset="TrEMBL" modified="2019-12-11" version="4">
+    <accession>A0A1J0CQ86</accession>
+    <name>A0A1J0CQ86_9BRYO</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="1">Terpene synthase 3</fullName>
+      </submittedName>
+    </protein>
+    <organism evidence="1">
+      <name type="scientific">Pseudotaxiphyllum elegans</name>
+      <dbReference id="186706" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Bryophyta</taxon>
+        <taxon>Bryophytina</taxon>
+        <taxon>Bryopsida</taxon>
+        <taxon>Bryidae</taxon>
+        <taxon>Hypnanae</taxon>
+        <taxon>Hypnales</taxon>
+        <taxon>Plagiotheciaceae</taxon>
+        <taxon>Pseudotaxiphyllum</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="1" key="1">
+      <citation date="2016" first="12328" last="12333" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="113">
+        <title>Microbial-type terpene synthase genes occur widely in nonseed land plants, but not in seed plants.</title>
+        <authorList>
+          <person name="Jia Q."/>
+          <person name="Li G."/>
+          <person name="Kollner T.G."/>
+          <person name="Fu J."/>
+          <person name="Chen X."/>
+          <person name="Xiong W."/>
+          <person name="Crandall-Stotler B.J."/>
+          <person name="Bowman J.L."/>
+          <person name="Weston D.J."/>
+          <person name="Zhang Y."/>
+          <person name="Chen L."/>
+          <person name="Xie Y."/>
+          <person name="Li F.W."/>
+          <person name="Rothfels C.J."/>
+          <person name="Larsson A."/>
+          <person name="Graham S.W."/>
+          <person name="Stevenson D.W."/>
+          <person name="Wong G.K."/>
+          <person name="Gershenzon J."/>
+          <person name="Chen F."/>
+        </authorList>
+        <dbReference id="27791023" type="PubMed"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <dbReference id="KX230838" type="EMBL">
+      <property type="protein sequence ID" value="APB88776.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <evidence key="1" type="ECO:0000313">
+      <source>
+        <dbReference id="APB88776.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="00BA2136A2534DE4" length="458" mass="51408" modified="2017-02-15" version="1">MMISTQSISVCSPRLPQPGICTNSPVALSPLRRQASLTWSSCFPKVGRGCSTLTAIKQASPFSSSAEDASADVKVRATNTGGRHSTGTQTVELLEPISPPKLASTIDDQLPTLLAMIIDGFPPFQMCKYVHEAENRLHQYVERYQNVKYLDAYYRAGLSAAAYGHPGTIDVDRLVGIGMNYGLQFLVDDLFFDTPSEFLQEQYGISRDARESPQKIREYIDHLDAIFGQQVQPSNPAPLIETIMWEAGQYTLGLSNPEWFEVYVADLVEHHRSGSASEVDILQGRNLYFQDLESYADMRGANVGGKFIQMMVEFGNDTYVPSVMRASPYFEKLTAVTSIHLGLVNDVFSYHKESALEQNPRNLITLLMEWEGKPFVETVYMAIDVVNTYARTIVDLEAEAWNSTLRNHLHEIIALIVGNVYFSIMDKRYRHPDSIFPELRDMNQSWKILPDAEGHVGL</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2020-06-17" modified="2020-12-02" version="17">
+<accession>A0A1L6Z3A0</accession>
+<name>TPS8_PSEAD</name>
+<protein>
+<recommendedName>
+<fullName evidence="4">Pseudolaratriene synthase, chloroplastic</fullName>
+<ecNumber evidence="3">4.2.3.180</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="4">Terpene synthase 8</fullName>
+<shortName evidence="4">PxaTPS8</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="4">TPS8</name>
+</gene>
+<organism>
+<name type="scientific">Pseudolarix amabilis</name>
+<name type="common">Golden larch</name>
+<name type="synonym">Pseudolarix kaempferi</name>
+<dbReference type="NCBI Taxonomy" id="3355"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Pinopsida</taxon>
+<taxon>Pinidae</taxon>
+<taxon>Pinales</taxon>
+<taxon>Pinaceae</taxon>
+<taxon>Pseudolarix</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2017" name="Proc. Natl. Acad. Sci. U.S.A." volume="114" first="974" last="979">
+<title>Biosynthesis of the microtubule-destabilizing diterpene pseudolaric acid B from golden larch involves an unusual diterpene synthase.</title>
+<authorList>
+<person name="Mafu S."/>
+<person name="Karunanithi P.S."/>
+<person name="Palazzo T.A."/>
+<person name="Harrod B.L."/>
+<person name="Rodriguez S.M."/>
+<person name="Mollhoff I.N."/>
+<person name="O'Brien T.E."/>
+<person name="Tong S."/>
+<person name="Fiehn O."/>
+<person name="Tantillo D.J."/>
+<person name="Bohlmann J."/>
+<person name="Zerbe P."/>
+</authorList>
+<dbReference type="PubMed" id="28096378"/>
+<dbReference type="DOI" id="10.1073/pnas.1612901114"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>COFACTOR</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>MUTAGENESIS OF ARG-558; TYR-564; PHE-584; ALA-591; HIS-670; SER-696; GLY-697; ALA-701; GLY-735 AND ALA-743</scope>
+</reference>
+<comment type="function">
+<text evidence="3 6">Converts geranylgeranyl diphosphate to an new 5,7-fused bicyclic diterpene, named pseudolaratriene (PubMed:28096378). Catalyzes the first committed step in pseudolaric acid B (PAB) biosynthesis (PubMed:28096378). PAB exhibits antiproliferative activity by inhibiting microtubule polymerization, and has demonstrated antitumor properties against several cancer types (Probable).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>(2E,6E,10E)-geranylgeranyl diphosphate = diphosphate + pseudolaratriene</text>
+<dbReference type="Rhea" id="RHEA:54116"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:58756"/>
+<dbReference type="ChEBI" id="CHEBI:138050"/>
+<dbReference type="EC" id="4.2.3.180"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="3">
+<dbReference type="Rhea" id="RHEA:54117"/>
+</physiologicalReaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="6">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="pathway" evidence="5">
+<text>Terpene metabolism.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="2">Plastid</location>
+<location evidence="2">Chloroplast</location>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="3">Expressed in young and mature roots (PubMed:28096378). Expressed at low levels in barks (PubMed:28096378).</text>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.180" evidence="3"/>
+<dbReference type="EMBL" id="KU685114">
+<property type="protein sequence ID" value="APT40486.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="A0A1L6Z3A0"/>
+<dbReference type="KEGG" id="ag:APT40486"/>
+<dbReference type="GO" id="GO:0009507">
+<property type="term" value="C:chloroplast"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0150">Chloroplast</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0934">Plastid</keyword>
+<keyword id="KW-0809">Transit peptide</keyword>
+<feature type="transit peptide" description="Chloroplast" evidence="2">
+<location>
+<begin position="1"/>
+<end position="58"/>
+</location>
+</feature>
+<feature type="chain" description="Pseudolaratriene synthase, chloroplastic" id="PRO_0000450341">
+<location>
+<begin position="59"/>
+<end position="846"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif" evidence="5">
+<location>
+<begin position="595"/>
+<end position="599"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="595"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="595"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="599"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="599"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="747"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolishes catalytic activity." evidence="3">
+<original>R</original>
+<variation>A</variation>
+<location>
+<position position="558"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No effect on catalytic activity." evidence="3">
+<original>Y</original>
+<variation>F</variation>
+<location>
+<position position="564"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Slightly reduces catalytic activity." evidence="3">
+<original>Y</original>
+<variation>H</variation>
+<location>
+<position position="564"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolishes catalytic activity." evidence="3">
+<original>Y</original>
+<variation>I</variation>
+<variation>T</variation>
+<variation>V</variation>
+<location>
+<position position="564"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Almost abolishes catalytic activity." evidence="3">
+<original>Y</original>
+<variation>W</variation>
+<location>
+<position position="564"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Slightly reduces catalytic activity.">
+<original>F</original>
+<variation>Y</variation>
+<location>
+<position position="584"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolishes catalytic activity." evidence="3">
+<original>A</original>
+<variation>Q</variation>
+<location>
+<position position="591"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Slightly reduces catalytic activity." evidence="3">
+<original>H</original>
+<variation>A</variation>
+<variation>W</variation>
+<variation>Y</variation>
+<location>
+<position position="670"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Slightly reduces catalytic activity." evidence="3">
+<original>S</original>
+<variation>I</variation>
+<variation>V</variation>
+<location>
+<position position="696"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Strongly reduces catalytic activity." evidence="3">
+<original>G</original>
+<variation>S</variation>
+<location>
+<position position="697"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Reduces catalytic activity 2-fold." evidence="3">
+<original>A</original>
+<variation>C</variation>
+<location>
+<position position="701"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolishes catalytic activity." evidence="3">
+<original>A</original>
+<variation>L</variation>
+<location>
+<position position="701"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolishes catalytic activity." evidence="3">
+<original>G</original>
+<variation>D</variation>
+<variation>N</variation>
+<variation>W</variation>
+<location>
+<position position="735"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Slightly reduces catalytic activity." evidence="3">
+<original>G</original>
+<variation>S</variation>
+<location>
+<position position="735"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Strongly reduces catalytic activity." evidence="3">
+<original>A</original>
+<variation>T</variation>
+<location>
+<position position="743"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="O81086"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="28096378"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="28096378"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<evidence key="6" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="28096378"/>
+</source>
+</evidence>
+<sequence length="846" mass="96588" checksum="3F010A445914E071" modified="2017-03-15" version="1" precursor="true">MSRFTSATHGLNLSIKMPISVSQVPSIRSNTSKYELQKLRSTGRSVLQTRRQLAIINMTKRSEADDNDGVERRKGVFHPNLWDDGFIQSLSTVYHEQASYRERAERLIGEVKAVFDSISMGDGDQFISPSAYDTAWVARVPAIDGSSRPQFPQAIDWILLNQQQDGSWGSQSHLSLTHRLTDTLACVIALASWKIESVQIDEGLDFITRGVEKLQSESVPAEFEIIFAELLNQAKSLQLSLPYEHSCLQSLWRKQEPILANGLMDSVAKRSLSSLEEMQDHRMNTDSDGTMHVESFLSSPAVAARVLMRTGNPICLAYLNNVLNKFGDYVPGMYPVDLFQRLWMVDNVERLGIDRHFKKEIQVTLDYVYSYWNGKGIGCGRDSLSPDLNSTSLGFRTLRLHGYNVSADVLEHFKDRDGKFVCSSNPTVGEIRSVLNLYRASLLAFPGEKVMEEAETFARRYLEEIVQKIPPSKFSREIEYVLEFGWQSTVPRWEARSYIDFHGLDTYSPWTIYEMASEKFLELAKLEFNIFNSLQHTELQYLSRWWNDSGMSQMRFTRHRNVEYYTMASCIAMEPSQSAFRIGFTKLCGIATCIDDIYDTYGTIDELKLFREAVKRWDPSAIESLPEYMKSVYMVLYELVNEMAQDTERTQGRDTLDYARNAWEAIIDAHLVEAEWIASGHIPTFEEYLENSKVTSGLHIAILPILTLDVPLPDQLPLQEIDTLSRFHHLASTIGRLSGDMNAYKIDLAHGEESSCISCYMKDNPGTTEGDAHNYANVTISYLMKELNLELMGQHNRVSFLRTSKKPAFDIYRASNYMYKYRDGYTIADKETKNLVMRTLVQAVSL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

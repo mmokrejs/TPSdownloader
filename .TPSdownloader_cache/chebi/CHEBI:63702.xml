@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:63702</ID>
+<NAME>avermitilol</NAME>
+<DEFINITION>A carbotricyclic compound that consists of decahydro-1H-1H-cyclopropa[a]naphthalene bearing four methyl substituents at position 1, 1, 3a and 7 as well as a hydroxy substituent at position 4 (the (1aR,3aS,4S,7R,7aS,7bR)-diastereomer).</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>avermitilol</SYNONYM>
+<IUPAC_NAME>(1aR,3aS,4S,7R,7aS,7bR)-1,1,3a,7-tetramethyldecahydro-1H-cyclopropa[a]naphthalen-4-ol</IUPAC_NAME>
+<FORMULA>C15H26O</FORMULA>
+<MASS>222.36630</MASS>
+<MONOISOTOPIC_MASS>222.19837</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@@]12[C@H](C)CC[C@H](O)[C@@]1(C)CC[C@@H]1[C@H]2C1(C)C</SMILES>
+<INCHI>InChI=1S/C15H26O/c1-9-5-6-11(16)15(4)8-7-10-13(12(9)15)14(10,2)3/h9-13,16H,5-8H2,1-4H3/t9-,10-,11+,12+,13-,15-/m1/s1</INCHI>
+<INCHIKEY>BLGPPSRDEKNCLT-CDWXYHGHSA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>20690614</REAXYS_REGISTRY_NUMBER>
+<PUBMED_CITATION>20536237</PUBMED_CITATION>
+<PUBMED_CITATION>21322615</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2011-01-11" dataset="Swiss-Prot" modified="2020-12-02" version="69">
+    <accession>A4FG19</accession>
+    <name>MIBS_SACEN</name>
+    <protein>
+      <recommendedName>
+        <fullName>2-methylisoborneol synthase</fullName>
+        <shortName>2-MIB synthase</shortName>
+        <ecNumber>4.2.3.118</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ordered locus">SACE_3722</name>
+    </gene>
+    <organism>
+      <name type="scientific">Saccharopolyspora erythraea (strain ATCC 11635 / DSM 40517 / JCM 4748 / NBRC 13426 / NCIMB 8594 / NRRL 2338)</name>
+      <dbReference id="405948" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Bacteria</taxon>
+        <taxon>Actinobacteria</taxon>
+        <taxon>Pseudonocardiales</taxon>
+        <taxon>Pseudonocardiaceae</taxon>
+        <taxon>Saccharopolyspora</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2007" first="447" last="453" name="Nat. Biotechnol." type="journal article" volume="25">
+        <title>Complete genome sequence of the erythromycin-producing bacterium Saccharopolyspora erythraea NRRL23338.</title>
+        <authorList>
+          <person name="Oliynyk M."/>
+          <person name="Samborskyy M."/>
+          <person name="Lester J.B."/>
+          <person name="Mironenko T."/>
+          <person name="Scott N."/>
+          <person name="Dickens S."/>
+          <person name="Haydock S.F."/>
+          <person name="Leadlay P.F."/>
+        </authorList>
+        <dbReference id="17369815" type="PubMed"/>
+        <dbReference id="10.1038/nbt1297" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC 11635 / DSM 40517 / JCM 4748 / NBRC 13426 / NCIMB 8594 / NRRL 2338</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2008" first="7422" last="7427" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="105">
+        <title>Identification and functional analysis of genes controlling biosynthesis of 2-methylisoborneol.</title>
+        <authorList>
+          <person name="Komatsu M."/>
+          <person name="Tsuda M."/>
+          <person name="Omura S."/>
+          <person name="Oikawa H."/>
+          <person name="Ikeda H."/>
+        </authorList>
+        <dbReference id="18492804" type="PubMed"/>
+        <dbReference id="10.1073/pnas.0802312105" type="DOI"/>
+      </citation>
+      <scope>FUNCTION IN 2-METHYLISOBORNEOL BIOSYNTHESIS</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="3">Catalyzes the cyclization of 2-methylgeranyl diphosphate (2-MeGPP) to 2-methylisoborneol (2-MIB), which likely involves the intermediacy of 2-methyllinalyl diphosphate.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction>
+        <text>(E)-2-methylgeranyl diphosphate + H2O = 2-methylisoborneol + diphosphate</text>
+        <dbReference id="RHEA:32571" type="Rhea"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:61984" type="ChEBI"/>
+        <dbReference id="CHEBI:61987" type="ChEBI"/>
+        <dbReference id="4.2.3.118" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+    </comment>
+    <comment type="miscellaneous">
+      <text>2-MIB is a volatile organic compound that has an unusually low odor threshold. Together with geosmin, methylisoborneol is responsible for the characteristic smell of moist soil as well as unpleasant taste and odor episodes associated with public water supplies and contamination of various foodstuffs, including fish, wine, and beer.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="2">Belongs to the terpene synthase family. 2-methylisoborneol synthase subfamily.</text>
+    </comment>
+    <dbReference id="4.2.3.118" type="EC"/>
+    <dbReference id="AM420293" type="EMBL">
+      <property type="protein sequence ID" value="CAM02994.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="WP_011874125.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NZ_PDBV01000001.1"/>
+    </dbReference>
+    <dbReference id="A4FG19" type="SMR"/>
+    <dbReference id="405948.SACE_3722" type="STRING"/>
+    <dbReference id="CAM02994" type="EnsemblBacteria">
+      <property type="protein sequence ID" value="CAM02994"/>
+      <property type="gene ID" value="SACE_3722"/>
+    </dbReference>
+    <dbReference id="sen:SACE_3722" type="KEGG"/>
+    <dbReference id="COG3170" type="eggNOG">
+      <property type="taxonomic scope" value="Bacteria"/>
+    </dbReference>
+    <dbReference id="CLU_047127_0_0_11" type="HOGENOM"/>
+    <dbReference id="VPEVWEY" type="OMA"/>
+    <dbReference id="1869158at2" type="OrthoDB"/>
+    <dbReference id="SERY405948:SACE_RS18040-MONOMER" type="BioCyc"/>
+    <dbReference id="UP000006728" type="Proteomes">
+      <property type="component" value="Chromosome"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000250"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0042214" type="GO">
+      <property type="term" value="P:terpene metabolic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034686" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_2"/>
+    </dbReference>
+    <dbReference id="SFLDG01020" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="2-methylisoborneol synthase" id="PRO_0000403383" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="354"/>
+      </location>
+    </feature>
+    <feature description="Magnesium" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="113"/>
+      </location>
+    </feature>
+    <feature description="Magnesium" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="114"/>
+      </location>
+    </feature>
+    <feature description="Magnesium" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="118"/>
+      </location>
+    </feature>
+    <feature description="Magnesium" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="264"/>
+      </location>
+    </feature>
+    <feature description="Magnesium" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="268"/>
+      </location>
+    </feature>
+    <feature description="Magnesium" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="272"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000305"/>
+    <evidence key="3" type="ECO:0000305">
+      <source>
+        <dbReference id="18492804" type="PubMed"/>
+      </source>
+    </evidence>
+    <sequence checksum="27D53B700D9AFCAC" length="354" mass="39136" modified="2007-04-17" version="1">MIELIGHETPVPSQQQHTGGVRGTSACTPPGVGERTTVLYCPPPPPERPEVAAEINRRVVVWMQGLGLGGEDNVAGVYKHDPGRGITLCHPGSQDVERMTAAGKMIVAETAVDDYFCETNSRRDANDQTIGPNLSLAQSAIDAPRLTPDLQALWNKCRDDHPVLRAQHEAFGDLERISSPAQAQRVRHDIAQLYLGYNAENGWRLLNRLPPVWQYLANRQMNSFRPCLNLTDALDGYELAPQLYAHPLVQDCTARATLIATLYNDLASCEREIREHGLPFNLPAVIAAEERIALDEAFVRACEIHNELIQALEEATGHAASALADPALSRYLTGLWSWLAGSRHWHFTTARHRA</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

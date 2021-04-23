@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:10440</ID>
+<NAME>(-)-beta-santalene</NAME>
+<DEFINITION>A sesquiterpene and carbobicyclic compound that is bicyclo[2.2.1]heptane in which the hydrogens at position 3 are substituted by a methylidene group, while the 2-exo- and 2-endo- hydrogens are subsitituted by 2-methylpent-2-en-5-yl and methyl groups, respectively (the 1S,2R,4R enantiomer).</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>beta-Santalene</SYNONYM>
+<SYNONYM>(1S-exo)-2-methyl-3-methylene-2-(4-methyl-3-pentenyl)bicyclo[2.2.1]heptane</SYNONYM>
+<SYNONYM>(-)-beta-santalene</SYNONYM>
+<IUPAC_NAME>(1S,2R,4R)-2-methyl-3-methylidene-2-(4-methylpent-3-en-1-yl)bicyclo[2.2.1]heptane</IUPAC_NAME>
+<FORMULA>C15H24</FORMULA>
+<MASS>204.35110</MASS>
+<MONOISOTOPIC_MASS>204.18780</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>CC(C)=CCC[C@]1(C)[C@H]2CC[C@H](C2)C1=C</SMILES>
+<INCHI>InChI=1S/C15H24/c1-11(2)6-5-9-15(4)12(3)13-7-8-14(15)10-13/h6,13-14H,3,5,7-10H2,1-2,4H3/t13-,14+,15+/m1/s1</INCHI>
+<INCHIKEY>PGBNIHXXFQBCPU-ILXRZTDVSA-N</INCHIKEY>
+<CAS_REGISTRY_NUMBER>511-59-1</CAS_REGISTRY_NUMBER>
+<REAXYS_REGISTRY_NUMBER>3126764</REAXYS_REGISTRY_NUMBER>
+<CHEMIDPLUS>511-59-1</CHEMIDPLUS>
+<KEGG_COMPOUND_ACCESSION>C09718</KEGG_COMPOUND_ACCESSION>
+<KNAPSACK_ACCESSION>C00003181</KNAPSACK_ACCESSION>
+<METACYC_ACCESSION>CPD-11378</METACYC_ACCESSION>
+<PUBMED_CITATION>4796661</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2016-11-02" dataset="Swiss-Prot" modified="2020-12-02" version="59">
+    <accession>B6H063</accession>
+    <name>PRX2_PENRW</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="7">Aristolochene synthase prx2</fullName>
+        <shortName evidence="7">AS</shortName>
+        <ecNumber evidence="9">4.2.3.9</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="7">PR-toxin biosynthesis protein 2</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="7">Sesquiterpene cyclase prx2</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="7" type="primary">pxr2</name>
+      <name type="ORF">Pc12g06310</name>
+    </gene>
+    <organism>
+      <name type="scientific">Penicillium rubens (strain ATCC 28089 / DSM 1075 / NRRL 1951 / Wisconsin 54-1255)</name>
+      <name type="synonym">Penicillium chrysogenum</name>
+      <dbReference id="500485" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Ascomycota</taxon>
+        <taxon>Pezizomycotina</taxon>
+        <taxon>Eurotiomycetes</taxon>
+        <taxon>Eurotiomycetidae</taxon>
+        <taxon>Eurotiales</taxon>
+        <taxon>Aspergillaceae</taxon>
+        <taxon>Penicillium</taxon>
+        <taxon>Penicillium chrysogenum species complex</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2008" first="1161" last="1168" name="Nat. Biotechnol." type="journal article" volume="26">
+        <title>Genome sequencing and analysis of the filamentous fungus Penicillium chrysogenum.</title>
+        <authorList>
+          <person name="van den Berg M.A."/>
+          <person name="Albang R."/>
+          <person name="Albermann K."/>
+          <person name="Badger J.H."/>
+          <person name="Daran J.-M."/>
+          <person name="Driessen A.J.M."/>
+          <person name="Garcia-Estrada C."/>
+          <person name="Fedorova N.D."/>
+          <person name="Harris D.M."/>
+          <person name="Heijne W.H.M."/>
+          <person name="Joardar V.S."/>
+          <person name="Kiel J.A.K.W."/>
+          <person name="Kovalchuk A."/>
+          <person name="Martin J.F."/>
+          <person name="Nierman W.C."/>
+          <person name="Nijland J.G."/>
+          <person name="Pronk J.T."/>
+          <person name="Roubos J.A."/>
+          <person name="van der Klei I.J."/>
+          <person name="van Peij N.N.M.E."/>
+          <person name="Veenhuis M."/>
+          <person name="von Doehren H."/>
+          <person name="Wagner C."/>
+          <person name="Wortman J.R."/>
+          <person name="Bovenberg R.A.L."/>
+        </authorList>
+        <dbReference id="18820685" type="PubMed"/>
+        <dbReference id="10.1038/nbt.1498" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC 28089 / DSM 1075 / NRRL 1951 / Wisconsin 54-1255</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2014" first="11" last="24" name="Fungal Genet. Biol." type="journal article" volume="62">
+        <title>Molecular characterization of the PR-toxin gene cluster in Penicillium roqueforti and Penicillium chrysogenum: cross talk of secondary metabolite pathways.</title>
+        <authorList>
+          <person name="Hidalgo P.I."/>
+          <person name="Ullan R.V."/>
+          <person name="Albillos S.M."/>
+          <person name="Montero O."/>
+          <person name="Fernandez-Bodega M.A."/>
+          <person name="Garcia-Estrada C."/>
+          <person name="Fernandez-Aguado M."/>
+          <person name="Martin J.F."/>
+        </authorList>
+        <dbReference id="24239699" type="PubMed"/>
+        <dbReference id="10.1016/j.fgb.2013.10.009" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>INDUCTION</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="3 4 5 6">Aristolochene synthase; part of the gene cluster that mediates the biosynthesis of PR-toxin, a bicyclic sesquiterpene belonging to the eremophilane class and acting as a mycotoxin (PubMed:24239699). The first step of the pathway is catalyzed by the aristolochene synthase which performs the cyclization of trans,trans-farnesyl diphosphate (FPP) to the bicyclic sesquiterpene aristolochene (PubMed:24239699). Following the formation of aristolochene, the non-oxygenated aristolochene is converted to the trioxygenated intermediate eremofortin B, via 7-epi-neopetasone (PubMed:24239699). This conversion appears to involve three enzymes, a hydroxysterol oxidase-like enzyme, the quinone-oxidase prx3 that forms the quinone-type-structure in the bicyclic nucleus of aristolochene with the C8-oxo group and the C-3 hydroxyl group, and the P450 monooxygenase prx9 that introduces the epoxide at the double bond between carbons 1 and 2 (PubMed:24239699) (By similarity). No monoxy or dioxy-intermediates have been reported to be released to the broth, so these three early oxidative reactions may be coupled together (PubMed:24239699). Eremofortin B is further oxidized by another P450 monooxygenase, that introduces a second epoxide between carbons 7 and 11 prior to acetylation to eremofortin A by the acetyltransferase prx11 (By similarity). The second epoxidation may be performed by a second P450 monooxygenase (PubMed:24239699). After the acetylation step, the conversion of eremofortin A to eremofortin C and then to PR-toxin requires only two enzymes (PubMed:24239699). First the conversion of eremofortin A to eremofortin C proceeds by oxidation of the side chain of the molecule at C-12 and is catalyzed by the short-chain oxidoreductase prx1 (PubMed:24239699). The cytochrome P450 monooxygenase prx8 plays also a role in this step (By similarity). The primary alcohol formed at C-12 is finally oxidized by the short-chain alcohol dehydrogenase prx4 that forms PR-toxin (PubMed:24239699).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="1">
+        <text>(2E,6E)-farnesyl diphosphate = (+)-aristolochene + diphosphate</text>
+        <dbReference id="RHEA:19825" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:43445" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.9" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="2">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="2">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment evidence="1" type="pathway">
+      <text>Sesquiterpene biosynthesis; aristolochene biosynthesis; aristolochene from farnesyl diphosphate: step 1/1.</text>
+    </comment>
+    <comment type="subunit">
+      <text evidence="2">Homodimer.</text>
+    </comment>
+    <comment type="induction">
+      <text evidence="6">Expression and the subsequent production of PR-toxin take place under static culture conditions (oxygen limited), whereas no expression of the PR-toxin genes occurs under the strongly aerated conditions required for optimal penicillin production (PubMed:24239699). There is a negative control of the transcription of the PR-toxin genes by the penicillin biosynthesis gene product(s), or by a regulatory peptide encoded by a small ORF inside the penicillin gene cluster (PubMed:24239699).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="8">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="9" id="4.2.3.9" type="EC"/>
+    <dbReference id="AM920427" type="EMBL">
+      <property type="protein sequence ID" value="CAP80258.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="XP_002557473.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="XM_002557427.1"/>
+    </dbReference>
+    <dbReference id="B6H063" type="SMR"/>
+    <dbReference id="1108849.XP_002557473.1" type="STRING"/>
+    <dbReference id="CAP80258" type="EnsemblFungi">
+      <property type="protein sequence ID" value="CAP80258"/>
+      <property type="gene ID" value="PCH_Pc12g06310"/>
+    </dbReference>
+    <dbReference id="8313017" type="GeneID"/>
+    <dbReference id="pcs:Pc12g06310" type="KEGG"/>
+    <dbReference id="ENOG502SK06" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="CLU_057570_1_0_1" type="HOGENOM"/>
+    <dbReference id="IYCPRYH" type="OMA"/>
+    <dbReference id="1143139at2759" type="OrthoDB"/>
+    <dbReference id="PCHR:PC12G06310-MONOMER" type="BioCyc"/>
+    <dbReference id="UPA00177" type="UniPathway">
+      <property type="reaction ID" value="UER00582"/>
+    </dbReference>
+    <dbReference id="UP000000724" type="Proteomes">
+      <property type="component" value="Contig Pc00c12"/>
+    </dbReference>
+    <dbReference id="GO:0045483" type="GO">
+      <property type="term" value="F:aristolochene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="Aristolochene synthase prx2" id="PRO_0000438191" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="342"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="115"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="115"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="244"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="248"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="252"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="115"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="2" type="binding site">
+      <location>
+        <position position="200"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="244"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="2" type="binding site">
+      <location>
+        <position position="251"/>
+      </location>
+    </feature>
+    <feature description="Important for catalytic activity" evidence="1" type="site">
+      <location>
+        <position position="92"/>
+      </location>
+    </feature>
+    <feature description="Important for catalytic activity" evidence="1" type="site">
+      <location>
+        <position position="112"/>
+      </location>
+    </feature>
+    <feature description="Important for catalytic activity" evidence="1" type="site">
+      <location>
+        <position position="178"/>
+      </location>
+    </feature>
+    <feature description="Important for catalytic activity" evidence="1" type="site">
+      <location>
+        <position position="334"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="Q03471" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000250">
+      <source>
+        <dbReference id="Q9UR08" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000250">
+      <source>
+        <dbReference id="W6Q3Z9" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000250">
+      <source>
+        <dbReference id="W6QB15" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000250">
+      <source>
+        <dbReference id="W6QP10" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000269">
+      <source>
+        <dbReference id="24239699" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000303">
+      <source>
+        <dbReference id="24239699" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000305"/>
+    <evidence key="9" type="ECO:0000305">
+      <source>
+        <dbReference id="24239699" type="PubMed"/>
+      </source>
+    </evidence>
+    <sequence checksum="C1BAC1D02BFEAC53" length="342" mass="39153" modified="2008-12-16" version="1">MATLTETITSLAQPFVHLEDTINSPPVKETIRPRNDTTITPPPTQWSYLCHPRVKEVQDEVDGYFLENWKFPSFKAVRTFLGAKFSEVTCLYFPLALDDRIHFACRLLTVLFLIDDVLEHMSFADGEAYNNRLIPISRGDVLPDRTKPEEFILYDLWESMRAHDAELANEVLEPTFVFMRAQTDRARLTIHELGHYLEYREKDVGKALLSALMRFSMGLRFSADELQGMKALEANCAKQLSVVNDIYSYDKEEEASRTGHKEGAFLCSAVKVLAEESKLGIPATKRVLWSMTREWETVHDEIVAEKIASPDGCSEAAKAYMKGLEYQMSGNEQWSKTTRRYN</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

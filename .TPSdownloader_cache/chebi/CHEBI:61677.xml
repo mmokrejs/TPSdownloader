@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:61677</ID>
+<NAME>(+)-alpha-santalene</NAME>
+<DEFINITION>A sesquiterpene consisting of a tricyclo[2.2.1.02,6]heptane skeleton substituted by methyl groups at positions 1 and 7 and by a 4-methylpent-3-en-1-yl group at position 7 (the 1S,2R,4S,6R,7R diastereoisomer).</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>alpha-santalene</SYNONYM>
+<SYNONYM>(+)-alpha-santalene</SYNONYM>
+<IUPAC_NAME>(1S,2R,4S,6R,7R)-1,7-dimethyl-7-(4-methylpent-3-en-1-yl)tricyclo[2.2.1.0(2,6)]heptane</IUPAC_NAME>
+<FORMULA>C15H24</FORMULA>
+<MASS>204.35110</MASS>
+<MONOISOTOPIC_MASS>204.18780</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@]12C[C@]3([H])[C@@]([H])(C1)[C@]3(C)[C@]2(C)CCC=C(C)C</SMILES>
+<INCHI>InChI=1S/C15H24/c1-10(2)6-5-7-14(3)11-8-12-13(9-11)15(12,14)4/h6,11-13H,5,7-9H2,1-4H3/t11-,12+,13-,14-,15+/m1/s1</INCHI>
+<INCHIKEY>KWFJIXPIFLVMPM-KHMAMNHCSA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>3195968</REAXYS_REGISTRY_NUMBER>
+<KNAPSACK_ACCESSION>C00021850</KNAPSACK_ACCESSION>
+<METACYC_ACCESSION>CPD-11377</METACYC_ACCESSION>
+<PUBMED_CITATION>19155349</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

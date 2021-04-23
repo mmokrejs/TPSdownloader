@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2018-07-18" dataset="Swiss-Prot" modified="2021-04-07" version="57">
+    <accession>E4MYY0</accession>
+    <name>HCS_KITSK</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="3">(2Z,6E)-hedycaryol synthase</fullName>
+        <shortName evidence="3">HcS</shortName>
+        <ecNumber evidence="2">4.2.3.187</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name evidence="6" type="ordered locus">KSE_00200t</name>
+      <name evidence="7" type="ordered locus">KSE_76540t</name>
+    </gene>
+    <organism>
+      <name type="scientific">Kitasatospora setae (strain ATCC 33774 / DSM 43861 / JCM 3304 / KCC A-0304 / NBRC 14216 / KM-6054)</name>
+      <name type="synonym">Streptomyces setae</name>
+      <dbReference id="452652" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Bacteria</taxon>
+        <taxon>Actinobacteria</taxon>
+        <taxon>Streptomycetales</taxon>
+        <taxon>Streptomycetaceae</taxon>
+        <taxon>Kitasatospora</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2010" first="393" last="406" name="DNA Res." type="journal article" volume="17">
+        <title>Genome sequence of Kitasatospora setae NBRC 14216T: an evolutionary snapshot of the family Streptomycetaceae.</title>
+        <authorList>
+          <person name="Ichikawa N."/>
+          <person name="Oguchi A."/>
+          <person name="Ikeda H."/>
+          <person name="Ishikawa J."/>
+          <person name="Kitani S."/>
+          <person name="Watanabe Y."/>
+          <person name="Nakamura S."/>
+          <person name="Katano Y."/>
+          <person name="Kishi E."/>
+          <person name="Sasagawa M."/>
+          <person name="Ankai A."/>
+          <person name="Fukui S."/>
+          <person name="Hashimoto Y."/>
+          <person name="Kamata S."/>
+          <person name="Otoguro M."/>
+          <person name="Tanikawa S."/>
+          <person name="Nihira T."/>
+          <person name="Horinouchi S."/>
+          <person name="Ohnishi Y."/>
+          <person name="Hayakawa M."/>
+          <person name="Kuzuyama T."/>
+          <person name="Arisawa A."/>
+          <person name="Nomoto F."/>
+          <person name="Miura H."/>
+          <person name="Takahashi Y."/>
+          <person name="Fujita N."/>
+        </authorList>
+        <dbReference id="21059706" type="PubMed"/>
+        <dbReference id="10.1093/dnares/dsq026" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain evidence="8">ATCC 33774 / DSM 43861 / JCM 3304 / KCC A-0304 / NBRC 14216 / KM-6054</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2014" first="213" last="216" name="ChemBioChem" type="journal article" volume="15">
+        <title>Hedycaryol synthase in complex with nerolidol reveals terpene cyclase mechanism.</title>
+        <authorList>
+          <person name="Baer P."/>
+          <person name="Rabe P."/>
+          <person name="Citron C.A."/>
+          <person name="de Oliveira Mann C.C."/>
+          <person name="Kaufmann N."/>
+          <person name="Groll M."/>
+          <person name="Dickschat J.S."/>
+        </authorList>
+        <dbReference id="24399794" type="PubMed"/>
+        <dbReference id="10.1002/cbic.201300708" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (1.50 ANGSTROMS)</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>MUTAGENESIS OF ASP-82; PHE-149; MET-181; TRP-309; HIS-310; ARG-315 AND TYR-316</scope>
+      <scope>DOMAIN</scope>
+      <scope>SUBUNIT</scope>
+      <source>
+        <strain>ATCC 33774 / DSM 43861 / JCM 3304 / KCC A-0304 / NBRC 14216 / KM-6054</strain>
+      </source>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Catalyzes the conversion of (2E,6E)-farnesyl diphosphate (FPP) into (2Z,6E)-hedycaryol via a 1,11-cyclization.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate + H2O = (2Z,6E)-hedycaryol + diphosphate</text>
+        <dbReference id="RHEA:54060" type="Rhea"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:138044" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.187" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment evidence="4" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subunit">
+      <text evidence="2">Homodimer.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="5">The Asp-Asp-Xaa-Xaa-Xaa-Glu (DDXXXE) and Asn-Xaa-Xaa-Xaa-Ser-Xaa-Xaa-Xaa-Glu (NSE) motifs are important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="miscellaneous">
+      <text evidence="2">The 1,11-cyclization requires isomerization of (2E,6E)-farnesyl diphosphate (FPP) to nerolidyl diphosphate (NPP), the abstraction of the pyrophosphate from intermediate NPP leading to a (Z,E)-hedycaryl cation and finally an nucleophilic attack of a water molecule.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="4">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="2" id="4.2.3.187" type="EC"/>
+    <dbReference id="AP010968" type="EMBL">
+      <property type="protein sequence ID" value="BAJ25873.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="AP010968" type="EMBL">
+      <property type="protein sequence ID" value="BAJ33405.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="WP_014133196.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NC_016109.1"/>
+    </dbReference>
+    <dbReference id="4MC0" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.70"/>
+      <property type="chains" value="A/B=1-338"/>
+    </dbReference>
+    <dbReference id="4MC3" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.50"/>
+      <property type="chains" value="A=1-338"/>
+    </dbReference>
+    <dbReference id="4MC8" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.90"/>
+      <property type="chains" value="A=1-338"/>
+    </dbReference>
+    <dbReference id="4MC0" type="PDBsum"/>
+    <dbReference id="4MC3" type="PDBsum"/>
+    <dbReference id="4MC8" type="PDBsum"/>
+    <dbReference id="E4MYY0" type="SMR"/>
+    <dbReference id="452652.KSE_76540t" type="STRING"/>
+    <dbReference id="BAJ25873" type="EnsemblBacteria">
+      <property type="protein sequence ID" value="BAJ25873"/>
+      <property type="gene ID" value="KSE_00200t"/>
+    </dbReference>
+    <dbReference id="BAJ33405" type="EnsemblBacteria">
+      <property type="protein sequence ID" value="BAJ33405"/>
+      <property type="gene ID" value="KSE_76540t"/>
+    </dbReference>
+    <dbReference id="ksk:KSE_00200t" type="KEGG"/>
+    <dbReference id="ksk:KSE_76540t" type="KEGG"/>
+    <dbReference id="fig|452652.3.peg.18" type="PATRIC"/>
+    <dbReference id="ENOG5033VJC" type="eggNOG">
+      <property type="taxonomic scope" value="Bacteria"/>
+    </dbReference>
+    <dbReference id="CLU_042538_4_0_11" type="HOGENOM"/>
+    <dbReference id="CKMTKEF" type="OMA"/>
+    <dbReference id="1869158at2" type="OrthoDB"/>
+    <dbReference id="KSET452652:G1H62-18-MONOMER" type="BioCyc"/>
+    <dbReference id="KSET452652:G1H62-7711-MONOMER" type="BioCyc"/>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="UP000007076" type="Proteomes">
+      <property type="component" value="Chromosome"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034686" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_2"/>
+    </dbReference>
+    <dbReference id="SFLDG01020" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0002">3D-structure</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="(2Z,6E)-hedycaryol synthase" id="PRO_0000444712" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="338"/>
+      </location>
+    </feature>
+    <feature description="DDXXXE motif" evidence="5" type="short sequence motif">
+      <location>
+        <begin position="82"/>
+        <end position="87"/>
+      </location>
+    </feature>
+    <feature description="NXXXSXXXE motif" evidence="5" type="short sequence motif">
+      <location>
+        <begin position="221"/>
+        <end position="229"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="82"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="87"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="87"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="221"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="225"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="229"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="175"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="228"/>
+      </location>
+    </feature>
+    <feature description="Important for the cation stabilization at C-11" evidence="2" type="site">
+      <location>
+        <position position="149"/>
+      </location>
+    </feature>
+    <feature description="Loss of synthase activity." evidence="2" type="mutagenesis site">
+      <original>S</original>
+      <variation>W</variation>
+      <location>
+        <position position="55"/>
+      </location>
+    </feature>
+    <feature description="Loss of synthase activity at pH 7.0. Strongly reduced synthase activity at pH 8.5." evidence="2" type="mutagenesis site">
+      <original>D</original>
+      <variation>N</variation>
+      <location>
+        <position position="82"/>
+      </location>
+    </feature>
+    <feature description="Loss of synthase activity at pH 7.0. Strongly reduced synthase activity at pH 8.5." evidence="2" type="mutagenesis site">
+      <original>F</original>
+      <variation>L</variation>
+      <location>
+        <position position="149"/>
+      </location>
+    </feature>
+    <feature description="No effect on synthase activity at pH 7 and 8.5." evidence="2" type="mutagenesis site">
+      <original>F</original>
+      <variation>W</variation>
+      <location>
+        <position position="149"/>
+      </location>
+    </feature>
+    <feature description="Loss of synthase activity at pH 7.0. Strongly reduced synthase activity at pH 8.5." evidence="2" type="mutagenesis site">
+      <original>M</original>
+      <variation>H</variation>
+      <location>
+        <position position="181"/>
+      </location>
+    </feature>
+    <feature description="Loss of synthase activity." evidence="2" type="mutagenesis site">
+      <original>M</original>
+      <variation>K</variation>
+      <location>
+        <position position="181"/>
+      </location>
+    </feature>
+    <feature description="No effect on synthase activity at pH 7 and 8.5." evidence="2" type="mutagenesis site">
+      <original>W</original>
+      <variation>F</variation>
+      <variation>L</variation>
+      <variation>Y</variation>
+      <location>
+        <position position="309"/>
+      </location>
+    </feature>
+    <feature description="Loss of synthase activity." evidence="2" type="mutagenesis site">
+      <original>H</original>
+      <variation>S</variation>
+      <location>
+        <position position="310"/>
+      </location>
+    </feature>
+    <feature description="No effect on synthase activity at pH 7 and 8.5." evidence="2" type="mutagenesis site">
+      <original>R</original>
+      <variation>K</variation>
+      <location>
+        <position position="315"/>
+      </location>
+    </feature>
+    <feature description="No effect on synthase activity at pH 7 and 8.5." evidence="2" type="mutagenesis site">
+      <original>Y</original>
+      <variation>F</variation>
+      <location>
+        <position position="316"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="helix">
+      <location>
+        <begin position="21"/>
+        <end position="35"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="helix">
+      <location>
+        <begin position="41"/>
+        <end position="50"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="helix">
+      <location>
+        <begin position="52"/>
+        <end position="59"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="helix">
+      <location>
+        <begin position="65"/>
+        <end position="84"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="helix">
+      <location>
+        <begin position="95"/>
+        <end position="107"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="turn">
+      <location>
+        <begin position="108"/>
+        <end position="110"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="helix">
+      <location>
+        <begin position="118"/>
+        <end position="131"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="helix">
+      <location>
+        <begin position="136"/>
+        <end position="160"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="helix">
+      <location>
+        <begin position="168"/>
+        <end position="178"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="helix">
+      <location>
+        <begin position="181"/>
+        <end position="188"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="helix">
+      <location>
+        <begin position="189"/>
+        <end position="191"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="strand">
+      <location>
+        <begin position="192"/>
+        <end position="194"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="helix">
+      <location>
+        <begin position="198"/>
+        <end position="201"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="helix">
+      <location>
+        <begin position="204"/>
+        <end position="225"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="turn">
+      <location>
+        <begin position="226"/>
+        <end position="228"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="helix">
+      <location>
+        <begin position="238"/>
+        <end position="246"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="helix">
+      <location>
+        <begin position="250"/>
+        <end position="282"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="helix">
+      <location>
+        <begin position="286"/>
+        <end position="309"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="B5HDJ6" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="24399794" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000303">
+      <source>
+        <dbReference id="24399794" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000305"/>
+    <evidence key="5" type="ECO:0000305">
+      <source>
+        <dbReference id="24399794" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000312">
+      <source>
+        <dbReference id="BAJ25873.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000312">
+      <source>
+        <dbReference id="BAJ33405.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000312">
+      <source>
+        <dbReference id="UP000007076" type="Proteomes"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0007744">
+      <source>
+        <dbReference id="4MC3" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0007744">
+      <source>
+        <dbReference id="4MC8" type="PDB"/>
+      </source>
+    </evidence>
+    <sequence checksum="F671104E7633328C" length="338" mass="37591" modified="2011-02-08" version="1">MAEFEIPDFYVPFPLECNPHLEEASRAMWEWIDANGLAPTERARDRMRRTGADLSGAYVWPRADLDTLTIGLKWIALTFRIDDQIDEDDTAERLPARMTAIDELRGTLHGLPVSGRSPTARALGALWQETALGRPATWCDAFIGHFEAFLQTYTTEAGLNAHGAGLRLDDYLDRRMYSVGMPWLWDLDELRLPIFLPGSVRTCGPMNKLRRAGALHIALVNDVFSVERETLVGYQHNAVTIIREAQGCSLQEAVDQVAVLVEAQLHTVLQARQELLEELDRQALPSRAREAAVDYAANVAANLSGQLVWHSSVERYAVDDLQSAADPRATPTTSSLGI</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

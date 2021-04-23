@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2012-09-05" dataset="Swiss-Prot" modified="2020-08-12" version="62">
+    <accession>C5YHI2</accession>
+    <name>TPS2_SORBI</name>
+    <protein>
+      <recommendedName>
+        <fullName>Beta-sesquiphellandrene synthase</fullName>
+        <shortName>SbTPS2</shortName>
+        <ecNumber>4.2.3.123</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="primary">TPS2</name>
+      <name type="ordered locus">Sb07g004485</name>
+    </gene>
+    <organism>
+      <name type="scientific">Sorghum bicolor</name>
+      <name type="common">Sorghum</name>
+      <name type="synonym">Sorghum vulgare</name>
+      <dbReference id="4558" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>Liliopsida</taxon>
+        <taxon>Poales</taxon>
+        <taxon>Poaceae</taxon>
+        <taxon>PACMAD clade</taxon>
+        <taxon>Panicoideae</taxon>
+        <taxon>Andropogonodae</taxon>
+        <taxon>Andropogoneae</taxon>
+        <taxon>Sorghinae</taxon>
+        <taxon>Sorghum</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2012" first="70" last="80" name="Plant J." type="journal article" volume="69">
+        <title>Dynamic evolution of herbivore-induced sesquiterpene biosynthesis in sorghum and related grass crops.</title>
+        <authorList>
+          <person name="Zhuang X."/>
+          <person name="Koellner T.G."/>
+          <person name="Zhao N."/>
+          <person name="Li G."/>
+          <person name="Jiang Y."/>
+          <person name="Zhu L."/>
+          <person name="Ma J."/>
+          <person name="Degenhardt J."/>
+          <person name="Chen F."/>
+        </authorList>
+        <dbReference id="21880075" type="PubMed"/>
+        <dbReference id="10.1111/j.1365-313x.2011.04771.x" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>MUTAGENESIS OF TYR-373 AND VAL-405</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>INDUCTION BY HERBIVORY</scope>
+    </reference>
+    <reference key="2">
+      <citation date="2009" first="551" last="556" name="Nature" type="journal article" volume="457">
+        <title>The Sorghum bicolor genome and the diversification of grasses.</title>
+        <authorList>
+          <person name="Paterson A.H."/>
+          <person name="Bowers J.E."/>
+          <person name="Bruggmann R."/>
+          <person name="Dubchak I."/>
+          <person name="Grimwood J."/>
+          <person name="Gundlach H."/>
+          <person name="Haberer G."/>
+          <person name="Hellsten U."/>
+          <person name="Mitros T."/>
+          <person name="Poliakov A."/>
+          <person name="Schmutz J."/>
+          <person name="Spannagl M."/>
+          <person name="Tang H."/>
+          <person name="Wang X."/>
+          <person name="Wicker T."/>
+          <person name="Bharti A.K."/>
+          <person name="Chapman J."/>
+          <person name="Feltus F.A."/>
+          <person name="Gowik U."/>
+          <person name="Grigoriev I.V."/>
+          <person name="Lyons E."/>
+          <person name="Maher C.A."/>
+          <person name="Martis M."/>
+          <person name="Narechania A."/>
+          <person name="Otillar R.P."/>
+          <person name="Penning B.W."/>
+          <person name="Salamov A.A."/>
+          <person name="Wang Y."/>
+          <person name="Zhang L."/>
+          <person name="Carpita N.C."/>
+          <person name="Freeling M."/>
+          <person name="Gingle A.R."/>
+          <person name="Hash C.T."/>
+          <person name="Keller B."/>
+          <person name="Klein P."/>
+          <person name="Kresovich S."/>
+          <person name="McCann M.C."/>
+          <person name="Ming R."/>
+          <person name="Peterson D.G."/>
+          <person name="Mehboob-ur-Rahman M."/>
+          <person name="Ware D."/>
+          <person name="Westhoff P."/>
+          <person name="Mayer K.F.X."/>
+          <person name="Messing J."/>
+          <person name="Rokhsar D.S."/>
+        </authorList>
+        <dbReference id="19189423" type="PubMed"/>
+        <dbReference id="10.1038/nature07723" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA] OF 22-544</scope>
+      <source>
+        <strain>cv. BTx623</strain>
+      </source>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Sesquiterpene synthase converting farnesyl diphosphate into beta-sesquiphellandrene and six minor products, zingiberene, 7-epi-sesquithujene, sesquisabinene A, (E)-alpha-bergamotene, (E)-beta-farnesene and beta-bisabolene. Can also accept geranyl diphosphate as substrate, producing nine monoterpenes, with myrcene and limonene as the major products.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = beta-sesquiphellandrene + diphosphate</text>
+        <dbReference id="RHEA:32699" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:64361" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.123" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <cofactor evidence="1">
+        <name>Mn(2+)</name>
+        <dbReference id="CHEBI:29035" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+    </comment>
+    <comment type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="3">Cytoplasm</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="induction">
+      <text evidence="2">Up-regulated by herbivory.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference id="4.2.3.123" type="EC"/>
+    <dbReference id="CM000766" type="EMBL">
+      <property type="protein sequence ID" value="EES13422.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="C5YHI2" type="SMR"/>
+    <dbReference id="EES14619" type="EnsemblPlants">
+      <property type="protein sequence ID" value="EES14619"/>
+      <property type="gene ID" value="SORBI_3007G055700"/>
+    </dbReference>
+    <dbReference id="EES14619" type="Gramene">
+      <property type="protein sequence ID" value="EES14619"/>
+      <property type="gene ID" value="SORBI_3007G055700"/>
+    </dbReference>
+    <dbReference id="ENOG502QUCN" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="CLU_003125_7_2_1" type="HOGENOM"/>
+    <dbReference id="C5YHI2" type="InParanoid"/>
+    <dbReference id="ERTIETW" type="OMA"/>
+    <dbReference id="360509at2759" type="OrthoDB"/>
+    <dbReference id="4.2.3.123" type="BRENDA">
+      <property type="organism ID" value="5768"/>
+    </dbReference>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="UP000000768" type="Proteomes">
+      <property type="component" value="Chromosome 7"/>
+    </dbReference>
+    <dbReference id="UP000000768" type="Proteomes">
+      <property type="component" value="Unassembled WGS sequence"/>
+    </dbReference>
+    <dbReference id="C5YHI2" type="ExpressionAtlas">
+      <property type="expression patterns" value="baseline and differential"/>
+    </dbReference>
+    <dbReference id="GO:0005737" type="GO">
+      <property type="term" value="C:cytoplasm"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0102887" type="GO">
+      <property type="term" value="F:beta-sesquiphellandrene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0006952" type="GO">
+      <property type="term" value="P:defense response"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0963">Cytoplasm</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0464">Manganese</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-0611">Plant defense</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="Beta-sesquiphellandrene synthase" id="PRO_0000418830" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="545"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="299"/>
+        <end position="303"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="299"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="299"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="303"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="303"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="443"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="447"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="451"/>
+      </location>
+    </feature>
+    <feature description="Increased production of (E)-alpha-bergamotene and (E)-beta-farnesene." evidence="2" type="mutagenesis site">
+      <original>Y</original>
+      <variation>S</variation>
+      <location>
+        <position position="373"/>
+      </location>
+    </feature>
+    <feature description="Changed product specificity and production of mainly zingiberene." evidence="2" type="mutagenesis site">
+      <original>V</original>
+      <variation>L</variation>
+      <location>
+        <position position="405"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="21880075" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <sequence checksum="DEC7711338AF5281" length="545" mass="63360" modified="2012-09-05" version="2">MALTPSVCSISDVQGLQKDRTFHPSLWGDFFLTYQPPTAPKHAYMAERAEVLKEEVRKMVKSANEIQNILDLILTLQRLGLDNHYENEINELLSFVHDSDYDDKDLNLVSLRFYLLRKHGYDVSSDVFKCFQDKEGNFVVKDTKSLLSLYNAAHLRIHGEEVLDEAIIFTRGKLESVLDSLETTLADEVTLALQTPLFRRVRILETRNYIPIYEKEVARNEVILEFAKLNFNLLQLLYCEELKMITLWWKQLNVETNLSFIRDRIVEMHFWMTGACSEKKYSLTRTITTKMTAYITILDDIMDTHSTTEEAMLLAEAIYRCEENAAELLPEYMKDFYLYLLKTFDSVKHELGPNRSFRVFYLKELLKILVRGYSQEIKWRDEHYVPETIDEHLEVSKATVGAFQVACSSFVGMGDIITKEILDWLLSYPKLLKSMTTFVRLSNDIASTKREQTGGHHASTVQCYMMQHGTTIHDACEKIKELTEDTWKDMMKLYLTPTEQPKVIIQTVLDFARTAEFMYKKTDAFTFSHTIKDTIALLFVEPTLV</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

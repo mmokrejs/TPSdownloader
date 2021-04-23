@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2018-02-28" dataset="Swiss-Prot" modified="2020-08-12" version="54">
+    <accession>C7PLV2</accession>
+    <name>GCAS_CHIPD</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="5">(-)-gamma-cadinene synthase ((2Z,6E)-farnesyl diphosphate cyclizing)</fullName>
+        <ecNumber evidence="2 3 4">4.2.3.62</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="5">Terpene cyclase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="5">Type I terpene cyclase</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="8" type="ordered locus">Cpin_4730</name>
+    </gene>
+    <organism>
+      <name type="scientific">Chitinophaga pinensis (strain ATCC 43595 / DSM 2588 / NCIB 11800 / UQM 2034)</name>
+      <dbReference id="485918" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Bacteria</taxon>
+        <taxon>Bacteroidetes</taxon>
+        <taxon>Chitinophagia</taxon>
+        <taxon>Chitinophagales</taxon>
+        <taxon>Chitinophagaceae</taxon>
+        <taxon>Chitinophaga</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2009-08" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>The complete genome of Chitinophaga pinensis DSM 2588.</title>
+        <authorList>
+          <consortium name="US DOE Joint Genome Institute (JGI-PGF)"/>
+          <person name="Lucas S."/>
+          <person name="Copeland A."/>
+          <person name="Lapidus A."/>
+          <person name="Glavina del Rio T."/>
+          <person name="Dalin E."/>
+          <person name="Tice H."/>
+          <person name="Bruce D."/>
+          <person name="Goodwin L."/>
+          <person name="Pitluck S."/>
+          <person name="Kyrpides N."/>
+          <person name="Mavromatis K."/>
+          <person name="Ivanova N."/>
+          <person name="Mikhailova N."/>
+          <person name="Sims D."/>
+          <person name="Meinche L."/>
+          <person name="Brettin T."/>
+          <person name="Detter J.C."/>
+          <person name="Han C."/>
+          <person name="Larimer F."/>
+          <person name="Land M."/>
+          <person name="Hauser L."/>
+          <person name="Markowitz V."/>
+          <person name="Cheng J.-F."/>
+          <person name="Hugenholtz P."/>
+          <person name="Woyke T."/>
+          <person name="Wu D."/>
+          <person name="Spring S."/>
+          <person name="Klenk H.-P."/>
+          <person name="Eisen J.A."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain evidence="9">ATCC 43595 / DSM 2588 / NCIB 11800 / UQM 2034</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2013" first="1810" last="1812" name="Angew. Chem. Int. Ed." type="journal article" volume="52">
+        <title>Rapid chemical characterization of bacterial terpene synthases.</title>
+        <authorList>
+          <person name="Rabe P."/>
+          <person name="Dickschat J.S."/>
+        </authorList>
+        <dbReference id="23307484" type="PubMed"/>
+        <dbReference id="10.1002/anie.201209103" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <source>
+        <strain>ATCC 43595 / DSM 2588 / NCIB 11800 / UQM 2034</strain>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2016" first="13593" last="13596" name="Angew. Chem. Int. Ed." type="journal article" volume="55">
+        <title>Lessons from 1,3-hydride shifts in sesquiterpene cyclizations.</title>
+        <authorList>
+          <person name="Rinkel J."/>
+          <person name="Rabe P."/>
+          <person name="Garbeva P."/>
+          <person name="Dickschat J.S."/>
+        </authorList>
+        <dbReference id="27666571" type="PubMed"/>
+        <dbReference id="10.1002/anie.201608042" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>REACTION MECHANISM</scope>
+      <source>
+        <strain>ATCC 43595 / DSM 2588 / NCIB 11800 / UQM 2034</strain>
+      </source>
+    </reference>
+    <reference key="4">
+      <citation date="2016" first="1839" last="1850" name="Beilstein J. Org. Chem." type="journal article" volume="12">
+        <title>Mechanistic investigations on six bacterial terpene cyclases.</title>
+        <authorList>
+          <person name="Rabe P."/>
+          <person name="Schmitz T."/>
+          <person name="Dickschat J.S."/>
+        </authorList>
+        <dbReference id="27829890" type="PubMed"/>
+        <dbReference id="10.3762/bjoc.12.173" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>SUBSTRATE SPECIFICITY</scope>
+      <scope>DOMAIN</scope>
+      <scope>PATHWAY</scope>
+      <source>
+        <strain>ATCC 43595 / DSM 2588 / NCIB 11800 / UQM 2034</strain>
+      </source>
+    </reference>
+    <comment type="function">
+      <text evidence="2 3 4">Catalyzes the conversion of (2Z,6E)-farnesyl diphosphate (FPP) to yield the bicyclic sesquiterpene (1S,6S,7R)-(-)-gamma-cadinene via a 1,10-cyclization, which requires the abstraction of the pyrophosphate from FPP to yield a germacradienyl cation (PubMed:23307484, PubMed:27666571, PubMed:27829890). The only accepted substrate is (2Z,6E)-farnesyl diphosphate (FPP) (PubMed:27829890).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2 3 4">
+        <text>(2Z,6E)-farnesyl diphosphate = (-)-gamma-cadinene + diphosphate</text>
+        <dbReference id="RHEA:28639" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:63203" type="ChEBI"/>
+        <dbReference id="CHEBI:162247" type="ChEBI"/>
+        <dbReference id="4.2.3.62" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment evidence="7" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="7">The Asp-Asp-Xaa-Xaa-Asp (DDXXD) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="6">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="2 3 4" id="4.2.3.62" type="EC"/>
+    <dbReference id="CP001699" type="EMBL">
+      <property type="protein sequence ID" value="ACU62166.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="WP_012792334.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NC_013132.1"/>
+    </dbReference>
+    <dbReference id="C7PLV2" type="SMR"/>
+    <dbReference id="485918.Cpin_4730" type="STRING"/>
+    <dbReference id="ACU62166" type="EnsemblBacteria">
+      <property type="protein sequence ID" value="ACU62166"/>
+      <property type="gene ID" value="Cpin_4730"/>
+    </dbReference>
+    <dbReference id="cpi:Cpin_4730" type="KEGG"/>
+    <dbReference id="COG0664" type="eggNOG">
+      <property type="taxonomic scope" value="Bacteria"/>
+    </dbReference>
+    <dbReference id="CLU_042538_4_2_10" type="HOGENOM"/>
+    <dbReference id="HLVEYAH" type="OMA"/>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="UP000002215" type="Proteomes">
+      <property type="component" value="Chromosome"/>
+    </dbReference>
+    <dbReference id="GO:0016829" type="GO">
+      <property type="term" value="F:lyase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034686" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_2"/>
+    </dbReference>
+    <dbReference id="SFLDG01020" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="(-)-gamma-cadinene synthase ((2Z,6E)-farnesyl diphosphate cyclizing)" id="PRO_0000443242" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="321"/>
+      </location>
+    </feature>
+    <feature description="Substrate binding" evidence="1" type="region of interest">
+      <location>
+        <begin position="309"/>
+        <end position="310"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="7" type="short sequence motif">
+      <location>
+        <begin position="82"/>
+        <end position="86"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="82"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="86"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="86"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="220"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="224"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="228"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="174"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="227"/>
+      </location>
+    </feature>
+    <feature description="Plays a critical role in the stabilization of intermediate cation" evidence="1" type="site">
+      <location>
+        <position position="79"/>
+      </location>
+    </feature>
+    <feature description="Plays a critical role for substrate recognition" evidence="1" type="site">
+      <location>
+        <position position="83"/>
+      </location>
+    </feature>
+    <feature description="Plays a critical role for substrate recognition" evidence="1" type="site">
+      <location>
+        <position position="155"/>
+      </location>
+    </feature>
+    <feature description="Plays a critical role for abstraction of the pyrophosphate group" evidence="1" type="site">
+      <location>
+        <position position="178"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="B5HDJ6" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="23307484" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="27666571" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="27829890" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000303">
+      <source>
+        <dbReference id="23307484" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000305"/>
+    <evidence key="7" type="ECO:0000305">
+      <source>
+        <dbReference id="27829890" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000312">
+      <source>
+        <dbReference id="ACU62166.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0000312">
+      <source>
+        <dbReference id="UP000002215" type="Proteomes"/>
+      </source>
+    </evidence>
+    <sequence checksum="F276B8B8A93AB54D" length="321" mass="37087" modified="2009-10-13" version="1">MPTITLPRIIYPFPSLINQFVTAAHEQNRQWVADFGFITTPEAMARFDRSRFAWLAARAFPHAGFHELCTIANFNTWLFMLDDQCDEAQLGKKAVYLEHVTDGFMNILKHNTPVDTVLGRSFTDIWERMQALGDTAWQTRFIRSMEEYFTSCHWEAGNRAADIVPTVAEYVTMRPYTGALFADVEAIEIIEKVYLPAHILQHFIVQRLVLACNNIVCWANDIFSCAKEARQGDVHNLVLVLQHERNSTLQEAVNETARMHNEEVKLFTALEKLLPSFGAEMDRELERFMAVLRSWITANYDWSYHDTGRYQVKEVEVVINS</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2013-05-01" dataset="Swiss-Prot" modified="2020-12-02" version="19">
+    <accession>P0DL13</accession>
+    <accession>A0A2H3CTI0</accession>
+    <accession>S5LSQ7</accession>
+    <name>PRO1_ARMGA</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="13">Delta(6)-protoilludene synthase</fullName>
+        <ecNumber evidence="4">4.2.3.135</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="13">Melleolides biosynthesis cluster protein PRO1</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="13" type="primary">PRO1</name>
+      <name type="ORF">ARMGADRAFT_1000221</name>
+    </gene>
+    <organism>
+      <name type="scientific">Armillaria gallica</name>
+      <name type="common">Bulbous honey fungus</name>
+      <name type="synonym">Armillaria bulbosa</name>
+      <dbReference id="47427" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Basidiomycota</taxon>
+        <taxon>Agaricomycotina</taxon>
+        <taxon>Agaricomycetes</taxon>
+        <taxon>Agaricomycetidae</taxon>
+        <taxon>Agaricales</taxon>
+        <taxon>Physalacriaceae</taxon>
+        <taxon>Armillaria</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2011" first="6871" last="6878" name="J. Biol. Chem." type="journal article" volume="286">
+        <title>Cloning and characterization of an Armillaria gallica cDNA encoding protoilludene synthase, which catalyzes the first committed step in the synthesis of antimicrobial melleolides.</title>
+        <authorList>
+          <person name="Engels B."/>
+          <person name="Heinig U."/>
+          <person name="Grothe T."/>
+          <person name="Stadler M."/>
+          <person name="Jennewein S."/>
+        </authorList>
+        <dbReference id="21148562" type="PubMed"/>
+        <dbReference id="10.1074/jbc.m110.165845" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>COFACTOR</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <scope>SUBUNIT</scope>
+      <scope>PATHWAY</scope>
+      <source>
+        <strain>FU02472</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2017" first="1931" last="1941" name="Nat. Ecol. Evol." type="journal article" volume="1">
+        <title>Genome expansion and lineage-specific genetic innovations in the forest pathogenic fungi Armillaria.</title>
+        <authorList>
+          <person name="Sipos G."/>
+          <person name="Prasanna A.N."/>
+          <person name="Walter M.C."/>
+          <person name="O'Connor E."/>
+          <person name="Balint B."/>
+          <person name="Krizsan K."/>
+          <person name="Kiss B."/>
+          <person name="Hess J."/>
+          <person name="Varga T."/>
+          <person name="Slot J."/>
+          <person name="Riley R."/>
+          <person name="Boka B."/>
+          <person name="Rigling D."/>
+          <person name="Barry K."/>
+          <person name="Lee J."/>
+          <person name="Mihaltcheva S."/>
+          <person name="LaButti K."/>
+          <person name="Lipzen A."/>
+          <person name="Waldron R."/>
+          <person name="Moloney N.M."/>
+          <person name="Sperisen C."/>
+          <person name="Kredics L."/>
+          <person name="Vagvoelgyi C."/>
+          <person name="Patrignani A."/>
+          <person name="Fitzpatrick D."/>
+          <person name="Nagy I."/>
+          <person name="Doyle S."/>
+          <person name="Anderson J.B."/>
+          <person name="Grigoriev I.V."/>
+          <person name="Gueldener U."/>
+          <person name="Muensterkoetter M."/>
+          <person name="Nagy L.G."/>
+        </authorList>
+        <dbReference id="29085064" type="PubMed"/>
+        <dbReference id="10.1038/s41559-017-0347-8" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>Ar21-2</strain>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2011" first="2003" last="2006" name="Bioorg. Med. Chem. Lett." type="journal article" volume="21">
+        <title>In vitro cytotoxicity of melleolide antibiotics: structural and mechanistic aspects.</title>
+        <authorList>
+          <person name="Bohnert M."/>
+          <person name="Miethbauer S."/>
+          <person name="Dahse H.M."/>
+          <person name="Ziemen J."/>
+          <person name="Nett M."/>
+          <person name="Hoffmeister D."/>
+        </authorList>
+        <dbReference id="21376582" type="PubMed"/>
+        <dbReference id="10.1016/j.bmcl.2011.02.026" type="DOI"/>
+      </citation>
+      <scope>BIOTECHNOLOGY</scope>
+    </reference>
+    <reference key="4">
+      <citation date="2013" first="459271" last="459271" name="Evid. Based Complement Alternat. Med." type="journal article" volume="2013">
+        <title>Therapeutic and radiosensitizing effects of armillaridin on human esophageal cancer cells.</title>
+        <authorList>
+          <person name="Chi C.W."/>
+          <person name="Chen C.C."/>
+          <person name="Chen Y.J."/>
+        </authorList>
+        <dbReference id="23864890" type="PubMed"/>
+        <dbReference id="10.1155/2013/459271" type="DOI"/>
+      </citation>
+      <scope>BIOTECHNOLOGY</scope>
+    </reference>
+    <reference key="5">
+      <citation date="2015" first="161" last="168" name="Int. J. Med. Mushrooms" type="journal article" volume="17">
+        <title>Armillaridin, a honey medicinal mushroom, Armillaria mellea (higher basidiomycetes) component, inhibits differentiation and activation of human macrophages.</title>
+        <authorList>
+          <person name="Liu T.P."/>
+          <person name="Chen C.C."/>
+          <person name="Shiao P.Y."/>
+          <person name="Shieh H.R."/>
+          <person name="Chen Y.Y."/>
+          <person name="Chen Y.J."/>
+        </authorList>
+        <dbReference id="25746621" type="PubMed"/>
+        <dbReference id="10.1615/intjmedmushrooms.v17.i2.70" type="DOI"/>
+      </citation>
+      <scope>BIOTECHNOLOGY</scope>
+    </reference>
+    <reference key="6">
+      <citation date="2016" first="119" last="127" name="J. Ethnopharmacol." type="journal article" volume="184">
+        <title>Structure, cytotoxic activity and mechanism of protoilludane sesquiterpene aryl esters from the mycelium of Armillaria mellea.</title>
+        <authorList>
+          <person name="Li Z."/>
+          <person name="Wang Y."/>
+          <person name="Jiang B."/>
+          <person name="Li W."/>
+          <person name="Zheng L."/>
+          <person name="Yang X."/>
+          <person name="Bao Y."/>
+          <person name="Sun L."/>
+          <person name="Huang Y."/>
+          <person name="Li Y."/>
+        </authorList>
+        <dbReference id="26952552" type="PubMed"/>
+        <dbReference id="10.1016/j.jep.2016.02.044" type="DOI"/>
+      </citation>
+      <scope>BIOTECHNOLOGY</scope>
+    </reference>
+    <reference key="7">
+      <citation date="2016" first="14291" last="14300" name="Tumor Biol." type="journal article" volume="37">
+        <title>Armillaridin induces autophagy-associated cell death in human chronic myelogenous leukemia K562 cells.</title>
+        <authorList>
+          <person name="Chang W.H."/>
+          <person name="Huang H.L."/>
+          <person name="Huang W.P."/>
+          <person name="Chen C.C."/>
+          <person name="Chen Y.J."/>
+        </authorList>
+        <dbReference id="27592257" type="PubMed"/>
+        <dbReference id="10.1007/s13277-016-5208-6" type="DOI"/>
+      </citation>
+      <scope>BIOTECHNOLOGY</scope>
+    </reference>
+    <reference key="8">
+      <citation date="2018" first="R297" last="R298" name="Curr. Biol." type="journal article" volume="28">
+        <title>Armillaria.</title>
+        <authorList>
+          <person name="Sipos G."/>
+          <person name="Anderson J.B."/>
+          <person name="Nagy L.G."/>
+        </authorList>
+        <dbReference id="29614282" type="PubMed"/>
+        <dbReference id="10.1016/j.cub.2018.01.026" type="DOI"/>
+      </citation>
+      <scope>MISCELLANEOUS</scope>
+    </reference>
+    <reference key="9">
+      <citation date="2018" first="20182233" last="20182233" name="Proc. R. Soc. B" type="journal article" volume="285">
+        <title>Clonal evolution and genome stability in a 2500-year-old fungal individual.</title>
+        <authorList>
+          <person name="Anderson J.B."/>
+          <person name="Bruhn J.N."/>
+          <person name="Kasimer D."/>
+          <person name="Wang H."/>
+          <person name="Rodrigue N."/>
+          <person name="Smith M.L."/>
+        </authorList>
+        <dbReference id="30963893" type="PubMed"/>
+        <dbReference id="10.1098/rspb.2018.2233" type="DOI"/>
+      </citation>
+      <scope>MISCELLANEOUS</scope>
+    </reference>
+    <reference key="10">
+      <citation date="2019" first="1365" last="1380" name="Am. J. Chin. Med." type="journal article" volume="47">
+        <title>Induction of autophagic death of human hepatocellular carcinoma cells by armillaridin from Armillaria mellea.</title>
+        <authorList>
+          <person name="Leu Y.S."/>
+          <person name="Chen Y.J."/>
+          <person name="Chen C.C."/>
+          <person name="Huang H.L."/>
+        </authorList>
+        <dbReference id="31488037" type="PubMed"/>
+        <dbReference id="10.1142/s0192415x19500708" type="DOI"/>
+      </citation>
+      <scope>BIOTECHNOLOGY</scope>
+    </reference>
+    <reference key="11">
+      <citation date="2019" name="Plant Dis." type="journal article">
+        <title>Susceptibility of garden trees and shrubs to Armillaria root rot.</title>
+        <authorList>
+          <person name="Cromey M.G."/>
+          <person name="Drakulic J."/>
+          <person name="Beal E.J."/>
+          <person name="Waghorn I.A.G."/>
+          <person name="Perry J.N."/>
+          <person name="Clover G.R.G."/>
+        </authorList>
+        <dbReference id="31746694" type="PubMed"/>
+        <dbReference id="10.1094/pdis-06-19-1147-re" type="DOI"/>
+      </citation>
+      <scope>MISCELLANEOUS</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2 4">Delta(6)-protoilludene synthase, part of the gene cluster that mediates the biosynthesis of melleolides, a range of antifungal and phytotoxic polyketide derivatives composed of an orsellinic acid (OA) moiety esterified to various sesquiterpene alcohols (PubMed:21148562). The first step in melleolides biosynthesis is performed by the delta(6)-protoilludene synthase PRO1 which catalyzes the cyclization of farnesyl diphosphate to protoilludene (PubMed:21148562). The orsellinic acid synthase armB produces OA by condensing acetyl-CoA with 3 malonyl-CoA units in a three-round chain elongation reaction folowed by a C2-C7 ring closure (By similarity). ArmB further catalyzes the trans-esterification of OA to the various sesquiterpene alcohols resulting from the hydroxylation of protoilludene (By similarity). The melleolides cluster also includes 5 cytochrome P450 monooxygenases, 4 NAD(+)-dependent oxidoreductases, one flavin-dependent oxidoreductase, and one O-methyltransferase (By similarity). The cytochrome P450 monooxygenases may be involved in protoilludene hydroxylation to elaborate melleolides with multiple alcohol groups, such as melleolide D, which carries alcohol functionalities at C-4, C-5, C-10, and C-13 (By similarity). The role of the NAD(+)-dependent enzymes remains unknown (By similarity). Numerous melleolides, including arnamial, show 5'-O-methylation of the aromatic moiety which may be catalyzed by the methyltransferase encoded in the cluster (By similarity). The flavin-dependent oxidoreductase might represent the dehydrogenase yielding the aldehyde in position 1 of arnamial and other melleolides (By similarity). Finally, several halogenases, localized outside of the cluster, are able to catalyze the transfer of a single chlorine atom to the melleolide backbone, resulting in a 6'-chloromelleolide product (By similarity).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="4">
+        <text>(2E,6E)-farnesyl diphosphate = Delta(6)-protoilludene + diphosphate</text>
+        <dbReference id="RHEA:34695" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:68655" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.135" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="15">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="15">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="4">0.53 uM for farnesyl diphosphate</KM>
+      </kinetics>
+    </comment>
+    <comment evidence="4" type="pathway">
+      <text>Secondary metabolite biosynthesis.</text>
+    </comment>
+    <comment type="subunit">
+      <text evidence="4">Monomer.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="biotechnology">
+      <text evidence="5 6 7 8 9 11">Melleolide sesquiterpene aryl esters are cytotoxic secondary products with anti-cancer potential (PubMed:21376582, PubMed:26952552). Armillaridin shows therapeutic and radiosensitizing effects on human esophageal cancer cells (PubMed:23864890). Armillaridin induces autophagy-associated cell death in human chronic myelogenous leukemia as well as of hepatocellular carcinoma cells (PubMed:27592257, PubMed:31488037). Armillaridin can also inhibit the differentiation and activation of human macrophages and thus might have potential to be developed as a biological response modifier for inflammatory diseases (PubMed:25746621).</text>
+    </comment>
+    <comment type="miscellaneous">
+      <text evidence="10 12 16">Armillaria species are both devastating forest pathogens and some of the largest and oldest terrestrial organisms on Earth (PubMed:31746694) (Probable). They forage for hosts and achieve immense colony sizes via rhizomorphs, root-like multicellular structures of clonal dispersal (Probable). One genetic Armillaria gallica individual localized in Michigan's Upper Peninsula stands out as exceptionally large, covering hundreds of tree root systems over approximately 75 hectares of the forest floor (PubMed:30963893). Based on observed growth rates of the fungus, the minimum age of this large individual can be estimated as 2500 years (PubMed:30963893).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="14">Belongs to the terpene synthase family.</text>
+    </comment>
+    <comment name="Protein Spotlight" type="online information">
+      <link uri="https://web.expasy.org/spotlight/back_issues/225/"/>
+      <text>Beneath us - Issue 225 of May 2020</text>
+    </comment>
+    <dbReference evidence="4" id="4.2.3.135" type="EC"/>
+    <dbReference id="KC852198" type="EMBL">
+      <property type="protein sequence ID" value="AGR34199.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="KZ293696" type="EMBL">
+      <property type="protein sequence ID" value="PBK84744.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="PBK84744" type="EnsemblFungi">
+      <property type="protein sequence ID" value="PBK84744"/>
+      <property type="gene ID" value="ARMGADRAFT_1000221"/>
+    </dbReference>
+    <dbReference id="ag:AGR34199" type="KEGG"/>
+    <dbReference id="1143139at2759" type="OrthoDB"/>
+    <dbReference id="MetaCyc:MONOMER-20282" type="BioCyc"/>
+    <dbReference id="P0DL13" type="SABIO-RK"/>
+    <dbReference id="UP000217790" type="Proteomes">
+      <property type="component" value="Unassembled WGS sequence"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0009405" type="GO">
+      <property type="term" value="P:pathogenesis"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034686" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_2"/>
+    </dbReference>
+    <dbReference id="SFLDG01020" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0843">Virulence</keyword>
+    <feature description="Delta(6)-protoilludene synthase" id="PRO_0000422215" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="345"/>
+      </location>
+    </feature>
+    <feature description="Substrate-binding" evidence="3" type="region of interest">
+      <location>
+        <begin position="325"/>
+        <end position="326"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="14" type="short sequence motif">
+      <location>
+        <begin position="84"/>
+        <end position="88"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="3" type="metal ion-binding site">
+      <location>
+        <position position="84"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="3" type="metal ion-binding site">
+      <location>
+        <position position="84"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="3" type="metal ion-binding site">
+      <location>
+        <position position="220"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="3" type="metal ion-binding site">
+      <location>
+        <position position="224"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="3" type="metal ion-binding site">
+      <location>
+        <position position="228"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="3" type="binding site">
+      <location>
+        <position position="176"/>
+      </location>
+    </feature>
+    <feature description="In strain: FU02472." type="sequence variant">
+      <original>A</original>
+      <variation>S</variation>
+      <location>
+        <position position="90"/>
+      </location>
+    </feature>
+    <feature description="In strain: FU02472." type="sequence variant">
+      <original>N</original>
+      <variation>K</variation>
+      <location>
+        <position position="210"/>
+      </location>
+    </feature>
+    <feature description="In strain: FU02472." type="sequence variant">
+      <original>S</original>
+      <variation>F</variation>
+      <location>
+        <position position="343"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000250">
+      <source>
+        <dbReference id="I3ZNU9" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000250">
+      <source>
+        <dbReference id="Q9UR08" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="21148562" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000269">
+      <source>
+        <dbReference id="21376582" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000269">
+      <source>
+        <dbReference id="23864890" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000269">
+      <source>
+        <dbReference id="25746621" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000269">
+      <source>
+        <dbReference id="26952552" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0000269">
+      <source>
+        <dbReference id="27592257" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0000269">
+      <source>
+        <dbReference id="30963893" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="11" type="ECO:0000269">
+      <source>
+        <dbReference id="31488037" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="12" type="ECO:0000269">
+      <source>
+        <dbReference id="31746694" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="13" type="ECO:0000303">
+      <source>
+        <dbReference id="21148562" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="14" type="ECO:0000305"/>
+    <evidence key="15" type="ECO:0000305">
+      <source>
+        <dbReference id="21148562" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="16" type="ECO:0000305">
+      <source>
+        <dbReference id="29614282" type="PubMed"/>
+      </source>
+    </evidence>
+    <sequence checksum="4C707A66F7BE6A5A" length="345" mass="39793" modified="2020-04-22" version="2">MSQRIFLPDTLANWQWPRHLNPHYAEVKKASAAWAKSFRAFQTKAQEAFDRCDFNLLASFAYPLADEARLRSGCDLMNLFFVIDEYSDVATEEEVRAQKDIVMDAIRNTEKPRPAGEWIGGEVSRQFWDLAKKTASTQAQKRFIDTFDEYLESVVQQAADRNNSHVRGIESYLEVRRNTIGAKPSFALLEFDMQLPDEVINHPVIKELENSCIDMLCLGNDVVSYNLEQARDDDGHNIVTIAMNELRTDVAGAMIWVDEYHKQLESRFMENFKKVPRWGGPIDLQVARYCDGLGNWVRANDQWSFESERYFGKKGPEIIQRRWITLMPKMVSEELGPQIVDGSHL</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

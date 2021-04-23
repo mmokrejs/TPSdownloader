@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-04-12" modified="2020-12-02" version="87">
+<accession>O64404</accession>
+<accession>Q94FW3</accession>
+<name>TPSD4_ABIGR</name>
+<protein>
+<recommendedName>
+<fullName>Delta-selinene synthase</fullName>
+<ecNumber evidence="2">4.2.3.71</ecNumber>
+<ecNumber evidence="2">4.2.3.76</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Agfdsel1</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">ag4</name>
+</gene>
+<organism>
+<name type="scientific">Abies grandis</name>
+<name type="common">Grand fir</name>
+<name type="synonym">Pinus grandis</name>
+<dbReference type="NCBI Taxonomy" id="46611"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Pinopsida</taxon>
+<taxon>Pinidae</taxon>
+<taxon>Pinales</taxon>
+<taxon>Pinaceae</taxon>
+<taxon>Abies</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1998" name="J. Biol. Chem." volume="273" first="2078" last="2089">
+<title>Sesquiterpene synthases from grand fir (Abies grandis). Comparison of constitutive and wound-induced activities, and cDNA isolation, characterization, and bacterial expression of delta-selinene synthase and gamma-humulene synthase.</title>
+<authorList>
+<person name="Steele C.L."/>
+<person name="Crock J."/>
+<person name="Bohlmann J."/>
+<person name="Croteau R.B."/>
+</authorList>
+<dbReference type="PubMed" id="9442047"/>
+<dbReference type="DOI" id="10.1074/jbc.273.4.2078"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2001" name="Genetics" volume="158" first="811" last="832">
+<title>Genomic organization of plant terpene synthases and molecular evolutionary implications.</title>
+<authorList>
+<person name="Trapp S.C."/>
+<person name="Croteau R.B."/>
+</authorList>
+<dbReference type="PubMed" id="11404343"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>NOMENCLATURE</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1998" name="Proc. Natl. Acad. Sci. U.S.A." volume="95" first="4126" last="4133">
+<title>Plant terpenoid synthases: molecular biology and phylogenetic analysis.</title>
+<authorList>
+<person name="Bohlmann J."/>
+<person name="Meyer-Gauen G."/>
+<person name="Croteau R.B."/>
+</authorList>
+<dbReference type="PubMed" id="9539701"/>
+<dbReference type="DOI" id="10.1073/pnas.95.8.4126"/>
+</citation>
+<scope>GENE FAMILY</scope>
+<scope>NOMENCLATURE</scope>
+<scope>FUNCTION</scope>
+</reference>
+<comment type="function">
+<text evidence="2 3">Involved in defensive oleoresin formation in conifers in response to insect attack or other injury. Involved in 34 sesquiterpene (C15) olefins biosynthesis.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate = (1E,4E)-germacrene B + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:25444"/>
+<dbReference type="ChEBI" id="CHEBI:5337"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.71"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate = (+)-delta-selinene + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:30423"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:49279"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.76"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate = (+)-guaia-6,9-diene + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:25448"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:49204"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="cofactor">
+<cofactor>
+<name>K(+)</name>
+<dbReference type="ChEBI" id="CHEBI:29103"/>
+</cofactor>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2">1.5 uM for farnesyl diphosphate</KM>
+</kinetics>
+</comment>
+<comment type="pathway">
+<text>Terpene metabolism; oleoresin biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="4">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="induction">
+<text>Constitutive expression.</text>
+</comment>
+<comment type="domain">
+<text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="miscellaneous">
+<text>In sesquiterpene synthases utilizing farnesyl diphosphate as substrate, magnesium is more efficient as cofactor than is manganese.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family. Tpsd subfamily.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.71" evidence="2"/>
+<dbReference type="EC" id="4.2.3.76" evidence="2"/>
+<dbReference type="EMBL" id="U92266">
+<property type="protein sequence ID" value="AAC05727.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AF326513">
+<property type="protein sequence ID" value="AAK83561.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="SMR" id="O64404"/>
+<dbReference type="KEGG" id="ag:AAC05727"/>
+<dbReference type="BioCyc" id="MetaCyc:AG4-MONOMER"/>
+<dbReference type="BRENDA" id="4.2.3.60">
+<property type="organism ID" value="2"/>
+</dbReference>
+<dbReference type="BRENDA" id="4.2.3.71">
+<property type="organism ID" value="2"/>
+</dbReference>
+<dbReference type="BRENDA" id="4.2.3.76">
+<property type="organism ID" value="2"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00924"/>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<feature type="chain" description="Delta-selinene synthase" id="PRO_0000186447">
+<location>
+<begin position="1"/>
+<end position="581"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif">
+<location>
+<begin position="331"/>
+<end position="335"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Poly-Leu">
+<location>
+<begin position="442"/>
+<end position="445"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="331"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="331"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="335"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="335"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="475"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="483"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>L</original>
+<variation>I</variation>
+<location>
+<position position="41"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>LTEMEMDDG</original>
+<variation>SIEMEDS</variation>
+<location>
+<begin position="54"/>
+<end position="62"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>T</original>
+<variation>S</variation>
+<location>
+<position position="75"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>QTA</original>
+<variation>ETT</variation>
+<location>
+<begin position="90"/>
+<end position="92"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>G</original>
+<variation>D</variation>
+<location>
+<position position="105"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>T</original>
+<variation>S</variation>
+<location>
+<position position="155"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>Q</original>
+<variation>R</variation>
+<location>
+<position position="164"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>N</original>
+<variation>T</variation>
+<location>
+<position position="197"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>AGH</original>
+<variation>TGR</variation>
+<location>
+<begin position="201"/>
+<end position="203"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>VDQ</original>
+<variation>LDE</variation>
+<location>
+<begin position="209"/>
+<end position="211"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>L</original>
+<variation>I</variation>
+<location>
+<position position="238"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>H</original>
+<variation>Q</variation>
+<location>
+<position position="272"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>Q</original>
+<variation>D</variation>
+<location>
+<position position="289"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>K</original>
+<variation>N</variation>
+<location>
+<position position="295"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>SWVVMC</original>
+<variation>FWAVIG</variation>
+<location>
+<begin position="302"/>
+<end position="307"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>IL</original>
+<variation>TV</variation>
+<location>
+<begin position="325"/>
+<end position="326"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>V</original>
+<variation>I</variation>
+<location>
+<position position="329"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>HEI</original>
+<variation>DEL</variation>
+<location>
+<begin position="341"/>
+<end position="343"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>TD</original>
+<variation>IH</variation>
+<location>
+<begin position="358"/>
+<end position="359"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>TVN</original>
+<variation>IAD</variation>
+<location>
+<begin position="375"/>
+<end position="377"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>V</original>
+<variation>F</variation>
+<location>
+<position position="381"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>R</original>
+<variation>Q</variation>
+<location>
+<position position="386"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>T</original>
+<variation>A</variation>
+<location>
+<position position="393"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>T</original>
+<variation>S</variation>
+<location>
+<position position="415"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>I</original>
+<variation>M</variation>
+<location>
+<position position="418"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>M</original>
+<variation>L</variation>
+<location>
+<position position="429"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>M</original>
+<variation>L</variation>
+<location>
+<position position="434"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>L</original>
+<variation>V</variation>
+<location>
+<position position="437"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>D</original>
+<variation>G</variation>
+<location>
+<position position="446"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>LDLL</original>
+<variation>QELS</variation>
+<location>
+<begin position="464"/>
+<end position="467"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>A</original>
+<variation>T</variation>
+<location>
+<position position="474"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAK83561." ref="2" evidence="4">
+<original>I</original>
+<variation>L</variation>
+<location>
+<position position="551"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9442047"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9539701"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="581" mass="67968" checksum="864622AE8BCC32C8" modified="1998-08-01" version="1">MAEISESSIPRRTGNHHGNVWDDDLIHSLNSPYGAPAYYELLQKLIQEIKHLLLTEMEMDDGDHDLIKRLQIVDTLECLGIDRHFEHEIQTAALDYVYRWWNEKGIGEGSRDSFSKDLNATALGFRALRLHRYNVSSGVLKNFKDENGKFFCNFTGEEGRGDKQVRSMLSLLRASEISFPGEKVMEEAKAFTREYLNQVLAGHGDVTDVDQSLLREVKYALEFPWHCSVPRWEARSFLEIYGHNHSWLKSNINQKMLKLAKLDFNILQCKHHKEIQFITRWWRDSGISQLNFYRKRHVEYYSWVVMCIFEPEFSESRIAFAKTAILCTVLDDLYDTHATLHEIKIMTEGVRRWDLSLTDDLPDYIKIAFQFFFNTVNELIVEIVKRQGRDMTTIVKDCWKRYIESYLQEAEWIATGHIPTFNEYIKNGMASSGMCILNLNPLLLLDKLLPDNILEQIHSPSKILDLLELTGRIADDLKDFEDEKERGEMASSLQCYMKENPESTVENALNHIKGILNRSLEEFNWEFMKQDSVPMCCKKFTFNIGRGLQFIYKYRDGLYISDKEVKDQIFKILVHQVPMEE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2020-02-26" modified="2021-04-07" version="5">
+<accession>A0A4P8GFV8</accession>
+<name>EUPE_PHOSX</name>
+<protein>
+<recommendedName>
+<fullName evidence="6">Alpha-humulene synthase eupE</fullName>
+<ecNumber evidence="3">4.2.3.104</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="6">Eupenifeldin biosynthesis cluster protein E</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="6">eupE</name>
+<name type="ORF">gme12634</name>
+</gene>
+<organism>
+<name type="scientific">Phoma sp.</name>
+<dbReference type="NCBI Taxonomy" id="1707701"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Dothideomycetes</taxon>
+<taxon>Pleosporomycetidae</taxon>
+<taxon>Pleosporales</taxon>
+<taxon>Pleosporineae</taxon>
+<taxon>Didymellaceae</taxon>
+<taxon>Phoma</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2019" name="Fungal Genet. Biol." volume="129" first="7" last="15">
+<title>Identification of the gene cluster for bistropolone-humulene meroterpenoid biosynthesis in Phoma sp.</title>
+<authorList>
+<person name="Zhai Y."/>
+<person name="Li Y."/>
+<person name="Zhang J."/>
+<person name="Zhang Y."/>
+<person name="Ren F."/>
+<person name="Zhang X."/>
+<person name="Liu G."/>
+<person name="Liu X."/>
+<person name="Che Y."/>
+</authorList>
+<dbReference type="PubMed" id="30980906"/>
+<dbReference type="DOI" id="10.1016/j.fgb.2019.04.004"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>FUNCTION</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>PATHWAY</scope>
+<source>
+<strain>XZ068 / CGMCC No. 10481</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1993" name="J. Antibiot." volume="46" first="1082" last="1088">
+<title>Eupenifeldin, a novel cytotoxic bistropolone from Eupenicillium brefeldianum.</title>
+<authorList>
+<person name="Mayerl F."/>
+<person name="Gao Q."/>
+<person name="Huang S."/>
+<person name="Klohr S.E."/>
+<person name="Matson J.A."/>
+<person name="Gustavson D.R."/>
+<person name="Pirnik D.M."/>
+<person name="Berry R.L."/>
+<person name="Fairchild C."/>
+<person name="Rose W.C."/>
+</authorList>
+<dbReference type="PubMed" id="8360103"/>
+<dbReference type="DOI" id="10.7164/antibiotics.46.1082"/>
+</citation>
+<scope>BIOTECHNOLOGY</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2008" name="J. Nat. Prod." volume="71" first="457" last="459">
+<title>Noreupenifeldin, a tropolone from an unidentified ascomycete.</title>
+<authorList>
+<person name="Ayers S."/>
+<person name="Zink D.L."/>
+<person name="Powell J.S."/>
+<person name="Brown C.M."/>
+<person name="Grund A."/>
+<person name="Bills G.F."/>
+<person name="Platas G."/>
+<person name="Thompson D."/>
+<person name="Singh S.B."/>
+</authorList>
+<dbReference type="PubMed" id="18095654"/>
+<dbReference type="DOI" id="10.1021/np070513k"/>
+</citation>
+<scope>BIOTECHNOLOGY</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2008" name="Phytochem. Lett." volume="1" first="204" last="206">
+<title>Ramiferin, a bisphenol-sesquiterpene from the fungus Kionochaeta ramifera BCC 7585.</title>
+<authorList>
+<person name="Bunyapaiboonsri T."/>
+<person name="Veeranondha S."/>
+<person name="Boonruangprapa T."/>
+<person name="Somrithipol S."/>
+</authorList>
+<dbReference type="DOI" id="10.1016/j.phytol.2008.09.008"/>
+</citation>
+<scope>BIOTECHNOLOGY</scope>
+</reference>
+<comment type="function">
+<text evidence="3 8">Alpha-humulene synthase; part of the gene cluster that mediates the biosynthesis of eupenifeldin, a bistropolone meroterpenoid that acts as an antitumor agent (PubMed:30980906). The first step of eupenifeldin biosynthesis is the biosynthesis of 3-methylorcinaldehyde performed by the non-reducing polyketide synthase eupA (PubMed:30980906). Oxidative dearomatization of 3-methylorcinaldehyde likely catalyzed by the FAD-dependent monooxygenase eupB is followed by oxidative ring expansion by the 2-oxoglutarate-dependent dioxygenase eupC to provide the first tropolone metabolite, tropolone stipitaldehyde (Probable). In parallel, generation of sesquiterpene alpha-humulene from farnesylpyrophosphate (FPP) is catalyzed by the terpene cyclase eupE (PubMed:30980906). The cytochrome P450 monooxygenase eupD then hydroxylates humulene to humulenol (PubMed:30980906). The putative Diels-Alderase eupF probably catalyzes the formation of the tropolone-humulene skeleton by linking humulenol and the polyketide moiety (Probable). The short-chain dehydrogenase/reductase eupG and the flavin-dependent monooxygenase eupH are also essential for eupenifeldin biosynthesis and are likely the additional decorating enzymes of the tropolone-humulene skeleton to produce final eupenifeldin or derivatives (Probable).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>(2E,6E)-farnesyl diphosphate = (1E,4E,8E)-alpha-humulene + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:31895"/>
+<dbReference type="ChEBI" id="CHEBI:5768"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.104"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="3">
+<dbReference type="Rhea" id="RHEA:31896"/>
+</physiologicalReaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="pathway" evidence="3">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="3">Abolishes the production of humulene.</text>
+</comment>
+<comment type="biotechnology">
+<text evidence="2 4 5">Eupenifeldin is a bistropolone-humulene meroterpenoid first discovered as an antitumor and anti-leukemia agent (PubMed:8360103). This metabolite shows also anthelmintic activity against the parasitic worm Hemonchus contortus, anti-malarial acticity as well as antifungal activity (PubMed:18095654, Ref.4).</text>
+</comment>
+<comment type="similarity">
+<text evidence="7">Belongs to the terpene synthase family. Alpha-humulene synthase eupE subfamily.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.104" evidence="3"/>
+<dbReference type="EMBL" id="MK400120">
+<property type="protein sequence ID" value="QCO93112.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="GO" id="GO:0080017">
+<property type="term" value="F:alpha-humulene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="RHEA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<feature type="chain" description="Alpha-humulene synthase eupE" id="PRO_0000449160">
+<location>
+<begin position="1"/>
+<end position="379"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="A0A2U8U2L5"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18095654"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="30980906"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8360103"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source ref="4"/>
+</evidence>
+<evidence key="6" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="30980906"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000305"/>
+<evidence key="8" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="30980906"/>
+</source>
+</evidence>
+<sequence length="379" mass="43179" checksum="8EF9E6315AE369C4" modified="2019-07-31" version="1">MKEIWETLKQYFGDGFVPGSAPLRYEMHFCDMKEPLNKKQSMRYGVEIPEDAMPLFSVLGDTCAPPCSCQDISGVIEHIDRYLENAPIRHADDYTITSGKDDEDINQVSLYIMRDTLSWWVHWGGSLHPNNYWKLIYVAFAAIPDDVQVHPRDFIDGTYRFLGHSWNDCLNGLLAEGVPSDQVKLAEMTLWRQMATQYIEKVDPGLRSLLVSKTTLMTQYRVMTANTLGCAVLLLASEGVIVGDLDDGALEMASIAQCLSMDMAKEALGVLEGEKTETVAGDRRQLKRELRWLYVRCMKYLDAQPHAEFLRRFASSGLHYVPMMDRYLERVRGHIRFPIRESVARILEPFIKREPTPNKSGREADHIAQVVNEPITVAL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

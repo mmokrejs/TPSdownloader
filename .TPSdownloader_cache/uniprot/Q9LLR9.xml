@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2009-07-28" dataset="Swiss-Prot" modified="2020-12-02" version="74">
+    <accession>Q9LLR9</accession>
+    <accession>Q9ST45</accession>
+    <name>ECS1_ARTAN</name>
+    <protein>
+      <recommendedName>
+        <fullName>Epi-cedrol synthase</fullName>
+        <ecNumber>4.2.3.39</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>8-epicedrol synthase</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name type="primary">ECS1</name>
+    </gene>
+    <organism>
+      <name type="scientific">Artemisia annua</name>
+      <name type="common">Sweet wormwood</name>
+      <dbReference id="35608" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>campanulids</taxon>
+        <taxon>Asterales</taxon>
+        <taxon>Asteraceae</taxon>
+        <taxon>Asteroideae</taxon>
+        <taxon>Anthemideae</taxon>
+        <taxon>Artemisiinae</taxon>
+        <taxon>Artemisia</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="1999" first="208" last="212" name="Arch. Biochem. Biophys." type="journal article" volume="369">
+        <title>The molecular cloning of 8-epicedrol synthase from Artemisia annua.</title>
+        <authorList>
+          <person name="Hua L."/>
+          <person name="Matsuda S.P."/>
+        </authorList>
+        <dbReference id="10486139" type="PubMed"/>
+        <dbReference id="10.1006/abbi.1999.1357" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="2">
+      <citation date="1999" first="213" last="222" name="Arch. Biochem. Biophys." type="journal article" volume="369">
+        <title>Cloning, expression, and characterization of epi-cedrol synthase, a sesquiterpene cyclase from Artemisia annua L.</title>
+        <authorList>
+          <person name="Mercke P."/>
+          <person name="Xue Z.T."/>
+          <person name="Brodelius P.E."/>
+        </authorList>
+        <dbReference id="10486140" type="PubMed"/>
+        <dbReference id="10.1006/abbi.1999.1358" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <source>
+        <tissue>Leaf</tissue>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2000" first="163" last="171" name="Plant Sci." type="journal article" volume="158">
+        <title>Cloning and molecular analysis of two new sesquiterpene cyclases from Artemisia annua L.</title>
+        <authorList>
+          <person name="Van Geldre E."/>
+          <person name="De Pauw I."/>
+          <person name="Inze D."/>
+          <person name="Van Montagu M."/>
+          <person name="Van den Eeckhout E."/>
+        </authorList>
+        <dbReference id="10996256" type="PubMed"/>
+        <dbReference id="10.1016/s0168-9452(00)00322-8" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>TISSUE SPECIFICITY</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Sesquiterpene cyclase catalyzing the production of 8-epi-cedrol. Able to convert geranyl diphosphate to monoterpens. Can use farnesyl diphosphate or geranyl diphosphate as substrates, but not geranylgeranyl diphosphate. Probably not involved in artemisinin biosynthesis.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction>
+        <text>(2E,6E)-farnesyl diphosphate + H2O = diphosphate + epi-cedrol</text>
+        <dbReference id="RHEA:26115" type="Rhea"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:52226" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.39" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <cofactor evidence="1">
+        <name>Mn(2+)</name>
+        <dbReference id="CHEBI:29035" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+    </comment>
+    <comment type="activity regulation">
+      <text>Inhibited by high concentration of manganese.</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="3">0.4 uM for farnesyl diphosphate (at pH 7.0)</KM>
+        <KM evidence="3">1.3 uM for farnesyl diphosphate (at pH 9.0)</KM>
+        <KM evidence="3">80 uM for magnesium (at pH 7.0)</KM>
+        <KM evidence="3">80 uM for magnesium (at pH 9.0)</KM>
+      </kinetics>
+      <phDependence>
+        <text evidence="3">Optimum pH is 8.5-9.0.</text>
+      </phDependence>
+    </comment>
+    <comment type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="tissue specificity">
+      <text evidence="4">Constitutively expressed in leaves and flowers.</text>
+    </comment>
+    <comment type="domain">
+      <text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="5">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference id="4.2.3.39" type="EC"/>
+    <dbReference id="AF157059" type="EMBL">
+      <property type="protein sequence ID" value="AAF80333.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AJ001539" type="EMBL">
+      <property type="protein sequence ID" value="CAC08805.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AJ249561" type="EMBL">
+      <property type="protein sequence ID" value="CAB56499.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="Q9LLR9" type="SMR"/>
+    <dbReference id="ag:AAF80333" type="KEGG"/>
+    <dbReference id="MetaCyc:MONOMER-16025" type="BioCyc"/>
+    <dbReference id="4.2.3.39" type="BRENDA">
+      <property type="organism ID" value="7150"/>
+    </dbReference>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="GO:0052682" type="GO">
+      <property type="term" value="F:epi-cedrol synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0464">Manganese</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Epi-cedrol synthase" id="PRO_0000380670" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="547"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="299"/>
+        <end position="303"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="299"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="299"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="303"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="303"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="443"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="447"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="451"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 3; CAB56499." evidence="5" ref="3" type="sequence conflict">
+      <original>V</original>
+      <variation>I</variation>
+      <location>
+        <position position="185"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="10486139" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="10486140" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="10996256" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000305"/>
+    <sequence checksum="E84EE9FCEED70BE2" length="547" mass="63564" modified="2000-10-01" version="1">MSLIVEDVIRPNANFPSEIWGDQFLAYDQDEQEGVEQVIKDLKEEVKSELLTALNSPTQHTELLKFIDAIERLGIAYYFEEEINQVFQHMYTAYGDKWTGGNTSLWFRLMRQHGFFVSSDIFSTYKDKEGRFKESLEKDVHGLLELYEAAYMFVPGEGILDDALVFTRTCLDEIAKNPSLSNSAVSSQIREALTQPLHKRLPRLEALRYIPFYQQQASHSETLLKLAKLGFNQLQSLHKKELSIISKWWKSFDVANNLPYARNRPVECYFWALAVYFEPQYSESRVFLSRFFSIQTFLDDTYDAYGTYEELEQFTEAIQRWSITCLDGLPESMKLIFQMLVKIFEEIEEILSKDGKQHHVNYIKETLKEAVQSYMTEARWAKEEYIPTIEEHTKVSYISIGYKLALVAGFACMGDVIADDSFEWVFTNPPLVNACCLLCRTMDDLGSHKGEQDRKHVASTIECYMKQFDASEQQAYESLNKKVEDAWKEINREFMITCKDVNIHVAMRVLNFSRSVDVLYKNKDHFTHVGVEVINHIKSLFVDAIIT</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

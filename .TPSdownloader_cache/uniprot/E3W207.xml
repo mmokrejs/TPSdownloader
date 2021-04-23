@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2012-09-05" dataset="Swiss-Prot" modified="2020-12-02" version="27">
+    <accession>E3W207</accession>
+    <name>SAUSS_SANAS</name>
+    <protein>
+      <recommendedName>
+        <fullName>Sesquiterpene synthase</fullName>
+        <shortName>SauSesquiTPS</shortName>
+        <ecNumber>4.2.3.-</ecNumber>
+      </recommendedName>
+    </protein>
+    <organism>
+      <name type="scientific">Santalum austrocaledonicum</name>
+      <name type="common">Sandalwood</name>
+      <dbReference id="293154" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>Santalales</taxon>
+        <taxon>Santalaceae</taxon>
+        <taxon>Santalum</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2011" first="17445" last="17454" name="J. Biol. Chem." type="journal article" volume="286">
+        <title>Sandalwood fragrance biosynthesis involves sesquiterpene synthases of both the terpene synthase (TPS)-a and TPS-b Subfamilies, including santalene synthases.</title>
+        <authorList>
+          <person name="Jones C.G."/>
+          <person name="Moniodis J."/>
+          <person name="Zulak K.G."/>
+          <person name="Scaffidi A."/>
+          <person name="Plummer J.A."/>
+          <person name="Ghisalberti E.L."/>
+          <person name="Barbour E.L."/>
+          <person name="Bohlmann J."/>
+        </authorList>
+        <dbReference id="21454632" type="PubMed"/>
+        <dbReference id="10.1074/jbc.m111.231787" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Catalyzes alpha-humulene and delta-cadinene, as well as beta-elemene, the thermal rearrangement product of germacrene A and several other bicyclic sesquiterpenes when incubated with (2E,6E)-farnesyl diphosphate.</text>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <cofactor evidence="1">
+        <name>Mn(2+)</name>
+        <dbReference id="CHEBI:29035" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene synthase family. Tpsa subfamily.</text>
+    </comment>
+    <dbReference id="4.2.3.-" type="EC"/>
+    <dbReference id="HQ343281" type="EMBL">
+      <property type="protein sequence ID" value="ADO87005.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="E3W207" type="SMR"/>
+    <dbReference id="E3W207" type="PRIDE"/>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0464">Manganese</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Sesquiterpene synthase" id="PRO_0000418947" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="559"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="312"/>
+        <end position="316"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="312"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="312"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="316"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="316"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="464"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="21454632" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <sequence checksum="F05080986CA11303" length="559" mass="65559" modified="2011-01-11" version="1">MENQKVPISSVPNLKELSRPIANFPPSIWGDRFINYTCEDENEQAQKERQVEELKEQVRRELAATVDKPLQQLNIIDATQRLGIAYHFENEIEESLEHIYLHTYVKNNCFQGSHDLYSVALWFRLLRQDGYKVSCDVFDNFRDYEGNFKNSLMEDAKGLLELYEATHLSVHGEEMLDDALEFAKTRLESIVNHLNYPLAEQVRHALYRPLRKGLPRLEAVYFFRIYEAYHSHNKALLKLAKLDFNLLQSLHRKELGDMARWWRSLDFATKFPFARDRLVEGYFWILGVYFEPQYSLAREITTKVFAMISTIDDIYDAYGTLDELKLFTEAIQRWDVGSLDQLPEYMKPCYKSILDVYNEIEEEMANQGSLFRMHYAKEVMKTIVEGYMDEAKWCHEKYVPTFQEYMSLALVTSGYTFLTTISYLGMGGIASKEAFEWLFSHPPIIEASESICRLMDDMSSHKFEQERGHVASGIECYMKQYGVIEEEAHDEFHKRLVKAWKDINEGFLRPYAVPEPLLMRILNLTRVMDVIYKNEDSYTHVKKAMKDNIASLLIDPMIV</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

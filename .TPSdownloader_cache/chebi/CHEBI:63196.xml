@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:63196</ID>
+<NAME>(+)-caryolan-1-ol</NAME>
+<DEFINITION>A carbotricyclic compound that is tricyclo[6.3.1.02,5]dodecane which is substituted by a hydroxy group at position 1 and by methyl groups at positions 4, 4, and 8 (the  1S,2R,5S,8R-diastereoisomer).</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>(+)-caryolan-1-ol</SYNONYM>
+<SYNONYM>(+)-beta-caryophyllene alcohol</SYNONYM>
+<IUPAC_NAME>(1S,2R,5S,8R)-4,4,8-trimethyltricyclo[6.3.1.0(2,5)]dodecan-1-ol</IUPAC_NAME>
+<FORMULA>C15H26O</FORMULA>
+<MASS>222.36630</MASS>
+<MONOISOTOPIC_MASS>222.19837</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@]12CC[C@@]3(C)CCC[C@](O)(C3)[C@]1([H])CC2(C)C</SMILES>
+<INCHI>InChI=1S/C15H26O/c1-13(2)9-12-11(13)5-8-14(3)6-4-7-15(12,16)10-14/h11-12,16H,4-10H2,1-3H3/t11-,12+,14+,15-/m0/s1</INCHI>
+<INCHIKEY>FUQAYSQLAOJBBC-MXYBEHONSA-N</INCHIKEY>
+<PUBMED_CITATION>21693706</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

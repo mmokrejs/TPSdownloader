@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2011-02-08" dataset="TrEMBL" modified="2020-12-02" version="70">
+    <accession>E5GAF7</accession>
+    <name>E5GAF7_VITVI</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="6">Terpene synthase</fullName>
+      </submittedName>
+    </protein>
+    <gene>
+      <name evidence="7" type="ordered locus">VIT_18s0001g04280</name>
+    </gene>
+    <organism evidence="6">
+      <name type="scientific">Vitis vinifera</name>
+      <name type="common">Grape</name>
+      <dbReference id="29760" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>Vitales</taxon>
+        <taxon>Vitaceae</taxon>
+        <taxon>Viteae</taxon>
+        <taxon>Vitis</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="8" key="1">
+      <citation date="2007" first="463" last="467" name="Nature" type="journal article" volume="449">
+        <title>The grapevine genome sequence suggests ancestral hexaploidization in major angiosperm phyla.</title>
+        <authorList>
+          <consortium name="The French-Italian Public Consortium for Grapevine Genome Characterization."/>
+          <person name="Jaillon O."/>
+          <person name="Aury J.-M."/>
+          <person name="Noel B."/>
+          <person name="Policriti A."/>
+          <person name="Clepet C."/>
+          <person name="Casagrande A."/>
+          <person name="Choisne N."/>
+          <person name="Aubourg S."/>
+          <person name="Vitulo N."/>
+          <person name="Jubin C."/>
+          <person name="Vezzi A."/>
+          <person name="Legeai F."/>
+          <person name="Hugueney P."/>
+          <person name="Dasilva C."/>
+          <person name="Horner D."/>
+          <person name="Mica E."/>
+          <person name="Jublot D."/>
+          <person name="Poulain J."/>
+          <person name="Bruyere C."/>
+          <person name="Billault A."/>
+          <person name="Segurens B."/>
+          <person name="Gouyvenoux M."/>
+          <person name="Ugarte E."/>
+          <person name="Cattonaro F."/>
+          <person name="Anthouard V."/>
+          <person name="Vico V."/>
+          <person name="Del Fabbro C."/>
+          <person name="Alaux M."/>
+          <person name="Di Gaspero G."/>
+          <person name="Dumas V."/>
+          <person name="Felice N."/>
+          <person name="Paillard S."/>
+          <person name="Juman I."/>
+          <person name="Moroldo M."/>
+          <person name="Scalabrin S."/>
+          <person name="Canaguier A."/>
+          <person name="Le Clainche I."/>
+          <person name="Malacrida G."/>
+          <person name="Durand E."/>
+          <person name="Pesole G."/>
+          <person name="Laucou V."/>
+          <person name="Chatelet P."/>
+          <person name="Merdinoglu D."/>
+          <person name="Delledonne M."/>
+          <person name="Pezzotti M."/>
+          <person name="Lecharny A."/>
+          <person name="Scarpelli C."/>
+          <person name="Artiguenave F."/>
+          <person name="Pe M.E."/>
+          <person name="Valle G."/>
+          <person name="Morgante M."/>
+          <person name="Caboche M."/>
+          <person name="Adam-Blondon A.-F."/>
+          <person name="Weissenbach J."/>
+          <person name="Quetier F."/>
+          <person name="Wincker P."/>
+        </authorList>
+        <dbReference id="17721507" type="PubMed"/>
+        <dbReference id="10.1038/nature06148" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain evidence="8">cv. Pinot noir / PN40024</strain>
+      </source>
+    </reference>
+    <reference evidence="6" key="2">
+      <citation date="2010" first="226" last="226" name="BMC Plant Biol." type="journal article" volume="10">
+        <title>Functional annotation, genome organization and phylogeny of the grapevine (Vitis vinifera) terpene synthase gene family based on genome assembly, FLcDNA cloning, and enzyme assays.</title>
+        <authorList>
+          <person name="Martin D.M."/>
+          <person name="Aubourg S."/>
+          <person name="Schouwey M.B."/>
+          <person name="Daviet L."/>
+          <person name="Schalk M."/>
+          <person name="Toub O."/>
+          <person name="Lund S.T."/>
+          <person name="Bohlmann J."/>
+        </authorList>
+        <dbReference id="20964856" type="PubMed"/>
+        <dbReference id="10.1186/1471-2229-10-226" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+      <source>
+        <strain evidence="6">VvGwGerD</strain>
+      </source>
+    </reference>
+    <reference evidence="7" key="3">
+      <citation date="2011-05" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>High quality assembly and annotation of grapevine genome.</title>
+        <authorList>
+          <person name="Vitulo N."/>
+          <person name="Olivier J."/>
+          <person name="Forcato C."/>
+          <person name="Albiero A."/>
+          <person name="D'Angelo M."/>
+          <person name="Zimbello R."/>
+          <person name="Schiavon R."/>
+          <person name="Rigobello C."/>
+          <person name="Policriti A."/>
+          <person name="Clepet C."/>
+          <person name="Casagrande A."/>
+          <person name="Choisne N."/>
+          <person name="Vezzi A."/>
+          <person name="Hugueney P."/>
+          <person name="Horner D."/>
+          <person name="Mica E."/>
+          <person name="Cattonaro F."/>
+          <person name="Del Fabbro C."/>
+          <person name="Alaux M."/>
+          <person name="Di Gaspero G."/>
+          <person name="Scalabrin S."/>
+          <person name="Pesole G."/>
+          <person name="Delledonne M."/>
+          <person name="Pezzotti M."/>
+          <person name="Pe E.M."/>
+          <person name="Caboche M."/>
+          <person name="Adam-Blondon A.-F."/>
+          <person name="Weissenbach J."/>
+          <person name="Quetier F."/>
+          <person name="Wincker P."/>
+          <person name="Morgante M."/>
+          <person name="Valle G."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <dbReference id="HM807377" type="EMBL">
+      <property type="protein sequence ID" value="ADR74196.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="FN595996" type="EMBL">
+      <property type="protein sequence ID" value="CCB56052.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="NP_001268063.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_001281134.1"/>
+    </dbReference>
+    <dbReference id="E5GAF7" type="SMR"/>
+    <dbReference id="29760.VIT_18s0001g04280.t01" type="STRING"/>
+    <dbReference id="VIT_18s0001g04280.t01" type="EnsemblPlants">
+      <property type="protein sequence ID" value="VIT_18s0001g04280.t01"/>
+      <property type="gene ID" value="VIT_18s0001g04280"/>
+    </dbReference>
+    <dbReference id="100267145" type="GeneID"/>
+    <dbReference id="VIT_18s0001g04280.t01" type="Gramene">
+      <property type="protein sequence ID" value="VIT_18s0001g04280.t01"/>
+      <property type="gene ID" value="VIT_18s0001g04280"/>
+    </dbReference>
+    <dbReference id="vvi:100267145" type="KEGG"/>
+    <dbReference id="ENOG502QUCN" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="CLU_003125_7_2_1" type="HOGENOM"/>
+    <dbReference id="360509at2759" type="OrthoDB"/>
+    <dbReference id="UP000009183" type="Proteomes">
+      <property type="component" value="Chromosome 18, unordered"/>
+    </dbReference>
+    <dbReference id="E5GAF7" type="ExpressionAtlas">
+      <property type="expression patterns" value="baseline and differential"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="3" id="KW-0175">Coiled coil</keyword>
+    <keyword evidence="2" id="KW-0460">Magnesium</keyword>
+    <keyword evidence="1" id="KW-0479">Metal-binding</keyword>
+    <keyword evidence="8" id="KW-1185">Reference proteome</keyword>
+    <feature description="Terpene_synth" evidence="4" type="domain">
+      <location>
+        <begin position="28"/>
+        <end position="203"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="5" type="domain">
+      <location>
+        <begin position="234"/>
+        <end position="497"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="coiled-coil region">
+      <location>
+        <begin position="44"/>
+        <end position="64"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="coiled-coil region">
+      <location>
+        <begin position="347"/>
+        <end position="367"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022842" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000256">
+      <source>
+        <dbReference id="Coils" type="SAM"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000313">
+      <source>
+        <dbReference id="ADR74196.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000313">
+      <source>
+        <dbReference id="CCB56052.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000313">
+      <source>
+        <dbReference id="UP000009183" type="Proteomes"/>
+      </source>
+    </evidence>
+    <sequence checksum="46BB57C8EDE41D34" length="555" mass="64375" modified="2011-02-08" version="1">MSGQVLASPLGQFPELENRPVVQYHPSIWGDQFLSYTPEDEVTRACKEKQLEDLKEEIRRKLMNTAGNTSQQLKFIDAVQRLGVAYHFEREIEEVLQHIYDSYPNGDDMEGDIYNVALQFRLLRQAGFNISCGLFNEFKDEKGNFKKALVSDVRGMLGLYEAAHLRVHGEDILAKALAFTTTHLKAMVESLGYHLAEQVAHALNRPIRKGLERLEARWYISVYQDEAFHDKTLLELAKLDFNLVQSLHKEELSNLARWWKELDFATKLPFARDRLVECYFWMLGVYFEPQYLRARRILTKVIAMISILDDIHDAYGTPEELKLFIEAIERWDINSIDQLPEYMKLCYAALLDVYKEIEEEMEKEGNQYRVHYAKEVMKNQVRAYFAEAKWLHEEHVPTFEEYMRVALVSSGYCILATTSFVGMGEIATKEAFDWVTSNPKIMSSSNFIARLMDDIKSHKFEQKRGHVASAVECYMKQYGVSEEQVYKEFQKQIENAWLDINQECLKPTAVSMPLLARILNLTRAADVVYKEQDSYTHVGKVMRDNIASVLINAVI</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:63462</ID>
+<NAME>glutinol</NAME>
+<DEFINITION>A pentacyclic triterpenoid that is picene which has been fully hydrogenated except for a double bond between the 4a and 5 positions and is substituted by methyl groups at the 4, 4, 6bβ, 8aβ, 11, 11, 12bα and 14bβ positions, and by a hydroxy group at the 3β position.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>glutinol</SYNONYM>
+<SYNONYM>glutin-5-en-3beta-ol</SYNONYM>
+<SYNONYM>3beta-hydroxyglutin-5-ene</SYNONYM>
+<SYNONYM>3beta-hydroxy-D:B-friedoolean-5-ene</SYNONYM>
+<IUPAC_NAME>(3S,6aS,6bR,8aR,12aR,12bS,14aR,14bS)-4,4,6b,8a,11,11,12b,14a-octamethyl-1,2,3,4,6,6a,6b,7,8,8a,9,10,11,12,12a,12b,13,14,14a,14b-icosahydropicen-3-ol</IUPAC_NAME>
+<FORMULA>C30H50O</FORMULA>
+<MASS>426.71740</MASS>
+<MONOISOTOPIC_MASS>426.38617</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@@]12CC[C@H](O)C(C)(C)C1=CC[C@@]1([H])[C@@]2(C)CC[C@@]2(C)[C@]3([H])CC(C)(C)CC[C@]3(C)CC[C@]12C</SMILES>
+<INCHI>InChI=1S/C30H50O/c1-25(2)13-14-27(5)15-17-29(7)22-11-9-20-21(10-12-24(31)26(20,3)4)28(22,6)16-18-30(29,8)23(27)19-25/h9,21-24,31H,10-19H2,1-8H3/t21-,22+,23-,24+,27-,28+,29-,30+/m1/s1</INCHI>
+<INCHIKEY>HFSACQSILLSUII-ISSAZSKYSA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>2339451</REAXYS_REGISTRY_NUMBER>
+<METACYC_ACCESSION>CPD-13048</METACYC_ACCESSION>
+<PUBMED_CITATION>20610397</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

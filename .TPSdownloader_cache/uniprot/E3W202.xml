@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2012-09-05" dataset="Swiss-Prot" modified="2021-04-07" version="32">
+    <accession>E3W202</accession>
+    <name>SASY_SANAL</name>
+    <protein>
+      <recommendedName>
+        <fullName>Santalene synthase</fullName>
+        <shortName>SaSSy</shortName>
+        <ecNumber>4.2.3.81</ecNumber>
+        <ecNumber>4.2.3.82</ecNumber>
+        <ecNumber>4.2.3.83</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>Alpha-santalene synthase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Beta-santalene synthase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Exo-alpha-bergamotene synthase</fullName>
+      </alternativeName>
+    </protein>
+    <organism>
+      <name type="scientific">Santalum album</name>
+      <name type="common">White sandalwood</name>
+      <dbReference id="35974" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>Santalales</taxon>
+        <taxon>Santalaceae</taxon>
+        <taxon>Santalum</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2011" first="17445" last="17454" name="J. Biol. Chem." type="journal article" volume="286">
+        <title>Sandalwood fragrance biosynthesis involves sesquiterpene synthases of both the terpene synthase (TPS)-a and TPS-b Subfamilies, including santalene synthases.</title>
+        <authorList>
+          <person name="Jones C.G."/>
+          <person name="Moniodis J."/>
+          <person name="Zulak K.G."/>
+          <person name="Scaffidi A."/>
+          <person name="Plummer J.A."/>
+          <person name="Ghisalberti E.L."/>
+          <person name="Barbour E.L."/>
+          <person name="Bohlmann J."/>
+        </authorList>
+        <dbReference id="21454632" type="PubMed"/>
+        <dbReference id="10.1074/jbc.m111.231787" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Catalyzes a mixture of sesquiterpenoids from (2E,6E)-farnesyl diphosphate in fragrance biosynthesis. Catalyzes the formation of alpha-santalene, beta-santalene, epi-beta-santalene and exo-alpha-bergamotene, as well as traces of alpha-farnesene and beta-farnesene. Also acts with (Z,Z)-farnesyl diphosphate isomer, producing alpha-endo-bergamotene, alpha-santalene, (Z)-beta-farnesene, epi-beta-santalene, and beta-santalene.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = (-)-exo-alpha-bergamotene + diphosphate</text>
+        <dbReference id="RHEA:31427" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:62756" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.81" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = (+)-alpha-santalene + diphosphate</text>
+        <dbReference id="RHEA:31435" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:61677" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.82" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = (-)-beta-santalene + diphosphate</text>
+        <dbReference id="RHEA:31431" type="Rhea"/>
+        <dbReference id="CHEBI:10440" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.83" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <cofactor evidence="1">
+        <name>Mn(2+)</name>
+        <dbReference id="CHEBI:29035" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="2">1.4 uM for (2E,6E)-farnesyl diphosphate</KM>
+        <text>kcat is 0.34 sec(-1) with (2E,6E)-farnesyl diphosphate as substrate.</text>
+      </kinetics>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene synthase family. Tpsb subfamily.</text>
+    </comment>
+    <dbReference id="4.2.3.81" type="EC"/>
+    <dbReference id="4.2.3.82" type="EC"/>
+    <dbReference id="4.2.3.83" type="EC"/>
+    <dbReference id="HQ343276" type="EMBL">
+      <property type="protein sequence ID" value="ADO87000.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="5ZZJ" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.60"/>
+      <property type="chains" value="A/B/C/D=1-569"/>
+    </dbReference>
+    <dbReference id="5ZZJ" type="PDBsum"/>
+    <dbReference id="E3W202" type="SMR"/>
+    <dbReference id="ag:ADO87000" type="KEGG"/>
+    <dbReference id="4.2.3.81" type="BRENDA">
+      <property type="organism ID" value="5574"/>
+    </dbReference>
+    <dbReference id="4.2.3.82" type="BRENDA">
+      <property type="organism ID" value="5574"/>
+    </dbReference>
+    <dbReference id="4.2.3.83" type="BRENDA">
+      <property type="organism ID" value="5574"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0002">3D-structure</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0464">Manganese</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Santalene synthase" id="PRO_0000418944" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="569"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="321"/>
+        <end position="325"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="321"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="321"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="325"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="325"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="467"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="471"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="44"/>
+        <end position="48"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="49"/>
+        <end position="51"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="59"/>
+        <end position="77"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="82"/>
+        <end position="94"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="97"/>
+        <end position="100"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="102"/>
+        <end position="112"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="turn">
+      <location>
+        <begin position="119"/>
+        <end position="123"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="125"/>
+        <end position="137"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="144"/>
+        <end position="150"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="159"/>
+        <end position="162"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="165"/>
+        <end position="175"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="183"/>
+        <end position="199"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="200"/>
+        <end position="202"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="206"/>
+        <end position="217"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="220"/>
+        <end position="222"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="225"/>
+        <end position="236"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="244"/>
+        <end position="274"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="277"/>
+        <end position="279"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="strand">
+      <location>
+        <begin position="281"/>
+        <end position="283"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="287"/>
+        <end position="297"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="301"/>
+        <end position="303"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="304"/>
+        <end position="325"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="330"/>
+        <end position="342"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="strand">
+      <location>
+        <begin position="345"/>
+        <end position="347"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="353"/>
+        <end position="377"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="382"/>
+        <end position="404"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="411"/>
+        <end position="421"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="424"/>
+        <end position="433"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="439"/>
+        <end position="445"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="450"/>
+        <end position="465"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="480"/>
+        <end position="488"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="492"/>
+        <end position="513"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="524"/>
+        <end position="538"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="strand">
+      <location>
+        <begin position="540"/>
+        <end position="542"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="strand">
+      <location>
+        <begin position="544"/>
+        <end position="550"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="553"/>
+        <end position="560"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="21454632" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <evidence key="4" type="ECO:0007744">
+      <source>
+        <dbReference id="5ZZJ" type="PDB"/>
+      </source>
+    </evidence>
+    <sequence checksum="E3FB6635D46F9406" length="569" mass="65163" modified="2011-01-11" version="1">MDSSTATAMTAPFIDPTDHVNLKTDTDASENRRMGNYKPSIWNYDFLQSLATHHNIVEERHLKLAEKLKGQVKFMFGAPMEPLAKLELVDVVQRLGLNHLFETEIKEALFSIYKDGSNGWWFGHLHATSLRFRLLRQCGLFIPQDVFKTFQNKTGEFDMKLCDNVKGLLSLYEASYLGWKGENILDEAKAFTTKCLKSAWENISEKWLAKRVKHALALPLHWRVPRIEARWFIEAYEQEANMNPTLLKLAKLDFNMVQSIHQKEIGELARWWVTTGLDKLAFARNNLLQSYMWSCAIASDPKFKLARETIVEIGSVLTVVDDGYDVYGSIDELDLYTSSVERWSCVEIDKLPNTLKLIFMSMFNKTNEVGLRVQHERGYNSIPTFIKAWVEQCKSYQKEARWFHGGHTPPLEEYSLNGLVSIGFPLLLITGYVAIAENEAALDKVHPLPDLLHYSSLLSRLINDIGTSPDEMARGDNLKSIHCYMNETGASEEVAREHIKGVIEENWKILNQCCFDQSQFQEPFITFNLNSVRGSHFFYEFGDGFGVTDSWTKVDMKSVLIDPIPLGEE</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

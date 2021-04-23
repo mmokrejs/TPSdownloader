@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2011-03-08" dataset="Swiss-Prot" modified="2020-12-02" version="54">
+    <accession>Q6WP50</accession>
+    <name>BOT2_BOTFU</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="12">Presilphiperfolan-8-beta-ol synthase</fullName>
+        <shortName evidence="12">PSPS</shortName>
+        <ecNumber evidence="5 6">4.2.3.74</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="11">Botrydial synthesis protein 2</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="10">Calcineurin-dependent protein 15</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Sesquiterpene cyclase BOT2</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="11">Sesquiterpene synthase BOT2</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name type="primary">BOT2</name>
+      <name type="synonym">CND15</name>
+    </gene>
+    <organism>
+      <name type="scientific">Botryotinia fuckeliana</name>
+      <name type="common">Noble rot fungus</name>
+      <name type="synonym">Botrytis cinerea</name>
+      <dbReference id="40559" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Ascomycota</taxon>
+        <taxon>Pezizomycotina</taxon>
+        <taxon>Leotiomycetes</taxon>
+        <taxon>Helotiales</taxon>
+        <taxon>Sclerotiniaceae</taxon>
+        <taxon>Botrytis</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2003" first="1451" last="1465" name="Mol. Microbiol." type="journal article" volume="50">
+        <title>Cyclophilin A and calcineurin functions investigated by gene inactivation, cyclosporin A inhibition and cDNA arrays approaches in the phytopathogenic fungus Botrytis cinerea.</title>
+        <authorList>
+          <person name="Viaud M."/>
+          <person name="Brunet-Simon A."/>
+          <person name="Brygoo Y."/>
+          <person name="Pradier J.-M."/>
+          <person name="Levis C."/>
+        </authorList>
+        <dbReference id="14651630" type="PubMed"/>
+        <dbReference id="10.1046/j.1365-2958.2003.03798.x" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+      <scope>INDUCTION</scope>
+      <source>
+        <strain>T4</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2005" first="602" last="612" name="Mol. Plant Microbe Interact." type="journal article" volume="18">
+        <title>Functional analysis of the cytochrome P450 monooxygenase gene bcbot1 of Botrytis cinerea indicates that botrydial is a strain-specific virulence factor.</title>
+        <authorList>
+          <person name="Siewers V."/>
+          <person name="Viaud M."/>
+          <person name="Jimenez-Teja D."/>
+          <person name="Collado I.G."/>
+          <person name="Gronover C.S."/>
+          <person name="Pradier J.M."/>
+          <person name="Tudzynski B."/>
+          <person name="Tudzynski P."/>
+        </authorList>
+        <dbReference id="15986930" type="PubMed"/>
+        <dbReference id="10.1094/mpmi-18-0602" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="3">
+      <citation date="2008" first="791" last="801" name="ACS Chem. Biol." type="journal article" volume="3">
+        <title>Sesquiterpene synthase from the botrydial biosynthetic gene cluster of the phytopathogen Botrytis cinerea.</title>
+        <authorList>
+          <person name="Pinedo C."/>
+          <person name="Wang C.M."/>
+          <person name="Pradier J.M."/>
+          <person name="Dalmais B."/>
+          <person name="Choquer M."/>
+          <person name="Le Pecheur P."/>
+          <person name="Morgant G."/>
+          <person name="Collado I.G."/>
+          <person name="Cane D.E."/>
+          <person name="Viaud M."/>
+        </authorList>
+        <dbReference id="19035644" type="PubMed"/>
+        <dbReference id="10.1021/cb800225v" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>INDUCTION</scope>
+      <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <reference key="4">
+      <citation date="2009" first="8360" last="8361" name="J. Am. Chem. Soc." type="journal article" volume="131">
+        <title>Biosynthesis of the sesquiterpene botrydial in Botrytis cinerea. Mechanism and stereochemistry of the enzymatic formation of presilphiperfolan-8beta-ol.</title>
+        <authorList>
+          <person name="Wang C.M."/>
+          <person name="Hopsn R."/>
+          <person name="Lin X."/>
+          <person name="Cane D.E."/>
+        </authorList>
+        <dbReference id="19476353" type="PubMed"/>
+        <dbReference id="10.1021/ja9021649" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <reference key="5">
+      <citation date="2016" first="2838" last="2846" name="ACS Chem. Biol." type="journal article" volume="11">
+        <title>Genetic and molecular basis of botrydial biosynthesis: connecting cytochrome P450-encoding genes to biosynthetic intermediates.</title>
+        <authorList>
+          <person name="Moraga J."/>
+          <person name="Dalmais B."/>
+          <person name="Izquierdo-Bueno I."/>
+          <person name="Aleu J."/>
+          <person name="Hanson J.R."/>
+          <person name="Hernandez-Galan R."/>
+          <person name="Viaud M."/>
+          <person name="Collado I.G."/>
+        </authorList>
+        <dbReference id="27529428" type="PubMed"/>
+        <dbReference id="10.1021/acschembio.6b00581" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="6">
+      <citation date="2016" first="33" last="46" name="Fungal Genet. Biol." type="journal article" volume="96">
+        <title>The botrydial biosynthetic gene cluster of Botrytis cinerea displays a bipartite genomic structure and is positively regulated by the putative Zn(II)2Cys6 transcription factor BcBot6.</title>
+        <authorList>
+          <person name="Porquier A."/>
+          <person name="Morgant G."/>
+          <person name="Moraga J."/>
+          <person name="Dalmais B."/>
+          <person name="Luyten I."/>
+          <person name="Simon A."/>
+          <person name="Pradier J.M."/>
+          <person name="Amselem J."/>
+          <person name="Collado I.G."/>
+          <person name="Viaud M."/>
+        </authorList>
+        <dbReference id="27721016" type="PubMed"/>
+        <dbReference id="10.1016/j.fgb.2016.10.003" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>INDUCTION</scope>
+    </reference>
+    <reference key="7">
+      <citation date="2017" first="5357" last="5363" name="Org. Biomol. Chem." type="journal article" volume="15">
+        <title>The formation of sesquiterpenoid presilphiperfolane and cameroonane metabolites in the Bcbot4 null mutant of Botrytis cinerea.</title>
+        <authorList>
+          <person name="Franco Dos Santos G."/>
+          <person name="Moraga J."/>
+          <person name="Takahashi J.A."/>
+          <person name="Viaud M."/>
+          <person name="Hanson J.R."/>
+          <person name="Hernandez Galan R."/>
+          <person name="Collado I.G."/>
+        </authorList>
+        <dbReference id="28617493" type="PubMed"/>
+        <dbReference id="10.1039/c7ob01088e" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="3 4 5 6 7 8 9">Presilphiperfolan-8-beta-ol synthase; part of the gene cluster that mediates the biosynthesis of botrydial (PubMed:14651630, PubMed:19035644, PubMed:19476353). Botrydial is necessary for colonization of plant tissue by the T4 strain (PubMed:19035644). It is a strain-dependent virulence factor since highly aggressive strains like SAS56 or B05 still retain substantial virulence when botrydial synthesis is impaired, since they produce also botcinic acid (PubMed:15986930). The first step of botrydial biosynthesis is performed by the sesquiterpene synthase BOT2 which catalyzes the cyclization of farnesyl diphosphate (FPP) to presilphiperfolan-8-beta-ol (PSP) (PubMed:19035644, PubMed:19476353). The cytochrome P450 monooxygenase BOT4 then catalyzes the hydroxylation at C-4 to give a probotryane intermediate (PubMed:27529428, PubMed:28617493). Acetylation of the hydroxyl at C-4 is carried out by the acetyltransferase BOT5, followed by the combined action of the P450 monooxygenases BOT3 and BOT1, to yield finally the glycol, via the regio- and stereospecific hydroxylations at C-10 and C-15 of the probotryane intermediates, respectively (PubMed:15986930, PubMed:27529428). The cleavage of the C10-C15 bond of probotryane skeleton is an intriguing and chemically important reaction, which could be mediated by some of the monooxygenases or by a combination of them (PubMed:27529428). It is possible that either BOT3 or BOT1 would oxidize either the 10- or the 15-hydroxy group to the hydroperoxide derivative, which would then undergo heterolytic fragmentation to give the dialdehyde botrydial (PubMed:27529428). Finally, the dehydrogenase BOT7 might be involved in the conversion of botrydial to dihydrobotrydial (PubMed:27721016).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="5 6">
+        <text>(2E,6E)-farnesyl diphosphate + H2O = diphosphate + presilphiperfolan-8beta-ol</text>
+        <dbReference id="RHEA:27954" type="Rhea"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:60968" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.74" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="5">6.04 uM for farnesyl diphosphate</KM>
+      </kinetics>
+    </comment>
+    <comment evidence="5 6" type="pathway">
+      <text>Secondary metabolite biosynthesis.</text>
+    </comment>
+    <comment type="induction">
+      <text evidence="3 5 8">The botrydial biosynthesis cluster genes are co-regulated by the Ca(2+)/calcineurin signal transduction pathway, which is under the control of the alpha subunit BCG1 of a heterotrimeric G protein (PubMed:14651630, PubMed:19035644). Expression of the cluster is also positively regulated by the cluster-specific transcription factor BOT6 (PubMed:27721016).</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="13">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="13">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="5 6" id="4.2.3.74" type="EC"/>
+    <dbReference id="AY277723" type="EMBL">
+      <property type="protein sequence ID" value="AAQ16575.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="Q6WP50" type="SMR"/>
+    <dbReference id="ag:AAQ16575" type="KEGG"/>
+    <dbReference id="Q6WP50" type="SABIO-RK"/>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0010334" type="GO">
+      <property type="term" value="F:sesquiterpene synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0045338" type="GO">
+      <property type="term" value="P:farnesyl diphosphate metabolic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0009405" type="GO">
+      <property type="term" value="P:pathogenesis"/>
+      <property type="evidence" value="ECO:0000315"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0051762" type="GO">
+      <property type="term" value="P:sesquiterpene biosynthetic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034686" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_2"/>
+    </dbReference>
+    <dbReference id="SFLDG01020" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-0843">Virulence</keyword>
+    <feature description="Presilphiperfolan-8-beta-ol synthase" id="PRO_0000405531" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="399"/>
+      </location>
+    </feature>
+    <feature description="Substrate-binding" evidence="2" type="region of interest">
+      <location>
+        <begin position="373"/>
+        <end position="374"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="13" type="short sequence motif">
+      <location>
+        <begin position="141"/>
+        <end position="145"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="141"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="141"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="285"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="289"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="2" type="binding site">
+      <location>
+        <position position="239"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="2" type="binding site">
+      <location>
+        <position position="292"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000250">
+      <source>
+        <dbReference id="Q9UR08" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="14651630" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="15986930" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000269">
+      <source>
+        <dbReference id="19035644" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000269">
+      <source>
+        <dbReference id="19476353" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000269">
+      <source>
+        <dbReference id="27529428" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000269">
+      <source>
+        <dbReference id="27721016" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0000269">
+      <source>
+        <dbReference id="28617493" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0000303">
+      <source>
+        <dbReference id="14651630" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="11" type="ECO:0000303">
+      <source>
+        <dbReference id="19035644" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="12" type="ECO:0000303">
+      <source>
+        <dbReference id="19476353" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="13" type="ECO:0000305"/>
+    <sequence checksum="4D550D28FA6A13EE" length="399" mass="45271" modified="2004-07-05" version="1">MAIPALEPQLHDADTSSNNMSSNSTDSGYDTNSTTPLEKSEKPNTQELKQQQLDPKRPPFVRVPDLFGSIMSTKPVVNPNYFAAKARGDRWIARVMNFNKAVAARNSKVDLCFLASMWAPDAPEDRLVMMLDWNHWVFLFDDQFDEGHLKEDPAAAAEEVKQTIAIMGGNAPRYTAESNPIRYVFQQCWDRLKAVSSQEMQQRWIDQHKRYFDQLLVQVDQQVGGENFTRDVEAYMDLRRGTIGVYPAISLSEYGAGVNVPQHVYDHPSLQECMKVSADLVTLVNDVLSYRKDLELGVDHNLMSLLMQRDNLSAQQAVDVIGDMVNECYRRWYLALAELPSYGEKIDYNVMKFVEICRAVAQGNLYWSFQTGRYLGPEGHEVHETGIMYLPPAANLVVA</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

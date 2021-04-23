@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2020-12-02" dataset="Swiss-Prot" modified="2021-02-10" version="9">
+    <accession>A0A348B779</accession>
+    <name>STS1_POSPM</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="4">Sesquiterpene synthase 1</fullName>
+        <ecNumber evidence="3">4.2.3.-</ecNumber>
+        <ecNumber evidence="3">4.2.3.125</ecNumber>
+        <ecNumber evidence="3">4.2.3.126</ecNumber>
+        <ecNumber evidence="3">4.2.3.127</ecNumber>
+        <ecNumber evidence="3">4.2.3.133</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="4">Terpene cyclase 1</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="4" type="primary">STS-01</name>
+    </gene>
+    <organism>
+      <name type="scientific">Postia placenta (strain ATCC 44394 / Madison 698-R)</name>
+      <name type="common">Brown rot fungus</name>
+      <name type="synonym">Poria monticola</name>
+      <dbReference id="561896" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Basidiomycota</taxon>
+        <taxon>Agaricomycotina</taxon>
+        <taxon>Agaricomycetes</taxon>
+        <taxon>Polyporales</taxon>
+        <taxon>Dacryobolaceae</taxon>
+        <taxon>Postia</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2018" first="952" last="965" name="Microb. Biotechnol." type="journal article" volume="11">
+        <title>Insight into metabolic diversity of the brown-rot basidiomycete Postia placenta responsible for sesquiterpene biosynthesis: semi-comprehensive screening of cytochrome P450 monooxygenase involved in protoilludene metabolism.</title>
+        <authorList>
+          <person name="Ichinose H."/>
+          <person name="Kitaoka T."/>
+        </authorList>
+        <dbReference id="30105900" type="PubMed"/>
+        <dbReference id="10.1111/1751-7915.13304" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>DOMAIN</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <source>
+        <strain>ATCC 44394 / Madison 698-R</strain>
+      </source>
+    </reference>
+    <comment type="function">
+      <text evidence="3">Terpene cyclase that catalyzes the cyclization of farnesyl diphosphate (FPP) to various sesquiterpenes, including alpha-copaene, beta-copaene, beta-elemene, alpha-muurolene, gamma-muurolene and delta-cadinene.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3">
+        <text>(2E,6E)-farnesyl diphosphate = alpha-copaene + diphosphate</text>
+        <dbReference id="RHEA:33991" type="Rhea"/>
+        <dbReference id="CHEBI:10221" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.133" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="3">
+        <dbReference id="RHEA:33992" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3">
+        <text>(2E,6E)-farnesyl diphosphate = beta-copaene + diphosphate</text>
+        <dbReference id="RHEA:33111" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:64799" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.127" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="3">
+        <dbReference id="RHEA:33112" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3">
+        <text>(2E,6E)-farnesyl diphosphate = alpha-muurolene + diphosphate</text>
+        <dbReference id="RHEA:33103" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:64797" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.125" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="3">
+        <dbReference id="RHEA:33104" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3">
+        <text>(2E,6E)-farnesyl diphosphate = diphosphate + gamma-muurolene</text>
+        <dbReference id="RHEA:33107" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:64798" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.126" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="3">
+        <dbReference id="RHEA:33108" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3">
+        <text>(2E,6E)-farnesyl diphosphate = delta-cadinene + diphosphate</text>
+        <dbReference id="RHEA:56556" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:140564" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="3">
+        <dbReference id="RHEA:56557" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="3">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+    </comment>
+    <comment type="domain">
+      <text evidence="6">The conserved DDXXD and NSE/DTE motifs are important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="5">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="3" id="4.2.3.-" type="EC"/>
+    <dbReference evidence="3" id="4.2.3.125" type="EC"/>
+    <dbReference evidence="3" id="4.2.3.126" type="EC"/>
+    <dbReference evidence="3" id="4.2.3.127" type="EC"/>
+    <dbReference evidence="3" id="4.2.3.133" type="EC"/>
+    <dbReference id="LC378425" type="EMBL">
+      <property type="protein sequence ID" value="BBD74517.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="GO:0102877" type="GO">
+      <property type="term" value="F:alpha-copaene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034686" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_2"/>
+    </dbReference>
+    <dbReference id="SFLDG01020" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Sesquiterpene synthase 1" id="PRO_0000451386" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="338"/>
+      </location>
+    </feature>
+    <feature description="Substrate-binding" evidence="2" type="region of interest">
+      <location>
+        <begin position="332"/>
+        <end position="333"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="6" type="short sequence motif">
+      <location>
+        <begin position="93"/>
+        <end position="97"/>
+      </location>
+    </feature>
+    <feature description="NSE/DTE motif" evidence="6" type="short sequence motif">
+      <location>
+        <begin position="228"/>
+        <end position="236"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="93"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="93"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="228"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="232"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="236"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="2" type="binding site">
+      <location>
+        <position position="182"/>
+      </location>
+    </feature>
+    <feature description="Plays a critical role in the stabilization of intermediate cation" evidence="1" type="site">
+      <location>
+        <position position="90"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="B5HDJ6" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000250">
+      <source>
+        <dbReference id="Q9UR08" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="30105900" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000303">
+      <source>
+        <dbReference id="30105900" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000305"/>
+    <evidence key="6" type="ECO:0000305">
+      <source>
+        <dbReference id="30105900" type="PubMed"/>
+      </source>
+    </evidence>
+    <sequence checksum="C973EBE50CBDCF6E" length="338" mass="38401" modified="2018-11-07" version="1">MSSSAPSTSAPTKIVIPDLVSHCTIPVRCNRHWKQASVESKRWLFRGGNLSDRKRDAFHGLKAGYLTSMCYPLAGYPQLRVSCDFMNYLFHLDNISDEMNDRGTHGTAVSVLDALYQPHMHPTSRVGKMTKDYWVRLIQTASPGAQQRFIETFDMFFQAVTQQAMDRANGVIPDLESYIAIRRDTSGCKPCWALIEYANNLDLPWEIMDHPIIRGLGEAANDLVTWSNDIFSYNVEQSKGDTHNMIVVVQNQQGLDLQSAVNFVGDLCKQSIDRFHYLRENLPSWGPELDREVEIYVDGLADWITGSLKWSFESERYFGKAGLEVKKTRVVALLPRRA</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

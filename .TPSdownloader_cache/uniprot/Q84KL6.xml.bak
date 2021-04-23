@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2012-10-03" modified="2021-04-07" version="62">
+<accession>Q84KL6</accession>
+<name>PT1_PINTA</name>
+<protein>
+<recommendedName>
+<fullName>(-)-alpha-pinene synthase, chloroplastic</fullName>
+<ecNumber>4.2.3.119</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>(+)-(3S:5S)-alpha-pinene synthase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Synthase I</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">PT1</name>
+</gene>
+<organism>
+<name type="scientific">Pinus taeda</name>
+<name type="common">Loblolly pine</name>
+<dbReference type="NCBI Taxonomy" id="3352"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Pinopsida</taxon>
+<taxon>Pinidae</taxon>
+<taxon>Pinales</taxon>
+<taxon>Pinaceae</taxon>
+<taxon>Pinus</taxon>
+<taxon>Pinus subgen. Pinus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2003" name="Arch. Biochem. Biophys." volume="411" first="267" last="276">
+<title>cDNA isolation, functional expression, and characterization of (+)-alpha-pinene synthase and (-)-alpha-pinene synthase from loblolly pine (Pinus taeda): stereocontrol in pinene biosynthesis.</title>
+<authorList>
+<person name="Phillips M.A."/>
+<person name="Wildung M.R."/>
+<person name="Williams D.C."/>
+<person name="Hyatt D.C."/>
+<person name="Croteau R."/>
+</authorList>
+<dbReference type="PubMed" id="12623076"/>
+<dbReference type="DOI" id="10.1016/s0003-9861(02)00746-4"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>COFACTOR</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>3D-STRUCTURE MODELING</scope>
+</reference>
+<comment type="function">
+<text evidence="3">Involved in defensive oleoresin formation in conifers in response to insect attack or other injury. Involved in monoterpene (C10) olefins biosynthesis. Produces mainly (-)-alpha-pinene (79%) and lesser amounts of (-)-beta-pinene (4.2%), nearly racemic mixtures of camphene (2.8% (+)/2.2% (-)) and limonene (2.4% (+)/3.7% (-)), as well as small amounts of (+)-alpha-pinene (3.3%) and (+)-beta-pinene (2.4%).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>(2E)-geranyl diphosphate = (1S,5S)-alpha-pinene + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:25488"/>
+<dbReference type="ChEBI" id="CHEBI:28660"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:58057"/>
+<dbReference type="EC" id="4.2.3.119"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="5">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<cofactor evidence="5">
+<name>Mn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29035"/>
+</cofactor>
+<text evidence="5">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="3">
+<name>K(+)</name>
+<dbReference type="ChEBI" id="CHEBI:29103"/>
+</cofactor>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="3">1.4 uM for geranyl-diphosphate</KM>
+</kinetics>
+<phDependence>
+<text evidence="3">Optimum pH is 7.0.</text>
+</phDependence>
+</comment>
+<comment type="pathway">
+<text>Terpene metabolism; oleoresin biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="4">Plastid</location>
+<location evidence="4">Chloroplast</location>
+</subcellularLocation>
+</comment>
+<comment type="domain">
+<text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family. Tpsd subfamily.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.119"/>
+<dbReference type="EMBL" id="AF543527">
+<property type="protein sequence ID" value="AAO61225.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="Q84KL6"/>
+<dbReference type="KEGG" id="ag:AAO61225"/>
+<dbReference type="OMA" id="KMINDMW"/>
+<dbReference type="BRENDA" id="4.2.3.119">
+<property type="organism ID" value="4861"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00924"/>
+<dbReference type="GO" id="GO:0009507">
+<property type="term" value="C:chloroplast"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050550">
+<property type="term" value="F:pinene synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030955">
+<property type="term" value="F:potassium ion binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046248">
+<property type="term" value="P:alpha-pinene biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0033383">
+<property type="term" value="P:geranyl diphosphate metabolic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0150">Chloroplast</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0464">Manganese</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0934">Plastid</keyword>
+<keyword id="KW-0630">Potassium</keyword>
+<keyword id="KW-0809">Transit peptide</keyword>
+<feature type="transit peptide" description="Chloroplast" evidence="2">
+<location>
+<begin position="1"/>
+<end position="48"/>
+</location>
+</feature>
+<feature type="chain" description="(-)-alpha-pinene synthase, chloroplastic" id="PRO_0000419232">
+<location>
+<begin position="49"/>
+<end position="629"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif">
+<location>
+<begin position="380"/>
+<end position="384"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="380"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="380"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="384"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="384"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="1">
+<location>
+<position position="532"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Potassium" evidence="1">
+<location>
+<position position="540"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12623076"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<evidence key="5" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="12623076"/>
+</source>
+</evidence>
+<sequence length="629" mass="71807" checksum="39DDCD936BCB1791" modified="2003-06-01" version="1" precursor="true">MSPVSVISLPSDLCLPTSFIDRSGRELIPLHITIPNVAMRRQGKLMTRASMSMNLRTAVSDDAVIRRRGDFHSNLWDDDLIQSLSSPYGEPSYRERAERLIGEVKNSFNSMSNEDGESITPLDDLIQRLWMVDSVERLGIDRHFKKEIKSALDHVYRYWSEKGIGCGRESVVTDLNSTALGLRTLRLHGYDVSADVLNHFKNQSGQFACTLKQTEDQIRTVLNLYRASLIAFPGEKVMDEAESFSAKYLKEALQKIPVSSFSREIGDVLEYGWHTYLPRLEARNYIDVFGQDTENSKSYMKTEKLLELAKLEFNIFHALQKRELEYLVRWWKGSGSPQMTFCRHRHVEYYTLASCIAFEPQHSGFRLGFAKACHIITVLDDMYDTFGTLDELELFTSAIKRWDPSATECLPEYMKGVYMIVYNTVNEMSQEADKAQGRDTLNYCRQAWEEYIDAYMQEAKWIASGEVPTFEEYYENGKVSSGHRVSALQPILTTDIPFPEHVLKEVDIPSQLNDLASAILRLRGDTRCYQADRARGEEASCISCYMKDNPGTTEEDALNHLNAMISDVIKGLNWELLKPNSSVPISAKKHAFDISRAFHCGYKYRDGYSVANIETKSLVKRTVIDPVTL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

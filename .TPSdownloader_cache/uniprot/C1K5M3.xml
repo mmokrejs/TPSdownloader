@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2011-02-08" dataset="Swiss-Prot" modified="2021-04-07" version="51">
+    <accession>C1K5M3</accession>
+    <name>PHS1_SOLLC</name>
+    <protein>
+      <recommendedName>
+        <fullName>Beta-phellandrene synthase (neryl-diphosphate-cyclizing), chloroplastic</fullName>
+        <ecNumber>4.2.3.51</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="primary">PHS1</name>
+    </gene>
+    <organism>
+      <name type="scientific">Solanum lycopersicum</name>
+      <name type="common">Tomato</name>
+      <name type="synonym">Lycopersicon esculentum</name>
+      <dbReference id="4081" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>lamiids</taxon>
+        <taxon>Solanales</taxon>
+        <taxon>Solanaceae</taxon>
+        <taxon>Solanoideae</taxon>
+        <taxon>Solaneae</taxon>
+        <taxon>Solanum</taxon>
+        <taxon>Solanum subgen. Lycopersicon</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2009" first="10865" last="10870" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="106">
+        <title>Monoterpenes in the glandular trichomes of tomato are synthesized from a neryl diphosphate precursor rather than geranyl diphosphate.</title>
+        <authorList>
+          <person name="Schilmiller A.L."/>
+          <person name="Schauvinhold I."/>
+          <person name="Larson M."/>
+          <person name="Xu R."/>
+          <person name="Charbonneau A.L."/>
+          <person name="Schmidt A."/>
+          <person name="Wilkerson C."/>
+          <person name="Last R.L."/>
+          <person name="Pichersky E."/>
+        </authorList>
+        <dbReference id="19487664" type="PubMed"/>
+        <dbReference id="10.1073/pnas.0904113106" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <scope>TISSUE SPECIFICITY</scope>
+      <scope>FUNCTION</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="3">Monoterpene synthase catalyzing the production of beta-phellandrene from neryl diphosphate. Produces also lower amounts of delta-2-carene, alpha-phellandrene and limonene. When incubated in vitro with geranyl diphosphate, catalyzes the formation of acyclic myrcene and ocimene as major products in addition to beta-phellandrene.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3">
+        <text>neryl diphosphate = beta-phellandrene + diphosphate</text>
+        <dbReference id="RHEA:27830" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:48741" type="ChEBI"/>
+        <dbReference id="CHEBI:57665" type="ChEBI"/>
+        <dbReference id="4.2.3.51" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="3">9.1 uM for neryl diphosphate</KM>
+        <KM evidence="3">2900 uM for geranyl diphosphate</KM>
+      </kinetics>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="4">Plastid</location>
+        <location evidence="4">Chloroplast</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="tissue specificity">
+      <text evidence="3">Trichomes.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="4">Belongs to the terpene synthase family. Tpse subfamily.</text>
+    </comment>
+    <dbReference id="4.2.3.51" type="EC"/>
+    <dbReference id="FJ797957" type="EMBL">
+      <property type="protein sequence ID" value="ACO56896.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="NP_001234629.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_001247700.1"/>
+    </dbReference>
+    <dbReference id="C1K5M3" type="SMR"/>
+    <dbReference id="4081.Solyc08g005670.2.1" type="STRING"/>
+    <dbReference id="C1K5M3" type="PaxDb"/>
+    <dbReference id="100316883" type="GeneID"/>
+    <dbReference id="sly:100316883" type="KEGG"/>
+    <dbReference id="ENOG502SI1N" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="C1K5M3" type="InParanoid"/>
+    <dbReference id="TNDYIDR" type="OMA"/>
+    <dbReference id="247204at2759" type="OrthoDB"/>
+    <dbReference id="MetaCyc:MONOMER-15450" type="BioCyc"/>
+    <dbReference id="4.2.3.51" type="BRENDA">
+      <property type="organism ID" value="3101"/>
+    </dbReference>
+    <dbReference id="UP000004994" type="Proteomes">
+      <property type="component" value="Unplaced"/>
+    </dbReference>
+    <dbReference id="C1K5M3" type="ExpressionAtlas">
+      <property type="expression patterns" value="baseline and differential"/>
+    </dbReference>
+    <dbReference id="GO:0009507" type="GO">
+      <property type="term" value="C:chloroplast"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0016102" type="GO">
+      <property type="term" value="P:diterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0009686" type="GO">
+      <property type="term" value="P:gibberellin biosynthetic process"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0150">Chloroplast</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-0934">Plastid</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0809">Transit peptide</keyword>
+    <feature description="Chloroplast" evidence="2" type="transit peptide">
+      <location>
+        <begin position="1"/>
+        <end position="36"/>
+      </location>
+    </feature>
+    <feature description="Beta-phellandrene synthase (neryl-diphosphate-cyclizing), chloroplastic" id="PRO_0000405121" type="chain">
+      <location>
+        <begin position="37"/>
+        <end position="778"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="531"/>
+        <end position="535"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="531"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="531"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="676"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="684"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000255"/>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="19487664" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000305"/>
+    <sequence checksum="DFC318D00DB171E5" length="778" mass="90819" modified="2009-05-26" precursor="true" version="1">MIVGYRSTIITLSHPKLGNGKTISSNAIFQRSCRVRCSHSTTSSMNGFEDARDRIRESFGKLELSPSSYDTAWVAMVPSRHSLNEPCFPQCLDWIIENQREDGSWGLNPTHPLLLKDSLSSTLACLLALTKWRVGDEQIKRGLGFIETYGWAVDNKDQISPLGFEVIFSSMIKSAEKLDLNLPLNLHLVNLVKCKRDSTIKRNVEYMGEGVGELCDWKEMIKLHQRQNGSLFDSPATTAAALIYHQHDQKCYQYLNSIFQQHKNWVPTMYPTKVHSLLCLVDTLQNLGVHRHFKSEIKKALDEIYRLWQQKNEQIFSNVTHCAMAFRLLRMSYYDVSSDELAEFVDEEHFFATNGKYKSHVEILELHKASQLAIDHEKDDILDKINNWTRAFMEQKLLNNGFIDRMSKKEVELALRKFYTTSHLAENRRYIKSYEENNFKILKAAYRSPNINNKDLLAFSIHDFELCQAQHREELQQLKRWFEDYRLDQLGLAERYIHASYLFGVTVIPEPELSDARLMYAKYVMLLTIVDDHFESFASKDECFNIIELVERWDDYASVGYKSEKVKVFFSVFYKSIEELATIAEIKQGRSVKNHLINLWLELMKLMLMERVEWCSGKTIPSIEEYLYVTSITFCAKLIPLSTQYFLGIKISKDLLESDEICGLWNCSGRVMRILNDLQDSKREQKEVSINLVTLLMKSMSEEEAIMKIKEILEMNRRELLKMVLVQKKGSQLPQLCKDIFWRTSKWAHFTYSQTDGYRIAEEMKNHIDEVFYKPLNH</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

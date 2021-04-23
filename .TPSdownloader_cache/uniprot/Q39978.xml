@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2010-10-05" dataset="Swiss-Prot" modified="2021-04-07" version="87">
+    <accession>Q39978</accession>
+    <name>VTSS1_HYOMU</name>
+    <protein>
+      <recommendedName>
+        <fullName>Vetispiradiene synthase 1</fullName>
+        <shortName>HVS1</shortName>
+        <ecNumber>4.2.3.21</ecNumber>
+      </recommendedName>
+    </protein>
+    <organism>
+      <name type="scientific">Hyoscyamus muticus</name>
+      <name type="common">Egyptian henbane</name>
+      <dbReference id="35626" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>lamiids</taxon>
+        <taxon>Solanales</taxon>
+        <taxon>Solanaceae</taxon>
+        <taxon>Solanoideae</taxon>
+        <taxon>Hyoscyameae</taxon>
+        <taxon>Hyoscyamus</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="1995" first="7375" last="7381" name="J. Biol. Chem." type="journal article" volume="270">
+        <title>Cloning and bacterial expression of a sesquiterpene cyclase from Hyoscyamus muticus and its molecular comparison to related terpene cyclases.</title>
+        <authorList>
+          <person name="Back K."/>
+          <person name="Chappell J."/>
+        </authorList>
+        <dbReference id="7706281" type="PubMed"/>
+        <dbReference id="10.1074/jbc.270.13.7375" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA] OF 36-555</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>INDUCTION BY ELICITOR</scope>
+    </reference>
+    <reference key="2">
+      <citation date="1995-01" type="unpublished observations">
+        <authorList>
+          <person name="Chappell J."/>
+        </authorList>
+      </citation>
+      <scope>CONCEPTUAL TRANSLATION</scope>
+    </reference>
+    <comment type="function">
+      <text>Sesquiterpene synthase that catalyzes the formation of vetispiradiene from trans,trans-farnesyl diphosphate. The initial internal cyclization produces the monocyclic intermediate germacrene A.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = (-)-vetispiradiene + diphosphate</text>
+        <dbReference id="RHEA:10340" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:46971" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.21" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="3">Cytoplasm</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="induction">
+      <text evidence="2">By elicitor from R.solani.</text>
+    </comment>
+    <comment type="domain">
+      <text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene synthase family. Tpsa subfamily.</text>
+    </comment>
+    <dbReference id="4.2.3.21" type="EC"/>
+    <dbReference id="U20188" type="EMBL">
+      <property type="protein sequence ID" value="AAA86337.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="A56118" type="PIR">
+      <property type="entry name" value="A56118"/>
+    </dbReference>
+    <dbReference id="5JO7" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.15"/>
+      <property type="chains" value="A/B/C/D=23-555"/>
+    </dbReference>
+    <dbReference id="5JO7" type="PDBsum"/>
+    <dbReference id="Q39978" type="SMR"/>
+    <dbReference id="ag:AAA86337" type="KEGG"/>
+    <dbReference id="MetaCyc:VS1-MONOMER" type="BioCyc"/>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="GO:0005737" type="GO">
+      <property type="term" value="C:cytoplasm"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0034003" type="GO">
+      <property type="term" value="F:vetispiradiene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0002">3D-structure</keyword>
+    <keyword id="KW-0963">Cytoplasm</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Vetispiradiene synthase 1" id="PRO_0000398184" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="555"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="308"/>
+        <end position="312"/>
+      </location>
+    </feature>
+    <feature description="Poly-Glu" type="compositionally biased region">
+      <location>
+        <begin position="223"/>
+        <end position="226"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="308"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="308"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="312"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="312"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="451"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="455"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="459"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="38"/>
+        <end position="60"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="turn">
+      <location>
+        <begin position="61"/>
+        <end position="64"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="67"/>
+        <end position="79"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="83"/>
+        <end position="86"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="87"/>
+        <end position="100"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="107"/>
+        <end position="110"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="112"/>
+        <end position="124"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="131"/>
+        <end position="137"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="146"/>
+        <end position="150"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="152"/>
+        <end position="162"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="170"/>
+        <end position="186"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="187"/>
+        <end position="189"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="194"/>
+        <end position="203"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="206"/>
+        <end position="208"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="211"/>
+        <end position="224"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="230"/>
+        <end position="261"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="263"/>
+        <end position="266"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="274"/>
+        <end position="284"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="288"/>
+        <end position="290"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="291"/>
+        <end position="312"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="317"/>
+        <end position="329"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="332"/>
+        <end position="337"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="340"/>
+        <end position="361"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="turn">
+      <location>
+        <begin position="362"/>
+        <end position="364"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="366"/>
+        <end position="368"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="369"/>
+        <end position="392"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="398"/>
+        <end position="405"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="407"/>
+        <end position="409"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="411"/>
+        <end position="417"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="turn">
+      <location>
+        <begin position="418"/>
+        <end position="421"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="427"/>
+        <end position="434"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="438"/>
+        <end position="459"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="strand">
+      <location>
+        <begin position="461"/>
+        <end position="465"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="468"/>
+        <end position="476"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="480"/>
+        <end position="501"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="strand">
+      <location>
+        <begin position="503"/>
+        <end position="505"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="510"/>
+        <end position="526"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="helix">
+      <location>
+        <begin position="542"/>
+        <end position="549"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="7706281" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <evidence key="4" type="ECO:0007744">
+      <source>
+        <dbReference id="5JO7" type="PDB"/>
+      </source>
+    </evidence>
+    <sequence checksum="5C61576933E89D41" length="555" mass="64317" modified="2013-04-03" version="2">MAPAIVMSNYEEEEIVRPVADFSPSLWGDHFHSFSVDNQVAEKYAQEIETLKEQTSTMLSAACGTTLTEKLNLIDIIERLGIAYHFEKQIEDMLDHIYRADPYFEAHEYNDLNTSSVQFRLLRQHGYNVSPNIFSRFQDANGKFKESLRSDIRGLLNLYEASHVRTHKEDILEEALVFSVGHLESAAPHLKSPLSKQVTHALEQSLHKSIPRVEIRYFISIYEEEEFKNDLLLRFAKLDYNLLQMLHKHELSEVSRWWKDLDFVTTLPYARDRAVECYFWTMGVYAEPQYSQARVMLAKTIAMISIVDDTFDAYGIVKELEVYTDAIQRWDISQIDRLPEYMKISYKALLDLYDDYEKELSKDGRSDVVHYAKERMKEIVGNYFIEGKWFIEGYMPSVSEYLSNALATSTYYLLTTTSYLGMKSATKEHFEWLATNPKILEANATLCRVVDDIATYEVEKGRGQIATGIECYMRDYGVSTEVAMEKFQEMADIAWKDVNEEILRPTPVSSEILTRILNLARIIDVTYKHNQDGYTHPEKVLKPHIIALVVDSIDI</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

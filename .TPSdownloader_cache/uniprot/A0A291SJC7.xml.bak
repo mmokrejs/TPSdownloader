@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2020-06-17" modified="2021-04-07" version="17">
+<accession>A0A291SJC7</accession>
+<name>IAFRS_STRMQ</name>
+<protein>
+<recommendedName>
+<fullName evidence="3">Isoafricanol synthase</fullName>
+<ecNumber evidence="2">4.2.3.157</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="ORF" evidence="6">DNK48_39945</name>
+<name type="ORF" evidence="5">SMALA_0716</name>
+</gene>
+<organism>
+<name type="scientific">Streptomyces malaysiensis</name>
+<dbReference type="NCBI Taxonomy" id="92644"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Streptomycetales</taxon>
+<taxon>Streptomycetaceae</taxon>
+<taxon>Streptomyces</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2017-10" db="EMBL/GenBank/DDBJ databases">
+<title>Deciphering the complete genome sequence of Streptomyces malaysiensis DSM4137, an unusually prolific producer of assembly-line natural product antibiotics.</title>
+<authorList>
+<person name="Samborskyy M."/>
+<person name="Dickens S."/>
+<person name="Scott N."/>
+<person name="Haydock S."/>
+<person name="Leadlay P."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>DSM 4137</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="submission" date="2018-06" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Robison K.E."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>DSM 4137</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2017" name="Org. Biomol. Chem." volume="15" first="2353" last="2358">
+<title>Isoafricanol synthase from Streptomyces malaysiensis.</title>
+<authorList>
+<person name="Rabe P."/>
+<person name="Samborskyy M."/>
+<person name="Leadlay P.F."/>
+<person name="Dickschat J.S."/>
+</authorList>
+<dbReference type="PubMed" id="28247907"/>
+<dbReference type="DOI" id="10.1039/c7ob00234c"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<source>
+<strain>DSM 4137</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2">Catalyzes the cyclisation of farnesyl diphosphate (FPP) to isoafricanol.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate + H2O = (+)-isoafricanol + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:53616"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:137522"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.157"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.157" evidence="2"/>
+<dbReference type="EMBL" id="CP023992">
+<property type="protein sequence ID" value="ATL80951.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CP029823">
+<property type="protein sequence ID" value="QDL74490.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="SMR" id="A0A291SJC7"/>
+<dbReference type="EnsemblBacteria" id="ATL80951">
+<property type="protein sequence ID" value="ATL80951"/>
+<property type="gene ID" value="SMALA_0716"/>
+</dbReference>
+<dbReference type="KEGG" id="smal:SMALA_0716"/>
+<dbReference type="Proteomes" id="UP000222153">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000318530">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016829">
+<property type="term" value="F:lyase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034686">
+<property type="entry name" value="Terpene_cyclase-like_2"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01020">
+<property type="entry name" value="Terpene_Cyclase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<feature type="chain" description="Isoafricanol synthase" id="PRO_0000449805">
+<location>
+<begin position="1"/>
+<end position="395"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="95"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="95"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="246"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="250"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="254"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="B5GMG2"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="28247907"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="28247907"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<evidence key="5" type="ECO:0000312">
+<source>
+<dbReference type="EMBL" id="ATL80951.1"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000312">
+<source>
+<dbReference type="EMBL" id="QDL74490.1"/>
+</source>
+</evidence>
+<sequence length="395" mass="43387" checksum="11DC8B3AC43A8AF9" modified="2017-12-20" version="1">MHTHASRPHARQSALPRRAALFDFPASADLSPDTGAARQHTIQWLSRFRVFENHASVEEYDALRFDVLTGLFYPRATGADLNLGSDLVGWYFVFDDQFDGELGCRPEEVARLVADVIRVTEEDMAPGGTGGGEGPLLESFRDLWHRINSGRPRVWRDRFRHHWLEYLHSYHREALERTGAAPADGGGDAPRSVEDVLALRRHSIGVQPCLDLNEPFGGYTLPSALHGGFPLARMREATDDVVVFTNDIASLDKELAVGDVHNSVIVQWKLAGGGVEDAVRHIAGLANARYGWFEETAARLPELLAEAGADPGTHRAVGRYVDGMRHVMTGNLGWSLRTARYDERGTEAVSGGRERPWARLTGAEDLIRAGRGAPPPPGSGPDTRQPMPSEPSQLA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-04-26" modified="2020-12-02" version="72">
+<accession>O13284</accession>
+<name>CPSKS_PHASA</name>
+<protein>
+<recommendedName>
+<fullName>Ent-kaur-16-ene synthase</fullName>
+<ecNumber>4.2.3.19</ecNumber>
+<ecNumber>5.5.1.13</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>CPS/KS</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Ent-copalyl diphosphate synthase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Ent-kaurene synthase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>FCPS/KS</fullName>
+</alternativeName>
+</protein>
+<organism>
+<name type="scientific">Phaeosphaeria sp. (strain L487)</name>
+<dbReference type="NCBI Taxonomy" id="65784"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Dothideomycetes</taxon>
+<taxon>Pleosporomycetidae</taxon>
+<taxon>Pleosporales</taxon>
+<taxon>Pleosporineae</taxon>
+<taxon>Phaeosphaeriaceae</taxon>
+<taxon>Phaeosphaeria</taxon>
+<taxon>unclassified Phaeosphaeria</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1997" name="J. Biol. Chem." volume="272" first="21706" last="21712">
+<title>Ent-kaurene synthase from the fungus Phaeosphaeria sp. L487. cDNA isolation, characterization, and bacterial expression of a bifunctional diterpene cyclase in fungal gibberellin biosynthesis.</title>
+<authorList>
+<person name="Kawaide H."/>
+<person name="Imai R."/>
+<person name="Sassa T."/>
+<person name="Kamiya Y."/>
+</authorList>
+<dbReference type="PubMed" id="9268298"/>
+<dbReference type="DOI" id="10.1074/jbc.272.35.21706"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+</reference>
+<comment type="function">
+<text>Catalyzes the conversion of geranylgeranyl diphosphate to the gibberellin precursor ent-kaurene diphosphate in a two step process.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>ent-copalyl diphosphate = diphosphate + ent-kaur-16-ene</text>
+<dbReference type="Rhea" id="RHEA:22220"/>
+<dbReference type="ChEBI" id="CHEBI:15415"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:58553"/>
+<dbReference type="EC" id="4.2.3.19"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>(2E,6E,10E)-geranylgeranyl diphosphate = ent-copalyl diphosphate</text>
+<dbReference type="Rhea" id="RHEA:14841"/>
+<dbReference type="ChEBI" id="CHEBI:58553"/>
+<dbReference type="ChEBI" id="CHEBI:58756"/>
+<dbReference type="EC" id="5.5.1.13"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="pathway">
+<text>Plant hormone biosynthesis; gibberellin biosynthesis.</text>
+</comment>
+<comment type="domain">
+<text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.19"/>
+<dbReference type="EC" id="5.5.1.13"/>
+<dbReference type="EMBL" id="AB003395">
+<property type="protein sequence ID" value="BAA22426.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="PIR" id="T00024">
+<property type="entry name" value="T00024"/>
+</dbReference>
+<dbReference type="KEGG" id="ag:BAA22426"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-15993"/>
+<dbReference type="BRENDA" id="4.2.3.19">
+<property type="organism ID" value="4709"/>
+</dbReference>
+<dbReference type="BRENDA" id="5.5.1.13">
+<property type="organism ID" value="4709"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00390"/>
+<dbReference type="GO" id="GO:0009905">
+<property type="term" value="F:ent-copalyl diphosphate synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009899">
+<property type="term" value="F:ent-kaurene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009686">
+<property type="term" value="P:gibberellin biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017057">
+<property type="entry name" value="Ent-kaurene_synthase_fun"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF036498">
+<property type="entry name" value="Ent-kaurene_synthase_fungi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0413">Isomerase</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<feature type="chain" description="Ent-kaur-16-ene synthase" id="PRO_0000186445">
+<location>
+<begin position="1"/>
+<end position="946"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif; degenerate">
+<location>
+<begin position="656"/>
+<end position="660"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="656"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="656"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="660"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="660"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="839"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="843"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="847"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="946" mass="105724" checksum="DCC31F00897E4D6B" modified="1998-01-01" version="1">MFAKFDMLEEEARALVRKVGNAVDPIYGFSTTSCQIYDTAWAAMISKEEHGDKVWLFPESFKYLLEKQGEDGSWERHPRSKTVGVLNTAAACLALLRHVKNPLQLQDIAAQDIELRIQRGLRSLEEQLIAWDDVLDTNHIGVEMIVPALLDYLQAEDENVDFEFESHSLLMQMYKEKMARFSPESLYRARPSSALHNLEALIGKLDFDKVGHHLYNGSMMASPSSTAAFLMHASPWSHEAEAYLRHVFEAGTGKGSGGFPGTYPTTYFELNWVLSTLMKSGFTLSDLECDELSSIANTIAEGFECDHGVIGFAPRAVDVDDTAKGLLTLTLLGMDEGVSPAPMIAMFEAKDHFLTFLGERDPSFTSNCHVLLSLLHRTDLLQYLPQIRKTTTFLCEAWWACDGQIKDKWHLSHLYPTMLMVQAFAEILLKSAEGEPLHDAFDAATLSRVSICVFQACLRTLLAQSQDGSWHGQPEASCYAVLTLAESGRLVLLQALQPQIAAAMEKAADVMQAGRWSCSDHDCDWTSKTAYRVDLVAAAYRLAAMKASSNLTFTVDDNVSKRSNGFQQLVGRTDLFSGVPAWELQASFLESALFVPLLRNHRLDVFDRDDIKVSKDHYLDMIPFTWVGCNNRSRTYVSTSFLFDMMIISMLGYQIDEFFEAEAAPAFAQCIGQLHQVVDKVVDEVIDEVVDKVVGKVVGKVVGKVVDERVDSPTHEAIAICNIEASLRRFVDHVLHHQHVLHASQQEQDILWRELRAFLHAHVVQMADNSTLAPPGRTFFDWVRTTAADHVACAYSFAFACCITSATIGQGQSMFATVNELYLVQAAARHMTTMCRMCNDIGSVDRDFIEANINSVHFPEFSTLSLVADKKKALARLAAYEKSCLTHTLDQFENEVLQSPRVSSAASGDFRTRKVAVVRFFADVTDFYDQLYILRDLSSSLKHVGT</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

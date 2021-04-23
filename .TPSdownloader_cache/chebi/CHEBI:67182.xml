@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:67182</ID>
+<NAME>sporulenol</NAME>
+<DEFINITION>A pentacyclic sesquarterpene isolated from Bacillus subtilis and formed by cyclisation of (R)-tetraprenyl-β-curcumene (CHEBI:64801).</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>sporulenol</SYNONYM>
+<IUPAC_NAME>(2R,4aS,4bR,6aS,10aS,10bR,12aS)-2,4b,7,7,10a,12a-hexamethyl-1-[(3R)-3-(4-methylcyclohexa-1,4-dien-1-yl)butyl]octadecahydrochrysen-2-ol</IUPAC_NAME>
+<FORMULA>C35H58O</FORMULA>
+<MASS>494.83440</MASS>
+<MONOISOTOPIC_MASS>494.44877</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>C[C@H](CC[C@H]1[C@](C)(O)CC[C@@H]2[C@]1(C)CC[C@@H]1[C@@]3(C)CCCC(C)(C)[C@@H]3CC[C@@]21C)C1=CCC(C)=CC1</SMILES>
+<INCHI>InChI=1S/C35H58O/c1-24-10-13-26(14-11-24)25(2)12-15-30-34(7)22-17-28-32(5)20-9-19-31(3,4)27(32)16-21-33(28,6)29(34)18-23-35(30,8)36/h10,14,25,27-30,36H,9,11-13,15-23H2,1-8H3/t25-,27+,28-,29+,30-,32+,33-,34+,35-/m1/s1</INCHI>
+<INCHIKEY>XKBZJGQFALBSTF-HVUBKZQBSA-N</INCHIKEY>
+<PUBMED_CITATION>21627333</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

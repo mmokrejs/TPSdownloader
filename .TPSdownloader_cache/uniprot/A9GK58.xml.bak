@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2020-06-17" modified="2020-12-02" version="62">
+<accession>A9GK58</accession>
+<name>ECUBS_SORC5</name>
+<protein>
+<recommendedName>
+<fullName evidence="3">10-epi-cubebol synthase</fullName>
+<ecNumber evidence="2">4.2.3.175</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="5">sce6369</name>
+</gene>
+<organism>
+<name type="scientific">Sorangium cellulosum (strain So ce56)</name>
+<name type="synonym">Polyangium cellulosum (strain So ce56)</name>
+<dbReference type="NCBI Taxonomy" id="448385"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Deltaproteobacteria</taxon>
+<taxon>Myxococcales</taxon>
+<taxon>Sorangiineae</taxon>
+<taxon>Polyangiaceae</taxon>
+<taxon>Sorangium</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2007" name="Nat. Biotechnol." volume="25" first="1281" last="1289">
+<title>Complete genome sequence of the myxobacterium Sorangium cellulosum.</title>
+<authorList>
+<person name="Schneiker S."/>
+<person name="Perlova O."/>
+<person name="Kaiser O."/>
+<person name="Gerth K."/>
+<person name="Alici A."/>
+<person name="Altmeyer M.O."/>
+<person name="Bartels D."/>
+<person name="Bekel T."/>
+<person name="Beyer S."/>
+<person name="Bode E."/>
+<person name="Bode H.B."/>
+<person name="Bolten C.J."/>
+<person name="Choudhuri J.V."/>
+<person name="Doss S."/>
+<person name="Elnakady Y.A."/>
+<person name="Frank B."/>
+<person name="Gaigalat L."/>
+<person name="Goesmann A."/>
+<person name="Groeger C."/>
+<person name="Gross F."/>
+<person name="Jelsbak L."/>
+<person name="Jelsbak L."/>
+<person name="Kalinowski J."/>
+<person name="Kegler C."/>
+<person name="Knauber T."/>
+<person name="Konietzny S."/>
+<person name="Kopp M."/>
+<person name="Krause L."/>
+<person name="Krug D."/>
+<person name="Linke B."/>
+<person name="Mahmud T."/>
+<person name="Martinez-Arias R."/>
+<person name="McHardy A.C."/>
+<person name="Merai M."/>
+<person name="Meyer F."/>
+<person name="Mormann S."/>
+<person name="Munoz-Dorado J."/>
+<person name="Perez J."/>
+<person name="Pradella S."/>
+<person name="Rachid S."/>
+<person name="Raddatz G."/>
+<person name="Rosenau F."/>
+<person name="Rueckert C."/>
+<person name="Sasse F."/>
+<person name="Scharfe M."/>
+<person name="Schuster S.C."/>
+<person name="Suen G."/>
+<person name="Treuner-Lange A."/>
+<person name="Velicer G.J."/>
+<person name="Vorholter F.-J."/>
+<person name="Weissman K.J."/>
+<person name="Welch R.D."/>
+<person name="Wenzel S.C."/>
+<person name="Whitworth D.E."/>
+<person name="Wilhelm S."/>
+<person name="Wittmann C."/>
+<person name="Bloecker H."/>
+<person name="Puehler A."/>
+<person name="Mueller R."/>
+</authorList>
+<dbReference type="PubMed" id="17965706"/>
+<dbReference type="DOI" id="10.1038/nbt1354"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>So ce56</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2016" name="Org. Biomol. Chem." volume="14" first="3385" last="3393">
+<title>A single terpene synthase is responsible for a wide variety of sesquiterpenes in Sorangium cellulosum Soce56.</title>
+<authorList>
+<person name="Schifrin A."/>
+<person name="Khatri Y."/>
+<person name="Kirsch P."/>
+<person name="Thiel V."/>
+<person name="Schulz S."/>
+<person name="Bernhardt R."/>
+</authorList>
+<dbReference type="PubMed" id="26947062"/>
+<dbReference type="DOI" id="10.1039/c6ob00130k"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<source>
+<strain>So ce56</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2">Catalyzes the cyclization of farnesyl diphosphate (FPP) to 10-epi-cubebol. Is also responsible for the formation of many other sesquiterpenes, mainly cadalanes and cubebanes, including 1,10-di-epi-cubebol and the cadalanes delta-cadinene, T-cadinol and alpha-cadinol.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate + H2O = 10-epi-cubebol + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:54064"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:138045"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.175"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.175" evidence="2"/>
+<dbReference type="EMBL" id="AM746676">
+<property type="protein sequence ID" value="CAN96536.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="SMR" id="A9GK58"/>
+<dbReference type="STRING" id="448385.sce6369"/>
+<dbReference type="EnsemblBacteria" id="CAN96536">
+<property type="protein sequence ID" value="CAN96536"/>
+<property type="gene ID" value="sce6369"/>
+</dbReference>
+<dbReference type="KEGG" id="scl:sce6369"/>
+<dbReference type="eggNOG" id="COG0664">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_042538_2_1_7"/>
+<dbReference type="OMA" id="EWLLSMA"/>
+<dbReference type="Proteomes" id="UP000002139">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016829">
+<property type="term" value="F:lyase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034686">
+<property type="entry name" value="Terpene_cyclase-like_2"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01020">
+<property type="entry name" value="Terpene_Cyclase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="10-epi-cubebol synthase" id="PRO_0000449804">
+<location>
+<begin position="1"/>
+<end position="315"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif" evidence="1">
+<location>
+<begin position="79"/>
+<end position="83"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="NXXXSXXXE motif" evidence="1">
+<location>
+<begin position="220"/>
+<end position="228"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="79"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="79"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="220"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="224"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="228"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="B5GMG2"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="26947062"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="26947062"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<evidence key="5" type="ECO:0000312">
+<source>
+<dbReference type="EMBL" id="CAN96536.1"/>
+</source>
+</evidence>
+<sequence length="315" mass="36142" checksum="C63F19BE4DAFA14C" modified="2008-02-05" version="1">MHRALLCPFPATTPHPQAAQLANDCLEWTRKCGLLPDESPRTLDKVRSYSALAAHCYPDAHFERLRAICDYYSWLFFFDDVCENTSLNGAEPKVVSSLLFDVYGVLRGPTAAVGHAPFAQALADIWRRIGDGCPGFWRRRLIRHVENYIDGCVWEAQNRQLDRVPSRAVFEGMRMHTSTMYEFWDFIEYAGDLFLPDEVVEHPLVAEVRRAGNAIASFANDIYSLRKETSNRDVHNLVVVLMHEERIELEAAYARAAGIHDAQVEHFLDLVKHLPTFSATIDRNLARYVEGIRIWIRANHDWSIVTPRYNEPDAR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

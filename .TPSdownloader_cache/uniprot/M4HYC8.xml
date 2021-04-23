@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2015-01-07" dataset="Swiss-Prot" modified="2020-12-02" version="27">
+    <accession>M4HYC8</accession>
+    <name>MPIM1_PINCO</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="3">Monofunctional pimaradiene synthase</fullName>
+        <shortName evidence="3">PcmPIM1</shortName>
+        <ecNumber evidence="2">4.2.3.147</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name evidence="3" type="primary">TPS-mPim1</name>
+    </gene>
+    <organism>
+      <name type="scientific">Pinus contorta</name>
+      <name type="common">Shore pine</name>
+      <name type="synonym">Lodgepole pine</name>
+      <dbReference id="3339" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Pinopsida</taxon>
+        <taxon>Pinidae</taxon>
+        <taxon>Pinales</taxon>
+        <taxon>Pinaceae</taxon>
+        <taxon>Pinus</taxon>
+        <taxon>Pinus subgen. Pinus</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2013" first="600" last="616" name="Plant Physiol." type="journal article" volume="161">
+        <title>Evolution of conifer diterpene synthases: diterpene resin acid biosynthesis in lodgepole pine and jack pine involves monofunctional and bifunctional diterpene synthases.</title>
+        <authorList>
+          <person name="Hall D.E."/>
+          <person name="Zerbe P."/>
+          <person name="Jancsik S."/>
+          <person name="Quesada A.L."/>
+          <person name="Dullat H."/>
+          <person name="Madilao L.L."/>
+          <person name="Yuen M."/>
+          <person name="Bohlmann J."/>
+        </authorList>
+        <dbReference id="23370714" type="PubMed"/>
+        <dbReference id="10.1104/pp.112.208546" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>3D-STRUCTURE MODELING</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Involved in defensive oleoresin formation in conifers in response to insect attack or other injury. Involved in diterpene (C20) olefins biosynthesis. Monofunctional enzyme lacking the DXDD motif in the class II active site relevant for the cyclization of geranylgeranyl diphosphate (GGPP). Requires (+)-copalyl diphosphate ((+)-CPP) as substrate, but no activity with GGPP or ent-CPP. Pimaradiene is the major products of the enzyme.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(+)-copalyl diphosphate = diphosphate + pimara-8(14),15-diene</text>
+        <dbReference id="RHEA:42984" type="Rhea"/>
+        <dbReference id="CHEBI:8210" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:58635" type="ChEBI"/>
+        <dbReference id="4.2.3.147" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment evidence="4" type="pathway">
+      <text>Terpene metabolism; oleoresin biosynthesis.</text>
+    </comment>
+    <comment type="miscellaneous">
+      <text evidence="4">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif important for the catalytic activity in the class I active site is degenetated, but the Mg(2+) binding sites are conserved.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="4">Belongs to the terpene synthase family. Tpsd subfamily.</text>
+    </comment>
+    <dbReference evidence="2" id="4.2.3.147" type="EC"/>
+    <dbReference id="JQ240316" type="EMBL">
+      <property type="protein sequence ID" value="AFU73868.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="M4HYC8" type="SMR"/>
+    <dbReference id="ag:AFU73868" type="KEGG"/>
+    <dbReference id="4.2.3.147" type="BRENDA">
+      <property type="organism ID" value="4843"/>
+    </dbReference>
+    <dbReference id="UPA00924" type="UniPathway"/>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0006952" type="GO">
+      <property type="term" value="P:defense response"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-0611">Plant defense</keyword>
+    <feature description="Monofunctional pimaradiene synthase" id="PRO_0000431415" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="868"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="620"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="620"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="624"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="624"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="764"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="768"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="772"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="Q40577" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="23370714" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000303">
+      <source>
+        <dbReference id="23370714" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000305"/>
+    <sequence checksum="D1A07A6856DFC633" length="868" mass="100104" modified="2013-05-29" version="1">MAMPLCSLTSYNPITTTLRGHHFLTINAYVKTQCIPCFFIKLHTRSSGSKQRIIDLRSGSSNIVACVGEGATSLSSHSDIMKTAKREEIPPGVWKDDISDSIMSSHKPEADEKRVEILIAEIKSMFRGMGDGETTPSAYDTAWVAKIPALDGSDHPHFPQTLQWILQNQLQDGSWGEGTYFSTYDRLLATLACIITLTVWRTGQTQVRQGIEFFRKHAGTMEDEADNHQPIGFEFVFPAMINEAKSLCLDLPYDTPFIKQIIEKREAKLKMIPTDTLYTVPTTFLYYLEGLQEIIDCQKIIKLQSKDGSFLSSPASTAAVFMCTGNTKCLEFLNFVLIKFGNHVPCQYPLDLFERLWAVDIVERLGIDRHFKKEIKDALDYVYSHWDERGIRWARENPVAYIDVMATGIRILRLHRYNVSSDILKTFRDENGEFYRFPGQSERGVTDMLNLNRCSHVAFPGETVMEEAKLCTERYLWNALENVNPLDKWGLKENIRGEVEYALKYPWLRRLPRLETRNYIEHYGANDVWLGKMMHMMPYINDRKYLELAKLDFNNVQSIHQKELRELRRWWKSSGFAELNFLPDRVAEIFFSIASSMFEPELATCRAVYTKSTLCTVILDGFYDVHGSAEDIMLFNEAVKRWDHSLLDRMAEHIKTCFLALYNVVNEIAEEGRKRQGHDVLPYIRNLWEIQLESFTKEAEWSRAEHVPSFHEYIEAAAISSALPTLVLIGVIFTGEVLTDHILSQIDYRSKFAYLMSLTGRLANDTKTYQVERGQGEVASAIQCYMKENPELSEEEALEYIYRLMENALADFKCEFLNTKDVPEYCRRLVFDNARSMQLIYMEGDGFKLSHETEIKQHVKKILFEPVA</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

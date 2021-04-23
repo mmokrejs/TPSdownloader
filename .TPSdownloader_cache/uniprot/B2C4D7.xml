@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2008-05-20" dataset="TrEMBL" modified="2020-10-07" version="54">
+    <accession>B2C4D7</accession>
+    <name>B2C4D7_ZEAMP</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="8">(E)-beta-caryophyllene synthase</fullName>
+      </submittedName>
+    </protein>
+    <gene>
+      <name evidence="8" type="primary">tps23</name>
+    </gene>
+    <organism evidence="8">
+      <name type="scientific">Zea mays subsp. parviglumis</name>
+      <name type="common">Balsas teosinte</name>
+      <dbReference id="76912" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>Liliopsida</taxon>
+        <taxon>Poales</taxon>
+        <taxon>Poaceae</taxon>
+        <taxon>PACMAD clade</taxon>
+        <taxon>Panicoideae</taxon>
+        <taxon>Andropogonodae</taxon>
+        <taxon>Andropogoneae</taxon>
+        <taxon>Tripsacinae</taxon>
+        <taxon>Zea</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="8" key="1">
+      <citation date="2008" first="482" last="494" name="Plant Cell" type="journal article" volume="20">
+        <title>A maize (E)-beta-caryophyllene synthase implicated in indirect defense responses against herbivores is not expressed in most American maize varieties.</title>
+        <authorList>
+          <person name="Kollner T.G."/>
+          <person name="Held M."/>
+          <person name="Lenk C."/>
+          <person name="Hiltpold I."/>
+          <person name="Turlings T.C."/>
+          <person name="Gershenzon J."/>
+          <person name="Degenhardt J."/>
+        </authorList>
+        <dbReference id="18296628" type="PubMed"/>
+        <dbReference id="10.1105/tpc.107.051672" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+    </comment>
+    <comment evidence="2" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference id="EU259642" type="EMBL">
+      <property type="protein sequence ID" value="ABY79213.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="5" id="KW-0175">Coiled coil</keyword>
+    <keyword evidence="4" id="KW-0479">Metal-binding</keyword>
+    <feature description="Terpene_synth" evidence="6" type="domain">
+      <location>
+        <begin position="27"/>
+        <end position="195"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="7" type="domain">
+      <location>
+        <begin position="226"/>
+        <end position="493"/>
+      </location>
+    </feature>
+    <feature evidence="5" type="coiled-coil region">
+      <location>
+        <begin position="340"/>
+        <end position="360"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00001946" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00004721" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00006333" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000256">
+      <source>
+        <dbReference id="Coils" type="SAM"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000313">
+      <source>
+        <dbReference id="ABY79213.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="70B5A6E0DB9BC8E4" length="547" mass="63659" modified="2008-05-20" version="1">MAADEARSVSRLHSEEDMHGKHHSTLWGDFFLHHVPCRPGQYLIMKDNVEIMKEEVKKMLLDVGSSDLSHKLDCIDTLERLGLDYHYTKEIDELMCNVFEARDQDLDLTTTSQLFYLLRKHGYHISSDVFLKFRDDKGDIVTNDARCLLRMYEAAHVRVNGEEILDNILIHTKRQLQCIVDDLEPTLQEEVRYALETPLFRRLNRVQARQFISTYEKSTTRNNMLLEFSKLDFNILLTLYCEELKDLTLWWKEFQAQANTTIYARDRMVEMHFWMMGVFFEPQYSYSRKMLTQLFMIVSVLDDLYDSHCTTEEGNAFTAALQRWDEEGVEQCPTYLRTLYTNIRATIKAIEEDLNFQNNKHAKLVKGLIIDMAMCYNAETEWRDKKYVPATVDEHLKISARSSGCMHLVSQGFISMGDVATSEALEWASTYPKIVRAVCIIARLANDIMSYKREASNNTMVSTVQTCAKEYGTTTVEQAIEKIRELIEEAWMDITHECLRQPQPKALLERAVNLARTMDFLYKDADGYTDSRSIKGILDSLYVHLID</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

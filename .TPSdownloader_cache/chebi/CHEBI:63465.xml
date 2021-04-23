@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:63465</ID>
+<NAME>marneral</NAME>
+<DEFINITION>A triterpenoid and aldehyde that is 3-cyclohexylpropanal in which the cyclohexyl group is substituted by methyl groups at positions 2 and 3, by an (E,E)-4,8,12-trimethyltrideca-3,7,11-trien-1-yl group at position 2, and by a propan-2-ylidene group at position 6 (the 1S,2R,3R-enantiomer).</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>marneral</SYNONYM>
+<SYNONYM>(+)-marneral</SYNONYM>
+<IUPAC_NAME>3-{(1S,2R,3R)-2,3-dimethyl-6-(propan-2-ylidene)-2-[(3E,7E)-4,8,12-trimethyltrideca-3,7,11-trien-1-yl]cyclohexyl}propanal</IUPAC_NAME>
+<FORMULA>C30H50O</FORMULA>
+<MASS>426.71740</MASS>
+<MONOISOTOPIC_MASS>426.38617</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>C[C@@H]1CCC([C@@H](CCC=O)[C@]1(C)CC\C=C(/C)CC\C=C(/C)CCC=C(C)C)=C(C)C</SMILES>
+<INCHI>InChI=1S/C30H50O/c1-23(2)13-9-14-25(5)15-10-16-26(6)17-11-21-30(8)27(7)19-20-28(24(3)4)29(30)18-12-22-31/h13,15,17,22,27,29H,9-12,14,16,18-21H2,1-8H3/b25-15+,26-17+/t27-,29-,30-/m1/s1</INCHI>
+<INCHIKEY>VNBRFEUEYRHQBM-OPEBEUCHSA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>10612097</REAXYS_REGISTRY_NUMBER>
+<METACYC_ACCESSION>CPD-10285</METACYC_ACCESSION>
+<PUBMED_CITATION>16425307</PUBMED_CITATION>
+<PUBMED_CITATION>18533667</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

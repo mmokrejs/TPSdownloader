@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2013-04-03" modified="2021-04-07" version="41">
+<accession>J9QS23</accession>
+<accession>D8QQZ1</accession>
+<name>TPS9_SELML</name>
+<protein>
+<recommendedName>
+<fullName>Copalyl diphosphate synthase 1</fullName>
+<ecNumber>5.5.1.12</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Terpene synthase 9</fullName>
+<shortName>SmTPS9</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">CPS1</name>
+<name type="ORF">SELMODRAFT_402532</name>
+</gene>
+<organism>
+<name type="scientific">Selaginella moellendorffii</name>
+<name type="common">Spikemoss</name>
+<dbReference type="NCBI Taxonomy" id="88036"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Lycopodiopsida</taxon>
+<taxon>Selaginellales</taxon>
+<taxon>Selaginellaceae</taxon>
+<taxon>Selaginella</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2012" name="Proc. Natl. Acad. Sci. U.S.A." volume="109" first="14711" last="14715">
+<title>Nonseed plant Selaginella moellendorfii has both seed plant and microbial types of terpene synthases.</title>
+<authorList>
+<person name="Li G."/>
+<person name="Kollner T.G."/>
+<person name="Yin Y."/>
+<person name="Jiang Y."/>
+<person name="Chen H."/>
+<person name="Xu Y."/>
+<person name="Gershenzon J."/>
+<person name="Pichersky E."/>
+<person name="Chen F."/>
+</authorList>
+<dbReference type="PubMed" id="22908266"/>
+<dbReference type="DOI" id="10.1073/pnas.1204300109"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>GENE FAMILY</scope>
+<scope>NOMENCLATURE</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2011" name="Science" volume="332" first="960" last="963">
+<title>The Selaginella genome identifies genetic changes associated with the evolution of vascular plants.</title>
+<authorList>
+<person name="Banks J.A."/>
+<person name="Nishiyama T."/>
+<person name="Hasebe M."/>
+<person name="Bowman J.L."/>
+<person name="Gribskov M."/>
+<person name="dePamphilis C."/>
+<person name="Albert V.A."/>
+<person name="Aono N."/>
+<person name="Aoyama T."/>
+<person name="Ambrose B.A."/>
+<person name="Ashton N.W."/>
+<person name="Axtell M.J."/>
+<person name="Barker E."/>
+<person name="Barker M.S."/>
+<person name="Bennetzen J.L."/>
+<person name="Bonawitz N.D."/>
+<person name="Chapple C."/>
+<person name="Cheng C."/>
+<person name="Correa L.G."/>
+<person name="Dacre M."/>
+<person name="DeBarry J."/>
+<person name="Dreyer I."/>
+<person name="Elias M."/>
+<person name="Engstrom E.M."/>
+<person name="Estelle M."/>
+<person name="Feng L."/>
+<person name="Finet C."/>
+<person name="Floyd S.K."/>
+<person name="Frommer W.B."/>
+<person name="Fujita T."/>
+<person name="Gramzow L."/>
+<person name="Gutensohn M."/>
+<person name="Harholt J."/>
+<person name="Hattori M."/>
+<person name="Heyl A."/>
+<person name="Hirai T."/>
+<person name="Hiwatashi Y."/>
+<person name="Ishikawa M."/>
+<person name="Iwata M."/>
+<person name="Karol K.G."/>
+<person name="Koehler B."/>
+<person name="Kolukisaoglu U."/>
+<person name="Kubo M."/>
+<person name="Kurata T."/>
+<person name="Lalonde S."/>
+<person name="Li K."/>
+<person name="Li Y."/>
+<person name="Litt A."/>
+<person name="Lyons E."/>
+<person name="Manning G."/>
+<person name="Maruyama T."/>
+<person name="Michael T.P."/>
+<person name="Mikami K."/>
+<person name="Miyazaki S."/>
+<person name="Morinaga S."/>
+<person name="Murata T."/>
+<person name="Mueller-Roeber B."/>
+<person name="Nelson D.R."/>
+<person name="Obara M."/>
+<person name="Oguri Y."/>
+<person name="Olmstead R.G."/>
+<person name="Onodera N."/>
+<person name="Petersen B.L."/>
+<person name="Pils B."/>
+<person name="Prigge M."/>
+<person name="Rensing S.A."/>
+<person name="Riano-Pachon D.M."/>
+<person name="Roberts A.W."/>
+<person name="Sato Y."/>
+<person name="Scheller H.V."/>
+<person name="Schulz B."/>
+<person name="Schulz C."/>
+<person name="Shakirov E.V."/>
+<person name="Shibagaki N."/>
+<person name="Shinohara N."/>
+<person name="Shippen D.E."/>
+<person name="Soerensen I."/>
+<person name="Sotooka R."/>
+<person name="Sugimoto N."/>
+<person name="Sugita M."/>
+<person name="Sumikawa N."/>
+<person name="Tanurdzic M."/>
+<person name="Theissen G."/>
+<person name="Ulvskov P."/>
+<person name="Wakazuki S."/>
+<person name="Weng J.K."/>
+<person name="Willats W.W."/>
+<person name="Wipf D."/>
+<person name="Wolf P.G."/>
+<person name="Yang L."/>
+<person name="Zimmer A.D."/>
+<person name="Zhu Q."/>
+<person name="Mitros T."/>
+<person name="Hellsten U."/>
+<person name="Loque D."/>
+<person name="Otillar R."/>
+<person name="Salamov A."/>
+<person name="Schmutz J."/>
+<person name="Shapiro H."/>
+<person name="Lindquist E."/>
+<person name="Lucas S."/>
+<person name="Rokhsar D."/>
+<person name="Grigoriev I.V."/>
+</authorList>
+<dbReference type="PubMed" id="21551031"/>
+<dbReference type="DOI" id="10.1126/science.1203810"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<comment type="function">
+<text evidence="4">Monofunctional diterpene synthase converting geranylgeranyl diphosphate to copalyl diphosphate.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="4">
+<text>(2E,6E,10E)-geranylgeranyl diphosphate = (+)-copalyl diphosphate</text>
+<dbReference type="Rhea" id="RHEA:24316"/>
+<dbReference type="ChEBI" id="CHEBI:58635"/>
+<dbReference type="ChEBI" id="CHEBI:58756"/>
+<dbReference type="EC" id="5.5.1.12"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="pathway">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="domain">
+<text evidence="1">The Asp-Xaa-Asp-Asp (DXDD) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="miscellaneous">
+<text>S.moellendorffii contains two distinct types of functional terpene synthases (TPS) genes, the typical seed plants TPS genes (SmTPSs) and the microbial type TPS genes (SmMTPSLs).</text>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the terpene synthase family.</text>
+</comment>
+<comment type="sequence caution" evidence="5">
+<conflict type="erroneous initiation">
+<sequence resource="EMBL-CDS" id="EFJ37889" version="1"/>
+</conflict>
+<text>Truncated N-terminus.</text>
+</comment>
+<dbReference type="EC" id="5.5.1.12"/>
+<dbReference type="EMBL" id="JX413782">
+<property type="protein sequence ID" value="AFR34002.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="GL377565">
+<property type="protein sequence ID" value="EFJ37889.1"/>
+<property type="status" value="ALT_INIT"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_002960350.1">
+<property type="nucleotide sequence ID" value="XM_002960304.1"/>
+</dbReference>
+<dbReference type="SMR" id="J9QS23"/>
+<dbReference type="STRING" id="88036.EFJ37888"/>
+<dbReference type="PRIDE" id="J9QS23"/>
+<dbReference type="EnsemblPlants" id="EFJ37889">
+<property type="protein sequence ID" value="EFJ37889"/>
+<property type="gene ID" value="SELMODRAFT_402532"/>
+</dbReference>
+<dbReference type="GeneID" id="9655852"/>
+<dbReference type="Gramene" id="EFJ37889">
+<property type="protein sequence ID" value="EFJ37889"/>
+<property type="gene ID" value="SELMODRAFT_402532"/>
+</dbReference>
+<dbReference type="KEGG" id="smo:SELMODRAFT_402532"/>
+<dbReference type="eggNOG" id="ENOG502QQN6">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_003125_2_0_1"/>
+<dbReference type="InParanoid" id="J9QS23"/>
+<dbReference type="OMA" id="RESMEGN"/>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="Proteomes" id="UP000001514">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050559">
+<property type="term" value="F:copalyl diphosphate synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016102">
+<property type="term" value="P:diterpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0413">Isomerase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Copalyl diphosphate synthase 1" id="PRO_0000421938">
+<location>
+<begin position="1"/>
+<end position="739"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DXDD motif">
+<location>
+<begin position="287"/>
+<end position="290"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="2">
+<location>
+<position position="287"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="2">
+<location>
+<position position="289"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="3">
+<location>
+<position position="154"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="3">
+<location>
+<position position="373"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="C7BKP9"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q38802"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="22908266"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<sequence length="739" mass="84560" checksum="081E0E34C777DDBE" modified="2012-11-28" version="1">MWELVETVRSMLNSLHDGEISVSAYDTAWVARVPALDGSNTPQFPMCLNWIMNNQLEDGSWGDRDLFLTYDRICSALACAIALKTWNTGDKIVHKALEFIRKTMPKMELEDSTHMPIGFEIVFPAMIEEAMALELDIDYTAPVLQTIYAERKKKLERIPMNVVQNYPTTLLHSLEGLHKTIDWDKVIKLQSPDGSLLFSPASTACALMHTGNEKCLQYLNNLVKRFNCAVPNVYPVDLFEHLWIVDRLQRLGISRYFTQEIKSALDYVYRYWTDKGIAWARGSPVQDADDTSMAFRLLRSHGYDISPDAFKTFQEGDSFVCFSGQAGQAVTGMYNLYRASQVMFPGETILEEAGSFARKFLEGKRQENQLYDKWIISKDLPGEVEFALDNPMHARLERLATRRYIDQYAADDVWIGKSLYRMPFVNNPIFLELAKADFNMCRALHRKEFQQLERWYDESSLSMFKGFSRSKLEQTFYSAAATIFEPELSPARLIWSQCWFLSLGINEYFDYQGSTKELEDLINNVERWNVNSLGNCSAKVKILFVELYNIVQNHSKQGFLYQGRSIGGALREIWKTWLSSLLQRTKWKMSDNYPTLEEYLKASHSSIEPAVRSTVYFVGETLATGDLKDSAICQMMNTASRLVQDTHTDKVDSSLNSITIYLEENPQLTESEALSQVQALANKNMQKLLYETLQPGALPQACKQLFLNAARIMNVFPGTNKVQAKLSNHVKRVLSQPVL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

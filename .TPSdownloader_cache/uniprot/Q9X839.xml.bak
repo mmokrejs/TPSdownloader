@@ -1,0 +1,583 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2006-07-25" modified="2021-04-07" version="115">
+<accession>Q9X839</accession>
+<name>CYC2_STRCO</name>
+<protein>
+<recommendedName>
+<fullName>Germacradienol/geosmin synthase</fullName>
+</recommendedName>
+<domain>
+<recommendedName>
+<fullName>Germacradienol/germacrene D synthase</fullName>
+<ecNumber>4.2.3.22</ecNumber>
+<ecNumber>4.2.3.75</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Sesquiterpene cyclase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Sesquiterpene synthase</fullName>
+</alternativeName>
+</domain>
+<domain>
+<recommendedName>
+<fullName>Geosmin synthase</fullName>
+<ecNumber>4.1.99.16</ecNumber>
+</recommendedName>
+</domain>
+</protein>
+<gene>
+<name type="primary">cyc2</name>
+<name type="ordered locus">SCO6073</name>
+<name type="ORF">SC9B1.20</name>
+</gene>
+<organism>
+<name type="scientific">Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145)</name>
+<dbReference type="NCBI Taxonomy" id="100226"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Streptomycetales</taxon>
+<taxon>Streptomycetaceae</taxon>
+<taxon>Streptomyces</taxon>
+<taxon>Streptomyces albidoflavus group</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2002" name="Nature" volume="417" first="141" last="147">
+<title>Complete genome sequence of the model actinomycete Streptomyces coelicolor A3(2).</title>
+<authorList>
+<person name="Bentley S.D."/>
+<person name="Chater K.F."/>
+<person name="Cerdeno-Tarraga A.-M."/>
+<person name="Challis G.L."/>
+<person name="Thomson N.R."/>
+<person name="James K.D."/>
+<person name="Harris D.E."/>
+<person name="Quail M.A."/>
+<person name="Kieser H."/>
+<person name="Harper D."/>
+<person name="Bateman A."/>
+<person name="Brown S."/>
+<person name="Chandra G."/>
+<person name="Chen C.W."/>
+<person name="Collins M."/>
+<person name="Cronin A."/>
+<person name="Fraser A."/>
+<person name="Goble A."/>
+<person name="Hidalgo J."/>
+<person name="Hornsby T."/>
+<person name="Howarth S."/>
+<person name="Huang C.-H."/>
+<person name="Kieser T."/>
+<person name="Larke L."/>
+<person name="Murphy L.D."/>
+<person name="Oliver K."/>
+<person name="O'Neil S."/>
+<person name="Rabbinowitsch E."/>
+<person name="Rajandream M.A."/>
+<person name="Rutherford K.M."/>
+<person name="Rutter S."/>
+<person name="Seeger K."/>
+<person name="Saunders D."/>
+<person name="Sharp S."/>
+<person name="Squares R."/>
+<person name="Squares S."/>
+<person name="Taylor K."/>
+<person name="Warren T."/>
+<person name="Wietzorrek A."/>
+<person name="Woodward J.R."/>
+<person name="Barrell B.G."/>
+<person name="Parkhill J."/>
+<person name="Hopwood D.A."/>
+</authorList>
+<dbReference type="PubMed" id="12000953"/>
+<dbReference type="DOI" id="10.1038/417141a"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC BAA-471 / A3(2) / M145</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2003" name="Proc. Natl. Acad. Sci. U.S.A." volume="100" first="1547" last="1551">
+<title>Expression and mechanistic analysis of a germacradienol synthase from Streptomyces coelicolor implicated in geosmin biosynthesis.</title>
+<authorList>
+<person name="Cane D.E."/>
+<person name="Watt R.M."/>
+</authorList>
+<dbReference type="PubMed" id="12556563"/>
+<dbReference type="DOI" id="10.1073/pnas.0337625100"/>
+</citation>
+<scope>PROTEIN SEQUENCE OF 2-10</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>DOMAIN</scope>
+<scope>KINETIC PARAMETERS</scope>
+<scope>COFACTOR</scope>
+<source>
+<strain>ATCC BAA-471 / A3(2) / M145</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2003" name="Proc. Natl. Acad. Sci. U.S.A." volume="100" first="1541" last="1546">
+<title>PCR-targeted Streptomyces gene replacement identifies a protein domain needed for biosynthesis of the sesquiterpene soil odor geosmin.</title>
+<authorList>
+<person name="Gust B."/>
+<person name="Challis G.L."/>
+<person name="Fowler K."/>
+<person name="Kieser T."/>
+<person name="Chater K.F."/>
+</authorList>
+<dbReference type="PubMed" id="12563033"/>
+<dbReference type="DOI" id="10.1073/pnas.0337542100"/>
+</citation>
+<scope>DOMAIN</scope>
+<scope>ROLE IN GEOSMIN BIOSYNTHESIS</scope>
+<source>
+<strain>ATCC BAA-471 / A3(2) / M145</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2004" name="J. Am. Chem. Soc." volume="126" first="2678" last="2679">
+<title>Mechanism and stereochemistry of the germacradienol/germacrene D synthase of Streptomyces coelicolor A3(2).</title>
+<authorList>
+<person name="He X."/>
+<person name="Cane D.E."/>
+</authorList>
+<dbReference type="PubMed" id="14995166"/>
+<dbReference type="DOI" id="10.1021/ja039929k"/>
+</citation>
+<scope>FUNCTION IN GERMACRENE D PRODUCTION</scope>
+<scope>REACTION STEREOCHEMISTRY</scope>
+<source>
+<strain>ATCC BAA-471 / A3(2) / M145</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2006" name="J. Am. Chem. Soc." volume="128" first="8128" last="8129">
+<title>Geosmin biosynthesis. Streptomyces coelicolor germacradienol/germacrene D synthase converts farnesyl diphosphate to geosmin.</title>
+<authorList>
+<person name="Jiang J."/>
+<person name="He X."/>
+<person name="Cane D.E."/>
+</authorList>
+<dbReference type="PubMed" id="16787064"/>
+<dbReference type="DOI" id="10.1021/ja062669x"/>
+</citation>
+<scope>FUNCTION IN DIRECT GEOSMIN PRODUCTION</scope>
+<scope>COFACTOR</scope>
+<scope>REACTION MECHANISM</scope>
+<source>
+<strain>ATCC BAA-471 / A3(2) / M145</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2 3 4 5">Tow-domain protein where the N-terminal domain catalyzes the cyclization of farnesyl diphosphate (FPP) to a 85:15 mixture of the sesquiterpene alcohol germacradienol and the sesquiterpene hydrocarbon germacrene D. The C-terminal domain partially converts the germacradienol formed into geosmin, the characteristic odoriferous ('earthy aroma') constituent of Streptomyces species.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate + H2O = (1E,4S,5E,7R)-germacra-1(10),5-dien-11-ol + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:22436"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:46734"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.22"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(1E,4S,5E,7R)-germacra-1(10),5-dien-11-ol + H2O = (-)-geosmin + acetone</text>
+<dbReference type="Rhea" id="RHEA:30371"/>
+<dbReference type="ChEBI" id="CHEBI:15347"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:46702"/>
+<dbReference type="ChEBI" id="CHEBI:46734"/>
+<dbReference type="EC" id="4.1.99.16"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate = (-)-germacrene D + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:12016"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:49044"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.75"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="2 5">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="2 5">Magnesium. Fe(2+) or Cu(2+) ions are very less efficient as cofactors.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2">62 nM for FPP</KM>
+</kinetics>
+</comment>
+<comment type="pathway">
+<text>Secondary metabolite biosynthesis; geosmin biosynthesis.</text>
+</comment>
+<comment type="pathway">
+<text>Sesquiterpene biosynthesis; germacradienol biosynthesis; germacradienol from farnesyl diphosphate: step 1/1.</text>
+</comment>
+<comment type="pathway">
+<text>Sesquiterpene biosynthesis; germacrene D biosynthesis; germacrene D from farnesyl diphosphate: step 1/1.</text>
+</comment>
+<comment type="domain">
+<text evidence="2 3">Consists of 2 homologous sesquiterpene synthase domains. The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="miscellaneous">
+<text>The earthy odorant geosmin is also responsible for the 'off-flavor' of contaminated drinking water, wines, and other foodstuffs.</text>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the terpene synthase family.</text>
+</comment>
+<comment type="caution">
+<text evidence="6">It is uncertain whether the initial Met is cleaved or not.</text>
+</comment>
+<comment type="online information" name="Protein Spotlight">
+<link uri="https://web.expasy.org/spotlight/back_issues/035"/>
+<text>The earth's perfume - Issue 35 of June 2003</text>
+</comment>
+<dbReference type="EC" id="4.2.3.22"/>
+<dbReference type="EC" id="4.2.3.75"/>
+<dbReference type="EC" id="4.1.99.16"/>
+<dbReference type="EMBL" id="AL939126">
+<property type="protein sequence ID" value="CAB41566.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="T35865">
+<property type="entry name" value="T35865"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_630182.1">
+<property type="nucleotide sequence ID" value="NC_003888.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_011030632.1">
+<property type="nucleotide sequence ID" value="NZ_VNID01000009.1"/>
+</dbReference>
+<dbReference type="PDB" id="5DW7">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="3.20"/>
+<property type="chains" value="A=1-366"/>
+</dbReference>
+<dbReference type="PDB" id="5DZ2">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.11"/>
+<property type="chains" value="A/B=1-338"/>
+</dbReference>
+<dbReference type="PDBsum" id="5DW7"/>
+<dbReference type="PDBsum" id="5DZ2"/>
+<dbReference type="SMR" id="Q9X839"/>
+<dbReference type="STRING" id="100226.SCO6073"/>
+<dbReference type="GeneID" id="1101514"/>
+<dbReference type="KEGG" id="sco:SCO6073"/>
+<dbReference type="PATRIC" id="fig|100226.15.peg.6175"/>
+<dbReference type="eggNOG" id="ENOG502Z881">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_372108_0_0_11"/>
+<dbReference type="InParanoid" id="Q9X839"/>
+<dbReference type="OMA" id="RLPLFMP"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-14022"/>
+<dbReference type="BRENDA" id="4.1.99.16">
+<property type="organism ID" value="5998"/>
+</dbReference>
+<dbReference type="BRENDA" id="4.2.3.22">
+<property type="organism ID" value="5998"/>
+</dbReference>
+<dbReference type="SABIO-RK" id="Q9X839"/>
+<dbReference type="UniPathway" id="UPA00209"/>
+<dbReference type="UniPathway" id="UPA00283">
+<property type="reaction ID" value="UER00583"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00285">
+<property type="reaction ID" value="UER00584"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000001973">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0034004">
+<property type="term" value="F:germacradienol synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052577">
+<property type="term" value="F:germacrene-D synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034686">
+<property type="entry name" value="Terpene_cyclase-like_2"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01020">
+<property type="entry name" value="Terpene_Cyclase_Like_2"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<feature type="initiator methionine" description="Removed" evidence="2">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Germacradienol/geosmin synthase" id="PRO_0000247895">
+<location>
+<begin position="2"/>
+<end position="726"/>
+</location>
+</feature>
+<feature type="region of interest" description="Germacradienol/germacrene D synthase">
+<location>
+<begin position="2"/>
+<end position="354"/>
+</location>
+</feature>
+<feature type="region of interest" description="Geosmin synthase">
+<location>
+<begin position="355"/>
+<end position="726"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif 1; degenerate">
+<location>
+<begin position="86"/>
+<end position="91"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif 2; degenerate">
+<location>
+<begin position="455"/>
+<end position="459"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="86"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="91"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="267"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="271"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="276"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="455"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="598"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="602"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="606"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="23"/>
+<end position="37"/>
+</location>
+</feature>
+<feature type="strand" evidence="8">
+<location>
+<begin position="43"/>
+<end position="45"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="48"/>
+<end position="54"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="56"/>
+<end position="63"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="69"/>
+<end position="92"/>
+</location>
+</feature>
+<feature type="turn" evidence="8">
+<location>
+<begin position="93"/>
+<end position="97"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="99"/>
+<end position="108"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="109"/>
+<end position="112"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="127"/>
+<end position="139"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="140"/>
+<end position="142"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="145"/>
+<end position="171"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="177"/>
+<end position="187"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="190"/>
+<end position="200"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="206"/>
+<end position="209"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="212"/>
+<end position="239"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="247"/>
+<end position="255"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="259"/>
+<end position="282"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="284"/>
+<end position="291"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="296"/>
+<end position="320"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="324"/>
+<end position="326"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12556563"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12563033"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="14995166"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16787064"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<evidence key="7" type="ECO:0007744">
+<source>
+<dbReference type="PDB" id="5DW7"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0007744">
+<source>
+<dbReference type="PDB" id="5DZ2"/>
+</source>
+</evidence>
+<sequence length="726" mass="81474" checksum="CB332AC7840EB81E" modified="2007-01-23" version="3">MTQQPFQLPHFYLPHPARLNPHLDEARAHSTTWAREMGMLEGSGVWEQSDLEAHDYGLLCAYTHPDCDGPALSLITDWYVWVFFFDDHFLEKYKRSQDRLAGKAHLDRLPLFMPLDDAAGMPEPRNPVEAGLADLWTRTVPAMSADWRRRFAVATEHLLNESMWELSNINEGRVANPVEYIEMRRKVGGAPWSAGLVEYATAEVPAAVAGTRPLRVLMETFSDAVHLRNDLFSYQREVEDEGELSNGVLVLETFFGCTTQEAADLVNDVLTSRLHQFEHTAFTEVPAVALEKGLTPLEVAAVGAYTKGLQDWQSGGHEWHMRSSRYMNKGERPLAGWQALTGPGTSAADVGALLADAVAQRARSYTYVPFQKVGPSVIPDIRMPYPLELSPALDGARRHLSEWCREMGILSEGVWDEDKLESCDLPLCAAGLDPDATQDQLDLASGWLAFGTYGDDYYPLVYGHRRDLAAARLTTTRLSDCMPLDGEPVPPPGNAMERSLIDLWVRTTAGMTPEERRPLKKAVDDMTEAWLWELSNQIQNRVPDPVDYLEMRRATFGSDLTLGLCRAGHGPAVPPEVYRSGPVRSLENAAIDYACLLNDVFSYQKEIEYEGEIHNAVLVVQNFFGVDYPAALGVVQDLMNQRMRQFEHVVAHELPVVYDDFQLSEEARTVMRGYVTDLQNWMAGILNWHRNVPRYKAEYLAGRTHGFLPDRIPAPPVPRSSPALTH</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

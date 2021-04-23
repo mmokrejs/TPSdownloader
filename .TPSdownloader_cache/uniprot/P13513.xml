@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="1990-01-01" dataset="Swiss-Prot" modified="2021-04-07" version="96">
+    <accession>P13513</accession>
+    <accession>Q7LP67</accession>
+    <name>TRI5_FUSSP</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="22">Trichodiene synthase</fullName>
+        <ecNumber evidence="10 13 16 18 20">4.2.3.6</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="23">Core trichothecene cluster (CTC) protein 5</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="22">Sesquiterpene cyclase TRI5</fullName>
+        <shortName evidence="22">TS</shortName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="22" type="primary">TRI5</name>
+      <name type="synonym">TOX 5</name>
+    </gene>
+    <organism>
+      <name type="scientific">Fusarium sporotrichioides</name>
+      <dbReference id="5514" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Ascomycota</taxon>
+        <taxon>Pezizomycotina</taxon>
+        <taxon>Sordariomycetes</taxon>
+        <taxon>Hypocreomycetidae</taxon>
+        <taxon>Hypocreales</taxon>
+        <taxon>Nectriaceae</taxon>
+        <taxon>Fusarium</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="1989" first="131" last="138" name="Gene" type="journal article" volume="79">
+        <title>Isolation and nucleotide sequence of a sesquiterpene cyclase gene from the trichothecene-producing fungus Fusarium sporotrichioides.</title>
+        <authorList>
+          <person name="Hohn T.M."/>
+          <person name="Beremand P.D."/>
+        </authorList>
+        <dbReference id="2777086" type="PubMed"/>
+        <dbReference id="10.1016/0378-1119(89)90098-x" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+      <scope>PARTIAL PROTEIN SEQUENCE</scope>
+      <source>
+        <strain>ATCC 24631 / NRRL 3299</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2001" first="121" last="133" name="Fungal Genet. Biol." type="journal article" volume="32">
+        <title>A genetic and biochemical approach to study trichothecene diversity in Fusarium sporotrichioides and Fusarium graminearum.</title>
+        <authorList>
+          <person name="Brown D.W."/>
+          <person name="McCormick S.P."/>
+          <person name="Alexander N.J."/>
+          <person name="Proctor R.H."/>
+          <person name="Desjardins A.E."/>
+        </authorList>
+        <dbReference id="11352533" type="PubMed"/>
+        <dbReference id="10.1006/fgbi.2001.1256" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+      <scope>FUNCTION</scope>
+      <source>
+        <strain>ATCC 24631 / NRRL 3299</strain>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2001-04" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Fusarium sporotrichioides trichodiene synthase (TRI5) gene cDNA.</title>
+        <authorList>
+          <person name="Ren Q."/>
+          <person name="Tag A."/>
+          <person name="Peplow A."/>
+          <person name="Lai H."/>
+          <person name="Kupfer D."/>
+          <person name="Peterson A."/>
+          <person name="Beremand M."/>
+          <person name="Roe B."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    </reference>
+    <reference key="4">
+      <citation date="1986" first="756" last="761" name="Arch. Biochem. Biophys." type="journal article" volume="251">
+        <title>Purification and characterization of the sesquiterpene cyclase trichodiene synthetase from Fusarium sporotrichioides.</title>
+        <authorList>
+          <person name="Hohn T.M."/>
+          <person name="Vanmiddlesworth F."/>
+        </authorList>
+        <dbReference id="3800398" type="PubMed"/>
+        <dbReference id="10.1016/0003-9861(86)90386-3" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <scope>COFACTOR</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <reference key="5">
+      <citation date="1989" first="92" last="97" name="Arch. Biochem. Biophys." type="journal article" volume="275">
+        <title>Expression of the trichodiene synthase gene of Fusarium sporotrichioides in Escherichia coli results in sesquiterpene production.</title>
+        <authorList>
+          <person name="Hohn T.M."/>
+          <person name="Plattner R.D."/>
+        </authorList>
+        <dbReference id="2817906" type="PubMed"/>
+        <dbReference id="10.1016/0003-9861(89)90353-6" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="6">
+      <citation date="1989" first="1500" last="1503" name="Appl. Environ. Microbiol." type="journal article" volume="55">
+        <title>Regulation of trichodiene synthase in Fusarium sporotrichioides and Gibberella pulicaris (Fusarium sambucinum).</title>
+        <authorList>
+          <person name="Hohn T.M."/>
+          <person name="Beremand M.N."/>
+        </authorList>
+        <dbReference id="16347944" type="PubMed"/>
+        <dbReference id="10.1128/aem.55.6.1500-1503.1989" type="DOI"/>
+      </citation>
+      <scope>INDUCTION</scope>
+    </reference>
+    <reference key="7">
+      <citation date="1990" first="702" last="706" name="Appl. Environ. Microbiol." type="journal article" volume="56">
+        <title>Bioconversion of possible T-2 toxin precursors by a mutant strain of Fusarium sporotrichioides NRRL 3299.</title>
+        <authorList>
+          <person name="McCormick S.P."/>
+          <person name="Taylor S.L."/>
+          <person name="Plattner R.D."/>
+          <person name="Beremand M.N."/>
+        </authorList>
+        <dbReference id="2317042" type="PubMed"/>
+        <dbReference id="10.1128/aem.56.3.702-706.1990" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="8">
+      <citation date="1995" first="2480" last="2488" name="Biochemistry" type="journal article" volume="34">
+        <title>Trichodiene synthase. Identification of active site residues by site-directed mutagenesis.</title>
+        <authorList>
+          <person name="Cane D.E."/>
+          <person name="Shim J.H."/>
+          <person name="Xue Q."/>
+          <person name="Fitzsimons B.C."/>
+          <person name="Hohn T.M."/>
+        </authorList>
+        <dbReference id="7873527" type="PubMed"/>
+        <dbReference id="10.1021/bi00008a011" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>MUTAGENESIS OF CYS-146; CYS-190; ARG-304 AND TYR-305</scope>
+    </reference>
+    <reference key="9">
+      <citation date="1995" first="95" last="102" name="Mol. Gen. Genet." type="journal article" volume="248">
+        <title>The Tri4 gene of Fusarium sporotrichioides encodes a cytochrome P450 monooxygenase involved in trichothecene biosynthesis.</title>
+        <authorList>
+          <person name="Hohn T.M."/>
+          <person name="Desjardins A.E."/>
+          <person name="McCormick S.P."/>
+        </authorList>
+        <dbReference id="7651333" type="PubMed"/>
+        <dbReference id="10.1007/bf02456618" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="10">
+      <citation date="1996" first="353" last="359" name="Appl. Environ. Microbiol." type="journal article" volume="62">
+        <title>Isolation and characterization of Tri3, a gene encoding 15-O-acetyltransferase from Fusarium sporotrichioides.</title>
+        <authorList>
+          <person name="McCormick S.P."/>
+          <person name="Hohn T.M."/>
+          <person name="Desjardins A.E."/>
+        </authorList>
+        <dbReference id="8593041" type="PubMed"/>
+        <dbReference id="10.1128/aem.62.2.353-359.1996" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="11">
+      <citation date="1996" first="12369" last="12376" name="Biochemistry" type="journal article" volume="35">
+        <title>Trichodiene synthase. Probing the role of the highly conserved aspartate-rich region by site-directed mutagenesis.</title>
+        <authorList>
+          <person name="Cane D.E."/>
+          <person name="Xue Q."/>
+          <person name="Fitzsimons B.C."/>
+        </authorList>
+        <dbReference id="8823172" type="PubMed"/>
+        <dbReference id="10.1021/bi961344y" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>DOMAIN</scope>
+      <scope>COFACTOR</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>MUTAGENESIS OF ASP-100; ASP-101 AND ASP-104</scope>
+    </reference>
+    <reference key="12">
+      <citation date="1998" first="221" last="225" name="Appl. Environ. Microbiol." type="journal article" volume="64">
+        <title>The TRI11 gene of Fusarium sporotrichioides encodes a cytochrome P-450 monooxygenase required for C-15 hydroxylation in trichothecene biosynthesis.</title>
+        <authorList>
+          <person name="Alexander N.J."/>
+          <person name="Hohn T.M."/>
+          <person name="McCormick S.P."/>
+        </authorList>
+        <dbReference id="9435078" type="PubMed"/>
+        <dbReference id="10.1128/aem.64.1.221-225.1998" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="13">
+      <citation date="1999" first="5252" last="5256" name="Appl. Environ. Microbiol." type="journal article" volume="65">
+        <title>Disruption of TRI101, the gene encoding trichothecene 3-O-acetyltransferase, from Fusarium sporotrichioides.</title>
+        <authorList>
+          <person name="McCormick S.P."/>
+          <person name="Alexander N.J."/>
+          <person name="Trapp S.E."/>
+          <person name="Hohn T.M."/>
+        </authorList>
+        <dbReference id="10583973" type="PubMed"/>
+        <dbReference id="10.1128/aem.65.12.5252-5256.1999" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="14">
+      <citation date="2002" first="2959" last="2964" name="Appl. Environ. Microbiol." type="journal article" volume="68">
+        <title>Fusarium Tri8 encodes a trichothecene C-3 esterase.</title>
+        <authorList>
+          <person name="McCormick S.P."/>
+          <person name="Alexander N.J."/>
+        </authorList>
+        <dbReference id="12039755" type="PubMed"/>
+        <dbReference id="10.1128/aem.68.6.2959-2964.2002" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="15">
+      <citation date="2002" first="224" last="233" name="Fungal Genet. Biol." type="journal article" volume="36">
+        <title>Inactivation of a cytochrome P-450 is a determinant of trichothecene diversity in Fusarium species.</title>
+        <authorList>
+          <person name="Brown D.W."/>
+          <person name="McCormick S.P."/>
+          <person name="Alexander N.J."/>
+          <person name="Proctor R.H."/>
+          <person name="Desjardins A.E."/>
+        </authorList>
+        <dbReference id="12135578" type="PubMed"/>
+        <dbReference id="10.1016/s1087-1845(02)00021-x" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="16">
+      <citation date="2003" first="1607" last="1613" name="Appl. Environ. Microbiol." type="journal article" volume="69">
+        <title>Tri1 encodes the cytochrome P450 monooxygenase for C-8 hydroxylation during trichothecene biosynthesis in Fusarium sporotrichioides and resides upstream of another new Tri gene.</title>
+        <authorList>
+          <person name="Meek I.B."/>
+          <person name="Peplow A.W."/>
+          <person name="Ake C. Jr."/>
+          <person name="Phillips T.D."/>
+          <person name="Beremand M.N."/>
+        </authorList>
+        <dbReference id="12620849" type="PubMed"/>
+        <dbReference id="10.1128/aem.69.3.1607-1613.2003" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="17">
+      <citation date="2003" first="2731" last="2736" name="Appl. Environ. Microbiol." type="journal article" volume="69">
+        <title>Identification of new genes positively regulated by Tri10 and a regulatory network for trichothecene mycotoxin production.</title>
+        <authorList>
+          <person name="Peplow A.W."/>
+          <person name="Tag A.G."/>
+          <person name="Garifullina G.F."/>
+          <person name="Beremand M.N."/>
+        </authorList>
+        <dbReference id="12732543" type="PubMed"/>
+        <dbReference id="10.1128/aem.69.5.2731-2736.2003" type="DOI"/>
+      </citation>
+      <scope>INDUCTION</scope>
+    </reference>
+    <reference key="18">
+      <citation date="2003" first="5935" last="5940" name="Appl. Environ. Microbiol." type="journal article" volume="69">
+        <title>Tri16 is required for esterification of position C-8 during trichothecene mycotoxin production by Fusarium sporotrichioides.</title>
+        <authorList>
+          <person name="Peplow A.W."/>
+          <person name="Meek I.B."/>
+          <person name="Wiles M.C."/>
+          <person name="Phillips T.D."/>
+          <person name="Beremand M.N."/>
+        </authorList>
+        <dbReference id="14532047" type="PubMed"/>
+        <dbReference id="10.1128/aem.69.10.5935-5940.2003" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="19">
+      <citation date="2006" first="636" last="642" name="Can. J. Microbiol." type="journal article" volume="52">
+        <title>Fusarium Tri4 encodes a multifunctional oxygenase required for trichothecene biosynthesis.</title>
+        <authorList>
+          <person name="McCormick S.P."/>
+          <person name="Alexander N.J."/>
+          <person name="Proctor R.H."/>
+        </authorList>
+        <dbReference id="16917519" type="PubMed"/>
+        <dbReference id="10.1139/w06-011" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="20">
+      <citation date="2001" first="13543" last="13548" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="98">
+        <title>Structure of trichodiene synthase from Fusarium sporotrichioides provides mechanistic inferences on the terpene cyclization cascade.</title>
+        <authorList>
+          <person name="Rynkiewicz M.J."/>
+          <person name="Cane D.E."/>
+          <person name="Christianson D.W."/>
+        </authorList>
+        <dbReference id="11698643" type="PubMed"/>
+        <dbReference id="10.1073/pnas.231313098" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS)</scope>
+    </reference>
+    <reference key="21">
+      <citation date="2002" first="1732" last="1741" name="Biochemistry" type="journal article" volume="41">
+        <title>X-ray crystal structures of D100E trichodiene synthase and its pyrophosphate complex reveal the basis for terpene product diversity.</title>
+        <authorList>
+          <person name="Rynkiewicz M.J."/>
+          <person name="Cane D.E."/>
+          <person name="Christianson D.W."/>
+        </authorList>
+        <dbReference id="11827517" type="PubMed"/>
+        <dbReference id="10.1021/bi011960g" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (2.40 ANGSTROMS)</scope>
+      <scope>MUTAGENESIS OF ASP-100</scope>
+    </reference>
+    <reference key="22">
+      <citation date="2005" first="12719" last="12727" name="Biochemistry" type="journal article" volume="44">
+        <title>Role of arginine-304 in the diphosphate-triggered active site closure mechanism of trichodiene synthase.</title>
+        <authorList>
+          <person name="Vedula L.S."/>
+          <person name="Cane D.E."/>
+          <person name="Christianson D.W."/>
+        </authorList>
+        <dbReference id="16171386" type="PubMed"/>
+        <dbReference id="10.1021/bi0510476" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (2.50 ANGSTROMS) IN COMPLEX WITH MAGNESIUM</scope>
+      <scope>COFACTOR</scope>
+      <scope>MUTAGENESIS OF ARG-304</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+    </reference>
+    <reference key="23">
+      <citation date="2005" first="6153" last="6163" name="Biochemistry" type="journal article" volume="44">
+        <title>Molecular recognition of the substrate diphosphate group governs product diversity in trichodiene synthase mutants.</title>
+        <authorList>
+          <person name="Vedula L.S."/>
+          <person name="Rynkiewicz M.J."/>
+          <person name="Pyun H.J."/>
+          <person name="Coates R.M."/>
+          <person name="Cane D.E."/>
+          <person name="Christianson D.W."/>
+        </authorList>
+        <dbReference id="15835903" type="PubMed"/>
+        <dbReference id="10.1021/bi050059o" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (2.10 ANGSTROMS) IN COMPLEX WITH MAGNESIUM AND INHIBITOR</scope>
+      <scope>COFACTOR</scope>
+      <scope>MUTAGENESIS OF TYR-305</scope>
+    </reference>
+    <reference key="24">
+      <citation date="2007" first="260" last="266" name="Arch. Biochem. Biophys." type="journal article" volume="466">
+        <title>Exploring biosynthetic diversity with trichodiene synthase.</title>
+        <authorList>
+          <person name="Vedula L.S."/>
+          <person name="Zhao Y."/>
+          <person name="Coates R.M."/>
+          <person name="Koyama T."/>
+          <person name="Cane D.E."/>
+          <person name="Christianson D.W."/>
+        </authorList>
+        <dbReference id="17678871" type="PubMed"/>
+        <dbReference id="10.1016/j.abb.2007.06.016" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (2.85 ANGSTROMS) IN COMPLEX WITH MAGNESIUM AND INHIBITOR</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>ACTIVITY REGULATION</scope>
+    </reference>
+    <reference key="25">
+      <citation date="2008" first="184" last="194" name="Arch. Biochem. Biophys." type="journal article" volume="469">
+        <title>Structural and mechanistic analysis of trichodiene synthase using site-directed mutagenesis: probing the catalytic function of tyrosine-295 and the asparagine-225/serine-229/glutamate-233-Mg2+B motif.</title>
+        <authorList>
+          <person name="Vedula L.S."/>
+          <person name="Jiang J."/>
+          <person name="Zakharian T."/>
+          <person name="Cane D.E."/>
+          <person name="Christianson D.W."/>
+        </authorList>
+        <dbReference id="17996718" type="PubMed"/>
+        <dbReference id="10.1016/j.abb.2007.10.015" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (2.10 ANGSTROMS) IN COMPLEX WITH MAGNESIUM</scope>
+      <scope>MUTAGENESIS OF ASN-225; SER-229 AND TYR-295</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="1 2 4 5 6 8 12 15 16 17 19 21">Trichodiene synthase; part of the core gene cluster that mediates the biosynthesis of trichothecenes, a very large family of chemically related bicyclic sesquiterpene compounds acting as mycotoxins, including T2-toxin (PubMed:11352533, PubMed:2817906). The biosynthesis of trichothecenes begins with the cyclization of farnesyl diphosphate to trichodiene and is catalyzed by the trichodiene synthase TRI5 (PubMed:3800398, PubMed:7873527, PubMed:8823172). Trichodiene undergoes a series of oxygenations catalyzed by the cytochrome P450 monooxygenase TRI4 (PubMed:7651333). TRI4 controls the addition of four oxygens at C-2, C-3, C-11, and the C-12, C-13-epoxide to form the intermediate isotrichotriol (PubMed:16917519). Isotrichotriol then undergoes a non-enzymatic isomerization and cyclization to form isotrichodermol (PubMed:2317042). During this process, the oxygen at the C-2 position becomes the pyran ring oxygen and the hydroxyl group at C-11 is lost (PubMed:2317042). More complex type A trichothecenes are built by modifying isotrichodermol through a series of paired hydroxylation and acetylation or acylation steps (PubMed:11352533). Isotrichodermol is converted to isotrichodermin by the acetyltransferase TRI101 (PubMed:10583973). TRI101 encodes a C-3 transacetylase that acts as a self-protection or resistance factor during biosynthesis and that the presence of a free C-3 hydroxyl group is a key component of Fusarium trichothecene phytotoxicity (PubMed:10583973). A second hydroxyl group is added to C-15 by the trichothecene C-15 hydroxylase TRI11, producing 15-decalonectrin, which is then acetylated by TRI3, producing calonectrin (PubMed:9435078, PubMed:8593041). A third hydroxyl group is added at C-4 by the cytochrome P450 monooxygenase TRI13, converting calonectrin to 3,15-diacetoxyspirpenol, which is subsequently acetylated by the acetyltransferase TRI7 (PubMed:12135578, PubMed:11352533). A fourth hydroxyl group is added to C-8 by the cytochrome P450 monooxygenase TRI1, followed by the addition of an isovaleryl moiety by TRI16 (PubMed:12620849, PubMed:14532047). Finally, the acetyl group is removed from the C-3 position by the trichothecene C-3 esterase TRI8 to produce T-2 toxin (PubMed:12039755).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="10 13 16 18 20">
+        <text>(2E,6E)-farnesyl diphosphate = diphosphate + trichodiene</text>
+        <dbReference id="RHEA:12052" type="Rhea"/>
+        <dbReference id="CHEBI:15861" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.6" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="9 10 13 14 16 20">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <cofactor evidence="20">
+        <name>Mn(2+)</name>
+        <dbReference id="CHEBI:29035" type="ChEBI"/>
+      </cofactor>
+      <text evidence="25">Some of the cofactor binding sites show unusual localization within the protein.</text>
+    </comment>
+    <comment type="activity regulation">
+      <text evidence="13">Benzyl triethylammonium cation (BTAC) acts as a competitive inhibitor of trichodiene synthase reaction in the presence of pyrophospahte (PPi) (PubMed:17678871).</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="16 18">62.0 nM for farnesyl pyrophosphate</KM>
+        <KM evidence="20">78.0 nM for Mg(2+)</KM>
+        <KM evidence="20">84.8 nM for Mn(2+)</KM>
+      </kinetics>
+      <phDependence>
+        <text evidence="16">Optimum pH is 6.75-7.75.</text>
+      </phDependence>
+    </comment>
+    <comment evidence="16" type="pathway">
+      <text>Sesquiterpene biosynthesis; trichothecene biosynthesis.</text>
+    </comment>
+    <comment type="induction">
+      <text evidence="7 11">Expression is positively regulated by the trichothecene cluster-specific transcription activator TRI10 (PubMed:12732543). Expression is induced between 18h and 21h growth on GYEP medium (PubMed:16347944). The initial detection of trichothecenes occurs several hours after the initial detection of TRI5 (PubMed:16347944). The initiation of trichothecene biosynthesis occurs with a high concentration of glucose remaining in the culture medium (PubMed:16347944).</text>
+    </comment>
+    <comment type="miscellaneous">
+      <text evidence="25">Trichothecenes are sesquiterpenoid toxins that act by inhibiting protein biosynthesis.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="25">Belongs to the trichodiene synthase family.</text>
+    </comment>
+    <dbReference evidence="10 13 16 18 20" id="4.2.3.6" type="EC"/>
+    <dbReference id="AF364179" type="EMBL">
+      <property type="protein sequence ID" value="AAD13657.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="AF359360" type="EMBL">
+      <property type="protein sequence ID" value="AAK33074.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="AY032745" type="EMBL">
+      <property type="protein sequence ID" value="AAK77935.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="JU0064" type="PIR">
+      <property type="entry name" value="SYFUTP"/>
+    </dbReference>
+    <dbReference id="1JFA" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.50"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="1JFG" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.50"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="1KIY" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.40"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="1KIZ" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.60"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="1YJ4" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.30"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="1YYQ" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.10"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="1YYR" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.50"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="1YYS" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.75"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="1YYT" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.90"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="1YYU" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.95"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="2AEK" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.90"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="2AEL" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.50"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="2AET" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.75"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="2PS4" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.46"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="2PS5" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.10"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="2PS6" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.60"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="2PS7" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.35"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="2PS8" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.67"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="2Q9Y" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.85"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="2Q9Z" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.95"/>
+      <property type="chains" value="A/B=1-374"/>
+    </dbReference>
+    <dbReference id="1JFA" type="PDBsum"/>
+    <dbReference id="1JFG" type="PDBsum"/>
+    <dbReference id="1KIY" type="PDBsum"/>
+    <dbReference id="1KIZ" type="PDBsum"/>
+    <dbReference id="1YJ4" type="PDBsum"/>
+    <dbReference id="1YYQ" type="PDBsum"/>
+    <dbReference id="1YYR" type="PDBsum"/>
+    <dbReference id="1YYS" type="PDBsum"/>
+    <dbReference id="1YYT" type="PDBsum"/>
+    <dbReference id="1YYU" type="PDBsum"/>
+    <dbReference id="2AEK" type="PDBsum"/>
+    <dbReference id="2AEL" type="PDBsum"/>
+    <dbReference id="2AET" type="PDBsum"/>
+    <dbReference id="2PS4" type="PDBsum"/>
+    <dbReference id="2PS5" type="PDBsum"/>
+    <dbReference id="2PS6" type="PDBsum"/>
+    <dbReference id="2PS7" type="PDBsum"/>
+    <dbReference id="2PS8" type="PDBsum"/>
+    <dbReference id="2Q9Y" type="PDBsum"/>
+    <dbReference id="2Q9Z" type="PDBsum"/>
+    <dbReference id="P13513" type="SMR"/>
+    <dbReference id="ag:AAD13657" type="KEGG"/>
+    <dbReference id="4.2.3.6" type="BRENDA">
+      <property type="organism ID" value="2364"/>
+    </dbReference>
+    <dbReference id="UPA00267" type="UniPathway"/>
+    <dbReference id="P13513" type="EvolutionaryTrace"/>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0045482" type="GO">
+      <property type="term" value="F:trichodiene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0016106" type="GO">
+      <property type="term" value="P:sesquiterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR010458" type="InterPro">
+      <property type="entry name" value="TRI5_ascomyc"/>
+    </dbReference>
+    <dbReference id="IPR024652" type="InterPro">
+      <property type="entry name" value="Trichodiene_synth"/>
+    </dbReference>
+    <dbReference id="PF06330" type="Pfam">
+      <property type="entry name" value="TRI5"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PIRSF001388" type="PIRSF">
+      <property type="entry name" value="TRI5"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01021" type="SFLD">
+      <property type="entry name" value="Trichodiene_Synthase_Like"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0002">3D-structure</keyword>
+    <keyword id="KW-0903">Direct protein sequencing</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Trichodiene synthase" id="PRO_0000221584" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="374"/>
+      </location>
+    </feature>
+    <feature description="Aspartate-rich domain" evidence="24" type="region of interest">
+      <location>
+        <begin position="100"/>
+        <end position="104"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="14 32" type="metal ion-binding site">
+      <location>
+        <position position="100"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="14 32" type="metal ion-binding site">
+      <location>
+        <position position="164"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="9 10 14 26 27 28 30 33" type="metal ion-binding site">
+      <location>
+        <position position="225"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="9 10 14 26 27 28 30 33" type="metal ion-binding site">
+      <location>
+        <position position="229"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="9 10 14 26 27 28 30 33" type="metal ion-binding site">
+      <location>
+        <position position="233"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="10 14 29 31" type="metal ion-binding site">
+      <location>
+        <position position="239"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3; via carbonyl oxygen" evidence="10 14 29 31" type="metal ion-binding site">
+      <location>
+        <position position="241"/>
+      </location>
+    </feature>
+    <feature description="Inhibitor" evidence="9 27" type="binding site">
+      <location>
+        <position position="295"/>
+      </location>
+    </feature>
+    <feature description="Does not significantly perturb the overall structure of trichodiene synthase but leads to an increased KM, a reduction in kcat, as well as to the production of anomalous sesquiterpene products in addition to trichodiene when incubated with farnesyl diphosphate." evidence="3 20" type="mutagenesis site">
+      <original>D</original>
+      <variation>E</variation>
+      <location>
+        <position position="100"/>
+      </location>
+    </feature>
+    <feature description="Leads to an increased KM for Mg(2+), a reduction in kcat, as well as to the production of anomalous sesquiterpene products in addition to trichodiene when incubated with farnesyl diphosphate." evidence="20" type="mutagenesis site">
+      <original>D</original>
+      <variation>E</variation>
+      <location>
+        <position position="101"/>
+      </location>
+    </feature>
+    <feature description="Does not significantly affect the KM and kcat for farnesyl diphosphate." evidence="20" type="mutagenesis site">
+      <original>D</original>
+      <variation>E</variation>
+      <location>
+        <position position="104"/>
+      </location>
+    </feature>
+    <feature description="Leads to the loss of activity." evidence="18" type="mutagenesis site">
+      <original>C</original>
+      <variation>F</variation>
+      <location>
+        <position position="146"/>
+      </location>
+    </feature>
+    <feature description="Increases the KM for farnesyl diphosphate by about 1.3-fold and reduces the kcat by about 2000-fold." evidence="18" type="mutagenesis site">
+      <original>C</original>
+      <variation>F</variation>
+      <location>
+        <position position="190"/>
+      </location>
+    </feature>
+    <feature description="Increases the KM for farnesyl diphosphate by about 6-fold and reduces the kcat by about 28-fold. Leads to complete loss of activity; when associated with S-229." evidence="14" type="mutagenesis site">
+      <original>N</original>
+      <variation>D</variation>
+      <location>
+        <position position="225"/>
+      </location>
+    </feature>
+    <feature description="Increases the KM for farnesyl diphosphate by about 77-fold and reduces the kcat by about 9-fold. Leads to complete loss of activity; when associated with D-225." evidence="14" type="mutagenesis site">
+      <original>S</original>
+      <variation>T</variation>
+      <location>
+        <position position="229"/>
+      </location>
+    </feature>
+    <feature description="Does not affect the catalytic activity." evidence="14" type="mutagenesis site">
+      <original>Y</original>
+      <variation>F</variation>
+      <location>
+        <position position="295"/>
+      </location>
+    </feature>
+    <feature description="Does not cause large changes in the overall structure but increases the KM for farnesyl diphosphate by about 25-fold, reduces the kcat by about 200-fold, and leads to conversion of farnesyl diphosphate not only to trichodiene but to at least 2 additional C(15)H(24) hydrocarbons." evidence="10 18" type="mutagenesis site">
+      <original>R</original>
+      <variation>K</variation>
+      <location>
+        <position position="304"/>
+      </location>
+    </feature>
+    <feature description="Does not cause large changes in the overall structure but increases the KM for farnesyl diphosphate by about 7-fold." evidence="9 18" type="mutagenesis site">
+      <original>Y</original>
+      <variation>F</variation>
+      <location>
+        <position position="305"/>
+      </location>
+    </feature>
+    <feature description="Increases the KM for farnesyl diphosphate by about 80-fold, reduces the kcat by about 120-fold, and leads to the conversion of farneyl diphosphate to an approximately equal mixture of trichodiene and an unidentified sesquiterpene hydrocarbon." evidence="18" type="mutagenesis site">
+      <original>Y</original>
+      <variation>T</variation>
+      <location>
+        <position position="305"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="6"/>
+        <end position="19"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="29"/>
+        <end position="47"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="50"/>
+        <end position="55"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="60"/>
+        <end position="77"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="83"/>
+        <end position="99"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="107"/>
+        <end position="110"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="113"/>
+        <end position="119"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="126"/>
+        <end position="139"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="144"/>
+        <end position="164"/>
+      </location>
+    </feature>
+    <feature evidence="31" type="turn">
+      <location>
+        <begin position="165"/>
+        <end position="167"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="177"/>
+        <end position="186"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="188"/>
+        <end position="193"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="turn">
+      <location>
+        <begin position="198"/>
+        <end position="200"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="turn">
+      <location>
+        <begin position="203"/>
+        <end position="206"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="207"/>
+        <end position="233"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="243"/>
+        <end position="251"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="255"/>
+        <end position="277"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="strand">
+      <location>
+        <begin position="278"/>
+        <end position="280"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="282"/>
+        <end position="301"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="303"/>
+        <end position="305"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="308"/>
+        <end position="314"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="320"/>
+        <end position="336"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="340"/>
+        <end position="342"/>
+      </location>
+    </feature>
+    <feature evidence="26" type="helix">
+      <location>
+        <begin position="348"/>
+        <end position="353"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000269">
+      <source>
+        <dbReference id="10583973" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="11352533" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="11827517" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="12039755" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000269">
+      <source>
+        <dbReference id="12135578" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000269">
+      <source>
+        <dbReference id="12620849" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000269">
+      <source>
+        <dbReference id="12732543" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000269">
+      <source>
+        <dbReference id="14532047" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0000269">
+      <source>
+        <dbReference id="15835903" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0000269">
+      <source>
+        <dbReference id="16171386" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="11" type="ECO:0000269">
+      <source>
+        <dbReference id="16347944" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="12" type="ECO:0000269">
+      <source>
+        <dbReference id="16917519" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="13" type="ECO:0000269">
+      <source>
+        <dbReference id="17678871" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="14" type="ECO:0000269">
+      <source>
+        <dbReference id="17996718" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="15" type="ECO:0000269">
+      <source>
+        <dbReference id="2317042" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="16" type="ECO:0000269">
+      <source>
+        <dbReference id="3800398" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="17" type="ECO:0000269">
+      <source>
+        <dbReference id="7651333" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="18" type="ECO:0000269">
+      <source>
+        <dbReference id="7873527" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="19" type="ECO:0000269">
+      <source>
+        <dbReference id="8593041" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="20" type="ECO:0000269">
+      <source>
+        <dbReference id="8823172" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="21" type="ECO:0000269">
+      <source>
+        <dbReference id="9435078" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="22" type="ECO:0000303">
+      <source>
+        <dbReference id="3800398" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="23" type="ECO:0000303">
+      <source>
+        <dbReference id="8593041" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="24" type="ECO:0000303">
+      <source>
+        <dbReference id="8823172" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="25" type="ECO:0000305"/>
+    <evidence key="26" type="ECO:0007744">
+      <source>
+        <dbReference id="1YYQ" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="27" type="ECO:0007744">
+      <source>
+        <dbReference id="1YYR" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="28" type="ECO:0007744">
+      <source>
+        <dbReference id="1YYU" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="29" type="ECO:0007744">
+      <source>
+        <dbReference id="2AEK" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="30" type="ECO:0007744">
+      <source>
+        <dbReference id="2AET" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="31" type="ECO:0007744">
+      <source>
+        <dbReference id="2PS4" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="32" type="ECO:0007744">
+      <source>
+        <dbReference id="2PS7" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="33" type="ECO:0007744">
+      <source>
+        <dbReference id="2PS8" type="PDB"/>
+      </source>
+    </evidence>
+    <sequence checksum="189E8FC1663C3763" length="374" mass="44000" modified="1990-01-01" version="1">MENFPTEYFLNTTVRLLEYIRYRDSNYTREERIENLHYAYNKAAHHFAQPRQQQLLKVDPKRLQASLQTIVGMVVYSWAKVSKECMADLSIHYTYTLVLDDSKDDPYPTMVNYFDDLQAGREQAHPWWALVNEHFPNVLRHFGPFCSLNLIRSTLDFFEGCWIEQYNFGGFPGSHDYPQFLRRMNGLGHCVGASLWPKEQFNERSLFLEITSAIAQMENWMVWVNDLMSFYKEFDDERDQISLVKNYVVSDEISLHEALEKLTQDTLHSSKQMVAVFSDKDPQVMDTIECFMHGYVTWHLCDRRYRLSEIYEKVKEEKTEDAQKFCKFYEQAANVGAVSPSEWAYPPVAQLANVRSKDVKEVQKPFLSSIELVE</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

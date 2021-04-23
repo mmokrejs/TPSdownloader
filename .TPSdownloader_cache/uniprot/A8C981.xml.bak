@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2011-10-19" modified="2021-04-07" version="37">
+<accession>A8C981</accession>
+<name>TARS_RHISY</name>
+<protein>
+<recommendedName>
+<fullName>Taraxerol synthase</fullName>
+<shortName>RsM2</shortName>
+<ecNumber>5.4.99.35</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">M2</name>
+</gene>
+<organism>
+<name type="scientific">Rhizophora stylosa</name>
+<name type="common">Bakau</name>
+<name type="synonym">Red mangrove</name>
+<dbReference type="NCBI Taxonomy" id="98588"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>fabids</taxon>
+<taxon>Malpighiales</taxon>
+<taxon>Rhizophoraceae</taxon>
+<taxon>Rhizophora</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2007" name="FEBS J." volume="274" first="5028" last="5042">
+<title>Triterpene synthases from the Okinawan mangrove tribe, Rhizophoraceae.</title>
+<authorList>
+<person name="Basyuni M."/>
+<person name="Oku H."/>
+<person name="Tsujimoto E."/>
+<person name="Kinjo K."/>
+<person name="Baba S."/>
+<person name="Takara K."/>
+</authorList>
+<dbReference type="PubMed" id="17803686"/>
+<dbReference type="DOI" id="10.1111/j.1742-4658.2007.06025.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<source>
+<tissue>Leaf</tissue>
+</source>
+</reference>
+<comment type="function">
+<text>Multifunctional triterpene synthase producing taraxerol, beta-amyrin and lupeol in the ratio 70:17:13.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>(S)-2,3-epoxysqualene = taraxerol</text>
+<dbReference type="Rhea" id="RHEA:30431"/>
+<dbReference type="ChEBI" id="CHEBI:9402"/>
+<dbReference type="ChEBI" id="CHEBI:15441"/>
+<dbReference type="EC" id="5.4.99.35"/>
+</reaction>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the terpene cyclase/mutase family.</text>
+</comment>
+<dbReference type="EC" id="5.4.99.35"/>
+<dbReference type="EMBL" id="AB263204">
+<property type="protein sequence ID" value="BAF80442.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="A8C981"/>
+<dbReference type="KEGG" id="ag:BAF80442"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-14454"/>
+<dbReference type="BRENDA" id="5.4.99.35">
+<property type="organism ID" value="5362"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005811">
+<property type="term" value="C:lipid droplet"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042300">
+<property type="term" value="F:beta-amyrin synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000250">
+<property type="term" value="F:lanosterol synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016104">
+<property type="term" value="P:triterpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="CDD" id="cd02892">
+<property type="entry name" value="SQCY_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032696">
+<property type="entry name" value="SQ_cyclase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032697">
+<property type="entry name" value="SQ_cyclase_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018333">
+<property type="entry name" value="Squalene_cyclase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13243">
+<property type="entry name" value="SQHop_cyclase_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13249">
+<property type="entry name" value="SQHop_cyclase_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01016">
+<property type="entry name" value="Prenyltransferase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01787">
+<property type="entry name" value="squalene_cyclas"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0413">Isomerase</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<feature type="chain" description="Taraxerol synthase" id="PRO_0000412988">
+<location>
+<begin position="1"/>
+<end position="771"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 1">
+<location>
+<begin position="150"/>
+<end position="191"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 2">
+<location>
+<begin position="516"/>
+<end position="561"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 3">
+<location>
+<begin position="642"/>
+<end position="683"/>
+</location>
+</feature>
+<feature type="active site" description="Proton donor" evidence="1">
+<location>
+<position position="487"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P48449"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="771" mass="87831" checksum="8515AFA482981022" modified="2007-11-13" version="1">MGVWRLKIGEGANNPYLTSTNNFVGRQTWVFEPDGGTPEERDQVEEARQNYFKNRFRVRPCSDLLWQMQFLREKNFRQKIPQVKVRDGEEINYETVTNAIRRSAHYLSATQSSDGFWPADASAPVFYLAPWVIGLYVIGHLNTVFPAEHQKEILRYIYCHQNEDGGWGLHYEDGGTMFGTAFNYVCMRILGEGPGGGRDNACERARKGILDHGGVTYIPSGGKTWLAMLGVFDWSGCNPMPPEFWMLPPFFPMHPAQMWCYCRIVYMPMSYLYGRRFVGPITPLVQQLREELHTQPFHEIEWSKARHLCAKEDLFHRRPWIQELFWDCLHTFAEPLLTRWPLNNFIREKALKITMEHVHYDDKASHYINPGSVEKVICMVACWVEDPSGEPFQRHLARISDYVWIAEDGMRITGIGSQTWDAALSIQALIACNLIEEMGPTLKKGYDFLKNSQAKDNPPGDFKRMYRHFGKGAWAFSSQDYGVIALDCTAESLMCCLHFSMMPPEIVGEKLEPEKLYLAVDFILSLQSKNGGLTCWEPARGGKWLEVLNPLEFFENIVVEHEYVEVTASAINALVMFKKRYPGYREKEIEHFISKAVHYLIQTQFPNGPWYGVWGICFMYGTYFALKGLAAAGNTYANCPAIPKAVDFLLKTQCQDGGWGESYLSGTTKVYTPLEGNRSNLVQTAWALMGLIHSGQAERDPTPLHRSAKLLINSQTSDGDFPQQDSTGLLKGSCAMHYAAYRNIFPLWALAAYRTHVLGLTSKAHSSAVME</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

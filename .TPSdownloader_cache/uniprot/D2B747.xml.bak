@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2018-02-28" modified="2020-12-02" version="55">
+<accession>D2B747</accession>
+<name>ECUB_STRRD</name>
+<protein>
+<recommendedName>
+<fullName evidence="4">4-epi-cubebol synthase ((2E,6E)-farnesyl diphosphate cyclizing)</fullName>
+<ecNumber evidence="2 3">4.2.3.170</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="4">Terpene synthase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="4">Type I terpene cyclase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="7">Sros_6866</name>
+</gene>
+<organism>
+<name type="scientific">Streptosporangium roseum (strain ATCC 12428 / DSM 43021 / JCM 3005 / NI 9100)</name>
+<dbReference type="NCBI Taxonomy" id="479432"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Streptosporangiales</taxon>
+<taxon>Streptosporangiaceae</taxon>
+<taxon>Streptosporangium</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2010" name="Stand. Genomic Sci." volume="2" first="29" last="37">
+<title>Complete genome sequence of Streptosporangium roseum type strain (NI 9100).</title>
+<authorList>
+<person name="Nolan M."/>
+<person name="Sikorski J."/>
+<person name="Jando M."/>
+<person name="Lucas S."/>
+<person name="Lapidus A."/>
+<person name="Glavina Del Rio T."/>
+<person name="Chen F."/>
+<person name="Tice H."/>
+<person name="Pitluck S."/>
+<person name="Cheng J.F."/>
+<person name="Chertkov O."/>
+<person name="Sims D."/>
+<person name="Meincke L."/>
+<person name="Brettin T."/>
+<person name="Han C."/>
+<person name="Detter J.C."/>
+<person name="Bruce D."/>
+<person name="Goodwin L."/>
+<person name="Land M."/>
+<person name="Hauser L."/>
+<person name="Chang Y.J."/>
+<person name="Jeffries C.D."/>
+<person name="Ivanova N."/>
+<person name="Mavromatis K."/>
+<person name="Mikhailova N."/>
+<person name="Chen A."/>
+<person name="Palaniappan K."/>
+<person name="Chain P."/>
+<person name="Rohde M."/>
+<person name="Goker M."/>
+<person name="Bristow J."/>
+<person name="Eisen J.A."/>
+<person name="Markowitz V."/>
+<person name="Hugenholtz P."/>
+<person name="Kyrpides N.C."/>
+<person name="Klenk H.P."/>
+</authorList>
+<dbReference type="PubMed" id="21304675"/>
+<dbReference type="DOI" id="10.4056/sigs.631049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="8">ATCC 12428 / DSM 43021 / JCM 3005 / NI 9100</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2016" name="Angew. Chem. Int. Ed." volume="55" first="13593" last="13596">
+<title>Lessons from 1,3-hydride shifts in sesquiterpene cyclizations.</title>
+<authorList>
+<person name="Rinkel J."/>
+<person name="Rabe P."/>
+<person name="Garbeva P."/>
+<person name="Dickschat J.S."/>
+</authorList>
+<dbReference type="PubMed" id="27666571"/>
+<dbReference type="DOI" id="10.1002/anie.201608042"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>REACTION MECHANISM</scope>
+<source>
+<strain>ATCC 12428 / DSM 43021 / JCM 3005 / NI 9100</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2016" name="Beilstein J. Org. Chem." volume="12" first="1839" last="1850">
+<title>Mechanistic investigations on six bacterial terpene cyclases.</title>
+<authorList>
+<person name="Rabe P."/>
+<person name="Schmitz T."/>
+<person name="Dickschat J.S."/>
+</authorList>
+<dbReference type="PubMed" id="27829890"/>
+<dbReference type="DOI" id="10.3762/bjoc.12.173"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>SUBSTRATE SPECIFICITY</scope>
+<scope>DOMAIN</scope>
+<scope>PATHWAY</scope>
+<source>
+<strain>ATCC 12428 / DSM 43021 / JCM 3005 / NI 9100</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2 3">Catalyzes the conversion of (2E,6E)-farnesyl diphosphate (FPP) to yield the bicyclic sesquiterpenol 4-epi-cubebol via a 1,10-cyclization, which requires the abstraction of the pyrophosphate from FPP to yield a (E,E)-germacradienyl cation (PubMed:27666571, PubMed:27829890). The only accepted substrate is (2E,6E)-farnesyl diphosphate (FPP) (PubMed:27829890).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2 3">
+<text>(2E,6E)-farnesyl diphosphate + H2O = 4-epi-cubebol + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:54048"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:138041"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.170"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="pathway" evidence="6">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="domain">
+<text evidence="6">The Asp-Asp-Xaa-Xaa-Xaa-Glu (DDXXXE) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.170" evidence="2 3"/>
+<dbReference type="EMBL" id="CP001814">
+<property type="protein sequence ID" value="ACZ89572.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="SMR" id="D2B747"/>
+<dbReference type="STRING" id="479432.Sros_6866"/>
+<dbReference type="EnsemblBacteria" id="ACZ89572">
+<property type="protein sequence ID" value="ACZ89572"/>
+<property type="gene ID" value="Sros_6866"/>
+</dbReference>
+<dbReference type="KEGG" id="sro:Sros_6866"/>
+<dbReference type="eggNOG" id="COG0664">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_042538_4_2_11"/>
+<dbReference type="OMA" id="EWLLSMA"/>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="Proteomes" id="UP000002029">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016829">
+<property type="term" value="F:lyase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034686">
+<property type="entry name" value="Terpene_cyclase-like_2"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01020">
+<property type="entry name" value="Terpene_Cyclase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="4-epi-cubebol synthase ((2E,6E)-farnesyl diphosphate cyclizing)" id="PRO_0000443245">
+<location>
+<begin position="1"/>
+<end position="330"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate binding" evidence="1">
+<location>
+<begin position="316"/>
+<end position="317"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXXE motif" evidence="6">
+<location>
+<begin position="91"/>
+<end position="96"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="91"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="96"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="96"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="230"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="234"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="238"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="184"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="237"/>
+</location>
+</feature>
+<feature type="site" description="Plays a critical role in the stabilization of intermediate cation" evidence="1">
+<location>
+<position position="88"/>
+</location>
+</feature>
+<feature type="site" description="Plays a critical role for substrate recognition" evidence="1">
+<location>
+<position position="92"/>
+</location>
+</feature>
+<feature type="site" description="Plays a critical role for substrate recognition" evidence="1">
+<location>
+<position position="165"/>
+</location>
+</feature>
+<feature type="site" description="Plays a critical role for abstraction of the pyrophosphate group" evidence="1">
+<location>
+<position position="188"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="B5HDJ6"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="27666571"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="27829890"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="27829890"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<evidence key="6" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="27829890"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000312">
+<source>
+<dbReference type="EMBL" id="ACZ89572.1"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000312">
+<source>
+<dbReference type="Proteomes" id="UP000002029"/>
+</source>
+</evidence>
+<sequence length="330" mass="37807" checksum="38C734520017CCAE" modified="2010-02-09" version="1">MGTTTTHKFDRPLRLPPLPCPFPSEVNPYVEQVDKETLEWLIDSEMLDDAETVERYRQAKYGWLSARTYPYAEHHTLRLVSDWCVWLFAFDDAFCESDRRAAEIARALPQLYAVLEDLDVGSEVDDVFAKSLLEIKGRIAAYGDDEQLDRWRNVTKDYLFAQVWEAANREDEVVPSLEDYIFMRRRTGAMLTVFALIDVASGRSLSADEWRHPGMRAITESANDVVVWDNDLISYAKESNSGNSRNNLVNVLAEHRHYSRQEAMEEIGEMRNQAIADMVAVRPSLEALGSDAVLAYVRGLEFWISGSVDYSLTSSRYTDAWRTARQPSIR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

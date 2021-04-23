@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2018-09-12" modified="2021-02-10" version="48">
+<accession>I1S104</accession>
+<name>CLM1_GIBZE</name>
+<protein>
+<recommendedName>
+<fullName evidence="5">Longiborneol synthase CLM1</fullName>
+<ecNumber evidence="2">4.2.3.-</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="5">Culmorin biosynthesis protein 1</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="5">Terpene cyclase CLM1</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="5">CLM1</name>
+<name type="ORF">FG10397</name>
+<name type="ORF">FGRAMPH1_01T07999</name>
+</gene>
+<organism>
+<name type="scientific">Gibberella zeae (strain ATCC MYA-4620 / CBS 123657 / FGSC 9075 / NRRL 31084 / PH-1)</name>
+<name type="common">Wheat head blight fungus</name>
+<name type="synonym">Fusarium graminearum</name>
+<dbReference type="NCBI Taxonomy" id="229533"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Sordariomycetes</taxon>
+<taxon>Hypocreomycetidae</taxon>
+<taxon>Hypocreales</taxon>
+<taxon>Nectriaceae</taxon>
+<taxon>Fusarium</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2007" name="Science" volume="317" first="1400" last="1402">
+<title>The Fusarium graminearum genome reveals a link between localized polymorphism and pathogen specialization.</title>
+<authorList>
+<person name="Cuomo C.A."/>
+<person name="Gueldener U."/>
+<person name="Xu J.-R."/>
+<person name="Trail F."/>
+<person name="Turgeon B.G."/>
+<person name="Di Pietro A."/>
+<person name="Walton J.D."/>
+<person name="Ma L.-J."/>
+<person name="Baker S.E."/>
+<person name="Rep M."/>
+<person name="Adam G."/>
+<person name="Antoniw J."/>
+<person name="Baldwin T."/>
+<person name="Calvo S.E."/>
+<person name="Chang Y.-L."/>
+<person name="DeCaprio D."/>
+<person name="Gale L.R."/>
+<person name="Gnerre S."/>
+<person name="Goswami R.S."/>
+<person name="Hammond-Kosack K."/>
+<person name="Harris L.J."/>
+<person name="Hilburn K."/>
+<person name="Kennell J.C."/>
+<person name="Kroken S."/>
+<person name="Magnuson J.K."/>
+<person name="Mannhaupt G."/>
+<person name="Mauceli E.W."/>
+<person name="Mewes H.-W."/>
+<person name="Mitterbauer R."/>
+<person name="Muehlbauer G."/>
+<person name="Muensterkoetter M."/>
+<person name="Nelson D."/>
+<person name="O'Donnell K."/>
+<person name="Ouellet T."/>
+<person name="Qi W."/>
+<person name="Quesneville H."/>
+<person name="Roncero M.I.G."/>
+<person name="Seong K.-Y."/>
+<person name="Tetko I.V."/>
+<person name="Urban M."/>
+<person name="Waalwijk C."/>
+<person name="Ward T.J."/>
+<person name="Yao J."/>
+<person name="Birren B.W."/>
+<person name="Kistler H.C."/>
+</authorList>
+<dbReference type="PubMed" id="17823352"/>
+<dbReference type="DOI" id="10.1126/science.1143708"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC MYA-4620 / CBS 123657 / FGSC 9075 / NRRL 31084 / PH-1</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2010" name="Nature" volume="464" first="367" last="373">
+<title>Comparative genomics reveals mobile pathogenicity chromosomes in Fusarium.</title>
+<authorList>
+<person name="Ma L.-J."/>
+<person name="van der Does H.C."/>
+<person name="Borkovich K.A."/>
+<person name="Coleman J.J."/>
+<person name="Daboussi M.-J."/>
+<person name="Di Pietro A."/>
+<person name="Dufresne M."/>
+<person name="Freitag M."/>
+<person name="Grabherr M."/>
+<person name="Henrissat B."/>
+<person name="Houterman P.M."/>
+<person name="Kang S."/>
+<person name="Shim W.-B."/>
+<person name="Woloshuk C."/>
+<person name="Xie X."/>
+<person name="Xu J.-R."/>
+<person name="Antoniw J."/>
+<person name="Baker S.E."/>
+<person name="Bluhm B.H."/>
+<person name="Breakspear A."/>
+<person name="Brown D.W."/>
+<person name="Butchko R.A.E."/>
+<person name="Chapman S."/>
+<person name="Coulson R."/>
+<person name="Coutinho P.M."/>
+<person name="Danchin E.G.J."/>
+<person name="Diener A."/>
+<person name="Gale L.R."/>
+<person name="Gardiner D.M."/>
+<person name="Goff S."/>
+<person name="Hammond-Kosack K.E."/>
+<person name="Hilburn K."/>
+<person name="Hua-Van A."/>
+<person name="Jonkers W."/>
+<person name="Kazan K."/>
+<person name="Kodira C.D."/>
+<person name="Koehrsen M."/>
+<person name="Kumar L."/>
+<person name="Lee Y.-H."/>
+<person name="Li L."/>
+<person name="Manners J.M."/>
+<person name="Miranda-Saavedra D."/>
+<person name="Mukherjee M."/>
+<person name="Park G."/>
+<person name="Park J."/>
+<person name="Park S.-Y."/>
+<person name="Proctor R.H."/>
+<person name="Regev A."/>
+<person name="Ruiz-Roldan M.C."/>
+<person name="Sain D."/>
+<person name="Sakthikumar S."/>
+<person name="Sykes S."/>
+<person name="Schwartz D.C."/>
+<person name="Turgeon B.G."/>
+<person name="Wapinski I."/>
+<person name="Yoder O."/>
+<person name="Young S."/>
+<person name="Zeng Q."/>
+<person name="Zhou S."/>
+<person name="Galagan J."/>
+<person name="Cuomo C.A."/>
+<person name="Kistler H.C."/>
+<person name="Rep M."/>
+</authorList>
+<dbReference type="PubMed" id="20237561"/>
+<dbReference type="DOI" id="10.1038/nature08850"/>
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain>ATCC MYA-4620 / CBS 123657 / FGSC 9075 / NRRL 31084 / PH-1</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2015" name="BMC Genomics" volume="16" first="544" last="544">
+<title>The completed genome sequence of the pathogenic ascomycete fungus Fusarium graminearum.</title>
+<authorList>
+<person name="King R."/>
+<person name="Urban M."/>
+<person name="Hammond-Kosack M.C.U."/>
+<person name="Hassani-Pak K."/>
+<person name="Hammond-Kosack K.E."/>
+</authorList>
+<dbReference type="PubMed" id="26198851"/>
+<dbReference type="DOI" id="10.1186/s12864-015-1756-1"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC MYA-4620 / CBS 123657 / FGSC 9075 / NRRL 31084 / PH-1</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2010" name="Appl. Environ. Microbiol." volume="76" first="136" last="141">
+<title>CLM1 of Fusarium graminearum encodes a longiborneol synthase required for culmorin production.</title>
+<authorList>
+<person name="McCormick S.P."/>
+<person name="Alexander N.J."/>
+<person name="Harris L.J."/>
+</authorList>
+<dbReference type="PubMed" id="19880637"/>
+<dbReference type="DOI" id="10.1128/aem.02017-09"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>INDUCTION</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>PATHWAY</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2016" name="J. Mol. Model." volume="22" first="163" last="163">
+<title>Structure-based virtual screening of hypothetical inhibitors of the enzyme longiborneol synthase-a potential target to reduce Fusarium head blight disease.</title>
+<authorList>
+<person name="Bresso E."/>
+<person name="Leroux V."/>
+<person name="Urban M."/>
+<person name="Hammond-Kosack K.E."/>
+<person name="Maigret B."/>
+<person name="Martins N.F."/>
+</authorList>
+<dbReference type="PubMed" id="27324634"/>
+<dbReference type="DOI" id="10.1007/s00894-016-3021-1"/>
+</citation>
+<scope>3D-STRUCTURE MODELING</scope>
+<scope>DOMAIN</scope>
+<scope>FUNCTION</scope>
+<scope>BIOTECHNOLOGY</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2016" name="J. Nat. Prod." volume="79" first="81" last="88">
+<title>Hydroxylation of Longiborneol by a Clm2-Encoded CYP450 Monooxygenase to Produce Culmorin in Fusarium graminearum.</title>
+<authorList>
+<person name="Bahadoor A."/>
+<person name="Schneiderman D."/>
+<person name="Gemmill L."/>
+<person name="Bosnich W."/>
+<person name="Blackwell B."/>
+<person name="Melanson J.E."/>
+<person name="McRae G."/>
+<person name="Harris L.J."/>
+</authorList>
+<dbReference type="PubMed" id="26673640"/>
+<dbReference type="DOI" id="10.1021/acs.jnatprod.5b00676"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<comment type="function">
+<text evidence="2 3 7">Terpene cyclase involved in the biosynthesis of culmorin, a tricyclic sesquiterpene diol reported to have antifungal activity and some phytotoxicity to wheat coleoptile tissue, contributing to Fusarium head blight disease (PubMed:19880637) (Probable). The terpene cyclase CLM1 is responsible for the cyclization of farnesyl diphosphate into the intermediate longiborneol (PubMed:19880637). Longiborneol is then hydroxylated in a regio- and endo-stereoselective manner at position C-11 by the cytochrome P450 monooxygenase CLM2 to produce culmorin (PubMed:26673640). Additional non-specific oxygenases are also able to hydroxylate longiborneol at other sites than C-11 leading to 3-hydroxylongiborneol, 5-hydroxylongiborneol, 12-hydroxylongiborneol and 15-hydroxylongiborneol (PubMed:26673640). Moreover, another oxygenase capable of installing a C-11 exo-hydroxy group in longiborneol can also yield 11-epi-acetylculmorin (PubMed:26673640). The production of these longiborneol derivatives is dwarfed by the high abundance of culmorin, suggesting that CLM2 displays superior enzymatic activity to the unidentified, possibly promiscuous, additional oxygenases (PubMed:26673640).</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<cofactor evidence="1">
+<name>Mn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29035"/>
+</cofactor>
+</comment>
+<comment type="pathway" evidence="2">
+<text>Mycotoxin biosynthesis.</text>
+</comment>
+<comment type="induction">
+<text evidence="2">Expressed under trichothecene-inducing conditions.</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="2">Leads to complete loss of culmorin production (PubMed:19880637). Does not affect the trichothecene biosynthetic pathway since 15-acetyldeoxynivalenol (15ADON) is still produced (PubMed:19880637). Keeps the ability to convert exogenously added longiborneol to culmorin (PubMed:19880637).</text>
+</comment>
+<comment type="biotechnology">
+<text evidence="4">Longiborneol synthase CLM1 is a potential target to reduce Fusarium head blight disease. 3D-structure modeling based on known 3D-structure of losely related enzymes has been used for screening of hypothetical inhibitors of CLM1 catalytic activity.</text>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the trichodiene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.-" evidence="2"/>
+<dbReference type="EMBL" id="HG970332">
+<property type="protein sequence ID" value="CEF75803.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_011319367.1">
+<property type="nucleotide sequence ID" value="XM_011321065.1"/>
+</dbReference>
+<dbReference type="GeneID" id="23557306"/>
+<dbReference type="KEGG" id="fgr:FGSG_10397"/>
+<dbReference type="VEuPathDB" id="FungiDB:FGRAMPH1_01G07999"/>
+<dbReference type="eggNOG" id="ENOG502SQ3X">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_052212_0_2_1"/>
+<dbReference type="InParanoid" id="I1S104"/>
+<dbReference type="PHI-base" id="PHI:2394"/>
+<dbReference type="Proteomes" id="UP000070720">
+<property type="component" value="Chromosome 1"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016838">
+<property type="term" value="F:carbon-oxygen lyase activity, acting on phosphates"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009405">
+<property type="term" value="P:pathogenesis"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024652">
+<property type="entry name" value="Trichodiene_synth"/>
+</dbReference>
+<dbReference type="Pfam" id="PF06330">
+<property type="entry name" value="TRI5"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01021">
+<property type="entry name" value="Trichodiene_Synthase_Like"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0843">Virulence</keyword>
+<feature type="chain" description="Longiborneol synthase CLM1" id="PRO_0000444957">
+<location>
+<begin position="1"/>
+<end position="339"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="NDXXSXXXE magnesium-binding motif" evidence="7">
+<location>
+<begin position="241"/>
+<end position="249"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="112"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="241"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="245"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="249"/>
+</location>
+</feature>
+<feature type="binding site" description="Inhibitor" evidence="1">
+<location>
+<position position="309"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P13513"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19880637"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="26673640"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="27324634"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="19880637"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<evidence key="7" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="27324634"/>
+</source>
+</evidence>
+<sequence length="339" mass="38419" checksum="001EB840AFBE411B" modified="2012-06-13" version="1">MLATPTLSNFDKPSLPSSEGGDPALAARLQPLYSRFLTDLDLQPEYRRHESEKLMEEVLKFAKSTGVPHDLNSHSYQSLMVGYTYADNCLPYHDIEVKVYVAIYTWLATICDDAEALGIIDDVQLFEQRFILGEEQPTVLLRAFADQLKLTYKLYHPLVANLILCSSLNLLTSTSLVARKGIKEKGDHPSKGGNYFAWYIRERDGVGEAYSWFTFPKRQFPNLDIPIEAIEDMTRFIAYLNDVLSFYKESLAGETHNYINHTAAYEGVDSDAALHKTAQDTIDCARRIESVLAGKGEYEKAWRLHASGYLQMHVQRGRYRLIEVGVGDAPDVHEVIKKI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

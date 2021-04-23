@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2004-07-05" dataset="TrEMBL" modified="2020-08-12" version="63">
+    <accession>Q75WN1</accession>
+    <name>Q75WN1_CHAOB</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="5">Limonene/borneol synthase</fullName>
+      </submittedName>
+    </protein>
+    <gene>
+      <name evidence="5" type="primary">co1</name>
+    </gene>
+    <organism evidence="5">
+      <name type="scientific">Chamaecyparis obtusa</name>
+      <name type="common">Hinoki false-cypress</name>
+      <name type="synonym">Retinospora obtusa</name>
+      <dbReference id="13415" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Pinopsida</taxon>
+        <taxon>Pinidae</taxon>
+        <taxon>Cupressales</taxon>
+        <taxon>Cupressaceae</taxon>
+        <taxon>Chamaecyparis</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="5" key="1">
+      <citation date="2003-09" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>cDNA cloning, characterization, and functional expression of limonene/borneol synthase from hinoki cypress (Chamaecyparis obtusa).</title>
+        <authorList>
+          <person name="Katoh S."/>
+          <person name="Hyatt D."/>
+          <person name="Ogawa K."/>
+          <person name="Fujii M."/>
+          <person name="Furuno T."/>
+          <person name="Croteau R."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+      <source>
+        <tissue evidence="5">Needle</tissue>
+      </source>
+    </reference>
+    <dbReference id="AB120957" type="EMBL">
+      <property type="protein sequence ID" value="BAC92722.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="Q75WN1" type="SMR"/>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="2" id="KW-0456">Lyase</keyword>
+    <keyword evidence="1" id="KW-0479">Metal-binding</keyword>
+    <feature description="Terpene_synth" evidence="3" type="domain">
+      <location>
+        <begin position="64"/>
+        <end position="247"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="4" type="domain">
+      <location>
+        <begin position="284"/>
+        <end position="547"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00023239" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000313">
+      <source>
+        <dbReference id="BAC92722.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="CE4DD12D6A4462F2" length="605" mass="70310" modified="2004-07-05" version="1">MALISLSSSAFTFCLKSKPTHLSKPSPKSFPTLARKCMRNTMAMATTSVESVTRRTGNHHGNLWDDDFIQSLPKLPYDAPEYRERADRLVGEVKNMFNAVRAADSSSQNILRLLEMVDKVERLGIGRHFETEIAEALDYVYRFWNDISSKDLNTAALGLRILRLHRYPVSSDVLEQFKEKDGHFLCCTTQLEEEIKSILNLFRASLIAFPNEKIMDEAKAFSTMYLKQVFQKSHILGTHLLKEITFNLEYGWRTNLPRLEARNYMDIYGENSSWLMDMDNKNILYLAKLDFNILQSLYRPELQMISRWWKDSSLYKLDFSRHRHIEYLFQGCAITGEPKHSGFRIDIAKYSTLATIIDDIYDTYGSIEELKHFTEVFKRWDSSPPDYLPEYMKIAYSALYDGINKSAQEAVQIQGRDTLHNARNAWDDYLDAVMQEAKWNSIGHMPNLKEFLENGRVSSGTRVITLQALLRLEALQESELQKIDHPSKFNYLFGLTLRLRGDTRTFKAEANRGEVTSSIACYLKEHPESTEKDALKYLQFMLDENLKELNLEYLKNDGVPICIKDFAYDMSRCFEVFYKERDGFSISTKDMKNHVERILIEPVEM</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

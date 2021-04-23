@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:64361</ID>
+<NAME>beta-sesquiphellandrene</NAME>
+<DEFINITION>A sesquiterpene that is cyclohexene in which the hydrogens at position 6 are replaced by a methylidene group and in which the pro-R hydrogen at position 3 is replaced by a (2S)-6-methylhept-5-en-2-yl group.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>Beta-sesquiphellandrene</SYNONYM>
+<SYNONYM>beta-sesquiphellandrene</SYNONYM>
+<SYNONYM>(R)-3-methylene-6-[(S)-6-methylhept-5-en-2-yl]-cyclohex-1-ene</SYNONYM>
+<SYNONYM>(-)-beta-Sesquiphellandrene</SYNONYM>
+<SYNONYM>(-)-beta-sesquiphellandrene</SYNONYM>
+<SYNONYM>(-)-(6R,7S)-sesquiphellandrene</SYNONYM>
+<IUPAC_NAME>(3R)-3-[(2S)-6-methylhept-5-en-2-yl]-6-methylidenecyclohexene</IUPAC_NAME>
+<FORMULA>C15H24</FORMULA>
+<MASS>204.35110</MASS>
+<MONOISOTOPIC_MASS>204.18780</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@@]1(CCC(=C)C=C1)[C@@H](C)CCC=C(C)C</SMILES>
+<INCHI>InChI=1S/C15H24/c1-12(2)6-5-7-14(4)15-10-8-13(3)9-11-15/h6,8,10,14-15H,3,5,7,9,11H2,1-2,4H3/t14-,15+/m0/s1</INCHI>
+<INCHIKEY>PHWISBHSBNDZDX-LSDHHAIUSA-N</INCHIKEY>
+<CAS_REGISTRY_NUMBER>20307-83-9</CAS_REGISTRY_NUMBER>
+<REAXYS_REGISTRY_NUMBER>2554167</REAXYS_REGISTRY_NUMBER>
+<CHEMIDPLUS>20307-83-9</CHEMIDPLUS>
+<KEGG_COMPOUND_ACCESSION>C16776</KEGG_COMPOUND_ACCESSION>
+<KNAPSACK_ACCESSION>C00007630</KNAPSACK_ACCESSION>
+<METACYC_ACCESSION>CPD-8247</METACYC_ACCESSION>
+<PUBMED_CITATION>21880075</PUBMED_CITATION>
+<PUBMED_CITATION>8064299</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

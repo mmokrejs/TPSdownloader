@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:63683</ID>
+<NAME>(13E)-labda-7,13-dien-15-ol</NAME>
+<DEFINITION>A labdane diterpenoid in which the labdane skeleton has double bonds at C-7 and C-13 (the latter with E-stereochemistry) and carries a hydroxy group at the terminal C-15 atom.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>(13E)-labda-7,13-dien-15-ol</SYNONYM>
+<IUPAC_NAME>(2E)-3-methyl-5-[(1S,4aS,8aS)-2,5,5,8a-tetramethyl-1,4,4a,5,6,7,8,8a-octahydronaphthalen-1-yl]pent-2-en-1-ol</IUPAC_NAME>
+<IUPAC_NAME>(13E)-labda-7,13-dien-15-ol</IUPAC_NAME>
+<FORMULA>C20H34O</FORMULA>
+<MASS>290.48340</MASS>
+<MONOISOTOPIC_MASS>290.26097</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>C\C(CC[C@H]1C(C)=CC[C@H]2C(C)(C)CCC[C@]12C)=C/CO</SMILES>
+<INCHI>InChI=1S/C20H34O/c1-15(11-14-21)7-9-17-16(2)8-10-18-19(3,4)12-6-13-20(17,18)5/h8,11,17-18,21H,6-7,9-10,12-14H2,1-5H3/b15-11+/t17-,18-,20+/m0/s1</INCHI>
+<INCHIKEY>KPOGKOXAZMFZNM-ATPOGHATSA-N</INCHIKEY>
+<METACYC_ACCESSION>CPD-13929</METACYC_ACCESSION>
+<PUBMED_CITATION>21751328</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

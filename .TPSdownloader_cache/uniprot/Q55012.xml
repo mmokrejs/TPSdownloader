@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="1997-11-01" dataset="Swiss-Prot" modified="2021-04-07" version="97">
+    <accession>Q55012</accession>
+    <accession>E3VWK6</accession>
+    <name>PENA_STREX</name>
+    <protein>
+      <recommendedName>
+        <fullName>Pentalenene synthase</fullName>
+        <shortName>PS</shortName>
+        <ecNumber>4.2.3.7</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>Pentalenolactone biosynthesis protein A</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Sesquiterpene cyclase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Sesquiterpene synthase</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name type="primary">penA</name>
+    </gene>
+    <organism>
+      <name type="scientific">Streptomyces exfoliatus</name>
+      <name type="synonym">Streptomyces hydrogenans</name>
+      <dbReference id="1905" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Bacteria</taxon>
+        <taxon>Actinobacteria</taxon>
+        <taxon>Streptomycetales</taxon>
+        <taxon>Streptomycetaceae</taxon>
+        <taxon>Streptomyces</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="1994" first="5846" last="5857" name="Biochemistry" type="journal article" volume="33">
+        <title>Pentalenene synthase. Purification, molecular cloning, sequencing, and high-level expression in Escherichia coli of a terpenoid cyclase from Streptomyces UC5319.</title>
+        <authorList>
+          <person name="Cane D.E."/>
+          <person name="Sohng J.-K."/>
+          <person name="Lamberson C.R."/>
+          <person name="Rudnicki S.M."/>
+          <person name="Wu Z."/>
+          <person name="Lloyd M.D."/>
+          <person name="Oliver J.S."/>
+          <person name="Hubbard B.R."/>
+        </authorList>
+        <dbReference id="8180213" type="PubMed"/>
+        <dbReference id="10.1021/bi00185a024" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+      <scope>PROTEIN SEQUENCE OF 2-28; 57-73; 96-120 AND 145-157</scope>
+      <scope>FUNCTION</scope>
+      <scope>SUBUNIT</scope>
+      <scope>COFACTOR</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <source>
+        <strain>UC5319</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2011" first="2128" last="2131" name="J. Am. Chem. Soc." type="journal article" volume="133">
+        <title>Genome mining in streptomyces. Discovery of an unprecedented P450-catalyzed oxidative rearrangement that is the final step in the biosynthesis of pentalenolactone.</title>
+        <authorList>
+          <person name="Zhu D."/>
+          <person name="Seo M.J."/>
+          <person name="Ikeda H."/>
+          <person name="Cane D.E."/>
+        </authorList>
+        <dbReference id="21284395" type="PubMed"/>
+        <dbReference id="10.1021/ja111279h" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+      <source>
+        <strain>UC5319</strain>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="1999" first="591" last="592" name="J. Am. Chem. Soc." type="journal article" volume="121">
+        <title>Pentalenene synthase. Histidine-309 is not required for catalytic activity.</title>
+        <authorList>
+          <person name="Seemann M."/>
+          <person name="Zhai G."/>
+          <person name="Umezawa K."/>
+          <person name="Cane D.E."/>
+        </authorList>
+        <dbReference id="10.1021/ja983657h" type="DOI"/>
+      </citation>
+      <scope>MUTAGENESIS OF HIS-309</scope>
+    </reference>
+    <reference key="4">
+      <citation date="1997" first="1820" last="1824" name="Science" type="journal article" volume="277">
+        <title>Crystal structure of pentalenene synthase: mechanistic insights on terpenoid cyclization reactions in biology.</title>
+        <authorList>
+          <person name="Lesburg C.A."/>
+          <person name="Zhai G."/>
+          <person name="Cane D.E."/>
+          <person name="Christianson D.W."/>
+        </authorList>
+        <dbReference id="9295272" type="PubMed"/>
+        <dbReference id="10.1126/science.277.5333.1820" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS)</scope>
+    </reference>
+    <reference key="5">
+      <citation date="2002" first="7681" last="7689" name="J. Am. Chem. Soc." type="journal article" volume="124">
+        <title>Pentalenene synthase. Analysis of active site residues by site-directed mutagenesis.</title>
+        <authorList>
+          <person name="Seemann M."/>
+          <person name="Zhai G."/>
+          <person name="de Kraker J.-W."/>
+          <person name="Paschall C.M."/>
+          <person name="Christianson D.W."/>
+          <person name="Cane D.E."/>
+        </authorList>
+        <dbReference id="12083921" type="PubMed"/>
+        <dbReference id="10.1021/ja026058q" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (2.9 ANGSTROMS) OF MUTANT LEU-219</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>MUTAGENESIS OF PHE-76; PHE-77; ASP-80; ASP-81; ASP-84; ASN-219; 308-TRP-HIS-309; TRP-308 AND HIS-309</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="3">Catalyzes the cyclization of farnesyl diphosphate (FPP) to the tricyclic sesquiterpene pentalenene, which is the hydrocarbon precursor of the pentalenolactone family of antibiotics produced by a variety of Streptomyces species.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = diphosphate + pentalenene</text>
+        <dbReference id="RHEA:18081" type="Rhea"/>
+        <dbReference id="CHEBI:17251" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.7" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="3">310 nM for FPP</KM>
+      </kinetics>
+      <phDependence>
+        <text evidence="3">Optimum pH is 8.2-8.4.</text>
+      </phDependence>
+    </comment>
+    <comment type="pathway">
+      <text>Sesquiterpene biosynthesis; pentalenene biosynthesis; pentalenene from farnesyl diphosphate: step 1/1.</text>
+    </comment>
+    <comment type="pathway">
+      <text>Antibiotic biosynthesis; pentalenolactone biosynthesis.</text>
+    </comment>
+    <comment type="subunit">
+      <text evidence="3">Monomer.</text>
+    </comment>
+    <comment type="domain">
+      <text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="miscellaneous">
+      <text>All the mutants (Ref.3 and PubMed:12083921) retained substantial pentalenene synthase activity accompanied by production of varying proportions of abortive cyclization products such as germacrene A, protoilludene and beta-caryophyllene. This is a true derailment or diversion of the normal cyclization reaction, and not simply the consequence of trapping of a normally cryptic, cationic intermediate.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="5">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference id="4.2.3.7" type="EC"/>
+    <dbReference id="U05213" type="EMBL">
+      <property type="protein sequence ID" value="AAA19131.1"/>
+      <property type="molecule type" value="Unassigned_DNA"/>
+    </dbReference>
+    <dbReference id="HQ292066" type="EMBL">
+      <property type="protein sequence ID" value="ADO85594.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="1HM4" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="3.47"/>
+      <property type="chains" value="A/B=2-337"/>
+    </dbReference>
+    <dbReference id="1HM7" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.90"/>
+      <property type="chains" value="A/B=2-337"/>
+    </dbReference>
+    <dbReference id="1PS1" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.60"/>
+      <property type="chains" value="A/B=1-337"/>
+    </dbReference>
+    <dbReference id="6WKC" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.65"/>
+      <property type="chains" value="A/B=1-337"/>
+    </dbReference>
+    <dbReference id="6WKD" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.20"/>
+      <property type="chains" value="A/B=1-337"/>
+    </dbReference>
+    <dbReference id="6WKE" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.40"/>
+      <property type="chains" value="A/B=1-337"/>
+    </dbReference>
+    <dbReference id="6WKF" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.50"/>
+      <property type="chains" value="A/B=1-337"/>
+    </dbReference>
+    <dbReference id="6WKG" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.30"/>
+      <property type="chains" value="A/B=1-337"/>
+    </dbReference>
+    <dbReference id="6WKH" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.55"/>
+      <property type="chains" value="A/B=1-337"/>
+    </dbReference>
+    <dbReference id="6WKI" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.35"/>
+      <property type="chains" value="A/B=1-337"/>
+    </dbReference>
+    <dbReference id="6WKJ" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.30"/>
+      <property type="chains" value="A/B=1-337"/>
+    </dbReference>
+    <dbReference id="1HM4" type="PDBsum"/>
+    <dbReference id="1HM7" type="PDBsum"/>
+    <dbReference id="1PS1" type="PDBsum"/>
+    <dbReference id="6WKC" type="PDBsum"/>
+    <dbReference id="6WKD" type="PDBsum"/>
+    <dbReference id="6WKE" type="PDBsum"/>
+    <dbReference id="6WKF" type="PDBsum"/>
+    <dbReference id="6WKG" type="PDBsum"/>
+    <dbReference id="6WKH" type="PDBsum"/>
+    <dbReference id="6WKI" type="PDBsum"/>
+    <dbReference id="6WKJ" type="PDBsum"/>
+    <dbReference id="Q55012" type="SMR"/>
+    <dbReference id="MetaCyc:MONOMER-16834" type="BioCyc"/>
+    <dbReference id="4.2.3.7" type="BRENDA">
+      <property type="organism ID" value="22521"/>
+    </dbReference>
+    <dbReference id="UPA00171" type="UniPathway">
+      <property type="reaction ID" value="UER00581"/>
+    </dbReference>
+    <dbReference id="UPA00974" type="UniPathway"/>
+    <dbReference id="Q55012" type="EvolutionaryTrace"/>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0050467" type="GO">
+      <property type="term" value="F:pentalenene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0017000" type="GO">
+      <property type="term" value="P:antibiotic biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034686" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_2"/>
+    </dbReference>
+    <dbReference id="SFLDG01020" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0002">3D-structure</keyword>
+    <keyword id="KW-0045">Antibiotic biosynthesis</keyword>
+    <keyword id="KW-0903">Direct protein sequencing</keyword>
+    <keyword id="KW-1015">Disulfide bond</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Removed" evidence="3" type="initiator methionine">
+      <location>
+        <position position="1"/>
+      </location>
+    </feature>
+    <feature description="Pentalenene synthase" id="PRO_0000097092" type="chain">
+      <location>
+        <begin position="2"/>
+        <end position="337"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="80"/>
+        <end position="84"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" type="metal ion-binding site">
+      <location>
+        <position position="80"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" type="metal ion-binding site">
+      <location>
+        <position position="80"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" type="metal ion-binding site">
+      <location>
+        <position position="84"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" type="metal ion-binding site">
+      <location>
+        <position position="84"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" type="metal ion-binding site">
+      <location>
+        <position position="219"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="223"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="227"/>
+      </location>
+    </feature>
+    <feature type="disulfide bond">
+      <location>
+        <begin position="128"/>
+        <end position="136"/>
+      </location>
+    </feature>
+    <feature description="Loss of activity." evidence="2" type="mutagenesis site">
+      <original>F</original>
+      <variation>A</variation>
+      <location>
+        <position position="76"/>
+      </location>
+    </feature>
+    <feature description="Loss of activity." evidence="2" type="mutagenesis site">
+      <original>F</original>
+      <variation>A</variation>
+      <location>
+        <position position="77"/>
+      </location>
+    </feature>
+    <feature description="20-fold decrease in activity and catalytic efficiency." evidence="2" type="mutagenesis site">
+      <original>F</original>
+      <variation>Y</variation>
+      <location>
+        <position position="77"/>
+      </location>
+    </feature>
+    <feature description="150-fold decrease in activity. 20-fold increase in Km for FPP." evidence="2" type="mutagenesis site">
+      <original>D</original>
+      <variation>E</variation>
+      <location>
+        <position position="80"/>
+      </location>
+    </feature>
+    <feature description="50-fold decrease in activity. 9-fold increase in Km for FPP." evidence="2" type="mutagenesis site">
+      <original>D</original>
+      <variation>E</variation>
+      <location>
+        <position position="81"/>
+      </location>
+    </feature>
+    <feature description="2.5-fold increase in activity. 7-fold increase in Km for FPP." evidence="2" type="mutagenesis site">
+      <original>D</original>
+      <variation>E</variation>
+      <location>
+        <position position="84"/>
+      </location>
+    </feature>
+    <feature description="Loss of activity." evidence="2" type="mutagenesis site">
+      <original>N</original>
+      <variation>A</variation>
+      <location>
+        <position position="219"/>
+      </location>
+    </feature>
+    <feature description="60-fold decrease in activity. 55-fold increase in Km for FPP." evidence="2" type="mutagenesis site">
+      <original>N</original>
+      <variation>D</variation>
+      <location>
+        <position position="219"/>
+      </location>
+    </feature>
+    <feature description="Loss of activity." evidence="2" type="mutagenesis site">
+      <original>N</original>
+      <variation>L</variation>
+      <location>
+        <position position="219"/>
+      </location>
+    </feature>
+    <feature description="12-fold decrease in activity. 25-fold decrease in catalytic efficiency." evidence="2" type="mutagenesis site">
+      <original>WH</original>
+      <variation>FF</variation>
+      <location>
+        <begin position="308"/>
+        <end position="309"/>
+      </location>
+    </feature>
+    <feature description="4-fold decrease in activity. 2-fold decrease in catalytic efficiency." evidence="2" type="mutagenesis site">
+      <original>W</original>
+      <variation>F</variation>
+      <location>
+        <position position="308"/>
+      </location>
+    </feature>
+    <feature description="3-fold decrease in activity." evidence="2 4" type="mutagenesis site">
+      <original>H</original>
+      <variation>A</variation>
+      <location>
+        <position position="309"/>
+      </location>
+    </feature>
+    <feature description="4-fold decrease in activity." evidence="2 4" type="mutagenesis site">
+      <original>H</original>
+      <variation>C</variation>
+      <location>
+        <position position="309"/>
+      </location>
+    </feature>
+    <feature description="17-fold decrease in activity. 5-fold increase in Km for FPP." evidence="2 4" type="mutagenesis site">
+      <original>H</original>
+      <variation>F</variation>
+      <location>
+        <position position="309"/>
+      </location>
+    </feature>
+    <feature description="3-fold decrease in activity." evidence="2 4" type="mutagenesis site">
+      <original>H</original>
+      <variation>S</variation>
+      <location>
+        <position position="309"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AA sequence." evidence="5" ref="1" type="sequence conflict">
+      <original>H</original>
+      <variation>W</variation>
+      <location>
+        <position position="118"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="19"/>
+        <end position="24"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="28"/>
+        <end position="32"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="39"/>
+        <end position="46"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="50"/>
+        <end position="57"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="64"/>
+        <end position="81"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="86"/>
+        <end position="89"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="91"/>
+        <end position="102"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="103"/>
+        <end position="105"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="115"/>
+        <end position="128"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="133"/>
+        <end position="154"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="166"/>
+        <end position="176"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="179"/>
+        <end position="190"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="196"/>
+        <end position="199"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="202"/>
+        <end position="222"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="224"/>
+        <end position="229"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="236"/>
+        <end position="244"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="248"/>
+        <end position="279"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="284"/>
+        <end position="296"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="helix">
+      <location>
+        <begin position="298"/>
+        <end position="308"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="turn">
+      <location>
+        <begin position="309"/>
+        <end position="311"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="12083921" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="8180213" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source ref="3"/>
+    </evidence>
+    <evidence key="5" type="ECO:0000305"/>
+    <evidence key="6" type="ECO:0007744">
+      <source>
+        <dbReference id="1PS1" type="PDB"/>
+      </source>
+    </evidence>
+    <sequence checksum="417FCE6D8C4BB18C" length="337" mass="38002" modified="2007-01-23" version="4">MPQDVDFHIPLPGRQSPDHARAEAEQLAWPRSLGLIRSDAAAERHLRGGYADLASRFYPHATGADLDLGVDLMSWFFLFDDLFDGPRGENPEDTKQLTDQVAAALDGPLPDTAPPIAHGFADIWRRTCEGMTPAWCARSARHWRNYFDGYVDEAESRFWNAPCDSAAQYLAMRRHTIGVQPTVDLAERAGRFEVPHRVFDSAVMSAMLQIAVDVNLLLNDIASLEKEEARGEQNNMVMILRREHGWSKSRSVSHMQNEVRARLEQYLLLESCLPKVGEIYQLDTAEREALERYRTDAVRTVIRGSYDWHRSSGRYDAEFALAAGAQGYLEELGSSAH</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:140564</ID>
+<NAME>delta-cadinene</NAME>
+<DEFINITION>A member of the cadinene family of sesquiterpenes in which the double bonds are located at the 4-4a and 7-8 positions, and in which the isopropyl group at position 1 is cis to the hydrogen at the adjacent bridgehead carbon (position 8a).</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>delta-cadinene</SYNONYM>
+<SYNONYM>4,7-dimethyl-1-isopropyl-1,2,3,5,6,8a-hexahydronaphthalene</SYNONYM>
+<SYNONYM>4,7-dimethyl-1-(propan-2-yl)-1,2,3,5,6,8a-hexahydronaphthalene</SYNONYM>
+<IUPAC_NAME>rel-(1R,8aS)-1-isopropyl-4,7-dimethyl-1,2,3,5,6,8a-hexahydronaphthalene</IUPAC_NAME>
+<FORMULA>C15H24</FORMULA>
+<MASS>204.352</MASS>
+<MONOISOTOPIC_MASS>204.18780</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>CC(C)C1CCC(C)=C2CCC(C)=CC12</SMILES>
+<INCHI>InChI=1S/C15H24/c1-10(2)13-8-6-12(4)14-7-5-11(3)9-15(13)14/h9-10,13,15H,5-8H2,1-4H3</INCHI>
+<INCHIKEY>FUCYIEXQVQJBKY-UHFFFAOYSA-N</INCHIKEY>
+</ENTRY>
+</TABLE>

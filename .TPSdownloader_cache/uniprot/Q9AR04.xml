@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2006-09-05" dataset="Swiss-Prot" modified="2020-12-02" version="78">
+    <accession>Q9AR04</accession>
+    <accession>A0A0G2R032</accession>
+    <accession>A0A0P0CC59</accession>
+    <accession>A0A1L7NYF5</accession>
+    <accession>A0A2U1M5G4</accession>
+    <accession>A2TEY7</accession>
+    <accession>C0KJU8</accession>
+    <accession>C5HG79</accession>
+    <accession>Q306S5</accession>
+    <accession>Q9FVM5</accession>
+    <accession>Q9FY41</accession>
+    <accession>Q9LW98</accession>
+    <name>AMS1_ARTAN</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="13 15">Amorpha-4,11-diene synthase</fullName>
+        <ecNumber evidence="3 4 5">4.2.3.24</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name evidence="20" type="primary">AMS1</name>
+      <name evidence="13 15" type="synonym">ADS</name>
+      <name evidence="14" type="synonym">KCS12</name>
+      <name evidence="22" type="ORF">CTI12_AA415620</name>
+    </gene>
+    <organism>
+      <name type="scientific">Artemisia annua</name>
+      <name type="common">Sweet wormwood</name>
+      <dbReference id="35608" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>campanulids</taxon>
+        <taxon>Asterales</taxon>
+        <taxon>Asteraceae</taxon>
+        <taxon>Asteroideae</taxon>
+        <taxon>Anthemideae</taxon>
+        <taxon>Artemisiinae</taxon>
+        <taxon>Artemisia</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2000" first="173" last="180" name="Arch. Biochem. Biophys." type="journal article" volume="381">
+        <title>Molecular cloning, expression, and characterization of a amorpha-4,11-diene synthase from, a key enzyme of artemisinin biosynthesis of Artemisia annua L.</title>
+        <authorList>
+          <person name="Mercke P.E."/>
+          <person name="Bengtsson M."/>
+          <person name="Bouwmeester H.J."/>
+          <person name="Posthumus M.A."/>
+          <person name="Brodelius P.E."/>
+        </authorList>
+        <dbReference id="11032404" type="PubMed"/>
+        <dbReference id="10.1006/abbi.2000.1962" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <scope>PATHWAY</scope>
+      <source>
+        <tissue>Leaf</tissue>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2000-12" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Cloning of sesquiterpene cyclase gene from Artemisia annua.</title>
+        <authorList>
+          <person name="Liu Y."/>
+          <person name="Ye H.C."/>
+          <person name="Li G.F."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]</scope>
+      <source>
+        <tissue>Leaf</tissue>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2000" first="178" last="184" name="Arch. Biochem. Biophys." type="journal article" volume="383">
+        <title>Amorpha-4,11-diene synthase of Artemisia annua: cDNA isolation and bacterial expression of a terpene synthase involved in artemisinin biosynthesis.</title>
+        <authorList>
+          <person name="Chang Y.-J."/>
+          <person name="Song S.-H."/>
+          <person name="Park S.-H."/>
+          <person name="Kim S.-U."/>
+        </authorList>
+        <dbReference id="11185551" type="PubMed"/>
+        <dbReference id="10.1006/abbi.2000.2061" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <reference key="4">
+      <citation date="2001" first="460" last="465" name="Planta" type="journal article" volume="212">
+        <title>Amorpha-4,11-diene synthase: cloning and functional expression of a key enzyme in the biosynthetic pathway of the novel antimalarial drug artemisinin.</title>
+        <authorList>
+          <person name="Wallaart T.E."/>
+          <person name="Bouwmeester H.J."/>
+          <person name="Hille J."/>
+          <person name="Poppinga L."/>
+          <person name="Maijers N.C.A."/>
+        </authorList>
+        <dbReference id="11289612" type="PubMed"/>
+        <dbReference id="10.1007/s004250000428" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>INDUCTION BY REACTIVE OXYGEN SPECIES</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <reference key="5">
+      <citation date="2005-10" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Cloning and sequencing of amorpha-4,11-diene synthase cDNA of Artemisia annua L.</title>
+        <authorList>
+          <person name="Huang Y."/>
+          <person name="Feng L.L."/>
+          <person name="Zeng Q.P."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <source>
+        <tissue>Leaf</tissue>
+      </source>
+    </reference>
+    <reference key="6">
+      <citation date="2006-12" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Production of artemisinic acid by engineered yeast.</title>
+        <authorList>
+          <person name="Kong J."/>
+          <person name="Wang W."/>
+          <person name="Cheng K."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    </reference>
+    <reference key="7">
+      <citation date="2010" first="421" last="429" name="Bioinformation" type="journal article" volume="4">
+        <title>Isolation, characterization and structural studies of amorpha-4,11-diene synthase (ADS(3963)) from Artemisia annua L.</title>
+        <authorList>
+          <person name="Alam P."/>
+          <person name="Kiran U."/>
+          <person name="Ahmad M.M."/>
+          <person name="Kamaluddin X."/>
+          <person name="Khan M.A."/>
+          <person name="Jhanwar S."/>
+          <person name="Abdin M.Z."/>
+        </authorList>
+        <dbReference id="20975893" type="PubMed"/>
+        <dbReference id="10.6026/97320630004421" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    </reference>
+    <reference key="8">
+      <citation date="2010-09" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Molecular cloning of amorpha4,11 diene synthase.</title>
+        <authorList>
+          <person name="Banyai W."/>
+          <person name="Supaibulwatana K."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    </reference>
+    <reference key="9">
+      <citation date="2011-12" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>In planta expression of Artemisia annua sesquiterepene synthase, amorpha-4, 11-diene synthase in Cichorium intybus.</title>
+        <authorList>
+          <person name="Ahameethunisa A.R."/>
+          <person name="Hopper W."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    </reference>
+    <reference key="10">
+      <citation date="2014-03" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Molecular cloning of amorpha 4,11 diene synthase.</title>
+        <authorList>
+          <person name="Sankhuan D."/>
+          <person name="Chowpongpang S."/>
+          <person name="Kirdmanee C."/>
+          <person name="Supaibulwatana K."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    </reference>
+    <reference key="11">
+      <citation date="2015-05" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Molecular characterization of amorpha-4,11 diene synthase from Artemisia annua L.</title>
+        <authorList>
+          <person name="Jhansi Rani S."/>
+          <person name="Srinivasulu Y."/>
+          <person name="Sujitha A."/>
+          <person name="Usha R."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    </reference>
+    <reference key="12">
+      <citation date="2016" first="1678" last="1688" name="Plant Cell Physiol." type="journal article" volume="57">
+        <title>Functional analysis of amorpha-4,11-diene synthase (ADS) homologs from non-artemisinin-producing Artemisia species: The discovery of novel koidzumiol and (+)-alpha-bisabolol synthases.</title>
+        <authorList>
+          <person name="Muangphrom P."/>
+          <person name="Seki H."/>
+          <person name="Suzuki M."/>
+          <person name="Komori A."/>
+          <person name="Nishiwaki M."/>
+          <person name="Mikawa R."/>
+          <person name="Fukushima E.O."/>
+          <person name="Muranaka T."/>
+        </authorList>
+        <dbReference id="27273626" type="PubMed"/>
+        <dbReference id="10.1093/pcp/pcw094" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    </reference>
+    <reference key="13">
+      <citation date="2018" first="776" last="788" name="Mol. Plant" type="journal article" volume="11">
+        <title>The genome of Artemisia annua provides insight into the evolution of Asteraceae family and artemisinin biosynthesis.</title>
+        <authorList>
+          <person name="Shen Q."/>
+          <person name="Zhang L."/>
+          <person name="Liao Z."/>
+          <person name="Wang S."/>
+          <person name="Yan T."/>
+          <person name="Shi P."/>
+          <person name="Liu M."/>
+          <person name="Fu X."/>
+          <person name="Pan Q."/>
+          <person name="Wang Y."/>
+          <person name="Lv Z."/>
+          <person name="Lu X."/>
+          <person name="Zhang F."/>
+          <person name="Jiang W."/>
+          <person name="Ma Y."/>
+          <person name="Chen M."/>
+          <person name="Hao X."/>
+          <person name="Li L."/>
+          <person name="Tang Y."/>
+          <person name="Lv G."/>
+          <person name="Zhou Y."/>
+          <person name="Sun X."/>
+          <person name="Brodelius P.E."/>
+          <person name="Rose J.K.C."/>
+          <person name="Tang K."/>
+        </authorList>
+        <dbReference id="29703587" type="PubMed"/>
+        <dbReference id="10.1016/j.molp.2018.03.015" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>cv. Huhao1</strain>
+        <tissue>Leaf</tissue>
+      </source>
+    </reference>
+    <reference key="14">
+      <citation date="2009-01" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>ADS promoter-driven GUS phenotyping in Nicotiana tabacum: a surveillance system on stress-induced expression of artemisinin biosynthesis responsible genes.</title>
+        <authorList>
+          <person name="Yang R.Y."/>
+          <person name="Feng L.L."/>
+          <person name="Yang X.Q."/>
+          <person name="Zeng Q.P."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE OF 1-35</scope>
+    </reference>
+    <reference key="15">
+      <citation date="1999" first="843" last="854" name="Phytochemistry" type="journal article" volume="52">
+        <title>Amorpha-4,11-diene synthase catalyses the first probable step in artemisinin biosynthesis.</title>
+        <authorList>
+          <person name="Bouwmeester H.J."/>
+          <person name="Wallaart T.E."/>
+          <person name="Janssen M.H."/>
+          <person name="van Loo B."/>
+          <person name="Jansen B.J."/>
+          <person name="Posthumus M.A."/>
+          <person name="Schmidt C.O."/>
+          <person name="De Kraker J.W."/>
+          <person name="Koenig W.A."/>
+          <person name="Franssen M.C."/>
+        </authorList>
+        <dbReference id="10626375" type="PubMed"/>
+        <dbReference id="10.1016/s0031-9422(99)00206-x" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    </reference>
+    <reference key="16">
+      <citation date="2006" first="940" last="943" name="Nature" type="journal article" volume="440">
+        <title>Production of the antimalarial drug precursor artemisinic acid in engineered yeast.</title>
+        <authorList>
+          <person name="Ro D.-K."/>
+          <person name="Paradise E.M."/>
+          <person name="Ouellet M."/>
+          <person name="Fisher K.J."/>
+          <person name="Newman K.L."/>
+          <person name="Ndungu J.M."/>
+          <person name="Ho K.A."/>
+          <person name="Eachus R.A."/>
+          <person name="Ham T.S."/>
+          <person name="Kirby J."/>
+          <person name="Chang M.C.Y."/>
+          <person name="Withers S.T."/>
+          <person name="Shiba Y."/>
+          <person name="Sarpong R."/>
+          <person name="Keasling J.D."/>
+        </authorList>
+        <dbReference id="16612385" type="PubMed"/>
+        <dbReference id="10.1038/nature04640" type="DOI"/>
+      </citation>
+      <scope>BIOTECHNOLOGY</scope>
+    </reference>
+    <reference key="17">
+      <citation date="2009" first="1123" last="1128" name="Phytochemistry" type="journal article" volume="70">
+        <title>Localization of enzymes of artemisinin biosynthesis to the apical cells of glandular secretory trichomes of Artemisia annua L.</title>
+        <authorList>
+          <person name="Olsson M.E."/>
+          <person name="Olofsson L.M."/>
+          <person name="Lindahl A.-L."/>
+          <person name="Lundgren A."/>
+          <person name="Brodelius M."/>
+          <person name="Brodelius P.E."/>
+        </authorList>
+        <dbReference id="19664791" type="PubMed"/>
+        <dbReference id="10.1016/j.phytochem.2009.07.009" type="DOI"/>
+      </citation>
+      <scope>TISSUE SPECIFICITY</scope>
+    </reference>
+    <reference key="18">
+      <citation date="2011" first="45" last="54" name="Plant Growth Regul." type="journal article" volume="63">
+        <title>Enhancement of artemisinin content and biomass in Artemisia annua by exogenous GA3 treatment.</title>
+        <authorList>
+          <person name="Banyai W."/>
+          <person name="Mii M."/>
+          <person name="Supaibulwatana K."/>
+        </authorList>
+        <dbReference id="10.1007/s10725-010-9510-9" type="DOI"/>
+      </citation>
+      <scope>INDUCTION BY GIBBERELLIC ACID</scope>
+    </reference>
+    <reference key="19">
+      <citation date="2012" first="9" last="13" name="Plant Sci." type="journal article" volume="183">
+        <title>Trichome isolation with and without fixation using laser microdissection and pressure catapulting followed by RNA amplification: expression of genes of terpene metabolism in apical and sub-apical trichome cells of Artemisia annua L.</title>
+        <authorList>
+          <person name="Olofsson L."/>
+          <person name="Lundgren A."/>
+          <person name="Brodelius P.E."/>
+        </authorList>
+        <dbReference id="22195571" type="PubMed"/>
+        <dbReference id="10.1016/j.plantsci.2011.10.019" type="DOI"/>
+      </citation>
+      <scope>TISSUE SPECIFICITY</scope>
+    </reference>
+    <reference key="20">
+      <citation date="2012" first="E111" last="E118" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="109">
+        <title>Production of amorphadiene in yeast, and its conversion to dihydroartemisinic acid, precursor to the antimalarial agent artemisinin.</title>
+        <authorList>
+          <person name="Westfall P.J."/>
+          <person name="Pitera D.J."/>
+          <person name="Lenihan J.R."/>
+          <person name="Eng D."/>
+          <person name="Woolard F.X."/>
+          <person name="Regentin R."/>
+          <person name="Horning T."/>
+          <person name="Tsuruta H."/>
+          <person name="Melis D.J."/>
+          <person name="Owens A."/>
+          <person name="Fickes S."/>
+          <person name="Diola D."/>
+          <person name="Benjamin K.R."/>
+          <person name="Keasling J.D."/>
+          <person name="Leavell M.D."/>
+          <person name="McPhee D.J."/>
+          <person name="Renninger N.S."/>
+          <person name="Newman J.D."/>
+          <person name="Paddon C.J."/>
+        </authorList>
+        <dbReference id="22247290" type="PubMed"/>
+        <dbReference id="10.1073/pnas.1110740109" type="DOI"/>
+      </citation>
+      <scope>BIOTECHNOLOGY</scope>
+    </reference>
+    <reference key="21">
+      <citation date="2013" first="528" last="532" name="Nature" type="journal article" volume="496">
+        <title>High-level semi-synthetic production of the potent antimalarial artemisinin.</title>
+        <authorList>
+          <person name="Paddon C.J."/>
+          <person name="Westfall P.J."/>
+          <person name="Pitera D.J."/>
+          <person name="Benjamin K."/>
+          <person name="Fisher K."/>
+          <person name="McPhee D."/>
+          <person name="Leavell M.D."/>
+          <person name="Tai A."/>
+          <person name="Main A."/>
+          <person name="Eng D."/>
+          <person name="Polichuk D.R."/>
+          <person name="Teoh K.H."/>
+          <person name="Reed D.W."/>
+          <person name="Treynor T."/>
+          <person name="Lenihan J."/>
+          <person name="Fleck M."/>
+          <person name="Bajad S."/>
+          <person name="Dang G."/>
+          <person name="Diola D."/>
+          <person name="Dorin G."/>
+          <person name="Ellens K.W."/>
+          <person name="Fickes S."/>
+          <person name="Galazzo J."/>
+          <person name="Gaucher S.P."/>
+          <person name="Geistlinger T."/>
+          <person name="Henry R."/>
+          <person name="Hepp M."/>
+          <person name="Horning T."/>
+          <person name="Iqbal T."/>
+          <person name="Jiang H."/>
+          <person name="Kizer L."/>
+          <person name="Lieu B."/>
+          <person name="Melis D."/>
+          <person name="Moss N."/>
+          <person name="Regentin R."/>
+          <person name="Secrest S."/>
+          <person name="Tsuruta H."/>
+          <person name="Vazquez R."/>
+          <person name="Westblade L.F."/>
+          <person name="Xu L."/>
+          <person name="Yu M."/>
+          <person name="Zhang Y."/>
+          <person name="Zhao L."/>
+          <person name="Lievense J."/>
+          <person name="Covello P.S."/>
+          <person name="Keasling J.D."/>
+          <person name="Reiling K.K."/>
+          <person name="Renninger N.S."/>
+          <person name="Newman J.D."/>
+        </authorList>
+        <dbReference id="23575629" type="PubMed"/>
+        <dbReference id="10.1038/nature12051" type="DOI"/>
+      </citation>
+      <scope>BIOTECHNOLOGY</scope>
+    </reference>
+    <reference key="22">
+      <citation date="2016" first="10210" last="10226" name="Angew. Chem. Int. Ed." type="journal article" volume="55">
+        <title>Artemisinin-A Gift from Traditional Chinese Medicine to the World (Nobel Lecture).</title>
+        <authorList>
+          <person name="Tu Y."/>
+        </authorList>
+        <dbReference id="27488942" type="PubMed"/>
+        <dbReference id="10.1002/anie.201601967" type="DOI"/>
+      </citation>
+      <scope>REVIEW ON ARTEMISININ ANTIMALARIAL PROPERTIES</scope>
+    </reference>
+    <reference key="23">
+      <citation date="2019" first="704" last="714" name="Mol. Plant" type="journal article" volume="12">
+        <title>Artemisinin biosynthesis in non-glandular trichome cells of Artemisia annua.</title>
+        <authorList>
+          <person name="Judd R."/>
+          <person name="Bagley M.C."/>
+          <person name="Li M."/>
+          <person name="Zhu Y."/>
+          <person name="Lei C."/>
+          <person name="Yuzuak S."/>
+          <person name="Ekeloef M."/>
+          <person name="Pu G."/>
+          <person name="Zhao X."/>
+          <person name="Muddiman D.C."/>
+          <person name="Xie D.-Y."/>
+        </authorList>
+        <dbReference id="30851440" type="PubMed"/>
+        <dbReference id="10.1016/j.molp.2019.02.011" type="DOI"/>
+      </citation>
+      <scope>TISSUE SPECIFICITY</scope>
+    </reference>
+    <reference key="24">
+      <citation date="2019" first="626" last="665" name="Nat. Prod. Rep." type="journal article" volume="36">
+        <title>Non-volatile natural products in plant glandular trichomes: chemistry, biological activities and biosynthesis.</title>
+        <authorList>
+          <person name="Liu Y."/>
+          <person name="Jing S.-X."/>
+          <person name="Luo S.-H."/>
+          <person name="Li S.-H."/>
+        </authorList>
+        <dbReference id="30468448" type="PubMed"/>
+        <dbReference id="10.1039/c8np00077h" type="DOI"/>
+      </citation>
+      <scope>PATHWAY</scope>
+      <scope>REVIEW</scope>
+    </reference>
+    <reference key="25">
+      <citation date="2020" first="54" last="54" name="Chin. Med. J." type="journal article" volume="15">
+        <title>Artesunate: could be an alternative drug to chloroquine in COVID-19 treatment?</title>
+        <authorList>
+          <person name="Uzun T."/>
+          <person name="Toptas O."/>
+        </authorList>
+        <dbReference id="32514287" type="PubMed"/>
+        <dbReference id="10.1186/s13020-020-00336-8" type="DOI"/>
+      </citation>
+      <scope>BIOTECHNOLOGY</scope>
+    </reference>
+    <reference key="26">
+      <citation date="2020" first="104901" last="104901" name="Pharmacol. Res." type="journal article" volume="158">
+        <title>Anti-malarial drug, artemisinin and its derivatives for the treatment of respiratory diseases.</title>
+        <authorList>
+          <person name="Cheong D.H.J."/>
+          <person name="Tan D.W.S."/>
+          <person name="Wong F.W.S."/>
+          <person name="Tran T."/>
+        </authorList>
+        <dbReference id="32405226" type="PubMed"/>
+        <dbReference id="10.1016/j.phrs.2020.104901" type="DOI"/>
+      </citation>
+      <scope>BIOTECHNOLOGY</scope>
+      <scope>REVIEW</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2 3 4 5 16">Involved in the biosynthesis of the antimalarial endoperoxide artemisinin (PubMed:11032404, PubMed:11185551, PubMed:11289612, PubMed:10626375, PubMed:27488942). Catalyzes the formation of both olefinic and oxygenated sesquiterpenes, with amorpha-4,11-diene being the major product (PubMed:11032404, PubMed:11185551, PubMed:11289612, PubMed:10626375).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3 4 5">
+        <text>(2E,6E)-farnesyl diphosphate = (+)-amorpha-4,11-diene + diphosphate</text>
+        <dbReference id="RHEA:18325" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:52026" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.24" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="3 4 5">
+        <dbReference id="RHEA:18326" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <cofactor evidence="1">
+        <name>Mn(2+)</name>
+        <dbReference id="CHEBI:29035" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="2">0.6 uM for farnesyl diphosphate (at 30 degrees Celsius)</KM>
+        <KM evidence="3">9 uM for farnesyl diphosphate (at pH 7.5)</KM>
+        <KM evidence="3">70 uM for magnesium ions</KM>
+        <KM evidence="3">13 uM for manganese ions</KM>
+      </kinetics>
+      <phDependence>
+        <text evidence="2 3">Optimum pH is 7.5-9 (PubMed:11032404). Optimum pH is 6.5-7 (at 30 degrees Celsius) (PubMed:10626375).</text>
+      </phDependence>
+    </comment>
+    <comment evidence="17" type="pathway">
+      <text>Sesquiterpene biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="21">Cytoplasm</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="tissue specificity">
+      <text evidence="7 8 11">Expressed both in apical and sub-apical cells of glandular secretory trichomes. Also present in non-glandular trichome cells (PubMed:30851440).</text>
+    </comment>
+    <comment type="induction">
+      <text evidence="5 12">By exposure to reactive oxygen species (PubMed:11289612). Strongly induced by gibberellic acid (GA(3)) leading to an increased artemisinin yield (Ref.18).</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="biotechnology">
+      <text evidence="18 19">Artemisinin and derivatives (e.g. artesunate), are antimalarial drugs due to their endoperoxidase properties; they also display multiple pharmacological actions against inflammation,viral infections, and cell and tumor proliferation (PubMed:32514287, PubMed:32405226). Artesunate may be a promising treatment for COVID-19 mediated by the severe acute respiratory syndrome coronavirus 2 (2019-nCoV) (SARS-CoV-2) because of its anti-inflammatory activity, NF-kappaB (nuclear factor kappa B)-coronavirus effect and chloroquine-like endocytosis inhibition mechanism (PubMed:32514287, PubMed:32405226).</text>
+    </comment>
+    <comment type="biotechnology">
+      <text evidence="6 9 10">Yeast (S.cerevisiae) has been engineered to produce artemisinic-acid, a precursor of the antimalarial artemisinin compound, by expressing AMS1/ADS, CYP71AV1, ADH1 and ALDH1 in conjunction with CYB5 and CPR1.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="21">Belongs to the terpene synthase family.</text>
+    </comment>
+    <comment evidence="21" type="sequence caution">
+      <conflict type="erroneous gene model prediction">
+        <sequence id="ACL15394" resource="EMBL-CDS" version="1"/>
+      </conflict>
+    </comment>
+    <comment evidence="21" type="sequence caution">
+      <conflict type="erroneous initiation">
+        <sequence id="ALJ03212" resource="EMBL-CDS" version="1"/>
+      </conflict>
+      <text>Extended N-terminus.</text>
+    </comment>
+    <comment evidence="21" type="sequence caution">
+      <conflict type="erroneous gene model prediction">
+        <sequence id="PWA56512" resource="EMBL-CDS" version="1"/>
+      </conflict>
+    </comment>
+    <dbReference evidence="3 4 5" id="4.2.3.24" type="EC"/>
+    <dbReference id="AF138959" type="EMBL">
+      <property type="protein sequence ID" value="AAF61439.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AF327527" type="EMBL">
+      <property type="protein sequence ID" value="AAK15697.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="AF327526" type="EMBL">
+      <property type="protein sequence ID" value="AAK15696.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AJ251751" type="EMBL">
+      <property type="protein sequence ID" value="CAB94691.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AY006482" type="EMBL">
+      <property type="protein sequence ID" value="AAF98444.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="DQ241826" type="EMBL">
+      <property type="protein sequence ID" value="ABB51572.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="EF197888" type="EMBL">
+      <property type="protein sequence ID" value="ABM88787.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="FJ432667" type="EMBL">
+      <property type="protein sequence ID" value="ACL15394.1"/>
+      <property type="status" value="ALT_SEQ"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="HQ315833" type="EMBL">
+      <property type="protein sequence ID" value="ADU25497.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="JQ319661" type="EMBL">
+      <property type="protein sequence ID" value="AFA34434.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="KJ609176" type="EMBL">
+      <property type="protein sequence ID" value="AIC83777.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="KR445687" type="EMBL">
+      <property type="protein sequence ID" value="ALJ03212.1"/>
+      <property type="status" value="ALT_INIT"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="LC106014" type="EMBL">
+      <property type="protein sequence ID" value="BAW34953.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="PKPP01006435" type="EMBL">
+      <property type="protein sequence ID" value="PWA56512.1"/>
+      <property type="status" value="ALT_SEQ"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="FJ613423" type="EMBL">
+      <property type="protein sequence ID" value="ACM80358.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="Q9AR04" type="SMR"/>
+    <dbReference id="Q9AR04" type="PRIDE"/>
+    <dbReference id="ag:AAF98444" type="KEGG"/>
+    <dbReference id="MetaCyc:MONOMER-12183" type="BioCyc"/>
+    <dbReference id="4.2.3.24" type="BRENDA">
+      <property type="organism ID" value="7150"/>
+    </dbReference>
+    <dbReference id="UP000245207" type="Proteomes">
+      <property type="component" value="Unassembled WGS sequence"/>
+    </dbReference>
+    <dbReference id="GO:0005737" type="GO">
+      <property type="term" value="C:cytoplasm"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0034006" type="GO">
+      <property type="term" value="F:amorpha-4,11-diene synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0009739" type="GO">
+      <property type="term" value="P:response to gibberellin"/>
+      <property type="evidence" value="ECO:0000270"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0000302" type="GO">
+      <property type="term" value="P:response to reactive oxygen species"/>
+      <property type="evidence" value="ECO:0000270"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0051761" type="GO">
+      <property type="term" value="P:sesquiterpene metabolic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0963">Cytoplasm</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0464">Manganese</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="Amorpha-4,11-diene synthase" id="PRO_0000248160" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="546"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="1" type="short sequence motif">
+      <location>
+        <begin position="299"/>
+        <end position="303"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="299"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="299"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="303"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="303"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="443"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="447"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="451"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="299"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="303"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="440"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 5; ABB51572." evidence="21" ref="5" type="sequence conflict">
+      <original>F</original>
+      <variation>S</variation>
+      <location>
+        <position position="24"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>E</original>
+      <variation>D</variation>
+      <location>
+        <position position="28"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 4; AAF98444." evidence="21" ref="4" type="sequence conflict">
+      <original>E</original>
+      <variation>Q</variation>
+      <location>
+        <position position="28"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>N</original>
+      <variation>K</variation>
+      <location>
+        <position position="40"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 10; AIC83777." evidence="21" ref="10" type="sequence conflict">
+      <original>A</original>
+      <variation>V</variation>
+      <location>
+        <position position="61"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>L</original>
+      <variation>P</variation>
+      <location>
+        <position position="66"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; AAK15696/AAK15697, 7; ACL15394 and 13; PWA56512." evidence="21" ref="2 7 13" type="sequence conflict">
+      <original>R</original>
+      <variation>Q</variation>
+      <location>
+        <position position="81"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>W</original>
+      <variation>Y</variation>
+      <location>
+        <position position="98"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; AAK15696/AAK15697 and 7; ACL15394." evidence="21" ref="2 7" type="sequence conflict">
+      <original>N</original>
+      <variation>D</variation>
+      <location>
+        <position position="99"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>R</original>
+      <variation>H</variation>
+      <location>
+        <position position="108"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; AAK15696/AAK15697 and 7; ACL15394." evidence="21" ref="2 7" type="sequence conflict">
+      <original>N</original>
+      <variation>D</variation>
+      <location>
+        <position position="129"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 5; ABB51572." evidence="21" ref="5" type="sequence conflict">
+      <original>I</original>
+      <variation>T</variation>
+      <location>
+        <position position="158"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; AAK15696/AAK15697 and 7; ACL15394." evidence="21" ref="2 7" type="sequence conflict">
+      <original>I</original>
+      <variation>M</variation>
+      <location>
+        <position position="159"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 3; CAB94691." evidence="21" ref="3" type="sequence conflict">
+      <original>I</original>
+      <variation>M</variation>
+      <location>
+        <position position="173"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>D</original>
+      <variation>Y</variation>
+      <location>
+        <position position="217"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>H</original>
+      <variation>Q</variation>
+      <location>
+        <position position="244"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 10; AIC83777." evidence="21" ref="10" type="sequence conflict">
+      <original>V</original>
+      <variation>A</variation>
+      <location>
+        <position position="266"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; AAK15696/AAK15697, 3; CAB94691, 7; ACL15394 and 13; PWA56512." evidence="21" ref="2 3 7 13" type="sequence conflict">
+      <original>Y</original>
+      <variation>F</variation>
+      <location>
+        <position position="277"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>TKA</original>
+      <variation>AKV</variation>
+      <location>
+        <begin position="289"/>
+        <end position="291"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>L</original>
+      <variation>F</variation>
+      <location>
+        <position position="339"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>F</original>
+      <variation>T</variation>
+      <location>
+        <position position="350"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>R</original>
+      <variation>K</variation>
+      <location>
+        <position position="356"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>VKEFVRN</original>
+      <variation>MKEFIRG</variation>
+      <location>
+        <begin position="367"/>
+        <end position="373"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 6; ABM88787, 8; ADU25497, 9; AFA34434 and 11; ALJ03212." evidence="21" ref="6 8 9 11" type="sequence conflict">
+      <original>V</original>
+      <variation>F</variation>
+      <location>
+        <position position="376"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 5; ABB51572." evidence="21" ref="5" type="sequence conflict">
+      <original>K</original>
+      <variation>N</variation>
+      <location>
+        <position position="379"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>E</original>
+      <variation>V</variation>
+      <location>
+        <position position="391"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 5; ABB51572." evidence="21" ref="5" type="sequence conflict">
+      <original>G</original>
+      <variation>D</variation>
+      <location>
+        <position position="412"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>S</original>
+      <variation>F</variation>
+      <location>
+        <position position="421"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 5; ABB51572." evidence="21" ref="5" type="sequence conflict">
+      <original>N</original>
+      <variation>D</variation>
+      <location>
+        <position position="443"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>V</original>
+      <variation>F</variation>
+      <location>
+        <position position="470"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 13; PWA56512." evidence="21" ref="13" type="sequence conflict">
+      <original>A</original>
+      <variation>V</variation>
+      <location>
+        <position position="507"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 10; AIC83777." evidence="21" ref="10" type="sequence conflict">
+      <original>S</original>
+      <variation>G</variation>
+      <location>
+        <position position="545"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="A0A1C9J6A7" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="10626375" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="11032404" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="11185551" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000269">
+      <source>
+        <dbReference id="11289612" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000269">
+      <source>
+        <dbReference id="16612385" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000269">
+      <source>
+        <dbReference id="19664791" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000269">
+      <source>
+        <dbReference id="22195571" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0000269">
+      <source>
+        <dbReference id="22247290" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0000269">
+      <source>
+        <dbReference id="23575629" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="11" type="ECO:0000269">
+      <source>
+        <dbReference id="30851440" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="12" type="ECO:0000269">
+      <source ref="18"/>
+    </evidence>
+    <evidence key="13" type="ECO:0000303">
+      <source>
+        <dbReference id="11032404" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="14" type="ECO:0000303">
+      <source>
+        <dbReference id="11185551" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="15" type="ECO:0000303">
+      <source>
+        <dbReference id="27273626" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="16" type="ECO:0000303">
+      <source>
+        <dbReference id="27488942" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="17" type="ECO:0000303">
+      <source>
+        <dbReference id="30468448" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="18" type="ECO:0000303">
+      <source>
+        <dbReference id="32405226" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="19" type="ECO:0000303">
+      <source>
+        <dbReference id="32514287" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="20" type="ECO:0000303">
+      <source ref="2"/>
+    </evidence>
+    <evidence key="21" type="ECO:0000305"/>
+    <evidence key="22" type="ECO:0000312">
+      <source>
+        <dbReference id="PWA56512.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="381386A7ED81FEF9" length="546" mass="63933" modified="2006-09-05" version="2">MSLTEEKPIRPIANFPPSIWGDQFLIYEKQVEQGVEQIVNDLKKEVRQLLKEALDIPMKHANLLKLIDEIQRLGIPYHFEREIDHALQCIYETYGDNWNGDRSSLWFRLMRKQGYYVTCDVFNNYKDKNGAFKQSLANDVEGLLELYEATSMRVPGEIILEDALGFTRSRLSIMTKDAFSTNPALFTEIQRALKQPLWKRLPRIEAAQYIPFYQQQDSHNKTLLKLAKLEFNLLQSLHKEELSHVCKWWKAFDIKKNAPCLRDRIVECYFWGLGSGYEPQYSRARVFFTKAVAVITLIDDTYDAYGTYEELKIFTEAVERWSITCLDTLPEYMKPIYKLFMDTYTEMEEFLAKEGRTDLFNCGKEFVKEFVRNLMVEAKWANEGHIPTTEEHDPVVIITGGANLLTTTCYLGMSDIFTKESVEWAVSAPPLFRYSGILGRRLNDLMTHKAEQERKHSSSSLESYMKEYNVNEEYAQTLIYKEVEDVWKDINREYLTTKNIPRPLLMAVIYLCQFLEVQYAGKDNFTRMGDEYKHLIKSLLVYPMSI</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

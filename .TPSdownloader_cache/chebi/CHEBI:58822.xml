@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:58822</ID>
+<NAME>tuberculosinyl diphosphate(3-)</NAME>
+<DEFINITION>A organophosphate oxoanion arising from deprotonation of the three diphosphate OH groups of tuberculosinyl diphosphate.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>{[(2E)-5-[(1R,2S,8aR)-1,2,5,5-tetramethyl-1,2,3,5,6,7,8,8a-octahydronaphthalen-1-yl]-3-methylpent-2-en-1-yl phosphonato]oxy}phosphonate</SYNONYM>
+<SYNONYM>tuberculosinyl diphosphate</SYNONYM>
+<IUPAC_NAME>(2E)-3-methyl-5-[(1R,2S,8aS)-1,2,5,5-tetramethyl-1,2,3,5,6,7,8,8a-octahydronaphthalen-1-yl]pent-2-en-1-yl diphosphate</IUPAC_NAME>
+<FORMULA>C20H33O7P2</FORMULA>
+<MASS>447.42100</MASS>
+<MONOISOTOPIC_MASS>447.17180</MONOISOTOPIC_MASS>
+<CHARGE>-3</CHARGE>
+<SMILES>C[C@H]1CC=C2[C@@H](CCCC2(C)C)[C@]1(C)CC\C(C)=C\COP([O-])(=O)OP([O-])([O-])=O</SMILES>
+<INCHI>InChI=1S/C20H36O7P2/c1-15(11-14-26-29(24,25)27-28(21,22)23)10-13-20(5)16(2)8-9-17-18(20)7-6-12-19(17,3)4/h9,11,16,18H,6-8,10,12-14H2,1-5H3,(H,24,25)(H2,21,22,23)/p-3/b15-11+/t16-,18+,20+/m0/s1</INCHI>
+<INCHIKEY>BPSHPRCHMGHBGC-AHKHSGQUSA-K</INCHIKEY>
+</ENTRY>
+</TABLE>

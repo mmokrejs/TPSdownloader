@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2017-02-15" dataset="TrEMBL" modified="2020-06-17" version="7">
+    <accession>A0A1J0CQA2</accession>
+    <name>A0A1J0CQA2_9MONI</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="2">Terpene synthase 1</fullName>
+      </submittedName>
+    </protein>
+    <organism evidence="2">
+      <name type="scientific">Woodsia scopulina</name>
+      <dbReference id="1498956" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Polypodiopsida</taxon>
+        <taxon>Polypodiidae</taxon>
+        <taxon>Polypodiales</taxon>
+        <taxon>Aspleniineae</taxon>
+        <taxon>Woodsiaceae</taxon>
+        <taxon>Woodsia</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="2" key="1">
+      <citation date="2016" first="12328" last="12333" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="113">
+        <title>Microbial-type terpene synthase genes occur widely in nonseed land plants, but not in seed plants.</title>
+        <authorList>
+          <person name="Jia Q."/>
+          <person name="Li G."/>
+          <person name="Kollner T.G."/>
+          <person name="Fu J."/>
+          <person name="Chen X."/>
+          <person name="Xiong W."/>
+          <person name="Crandall-Stotler B.J."/>
+          <person name="Bowman J.L."/>
+          <person name="Weston D.J."/>
+          <person name="Zhang Y."/>
+          <person name="Chen L."/>
+          <person name="Xie Y."/>
+          <person name="Li F.W."/>
+          <person name="Rothfels C.J."/>
+          <person name="Larsson A."/>
+          <person name="Graham S.W."/>
+          <person name="Stevenson D.W."/>
+          <person name="Wong G.K."/>
+          <person name="Gershenzon J."/>
+          <person name="Chen F."/>
+        </authorList>
+        <dbReference id="27791023" type="PubMed"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <dbReference id="KX230843" type="EMBL">
+      <property type="protein sequence ID" value="APB88781.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="A0A1J0CQA2" type="SMR"/>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="1" id="KW-0175">Coiled coil</keyword>
+    <feature evidence="1" type="coiled-coil region">
+      <location>
+        <begin position="270"/>
+        <end position="297"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="Coils" type="SAM"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000313">
+      <source>
+        <dbReference id="APB88781.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="B4EAC147378E9F3C" length="415" mass="46212" modified="2017-02-15" version="1">MAGPAPACSFKRLQHPEYEAMKAECEPWLLALAAPPSAAAVRFWQDSSLPLLGSFFFAQCSKKRAVLGTKMLSWFTVSDTADDDLSVRGSAVAEHVDRRHDLILACFAGKPLDHHTLAQLPGGADISREFSSLQEIWKGISEDMPLAMQARYRDAVSRYLHALRVQAQYRNAHSLPGVDEYLNVVRRPASIVLQLLVLLEYGLGIELDEATLGSELLLRLQDAVVGHIALYNDLFSYEAEMCGGDYFNLPSVILRESRAAQPGFTLADAVEETVRMVEEVDKQCAELMEEVEKSRLMEKAGVERYLRGLGTFMAGNAEWSSKTGRYTHTCSSEGVVLPVVRMRRTSSLLLLPASPRPYLGPTSLMHVMITPEHRFVPGFITLSDTHKRVSLHAPKFNRVSLLHSSRLHTSMPLYI</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

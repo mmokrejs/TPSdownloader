@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2020-02-26" dataset="Swiss-Prot" modified="2020-12-02" version="12">
+    <accession>A0A1L9WUI2</accession>
+    <name>ANEC_ASPA1</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="3">Terpene cyclase aneC</fullName>
+        <ecNumber evidence="2">4.2.3.-</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="3">Aculenes biosynthesis cluster protein C</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="3" type="primary">aneC</name>
+      <name type="ORF">ASPACDRAFT_60731</name>
+    </gene>
+    <organism>
+      <name type="scientific">Aspergillus aculeatus (strain ATCC 16872 / CBS 172.66 / WB 5094)</name>
+      <dbReference id="690307" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Ascomycota</taxon>
+        <taxon>Pezizomycotina</taxon>
+        <taxon>Eurotiomycetes</taxon>
+        <taxon>Eurotiomycetidae</taxon>
+        <taxon>Eurotiales</taxon>
+        <taxon>Aspergillaceae</taxon>
+        <taxon>Aspergillus</taxon>
+        <taxon>Aspergillus subgen. Circumdati</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2017" first="RESEARCH28.1" last="RESEARCH28.45" name="Genome Biol." type="journal article" volume="18">
+        <title>Comparative genomics reveals high biological diversity and specific adaptations in the industrially and medically important fungal genus Aspergillus.</title>
+        <authorList>
+          <person name="de Vries R.P."/>
+          <person name="Riley R."/>
+          <person name="Wiebenga A."/>
+          <person name="Aguilar-Osorio G."/>
+          <person name="Amillis S."/>
+          <person name="Uchima C.A."/>
+          <person name="Anderluh G."/>
+          <person name="Asadollahi M."/>
+          <person name="Askin M."/>
+          <person name="Barry K."/>
+          <person name="Battaglia E."/>
+          <person name="Bayram O."/>
+          <person name="Benocci T."/>
+          <person name="Braus-Stromeyer S.A."/>
+          <person name="Caldana C."/>
+          <person name="Canovas D."/>
+          <person name="Cerqueira G.C."/>
+          <person name="Chen F."/>
+          <person name="Chen W."/>
+          <person name="Choi C."/>
+          <person name="Clum A."/>
+          <person name="Dos Santos R.A."/>
+          <person name="Damasio A.R."/>
+          <person name="Diallinas G."/>
+          <person name="Emri T."/>
+          <person name="Fekete E."/>
+          <person name="Flipphi M."/>
+          <person name="Freyberg S."/>
+          <person name="Gallo A."/>
+          <person name="Gournas C."/>
+          <person name="Habgood R."/>
+          <person name="Hainaut M."/>
+          <person name="Harispe M.L."/>
+          <person name="Henrissat B."/>
+          <person name="Hilden K.S."/>
+          <person name="Hope R."/>
+          <person name="Hossain A."/>
+          <person name="Karabika E."/>
+          <person name="Karaffa L."/>
+          <person name="Karanyi Z."/>
+          <person name="Krasevec N."/>
+          <person name="Kuo A."/>
+          <person name="Kusch H."/>
+          <person name="LaButti K."/>
+          <person name="Lagendijk E.L."/>
+          <person name="Lapidus A."/>
+          <person name="Levasseur A."/>
+          <person name="Lindquist E."/>
+          <person name="Lipzen A."/>
+          <person name="Logrieco A.F."/>
+          <person name="MacCabe A."/>
+          <person name="Maekelae M.R."/>
+          <person name="Malavazi I."/>
+          <person name="Melin P."/>
+          <person name="Meyer V."/>
+          <person name="Mielnichuk N."/>
+          <person name="Miskei M."/>
+          <person name="Molnar A.P."/>
+          <person name="Mule G."/>
+          <person name="Ngan C.Y."/>
+          <person name="Orejas M."/>
+          <person name="Orosz E."/>
+          <person name="Ouedraogo J.P."/>
+          <person name="Overkamp K.M."/>
+          <person name="Park H.-S."/>
+          <person name="Perrone G."/>
+          <person name="Piumi F."/>
+          <person name="Punt P.J."/>
+          <person name="Ram A.F."/>
+          <person name="Ramon A."/>
+          <person name="Rauscher S."/>
+          <person name="Record E."/>
+          <person name="Riano-Pachon D.M."/>
+          <person name="Robert V."/>
+          <person name="Roehrig J."/>
+          <person name="Ruller R."/>
+          <person name="Salamov A."/>
+          <person name="Salih N.S."/>
+          <person name="Samson R.A."/>
+          <person name="Sandor E."/>
+          <person name="Sanguinetti M."/>
+          <person name="Schuetze T."/>
+          <person name="Sepcic K."/>
+          <person name="Shelest E."/>
+          <person name="Sherlock G."/>
+          <person name="Sophianopoulou V."/>
+          <person name="Squina F.M."/>
+          <person name="Sun H."/>
+          <person name="Susca A."/>
+          <person name="Todd R.B."/>
+          <person name="Tsang A."/>
+          <person name="Unkles S.E."/>
+          <person name="van de Wiele N."/>
+          <person name="van Rossen-Uffink D."/>
+          <person name="Oliveira J.V."/>
+          <person name="Vesth T.C."/>
+          <person name="Visser J."/>
+          <person name="Yu J.-H."/>
+          <person name="Zhou M."/>
+          <person name="Andersen M.R."/>
+          <person name="Archer D.B."/>
+          <person name="Baker S.E."/>
+          <person name="Benoit I."/>
+          <person name="Brakhage A.A."/>
+          <person name="Braus G.H."/>
+          <person name="Fischer R."/>
+          <person name="Frisvad J.C."/>
+          <person name="Goldman G.H."/>
+          <person name="Houbraken J."/>
+          <person name="Oakley B."/>
+          <person name="Pocsi I."/>
+          <person name="Scazzocchio C."/>
+          <person name="Seiboth B."/>
+          <person name="vanKuyk P.A."/>
+          <person name="Wortman J."/>
+          <person name="Dyer P.S."/>
+          <person name="Grigoriev I.V."/>
+        </authorList>
+        <dbReference id="28196534" type="PubMed"/>
+        <dbReference id="10.1186/s13059-017-1151-0" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC 16872 / CBS 172.66 / WB 5094</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2019" name="Angew. Chem. Int. Ed." type="journal article">
+        <title>The biosynthesis of norsesquiterpene aculenes requires three cytochrome P450 enzymes to catalyze a stepwise demethylation process.</title>
+        <authorList>
+          <person name="Lee C.F."/>
+          <person name="Chen L.X."/>
+          <person name="Chiang C.Y."/>
+          <person name="Lai C.Y."/>
+          <person name="Lin H.C."/>
+        </authorList>
+        <dbReference id="31618514" type="PubMed"/>
+        <dbReference id="10.1002/anie.201910200" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>DISRUPTION PHENOTYPE</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Terpene cyclase; part of the gene cluster that mediates the biosynthesis of aculenes, a unique type of norsesquiterpenes that contain a nordaucane skeleton linked to an L-proline moiety and are of mixed biosynthetic origin (PubMed:31618514). The pathway begins with the synthesis of dauca-4,7-diene by the terpene cyclase aneC using farnesyl pyrophosphate (FPP) as substrate (PubMed:31618514). The cytochrome P450 monooxygenase aneF then performs the initial oxidation at C-12 of dauca-4,7-diene to yield asperaculane D (PubMed:31618514). Asperaculane D is substrate of the cytochrome P450 monooxygenase aneD for C-10 hydroxylation to yield asperaculane E (PubMed:31618514). The cytochrome P450 monooxygenase aneG then converts asperaculane E into aculene D via C-2 oxidation (PubMed:31618514). The monomodular nonribosomal peptide synthtase aneB adenylates L-proline and the thiohydrolase aneE transfers this activated L-proline derivative to aculenes D and C to produce respectively aculenes B and A (PubMed:31618514). The dioxygenase aneA converts aculene D into aculene C, and aculene B into aculene A by introducing the 5,6-alkene moiety (PubMed:31618514). Asperculanes A, B, C and F, as well as 14-prolyl asperculane C, might be shunt products of the pathway (PubMed:31618514).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = dauca-4,7-diene + diphosphate</text>
+        <dbReference id="RHEA:65072" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:155906" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="2">
+        <dbReference id="RHEA:65073" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per monomer.</text>
+    </comment>
+    <comment evidence="2" type="pathway">
+      <text>Secondary metabolite biosynthesis.</text>
+    </comment>
+    <comment type="subunit">
+      <text evidence="1">Homodimer.</text>
+    </comment>
+    <comment type="disruption phenotype">
+      <text evidence="2">Impairs the production of aculene or any intermediates.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="4">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="2" id="4.2.3.-" type="EC"/>
+    <dbReference id="KV878977" type="EMBL">
+      <property type="protein sequence ID" value="OJJ99914.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="XP_020056254.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="XM_020203588.1"/>
+    </dbReference>
+    <dbReference id="OJJ99914" type="EnsemblFungi">
+      <property type="protein sequence ID" value="OJJ99914"/>
+      <property type="gene ID" value="ASPACDRAFT_60731"/>
+    </dbReference>
+    <dbReference id="30977402" type="GeneID"/>
+    <dbReference id="1143139at2759" type="OrthoDB"/>
+    <dbReference id="UP000184546" type="Proteomes">
+      <property type="component" value="Unassembled WGS sequence"/>
+    </dbReference>
+    <dbReference id="GO:0016829" type="GO">
+      <property type="term" value="F:lyase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="Terpene cyclase aneC" id="PRO_0000449092" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="442"/>
+      </location>
+    </feature>
+    <feature description="Substrate-binding" evidence="1" type="region of interest">
+      <location>
+        <begin position="419"/>
+        <end position="420"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="196"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="196"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="327"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="331"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="335"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="283"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="334"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="Q9UR08" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="31618514" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000303">
+      <source>
+        <dbReference id="31618514" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000305"/>
+    <sequence checksum="4AA01E011DD6B5D2" length="442" mass="50834" modified="2017-03-15" version="1">MTPDLVARFWLVELHVRLPAWLRGITSASASVAVKRPGSSKKPLEPAPQPAPYKPTHYRHIIYAYDVMEEKCEIPVLEHDPFDFLDPQKTLVPPENTILIDPVAVGLPWFSTMKGTPQCIHWREAEAAGLELIEQVMAARGAGAVIPEKLKTSDQRRKMMELVETAVTICIYLYAVSDAARIRVLTKSIVFLFLHDDVMESKANAEGNSILEGWDTDTFKANELEGESRNDIFLDFCREAIALDPVLGLELMQDTVRWARYSRVNSTKADKTHATWQDFRDFRELDIAYDFMITAVRFGAAILYDPAERPVFEWIEKLYIRHCLYINDLYSYEKEFREHQQEGAPLHNSVHMIEQVLSVPPGSAKAILRSVLWDCERQVREEYVRLMQLPELTHTQKVYLQRLIESFAGNYMYSMSTYRYARLSGKLIGPPPEDCLLKNYVQ</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

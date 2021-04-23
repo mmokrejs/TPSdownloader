@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2011-09-21" dataset="Swiss-Prot" modified="2020-12-02" version="62">
+    <accession>Q49SP3</accession>
+    <name>TPSPS_POGCB</name>
+    <protein>
+      <recommendedName>
+        <fullName>Patchoulol synthase</fullName>
+        <shortName>PatTps177</shortName>
+        <ecNumber evidence="2 3 4 5">4.2.3.70</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>Alpha-guaiene synthase</fullName>
+        <ecNumber evidence="2 3 4">4.2.3.87</ecNumber>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Delta-guaiene synthase</fullName>
+        <ecNumber evidence="2 3">4.2.3.93</ecNumber>
+      </alternativeName>
+    </protein>
+    <organism>
+      <name type="scientific">Pogostemon cablin</name>
+      <name type="common">Patchouli</name>
+      <name type="synonym">Mentha cablin</name>
+      <dbReference id="28511" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>lamiids</taxon>
+        <taxon>Lamiales</taxon>
+        <taxon>Lamiaceae</taxon>
+        <taxon>Lamioideae</taxon>
+        <taxon>Pogostemoneae</taxon>
+        <taxon>Pogostemon</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2006" first="123" last="136" name="Arch. Biochem. Biophys." type="journal article" volume="454">
+        <title>The diverse sesquiterpene profile of patchouli, Pogostemon cablin, is correlated with a limited number of sesquiterpene synthases.</title>
+        <authorList>
+          <person name="Deguerry F."/>
+          <person name="Pastore L."/>
+          <person name="Wu S."/>
+          <person name="Clark A."/>
+          <person name="Chappell J."/>
+          <person name="Schalk M."/>
+        </authorList>
+        <dbReference id="16970904" type="PubMed"/>
+        <dbReference id="10.1016/j.abb.2006.08.006" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    </reference>
+    <reference key="2">
+      <citation date="1987" first="56" last="68" name="Arch. Biochem. Biophys." type="journal article" volume="256">
+        <title>Biosynthesis of the sesquiterpene patchoulol from farnesyl pyrophosphate in leaf extracts of Pogostemon cablin (patchouli): mechanistic considerations.</title>
+        <authorList>
+          <person name="Croteau R."/>
+          <person name="Munck S.L."/>
+          <person name="Akoh C.C."/>
+          <person name="Fisk H.J."/>
+          <person name="Satterwhite D.M."/>
+        </authorList>
+        <dbReference id="3038029" type="PubMed"/>
+        <dbReference id="10.1016/0003-9861(87)90425-5" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+    </reference>
+    <reference key="3">
+      <citation date="1990" first="58" last="64" name="Arch. Biochem. Biophys." type="journal article" volume="282">
+        <title>Purification and characterization of the sesquiterpene cyclase patchoulol synthase from Pogostemon cablin.</title>
+        <authorList>
+          <person name="Munck S.L."/>
+          <person name="Croteau R."/>
+        </authorList>
+        <dbReference id="2171435" type="PubMed"/>
+        <dbReference id="10.1016/0003-9861(90)90086-e" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <scope>COFACTOR</scope>
+      <scope>SUBUNIT</scope>
+    </reference>
+    <reference key="4">
+      <citation date="2010" first="2998" last="3008" name="J. Am. Chem. Soc." type="journal article" volume="132">
+        <title>Doubly deuterium-labeled patchouli alcohol from cyclization of singly labeled [2-(2)H(1)]farnesyl diphosphate catalyzed by recombinant patchoulol synthase.</title>
+        <authorList>
+          <person name="Faraldos J.A."/>
+          <person name="Wu S."/>
+          <person name="Chappell J."/>
+          <person name="Coates R.M."/>
+        </authorList>
+        <dbReference id="20148554" type="PubMed"/>
+        <dbReference id="10.1021/ja909251r" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>3D-STRUCTURE MODELING</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2 3 4 5">Involved in the biosynthesis of patchoulol. Produces also at least 13 additional sesquiterpene products, including alpha- and beta-patchoulene, alpha-bulnesene, seychellene, pogostol and alpha-guiaene.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2 3 4 5">
+        <text>(2E,6E)-farnesyl diphosphate + H2O = diphosphate + patchoulol</text>
+        <dbReference id="RHEA:29503" type="Rhea"/>
+        <dbReference id="CHEBI:7940" type="ChEBI"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.70" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2 3 4">
+        <text>(2E,6E)-farnesyl diphosphate = alpha-guaiene + diphosphate</text>
+        <dbReference id="RHEA:31807" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:63443" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.87" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2 3">
+        <text>(2E,6E)-farnesyl diphosphate = delta-guaiene + diphosphate</text>
+        <dbReference id="RHEA:31831" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:63447" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.93" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="4">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <cofactor evidence="4">
+        <name>Mn(2+)</name>
+        <dbReference id="CHEBI:29035" type="ChEBI"/>
+      </cofactor>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="2 4">4.45 uM for farnesyl diphosphate</KM>
+      </kinetics>
+      <phDependence>
+        <text evidence="2 4">Optimum pH is 7.0-7.5.</text>
+      </phDependence>
+      <temperatureDependence>
+        <text evidence="2 4">Optimum temperature is 40 degrees Celsius.</text>
+      </temperatureDependence>
+    </comment>
+    <comment type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subunit">
+      <text evidence="4">Homodimer.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="6">Cytoplasm</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="domain">
+      <text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="6">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="2 3 4 5" id="4.2.3.70" type="EC"/>
+    <dbReference evidence="2 3 4" id="4.2.3.87" type="EC"/>
+    <dbReference evidence="2 3" id="4.2.3.93" type="EC"/>
+    <dbReference id="AY508730" type="EMBL">
+      <property type="protein sequence ID" value="AAS86323.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="DQ355151" type="EMBL">
+      <property type="protein sequence ID" value="ABC87816.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="Q49SP3" type="SMR"/>
+    <dbReference id="Q49SP3" type="PRIDE"/>
+    <dbReference id="ag:AAS86323" type="KEGG"/>
+    <dbReference id="MetaCyc:MONOMER-14859" type="BioCyc"/>
+    <dbReference id="4.2.3.70" type="BRENDA">
+      <property type="organism ID" value="9724"/>
+    </dbReference>
+    <dbReference id="4.2.3.87" type="BRENDA">
+      <property type="organism ID" value="9724"/>
+    </dbReference>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="GO:0005737" type="GO">
+      <property type="term" value="C:cytoplasm"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0963">Cytoplasm</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0464">Manganese</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Patchoulol synthase" id="PRO_0000412251" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="552"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="304"/>
+        <end position="308"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="304"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="304"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="308"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="308"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="457"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="16970904" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="20148554" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="2171435" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000269">
+      <source>
+        <dbReference id="3038029" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000305"/>
+    <sequence checksum="05533EFBD57B6C75" length="552" mass="64199" modified="2005-09-13" version="1">MELYAQSVGVGAASRPLANFHPCVWGDKFIVYNPQSCQAGEREEAEELKVELKRELKEASDNYMRQLKMVDAIQRLGIDYLFVEDVDEALKNLFEMFDAFCKNNHDMHATALSFRLLRQHGYRVSCEVFEKFKDGKDGFKVPNEDGAVAVLEFFEATHLRVHGEDVLDNAFDFTRNYLESVYATLNDPTAKQVHNALNEFSFRRGLPRVEARKYISIYEQYASHHKGLLKLAKLDFNLVQALHRRELSEDSRWWKTLQVPTKLSFVRDRLVESYFWASGSYFEPNYSVARMILAKGLAVLSLMDDVYDAYGTFEELQMFTDAIERWDASCLDKLPDYMKIVYKALLDVFEEVDEELIKLGAPYRAYYGKEAMKYAARAYMEEAQWREQKHKPTTKEYMKLATKTCGYITLIILSCLGVEEGIVTKEAFDWVFSRPPFIEATLIIARLVNDITGHEFEKKREHVRTAVECYMEEHKVGKQEVVSEFYNQMESAWKDINEGFLRPVEFPIPLLYLILNSVRTLEVIYKEGDSYTHVGPAMQNIIKQLYLHPVPY</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

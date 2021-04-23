@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2017-05-10" dataset="TrEMBL" modified="2021-02-10" version="17">
+    <accession>A0A1U8I4V5</accession>
+    <name>A0A1U8I4V5_GOSHI</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="3">(+)-delta-cadinene synthase</fullName>
+        <ecNumber evidence="3">4.2.3.13</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name evidence="9" type="primary">LOC107890714</name>
+    </gene>
+    <organism evidence="8 9">
+      <name type="scientific">Gossypium hirsutum</name>
+      <name type="common">Upland cotton</name>
+      <name type="synonym">Gossypium mexicanum</name>
+      <dbReference id="3635" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>malvids</taxon>
+        <taxon>Malvales</taxon>
+        <taxon>Malvaceae</taxon>
+        <taxon>Malvoideae</taxon>
+        <taxon>Gossypium</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="8" key="1">
+      <citation date="2015" first="524" last="530" name="Nat. Biotechnol." type="journal article" volume="33">
+        <title>Genome sequence of cultivated Upland cotton (Gossypium hirsutum TM-1) provides insights into genome evolution.</title>
+        <authorList>
+          <person name="Li F."/>
+          <person name="Fan G."/>
+          <person name="Lu C."/>
+          <person name="Xiao G."/>
+          <person name="Zou C."/>
+          <person name="Kohel R.J."/>
+          <person name="Ma Z."/>
+          <person name="Shang H."/>
+          <person name="Ma X."/>
+          <person name="Wu J."/>
+          <person name="Liang X."/>
+          <person name="Huang G."/>
+          <person name="Percy R.G."/>
+          <person name="Liu K."/>
+          <person name="Yang W."/>
+          <person name="Chen W."/>
+          <person name="Du X."/>
+          <person name="Shi C."/>
+          <person name="Yuan Y."/>
+          <person name="Ye W."/>
+          <person name="Liu X."/>
+          <person name="Zhang X."/>
+          <person name="Liu W."/>
+          <person name="Wei H."/>
+          <person name="Wei S."/>
+          <person name="Huang G."/>
+          <person name="Zhang X."/>
+          <person name="Zhu S."/>
+          <person name="Zhang H."/>
+          <person name="Sun F."/>
+          <person name="Wang X."/>
+          <person name="Liang J."/>
+          <person name="Wang J."/>
+          <person name="He Q."/>
+          <person name="Huang L."/>
+          <person name="Wang J."/>
+          <person name="Cui J."/>
+          <person name="Song G."/>
+          <person name="Wang K."/>
+          <person name="Xu X."/>
+          <person name="Yu J.Z."/>
+          <person name="Zhu Y."/>
+          <person name="Yu S."/>
+        </authorList>
+        <dbReference id="25893780" type="PubMed"/>
+        <dbReference id="10.1038/nbt.3208" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain evidence="8">cv. TM-1</strain>
+      </source>
+    </reference>
+    <reference evidence="9" key="2">
+      <citation date="2020-10" db="UniProtKB" type="submission">
+        <authorList>
+          <consortium name="RefSeq"/>
+        </authorList>
+      </citation>
+      <scope>IDENTIFICATION</scope>
+      <source>
+        <tissue evidence="9">Leaf</tissue>
+      </source>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Responsible for the cyclization of trans,trans-farnesyl diphosphate (FPP) to (+)-delta cadinene.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="1">
+        <text>(2E,6E)-farnesyl diphosphate = (1S,8aR)-delta-cadinene + diphosphate</text>
+        <dbReference id="RHEA:19525" type="Rhea"/>
+        <dbReference id="CHEBI:15385" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.13" type="EC"/>
+      </reaction>
+    </comment>
+    <dbReference evidence="3" id="4.2.3.13" type="EC"/>
+    <dbReference id="XP_016670764.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="XM_016815275.1"/>
+    </dbReference>
+    <dbReference id="107890714" type="GeneID"/>
+    <dbReference id="ghi:107890714" type="KEGG"/>
+    <dbReference id="UP000189702" type="Proteomes">
+      <property type="component" value="Genome assembly"/>
+    </dbReference>
+    <dbReference id="GO:0009507" type="GO">
+      <property type="term" value="C:chloroplast"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0047461" type="GO">
+      <property type="term" value="F:(+)-delta-cadinene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0016102" type="GO">
+      <property type="term" value="P:diterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0009686" type="GO">
+      <property type="term" value="P:gibberellin biosynthetic process"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword evidence="5" id="KW-0460">Magnesium</keyword>
+    <keyword evidence="4" id="KW-0479">Metal-binding</keyword>
+    <keyword evidence="8" id="KW-1185">Reference proteome</keyword>
+    <feature description="Terpene_synth" evidence="6" type="domain">
+      <location>
+        <begin position="280"/>
+        <end position="486"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="7" type="domain">
+      <location>
+        <begin position="530"/>
+        <end position="609"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00001693" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00002383" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00013103" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022842" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000313">
+      <source>
+        <dbReference id="UP000189702" type="Proteomes"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0000313">
+      <source>
+        <dbReference id="XP_016670764.1" type="RefSeq"/>
+      </source>
+    </evidence>
+    <sequence checksum="4B0C364CF304D2D2" length="725" mass="83342" modified="2017-05-10" version="1">MTNMSSHSIHHLFLCSSTIPSSSLSFSYNHVSILAGTWQSWGKDKGHNVDIHRLCRAISKPRTQEYAGVFQNGLPVIKWNEIVDDDIQGEAFKTLELSKIKEHVDNIRSMLGSMGDGEISCSAYDTAWVALIEDVNGNGSPQFPSTLEWISDNQLPDGSWGDKHIFLAHDRLINTLACVVALKTWNLHPDKCQKGLSFFKENISKLEDEKAEHMPIGFEVAFPSLLETARSLSIEVPYDSPIFQNIYEQRDLKLTRIPKEIMHNVATTLLHSLEGMLDLDWEKLLKLQCQDGSFLFSPSSTAYAVMQTKNENCLNYLTKIVQRFNGGVPNVYPVDLFEHIWAIDRLQRLGISRYFNPEIKQCLDYTYRHWTQEGICWARNTRVQDIDDTAMGFRLLRLHGYEVSADVFRHFEKGGEFFCFVGQSNQAVTGIFNLYRASQLRFPGDQILEDANRFSSDFLREKQATNQLLDKWIISKHLPGEVGFALKFPWLASLPRVETRFYIEQYGGEDEVWIGKTLYRMPYVNNNAYLELAKLDFNNCQALHQMEWNGMQRWYWEMGLGDFGMSRRSLLLSYFMAAASIFEPERSQERLAWAKTAFLVETIASSFHNGIPKPSDYELRKRFVQVFTSLGDAPFSHFNGRYNHNCLVHDNGCFNNTDTDQSRTRKIESAMQELVQVVLENSSDDIDSGFKQTFLTVAQSFYYAAHCDLETIIFHIAKVLFEKVH</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

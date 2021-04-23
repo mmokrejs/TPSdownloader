@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:78352</ID>
+<NAME>cyclooctat-9-en-7-ol</NAME>
+<DEFINITION>A diterpenoid characterized by a 5-8-5 dodecahydrodicyclopenta[a,d]cyclooctene fused-ring system, with a single double bond and one isopropyl, one hydroxy and three methyl substituents. Intermediate in the biosynthetic pathway to the diterpenoid cyclooctatin.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>cyclooctat-9-en-7-ol</SYNONYM>
+<SYNONYM>(1R,3aR,4S,6Z,7R,9aR,10aR)-7-isopropyl-1,4,9a-trimethyl-1,2,3,3a,4,5,7,8,9,9a,10,10a-dodecahydrodicyclopenta[a,d]cycloocten-4-ol</SYNONYM>
+<SYNONYM>(1R,3aR,4S,6Z,7R,9aR,10aR)-7-isopropyl-1,4,9a-trimethyl-1,2,3,3a,4,5,7,8,9,9a,10,10a-dodecahydrodicyclopenta[a,d][8]annulen-4-ol</SYNONYM>
+<IUPAC_NAME>(1R,3aR,4S,6Z,7R,9aR,10aR)-1,4,9a-trimethyl-7-(propan-2-yl)-1,2,3,3a,4,5,7,8,9,9a,10,10a-dodecahydrodicyclopenta[a,d]cycloocten-4-ol</IUPAC_NAME>
+<IUPAC_NAME>(1R,3aR,4S,6Z,7R,9aR,10aR)-1,4,9a-trimethyl-7-(propan-2-yl)-1,2,3,3a,4,5,7,8,9,9a,10,10a-dodecahydrodicyclopenta[a,d][8]annulen-4-ol</IUPAC_NAME>
+<FORMULA>C20H34O</FORMULA>
+<MASS>290.491</MASS>
+<MONOISOTOPIC_MASS>290.26097</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@@]1(C)CC[C@]2([H])[C@]1([H])C[C@@]1(C)CC[C@H](C(C)C)\C1=C\C[C@]2(C)O</SMILES>
+<INCHI>InChI=1S/C20H34O/c1-13(2)15-8-10-19(4)12-16-14(3)6-7-18(16)20(5,21)11-9-17(15)19/h9,13-16,18,21H,6-8,10-12H2,1-5H3/b17-9-/t14-,15-,16-,18-,19-,20+/m1/s1</INCHI>
+<INCHIKEY>JEGYHIKVYHOKQY-PNDCXJIESA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>28475024</REAXYS_REGISTRY_NUMBER>
+<METACYC_ACCESSION>CPD-16667</METACYC_ACCESSION>
+<PUBMED_CITATION>19635410</PUBMED_CITATION>
+<PUBMED_CITATION>24914964</PUBMED_CITATION>
+<PUBMED_CITATION>25689152</PUBMED_CITATION>
+<PUBMED_CITATION>26528263</PUBMED_CITATION>
+<PUBMED_CITATION>28463490</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

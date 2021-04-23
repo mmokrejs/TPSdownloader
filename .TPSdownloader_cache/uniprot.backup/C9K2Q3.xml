@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2012-09-05" modified="2020-12-02" version="39">
+<accession>C9K2Q3</accession>
+<name>BSC8_ALTBR</name>
+<protein>
+<recommendedName>
+<fullName evidence="7">Fusicoccadiene synthase</fullName>
+<shortName evidence="7">FS</shortName>
+</recommendedName>
+<domain>
+<recommendedName>
+<fullName evidence="7">Fusicocca-2,10(14)-diene synthase</fullName>
+<ecNumber evidence="4">4.2.3.43</ecNumber>
+</recommendedName>
+</domain>
+<domain>
+<recommendedName>
+<fullName evidence="7">Geranylgeranyl diphosphate synthase</fullName>
+<shortName evidence="7">GGDP synthase</shortName>
+<shortName evidence="7">GGS</shortName>
+<ecNumber evidence="4">2.5.1.29</ecNumber>
+</recommendedName>
+</domain>
+</protein>
+<gene>
+<name type="primary" evidence="7">bsc8</name>
+<name type="synonym" evidence="7">orf8</name>
+</gene>
+<organism>
+<name type="scientific">Alternaria brassicicola</name>
+<name type="common">Dark leaf spot agent</name>
+<dbReference type="NCBI Taxonomy" id="29001"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Dothideomycetes</taxon>
+<taxon>Pleosporomycetidae</taxon>
+<taxon>Pleosporales</taxon>
+<taxon>Pleosporineae</taxon>
+<taxon>Pleosporaceae</taxon>
+<taxon>Alternaria</taxon>
+<taxon>Alternaria sect. Brassicicola</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2009" name="Bioorg. Med. Chem. Lett." volume="19" first="870" last="874">
+<title>Identification and functional analysis of brassicicene C biosynthetic gene cluster in Alternaria brassicicola.</title>
+<authorList>
+<person name="Minami A."/>
+<person name="Tajima N."/>
+<person name="Higuchi Y."/>
+<person name="Toyomasu T."/>
+<person name="Sassa T."/>
+<person name="Kato N."/>
+<person name="Dairi T."/>
+</authorList>
+<dbReference type="PubMed" id="19097780"/>
+<dbReference type="DOI" id="10.1016/j.bmcl.2008.11.108"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>PATHWAY</scope>
+<source>
+<strain>ATCC 96836</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2009" name="Bioorg. Med. Chem. Lett." volume="19" first="5640" last="5643">
+<title>Functional analyses of cytochrome P450 genes responsible for the early steps of brassicicene C biosynthesis.</title>
+<authorList>
+<person name="Hashimoto M."/>
+<person name="Higuchi Y."/>
+<person name="Takahashi S."/>
+<person name="Osada H."/>
+<person name="Sakaki T."/>
+<person name="Toyomasu T."/>
+<person name="Sassa T."/>
+<person name="Kato N."/>
+<person name="Dairi T."/>
+</authorList>
+<dbReference type="PubMed" id="19700326"/>
+<dbReference type="DOI" id="10.1016/j.bmcl.2009.08.026"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2011" name="J. Am. Chem. Soc." volume="133" first="2548" last="2555">
+<title>Dioxygenases, key enzymes to determine the aglycon structures of fusicoccin and brassicicene, diterpene compounds produced by fungi.</title>
+<authorList>
+<person name="Ono Y."/>
+<person name="Minami A."/>
+<person name="Noike M."/>
+<person name="Higuchi Y."/>
+<person name="Toyomasu T."/>
+<person name="Sassa T."/>
+<person name="Kato N."/>
+<person name="Dairi T."/>
+</authorList>
+<dbReference type="PubMed" id="21299202"/>
+<dbReference type="DOI" id="10.1021/ja107785u"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<comment type="function">
+<text evidence="4 5 6 9">Multifunctional diterpene synthase; part of the gene cluster that mediates the biosynthesis of the diterpene glucoside brassicicene C (PubMed:19097780). In the first step of the brassicicene C biosynthesis, the bifunctionnal diterpene synthase bsc8 that possesses both prenyl transferase and terpene cyclase activity, converts isopentenyl diphosphate and dimethylallyl diphosphate into geranylgeranyl diphosphate (GGDP) that is further converted into fusicocca-2,10(14)-diene, the first precursor for brassicicene C (PubMed:19097780). Fusicocca-2,10(14)-diene is then substrate of cytochrome P450 monooxygenase bsc1 for hydroxylation at the C-8 position (PubMed:19700326). Oxidation at C-16 position to aldehyde is then catalyzed by the cytochrome P450 monooyxygenase bsc7, yielding fusicocca-2,10(14)-diene-8-beta,16-diol (PubMed:19700326). Follows the isomerization of the double bond and reduction of aldehyde to alcohol catalyzed by the short-chain dehydrogenase/reductase bsc3 to yield the diol compound fusicocca-1,10(14)-diene-8 beta,16-diol (Probable). The next step is the oxidation at the C-3 position of fusicocca-2,10(14)-diene-8-beta,16-diol catalyzed by the alpha-ketoglutarate dependent dioxygenase bsc9, to produce a triol compound (PubMed:21299202). Methylation of the hydroxy group at position 16 is performed by the methyltransferase bsc6 (PubMed:19097780). 16-O-methylation is followed by oxidation at the C-13 position to ketone and an alkyl shift of the methyl group leads to brassicicene C (Probable). Although the probable acetyltransferase bsc4 is included in the gene cluster, no acetylation reactions are necessary for brassicicene C biosynthesis. However, the fact that brassicicene E, which is a structurally related compound having an acetoxy group at position 12, was previously isolated from another strain of A.brassicicola suggests that the ATCC 96836 strain might also produce a small amount of brassicicene E (Probable).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="4">
+<text>geranylgeranyl diphosphate = diphosphate + fusicocca-2,10(14)-diene</text>
+<dbReference type="Rhea" id="RHEA:26245"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:52463"/>
+<dbReference type="ChEBI" id="CHEBI:57533"/>
+<dbReference type="EC" id="4.2.3.43"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="4">
+<text>(2E,6E)-farnesyl diphosphate + isopentenyl diphosphate = (2E,6E,10E)-geranylgeranyl diphosphate + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:17653"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:58756"/>
+<dbReference type="ChEBI" id="CHEBI:128769"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="2.5.1.29"/>
+</reaction>
+</comment>
+<comment type="pathway" evidence="4">
+<text>Mycotoxin biosynthesis.</text>
+</comment>
+<comment type="similarity">
+<text evidence="8">In the N-terminal section; belongs to the terpene synthase family.</text>
+</comment>
+<comment type="similarity">
+<text evidence="8">In the C-terminal section; belongs to the FPP/GGPP synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.43" evidence="4"/>
+<dbReference type="EC" id="2.5.1.29" evidence="4"/>
+<dbReference type="EMBL" id="AB465604">
+<property type="protein sequence ID" value="BAI44849.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="C9K2Q3"/>
+<dbReference type="PRIDE" id="C9K2Q3"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-18716"/>
+<dbReference type="BRENDA" id="4.2.3.43">
+<property type="organism ID" value="9662"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004311">
+<property type="term" value="F:farnesyltranstransferase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016829">
+<property type="term" value="F:lyase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008299">
+<property type="term" value="P:isoprenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="CDD" id="cd00685">
+<property type="entry name" value="Trans_IPPS_HT"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000092">
+<property type="entry name" value="Polyprenyl_synt"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033749">
+<property type="entry name" value="Polyprenyl_synt_CS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00348">
+<property type="entry name" value="polyprenyl_synt"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00444">
+<property type="entry name" value="POLYPRENYL_SYNTHASE_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0414">Isoprene biosynthesis</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0511">Multifunctional enzyme</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="Fusicoccadiene synthase" id="PRO_0000418512">
+<location>
+<begin position="1"/>
+<end position="697"/>
+</location>
+</feature>
+<feature type="region of interest" description="Fusicocca-2,10(14)-diene synthase" evidence="9">
+<location>
+<begin position="1"/>
+<end position="330"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate" evidence="1">
+<location>
+<begin position="184"/>
+<end position="187"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate" evidence="1">
+<location>
+<begin position="232"/>
+<end position="236"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate" evidence="1">
+<location>
+<begin position="321"/>
+<end position="322"/>
+</location>
+</feature>
+<feature type="region of interest" description="Geranylgeranyl diphosphate synthase" evidence="9">
+<location>
+<begin position="331"/>
+<end position="697"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="3">
+<location>
+<position position="92"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="3">
+<location>
+<position position="92"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="2">
+<location>
+<position position="455"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 4" evidence="2">
+<location>
+<position position="455"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="2">
+<location>
+<position position="459"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 4" evidence="2">
+<location>
+<position position="459"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="92"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="228"/>
+</location>
+</feature>
+<feature type="binding site" description="Isopentenyl diphosphate" evidence="2">
+<location>
+<position position="416"/>
+</location>
+</feature>
+<feature type="binding site" description="Isopentenyl diphosphate" evidence="2">
+<location>
+<position position="419"/>
+</location>
+</feature>
+<feature type="binding site" description="Isopentenyl diphosphate" evidence="2">
+<location>
+<position position="448"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate" evidence="2">
+<location>
+<position position="464"/>
+</location>
+</feature>
+<feature type="binding site" description="Isopentenyl diphosphate" evidence="2">
+<location>
+<position position="465"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate" evidence="2">
+<location>
+<position position="542"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate" evidence="2">
+<location>
+<position position="543"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate" evidence="2">
+<location>
+<position position="580"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate" evidence="2">
+<location>
+<position position="587"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate" evidence="2">
+<location>
+<position position="597"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="A2PZA5"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q12051"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q40577"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19097780"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19700326"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="21299202"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="19097780"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000305"/>
+<evidence key="9" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="19097780"/>
+</source>
+</evidence>
+<sequence length="697" mass="78573" checksum="56D9954136F432B2" modified="2009-11-24" version="1">MKYQFSIIVDPATYDNEGLSNGIDLRKNNFTHLEDRGAIRAQQDWATHIAPIKQFKGTLGHDYSFMTVCVPECIPIRLEIISYANEFAFMYDDDTELDTENNTSAENDKLMGTFLAGTQGWSPPQDQSSSGKTRILKQLFSEMMEIDKECAIATMKAWAEFLRVGSSRQHGTVFTRLKDYLPYRIKDVGEMFWFGVVTFGMALHIPDHEMDACHKLMEPAWIAVGLANDVFSWPKERDASQRLGRTHVVNAVWVVMQEHGFSQEQARQYCRELAAQFVAQYLDNIRNIKNEESISPDLRTYVEAMQYSISGNVIWSKFCPRYNPEKRFNQTQLDWMQNGLPSTVELDGASNTSSSFLSTSTHGSPASGSQTTIESKDGWTADSSGIVSLLLNCSLPPLSHKVISAPLTYVDSLPSKGTRDMFLDALNHWLHVDEQRASQVKMAIRMLHNASLMLDDVQDGSRLRRSKPSAHRVFGVAQTTNSAAFLVNESIKLIRELAGDQGVAAVLEKLTSLFVGQAQDLHSSRNLSPPSLTEYIQTIDQKTSALFELASRLMCLCSTATVVPNSSLSRFCILLGRFFQIRDDYQNLTSPEYTKQKGFCDDLDSGTYTLPLVYAISQQSENFLLQNLLSTRLAEGTLDDDQKRLALDQMQLVKTNEFLRKILDSLYDELRAELQCISSSFASENPQMELMLMMLKL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

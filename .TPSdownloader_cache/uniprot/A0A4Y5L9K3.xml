@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2019-09-18" dataset="TrEMBL" modified="2021-04-07" version="7">
+    <accession>A0A4Y5L9K3</accession>
+    <name>A0A4Y5L9K3_CANSA</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="8">Germacrene B synthase</fullName>
+      </submittedName>
+    </protein>
+    <gene>
+      <name evidence="7" type="ORF">G4B88_025726</name>
+    </gene>
+    <organism evidence="8">
+      <name type="scientific">Cannabis sativa</name>
+      <name type="common">Hemp</name>
+      <name type="synonym">Marijuana</name>
+      <dbReference id="3483" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>fabids</taxon>
+        <taxon>Rosales</taxon>
+        <taxon>Cannabaceae</taxon>
+        <taxon>Cannabis</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="8" key="1">
+      <citation date="2019" name="Plant Physiol." type="journal article">
+        <title>Gene Networks Underlying Cannabinoid and Terpenoid Accumulation in Cannabis.</title>
+        <authorList>
+          <person name="Zager J.J."/>
+          <person name="Lange I."/>
+          <person name="Srividya N."/>
+          <person name="Smith A."/>
+          <person name="Lange B.M."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+      <source>
+        <strain evidence="8">CsTPS16CC</strain>
+      </source>
+    </reference>
+    <reference evidence="7 9" key="2">
+      <citation date="2020" name="bioRxiv" type="journal article">
+        <title>Sequence and annotation of 42 cannabis genomes reveals extensive copy number variation in cannabinoid synthesis and pathogen resistance genes.</title>
+        <authorList>
+          <person name="Mckernan K.J."/>
+          <person name="Helbert Y."/>
+          <person name="Kane L.T."/>
+          <person name="Ebling H."/>
+          <person name="Zhang L."/>
+          <person name="Liu B."/>
+          <person name="Eaton Z."/>
+          <person name="Mclaughlin S."/>
+          <person name="Kingan S."/>
+          <person name="Baybayan P."/>
+          <person name="Concepcion G."/>
+          <person name="Jordan M."/>
+          <person name="Riva A."/>
+          <person name="Barbazuk W."/>
+          <person name="Harkins T."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain evidence="7">Father</strain>
+        <tissue evidence="7">Leaf</tissue>
+      </source>
+    </reference>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+    </comment>
+    <dbReference id="JAATIQ010000272" type="EMBL">
+      <property type="protein sequence ID" value="KAF4365547.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="MK131289" type="EMBL">
+      <property type="protein sequence ID" value="QCQ18307.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="UP000583929" type="Proteomes">
+      <property type="component" value="Unassembled WGS sequence"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="4" id="KW-0175">Coiled coil</keyword>
+    <keyword evidence="3" id="KW-0460">Magnesium</keyword>
+    <keyword evidence="2" id="KW-0479">Metal-binding</keyword>
+    <feature description="Terpene_synth" evidence="5" type="domain">
+      <location>
+        <begin position="29"/>
+        <end position="218"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="6" type="domain">
+      <location>
+        <begin position="249"/>
+        <end position="514"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="coiled-coil region">
+      <location>
+        <begin position="37"/>
+        <end position="57"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00001946" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022842" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000256">
+      <source>
+        <dbReference id="Coils" type="SAM"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000313">
+      <source>
+        <dbReference id="KAF4365547.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000313">
+      <source>
+        <dbReference id="QCQ18307.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0000313">
+      <source>
+        <dbReference id="UP000583929" type="Proteomes"/>
+      </source>
+    </evidence>
+    <sequence checksum="DC2919756A1ED59D" length="571" mass="67362" modified="2019-09-18" version="1">MSSQVLASSQKNDKTQNIIRPTTKFHPPIWGDRFLHYNISEQELEYKEGQVEELKEVVRKEIFHGNNKRNIINVSKQLKLIDDVERLGLSYHFESEIEKKLQHIYEITTNNIDHQDQHYYYSNHDEDLHDVSIRFRLLRQHGFNISSNIFEKFKDESGKFKESLKSDIEGMLSLYEASYLSYVEENILDEALAFTTTNLKLVANKKEHPLSHEISLALYRPLRKTLVRLYARHYISIYEKQPSHNKVLLQFAKLDFNLLQSLHKKELSEISRWWKELDLANKLPFARNRIVELYLWILGVFHEPQFSLARKILIKAISMASVADDIYDAYGTFEELELLTEAILRWDISFIDKLSPDYLKTYYKVFLNSYEECEKDLKKEERYKLHYAKESMKKLIQAYFHEAQWLNQGHFPSFDEHLKVSFVSSGYPMLIETSFVGMQDVKTNQVFEWLSTQPKIFRACTIISRFMDDLVSRKFEQERNHVPSTVDCYMKQYGVSEQEACDELNKQVVNLWKEINQEFLRPTSMPSSILVRILNFTKVLDIIYKEGDGYTHVGKLVKDSVAALLIDPIPL</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

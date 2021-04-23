@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2011-09-21" dataset="Swiss-Prot" modified="2020-12-02" version="61">
+    <accession>Q675L0</accession>
+    <accession>Q94KA3</accession>
+    <name>TPSLS_PICAB</name>
+    <protein>
+      <recommendedName>
+        <fullName>Longifolene synthase</fullName>
+        <shortName>PaTPS-Lon</shortName>
+        <ecNumber>4.2.3.58</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="primary">TPS-Lon</name>
+    </gene>
+    <organism>
+      <name type="scientific">Picea abies</name>
+      <name type="common">Norway spruce</name>
+      <name type="synonym">Picea excelsa</name>
+      <dbReference id="3329" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Pinopsida</taxon>
+        <taxon>Pinidae</taxon>
+        <taxon>Pinales</taxon>
+        <taxon>Pinaceae</taxon>
+        <taxon>Picea</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2002-06" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Terpene synthase from Norway spruce, cDNA isolation and characterization for gamma-humulene synthase-like gene by 5'-and 3'-RACE amplification.</title>
+        <authorList>
+          <person name="Morency M.J."/>
+          <person name="Nicole M.C."/>
+          <person name="Seguin A."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    </reference>
+    <reference key="2">
+      <citation date="2004" first="1908" last="1927" name="Plant Physiol." type="journal article" volume="135">
+        <title>Functional characterization of nine Norway Spruce TPS genes and evolution of gymnosperm terpene synthases of the TPS-d subfamily.</title>
+        <authorList>
+          <person name="Martin D.M."/>
+          <person name="Faeldt J."/>
+          <person name="Bohlmann J."/>
+        </authorList>
+        <dbReference id="15310829" type="PubMed"/>
+        <dbReference id="10.1104/pp.104.042028" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Involved in defensive oleoresin formation in conifers in response to insect attack or other injury. Involved in sesquiterpene (C15) olefins biosynthesis. Produces mainly longifolene, but also multiple minor products including alpha-longipinene, alpha-longicyclene, E-beta-farnesene, longiborneol, cyclosativene, beta-longipinene, and 12 other sesquiterpenes when used with farnesyl diphosphate as substrate.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = diphosphate + longifolene</text>
+        <dbReference id="RHEA:25464" type="Rhea"/>
+        <dbReference id="CHEBI:6530" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.58" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment type="pathway">
+      <text>Terpene metabolism; oleoresin biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="3">Cytoplasm</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="domain">
+      <text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene synthase family. Tpsd subfamily.</text>
+    </comment>
+    <dbReference id="4.2.3.58" type="EC"/>
+    <dbReference id="AF369920" type="EMBL">
+      <property type="protein sequence ID" value="AAK39129.2"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AY473625" type="EMBL">
+      <property type="protein sequence ID" value="AAS47695.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="Q675L0" type="SMR"/>
+    <dbReference id="ag:AAS47695" type="KEGG"/>
+    <dbReference id="MetaCyc:MONOMER-12770" type="BioCyc"/>
+    <dbReference id="4.2.3.58" type="BRENDA">
+      <property type="organism ID" value="4815"/>
+    </dbReference>
+    <dbReference id="4.2.3.80" type="BRENDA">
+      <property type="organism ID" value="4815"/>
+    </dbReference>
+    <dbReference id="UPA00924" type="UniPathway"/>
+    <dbReference id="GO:0005737" type="GO">
+      <property type="term" value="C:cytoplasm"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0963">Cytoplasm</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Longifolene synthase" id="PRO_0000412237" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="578"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="331"/>
+        <end position="335"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="331"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="331"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="335"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="335"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="475"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAK39129." evidence="3" ref="1" type="sequence conflict">
+      <original>N</original>
+      <variation>D</variation>
+      <location>
+        <position position="210"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAK39129." evidence="3" ref="1" type="sequence conflict">
+      <original>W</original>
+      <variation>C</variation>
+      <location>
+        <position position="269"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAK39129." evidence="3" ref="1" type="sequence conflict">
+      <original>S</original>
+      <variation>A</variation>
+      <location>
+        <position position="324"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAK39129." evidence="3" ref="1" type="sequence conflict">
+      <location>
+        <position position="483"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="15310829" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <sequence checksum="ED8146674FF126C9" length="578" mass="67181" modified="2004-10-11" version="1">MAQISKCSSLSAELNESSIISHHHGNLWDDDFIQSLKSSNGAPQYHERAAKLVEEIKNLVVSEMKDCNDDLIRRLQMVDIFECLGIDRHFQHEIQVALDYVYRYWNQLEGIGIGSRDSLIKDFNATALGFRALRLHRYNVSSDVLENFKNENGQFFCSSTVEEKEVRCMLTLFRASEISFPGEKVMDEAKAFTTEYLTKVLTGVDVTDVNQSLLREVKYALEFPWHCSLPRWEARSFIEICGQNDSWLKSIMNKRVLELAKLDFNILQWAHHRELQLLSSWWSQSDIAQQNFYRKRHVEFYLWVVIGTFEPEFSTCRITFAKISTLMTILDDLYDTHGTLEQLKIFTEGVKRWDLSLVDRLPDYIKITFEFFLNTSNELIAEVAKTQERDMSAYIRKTWERYLEAYLQEAEWIAARHVPTFDEYMKNGISSSGMCILNLYSLLLMGQLLPDDVLEQIHSPSKIHELVELTARLVDDSKDFETKKVGGELASGIECYVKDNPECTLEDASNHLNGLLDLTVKELNWEFVRHDSVALCFKKFAFNVARGLRLIYKYRDGFDVSNQEMKTHIFKILIDPLT</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

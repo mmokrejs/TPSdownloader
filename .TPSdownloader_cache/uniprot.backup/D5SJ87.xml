@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2018-07-18" modified="2021-04-07" version="42">
+<accession>D5SJ87</accession>
+<name>LADIS_STRCL</name>
+<protein>
+<recommendedName>
+<fullName evidence="2">Labda-7,13-dienyl diphosphate synthase</fullName>
+<ecNumber evidence="4">5.5.1.30</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="2">Type-B diterpene synthase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="ORF" evidence="5">SCLAV_p0490</name>
+</gene>
+<organism>
+<name type="scientific">Streptomyces clavuligerus</name>
+<dbReference type="NCBI Taxonomy" id="1901"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Streptomycetales</taxon>
+<taxon>Streptomycetaceae</taxon>
+<taxon>Streptomyces</taxon>
+</lineage>
+</organism>
+<geneLocation type="plasmid" evidence="5 6">
+<name>pSCL4</name>
+</geneLocation>
+<reference key="1">
+<citation type="journal article" date="2010" name="Genome Biol. Evol." volume="2" first="212" last="224">
+<title>The sequence of a 1.8-mb bacterial linear plasmid reveals a rich evolutionary reservoir of secondary metabolic pathways.</title>
+<authorList>
+<person name="Medema M.H."/>
+<person name="Trefzer A."/>
+<person name="Kovalchuk A."/>
+<person name="van den Berg M."/>
+<person name="Mueller U."/>
+<person name="Heijne W."/>
+<person name="Wu L."/>
+<person name="Alam M.T."/>
+<person name="Ronning C.M."/>
+<person name="Nierman W.C."/>
+<person name="Bovenberg R.A.L."/>
+<person name="Breitling R."/>
+<person name="Takano E."/>
+</authorList>
+<dbReference type="PubMed" id="20624727"/>
+<dbReference type="DOI" id="10.1093/gbe/evq013"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="6">ATCC 27064 / DSM 738 / JCM 4710 / NBRC 13307 / NCIMB 12785 / NRRL 3585 / VKM Ac-602</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2016" name="J. Antibiot." volume="69" first="515" last="523">
+<title>Chemical diversity of labdane-type bicyclic diterpene biosynthesis in Actinomycetales microorganisms.</title>
+<authorList>
+<person name="Yamada Y."/>
+<person name="Komatsu M."/>
+<person name="Ikeda H."/>
+</authorList>
+<dbReference type="PubMed" id="26814669"/>
+<dbReference type="DOI" id="10.1038/ja.2015.147"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>COFACTOR</scope>
+<scope>DOMAIN</scope>
+<source>
+<strain>ATCC 27064 / DSM 738 / JCM 4710 / NBRC 13307 / NCIMB 12785 / NRRL 3585 / VKM Ac-602</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Involved in the biosynthesis of the labdane-type bicyclic diterpene labda-7,13(16),14-triene. Catalyzes the conversion of geranylgeranyl diphosphate (GGDP) into labda-7,13(E)-dienyl diphosphate.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="4">
+<text>(2E,6E,10E)-geranylgeranyl diphosphate = (13E)-labda-7,13-dien-15-yl diphosphate</text>
+<dbReference type="Rhea" id="RHEA:54692"/>
+<dbReference type="ChEBI" id="CHEBI:58756"/>
+<dbReference type="ChEBI" id="CHEBI:63682"/>
+<dbReference type="EC" id="5.5.1.30"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="4">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="domain">
+<text evidence="4">The Asp-Xaa-Asp-Asp-Thr-Ala (DXDDTA) and Arg-Xaa-Xaa-Asp-Gly-Ser-Trp (RXXDGSW) motifs are expected to bind to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="5.5.1.30" evidence="4"/>
+<dbReference type="EMBL" id="CM000914">
+<property type="protein sequence ID" value="EFG03980.2"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_003963126.1">
+<property type="nucleotide sequence ID" value="NZ_CP027859.1"/>
+</dbReference>
+<dbReference type="STRING" id="443255.SCLAV_p0490"/>
+<dbReference type="KEGG" id="ag:EFG03980"/>
+<dbReference type="eggNOG" id="COG1657">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="OrthoDB" id="260889at2"/>
+<dbReference type="Proteomes" id="UP000002357">
+<property type="component" value="Plasmid pSCL4"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016853">
+<property type="term" value="F:isomerase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032696">
+<property type="entry name" value="SQ_cyclase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13243">
+<property type="entry name" value="SQHop_cyclase_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0413">Isomerase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0614">Plasmid</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Labda-7,13-dienyl diphosphate synthase" id="PRO_0000444809">
+<location>
+<begin position="1"/>
+<end position="545"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DXDDTA motif" evidence="4">
+<location>
+<begin position="315"/>
+<end position="320"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="RXXDGSW motif" evidence="4">
+<location>
+<begin position="444"/>
+<end position="450"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="26814669"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="26814669"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<evidence key="4" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="26814669"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000312">
+<source>
+<dbReference type="EMBL" id="EFG03980.2"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000312">
+<source>
+<dbReference type="Proteomes" id="UP000002357"/>
+</source>
+</evidence>
+<sequence length="545" mass="58120" checksum="F6D66C8F44809D46" modified="2010-07-13" version="1">MPVDVGTLPPPAPREAVSAAAHLLASVDGDPWGRTSPTVYETARVHAWAPHLPGRDRRVTWLLDQQRAGGLWGDGPPAYQVLPTLAAVTALLAELDRHPEAGHSSLGGRLAAAVAAGLDTLHGLSHHDPLPDTAAVELLVPGLITEVNDRLDAIDPEAAHPALAPVPHGRRLTAVHGIPALPRHRLAERLARFARLPVKLHHCFEALAPVCPPGLVPARPDHLLGSSSAATAAWLATATAAPGAPGLDRLLRSTAARYGGLFPETARITVFERLWVLTTLHRAGLLATFEPLARRWVSALAAPGGVPGVPGFEPDADDTAVTLHLATELGVPYRPEVLDPFRTGDHFACYLGEDTGSVSTNAHVLLALGTWTRHHPDTADHGNTIRLLGRWLVERQHGDGHWDDKWHASPYYATAKVTAALSRHGGPEAADALRRAARWVRETRRTDGSWGIWGGTAEETAYAAQILLDAPEPPTDVLGCAHAHLTARADDDGPPPALWHDKTLFAPDAIVRAEVLSTLRRLDRRLPAPAPVPPGFDAARTGPAD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

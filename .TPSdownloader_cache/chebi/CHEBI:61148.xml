@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:61148</ID>
+<NAME>drimenol</NAME>
+<DEFINITION>A sesquiterpenoid primary alcohol, being methanol in which one of the methyl hydrogens is substituted by a 2,5,5,8a-tetramethyl-1,4,4a,5,6,7,8,8a-octahydronaphthalen-1-yl group.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>drim-7-en-11-ol</SYNONYM>
+<SYNONYM>(5S,9S,10S)-drim-7-en-11-ol</SYNONYM>
+<SYNONYM>(5S,9S,10S)-(-)-drim-7-en-11-ol</SYNONYM>
+<SYNONYM>(1S-(1alpha,4abeta,8aalpha))-1,4,4a,5,6,7,8,8a-octahydro-2,5,5,8a-tetramethyl-1-naphthalenemethanol</SYNONYM>
+<SYNONYM>(1S,2S,6S)-1,3,7,7-tetramethylbicyclo[4.4.0]dec-3-ene-2-methanol</SYNONYM>
+<SYNONYM>(-)-drimenol</SYNONYM>
+<SYNONYM>(-)-drim-7-en-11-ol</SYNONYM>
+<IUPAC_NAME>[(1S,4aS,8aS)-2,5,5,8a-tetramethyl-1,4,4a,5,6,7,8,8a-octahydronaphthalen-1-yl]methanol</IUPAC_NAME>
+<FORMULA>C15H26O</FORMULA>
+<MASS>222.36630</MASS>
+<MONOISOTOPIC_MASS>222.19837</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@@]12CC=C(C)[C@H](CO)[C@@]1(C)CCCC2(C)C</SMILES>
+<INCHI>InChI=1S/C15H26O/c1-11-6-7-13-14(2,3)8-5-9-15(13,4)12(11)10-16/h6,12-13,16H,5,7-10H2,1-4H3/t12-,13-,15+/m0/s1</INCHI>
+<INCHIKEY>HMWSKUKBAWWOJL-KCQAQPDRSA-N</INCHIKEY>
+<CAS_REGISTRY_NUMBER>468-68-8</CAS_REGISTRY_NUMBER>
+<REAXYS_REGISTRY_NUMBER>2556957</REAXYS_REGISTRY_NUMBER>
+<CHEMIDPLUS>468-68-8</CHEMIDPLUS>
+<NIST_CHEMISTRY_WEBBOOK>468-68-8</NIST_CHEMISTRY_WEBBOOK>
+</ENTRY>
+</TABLE>

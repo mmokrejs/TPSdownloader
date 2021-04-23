@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="1994-02-01" dataset="Swiss-Prot" modified="2021-04-07" version="150">
+    <accession>P33247</accession>
+    <accession>C8WSG4</accession>
+    <name>SQHC_ALIAD</name>
+    <protein>
+      <recommendedName>
+        <fullName>Squalene--hopene cyclase</fullName>
+        <ecNumber>4.2.1.129</ecNumber>
+        <ecNumber>5.4.99.17</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>Squalene--hopanol cyclase</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name type="primary">shc</name>
+      <name type="ordered locus">Aaci_2443</name>
+    </gene>
+    <organism>
+      <name type="scientific">Alicyclobacillus acidocaldarius subsp. acidocaldarius (strain ATCC 27009 / DSM 446 / BCRC 14685 / JCM 5260 / KCTC 1825 / NBRC 15652 / NCIMB 11725 / NRRL B-14509 / 104-IA)</name>
+      <name type="synonym">Bacillus acidocaldarius</name>
+      <dbReference id="521098" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Bacteria</taxon>
+        <taxon>Firmicutes</taxon>
+        <taxon>Bacilli</taxon>
+        <taxon>Bacillales</taxon>
+        <taxon>Alicyclobacillaceae</taxon>
+        <taxon>Alicyclobacillus</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="1992" first="298" last="302" name="J. Bacteriol." type="journal article" volume="174">
+        <title>Cloning, expression, and sequencing of squalene-hopene cyclase, a key enzyme in triterpenoid metabolism.</title>
+        <authorList>
+          <person name="Ochs D."/>
+          <person name="Kaletta C."/>
+          <person name="Entian K.-D."/>
+          <person name="Beck-Sickinger A."/>
+          <person name="Poralla K."/>
+        </authorList>
+        <dbReference id="1729216" type="PubMed"/>
+        <dbReference id="10.1128/jb.174.1.298-302.1992" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    </reference>
+    <reference key="2">
+      <citation date="1995-09" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <authorList>
+          <person name="Ochs D."/>
+          <person name="Kaletta C."/>
+          <person name="Entian K.-D."/>
+          <person name="Beck-Sickinger A."/>
+          <person name="Poralla K."/>
+        </authorList>
+      </citation>
+      <scope>SEQUENCE REVISION</scope>
+    </reference>
+    <reference key="3">
+      <citation date="1998" first="407" last="411" name="Biosci. Biotechnol. Biochem." type="journal article" volume="62">
+        <title>Overexpression of squalene-hopene cyclase by the pET vector in Escherichia coli and first identification of tryptophan and aspartic acid residues inside the QW motif as active sites.</title>
+        <authorList>
+          <person name="Sato T."/>
+          <person name="Kanai Y."/>
+          <person name="Hoshino T."/>
+        </authorList>
+        <dbReference id="9532806" type="PubMed"/>
+        <dbReference id="10.1271/bbb.62.407" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    </reference>
+    <reference key="4">
+      <citation date="2009-09" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>The complete chromosome of Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446.</title>
+        <authorList>
+          <consortium name="US DOE Joint Genome Institute (JGI-PGF)"/>
+          <person name="Lucas S."/>
+          <person name="Copeland A."/>
+          <person name="Lapidus A."/>
+          <person name="Glavina del Rio T."/>
+          <person name="Dalin E."/>
+          <person name="Tice H."/>
+          <person name="Bruce D."/>
+          <person name="Goodwin L."/>
+          <person name="Pitluck S."/>
+          <person name="Kyrpides N."/>
+          <person name="Mavromatis K."/>
+          <person name="Ivanova N."/>
+          <person name="Ovchinnikova G."/>
+          <person name="Chertkov O."/>
+          <person name="Sims D."/>
+          <person name="Brettin T."/>
+          <person name="Detter J.C."/>
+          <person name="Han C."/>
+          <person name="Larimer F."/>
+          <person name="Land M."/>
+          <person name="Hauser L."/>
+          <person name="Markowitz V."/>
+          <person name="Cheng J.-F."/>
+          <person name="Hugenholtz P."/>
+          <person name="Woyke T."/>
+          <person name="Wu D."/>
+          <person name="Pukall R."/>
+          <person name="Klenk H.-P."/>
+          <person name="Eisen J.A."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC 27009 / DSM 446 / BCRC 14685 / JCM 5260 / KCTC 1825 / NBRC 15652 / NCIMB 11725 / NRRL B-14509 / 104-IA</strain>
+      </source>
+    </reference>
+    <reference key="5">
+      <citation date="1990" first="75" last="80" name="Eur. J. Biochem." type="journal article" volume="194">
+        <title>Properties of purified squalene-hopene cyclase from Bacillus acidocaldarius.</title>
+        <authorList>
+          <person name="Ochs D."/>
+          <person name="Tappe C.H."/>
+          <person name="Gaertner P."/>
+          <person name="Kellner R."/>
+          <person name="Poralla K."/>
+        </authorList>
+        <dbReference id="2253626" type="PubMed"/>
+        <dbReference id="10.1111/j.1432-1033.1990.tb19429.x" type="DOI"/>
+      </citation>
+      <scope>PROTEIN SEQUENCE OF 2-25</scope>
+      <scope>CHARACTERIZATION</scope>
+    </reference>
+    <reference key="6">
+      <citation date="1997" first="1811" last="1815" name="Science" type="journal article" volume="277">
+        <title>Structure and function of a squalene cyclase.</title>
+        <authorList>
+          <person name="Wendt K.U."/>
+          <person name="Poralla K."/>
+          <person name="Schulz G.E."/>
+        </authorList>
+        <dbReference id="9295270" type="PubMed"/>
+        <dbReference id="10.1126/science.277.5333.1811" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (2.9 ANGSTROMS)</scope>
+    </reference>
+    <reference key="7">
+      <citation date="1999" first="175" last="187" name="J. Mol. Biol." type="journal article" volume="286">
+        <title>The structure of the membrane protein squalene-hopene cyclase at 2.0-A resolution.</title>
+        <authorList>
+          <person name="Wendt K.U."/>
+          <person name="Lenhart A."/>
+          <person name="Schulz G.E."/>
+        </authorList>
+        <dbReference id="9931258" type="PubMed"/>
+        <dbReference id="10.1006/jmbi.1998.2470" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS)</scope>
+    </reference>
+    <comment type="function">
+      <text>Catalyzes the cyclization of squalene into hopene.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction>
+        <text>squalene = hop-22(29)-ene</text>
+        <dbReference id="RHEA:17637" type="Rhea"/>
+        <dbReference id="CHEBI:4648" type="ChEBI"/>
+        <dbReference id="CHEBI:15440" type="ChEBI"/>
+        <dbReference id="5.4.99.17" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction>
+        <text>H2O + squalene = hopan-22-ol</text>
+        <dbReference id="RHEA:16561" type="Rhea"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:15440" type="ChEBI"/>
+        <dbReference id="CHEBI:36484" type="ChEBI"/>
+        <dbReference id="4.2.1.129" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="pathway">
+      <text>Secondary metabolite biosynthesis; hopanoid biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location>Cell membrane</location>
+        <topology>Peripheral membrane protein</topology>
+      </subcellularLocation>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene cyclase/mutase family.</text>
+    </comment>
+    <dbReference id="4.2.1.129" type="EC"/>
+    <dbReference id="5.4.99.17" type="EC"/>
+    <dbReference id="M73834" type="EMBL">
+      <property type="protein sequence ID" value="AAA75452.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="AB007002" type="EMBL">
+      <property type="protein sequence ID" value="BAA25185.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="CP001727" type="EMBL">
+      <property type="protein sequence ID" value="ACV59449.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="A43300" type="PIR">
+      <property type="entry name" value="A43300"/>
+    </dbReference>
+    <dbReference id="WP_012811690.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NC_013205.1"/>
+    </dbReference>
+    <dbReference id="1GSZ" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.80"/>
+      <property type="chains" value="A/B/C=2-631"/>
+    </dbReference>
+    <dbReference id="1H35" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.80"/>
+      <property type="chains" value="A/B/C=2-631"/>
+    </dbReference>
+    <dbReference id="1H36" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.80"/>
+      <property type="chains" value="A/B/C=2-631"/>
+    </dbReference>
+    <dbReference id="1H37" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.80"/>
+      <property type="chains" value="A/B/C=2-631"/>
+    </dbReference>
+    <dbReference id="1H39" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.80"/>
+      <property type="chains" value="A/B/C=2-631"/>
+    </dbReference>
+    <dbReference id="1H3A" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.85"/>
+      <property type="chains" value="A/B/C=2-631"/>
+    </dbReference>
+    <dbReference id="1H3B" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.80"/>
+      <property type="chains" value="A/B/C=2-631"/>
+    </dbReference>
+    <dbReference id="1H3C" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.90"/>
+      <property type="chains" value="A/B/C=2-631"/>
+    </dbReference>
+    <dbReference id="1O6H" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.80"/>
+      <property type="chains" value="A/B/C=2-631"/>
+    </dbReference>
+    <dbReference id="1O6Q" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.80"/>
+      <property type="chains" value="A/B/C=2-631"/>
+    </dbReference>
+    <dbReference id="1O6R" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.70"/>
+      <property type="chains" value="A/B/C=2-631"/>
+    </dbReference>
+    <dbReference id="1O79" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.80"/>
+      <property type="chains" value="A/B/C=2-631"/>
+    </dbReference>
+    <dbReference id="1SQC" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.85"/>
+      <property type="chains" value="A=1-631"/>
+    </dbReference>
+    <dbReference id="1UMP" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.13"/>
+      <property type="chains" value="A/B/C=2-631"/>
+    </dbReference>
+    <dbReference id="2SQC" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.00"/>
+      <property type="chains" value="A/B=1-631"/>
+    </dbReference>
+    <dbReference id="3SQC" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.80"/>
+      <property type="chains" value="A/B/C=1-631"/>
+    </dbReference>
+    <dbReference id="1GSZ" type="PDBsum"/>
+    <dbReference id="1H35" type="PDBsum"/>
+    <dbReference id="1H36" type="PDBsum"/>
+    <dbReference id="1H37" type="PDBsum"/>
+    <dbReference id="1H39" type="PDBsum"/>
+    <dbReference id="1H3A" type="PDBsum"/>
+    <dbReference id="1H3B" type="PDBsum"/>
+    <dbReference id="1H3C" type="PDBsum"/>
+    <dbReference id="1O6H" type="PDBsum"/>
+    <dbReference id="1O6Q" type="PDBsum"/>
+    <dbReference id="1O6R" type="PDBsum"/>
+    <dbReference id="1O79" type="PDBsum"/>
+    <dbReference id="1SQC" type="PDBsum"/>
+    <dbReference id="1UMP" type="PDBsum"/>
+    <dbReference id="2SQC" type="PDBsum"/>
+    <dbReference id="3SQC" type="PDBsum"/>
+    <dbReference id="P33247" type="SMR"/>
+    <dbReference id="521098.Aaci_2443" type="STRING"/>
+    <dbReference id="P33247" type="BindingDB"/>
+    <dbReference id="CHEMBL3569" type="ChEMBL"/>
+    <dbReference id="DB02139" type="DrugBank">
+      <property type="generic name" value="(2e)-N-Allyl-4-{[3-(4-Bromophenyl)-5-Fluoro-1-Methyl-1h-Indazol-6-Yl]Oxy}-N-Methyl-2-Buten-1-Amine"/>
+    </dbReference>
+    <dbReference id="DB03234" type="DrugBank">
+      <property type="generic name" value="(4'-{[Allyl(Methyl)Amino]Methyl}-1,1'-Biphenyl-4-Yl)(4-Bromophenyl)Methanone"/>
+    </dbReference>
+    <dbReference id="DB08458" type="DrugBank">
+      <property type="generic name" value="(4-BROMOPHENYL)[4-({(2E)-4-[CYCLOPROPYL(METHYL)AMINO]BUT-2-ENYL}OXY)PHENYL]METHANONE"/>
+    </dbReference>
+    <dbReference id="DB03874" type="DrugBank">
+      <property type="generic name" value="(4e,8e,12z,16z)-N,N,4,8,13,17,21-Heptamethyldocosa-4,8,12,16,20-Pentaen-1-Amine"/>
+    </dbReference>
+    <dbReference id="DB04233" type="DrugBank">
+      <property type="generic name" value="(Hydroxyethyloxy)Tri(Ethyloxy)Octane"/>
+    </dbReference>
+    <dbReference id="DB03771" type="DrugBank">
+      <property type="generic name" value="Allyl-{4-[3-(4-Bromo-Phenyl)-Benzofuran-6-Yloxy]-but-2-Enyl}-Methyl-Amine"/>
+    </dbReference>
+    <dbReference id="DB02339" type="DrugBank">
+      <property type="generic name" value="Allyl-{6-[3-(4-Bromo-Phenyl)-Benzofuran-6-Yloxy]-Hexyl-}-Methyl-Amin"/>
+    </dbReference>
+    <dbReference id="DB04147" type="DrugBank">
+      <property type="generic name" value="Dodecyldimethylamine N-oxide"/>
+    </dbReference>
+    <dbReference id="DB03748" type="DrugBank">
+      <property type="generic name" value="Methyl-[4-(4-Piperidine-1-Ylmethyl-Phenyl)-Cyclohexyl]-Carbaminic Acid-(4-Chlorophenyl)-Ester"/>
+    </dbReference>
+    <dbReference id="DB02544" type="DrugBank">
+      <property type="generic name" value="N-(6-{[3-(4-Bromophenyl)-1,2-Benzisothiazol-6-Yl]Oxy}Hexyl)-N-Methylprop-2-En-1-Amine"/>
+    </dbReference>
+    <dbReference id="DB03888" type="DrugBank">
+      <property type="generic name" value="N-Allyl-6-{[3-(4-bromophenyl)-1-methyl-1H-indazol-6-yl]oxy}-N-methyl-1-hexanamine"/>
+    </dbReference>
+    <dbReference id="P33247" type="PRIDE"/>
+    <dbReference id="ACV59449" type="EnsemblBacteria">
+      <property type="protein sequence ID" value="ACV59449"/>
+      <property type="gene ID" value="Aaci_2443"/>
+    </dbReference>
+    <dbReference id="aac:Aaci_2443" type="KEGG"/>
+    <dbReference id="COG1657" type="eggNOG">
+      <property type="taxonomic scope" value="Bacteria"/>
+    </dbReference>
+    <dbReference id="CLU_019345_0_0_9" type="HOGENOM"/>
+    <dbReference id="CWARQTI" type="OMA"/>
+    <dbReference id="260889at2" type="OrthoDB"/>
+    <dbReference id="AACI521098:G1GFZ-2471-MONOMER" type="BioCyc"/>
+    <dbReference id="MetaCyc:MONOMER-17503" type="BioCyc"/>
+    <dbReference id="5.4.99.17" type="BRENDA">
+      <property type="organism ID" value="243"/>
+    </dbReference>
+    <dbReference id="P33247" type="SABIO-RK"/>
+    <dbReference id="UPA00337" type="UniPathway"/>
+    <dbReference id="P33247" type="EvolutionaryTrace"/>
+    <dbReference id="PR:P33247" type="PRO"/>
+    <dbReference id="UP000001917" type="Proteomes">
+      <property type="component" value="Chromosome"/>
+    </dbReference>
+    <dbReference id="GO:0005811" type="GO">
+      <property type="term" value="C:lipid droplet"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0005886" type="GO">
+      <property type="term" value="C:plasma membrane"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0042300" type="GO">
+      <property type="term" value="F:beta-amyrin synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0000250" type="GO">
+      <property type="term" value="F:lanosterol synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016829" type="GO">
+      <property type="term" value="F:lyase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0051007" type="GO">
+      <property type="term" value="F:squalene-hopene cyclase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0019746" type="GO">
+      <property type="term" value="P:hopanoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="cd02892" type="CDD">
+      <property type="entry name" value="SQCY_1"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR006400" type="InterPro">
+      <property type="entry name" value="Hopene-cyclase"/>
+    </dbReference>
+    <dbReference id="IPR032696" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_C"/>
+    </dbReference>
+    <dbReference id="IPR032697" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_N"/>
+    </dbReference>
+    <dbReference id="IPR018333" type="InterPro">
+      <property type="entry name" value="Squalene_cyclase"/>
+    </dbReference>
+    <dbReference id="IPR002365" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_CS"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF13243" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF13249" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01016" type="SFLD">
+      <property type="entry name" value="Prenyltransferase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="TIGR01507" type="TIGRFAMs">
+      <property type="entry name" value="hopene_cyclase"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="TIGR01787" type="TIGRFAMs">
+      <property type="entry name" value="squalene_cyclas"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PS01074" type="PROSITE">
+      <property type="entry name" value="TERPENE_SYNTHASES"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0002">3D-structure</keyword>
+    <keyword id="KW-1003">Cell membrane</keyword>
+    <keyword id="KW-0903">Direct protein sequencing</keyword>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0472">Membrane</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0677">Repeat</keyword>
+    <feature description="Removed" evidence="2" type="initiator methionine">
+      <location>
+        <position position="1"/>
+      </location>
+    </feature>
+    <feature description="Squalene--hopene cyclase" id="PRO_0000072650" type="chain">
+      <location>
+        <begin position="2"/>
+        <end position="631"/>
+      </location>
+    </feature>
+    <feature description="PFTB 1" type="repeat">
+      <location>
+        <begin position="15"/>
+        <end position="56"/>
+      </location>
+    </feature>
+    <feature description="PFTB 2" type="repeat">
+      <location>
+        <begin position="61"/>
+        <end position="102"/>
+      </location>
+    </feature>
+    <feature description="PFTB 3" type="repeat">
+      <location>
+        <begin position="241"/>
+        <end position="282"/>
+      </location>
+    </feature>
+    <feature description="PFTB 4" type="repeat">
+      <location>
+        <begin position="400"/>
+        <end position="441"/>
+      </location>
+    </feature>
+    <feature description="PFTB 5" type="repeat">
+      <location>
+        <begin position="468"/>
+        <end position="508"/>
+      </location>
+    </feature>
+    <feature description="PFTB 6" type="repeat">
+      <location>
+        <begin position="516"/>
+        <end position="557"/>
+      </location>
+    </feature>
+    <feature description="PFTB 7" type="repeat">
+      <location>
+        <begin position="574"/>
+        <end position="622"/>
+      </location>
+    </feature>
+    <feature description="Proton donor" evidence="1" type="active site">
+      <location>
+        <position position="376"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAA75452." evidence="3" ref="1" type="sequence conflict">
+      <original>GF</original>
+      <variation>AS</variation>
+      <location>
+        <begin position="600"/>
+        <end position="601"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="10"/>
+        <end position="25"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="strand">
+      <location>
+        <begin position="28"/>
+        <end position="30"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="41"/>
+        <end position="52"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="58"/>
+        <end position="71"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="strand">
+      <location>
+        <begin position="79"/>
+        <end position="81"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="88"/>
+        <end position="101"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="strand">
+      <location>
+        <begin position="105"/>
+        <end position="107"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="108"/>
+        <end position="119"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="123"/>
+        <end position="125"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="128"/>
+        <end position="136"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="142"/>
+        <end position="144"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="150"/>
+        <end position="154"/>
+      </location>
+    </feature>
+    <feature evidence="5" type="strand">
+      <location>
+        <begin position="157"/>
+        <end position="159"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="163"/>
+        <end position="165"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="168"/>
+        <end position="183"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="191"/>
+        <end position="193"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="196"/>
+        <end position="199"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="strand">
+      <location>
+        <begin position="210"/>
+        <end position="212"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="216"/>
+        <end position="230"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="237"/>
+        <end position="251"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="strand">
+      <location>
+        <begin position="256"/>
+        <end position="258"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="262"/>
+        <end position="274"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="281"/>
+        <end position="288"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="289"/>
+        <end position="293"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="strand">
+      <location>
+        <begin position="294"/>
+        <end position="296"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="turn">
+      <location>
+        <begin position="298"/>
+        <end position="300"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="strand">
+      <location>
+        <begin position="302"/>
+        <end position="304"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="310"/>
+        <end position="323"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="331"/>
+        <end position="342"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="350"/>
+        <end position="353"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="strand">
+      <location>
+        <begin position="365"/>
+        <end position="368"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="375"/>
+        <end position="385"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="393"/>
+        <end position="409"/>
+      </location>
+    </feature>
+    <feature evidence="9" type="strand">
+      <location>
+        <begin position="415"/>
+        <end position="417"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="strand">
+      <location>
+        <begin position="419"/>
+        <end position="423"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="428"/>
+        <end position="431"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="strand">
+      <location>
+        <begin position="432"/>
+        <end position="434"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="strand">
+      <location>
+        <begin position="436"/>
+        <end position="438"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="446"/>
+        <end position="457"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="turn">
+      <location>
+        <begin position="458"/>
+        <end position="460"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="strand">
+      <location>
+        <begin position="463"/>
+        <end position="465"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="466"/>
+        <end position="478"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="strand">
+      <location>
+        <begin position="488"/>
+        <end position="492"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="493"/>
+        <end position="506"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="514"/>
+        <end position="525"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="537"/>
+        <end position="540"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="543"/>
+        <end position="545"/>
+      </location>
+    </feature>
+    <feature evidence="8" type="strand">
+      <location>
+        <begin position="549"/>
+        <end position="551"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="553"/>
+        <end position="565"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="strand">
+      <location>
+        <begin position="569"/>
+        <end position="571"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="572"/>
+        <end position="584"/>
+      </location>
+    </feature>
+    <feature evidence="5" type="strand">
+      <location>
+        <begin position="587"/>
+        <end position="589"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="strand">
+      <location>
+        <begin position="598"/>
+        <end position="601"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="turn">
+      <location>
+        <begin position="602"/>
+        <end position="604"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="strand">
+      <location>
+        <begin position="605"/>
+        <end position="609"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="helix">
+      <location>
+        <begin position="612"/>
+        <end position="629"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="P48449" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="2253626" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <evidence key="4" type="ECO:0007744">
+      <source>
+        <dbReference id="1GSZ" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0007744">
+      <source>
+        <dbReference id="1H37" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0007744">
+      <source>
+        <dbReference id="1O6H" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0007744">
+      <source>
+        <dbReference id="1O6R" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0007744">
+      <source>
+        <dbReference id="1SQC" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0007744">
+      <source>
+        <dbReference id="1UMP" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0007744">
+      <source>
+        <dbReference id="2SQC" type="PDB"/>
+      </source>
+    </evidence>
+    <sequence checksum="E389635BD6486C3A" length="631" mass="71570" modified="2007-01-23" version="4">MAEQLVEAPAYARTLDRAVEYLLSCQKDEGYWWGPLLSNVTMEAEYVLLCHILDRVDRDRMEKIRRYLLHEQREDGTWALYPGGPPDLDTTIEAYVALKYIGMSRDEEPMQKALRFIQSQGGIESSRVFTRMWLALVGEYPWEKVPMVPPEIMFLGKRMPLNIYEFGSWARATVVALSIVMSRQPVFPLPERARVPELYETDVPPRRRGAKGGGGWIFDALDRALHGYQKLSVHPFRRAAEIRALDWLLERQAGDGSWGGIQPPWFYALIALKILDMTQHPAFIKGWEGLELYGVELDYGGWMFQASISPVWDTGLAVLALRAAGLPADHDRLVKAGEWLLDRQITVPGDWAVKRPNLKPGGFAFQFDNVYYPDVDDTAVVVWALNTLRLPDERRRRDAMTKGFRWIVGMQSSNGGWGAYDVDNTSDLPNHIPFCDFGEVTDPPSEDVTAHVLECFGSFGYDDAWKVIRRAVEYLKREQKPDGSWFGRWGVNYLYGTGAVVSALKAVGIDTREPYIQKALDWVEQHQNPDGGWGEDCRSYEDPAYAGKGASTPSQTAWALMALIAGGRAESEAARRGVQYLVETQRPDGGWDEPYYTGTGFPGDFYLGYTMYRHVFPTLALGRYKQAIERR</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

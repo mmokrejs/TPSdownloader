@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2005-12-06" dataset="TrEMBL" modified="2021-02-10" version="57">
+    <accession>Q32W37</accession>
+    <name>Q32W37_ACTDE</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="3">Valerianol synthase</fullName>
+        <ecNumber evidence="3">4.2.3.204</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name evidence="7" type="primary">Adgerd</name>
+    </gene>
+    <organism evidence="7">
+      <name type="scientific">Actinidia deliciosa</name>
+      <name type="common">Kiwi</name>
+      <dbReference id="3627" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>Ericales</taxon>
+        <taxon>Actinidiaceae</taxon>
+        <taxon>Actinidia</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="7" key="1">
+      <citation date="2004-10" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <authorList>
+          <person name="Beuning L."/>
+          <person name="Bowen J."/>
+          <person name="Crowhurst R."/>
+          <person name="Gleave A."/>
+          <person name="Janssen B."/>
+          <person name="McArtney S."/>
+          <person name="Newcomb R."/>
+          <person name="Ross G."/>
+          <person name="Snowden K."/>
+          <person name="Walton E."/>
+          <person name="Yauk Y.-K."/>
+          <person name="Friel E."/>
+          <person name="Green S."/>
+          <person name="MacRae E."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+      <source>
+        <tissue evidence="7">Petal</tissue>
+      </source>
+    </reference>
+    <reference evidence="7" key="2">
+      <citation date="2005-11" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Novel features of recombinant alpha-farnesene synthase from apple and in vivo regulation of the gene.</title>
+        <authorList>
+          <person name="Beuning L.L."/>
+          <person name="Friel E.N."/>
+          <person name="Green S."/>
+          <person name="Matich A."/>
+          <person name="Hellens R."/>
+          <person name="MacRae E."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+      <source>
+        <tissue evidence="7">Petal</tissue>
+      </source>
+    </reference>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate + H2O = diphosphate + valerianol</text>
+        <dbReference id="RHEA:60424" type="Rhea"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:143779" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.204" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="2">
+        <dbReference id="RHEA:60425" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <dbReference evidence="3" id="4.2.3.204" type="EC"/>
+    <dbReference id="AY789791" type="EMBL">
+      <property type="protein sequence ID" value="AAX16121.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="4.2.3.77" type="BRENDA">
+      <property type="organism ID" value="121"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="4" id="KW-0175">Coiled coil</keyword>
+    <keyword evidence="1" id="KW-0479">Metal-binding</keyword>
+    <feature description="Terpene_synth" evidence="5" type="domain">
+      <location>
+        <begin position="36"/>
+        <end position="211"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="6" type="domain">
+      <location>
+        <begin position="242"/>
+        <end position="507"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="coiled-coil region">
+      <location>
+        <begin position="55"/>
+        <end position="75"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00023685" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00023800" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000256">
+      <source>
+        <dbReference id="Coils" type="SAM"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000313">
+      <source>
+        <dbReference id="AAX16121.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="81D016CE5E3E658E" length="565" mass="65180" modified="2005-12-06" version="1">MQLPCAQALPIPTVTTTTSIEPPHVTRRSANYHPSIWGDHFLAYSSDAMEEEVINMEQQQRLHHLKQKVRKMLEAAAEQSSQMLNLVDKIQRLGVSYHFETEIETALRHIYKTCDYHFDDLHTAALSFRLLRQQGYPVSCDMFDKFKNSKGEFQESIISDVQGMLSLYEATCLRIHGEDILDEALAFTITQLRSALPNLSTPFKEQIIHALNQPIHKGLTRLNARSHILFFEQNDCHSKDLLNFAKLDFNLLQKLHQRELCEITRWWKDLNFAKTLPFARDRMVECYFWILGVYFEPQYLLARRMLTKVIAMISIIDDIYDVYGTLEELVLFTDAIERWEISALDQLPEYMKLCYQALLDVYSMIDEEMAKQGRSYCVDYAKSSMKILVRAYFEEAKWFHQGYVPTMEEYMQVALVTAGYKMLATSSFVGMGDLATKEAFDWVSNDPLIVQAASVIGRLKDDIVGHKFEQKRGHVASAVECYSKQHGTTEEEAIIELDKQVTHSWKDINAECLCPIKVPMPLLARVLNLARVLYVIYQDEDGYTHPGTKVENFVTSVLIDSMPIN</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

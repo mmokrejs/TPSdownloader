@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2019-09-18" dataset="Swiss-Prot" modified="2020-12-02" version="18">
+    <accession>A0A1W6GW18</accession>
+    <name>STPS3_SALMI</name>
+    <protein>
+      <recommendedName>
+        <fullName>(-)-5-epieremophilene synthase STPS3</fullName>
+        <ecNumber evidence="2">4.2.3.199</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="3">Sesquiterpene synthase 3</fullName>
+        <shortName evidence="3">SmSTPS3</shortName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="3" type="primary">STPS3</name>
+    </gene>
+    <organism>
+      <name type="scientific">Salvia miltiorrhiza</name>
+      <name type="common">Chinese sage</name>
+      <dbReference id="226208" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>lamiids</taxon>
+        <taxon>Lamiales</taxon>
+        <taxon>Lamiaceae</taxon>
+        <taxon>Nepetoideae</taxon>
+        <taxon>Mentheae</taxon>
+        <taxon>Salvia</taxon>
+        <taxon>Salvia incertae sedis</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2017" first="627" last="627" name="Front. Plant Sci." type="journal article" volume="8">
+        <title>Identification of a novel (-)-5-epieremophilene synthase from Salvia miltiorrhiza via transcriptome mining.</title>
+        <authorList>
+          <person name="Fang X."/>
+          <person name="Li C.Y."/>
+          <person name="Yang Y."/>
+          <person name="Cui M.Y."/>
+          <person name="Chen X.Y."/>
+          <person name="Yang L."/>
+        </authorList>
+        <dbReference id="28487717" type="PubMed"/>
+        <dbReference id="10.3389/fpls.2017.00627" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <scope>TISSUE SPECIFICITY</scope>
+      <scope>INDUCTION</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Sesquiterpene synthase that catalyzes the conversion of farnesyl diphosphate to (-)-5-epi-eremophilene.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = (-)-5-epi-eremophilene + diphosphate</text>
+        <dbReference id="RHEA:58168" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:142537" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.199" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="2">
+        <dbReference id="RHEA:58169" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="2">10.44 uM for farnesyl diphosphate</KM>
+        <text evidence="2">kcat is 1.53 sec(-1) with farnesyl diphosphate as substrate.</text>
+      </kinetics>
+    </comment>
+    <comment evidence="4" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subunit">
+      <text evidence="1">Monomer.</text>
+    </comment>
+    <comment type="tissue specificity">
+      <text evidence="2">Highly expressed in flowers and at lower levels in leaves.</text>
+    </comment>
+    <comment type="induction">
+      <text evidence="2">Induced by abscisic acid (ABA).</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="4">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="4">Belongs to the terpene synthase family. Tpsa subfamily.</text>
+    </comment>
+    <dbReference evidence="2" id="4.2.3.199" type="EC"/>
+    <dbReference id="KY432514" type="EMBL">
+      <property type="protein sequence ID" value="ARM19969.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="A0A1W6GW18" type="SMR"/>
+    <dbReference id="ag:ARM19969" type="KEGG"/>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0016106" type="GO">
+      <property type="term" value="P:sesquiterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="(-)-5-epieremophilene synthase STPS3" id="PRO_0000447714" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="546"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="4" type="short sequence motif">
+      <location>
+        <begin position="299"/>
+        <end position="303"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="299"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="299"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="303"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="303"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="442"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="446"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="450"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="Q40577" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="28487717" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000303">
+      <source>
+        <dbReference id="28487717" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000305"/>
+    <sequence checksum="A725FF1A69E5BAD7" length="546" mass="63501" modified="2017-07-05" version="1">MATTQVEIQRPIANFSPSLWGDQFIKNDSGAKAAEKHCKAVEELKKEVMNMITAAESNLVEAMNLIDTLERLGISYHFEKEIDQKLNHFFSLNTDYSDESYDLYTVSLHFRLFRQHGHRISSDIFGRWIDESGKFKEGLKTDGKGLLSLYEASYLRTRGETILDDALEFATATLNSIAPHLESPLSKQVVHALIQPLHYGNPRIEAHNFISIYEENQDKNEFLLKFAKLDYNLLQMLHKEELHEVSRWWKELDLVSKLPYARDRVVECFFWAMGVYHEPQYSRARIMLTKTITMTSIIDDTYDAYGVIEELDIFTEAIERWNIEEMDRLPEYVKPFYKALLELYEQFEEELAEEGRSYAAHYAIESLKELVRSYHVEAKWFIQGYLPPFEEYLKNALITCTYCYHTTTSLLGVESAVEEDFQWLAKKPKMLVAGLLICRVIDDIATYEVEKERGQSATGIESYMRDNNATIEEAVAKFFEIATDAWKDINEECLMPSPYSRDVLMRILNLERIIDVTYKGNEDGYTQPEKVLKPHIIALFVDPIKM</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

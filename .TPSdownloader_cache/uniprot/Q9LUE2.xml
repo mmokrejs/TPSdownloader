@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2011-01-11" dataset="Swiss-Prot" modified="2021-02-10" version="120">
+    <accession>Q9LUE2</accession>
+    <accession>Q84UU6</accession>
+    <name>TPS18_ARATH</name>
+    <protein>
+      <recommendedName>
+        <fullName>Terpenoid synthase 18</fullName>
+        <shortName>AtTPS18</shortName>
+        <ecNumber>4.2.3.-</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="primary">TPS18</name>
+      <name type="ordered locus">At3g14520</name>
+      <name type="ORF">MIE1.2</name>
+    </gene>
+    <organism>
+      <name type="scientific">Arabidopsis thaliana</name>
+      <name type="common">Mouse-ear cress</name>
+      <dbReference id="3702" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>malvids</taxon>
+        <taxon>Brassicales</taxon>
+        <taxon>Brassicaceae</taxon>
+        <taxon>Camelineae</taxon>
+        <taxon>Arabidopsis</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2003" first="481" last="494" name="Plant Cell" type="journal article" volume="15">
+        <title>Biosynthesis and emission of terpenoid volatiles from Arabidopsis flowers.</title>
+        <authorList>
+          <person name="Chen F."/>
+          <person name="Tholl D."/>
+          <person name="D'Auria J.C."/>
+          <person name="Farooq A."/>
+          <person name="Pichersky E."/>
+          <person name="Gershenzon J."/>
+        </authorList>
+        <dbReference id="12566586" type="PubMed"/>
+        <dbReference id="10.1105/tpc.007989" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>TISSUE SPECIFICITY</scope>
+      <source>
+        <strain>cv. Landsberg erecta</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2000" first="131" last="135" name="DNA Res." type="journal article" volume="7">
+        <title>Structural analysis of Arabidopsis thaliana chromosome 3. I. Sequence features of the regions of 4,504,864 bp covered by sixty P1 and TAC clones.</title>
+        <authorList>
+          <person name="Sato S."/>
+          <person name="Nakamura Y."/>
+          <person name="Kaneko T."/>
+          <person name="Katoh T."/>
+          <person name="Asamizu E."/>
+          <person name="Tabata S."/>
+        </authorList>
+        <dbReference id="10819329" type="PubMed"/>
+        <dbReference id="10.1093/dnares/7.2.131" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>cv. Columbia</strain>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2017" first="789" last="804" name="Plant J." type="journal article" volume="89">
+        <title>Araport11: a complete reannotation of the Arabidopsis thaliana reference genome.</title>
+        <authorList>
+          <person name="Cheng C.Y."/>
+          <person name="Krishnakumar V."/>
+          <person name="Chan A.P."/>
+          <person name="Thibaud-Nissen F."/>
+          <person name="Schobel S."/>
+          <person name="Town C.D."/>
+        </authorList>
+        <dbReference id="27862469" type="PubMed"/>
+        <dbReference id="10.1111/tpj.13415" type="DOI"/>
+      </citation>
+      <scope>GENOME REANNOTATION</scope>
+      <source>
+        <strain>cv. Columbia</strain>
+      </source>
+    </reference>
+    <reference key="4">
+      <citation date="2009-01" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Arabidopsis ORF clones.</title>
+        <authorList>
+          <person name="De Los Reyes C."/>
+          <person name="Quan R."/>
+          <person name="Chen H."/>
+          <person name="Bautista V.R."/>
+          <person name="Kim C.J."/>
+          <person name="Ecker J.R."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+      <source>
+        <strain>cv. Columbia</strain>
+      </source>
+    </reference>
+    <reference key="5">
+      <citation date="2002" first="730" last="745" name="Mol. Genet. Genomics" type="journal article" volume="267">
+        <title>Genomic analysis of the terpenoid synthase (AtTPS) gene family of Arabidopsis thaliana.</title>
+        <authorList>
+          <person name="Aubourg S."/>
+          <person name="Lecharny A."/>
+          <person name="Bohlmann J."/>
+        </authorList>
+        <dbReference id="12207221" type="PubMed"/>
+        <dbReference id="10.1007/s00438-002-0709-y" type="DOI"/>
+      </citation>
+      <scope>GENE FAMILY</scope>
+      <scope>NOMENCLATURE</scope>
+    </reference>
+    <reference key="6">
+      <citation date="2003" first="925" last="948" name="Plant Mol. Biol." type="journal article" volume="51">
+        <title>Genome organization in Arabidopsis thaliana: a survey for genes involved in isoprenoid and chlorophyll metabolism.</title>
+        <authorList>
+          <person name="Lange B.M."/>
+          <person name="Ghassemian M."/>
+        </authorList>
+        <dbReference id="12777052" type="PubMed"/>
+        <dbReference id="10.1023/a:1023005504702" type="DOI"/>
+      </citation>
+      <scope>GENE FAMILY</scope>
+    </reference>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <cofactor evidence="1">
+        <name>Mn(2+)</name>
+        <dbReference id="CHEBI:29035" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+    </comment>
+    <comment type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="3">Cytoplasm</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="tissue specificity">
+      <text evidence="2">Predominantly expressed in flowers and siliques but also in roots and leaves.</text>
+    </comment>
+    <comment type="domain">
+      <text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene synthase family. Tpsa subfamily.</text>
+    </comment>
+    <dbReference id="4.2.3.-" type="EC"/>
+    <dbReference id="AF497489" type="EMBL">
+      <property type="protein sequence ID" value="AAO85537.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AB023038" type="EMBL">
+      <property type="protein sequence ID" value="BAB02384.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="CP002686" type="EMBL">
+      <property type="protein sequence ID" value="AEE75534.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="BT053762" type="EMBL">
+      <property type="protein sequence ID" value="ACL13989.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="NP_188070.2" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_112312.5"/>
+    </dbReference>
+    <dbReference id="7BZB" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.15"/>
+      <property type="chains" value="A=1-605"/>
+    </dbReference>
+    <dbReference id="7BZC" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.30"/>
+      <property type="chains" value="A=1-605"/>
+    </dbReference>
+    <dbReference id="7BZB" type="PDBsum"/>
+    <dbReference id="7BZC" type="PDBsum"/>
+    <dbReference id="Q9LUE2" type="SMR"/>
+    <dbReference id="3702.AT3G14520.1" type="STRING"/>
+    <dbReference id="Q9LUE2" type="PaxDb"/>
+    <dbReference id="Q9LUE2" type="PRIDE"/>
+    <dbReference id="228381" type="ProteomicsDB"/>
+    <dbReference id="AT3G14520.1" type="EnsemblPlants">
+      <property type="protein sequence ID" value="AT3G14520.1"/>
+      <property type="gene ID" value="AT3G14520"/>
+    </dbReference>
+    <dbReference id="820677" type="GeneID"/>
+    <dbReference id="AT3G14520.1" type="Gramene">
+      <property type="protein sequence ID" value="AT3G14520.1"/>
+      <property type="gene ID" value="AT3G14520"/>
+    </dbReference>
+    <dbReference id="ath:AT3G14520" type="KEGG"/>
+    <dbReference id="AT3G14520" type="Araport"/>
+    <dbReference id="locus:2089536" type="TAIR">
+      <property type="gene designation" value="AT3G14520"/>
+    </dbReference>
+    <dbReference id="ENOG502QUCN" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="CLU_003125_7_2_1" type="HOGENOM"/>
+    <dbReference id="Q9LUE2" type="InParanoid"/>
+    <dbReference id="MANTKGV" type="OMA"/>
+    <dbReference id="360509at2759" type="OrthoDB"/>
+    <dbReference id="Q9LUE2" type="PhylomeDB"/>
+    <dbReference id="ARA:AT3G14520-MONOMER" type="BioCyc"/>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="PR:Q9LUE2" type="PRO"/>
+    <dbReference id="UP000006548" type="Proteomes">
+      <property type="component" value="Chromosome 3"/>
+    </dbReference>
+    <dbReference id="Q9LUE2" type="ExpressionAtlas">
+      <property type="expression patterns" value="baseline and differential"/>
+    </dbReference>
+    <dbReference id="Q9LUE2" type="Genevisible">
+      <property type="organism ID" value="AT"/>
+    </dbReference>
+    <dbReference id="GO:0005737" type="GO">
+      <property type="term" value="C:cytoplasm"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0009975" type="GO">
+      <property type="term" value="F:cyclase activity"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0051762" type="GO">
+      <property type="term" value="P:sesquiterpene biosynthetic process"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0002">3D-structure</keyword>
+    <keyword id="KW-0963">Cytoplasm</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0464">Manganese</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="Terpenoid synthase 18" id="PRO_0000403709" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="605"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="356"/>
+        <end position="360"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="356"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="356"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="360"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="360"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="500"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="504"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="508"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAO85537." evidence="3" ref="1" type="sequence conflict">
+      <original>AKK</original>
+      <variation>VKR</variation>
+      <location>
+        <begin position="42"/>
+        <end position="44"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAO85537." evidence="3" ref="1" type="sequence conflict">
+      <original>DSWIG</original>
+      <variation>ESWIA</variation>
+      <location>
+        <begin position="228"/>
+        <end position="232"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAO85537." evidence="3" ref="1" type="sequence conflict">
+      <original>HNK</original>
+      <variation>YDE</variation>
+      <location>
+        <begin position="276"/>
+        <end position="278"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAO85537." evidence="3" ref="1" type="sequence conflict">
+      <original>FCQFH</original>
+      <variation>LCQFR</variation>
+      <location>
+        <begin position="290"/>
+        <end position="294"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAO85537." evidence="3" ref="1" type="sequence conflict">
+      <original>T</original>
+      <variation>I</variation>
+      <location>
+        <position position="392"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAO85537." evidence="3" ref="1" type="sequence conflict">
+      <original>D</original>
+      <variation>H</variation>
+      <location>
+        <position position="442"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAO85537." evidence="3" ref="1" type="sequence conflict">
+      <original>V</original>
+      <variation>I</variation>
+      <location>
+        <position position="473"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="12566586" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <sequence checksum="D9421E680D144DE6" length="605" mass="69410" modified="2000-10-01" version="1">MDATRTFFGLPNVHNVPLCLTSNLSLFPQRLLQKHTLPLKPAKKHHLVCVRSTKSSDDLEGSRPSTYFSPSLWGDHFLSVSLDRGEFDELEREIETMKPLVKDMLMSSQSSDKEKIRLIHLLVSLGSSYHFDKEIQDILKHSFTKLDDIIVGEDDLETISIMFEVFRLYGHKMSCDAFDRFRGEDGRFKESLAKDVRGMLQLFEVAHLGTPSEDIMDEASSFAQNHLDSWIGGNVSGATPHLLKHIQNSLYIPRYCNIEVLVAREYISYYEQEEGHNKILLKFAKLNFNFCQFHYIQELKTLTKWWKDLDLASKLPYIRDRLVESHLGGLGPYFEPHYSLGRIIVAKIIMTMVVVDDTYDAHATVPEVAVLTECLQRLNIGADDKLPDYLRTVLESVFEVMGEIEQEMRPKGRSYGVKQVLERFKNVAKADKQLTEWARTGDVPSFDEYMKVGLVTAGMDGYAGYCFIGMEDVSEKEAFEWLSSNPLIIQALNVMFRLANDVGTYETEINRGEVANGLNCYMKQYGVTKEEASQELRKIYSNNKKVVMEEFMNSHDHVPRQVLLRCLNFARLFDVMYTEGDGYSEPKGKIEHFMTSLYVHPIPLS</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

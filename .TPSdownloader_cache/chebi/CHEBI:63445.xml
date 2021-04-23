@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:63445</ID>
+<NAME>5-epi-alpha-selinene</NAME>
+<DEFINITION>An isomer of selinene where the double bond in the octahydronaphthalene ring system is endocyclic with (2R,4aR,8aS)-configuration. It has been isolated from termites.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>5beta,7beta,10beta-eudesma-3,11-diene</SYNONYM>
+<SYNONYM>5-epi-alpha-selinene</SYNONYM>
+<IUPAC_NAME>(2R,4aR,8aS)-4a,8-dimethyl-2-(prop-1-en-2-yl)-1,2,3,4,4a,5,6,8a-octahydronaphthalene</IUPAC_NAME>
+<FORMULA>C15H24</FORMULA>
+<MASS>204.35110</MASS>
+<MONOISOTOPIC_MASS>204.18780</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@]1(CC[C@@]2(C)CCC=C(C)[C@@]2([H])C1)C(C)=C</SMILES>
+<INCHI>InChI=1S/C15H24/c1-11(2)13-7-9-15(4)8-5-6-12(3)14(15)10-13/h6,13-14H,1,5,7-10H2,2-4H3/t13-,14-,15-/m1/s1</INCHI>
+<INCHIKEY>OZQAPQSEYFAMCY-RBSFLKMASA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>4664137</REAXYS_REGISTRY_NUMBER>
+<PUBMED_CITATION>18658271</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

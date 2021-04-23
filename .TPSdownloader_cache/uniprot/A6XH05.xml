@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2007-08-21" dataset="TrEMBL" modified="2021-04-07" version="60">
+    <accession>A6XH05</accession>
+    <name>A6XH05_SALFT</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="5">Cineole synthase</fullName>
+      </submittedName>
+    </protein>
+    <gene>
+      <name evidence="5" type="primary">CinS1</name>
+    </gene>
+    <organism evidence="5">
+      <name type="scientific">Salvia fruticosa</name>
+      <name type="common">Greek sage</name>
+      <dbReference id="268906" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>lamiids</taxon>
+        <taxon>Lamiales</taxon>
+        <taxon>Lamiaceae</taxon>
+        <taxon>Nepetoideae</taxon>
+        <taxon>Mentheae</taxon>
+        <taxon>Salvia</taxon>
+        <taxon>Salvia incertae sedis</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="5 6" key="1">
+      <citation date="2007" first="1994" last="2005" name="Plant Cell" type="journal article" volume="19">
+        <title>Rational conversion of substrate and product specificity in a Salvia monoterpene synthase: structural insights into the evolution of terpene synthase function.</title>
+        <authorList>
+          <person name="Kampranis S.C."/>
+          <person name="Ioannidis D."/>
+          <person name="Purvis A."/>
+          <person name="Mahrez W."/>
+          <person name="Ninga E."/>
+          <person name="Katerelos N.A."/>
+          <person name="Anssour S."/>
+          <person name="Dunwell J.M."/>
+          <person name="Degenhardt J."/>
+          <person name="Makris A.M."/>
+          <person name="Goodenough P.W."/>
+          <person name="Johnson C.B."/>
+        </authorList>
+        <dbReference id="17557809" type="PubMed"/>
+        <dbReference id="10.1105/tpc.106.047779" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <comment type="subunit">
+      <text evidence="1">Monomer.</text>
+    </comment>
+    <dbReference id="DQ785793" type="EMBL">
+      <property type="protein sequence ID" value="ABH07677.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="2J5C" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.95"/>
+      <property type="chains" value="A/B=25-591"/>
+    </dbReference>
+    <dbReference id="2J5C" type="PDBsum"/>
+    <dbReference id="A6XH05" type="SMR"/>
+    <dbReference id="4.2.3.108" type="BRENDA">
+      <property type="organism ID" value="12982"/>
+    </dbReference>
+    <dbReference id="A6XH05" type="EvolutionaryTrace"/>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword evidence="6" id="KW-0002">3D-structure</keyword>
+    <keyword evidence="2" id="KW-0479">Metal-binding</keyword>
+    <feature description="Terpene_synth" evidence="3" type="domain">
+      <location>
+        <begin position="70"/>
+        <end position="239"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="4" type="domain">
+      <location>
+        <begin position="270"/>
+        <end position="534"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00011245" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000313">
+      <source>
+        <dbReference id="ABH07677.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0007829">
+      <source>
+        <dbReference id="2J5C" type="PDB"/>
+      </source>
+    </evidence>
+    <sequence checksum="C59A0560F9F80853" length="591" mass="69613" modified="2007-08-21" version="1">MSSLIMQVVIPKPAKFFHNNLFSLSSKRHRFSTTTTTRGGRWARCSLQTGNEIQTERRTGGYQPTLWDFSTIQSFDSEYKEEKHLMRAAGMIDQVKMMLQEEVDSIRRLELIDDLRRLGISCHFEREIVEILNSKYYTNNEIDERDLYSTALRFRLLRQYDFSVSQEVFDCFKNAKGTDFKPSLVDDTRGLLQLYEASFLSAQGEETLRLARDFATKFLQKRVLVDKDINLLSSIERALELPTHWRVQMPNARSFIDAYKRRPDMNPTVLELAKLDFNMVQAQFQQELKEASRWWNSTGLVHELPFVRDRIVECYYWTTGVVERRQHGYERIMLTKINALVTTIDDVFDIYGTLEELQLFTTAIQRWDIESMKQLPPYMQICYLALFNFVNEMAYDTLRDKGFDSTPYLRKVWVGLIESYLIEAKWYYKGHKPSLEEYMKNSWISIGGIPILSHLFFRLTDSIEEEAAESMHKYHDIVRASCTILRLADDMGTSLDEVERGDVPKSVQCYMNEKNASEEEAREHVRSLIDQTWKMMNKEMMTSSFSKYFVEVSANLARMAQWIYQHESDGFGMQHSLVNKMLRDLLFHRYE</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2020-10-07" modified="2020-10-07" version="37">
+<accession>E9E766</accession>
+<name>BTPSL_METAQ</name>
+<protein>
+<recommendedName>
+<fullName evidence="3">Sesquiterpene synthase MAC_05714</fullName>
+<ecNumber evidence="2">4.2.3.163</ecNumber>
+<ecNumber evidence="2">4.2.3.171</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="3">Bacterial terpene synthase-like protein MAC_05714</fullName>
+<shortName evidence="3">BTPSL</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="ORF">MAC_05714</name>
+</gene>
+<organism>
+<name type="scientific">Metarhizium acridum (strain CQMa 102)</name>
+<dbReference type="NCBI Taxonomy" id="655827"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Sordariomycetes</taxon>
+<taxon>Hypocreomycetidae</taxon>
+<taxon>Hypocreales</taxon>
+<taxon>Clavicipitaceae</taxon>
+<taxon>Metarhizium</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2011" name="PLoS Genet." volume="7" first="E1001264" last="E1001264">
+<title>Genome sequencing and comparative transcriptomics of the model entomopathogenic fungi Metarhizium anisopliae and M. acridum.</title>
+<authorList>
+<person name="Gao Q."/>
+<person name="Jin K."/>
+<person name="Ying S.-H."/>
+<person name="Zhang Y."/>
+<person name="Xiao G."/>
+<person name="Shang Y."/>
+<person name="Duan Z."/>
+<person name="Hu X."/>
+<person name="Xie X.-Q."/>
+<person name="Zhou G."/>
+<person name="Peng G."/>
+<person name="Luo Z."/>
+<person name="Huang W."/>
+<person name="Wang B."/>
+<person name="Fang W."/>
+<person name="Wang S."/>
+<person name="Zhong Y."/>
+<person name="Ma L.-J."/>
+<person name="St Leger R.J."/>
+<person name="Zhao G.-P."/>
+<person name="Pei Y."/>
+<person name="Feng M.-G."/>
+<person name="Xia Y."/>
+<person name="Wang C."/>
+</authorList>
+<dbReference type="PubMed" id="21253567"/>
+<dbReference type="DOI" id="10.1371/journal.pgen.1001264"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>CQMa 102</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2019" name="Sci. Rep." volume="9" first="9223" last="9223">
+<title>Terpene synthase genes originated from bacteria through horizontal gene transfer contribute to terpenoid diversity in fungi.</title>
+<authorList>
+<person name="Jia Q."/>
+<person name="Chen X."/>
+<person name="Koellner T.G."/>
+<person name="Rinkel J."/>
+<person name="Fu J."/>
+<person name="Labbe J."/>
+<person name="Xiong W."/>
+<person name="Dickschat J.S."/>
+<person name="Gershenzon J."/>
+<person name="Chen F."/>
+</authorList>
+<dbReference type="PubMed" id="31239482"/>
+<dbReference type="DOI" id="10.1038/s41598-019-45532-1"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+</reference>
+<comment type="function">
+<text evidence="2">Terpene synthase that catalyzes the conversion of (2E,6E)-farnesyl diphosphate (FPP) into sesquiterpenes which are important for fungi-environment interactions (PubMed:31239482). Produces a mixture consisting of 8 sesquiterpenes including corvol ethers A and B, as well as traces of epizonarene, gamma-cadinene, delta-cadinene, alpha-cadinene, alpha-cadinol, and an unidentified sesquiterpene (PubMed:31239482). Produces both corvol ether A and corvol ether B in similar concentrations (PubMed:31239482).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate + H2O = (+)-corvol ether B + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:53644"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:137536"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.163"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="2">
+<dbReference type="Rhea" id="RHEA:53645"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate + H2O = (+)-corvol ether A + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:53648"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:137535"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.171"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="2">
+<dbReference type="Rhea" id="RHEA:53649"/>
+</physiologicalReaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="domain">
+<text evidence="1">The Asp-Asp-Xaa-Xaa-Xaa-Asp (DDXXXD) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.163" evidence="2"/>
+<dbReference type="EC" id="4.2.3.171" evidence="2"/>
+<dbReference type="EMBL" id="GL698514">
+<property type="protein sequence ID" value="EFY88241.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_007812054.1">
+<property type="nucleotide sequence ID" value="XM_007813863.1"/>
+</dbReference>
+<dbReference type="EnsemblFungi" id="EFY88241">
+<property type="protein sequence ID" value="EFY88241"/>
+<property type="gene ID" value="MAC_05714"/>
+</dbReference>
+<dbReference type="GeneID" id="19250025"/>
+<dbReference type="KEGG" id="maw:MAC_05714"/>
+<dbReference type="eggNOG" id="ENOG502RKSS">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_042538_4_2_1"/>
+<dbReference type="InParanoid" id="E9E766"/>
+<dbReference type="OrthoDB" id="1143139at2759"/>
+<dbReference type="Proteomes" id="UP000002499">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016829">
+<property type="term" value="F:lyase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034686">
+<property type="entry name" value="Terpene_cyclase-like_2"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01020">
+<property type="entry name" value="Terpene_Cyclase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Sesquiterpene synthase MAC_05714" id="PRO_0000451050">
+<location>
+<begin position="1"/>
+<end position="349"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXXD motif" evidence="1">
+<location>
+<begin position="91"/>
+<end position="96"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="91"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="96"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="96"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="230"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="234"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="238"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="184"/>
+</location>
+</feature>
+<feature type="site" description="Plays a critical role in the stabilization of intermediate cation" evidence="1">
+<location>
+<position position="88"/>
+</location>
+</feature>
+<feature type="site" description="Plays a critical role for substrate recognition" evidence="1">
+<location>
+<position position="92"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="B5HDJ6"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="31239482"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="31239482"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="349" mass="39947" checksum="08EEDA1CAB36CF2D" modified="2011-04-05" version="1">MEKQHLKSQIAALRVPTFNIAWPERRSPKADVVEERMMKWADHHKLLVNGEYRDRVIRTRYGLLAARCYPNAGEELLQAIADYFVWFFLADDLFVDRVEVVTDETIRNLTAMIDVLDRNVAREEPVFGELAWLDVCQRLRDLLQPEAFQRFAQGMRLWATTAALQILNHQRPKSVGIREYEAIRRHTSGLNPCTSLADAANKGSVQAHEFYQPDVQKLVLQTNNIVCWANDIQSLGMEIQQPGQFRNMVTIYIQQGQSLSEAVSTTTARVNNELSDFCKLADIVTAPSISDELRVYVDGLKYWIRGYMDWVVHDTERYADKFIASDADDRCVSTLNPSLLNRSSSSATE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2020-06-17" modified="2020-12-02" version="45">
+<accession>G2P5T1</accession>
+<name>IAFRS_STRV4</name>
+<protein>
+<recommendedName>
+<fullName evidence="3">Isoafricanol synthase</fullName>
+<ecNumber evidence="2">4.2.3.157</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="ORF" evidence="5">Strvi_5748</name>
+</gene>
+<organism>
+<name type="scientific">Streptomyces violaceusniger (strain Tu 4113)</name>
+<dbReference type="NCBI Taxonomy" id="653045"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Streptomycetales</taxon>
+<taxon>Streptomycetaceae</taxon>
+<taxon>Streptomyces</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2011-08" db="EMBL/GenBank/DDBJ databases">
+<title>Complete sequence of chromosome of Streptomyces violaceusniger Tu 4113.</title>
+<authorList>
+<consortium name="US DOE Joint Genome Institute"/>
+<person name="Lucas S."/>
+<person name="Han J."/>
+<person name="Lapidus A."/>
+<person name="Cheng J.-F."/>
+<person name="Goodwin L."/>
+<person name="Pitluck S."/>
+<person name="Peters L."/>
+<person name="Ivanova N."/>
+<person name="Daligault H."/>
+<person name="Detter J.C."/>
+<person name="Han C."/>
+<person name="Tapia R."/>
+<person name="Land M."/>
+<person name="Hauser L."/>
+<person name="Kyrpides N."/>
+<person name="Ivanova N."/>
+<person name="Pagani I."/>
+<person name="Hagen A."/>
+<person name="Katz L."/>
+<person name="Fiedler H.-P."/>
+<person name="Keasling J."/>
+<person name="Fortman J."/>
+<person name="Woyke T."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>Tu 4133</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2014" name="Chem. Commun. (Camb.)" volume="50" first="4228" last="4230">
+<title>Identification of isoafricanol and its terpene cyclase in Streptomyces violaceusniger using CLSA-NMR.</title>
+<authorList>
+<person name="Riclea R."/>
+<person name="Citron C.A."/>
+<person name="Rinkel J."/>
+<person name="Dickschat J.S."/>
+</authorList>
+<dbReference type="PubMed" id="24626486"/>
+<dbReference type="DOI" id="10.1039/c4cc00177j"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+</reference>
+<comment type="function">
+<text evidence="2">Catalyzes the cyclisation of farnesyl diphosphate (FPP) to isoafricanol.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate + H2O = (+)-isoafricanol + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:53616"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:137522"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.157"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.157" evidence="2"/>
+<dbReference type="EMBL" id="CP002994">
+<property type="protein sequence ID" value="AEM85259.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="SMR" id="G2P5T1"/>
+<dbReference type="STRING" id="653045.Strvi_5748"/>
+<dbReference type="EnsemblBacteria" id="AEM85259">
+<property type="protein sequence ID" value="AEM85259"/>
+<property type="gene ID" value="Strvi_5748"/>
+</dbReference>
+<dbReference type="KEGG" id="svl:Strvi_5748"/>
+<dbReference type="eggNOG" id="ENOG502Z881">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_042538_4_0_11"/>
+<dbReference type="Proteomes" id="UP000008703">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016829">
+<property type="term" value="F:lyase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034686">
+<property type="entry name" value="Terpene_cyclase-like_2"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01020">
+<property type="entry name" value="Terpene_Cyclase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<feature type="chain" description="Isoafricanol synthase" id="PRO_0000449806">
+<location>
+<begin position="1"/>
+<end position="384"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="95"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="95"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="245"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="249"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="253"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="B5GMG2"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="24626486"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="24626486"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<evidence key="5" type="ECO:0000312">
+<source>
+<dbReference type="EMBL" id="AEM85259.1"/>
+</source>
+</evidence>
+<sequence length="384" mass="42360" checksum="2C5878A98067A959" modified="2011-11-16" version="1">MHAHASRPQARQTTLLRRAALFDFPASADLSPGTEAARHHTIQWLSRFGVFEGHESVAEYDALRFDVLAGLFYPRATGADLNLGSDLVGWYFVFDDQFDGELGSRPEAVARLVADVIRITEEDTAHGRAQDGEGPLLESFRDLWRRISSGRPQVWRDRFRHHWLEYLHSYHREALERTGALPGAGGDAPRSVEAVLALRRHSIGVQPCLDLNEPFGGYTLPPALHGGFPMARMREATDDVVVFTNDIASLDKELAVGDVHNSVIVQWERAGGELEDAVRHIADLANARYRWFEETAARLPALLTEAGADPGTHHAVGRYVDGMRHVMTGNLGWSVRTARYDERGTEAVSGGRQRPWAQLTGAEELIRAGRGAPLPPLGSGSGSR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

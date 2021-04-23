@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-04-18" modified="2020-10-07" version="36">
+<accession>H6VLG0</accession>
+<name>H6VLG0_SALMI</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Copalyl diphosphate synthase 2</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">CPS2</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Salvia miltiorrhiza</name>
+<name type="common">Chinese sage</name>
+<dbReference type="NCBI Taxonomy" id="226208"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>lamiids</taxon>
+<taxon>Lamiales</taxon>
+<taxon>Lamiaceae</taxon>
+<taxon>Nepetoideae</taxon>
+<taxon>Mentheae</taxon>
+<taxon>Salvia</taxon>
+<taxon>Salvia incertae sedis</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="2012" name="J. Exp. Bot." volume="63" first="2809" last="2823">
+<title>Genome-wide identification and characterization of novel genes involved in terpenoid biosynthesis in Salvia miltiorrhiza.</title>
+<authorList>
+<person name="Ma Y."/>
+<person name="Yuan L."/>
+<person name="Wu B."/>
+<person name="Li X."/>
+<person name="Chen S."/>
+<person name="Lu S."/>
+</authorList>
+<dbReference type="PubMed" id="22291132"/>
+<dbReference type="DOI" id="10.1093/jxb/err466"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="JN831114">
+<property type="protein sequence ID" value="AEZ55684.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="Terpene_synth" evidence="1">
+<location>
+<begin position="223"/>
+<end position="426"/>
+</location>
+</feature>
+<feature type="domain" description="Terpene_synth_C" evidence="2">
+<location>
+<begin position="475"/>
+<end position="619"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF01397"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF03936"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AEZ55684.1"/>
+</source>
+</evidence>
+<sequence length="757" mass="86555" checksum="CE68E6DD6DFABF0E" modified="2012-04-18" version="1">MKPRSPRTHRPRFLVIAVASLDEVQVSEKDTHLRTPNEINKKIEDSIEYVKNLLMTSGDGRISVSPYDTSIVALIKDVKGRNAPQFPSCLEWIAQHQMADGSWGDEFFCIYDRIVNTLACVIALKSWNVHAHMIQKGVAYVNENVHKLKDGNLEHMTSGFEIVVPALVQRAKDLGIQGLPYDHPLINEIAITKEGRLKKIPKDMIYQTPTTLLFSLEGLGDLEWERILQLQSGDGSFLTSPSSTAHAFMQTKDEKCLKFIDNAVKNCNGGVPHTYPVDVFARLWAVDRLQRLGISRFFQQEIKYFLDHVNSVWTENGVFSGRDSQFCDIDDTSMGIRLLKMHGYNVDPNALEHFKQQDGKFSCYGGQMIESASPIYNLYRAAQLRFPGEEILEEATKFAFNFLQEKIANNQLQEKWVISHHLIDEIKLGLKMPWYATLPRVEAAYYLRYYAGSDDVWIGKVFYRMPEISNDTYKELAVLDFNRCQAQHQFEWIYMQEWYHRSSVGEFGITKKDLLRAYFLASATVFEPERTQERLVWAKTQLVSKMIASFVGNETTLSLDQRIALVTQLGHNFDGIDEIISAMKDHALAPTLLTTFQQLLDGFNRYTRHQLKNAWSQWFMKLRQGEANGGEDAELLANTLNICAGLIAFNEDVLLHHEYTTLSTLTNKICKRLSQIKDNKVKMQALEVVDGSIKDKELEHDMQALVKLALEENGGGGVDRNIKHTFLSVVKTFYYSAYHDDETTDAHIFKVLFEPVV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

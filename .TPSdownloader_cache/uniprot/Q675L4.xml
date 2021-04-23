@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2008-09-02" dataset="Swiss-Prot" modified="2021-04-07" version="70">
+    <accession>Q675L4</accession>
+    <name>TPSD1_PICAB</name>
+    <protein>
+      <recommendedName>
+        <fullName>Bifunctional levopimaradiene synthase, chloroplastic</fullName>
+      </recommendedName>
+      <alternativeName>
+        <fullName>Diterpene synthase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>PaTPS-LAS</fullName>
+      </alternativeName>
+      <domain>
+        <recommendedName>
+          <fullName>Levopimaradiene synthase</fullName>
+          <ecNumber>4.2.3.32</ecNumber>
+        </recommendedName>
+      </domain>
+      <domain>
+        <recommendedName>
+          <fullName>Copalyl diphosphate synthase</fullName>
+          <ecNumber>5.5.1.12</ecNumber>
+        </recommendedName>
+      </domain>
+    </protein>
+    <gene>
+      <name type="primary">TPS-LAS</name>
+    </gene>
+    <organism>
+      <name type="scientific">Picea abies</name>
+      <name type="common">Norway spruce</name>
+      <name type="synonym">Picea excelsa</name>
+      <dbReference id="3329" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Pinopsida</taxon>
+        <taxon>Pinidae</taxon>
+        <taxon>Pinales</taxon>
+        <taxon>Pinaceae</taxon>
+        <taxon>Picea</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2004" first="1908" last="1927" name="Plant Physiol." type="journal article" volume="135">
+        <title>Functional characterization of nine Norway Spruce TPS genes and evolution of gymnosperm terpene synthases of the TPS-d subfamily.</title>
+        <authorList>
+          <person name="Martin D.M."/>
+          <person name="Faeldt J."/>
+          <person name="Bohlmann J."/>
+        </authorList>
+        <dbReference id="15310829" type="PubMed"/>
+        <dbReference id="10.1104/pp.104.042028" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>GENE FAMILY</scope>
+      <scope>NOMENCLATURE</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="1 6">Involved in defensive oleoresin formation in conifers in response to insect attack or other injury (By similarity). Involved in diterpene (C20) olefins biosynthesis. Bifunctional enzyme that catalyzes two sequential cyclizations of geranylgeranyl diphosphate (GGPP) to levopimaradiene. Levopimaradiene is the major products of the enzyme followed by abietadiene, neoabietadiene and palustradiene.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction>
+        <text>(2E,6E,10E)-geranylgeranyl diphosphate = (+)-copalyl diphosphate</text>
+        <dbReference id="RHEA:24316" type="Rhea"/>
+        <dbReference id="CHEBI:58635" type="ChEBI"/>
+        <dbReference id="CHEBI:58756" type="ChEBI"/>
+        <dbReference id="5.5.1.12" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction>
+        <text>(+)-copalyl diphosphate = abieta-8(14),12-diene + diphosphate</text>
+        <dbReference id="RHEA:25548" type="Rhea"/>
+        <dbReference id="CHEBI:29616" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:58635" type="ChEBI"/>
+        <dbReference id="4.2.3.32" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="4">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="4">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment type="pathway">
+      <text>Terpene metabolism; oleoresin biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="1">Plastid</location>
+        <location evidence="1">Chloroplast</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="domain">
+      <text evidence="7">The Asp-Xaa-Asp-Asp (DXDD) motif is important for the catalytic activity in the class II active site relevant for the cyclization of GGPP. The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity in the class I active site, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="7">Belongs to the terpene synthase family. Tpsd subfamily.</text>
+    </comment>
+    <dbReference id="4.2.3.32" type="EC"/>
+    <dbReference id="5.5.1.12" type="EC"/>
+    <dbReference id="AY473621" type="EMBL">
+      <property type="protein sequence ID" value="AAS47691.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="Q675L4" type="SMR"/>
+    <dbReference id="MetaCyc:MONOMER-12742" type="BioCyc"/>
+    <dbReference id="4.2.3.18" type="BRENDA">
+      <property type="organism ID" value="4815"/>
+    </dbReference>
+    <dbReference id="4.2.3.32" type="BRENDA">
+      <property type="organism ID" value="4815"/>
+    </dbReference>
+    <dbReference id="UPA00924" type="UniPathway"/>
+    <dbReference id="GO:0009507" type="GO">
+      <property type="term" value="C:chloroplast"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0050559" type="GO">
+      <property type="term" value="F:copalyl diphosphate synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0052678" type="GO">
+      <property type="term" value="F:levopimaradiene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0006952" type="GO">
+      <property type="term" value="P:defense response"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0008152" type="GO">
+      <property type="term" value="P:metabolic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword id="KW-0150">Chloroplast</keyword>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-0511">Multifunctional enzyme</keyword>
+    <keyword id="KW-0611">Plant defense</keyword>
+    <keyword id="KW-0934">Plastid</keyword>
+    <keyword id="KW-0809">Transit peptide</keyword>
+    <feature description="Chloroplast" evidence="5" type="transit peptide">
+      <location>
+        <begin position="1"/>
+        <end position="70"/>
+      </location>
+    </feature>
+    <feature description="Bifunctional levopimaradiene synthase, chloroplastic" id="PRO_0000348952" type="chain">
+      <location>
+        <begin position="71"/>
+        <end position="859"/>
+      </location>
+    </feature>
+    <feature description="DXDD motif" evidence="7" type="short sequence motif">
+      <location>
+        <begin position="392"/>
+        <end position="395"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="7" type="short sequence motif">
+      <location>
+        <begin position="611"/>
+        <end position="615"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 4" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="392"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 4" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="394"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="4" type="metal ion-binding site">
+      <location>
+        <position position="611"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="4" type="metal ion-binding site">
+      <location>
+        <position position="611"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="4" type="metal ion-binding site">
+      <location>
+        <position position="615"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="4" type="metal ion-binding site">
+      <location>
+        <position position="615"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="4" type="metal ion-binding site">
+      <location>
+        <position position="755"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="4" type="metal ion-binding site">
+      <location>
+        <position position="759"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="4" type="metal ion-binding site">
+      <location>
+        <position position="763"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="3" type="binding site">
+      <location>
+        <position position="259"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="3" type="binding site">
+      <location>
+        <position position="479"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000250">
+      <source>
+        <dbReference id="C7BKP9" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000250">
+      <source>
+        <dbReference id="Q38802" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000250">
+      <source>
+        <dbReference id="Q40577" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000255"/>
+    <evidence key="6" type="ECO:0000269">
+      <source>
+        <dbReference id="15310829" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000305"/>
+    <sequence checksum="BD98408794AC8CAB" length="859" mass="98458" modified="2004-10-11" precursor="true" version="1">MALLSSSLSSQIPTGAHHLTLNAYANTQCIPHFFSTLNAGTSAGKRSSLYLRWGKGSNKIIACVGEDSLSAPTLVKREFPPGFWKDHVIDSLTSSHKVAASDEKRIETLISEIKNMFRSMGYGDTNPSAYDTAWVARIPAVDGSEQPEFPETLEWILQNQLKDGSWGEGFYFLAYDRILATLACIITLTLWRTGEIQVQKGIEFFKTQAGKIEDEADSHRPSGFEIVFPAMLKEAKVLGLDLPYELPFIKQIIEKREAKLERLPTNILYALPTTLLYSLEGLQEIVDWQKIIKLQSKDGSFLSSPASTAAVFMRTGNKKCLEFLNFVLKKFGNHVPCHYPLDLFERLWAVDTIERLGIDRHFKEEIKDALDYVYSHWDERGIGWARENPVPDIDDTAMGLRILRLHGYNVSSDVLKTFRDENGEFFCFLGQTQRGVTDMLNVNRCSHVAFPGETIMEEAKTCTERYLRNALEDVGAFDKWALKKNIRGEVEYALKYPWHRSMPRLEARSYIEHYGPNDVWLGKTMYMMPYISNEKYLELAKLDFNHVQSLHQKELRDLRRWWTSSGFTELKFTRERVTEIYFSPASFMFEPEFATCRAVYTKTSNFTVILDDLYDAHGTLDDLKLFSDSVKKWDLSLVDRMPQDMKICFMGFYNTFNEIAEEGRKRQGRDVLGYIRNVWEIQLEAYTKEAEWSAARYVPSFDEYIDNASVSIALGTVVLISALFTGEILTDDVLSKIGRGSRFLQLMGLTGRLVNDTKTYEAERGQGEVASAVQCYMKDHPEISEEEALKHVYTVMENALDELNREFVNNREVPDSCRRLVFETARIMQLFYMDGDGLTLSHETEIKEHVKNCLFQPVA</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-04-12" modified="2020-12-02" version="80">
+<accession>Q948Z0</accession>
+<name>TPSD6_ABIGR</name>
+<protein>
+<recommendedName>
+<fullName>Camphene synthase, chloroplastic</fullName>
+<ecNumber>4.2.3.117</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>(-)-(1S,4R)-camphene synthase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Agg-cam</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">ag6</name>
+<name type="synonym">AG6.5</name>
+</gene>
+<organism>
+<name type="scientific">Abies grandis</name>
+<name type="common">Grand fir</name>
+<name type="synonym">Pinus grandis</name>
+<dbReference type="NCBI Taxonomy" id="46611"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Pinopsida</taxon>
+<taxon>Pinidae</taxon>
+<taxon>Pinales</taxon>
+<taxon>Pinaceae</taxon>
+<taxon>Abies</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1997" name="J. Biol. Chem." volume="272" first="21784" last="21792">
+<title>Monoterpene synthases from grand fir (Abies grandis). cDNA isolation, characterization, and functional expression of myrcene synthase, (-)-(4S)-limonene synthase, and (-)-(1S,5S)-pinene synthase.</title>
+<authorList>
+<person name="Bohlmann J."/>
+<person name="Steele C.L."/>
+<person name="Croteau R.B."/>
+</authorList>
+<dbReference type="PubMed" id="9268308"/>
+<dbReference type="DOI" id="10.1074/jbc.272.35.21784"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1999" name="Arch. Biochem. Biophys." volume="368" first="232" last="243">
+<title>cDNA cloning, characterization, and functional expression of four new monoterpene synthase members of the Tpsd gene family from grand fir (Abies grandis).</title>
+<authorList>
+<person name="Bohlmann J."/>
+<person name="Phillips M."/>
+<person name="Ramachandiran V."/>
+<person name="Katoh S."/>
+<person name="Croteau R.B."/>
+</authorList>
+<dbReference type="PubMed" id="10441373"/>
+<dbReference type="DOI" id="10.1006/abbi.1999.1332"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<source>
+<tissue>Stem</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1998" name="Proc. Natl. Acad. Sci. U.S.A." volume="95" first="4126" last="4133">
+<title>Plant terpenoid synthases: molecular biology and phylogenetic analysis.</title>
+<authorList>
+<person name="Bohlmann J."/>
+<person name="Meyer-Gauen G."/>
+<person name="Croteau R.B."/>
+</authorList>
+<dbReference type="PubMed" id="9539701"/>
+<dbReference type="DOI" id="10.1073/pnas.95.8.4126"/>
+</citation>
+<scope>GENE FAMILY</scope>
+<scope>NOMENCLATURE</scope>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2001" name="Genetics" volume="158" first="811" last="832">
+<title>Genomic organization of plant terpene synthases and molecular evolutionary implications.</title>
+<authorList>
+<person name="Trapp S.C."/>
+<person name="Croteau R.B."/>
+</authorList>
+<dbReference type="PubMed" id="11404343"/>
+</citation>
+<scope>GENE FAMILY</scope>
+<scope>NOMENCLATURE</scope>
+<scope>FUNCTION</scope>
+</reference>
+<comment type="function">
+<text evidence="3 4 5">Involved in defensive oleoresin formation in conifers in response to insect attack or other injury. Involved in monoterpene (C10) olefins biosynthesis.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>(2E)-geranyl diphosphate = (1S,4R)-camphene + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:25484"/>
+<dbReference type="ChEBI" id="CHEBI:89"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:58057"/>
+<dbReference type="EC" id="4.2.3.117"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<cofactor evidence="1">
+<name>Mn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29035"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>K(+)</name>
+<dbReference type="ChEBI" id="CHEBI:29103"/>
+</cofactor>
+</comment>
+<comment type="pathway">
+<text>Terpene metabolism; oleoresin biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Plastid</location>
+<location evidence="1">Chloroplast</location>
+</subcellularLocation>
+</comment>
+<comment type="domain">
+<text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="miscellaneous">
+<text>The conserved 59-Arg-Arg-60 motif may play a role in the isomerization step of the terpenoid cyclization reaction sequence.</text>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the terpene synthase family. Tpsd subfamily.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.117"/>
+<dbReference type="EMBL" id="U87910">
+<property type="protein sequence ID" value="AAB70707.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="Q948Z0"/>
+<dbReference type="PRIDE" id="Q948Z0"/>
+<dbReference type="KEGG" id="ag:AAB70707"/>
+<dbReference type="BioCyc" id="MetaCyc:AG6-MONOMER"/>
+<dbReference type="BRENDA" id="4.2.3.117">
+<property type="organism ID" value="2"/>
+</dbReference>
+<dbReference type="BRENDA" id="4.2.3.119">
+<property type="organism ID" value="2"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00924"/>
+<dbReference type="GO" id="GO:0009507">
+<property type="term" value="C:chloroplast"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0102703">
+<property type="term" value="F:camphene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0150">Chloroplast</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0464">Manganese</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0934">Plastid</keyword>
+<keyword id="KW-0809">Transit peptide</keyword>
+<feature type="transit peptide" description="Chloroplast" evidence="2">
+<location>
+<begin position="1"/>
+<end position="51"/>
+</location>
+</feature>
+<feature type="chain" description="Camphene synthase, chloroplastic" id="PRO_0000033629">
+<location>
+<begin position="52"/>
+<end position="618"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif">
+<location>
+<begin position="369"/>
+<end position="373"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="369"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="369"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="373"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="373"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="1">
+<location>
+<position position="521"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10441373"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11404343"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9539701"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<sequence length="618" mass="70750" checksum="B07B5185CE5C4CE1" modified="2001-12-01" version="1" precursor="true">MALLSITPLVSRSCLSSSHEIKALRRTIPTLGICRPGKSVAHSINMCLTSVASTDSVQRRVGNYHSNLWDDDFIQSLISTPYGAPDYRERADRLIGEVKDIMFNFKSLEDGGNDLLQRLLLVDDVERLGIDRHFKKEIKTALDYVNSYWNEKGIGCGRESVVTDLNSTALGLRTLRLHGYTVSSDVLNVFKDKNGQFSSTANIQIEGEIRGVLNLFRASLVAFPGEKVMDEAETFSTKYLREALQKIPASSILSLEIRDVLEYGWHTNLPRLEARNYMDVFGQHTKNKNAAEKLLELAKLEFNIFHSLQERELKHVSRWWKDSGSPEMTFCRHRHVEYYALASCIAFEPQHSGFRLGFTKMSHLITVLDDMYDVFGTVDELELFTATIKRWDPSAMECLPEYMKGVYMMVYHTVNEMARVAEKAQGRDTLNYARQAWEACFDSYMQEAKWIATGYLPTFEEYLENGKVSSAHRPCALQPILTLDIPFPDHILKEVDFPSKLNDLICIILRLRGDTRCYKADRARGEEASSISCYMKDNPGLTEEDALNHINFMIRDAIRELNWELLKPDNSVPITSKKHAFDISRVWHHGYRYRDGYSFANVETKSLVMRTVIEPVPL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

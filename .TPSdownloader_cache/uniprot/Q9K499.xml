@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2006-07-25" dataset="Swiss-Prot" modified="2021-04-07" version="106">
+    <accession>Q9K499</accession>
+    <name>CYC1_STRCO</name>
+    <protein>
+      <recommendedName>
+        <fullName>Epi-isozizaene synthase</fullName>
+        <shortName>EIZS</shortName>
+        <ecNumber>4.2.3.37</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>Sesquiterpene cyclase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Sesquiterpene synthase</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name type="primary">cyc1</name>
+      <name type="ordered locus">SCO5222</name>
+      <name type="ORF">SC7E4.19</name>
+    </gene>
+    <organism>
+      <name type="scientific">Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145)</name>
+      <dbReference id="100226" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Bacteria</taxon>
+        <taxon>Actinobacteria</taxon>
+        <taxon>Streptomycetales</taxon>
+        <taxon>Streptomycetaceae</taxon>
+        <taxon>Streptomyces</taxon>
+        <taxon>Streptomyces albidoflavus group</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2002" first="141" last="147" name="Nature" type="journal article" volume="417">
+        <title>Complete genome sequence of the model actinomycete Streptomyces coelicolor A3(2).</title>
+        <authorList>
+          <person name="Bentley S.D."/>
+          <person name="Chater K.F."/>
+          <person name="Cerdeno-Tarraga A.-M."/>
+          <person name="Challis G.L."/>
+          <person name="Thomson N.R."/>
+          <person name="James K.D."/>
+          <person name="Harris D.E."/>
+          <person name="Quail M.A."/>
+          <person name="Kieser H."/>
+          <person name="Harper D."/>
+          <person name="Bateman A."/>
+          <person name="Brown S."/>
+          <person name="Chandra G."/>
+          <person name="Chen C.W."/>
+          <person name="Collins M."/>
+          <person name="Cronin A."/>
+          <person name="Fraser A."/>
+          <person name="Goble A."/>
+          <person name="Hidalgo J."/>
+          <person name="Hornsby T."/>
+          <person name="Howarth S."/>
+          <person name="Huang C.-H."/>
+          <person name="Kieser T."/>
+          <person name="Larke L."/>
+          <person name="Murphy L.D."/>
+          <person name="Oliver K."/>
+          <person name="O'Neil S."/>
+          <person name="Rabbinowitsch E."/>
+          <person name="Rajandream M.A."/>
+          <person name="Rutherford K.M."/>
+          <person name="Rutter S."/>
+          <person name="Seeger K."/>
+          <person name="Saunders D."/>
+          <person name="Sharp S."/>
+          <person name="Squares R."/>
+          <person name="Squares S."/>
+          <person name="Taylor K."/>
+          <person name="Warren T."/>
+          <person name="Wietzorrek A."/>
+          <person name="Woodward J.R."/>
+          <person name="Barrell B.G."/>
+          <person name="Parkhill J."/>
+          <person name="Hopwood D.A."/>
+        </authorList>
+        <dbReference id="12000953" type="PubMed"/>
+        <dbReference id="10.1038/417141a" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC BAA-471 / A3(2) / M145</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2006" first="6022" last="6023" name="J. Am. Chem. Soc." type="journal article" volume="128">
+        <title>Genome mining in Streptomyces coelicolor. Molecular cloning and characterization of a new sesquiterpene synthase.</title>
+        <authorList>
+          <person name="Lin X."/>
+          <person name="Hopson R."/>
+          <person name="Cane D.E."/>
+        </authorList>
+        <dbReference id="16669656" type="PubMed"/>
+        <dbReference id="10.1021/ja061292s" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>COFACTOR</scope>
+      <scope>KINETIC PARAMETERS</scope>
+      <scope>REACTION MECHANISM</scope>
+      <scope>REACTION STEREOCHEMISTRY</scope>
+      <source>
+        <strain>ATCC BAA-471 / A3(2) / M145</strain>
+      </source>
+    </reference>
+    <comment type="function">
+      <text evidence="1">Catalyzes the cyclization of farnesyl diphosphate (FPP) to the sesquiterpene epi-isozizaene.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction>
+        <text>(2E,6E)-farnesyl diphosphate = (+)-epi-isozizaene + diphosphate</text>
+        <dbReference id="RHEA:25992" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:51458" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.37" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <cofactor evidence="1">
+        <name>Mn(2+)</name>
+        <dbReference id="CHEBI:29035" type="ChEBI"/>
+      </cofactor>
+      <cofactor evidence="1">
+        <name>Fe(3+)</name>
+        <dbReference id="CHEBI:29034" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit. Can also use Mn(2+) and Fe(3+) but less efficiently, and other divalent cations such as Zn(2+), Fe(2+), Co(2+), Cu(2+) and Ni(2+) are nearly completely inefficient as cofactors.</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="1">147 nM for FPP</KM>
+      </kinetics>
+    </comment>
+    <comment type="pathway">
+      <text>Sesquiterpene biosynthesis; epi-isozizaene biosynthesis.</text>
+    </comment>
+    <comment type="domain">
+      <text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="2">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference id="4.2.3.37" type="EC"/>
+    <dbReference id="AL939123" type="EMBL">
+      <property type="protein sequence ID" value="CAB94607.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="NP_629369.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NC_003888.3"/>
+    </dbReference>
+    <dbReference id="WP_011030119.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NZ_VNID01000008.1"/>
+    </dbReference>
+    <dbReference id="3KB9" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.60"/>
+      <property type="chains" value="A=2-361"/>
+    </dbReference>
+    <dbReference id="3KBK" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.90"/>
+      <property type="chains" value="A=2-361"/>
+    </dbReference>
+    <dbReference id="3LG5" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.64"/>
+      <property type="chains" value="A=1-361"/>
+    </dbReference>
+    <dbReference id="3LGK" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.89"/>
+      <property type="chains" value="A=2-361"/>
+    </dbReference>
+    <dbReference id="4LTV" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.40"/>
+      <property type="chains" value="A=2-361"/>
+    </dbReference>
+    <dbReference id="4LTZ" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.45"/>
+      <property type="chains" value="A=2-361"/>
+    </dbReference>
+    <dbReference id="4LUU" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.95"/>
+      <property type="chains" value="A=2-361"/>
+    </dbReference>
+    <dbReference id="4LXW" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.09"/>
+      <property type="chains" value="A=2-361"/>
+    </dbReference>
+    <dbReference id="4LZ0" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.75"/>
+      <property type="chains" value="A=2-361"/>
+    </dbReference>
+    <dbReference id="4LZ3" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.10"/>
+      <property type="chains" value="A=2-361"/>
+    </dbReference>
+    <dbReference id="4LZC" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.46"/>
+      <property type="chains" value="A=2-361"/>
+    </dbReference>
+    <dbReference id="6AX9" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.40"/>
+      <property type="chains" value="A=2-361"/>
+    </dbReference>
+    <dbReference id="6AXM" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.80"/>
+      <property type="chains" value="A=2-361"/>
+    </dbReference>
+    <dbReference id="6AXN" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.90"/>
+      <property type="chains" value="A=2-361"/>
+    </dbReference>
+    <dbReference id="6AXO" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.10"/>
+      <property type="chains" value="A=2-361"/>
+    </dbReference>
+    <dbReference id="6AXU" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.82"/>
+      <property type="chains" value="A=2-361"/>
+    </dbReference>
+    <dbReference id="6OFV" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.91"/>
+      <property type="chains" value="A=1-361"/>
+    </dbReference>
+    <dbReference id="3KB9" type="PDBsum"/>
+    <dbReference id="3KBK" type="PDBsum"/>
+    <dbReference id="3LG5" type="PDBsum"/>
+    <dbReference id="3LGK" type="PDBsum"/>
+    <dbReference id="4LTV" type="PDBsum"/>
+    <dbReference id="4LTZ" type="PDBsum"/>
+    <dbReference id="4LUU" type="PDBsum"/>
+    <dbReference id="4LXW" type="PDBsum"/>
+    <dbReference id="4LZ0" type="PDBsum"/>
+    <dbReference id="4LZ3" type="PDBsum"/>
+    <dbReference id="4LZC" type="PDBsum"/>
+    <dbReference id="6AX9" type="PDBsum"/>
+    <dbReference id="6AXM" type="PDBsum"/>
+    <dbReference id="6AXN" type="PDBsum"/>
+    <dbReference id="6AXO" type="PDBsum"/>
+    <dbReference id="6AXU" type="PDBsum"/>
+    <dbReference id="6OFV" type="PDBsum"/>
+    <dbReference id="Q9K499" type="SMR"/>
+    <dbReference id="100226.SCO5222" type="STRING"/>
+    <dbReference id="1100663" type="GeneID"/>
+    <dbReference id="sco:SCO5222" type="KEGG"/>
+    <dbReference id="fig|100226.15.peg.5306" type="PATRIC"/>
+    <dbReference id="ENOG5033S8Y" type="eggNOG">
+      <property type="taxonomic scope" value="Bacteria"/>
+    </dbReference>
+    <dbReference id="CLU_042538_4_1_11" type="HOGENOM"/>
+    <dbReference id="Q9K499" type="InParanoid"/>
+    <dbReference id="HLVEYAH" type="OMA"/>
+    <dbReference id="MetaCyc:MONOMER-13904" type="BioCyc"/>
+    <dbReference id="4.2.3.37" type="BRENDA">
+      <property type="organism ID" value="5998"/>
+    </dbReference>
+    <dbReference id="Q9K499" type="SABIO-RK"/>
+    <dbReference id="UPA00195" type="UniPathway"/>
+    <dbReference id="Q9K499" type="EvolutionaryTrace"/>
+    <dbReference id="UP000001973" type="Proteomes">
+      <property type="component" value="Chromosome"/>
+    </dbReference>
+    <dbReference id="GO:0052680" type="GO">
+      <property type="term" value="F:epi-isozizaene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034686" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_2"/>
+    </dbReference>
+    <dbReference id="SFLDG01020" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0002">3D-structure</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="Epi-isozizaene synthase" id="PRO_0000247894" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="361"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="99"/>
+        <end position="103"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" type="metal ion-binding site">
+      <location>
+        <position position="99"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" type="metal ion-binding site">
+      <location>
+        <position position="99"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" type="metal ion-binding site">
+      <location>
+        <position position="103"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" type="metal ion-binding site">
+      <location>
+        <position position="103"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" type="metal ion-binding site">
+      <location>
+        <position position="240"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" type="metal ion-binding site">
+      <location>
+        <position position="244"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" type="metal ion-binding site">
+      <location>
+        <position position="248"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="turn">
+      <location>
+        <begin position="19"/>
+        <end position="21"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="24"/>
+        <end position="29"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="38"/>
+        <end position="51"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="57"/>
+        <end position="67"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="69"/>
+        <end position="74"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="82"/>
+        <end position="107"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="111"/>
+        <end position="126"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="129"/>
+        <end position="131"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="137"/>
+        <end position="149"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="155"/>
+        <end position="181"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="187"/>
+        <end position="197"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="200"/>
+        <end position="211"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="217"/>
+        <end position="220"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="223"/>
+        <end position="250"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="strand">
+      <location>
+        <begin position="251"/>
+        <end position="254"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="257"/>
+        <end position="264"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="269"/>
+        <end position="301"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="strand">
+      <location>
+        <begin position="303"/>
+        <end position="305"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="306"/>
+        <end position="335"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="337"/>
+        <end position="339"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="helix">
+      <location>
+        <begin position="341"/>
+        <end position="343"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000269">
+      <source>
+        <dbReference id="16669656" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000305"/>
+    <evidence key="3" type="ECO:0007744">
+      <source>
+        <dbReference id="3KB9" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0007744">
+      <source>
+        <dbReference id="3LGK" type="PDB"/>
+      </source>
+    </evidence>
+    <sequence checksum="227B08D792F36BB7" length="361" mass="41388" modified="2000-10-01" version="1">MHAFPHGTTATPTAIAVPPSLRLPVIEAAFPRQLHPYWPKLQETTRTWLLEKRLMPADKVEEYADGLCYTDLMAGYYLGAPDEVLQAIADYSAWFFVWDDRHDRDIVHGRAGAWRRLRGLLHTALDSPGDHLHHEDTLVAGFADSVRRLYAFLPATWNARFARHFHTVIEAYDREFHNRTRGIVPGVEEYLELRRLTFAHWIWTDLLEPSSGCELPDAVRKHPAYRRAALLSQEFAAWYNDLCSLPKEIAGDEVHNLGISLITHHSLTLEEAIGEVRRRVEECITEFLAVERDALRFADELADGTVRGKELSGAVRANVGNMRNWFSSVYWFHHESGRYMVDSWDDRSTPPYVNNEAAGEK</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

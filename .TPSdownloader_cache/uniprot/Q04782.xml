@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="1993-10-01" dataset="Swiss-Prot" modified="2021-04-07" version="125">
+    <accession>Q04782</accession>
+    <accession>A0A1D8PGL9</accession>
+    <accession>Q5AM05</accession>
+    <name>ERG7_CANAL</name>
+    <protein>
+      <recommendedName>
+        <fullName>Lanosterol synthase</fullName>
+        <ecNumber>5.4.99.7</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>2,3-epoxysqualene--lanosterol cyclase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Oxidosqualene--lanosterol cyclase</fullName>
+        <shortName>OSC</shortName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name type="primary">ERG7</name>
+      <name type="ordered locus">CAALFM_C202460WA</name>
+      <name type="ORF">CaO19.1570</name>
+    </gene>
+    <organism>
+      <name type="scientific">Candida albicans (strain SC5314 / ATCC MYA-2876)</name>
+      <name type="common">Yeast</name>
+      <dbReference id="237561" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Ascomycota</taxon>
+        <taxon>Saccharomycotina</taxon>
+        <taxon>Saccharomycetes</taxon>
+        <taxon>Saccharomycetales</taxon>
+        <taxon>Debaryomycetaceae</taxon>
+        <taxon>Candida/Lodderomyces clade</taxon>
+        <taxon>Candida</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="1993" first="149" last="150" name="Gene" type="journal article" volume="127">
+        <title>Sequence of the Candida albicans erg7 gene.</title>
+        <authorList>
+          <person name="Roessner C.A."/>
+          <person name="Min C."/>
+          <person name="Hardin S.H."/>
+          <person name="Harris-Haller L.W."/>
+          <person name="McCollum J.C."/>
+          <person name="Scott A.I."/>
+        </authorList>
+        <dbReference id="8486282" type="PubMed"/>
+        <dbReference id="10.1016/0378-1119(93)90631-c" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    </reference>
+    <reference key="2">
+      <citation date="2004" first="7329" last="7334" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="101">
+        <title>The diploid genome sequence of Candida albicans.</title>
+        <authorList>
+          <person name="Jones T."/>
+          <person name="Federspiel N.A."/>
+          <person name="Chibana H."/>
+          <person name="Dungan J."/>
+          <person name="Kalman S."/>
+          <person name="Magee B.B."/>
+          <person name="Newport G."/>
+          <person name="Thorstenson Y.R."/>
+          <person name="Agabian N."/>
+          <person name="Magee P.T."/>
+          <person name="Davis R.W."/>
+          <person name="Scherer S."/>
+        </authorList>
+        <dbReference id="15123810" type="PubMed"/>
+        <dbReference id="10.1073/pnas.0401648101" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>SC5314 / ATCC MYA-2876</strain>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2007" first="RESEARCH52.1" last="RESEARCH52.12" name="Genome Biol." type="journal article" volume="8">
+        <title>Assembly of the Candida albicans genome into sixteen supercontigs aligned on the eight chromosomes.</title>
+        <authorList>
+          <person name="van het Hoog M."/>
+          <person name="Rast T.J."/>
+          <person name="Martchenko M."/>
+          <person name="Grindle S."/>
+          <person name="Dignard D."/>
+          <person name="Hogues H."/>
+          <person name="Cuomo C."/>
+          <person name="Berriman M."/>
+          <person name="Scherer S."/>
+          <person name="Magee B.B."/>
+          <person name="Whiteway M."/>
+          <person name="Chibana H."/>
+          <person name="Nantel A."/>
+          <person name="Magee P.T."/>
+        </authorList>
+        <dbReference id="17419877" type="PubMed"/>
+        <dbReference id="10.1186/gb-2007-8-4-r52" type="DOI"/>
+      </citation>
+      <scope>GENOME REANNOTATION</scope>
+      <source>
+        <strain>SC5314 / ATCC MYA-2876</strain>
+      </source>
+    </reference>
+    <reference key="4">
+      <citation date="2013" first="RESEARCH97.1" last="RESEARCH97.14" name="Genome Biol." type="journal article" volume="14">
+        <title>Assembly of a phased diploid Candida albicans genome facilitates allele-specific measurements and provides a simple model for repeat and indel structure.</title>
+        <authorList>
+          <person name="Muzzey D."/>
+          <person name="Schwartz K."/>
+          <person name="Weissman J.S."/>
+          <person name="Sherlock G."/>
+        </authorList>
+        <dbReference id="24025428" type="PubMed"/>
+        <dbReference id="10.1186/gb-2013-14-9-r97" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <scope>GENOME REANNOTATION</scope>
+      <source>
+        <strain>SC5314 / ATCC MYA-2876</strain>
+      </source>
+    </reference>
+    <comment type="function">
+      <text>Catalyzes the cyclization of (S)-2,3 oxidosqualene to lanosterol, a reaction that forms the sterol nucleus.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction>
+        <text>(S)-2,3-epoxysqualene = lanosterol</text>
+        <dbReference id="RHEA:14621" type="Rhea"/>
+        <dbReference id="CHEBI:15441" type="ChEBI"/>
+        <dbReference id="CHEBI:16521" type="ChEBI"/>
+        <dbReference id="5.4.99.7" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="pathway">
+      <text>Terpene metabolism; lanosterol biosynthesis; lanosterol from farnesyl diphosphate: step 3/3.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="2">Belongs to the terpene cyclase/mutase family.</text>
+    </comment>
+    <dbReference id="5.4.99.7" type="EC"/>
+    <dbReference id="L04305" type="EMBL">
+      <property type="protein sequence ID" value="AAA34342.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="CP017624" type="EMBL">
+      <property type="protein sequence ID" value="AOW27286.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="JN0664" type="PIR">
+      <property type="entry name" value="JN0664"/>
+    </dbReference>
+    <dbReference id="XP_722612.2" type="RefSeq">
+      <property type="nucleotide sequence ID" value="XM_717519.2"/>
+    </dbReference>
+    <dbReference id="Q04782" type="SMR"/>
+    <dbReference id="1218855" type="BioGRID">
+      <property type="interactions" value="1"/>
+    </dbReference>
+    <dbReference id="5476.C4YJJ9" type="STRING"/>
+    <dbReference id="CHEMBL1075056" type="ChEMBL"/>
+    <dbReference id="DB00239" type="DrugBank">
+      <property type="generic name" value="Oxiconazole"/>
+    </dbReference>
+    <dbReference id="3635761" type="GeneID"/>
+    <dbReference id="cal:CAALFM_C202460WA" type="KEGG"/>
+    <dbReference id="CAL0000184383" type="CGD">
+      <property type="gene designation" value="ERG7"/>
+    </dbReference>
+    <dbReference id="FungiDB:C2_02460W_A" type="VEuPathDB"/>
+    <dbReference id="KOG0497" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="CLU_009074_2_1_1" type="HOGENOM"/>
+    <dbReference id="Q04782" type="InParanoid"/>
+    <dbReference id="365003at2759" type="OrthoDB"/>
+    <dbReference id="UPA00767" type="UniPathway">
+      <property type="reaction ID" value="UER00753"/>
+    </dbReference>
+    <dbReference id="PR:Q04782" type="PRO"/>
+    <dbReference id="UP000000559" type="Proteomes">
+      <property type="component" value="Chromosome 2"/>
+    </dbReference>
+    <dbReference id="GO:0005811" type="GO">
+      <property type="term" value="C:lipid droplet"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0042300" type="GO">
+      <property type="term" value="F:beta-amyrin synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0000250" type="GO">
+      <property type="term" value="F:lanosterol synthase activity"/>
+      <property type="evidence" value="ECO:0000316"/>
+      <property type="project" value="CGD"/>
+    </dbReference>
+    <dbReference id="GO:0006696" type="GO">
+      <property type="term" value="P:ergosterol biosynthetic process"/>
+      <property type="evidence" value="ECO:0000316"/>
+      <property type="project" value="CGD"/>
+    </dbReference>
+    <dbReference id="GO:0016104" type="GO">
+      <property type="term" value="P:triterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="cd02892" type="CDD">
+      <property type="entry name" value="SQCY_1"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR032696" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_C"/>
+    </dbReference>
+    <dbReference id="IPR032697" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_N"/>
+    </dbReference>
+    <dbReference id="IPR018333" type="InterPro">
+      <property type="entry name" value="Squalene_cyclase"/>
+    </dbReference>
+    <dbReference id="IPR002365" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_CS"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF13243" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF13249" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01016" type="SFLD">
+      <property type="entry name" value="Prenyltransferase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="TIGR01787" type="TIGRFAMs">
+      <property type="entry name" value="squalene_cyclas"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PS01074" type="PROSITE">
+      <property type="entry name" value="TERPENE_SYNTHASES"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="inferred from homology"/>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0444">Lipid biosynthesis</keyword>
+    <keyword id="KW-0443">Lipid metabolism</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0677">Repeat</keyword>
+    <keyword id="KW-0752">Steroid biosynthesis</keyword>
+    <feature description="Lanosterol synthase" id="PRO_0000072654" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="728"/>
+      </location>
+    </feature>
+    <feature description="PFTB 1" type="repeat">
+      <location>
+        <begin position="117"/>
+        <end position="159"/>
+      </location>
+    </feature>
+    <feature description="PFTB 2" type="repeat">
+      <location>
+        <begin position="561"/>
+        <end position="602"/>
+      </location>
+    </feature>
+    <feature description="PFTB 3" type="repeat">
+      <location>
+        <begin position="611"/>
+        <end position="657"/>
+      </location>
+    </feature>
+    <feature description="Proton donor" evidence="1" type="active site">
+      <location>
+        <position position="450"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAA34342." evidence="2" ref="1" type="sequence conflict">
+      <original>PD</original>
+      <variation>SG</variation>
+      <location>
+        <begin position="66"/>
+        <end position="67"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="P48449" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000305"/>
+    <sequence checksum="1449ACB621540255" length="728" mass="83783" modified="2017-03-15" version="2">MYYSEEIGLPKTDISRWRLRSDALGRETWHYLSQSECESEPQSTFVQWLLESPDFPSPPSSDIHTPDEAARKGADFLKLLQLDNGIFPCQYKGPMFMTIGYVTANYYSKTEIPEPYRVEMIRYIVNTAHPVDGGWGLHSVDKSTCFGTTMNYVCLRLLGMEKDHPVLVKARKTLHRLGGAIKNPHWGKAWLSILNLYEWEGVNPAPPELWRLPYWLPIHPAKWWVHTRAIYLPLGYTSANRVQCELDPLLKEIRNEIYVPSQLPYESIKFGNQRNNVCGVDLYYPHTKILDFANSILSKWEAVRPKWLLNWVNKKVYDLIVKEYQNTEYLCIAPVSFAFNMVVTCHYEGSESENFKKLQNRMNDVLFHGPQGMTVMGTNGVQVWDAAFMVQYFFMTGLVDDPKYHDMIRKSYLFLVRSQFTENCVDGSFRDRRKGAWPFSTKEQGYTVSDCTAEAMKAIIMVRNHASFADIRDEIKDENLFDAVEVLLQIQNVGEWEYGSFSTYEGIKAPLLLEKLNPAEVFNNIMVEYPYVECTDSSVLGLTYFAKYYPDYKPELIQKTISSAIQYILDSQDNIDGSWYGCWGICYTYASMFALEALHTVGLDYESSSAVKKGCDFLISKQLPDGGWSESMKGCETHSYVNGENSLVVQSAWALIGLILGNYPDEEPIKRGIQFLMKRQLPTGEWKYEDIEGVFNHSCAIEYPSYRFLFPIKALGLYKNKYGDKVLV</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

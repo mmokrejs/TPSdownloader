@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2012-02-22" modified="2021-04-07" version="44">
+<accession>E4V6I8</accession>
+<name>PDSA_ARTGP</name>
+<protein>
+<recommendedName>
+<fullName>Protostadienol synthase A</fullName>
+<ecNumber>5.4.99.32</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">PDSA</name>
+<name type="ORF">MGYG_08628</name>
+</gene>
+<organism>
+<name type="scientific">Arthroderma gypseum (strain ATCC MYA-4604 / CBS 118893)</name>
+<name type="synonym">Microsporum gypseum</name>
+<dbReference type="NCBI Taxonomy" id="535722"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Eurotiomycetes</taxon>
+<taxon>Eurotiomycetidae</taxon>
+<taxon>Onygenales</taxon>
+<taxon>Arthrodermataceae</taxon>
+<taxon>Nannizzia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2012" name="MBio" volume="3" first="E259" last="E259">
+<title>Comparative genome analysis of Trichophyton rubrum and related dermatophytes reveals candidate genes involved in infection.</title>
+<authorList>
+<person name="Martinez D.A."/>
+<person name="Oliver B.G."/>
+<person name="Graeser Y."/>
+<person name="Goldberg J.M."/>
+<person name="Li W."/>
+<person name="Martinez-Rossi N.M."/>
+<person name="Monod M."/>
+<person name="Shelest E."/>
+<person name="Barton R.C."/>
+<person name="Birch E."/>
+<person name="Brakhage A.A."/>
+<person name="Chen Z."/>
+<person name="Gurr S.J."/>
+<person name="Heiman D."/>
+<person name="Heitman J."/>
+<person name="Kosti I."/>
+<person name="Rossi A."/>
+<person name="Saif S."/>
+<person name="Samalova M."/>
+<person name="Saunders C.W."/>
+<person name="Shea T."/>
+<person name="Summerbell R.C."/>
+<person name="Xu J."/>
+<person name="Young S."/>
+<person name="Zeng Q."/>
+<person name="Birren B.W."/>
+<person name="Cuomo C.A."/>
+<person name="White T.C."/>
+</authorList>
+<dbReference type="PubMed" id="22951933"/>
+<dbReference type="DOI" id="10.1128/mbio.00259-12"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC MYA-4604 / CBS 118893</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Protostadienol synthase which cyclizes (3S)-oxidosqualene to (17Z)-protosta-17(20),24-dien-3-beta-ol (protostadienol), the biosynthetic precursor of helvolic acid, a secondary metabolite which promotes virulence.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>(S)-2,3-epoxysqualene = (17Z)-protosta-17(20),24-dien-3beta-ol</text>
+<dbReference type="Rhea" id="RHEA:30987"/>
+<dbReference type="ChEBI" id="CHEBI:15441"/>
+<dbReference type="ChEBI" id="CHEBI:62457"/>
+<dbReference type="EC" id="5.4.99.32"/>
+</reaction>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the terpene cyclase/mutase family.</text>
+</comment>
+<dbReference type="EC" id="5.4.99.32"/>
+<dbReference type="EMBL" id="DS989831">
+<property type="protein sequence ID" value="EFQ96704.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_003169081.1">
+<property type="nucleotide sequence ID" value="XM_003169033.1"/>
+</dbReference>
+<dbReference type="SMR" id="E4V6I8"/>
+<dbReference type="STRING" id="63402.XP_003169081.1"/>
+<dbReference type="EnsemblFungi" id="EFQ96704">
+<property type="protein sequence ID" value="EFQ96704"/>
+<property type="gene ID" value="MGYG_08628"/>
+</dbReference>
+<dbReference type="GeneID" id="10024264"/>
+<dbReference type="eggNOG" id="KOG0497">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_009074_2_1_1"/>
+<dbReference type="InParanoid" id="E4V6I8"/>
+<dbReference type="OrthoDB" id="365003at2759"/>
+<dbReference type="Proteomes" id="UP000002669">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005811">
+<property type="term" value="C:lipid droplet"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042300">
+<property type="term" value="F:beta-amyrin synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000250">
+<property type="term" value="F:lanosterol synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009405">
+<property type="term" value="P:pathogenesis"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006694">
+<property type="term" value="P:steroid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016104">
+<property type="term" value="P:triterpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="CDD" id="cd02892">
+<property type="entry name" value="SQCY_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032696">
+<property type="entry name" value="SQ_cyclase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032697">
+<property type="entry name" value="SQ_cyclase_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018333">
+<property type="entry name" value="Squalene_cyclase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13243">
+<property type="entry name" value="SQHop_cyclase_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13249">
+<property type="entry name" value="SQHop_cyclase_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01016">
+<property type="entry name" value="Prenyltransferase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01787">
+<property type="entry name" value="squalene_cyclas"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0413">Isomerase</keyword>
+<keyword id="KW-0444">Lipid biosynthesis</keyword>
+<keyword id="KW-0443">Lipid metabolism</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0752">Steroid biosynthesis</keyword>
+<keyword id="KW-0843">Virulence</keyword>
+<feature type="chain" description="Protostadienol synthase A" id="PRO_0000415498">
+<location>
+<begin position="1"/>
+<end position="735"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 1">
+<location>
+<begin position="129"/>
+<end position="170"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 2">
+<location>
+<begin position="487"/>
+<end position="528"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 3">
+<location>
+<begin position="564"/>
+<end position="604"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 4">
+<location>
+<begin position="613"/>
+<end position="660"/>
+</location>
+</feature>
+<feature type="active site" description="Proton donor" evidence="2">
+<location>
+<position position="460"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P48449"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="735" mass="82905" checksum="263F8DEB2E3AA290" modified="2011-02-08" version="1">MPVADIEMVTGSAGHVDSKAASEYGTDLRRWRLKVHEGRHMWEYVDEDVAQTQQQTFAENYWLGQEYELPKMSTPIFAQDALDNGWAFFKRLQTQDGHWGCHDDGPLFVTSGIVISSYICGITLPDAMKNEMIRYLLNFVNEDGGWGLWINSPSTVFGTTMNYTMLRILGVPSTHPALLDARDTLLKMGSARALPTWGKFWMCALGAYEWDGMIPLAPEPLLAPGFLPLNPGNWWVHTRNVFVSMSYLFGHRFSAPMTPLIQELREELYDMPYHKIDWFAQQTNISDYDRLHPPTMLQKGLANALCYYEYVKVPYLRRKALDEALFQVEMEVHNTSYLCIAPVSFASNMLVMFHAHGANSHWVKGMADRIIDPMWMCREGMAASGTNGTSVWDTALTVQAALDGGLAQRPENHNTMLEALKFIEVSQITENPLGVSQGYRQPTKGAWPFSTRDQAYAVSDTTAVTVRAVIQLQALKSMPKLVSDERLAEAVDLIIGMENKCDGYSAFEPLRGPKALELLNITELYDNVMTESLYPECTSSVLLCLDTFTKAYPHHRPVEIQSIMARCARYLIKAQFPCGGWLASWGVCFTYATMFALQGLETVGLRESNSETCRNACSFLLQYQNDDGGWGEDLISIREKRYIQDPAGSQVTCTAYALMGLISAHCSNRDALRRGIRWLMRAQQATGEWLPGSLEGIFACPGGMRYPNYKFHFTLSAIGRYIERYGDEALYLKEQ</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

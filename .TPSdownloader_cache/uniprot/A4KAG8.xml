@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2009-05-05" dataset="Swiss-Prot" modified="2021-04-07" version="83">
+    <accession>A4KAG8</accession>
+    <accession>A0A0P0VKP2</accession>
+    <accession>Q0E083</accession>
+    <accession>Q2PHF1</accession>
+    <accession>Q69DS6</accession>
+    <accession>Q6Z5J0</accession>
+    <name>KSL6_ORYSJ</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="7">Ent-isokaur-15-ene synthase</fullName>
+        <ecNumber evidence="3 4">4.2.3.103</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="5">Ent-kaurene synthase-like 5</fullName>
+        <shortName evidence="5">OsKS5</shortName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="6">Ent-kaurene synthase-like 6</fullName>
+        <shortName evidence="6">OsKS6</shortName>
+        <shortName evidence="6">OsKSL6</shortName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="7">Iso-kaurene synthase</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="6" type="primary">KSL6</name>
+      <name evidence="5" type="synonym">KS5</name>
+      <name evidence="7" type="ordered locus">Os02g0571800</name>
+      <name evidence="7" type="ordered locus">LOC_Os02g36264</name>
+      <name evidence="8" type="ORF">P0689H05.34</name>
+    </gene>
+    <organism>
+      <name type="scientific">Oryza sativa subsp. japonica</name>
+      <name type="common">Rice</name>
+      <dbReference id="39947" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>Liliopsida</taxon>
+        <taxon>Poales</taxon>
+        <taxon>Poaceae</taxon>
+        <taxon>BOP clade</taxon>
+        <taxon>Oryzoideae</taxon>
+        <taxon>Oryzeae</taxon>
+        <taxon>Oryzinae</taxon>
+        <taxon>Oryza</taxon>
+        <taxon>Oryza sativa</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2007" first="312" last="326" name="Phytochemistry" type="journal article" volume="68">
+        <title>Functional characterization of the rice kaurene synthase-like gene family.</title>
+        <authorList>
+          <person name="Xu M."/>
+          <person name="Wilderman P.R."/>
+          <person name="Morrone D."/>
+          <person name="Xu J."/>
+          <person name="Roy A."/>
+          <person name="Margis-Pinheiro M."/>
+          <person name="Upadhyaya N.M."/>
+          <person name="Coates R.M."/>
+          <person name="Peters R.J."/>
+        </authorList>
+        <dbReference id="17141283" type="PubMed"/>
+        <dbReference id="10.1016/j.phytochem.2006.10.016" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <source>
+        <strain>cv. Nipponbare</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2005" first="793" last="800" name="Nature" type="journal article" volume="436">
+        <title>The map-based sequence of the rice genome.</title>
+        <authorList>
+          <consortium name="International rice genome sequencing project (IRGSP)"/>
+        </authorList>
+        <dbReference id="16100779" type="PubMed"/>
+        <dbReference id="10.1038/nature03895" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>cv. Nipponbare</strain>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2008" first="D1028" last="D1033" name="Nucleic Acids Res." type="journal article" volume="36">
+        <title>The rice annotation project database (RAP-DB): 2008 update.</title>
+        <authorList>
+          <consortium name="The rice annotation project (RAP)"/>
+        </authorList>
+        <dbReference id="18089549" type="PubMed"/>
+        <dbReference id="10.1093/nar/gkm978" type="DOI"/>
+      </citation>
+      <scope>GENOME REANNOTATION</scope>
+      <source>
+        <strain>cv. Nipponbare</strain>
+      </source>
+    </reference>
+    <reference key="4">
+      <citation date="2013" first="4" last="4" name="Rice" type="journal article" volume="6">
+        <title>Improvement of the Oryza sativa Nipponbare reference genome using next generation sequence and optical map data.</title>
+        <authorList>
+          <person name="Kawahara Y."/>
+          <person name="de la Bastide M."/>
+          <person name="Hamilton J.P."/>
+          <person name="Kanamori H."/>
+          <person name="McCombie W.R."/>
+          <person name="Ouyang S."/>
+          <person name="Schwartz D.C."/>
+          <person name="Tanaka T."/>
+          <person name="Wu J."/>
+          <person name="Zhou S."/>
+          <person name="Childs K.L."/>
+          <person name="Davidson R.M."/>
+          <person name="Lin H."/>
+          <person name="Quesada-Ocampo L."/>
+          <person name="Vaillancourt B."/>
+          <person name="Sakai H."/>
+          <person name="Lee S.S."/>
+          <person name="Kim J."/>
+          <person name="Numa H."/>
+          <person name="Itoh T."/>
+          <person name="Buell C.R."/>
+          <person name="Matsumoto T."/>
+        </authorList>
+        <dbReference id="24280374" type="PubMed"/>
+        <dbReference id="10.1186/1939-8433-6-4" type="DOI"/>
+      </citation>
+      <scope>GENOME REANNOTATION</scope>
+      <source>
+        <strain>cv. Nipponbare</strain>
+      </source>
+    </reference>
+    <reference key="5">
+      <citation date="2005" first="819" last="833" name="Plant Cell Rep." type="journal article" volume="23">
+        <title>Isolation and characterization of a Ds-tagged rice (Oryza sativa L.) GA-responsive dwarf mutant defective in an early step of the gibberellin biosynthesis pathway.</title>
+        <authorList>
+          <person name="Margis-Pinheiro M."/>
+          <person name="Zhou X.-R."/>
+          <person name="Zhu Q.-H."/>
+          <person name="Dennis E.S."/>
+          <person name="Upadhyaya N.M."/>
+        </authorList>
+        <dbReference id="15668792" type="PubMed"/>
+        <dbReference id="10.1007/s00299-004-0896-6" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA] OF 1-624</scope>
+      <scope>TISSUE SPECIFICITY</scope>
+      <source>
+        <strain>cv. Nipponbare</strain>
+      </source>
+    </reference>
+    <reference key="6">
+      <citation date="2006" first="1702" last="1710" name="Biosci. Biotechnol. Biochem." type="journal article" volume="70">
+        <title>Characterization of a rice gene family encoding type-A diterpene cyclases.</title>
+        <authorList>
+          <person name="Kanno Y."/>
+          <person name="Otomo K."/>
+          <person name="Kenmoku H."/>
+          <person name="Mitsuhashi W."/>
+          <person name="Yamane H."/>
+          <person name="Oikawa H."/>
+          <person name="Toshima H."/>
+          <person name="Matsuoka M."/>
+          <person name="Sassa T."/>
+          <person name="Toyomasu T."/>
+        </authorList>
+        <dbReference id="16861806" type="PubMed"/>
+        <dbReference id="10.1271/bbb.60044" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA] OF 46-821</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>PATHWAY</scope>
+      <source>
+        <strain>cv. Nipponbare</strain>
+      </source>
+    </reference>
+    <reference key="7">
+      <citation date="2007" first="7397" last="7401" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="104">
+        <title>Following evolution's lead to a single residue switch for diterpene synthase product outcome.</title>
+        <authorList>
+          <person name="Xu M."/>
+          <person name="Wilderman P.R."/>
+          <person name="Peters R.J."/>
+        </authorList>
+        <dbReference id="17456599" type="PubMed"/>
+        <dbReference id="10.1073/pnas.0611454104" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>MUTAGENESIS OF ILE-664</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="3 4">Involved in the biosynthesis of ent-kaurene diterpenoids natural products (PubMed:17456599, PubMed:16861806). Catalyzes the conversion of ent-copalyl diphosphate to the phytoalexin precursor ent-isokaur-15-ene (PubMed:17456599, PubMed:16861806).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3 4">
+        <text>ent-copalyl diphosphate = diphosphate + ent-isokaurene</text>
+        <dbReference id="RHEA:25759" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:50783" type="ChEBI"/>
+        <dbReference id="CHEBI:58553" type="ChEBI"/>
+        <dbReference id="4.2.3.103" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="3 4">
+        <dbReference id="RHEA:25760" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment evidence="3 4" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="tissue specificity">
+      <text evidence="2">Expressed in roots and stems.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="7">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="miscellaneous">
+      <text>Phytoalexins are diterpenoid secondary metabolites involved in the defense mechanism of the plant and produced in response to attack (by a pathogen, elicitor or UV irradiation).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="7">Belongs to the terpene synthase family.</text>
+    </comment>
+    <comment evidence="7" type="sequence caution">
+      <conflict type="erroneous gene model prediction">
+        <sequence id="BAD17276" resource="EMBL-CDS" version="1"/>
+      </conflict>
+    </comment>
+    <comment evidence="7" type="sequence caution">
+      <conflict type="erroneous gene model prediction">
+        <sequence id="BAF09105" resource="EMBL-CDS" version="1"/>
+      </conflict>
+    </comment>
+    <dbReference evidence="3 4" id="4.2.3.103" type="EC"/>
+    <dbReference id="DQ823353" type="EMBL">
+      <property type="protein sequence ID" value="ABH10733.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AP005114" type="EMBL">
+      <property type="protein sequence ID" value="BAD17276.1"/>
+      <property type="status" value="ALT_SEQ"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="AP008208" type="EMBL">
+      <property type="protein sequence ID" value="BAF09105.1"/>
+      <property type="status" value="ALT_SEQ"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="AP014958" type="EMBL">
+      <property type="protein sequence ID" value="BAS79348.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="AY347881" type="EMBL">
+      <property type="protein sequence ID" value="AAQ72564.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AB126936" type="EMBL">
+      <property type="protein sequence ID" value="BAE72101.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="XP_015625945.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="XM_015770459.1"/>
+    </dbReference>
+    <dbReference id="XP_015625947.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="XM_015770461.1"/>
+    </dbReference>
+    <dbReference id="A4KAG8" type="SMR"/>
+    <dbReference id="4530.OS02T0571800-00" type="STRING"/>
+    <dbReference id="A4KAG8" type="PaxDb"/>
+    <dbReference id="A4KAG8" type="PRIDE"/>
+    <dbReference id="Os02t0571800-00" type="EnsemblPlants">
+      <property type="protein sequence ID" value="Os02t0571800-00"/>
+      <property type="gene ID" value="Os02g0571800"/>
+    </dbReference>
+    <dbReference id="4329729" type="GeneID"/>
+    <dbReference id="Os02t0571800-00" type="Gramene">
+      <property type="protein sequence ID" value="Os02t0571800-00"/>
+      <property type="gene ID" value="Os02g0571800"/>
+    </dbReference>
+    <dbReference id="osa:4329729" type="KEGG"/>
+    <dbReference id="ENOG502QVGX" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="CLU_003125_2_0_1" type="HOGENOM"/>
+    <dbReference id="A4KAG8" type="InParanoid"/>
+    <dbReference id="MRTCAMA" type="OMA"/>
+    <dbReference id="1658056at2759" type="OrthoDB"/>
+    <dbReference id="MetaCyc:MONOMER-18623" type="BioCyc"/>
+    <dbReference id="R-OSA-9610720" type="PlantReactome">
+      <property type="pathway name" value="Oryzalide A biosynthesis"/>
+    </dbReference>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="UP000000763" type="Proteomes">
+      <property type="component" value="Chromosome 2"/>
+    </dbReference>
+    <dbReference id="UP000059680" type="Proteomes">
+      <property type="component" value="Chromosome 2"/>
+    </dbReference>
+    <dbReference id="A4KAG8" type="Genevisible">
+      <property type="organism ID" value="OS"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0006952" type="GO">
+      <property type="term" value="P:defense response"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0016102" type="GO">
+      <property type="term" value="P:diterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-0611">Plant defense</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="Ent-isokaur-15-ene synthase" id="PRO_0000372319" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="821"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="7" type="short sequence motif">
+      <location>
+        <begin position="556"/>
+        <end position="560"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="556"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="556"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="560"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="560"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="701"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="705"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="709"/>
+      </location>
+    </feature>
+    <feature description="Changes catalytic activity. Converts ent-copalyl diphosphate to ent-pimara-8(14),15-diene and diphosphate." evidence="4" type="mutagenesis site">
+      <original>I</original>
+      <variation>T</variation>
+      <location>
+        <position position="664"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 6; BAE72101." evidence="7" ref="6" type="sequence conflict">
+      <original>V</original>
+      <variation>A</variation>
+      <location>
+        <position position="92"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; ABH10733 and 5; AAQ72564." evidence="7" ref="1 5" type="sequence conflict">
+      <original>L</original>
+      <variation>P</variation>
+      <location>
+        <position position="156"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; ABH10733." evidence="7" ref="1" type="sequence conflict">
+      <original>R</original>
+      <variation>G</variation>
+      <location>
+        <position position="757"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="Q40577" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="15668792" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="16861806" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="17456599" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000303">
+      <source>
+        <dbReference id="16861806" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000303">
+      <source>
+        <dbReference id="17456599" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000305"/>
+    <evidence key="8" type="ECO:0000312">
+      <source>
+        <dbReference id="BAD17276.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="2191522B9B719A5D" length="821" mass="92408" modified="2009-05-05" version="2">MMLPMSSACSGGQFPGASPHGIIPKQFSRAPRIRVSIRGAAGVEKSLGLGRNAGSQQGMHKNELHDKIRKQLRDVQLQPSSYDTAWVAMVPVQGSHQTPRFPQSIEWILQNQYDDGSWGTNLPGLVVNKDILLCTLACVVALKRWNTGRDHISRGLNFIGRNFSVAMDEQTVAPVGFNITFSGLLSLATRTGLELPVMQTDIDGIIHIRKIELERDAYGTASSRRAFMAYVSEGLGNLQDWNQVMAYQRKNGSIFNSPSATAATIIHGHNYSGLAYLDFVTSKFGGPVPVMYPQNAYSQLCMVDTLERMGISESFACEISDILDMTYRLWMHNEEELMLDMRTCAMAFRLLRMHGYDITSDGMAQFVEQSSFDDSIHGYLNDTKALLELYKSSQLRCLEDDLILEEIGSWSARVLLEKISSKMIHISELPEVEYALKCPVYAILERLEQKRNIEQFKTKEQLKIEGFKLLKSGYRGVIPNDEILALAVDEFHSSQSVYQQELQDLNSWVAHTRLDELKFARLMPSITYFSAAAVLLPSESARIAWTQNCILTTTVDDFFDGEGSKEEMENLVKLIEKWDDHGEIGFSSECVEILFYAVYNTSKQIAEKAMPLQKRNAVDHIAESWWFTVRGMLTEAEWRMDKYVPTTVEEYMSAAVDSFAVGPIITSAALFVGPELSEEVFRSEEYIHLMNLANTIGRLLNDMQTYEKEIKMGKVNSVMLHALSHSGGGRGSPEASMEEAKREMRRVLQGCRFELLRLVTRDAGVVPPPCRKLFWLMSKVLHFVYMEKDRYFTAEGMMASANAVILDPLQVTLPPSDSGTL</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

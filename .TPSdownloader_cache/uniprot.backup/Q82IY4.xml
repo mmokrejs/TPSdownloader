@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2013-04-03" modified="2020-12-02" version="96">
+<accession>Q82IY4</accession>
+<name>PTLA_STRAW</name>
+<protein>
+<recommendedName>
+<fullName>Pentalenene synthase</fullName>
+<shortName>PS</shortName>
+<ecNumber>4.2.3.7</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Pentalenolactone biosynthesis protein A</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Sesquiterpene cyclase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Sesquiterpene synthase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">ptlA</name>
+<name type="ordered locus">SAV_2998</name>
+</gene>
+<organism>
+<name type="scientific">Streptomyces avermitilis (strain ATCC 31267 / DSM 46492 / JCM 5070 / NBRC 14893 / NCIMB 12804 / NRRL 8165 / MA-4680)</name>
+<dbReference type="NCBI Taxonomy" id="227882"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Streptomycetales</taxon>
+<taxon>Streptomycetaceae</taxon>
+<taxon>Streptomyces</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2001" name="Proc. Natl. Acad. Sci. U.S.A." volume="98" first="12215" last="12220">
+<title>Genome sequence of an industrial microorganism Streptomyces avermitilis: deducing the ability of producing secondary metabolites.</title>
+<authorList>
+<person name="Omura S."/>
+<person name="Ikeda H."/>
+<person name="Ishikawa J."/>
+<person name="Hanamoto A."/>
+<person name="Takahashi C."/>
+<person name="Shinose M."/>
+<person name="Takahashi Y."/>
+<person name="Horikawa H."/>
+<person name="Nakazawa H."/>
+<person name="Osonoe T."/>
+<person name="Kikuchi H."/>
+<person name="Shiba T."/>
+<person name="Sakaki Y."/>
+<person name="Hattori M."/>
+</authorList>
+<dbReference type="PubMed" id="11572948"/>
+<dbReference type="DOI" id="10.1073/pnas.211433198"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 31267 / DSM 46492 / JCM 5070 / NBRC 14893 / NCIMB 12804 / NRRL 8165 / MA-4680</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2003" name="Nat. Biotechnol." volume="21" first="526" last="531">
+<title>Complete genome sequence and comparative analysis of the industrial microorganism Streptomyces avermitilis.</title>
+<authorList>
+<person name="Ikeda H."/>
+<person name="Ishikawa J."/>
+<person name="Hanamoto A."/>
+<person name="Shinose M."/>
+<person name="Kikuchi H."/>
+<person name="Shiba T."/>
+<person name="Sakaki Y."/>
+<person name="Hattori M."/>
+<person name="Omura S."/>
+</authorList>
+<dbReference type="PubMed" id="12692562"/>
+<dbReference type="DOI" id="10.1038/nbt820"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 31267 / DSM 46492 / JCM 5070 / NBRC 14893 / NCIMB 12804 / NRRL 8165 / MA-4680</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Biochemistry" volume="45" first="6179" last="6186">
+<title>A gene cluster for biosynthesis of the sesquiterpenoid antibiotic pentalenolactone in Streptomyces avermitilis.</title>
+<authorList>
+<person name="Tetzlaff C.N."/>
+<person name="You Z."/>
+<person name="Cane D.E."/>
+<person name="Takamatsu S."/>
+<person name="Omura S."/>
+<person name="Ikeda H."/>
+</authorList>
+<dbReference type="PubMed" id="16681390"/>
+<dbReference type="DOI" id="10.1021/bi060419n"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<source>
+<strain>ATCC 31267 / DSM 46492 / JCM 5070 / NBRC 14893 / NCIMB 12804 / NRRL 8165 / MA-4680</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2011" name="Biochemistry" volume="50" first="1739" last="1754">
+<title>Genome mining in Streptomyces. Elucidation of the role of Baeyer-Villiger monooxygenases and non-heme iron-dependent dehydrogenase/oxygenases in the final steps of the biosynthesis of pentalenolactone and neopentalenolactone.</title>
+<authorList>
+<person name="Seo M.J."/>
+<person name="Zhu D."/>
+<person name="Endo S."/>
+<person name="Ikeda H."/>
+<person name="Cane D.E."/>
+</authorList>
+<dbReference type="PubMed" id="21250661"/>
+<dbReference type="DOI" id="10.1021/bi1019786"/>
+</citation>
+<scope>PATHWAY</scope>
+<source>
+<strain>ATCC 31267 / DSM 46492 / JCM 5070 / NBRC 14893 / NCIMB 12804 / NRRL 8165 / MA-4680</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2">Catalyzes the cyclization of farnesyl diphosphate (FPP) to the tricyclic sesquiterpene pentalenene in the biosynthesis of neopentalenolactone antibiotic.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate = diphosphate + pentalenene</text>
+<dbReference type="Rhea" id="RHEA:18081"/>
+<dbReference type="ChEBI" id="CHEBI:17251"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.7"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2">36 uM for farnesyl diphosphate</KM>
+<text>kcat is 0.605 sec(-1).</text>
+</kinetics>
+</comment>
+<comment type="pathway" evidence="3">
+<text>Antibiotic biosynthesis; neopentalenolactone biosynthesis.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Monomer.</text>
+</comment>
+<comment type="domain">
+<text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="miscellaneous">
+<text evidence="5">S.avermitilis does not produce pentalenolactone itself in vivo but instead a group of new metabolites that are neopentalenolactone derivatives.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.7"/>
+<dbReference type="EMBL" id="BA000030">
+<property type="protein sequence ID" value="BAC70709.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010984429.1">
+<property type="nucleotide sequence ID" value="NZ_JZJK01000090.1"/>
+</dbReference>
+<dbReference type="SMR" id="Q82IY4"/>
+<dbReference type="STRING" id="227882.SAV_2998"/>
+<dbReference type="EnsemblBacteria" id="BAC70709">
+<property type="protein sequence ID" value="BAC70709"/>
+<property type="gene ID" value="SAVERM_2998"/>
+</dbReference>
+<dbReference type="KEGG" id="sma:SAVERM_2998"/>
+<dbReference type="eggNOG" id="COG2124">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_042538_4_0_11"/>
+<dbReference type="OMA" id="ARSARHW"/>
+<dbReference type="OrthoDB" id="1869158at2"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-16846"/>
+<dbReference type="BioCyc" id="SAVE227882:G1G23-3162-MONOMER"/>
+<dbReference type="UniPathway" id="UPA01021"/>
+<dbReference type="Proteomes" id="UP000000428">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050467">
+<property type="term" value="F:pentalenene synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0017000">
+<property type="term" value="P:antibiotic biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:1901336">
+<property type="term" value="P:lactone biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034686">
+<property type="entry name" value="Terpene_cyclase-like_2"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01020">
+<property type="entry name" value="Terpene_Cyclase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0045">Antibiotic biosynthesis</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Pentalenene synthase" id="PRO_0000422012">
+<location>
+<begin position="1"/>
+<end position="336"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif">
+<location>
+<begin position="80"/>
+<end position="84"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="80"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="80"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="84"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="84"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="219"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="223"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="227"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16681390"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="21250661"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<evidence key="5" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="21250661"/>
+</source>
+</evidence>
+<sequence length="336" mass="37897" checksum="953DBA6E0F4B217D" modified="2003-06-01" version="1">MPQDVDFHIPFPSRRSPDFERARADHLSWPRALGLIGTDAAAERHSRGGYADLAARFYPSATGADLDLGVDLMSWFFLFDDLFDGPRGEDPQETRKLTDAVAAALDGPLPTSAPPIAHGFADVWRRTCQGMSPAWRARSARHWRNYFSGYVDEAVSRHLNTPYDSAGHYLAMRRQTIGVQPTVDLAERSCHCEVPQRVFDSAVLFAMLQIATDTNLILNDIASLEKEEARGELNNMVFILMREHGWTRGRSIAHMQDGVRTRLEQFLLLEACLPKVYDTFELTAQERESAEKYRMDGVRSVIRGSYDWHRSSGRYAADYAIAASYQGYLEELGSTL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

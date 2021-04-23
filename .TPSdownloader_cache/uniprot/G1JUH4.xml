@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2011-10-19" dataset="TrEMBL" modified="2021-04-07" version="68">
+    <accession>G1JUH4</accession>
+    <name>G1JUH4_SOLLC</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="4 5">Beta myrcene/limonene synthase</fullName>
+      </submittedName>
+    </protein>
+    <gene>
+      <name evidence="4" type="primary">TPS7</name>
+      <name evidence="5" type="synonym">101247865</name>
+    </gene>
+    <organism evidence="4">
+      <name type="scientific">Solanum lycopersicum</name>
+      <name type="common">Tomato</name>
+      <name type="synonym">Lycopersicon esculentum</name>
+      <dbReference id="4081" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>lamiids</taxon>
+        <taxon>Solanales</taxon>
+        <taxon>Solanaceae</taxon>
+        <taxon>Solanoideae</taxon>
+        <taxon>Solaneae</taxon>
+        <taxon>Solanum</taxon>
+        <taxon>Solanum subgen. Lycopersicon</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="4" key="1">
+      <citation date="2011" first="770" last="789" name="Plant Physiol." type="journal article" volume="157">
+        <title>The tomato terpene synthase gene family.</title>
+        <authorList>
+          <person name="Falara V."/>
+          <person name="Akhtar T.A."/>
+          <person name="Nguyen T.T."/>
+          <person name="Spyropoulou E.A."/>
+          <person name="Bleeker P.M."/>
+          <person name="Schauvinhold I."/>
+          <person name="Matsuba Y."/>
+          <person name="Bonini M.E."/>
+          <person name="Schilmiller A.L."/>
+          <person name="Last R.L."/>
+          <person name="Schuurink R.C."/>
+          <person name="Pichersky E."/>
+        </authorList>
+        <dbReference id="21813655" type="PubMed"/>
+        <dbReference id="10.1104/pp.111.179648" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <reference evidence="5" key="2">
+      <citation date="2012" first="635" last="641" name="Nature" type="journal article" volume="485">
+        <title>The tomato genome sequence provides insights into fleshy fruit evolution.</title>
+        <authorList>
+          <consortium name="Tomato Genome Consortium"/>
+        </authorList>
+        <dbReference id="22660326" type="PubMed"/>
+        <dbReference id="10.1038/nature11119" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain evidence="5">cv. Heinz 1706</strain>
+      </source>
+    </reference>
+    <reference evidence="5" key="3">
+      <citation date="2019-01" db="UniProtKB" type="submission">
+        <authorList>
+          <consortium name="EnsemblPlants"/>
+        </authorList>
+      </citation>
+      <scope>IDENTIFICATION</scope>
+      <source>
+        <strain evidence="5">cv. Heinz 1706</strain>
+      </source>
+    </reference>
+    <dbReference id="JN408287" type="EMBL">
+      <property type="protein sequence ID" value="AEM05856.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="NP_001308094.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_001321165.1"/>
+    </dbReference>
+    <dbReference id="G1JUH4" type="SMR"/>
+    <dbReference id="4081.Solyc01g105920.2.1" type="STRING"/>
+    <dbReference id="Solyc01g105920.3.1" type="EnsemblPlants">
+      <property type="protein sequence ID" value="Solyc01g105920.3.1"/>
+      <property type="gene ID" value="Solyc01g105920.3"/>
+    </dbReference>
+    <dbReference id="101247865" type="GeneID"/>
+    <dbReference id="Solyc01g105920.3.1" type="Gramene">
+      <property type="protein sequence ID" value="Solyc01g105920.3.1"/>
+      <property type="gene ID" value="Solyc01g105920.3"/>
+    </dbReference>
+    <dbReference id="sly:101247865" type="KEGG"/>
+    <dbReference id="ENOG502QUH3" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="CLU_003125_7_1_1" type="HOGENOM"/>
+    <dbReference id="VRCAATI" type="OMA"/>
+    <dbReference id="401091at2759" type="OrthoDB"/>
+    <dbReference id="UP000004994" type="Proteomes">
+      <property type="component" value="Chromosome 1"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword evidence="1" id="KW-0479">Metal-binding</keyword>
+    <keyword evidence="6" id="KW-1185">Reference proteome</keyword>
+    <feature description="Terpene_synth" evidence="2" type="domain">
+      <location>
+        <begin position="57"/>
+        <end position="238"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="3" type="domain">
+      <location>
+        <begin position="269"/>
+        <end position="533"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000313">
+      <source>
+        <dbReference id="AEM05856.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000313">
+      <source>
+        <dbReference id="Solyc01g105920.3.1" type="EnsemblPlants"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000313">
+      <source>
+        <dbReference id="UP000004994" type="Proteomes"/>
+      </source>
+    </evidence>
+    <sequence checksum="73E4BED18596573D" length="592" mass="69122" modified="2011-10-19" version="1">MVSIFSNAGMMMVTFNRPSFTCFSSLHHYSISARGAINNISTPISATRRSGNYKPTMWDFQFIQSLHNPYEGDKYMKRLNELKKEVKKMMMTVEGSHDEELEKLELIDNLERLGVSYHFKDEIMQILRSINININIAPPDSLYTTSLKFRLLRQHGFHISQDVLKDFKDENGNLKQSICKDTKGMLELYEASFLSTETENTLKSATRFTMSHLKNYVDNHSCGNQDDDIIVELVVHALELPRHWMMPKLETEWYIRIYGRMPNANPLLLELAKLDFNIVQAAHQQDLKILSRWWKSMSLAEKLSFSRDRLVEDFFWSVGLAFEPQHSLCRRMLAKNVAFIIVIDDIYDVYGSLDELEIFTHAVERWDIKAMEQLPDYMKICYLSLFNTTNEMAYHILKQQGINVLPYLTKQWTDLCKSYLQEAKWYHNGHKPRLEEYMDNAWISIATPLVLLHAFIFLTNPITQEALESLNNYPDIIRRCAIINRFVDDLGTSSDELKRGDVPKSIQCYMNDTGASEEEAREHINLLIKEMWEVMNKDQISKQVLFSEEFIKIVFNFSRTSHCVYQHGDGHGIQNSHITNRISKLLFEPLII</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

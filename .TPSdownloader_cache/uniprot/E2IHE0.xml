@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2012-10-31" dataset="Swiss-Prot" modified="2021-04-07" version="39">
+    <accession>E2IHE0</accession>
+    <name>CLDS_CISCR</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="6">Copal-8-ol diphosphate hydratase, chloroplastic</fullName>
+        <ecNumber evidence="5">4.2.1.133</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="6">Copal-8-ol diphosphate synthase</fullName>
+        <shortName evidence="6">CcCLS</shortName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="6" type="primary">CLS</name>
+    </gene>
+    <organism>
+      <name type="scientific">Cistus creticus subsp. creticus</name>
+      <name type="common">Rock rose</name>
+      <dbReference id="483148" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>malvids</taxon>
+        <taxon>Malvales</taxon>
+        <taxon>Cistaceae</taxon>
+        <taxon>Cistus</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2010" first="301" last="310" name="Plant Physiol." type="journal article" volume="154">
+        <title>A copal-8-ol diphosphate synthase from the angiosperm Cistus creticus subsp. creticus is a putative key enzyme for the formation of pharmacologically active, oxygen-containing labdane-type diterpenes.</title>
+        <authorList>
+          <person name="Falara V."/>
+          <person name="Pichersky E."/>
+          <person name="Kanellis A.K."/>
+        </authorList>
+        <dbReference id="20595348" type="PubMed"/>
+        <dbReference id="10.1104/pp.110.159566" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>TISSUE SPECIFICITY</scope>
+      <scope>INDUCTION BY WOUNDING</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <reference key="2">
+      <citation date="2019" first="626" last="665" name="Nat. Prod. Rep." type="journal article" volume="36">
+        <title>Non-volatile natural products in plant glandular trichomes: chemistry, biological activities and biosynthesis.</title>
+        <authorList>
+          <person name="Liu Y."/>
+          <person name="Jing S.-X."/>
+          <person name="Luo S.-H."/>
+          <person name="Li S.-H."/>
+        </authorList>
+        <dbReference id="30468448" type="PubMed"/>
+        <dbReference id="10.1039/c8np00077h" type="DOI"/>
+      </citation>
+      <scope>PATHWAY</scope>
+      <scope>REVIEW</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="5">Involved in the biosynthesis of oxygen-containing labdane-type diterpenes that may be implicated in direct and indirect defense mechanisms. No activity with geranyl diphosphate or farnesyl diphosphate as substrate.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="5">
+        <text>(2E,6E,10E)-geranylgeranyl diphosphate + H2O = 8-hydroxycopalyl diphosphate</text>
+        <dbReference id="RHEA:32703" type="Rhea"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:58756" type="ChEBI"/>
+        <dbReference id="CHEBI:64283" type="ChEBI"/>
+        <dbReference id="4.2.1.133" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="7">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+    </comment>
+    <comment evidence="5" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="7">Plastid</location>
+        <location evidence="7">Chloroplast</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="tissue specificity">
+      <text evidence="5">Expressed in stems, leaves and trichomes. Not detected in roots and seeds. Higher expression in young leaves than in fully expanded leaves.</text>
+    </comment>
+    <comment type="induction">
+      <text evidence="5">Up-regulated by wounding.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="1">The Asp-Xaa-Asp-Asp (DXDD) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="7">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="5" id="4.2.1.133" type="EC"/>
+    <dbReference id="HM537017" type="EMBL">
+      <property type="protein sequence ID" value="ADJ93862.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="E2IHE0" type="SMR"/>
+    <dbReference id="ag:ADJ93862" type="KEGG"/>
+    <dbReference id="4.2.1.133" type="BRENDA">
+      <property type="organism ID" value="10165"/>
+    </dbReference>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="GO:0009507" type="GO">
+      <property type="term" value="C:chloroplast"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0102161" type="GO">
+      <property type="term" value="F:copal-8-ol diphosphate synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0006952" type="GO">
+      <property type="term" value="P:defense response"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0033385" type="GO">
+      <property type="term" value="P:geranylgeranyl diphosphate metabolic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0150">Chloroplast</keyword>
+    <keyword id="KW-0175">Coiled coil</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-0611">Plant defense</keyword>
+    <keyword id="KW-0934">Plastid</keyword>
+    <keyword id="KW-0809">Transit peptide</keyword>
+    <feature description="Chloroplast" evidence="4" type="transit peptide">
+      <location>
+        <begin position="1"/>
+        <end position="50"/>
+      </location>
+    </feature>
+    <feature description="Copal-8-ol diphosphate hydratase, chloroplastic" id="PRO_0000419748" type="chain">
+      <location>
+        <begin position="51"/>
+        <end position="808"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="coiled-coil region">
+      <location>
+        <begin position="190"/>
+        <end position="219"/>
+      </location>
+    </feature>
+    <feature description="DXDD motif" type="short sequence motif">
+      <location>
+        <begin position="391"/>
+        <end position="394"/>
+      </location>
+    </feature>
+    <feature description="Magnesium" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="391"/>
+      </location>
+    </feature>
+    <feature description="Magnesium" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="393"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="3" type="binding site">
+      <location>
+        <position position="256"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="3" type="binding site">
+      <location>
+        <position position="477"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000250">
+      <source>
+        <dbReference id="C7BKP9" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000250">
+      <source>
+        <dbReference id="Q38802" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000255"/>
+    <evidence key="5" type="ECO:0000269">
+      <source>
+        <dbReference id="20595348" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000303">
+      <source>
+        <dbReference id="20595348" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000305"/>
+    <sequence checksum="2F3C41898B054B11" length="808" mass="92655" modified="2010-11-30" precursor="true" version="1">MAFTFTSAHLFLPVTENHSVHVNYSIPPGNWRLWSTAKGGSNKLDIRRLRCSARRTPEPLAQGSNGGRDGVEAIQRLQTIADDKIDGGANELGIVVWDLIRDGVDAVKSMFDSMGDGDISISAYDTAWVALVKDVNGSGGPQFPSSLQWIVDNQLPDGSWGDSEVFSAYDRLLKTLACVVALKSWNIRPDKCQKGLKFFRDNISKLEKENVEASAQMLSGFEVVFLSLIEVARRLDIQIPLHSPVFEDLIARRNLKFAKIPLDLMHNVPTSLLNSLEGMTGVELDWEKLLKLQSQDGSFITSPSSTAFALMQTNDTKCLGYLKFVVQKFNGGAPGQYPVEIFERIWVVDRLQRLGISRYFQLEIKECCLDYAFKHWTQYGSSWARNTPVYDLDDTCMAFRILRLHGYDVSAEAFRHFEKNGVFFCFGWETTQSVTVNFNLYRATQVAFPGENILKEAKQFSFNFLMKKQAAREFQDKWVILKDFPGELKYALEFPWYASLPRVETRFYVEQYGGDNDVWIGKTLYRMPYINNNVYLELAKLDFNNCQALHRKEWETMQKWFMESKLDEFGVSSKTLLESYFLAAASIFEPERSTERLAWAKTAFLMETIGSYFDDEMNSKDLRKAFVQEFKNIYERRMEAKGTKWNLIIILLTTLNHLTEVCGRDINSYLCHSWEKWMMMWEPEGDRYKGAAELLSNSINLSSGRLFSNDTLSHPNYEKLVTLSNKLCHQLGNSRRGNHNEDSDIKDTKIEIAMQELVQLVHQNSSDDISMDLKQTFFAVVRSFYYAAHCDRGTINSHIVKVLFESVV</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

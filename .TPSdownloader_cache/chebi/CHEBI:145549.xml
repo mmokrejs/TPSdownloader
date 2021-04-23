@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:145549</ID>
+<NAME>labd-13(16),14-diene-9-ol</NAME>
+<DEFINITION>A labdane diterpenoid resulting from the formal dehydration of the allylic hydroxy group of peregrinol.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>labd-13(16),14-diene-9-ol</SYNONYM>
+<IUPAC_NAME>(1R,2R,4aS,8aS)-2,5,5,8a-tetramethyl-1-(3-methylenepent-4-en-1-yl)decahydronaphthalen-1-ol</IUPAC_NAME>
+<FORMULA>C20H34O</FORMULA>
+<MASS>290.491</MASS>
+<MONOISOTOPIC_MASS>290.26097</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[C@]1([C@@H](CC[C@@]2([C@]1(C)CCCC2(C)C)[H])C)(CCC(C=C)=C)O</SMILES>
+<INCHI>InChI=1S/C20H34O/c1-7-15(2)11-14-20(21)16(3)9-10-17-18(4,5)12-8-13-19(17,20)6/h7,16-17,21H,1-2,8-14H2,3-6H3/t16-,17+,19+,20-/m1/s1</INCHI>
+<INCHIKEY>PDMYSSCHAFCEEN-LCLWPZTBSA-N</INCHIKEY>
+<PUBMED_CITATION>29315936</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

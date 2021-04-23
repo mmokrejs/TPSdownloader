@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2018-10-10" dataset="Swiss-Prot" modified="2019-12-11" version="6">
+    <accession>A0A2L0VXR0</accession>
+    <name>PS_CLIPA</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="5">Bifunctional premutilin synthase</fullName>
+        <shortName evidence="5">PS</shortName>
+        <ecNumber evidence="3">4.2.3.-</ecNumber>
+        <ecNumber evidence="3">5.5.1.-</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="4">Diterpene cyclase</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="5" type="primary">PS</name>
+      <name evidence="4" type="synonym">cyc</name>
+    </gene>
+    <organism>
+      <name type="scientific">Clitopilus passeckerianus</name>
+      <name type="synonym">Pleurotus passeckerianus</name>
+      <dbReference id="648682" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Basidiomycota</taxon>
+        <taxon>Agaricomycotina</taxon>
+        <taxon>Agaricomycetes</taxon>
+        <taxon>Agaricomycetidae</taxon>
+        <taxon>Agaricales</taxon>
+        <taxon>Entolomataceae</taxon>
+        <taxon>Clitopilus</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2016" first="25202" last="25202" name="Sci. Rep." type="journal article" volume="6">
+        <title>Identification and manipulation of the pleuromutilin gene cluster from Clitopilus passeckerianus for increased rapid antibiotic production.</title>
+        <authorList>
+          <person name="Bailey A.M."/>
+          <person name="Alberti F."/>
+          <person name="Kilaru S."/>
+          <person name="Collins C.M."/>
+          <person name="de Mattos-Shipley K."/>
+          <person name="Hartley A.J."/>
+          <person name="Hayes P."/>
+          <person name="Griffin A."/>
+          <person name="Lazarus C.M."/>
+          <person name="Cox R.J."/>
+          <person name="Willis C.L."/>
+          <person name="O'Dwyer K."/>
+          <person name="Spence D.W."/>
+          <person name="Foster G.D."/>
+        </authorList>
+        <dbReference id="27143514" type="PubMed"/>
+        <dbReference id="10.1038/srep25202" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+      <scope>IDENTIFICATION</scope>
+      <scope>FUNCTION</scope>
+      <scope>INDUCTION</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <reference key="2">
+      <citation date="2018" first="1200" last="1202" name="Org. Lett." type="journal article" volume="20">
+        <title>Premutilin synthase: ring rearrangement by a class II diterpene cyclase.</title>
+        <authorList>
+          <person name="Xu M."/>
+          <person name="Jia M."/>
+          <person name="Hong Y.J."/>
+          <person name="Yin X."/>
+          <person name="Tantillo D.J."/>
+          <person name="Proteau P.J."/>
+          <person name="Peters R.J."/>
+        </authorList>
+        <dbReference id="29388775" type="PubMed"/>
+        <dbReference id="10.1021/acs.orglett.8b00121" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>DOMAIN</scope>
+      <scope>ACTIVE SITE</scope>
+      <scope>MUTAGENESIS OF ASP-311 AND ASP-649</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2 3">Bifunctional premutilin synthase; part of the gene cluster that mediates the biosynthesis of pleuromutilin, a tricyclic diterpene showing antibacterial properties (PubMed:27143514, PubMed:29388775). The geranylgeranyl diphosphate (GGPP) synthase catalyzes the first step in pleuromutilin biosynthesis (PubMed:27143514, PubMed:29388775). GGPP is then substrate of the premutilin synthase (PS) to yield premutilin (PubMed:29388775). Premutilin synthase is a bifunctional enzyme composed of the fusion of a class II diterpene cyclase (DTC) and a class I diterpene synthase (DTS), with the corresponding domains and active sites containing characteristic aspartate-rich motifs. GGPP is first converted to mutildienyl-diphosphate (MPP) at the class II DTC site (PubMed:29388775). MPP is subsequently further cyclized at the class I DTS site, followed by a 1,5-hydride shift and addition of water prior to terminating deprotonation, to yield premutilin (PubMed:29388775). In addition to the aforementioned GGPP synthase and bifunctional diterpene synthase, the cluster contains also three cytochrome P450 monooxygenases, a short-chain alcohol dehydrogenase, and an acyltransferase, involved in the conversion of premutilin to pleuromutilin (PubMed:27143514, PubMed:29388775).</text>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment evidence="2 3" type="pathway">
+      <text>Antibiotic biosynthesis.</text>
+    </comment>
+    <comment type="induction">
+      <text evidence="2">Expression is up-regulated during pleuromutilin production.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="3">the class II DTC active site contains a DXDD motif from which the middle Asp acts as the catalytic acid in this protonation-initiated cyclization reaction, while the class I DTS active site contains a DDXXD motif that binds divalent magnesium cofactors required for the catalyzed allylic diphosphate ester ionization-initiated reaction, with the first Asp playing a particularly key role.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="6">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="3" id="4.2.3.-" type="EC"/>
+    <dbReference evidence="3" id="5.5.1.-" type="EC"/>
+    <dbReference id="MG764077" type="EMBL">
+      <property type="protein sequence ID" value="AVA16672.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="GO:0016853" type="GO">
+      <property type="term" value="F:isomerase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0016829" type="GO">
+      <property type="term" value="F:lyase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0017000" type="GO">
+      <property type="term" value="P:antibiotic biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0045">Antibiotic biosynthesis</keyword>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Bifunctional premutilin synthase" id="PRO_0000445371" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="959"/>
+      </location>
+    </feature>
+    <feature description="DXDD motif" evidence="7" type="short sequence motif">
+      <location>
+        <begin position="309"/>
+        <end position="312"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="7" type="short sequence motif">
+      <location>
+        <begin position="649"/>
+        <end position="653"/>
+      </location>
+    </feature>
+    <feature description="For class II diterpene cyclase activity" evidence="3" type="active site">
+      <location>
+        <position position="311"/>
+      </location>
+    </feature>
+    <feature description="For class I diterpene synthase activity" evidence="3" type="active site">
+      <location>
+        <position position="649"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="649"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="649"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="653"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="653"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="824"/>
+      </location>
+    </feature>
+    <feature description="Blocks class II DTC activity and abolishes the production of premutilin." evidence="3" type="mutagenesis site">
+      <original>D</original>
+      <variation>A</variation>
+      <location>
+        <position position="311"/>
+      </location>
+    </feature>
+    <feature description="Completely blocks class I DTS activity, abolishes the production of premutilin, and leads to the accumulation of mutildienyl-diphosphate." evidence="3" type="mutagenesis site">
+      <original>D</original>
+      <variation>L</variation>
+      <location>
+        <position position="649"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="Q40577" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="27143514" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="29388775" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000303">
+      <source>
+        <dbReference id="27143514" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000303">
+      <source>
+        <dbReference id="29388775" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000305"/>
+    <evidence key="7" type="ECO:0000305">
+      <source>
+        <dbReference id="29388775" type="PubMed"/>
+      </source>
+    </evidence>
+    <sequence checksum="A1BC6B9AF3338686" length="959" mass="107841" modified="2018-04-25" version="1">MGLSEDLHARARTLMQTLESALNTPGSRGIGTANPTIYDTAWVAMVSREIDGKQVFVFPETFTYIYEHQEADGSWSGDGSLIDSIVNTLACLVALKMHESNASKPDIPARARAAQNYLDDALKRWDIMETERVAYEMIVPCLLKQLDAFGVSFTFPHHDLLYNMYAGKLAKLNWEAIYAKNSSLLHCMEAFVGVCDFDRMPHLLRDGNFMATPSTTAAYLMKATKWDDRAEDYLRHVIEVYAPHGRDVVPNLWPMTFFEIVWSLSSLYDNNLEFAQMDPECLDRIALKLREFLVAGKGVLGFVPGTTHDADMSSKTLMLLQVLNHPYSHDEFVTEFEAPTYFRCYSFERNASVTVNSNCLMSLLHAPDVNKYESQIVKIATYVADVWWTSAGVVKDKWNVSEWYSSMLSSQALVRLLFEHGKGNLKSISEELLSRVSIACFTMISRILQSQKPDGSWGCAEETSYALITLANVASLPTCDLIRDHLYKVIESAKAYLTPIFYARPAAKPEDRVWIDKVTYSVESFRDAYLVSALNVPIPRFDPSSISTLPAISQTLPKELSKFFGRLDMFKPAPEWRKLTWGIEATLMGPELNRVPSSTFAKVEKGAAGKWFEFLPYMTIAPSSLEGTPISSQGMLDVLVLIRGLYNTDDYLDMTLIKATNEDLDDLKKKIRDLFADPKSFSTLSEVPDDRMPTHIEVIERFAYSLLNHPRAQLASDNDKGLLRSEIEHYFLAGIAQCEENILLRERGLDKERIGTSHYRWTHVVGADNVAGTIALVFALCLLGHQINEERGSRDLVDVFPSPVLKYLFNDCVMHFGTFSRLANDLHSISRDFNEVNLNSIMFSEFTGPKSGTDTEKAREAALLELTKFERKATDDGFEYLVQQLTPHVGAKRARDYINIIRVTYLHTALYDDLGRLTRADISNANQEVSKGTNGVKKINGSSTNGTKVTANGSNGIHH</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

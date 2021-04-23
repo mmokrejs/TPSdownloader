@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2020-06-17" dataset="Swiss-Prot" modified="2021-04-07" version="22">
+    <accession>A0A0U2D9C5</accession>
+    <accession>H6VLG6</accession>
+    <accession>H6VLG7</accession>
+    <name>CPS4_SALMI</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="7">Ent-8-alpha-hydroxylabd-13-en-15-yl diphosphate synthase CPS4, chloroplastic</fullName>
+        <ecNumber evidence="5">4.2.1.173</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="6">Copalyl diphosphate synthase 4</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="6" type="primary">CPS4</name>
+    </gene>
+    <organism>
+      <name type="scientific">Salvia miltiorrhiza</name>
+      <name type="common">Chinese sage</name>
+      <dbReference id="226208" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>lamiids</taxon>
+        <taxon>Lamiales</taxon>
+        <taxon>Lamiaceae</taxon>
+        <taxon>Nepetoideae</taxon>
+        <taxon>Mentheae</taxon>
+        <taxon>Salvia</taxon>
+        <taxon>Salvia incertae sedis</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2015" first="1607" last="1618" name="Plant Physiol." type="journal article" volume="169">
+        <title>Functional divergence of diterpene syntheses in the medicinal plant Salvia miltiorrhiza.</title>
+        <authorList>
+          <person name="Cui G."/>
+          <person name="Duan L."/>
+          <person name="Jin B."/>
+          <person name="Qian J."/>
+          <person name="Xue Z."/>
+          <person name="Shen G."/>
+          <person name="Snyder J.H."/>
+          <person name="Song J."/>
+          <person name="Chen S."/>
+          <person name="Huang L."/>
+          <person name="Peters R.J."/>
+          <person name="Qi X."/>
+        </authorList>
+        <dbReference id="26077765" type="PubMed"/>
+        <dbReference id="10.1104/pp.15.00695" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+    </reference>
+    <reference key="2">
+      <citation date="2012" first="2809" last="2823" name="J. Exp. Bot." type="journal article" volume="63">
+        <title>Genome-wide identification and characterization of novel genes involved in terpenoid biosynthesis in Salvia miltiorrhiza.</title>
+        <authorList>
+          <person name="Ma Y."/>
+          <person name="Yuan L."/>
+          <person name="Wu B."/>
+          <person name="Li X."/>
+          <person name="Chen S."/>
+          <person name="Lu S."/>
+        </authorList>
+        <dbReference id="22291132" type="PubMed"/>
+        <dbReference id="10.1093/jxb/err466" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 82-377 AND 386-776</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="5">Involved in diterpenoid biosynthesis (PubMed:26077765). Catalyzes the conversion of all-trans-geranylgeranyl diphosphate to ent-8alpha-hydroxylabd-13-en-15-yl diphosphate (PubMed:26077765).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="5">
+        <text>ent-8alpha-hydroxylabd-13-en-15-yl diphosphate = (2E,6E,10E)-geranylgeranyl diphosphate + H2O</text>
+        <dbReference id="RHEA:54648" type="Rhea"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:58756" type="ChEBI"/>
+        <dbReference id="CHEBI:138223" type="ChEBI"/>
+        <dbReference id="4.2.1.173" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="right-to-left" evidence="5">
+        <dbReference id="RHEA:54650" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="3">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+    </comment>
+    <comment evidence="7" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="4">Plastid</location>
+        <location evidence="4">Chloroplast</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="domain">
+      <text evidence="7">The Asp-Xaa-Asp-Asp (DXDD) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="7">Belongs to the terpene synthase family.</text>
+    </comment>
+    <comment evidence="7" type="sequence caution">
+      <conflict type="erroneous gene model prediction">
+        <sequence id="AEZ55691" resource="EMBL-CDS" version="1"/>
+      </conflict>
+    </comment>
+    <dbReference evidence="5" id="4.2.1.173" type="EC"/>
+    <dbReference id="KP063138" type="EMBL">
+      <property type="protein sequence ID" value="AKN91186.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="JN831120" type="EMBL">
+      <property type="protein sequence ID" value="AEZ55690.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="JN831120" type="EMBL">
+      <property type="protein sequence ID" value="AEZ55691.1"/>
+      <property type="status" value="ALT_SEQ"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="A0A0U2D9C5" type="SMR"/>
+    <dbReference id="ag:AKN91186" type="KEGG"/>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="GO:0009507" type="GO">
+      <property type="term" value="C:chloroplast"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0150">Chloroplast</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-0934">Plastid</keyword>
+    <keyword id="KW-0809">Transit peptide</keyword>
+    <feature description="Chloroplast" evidence="4" type="transit peptide">
+      <location>
+        <begin position="1"/>
+        <end position="60"/>
+      </location>
+    </feature>
+    <feature description="Ent-8-alpha-hydroxylabd-13-en-15-yl diphosphate synthase CPS4, chloroplastic" id="PRO_0000449934" type="chain">
+      <location>
+        <begin position="61"/>
+        <end position="776"/>
+      </location>
+    </feature>
+    <feature description="DXDD motif" evidence="7" type="short sequence motif">
+      <location>
+        <begin position="357"/>
+        <end position="360"/>
+      </location>
+    </feature>
+    <feature description="Magnesium" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="357"/>
+      </location>
+    </feature>
+    <feature description="Magnesium" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="359"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="2" type="binding site">
+      <location>
+        <position position="226"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="2" type="binding site">
+      <location>
+        <position position="443"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AKN91186." ref="1" type="sequence conflict">
+      <original>TF</original>
+      <variation>VY</variation>
+      <location>
+        <begin position="338"/>
+        <end position="339"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AKN91186." ref="1" type="sequence conflict">
+      <original>I</original>
+      <variation>R</variation>
+      <location>
+        <position position="540"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AKN91186." ref="1" type="sequence conflict">
+      <original>P</original>
+      <variation>A</variation>
+      <location>
+        <position position="564"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="C7BKP9" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000250">
+      <source>
+        <dbReference id="Q38802" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000250">
+      <source>
+        <dbReference id="Q40577" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000255"/>
+    <evidence key="5" type="ECO:0000269">
+      <source>
+        <dbReference id="26077765" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000303">
+      <source>
+        <dbReference id="22291132" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000305"/>
+    <sequence checksum="C50922F0F078EE9A" length="776" mass="88151" modified="2020-06-17" precursor="true" version="2">MSFASNATGFRIPLTTCVYPSPILRFNAKVGSGSSYGTTEAQRNMKCVDGIGRSRVVAVAASGRTRDSNPEVESEKMKEMIRWMFRDMDDGEVSVSAYDTAWVALVEDIGGSGGPQFPTSLDWISDNQLDDGSWGDRKFVLYDRILNTLACVVALTTWKLHPHKCEKGLKFIRENIEKLDNEDEELMLVGFEVALPSLIDLAKKLGIEISDDSPCIKNIYAKRDSKLKEIPMDLLHKEPTSLLFSLEGMEGLDWEKLLTLRSEGSFLSSPSSTAYALQHTKDELCLDYLLKPVNKFNGGVPSTYPVDMFEHLWAVDRLQRLGISRYFQVEIGECLDYTFRYWTNEGISWARYTNIKDSDDTSMGFRLLRLHGYDISIDAFKAFEKGGEFWCMAGQMGHAVTGVYNLYRASQLMFPQEHILLDARNFSANFLHHKRLTNAIVDKWIISKDLPAEVGYALDVPFYASLPRLEARFFLEQYGGDDDVWIGKTLYRMLYVNSNTYLELAKLDYKHCQSVHQLEWKSMQKWYTDCNLGEFGLSEISLLLAYYIAASTAFEPEKSGERLPWATTIILVETIASQQLSNEQKREFVNEFENGSTINNRNGGRYKPRSRLVDVLINAITLVAQGRGISQQLSNAWQKWLKTWEGGGHQGEAEARLLIHTLHLSSGLDESSFSHPKYQQLLEVTSKVCHQLRLFQNRKVYDAQGCTSRLVTGTTFQTEAGMQELVKLVFPKTSDDMTSATKQSFFNIARSFYYTAYCHEGAIDSHIDKVLFEKIV</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

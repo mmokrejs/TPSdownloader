@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2011-11-16" dataset="Swiss-Prot" modified="2021-04-07" version="64">
+    <accession>O82146</accession>
+    <name>BAMS2_PANGI</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="7">Beta-amyrin synthase 2</fullName>
+        <ecNumber evidence="1">5.4.99.39</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="4">Oxidosqualene cyclase 2</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="7" type="primary">OSCPNY2</name>
+      <name evidence="4" type="synonym">PNY2</name>
+    </gene>
+    <organism>
+      <name type="scientific">Panax ginseng</name>
+      <name type="common">Korean ginseng</name>
+      <dbReference id="4054" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>campanulids</taxon>
+        <taxon>Apiales</taxon>
+        <taxon>Araliaceae</taxon>
+        <taxon>Panax</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="1998-05" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Molecular cloning of oxidosqualene cyclase cDNA from Panax ginseng: the isogene that encodes beta-amyrin synthase.</title>
+        <authorList>
+          <person name="Kushiro T."/>
+          <person name="Shibuya M."/>
+          <person name="Ebizuka Y."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <source>
+        <tissue>Root</tissue>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2013" first="332" last="340" name="J. Ginseng Res." type="journal article" volume="37">
+        <title>The improvement of ginsenoside accumulation in Panax ginseng as a result of gamma-irradiation.</title>
+        <authorList>
+          <person name="Kim D.S."/>
+          <person name="Song M."/>
+          <person name="Kim S.-H."/>
+          <person name="Jang D.-S."/>
+          <person name="Kim J.-B."/>
+          <person name="Ha B.-K."/>
+          <person name="Kim S.H."/>
+          <person name="Lee K.J."/>
+          <person name="Kang S.-Y."/>
+          <person name="Jeong I.Y."/>
+        </authorList>
+        <dbReference id="24198659" type="PubMed"/>
+        <dbReference id="10.5142/jgr.2013.37.332" type="DOI"/>
+      </citation>
+      <scope>GENE FAMILY</scope>
+    </reference>
+    <reference key="3">
+      <citation date="2018" first="514" last="522" name="Biotechnol. Appl. Biochem." type="journal article" volume="65">
+        <title>Advances in ginsenoside biosynthesis and metabolic regulation.</title>
+        <authorList>
+          <person name="Lu J."/>
+          <person name="Li J."/>
+          <person name="Wang S."/>
+          <person name="Yao L."/>
+          <person name="Liang W."/>
+          <person name="Wang J."/>
+          <person name="Gao W."/>
+        </authorList>
+        <dbReference id="29378087" type="PubMed"/>
+        <dbReference id="10.1002/bab.1649" type="DOI"/>
+      </citation>
+      <scope>REVIEW</scope>
+    </reference>
+    <reference key="4">
+      <citation date="2018" name="Molecules" type="journal article" volume="23">
+        <title>Progress on the studies of the key enzymes of ginsenoside biosynthesis.</title>
+        <authorList>
+          <person name="Yang J.-L."/>
+          <person name="Hu Z.-F."/>
+          <person name="Zhang T.-T."/>
+          <person name="Gu A.-D."/>
+          <person name="Gong T."/>
+          <person name="Zhu P."/>
+        </authorList>
+        <dbReference id="29509695" type="PubMed"/>
+        <dbReference id="10.3390/molecules23030589" type="DOI"/>
+      </citation>
+      <scope>REVIEW</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="1 5">Component of the oleanane-type triterpene saponins (e.g. ginsenosides or panaxosides) biosynthetic pathway (PubMed:29378087). Oxidosqualene cyclase converting oxidosqualene into beta-amyrin, generating five rings and eight asymmetric centers in a single transformation (By similarity).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="1">
+        <text>(S)-2,3-epoxysqualene = beta-amyrin</text>
+        <dbReference id="RHEA:31007" type="Rhea"/>
+        <dbReference id="CHEBI:10352" type="ChEBI"/>
+        <dbReference id="CHEBI:15441" type="ChEBI"/>
+        <dbReference id="5.4.99.39" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="6">
+        <dbReference id="RHEA:31008" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment evidence="8" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subunit">
+      <text evidence="2">Monomer.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="2">Endoplasmic reticulum membrane</location>
+        <topology evidence="2">Peripheral membrane protein</topology>
+      </subcellularLocation>
+    </comment>
+    <comment type="similarity">
+      <text evidence="8">Belongs to the terpene cyclase/mutase family.</text>
+    </comment>
+    <dbReference evidence="1" id="5.4.99.39" type="EC"/>
+    <dbReference id="AB014057" type="EMBL">
+      <property type="protein sequence ID" value="BAA33722.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="GO:0005789" type="GO">
+      <property type="term" value="C:endoplasmic reticulum membrane"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0005811" type="GO">
+      <property type="term" value="C:lipid droplet"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0042300" type="GO">
+      <property type="term" value="F:beta-amyrin synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0000250" type="GO">
+      <property type="term" value="F:lanosterol synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016104" type="GO">
+      <property type="term" value="P:triterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="cd02892" type="CDD">
+      <property type="entry name" value="SQCY_1"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR032696" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_C"/>
+    </dbReference>
+    <dbReference id="IPR032697" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_N"/>
+    </dbReference>
+    <dbReference id="IPR018333" type="InterPro">
+      <property type="entry name" value="Squalene_cyclase"/>
+    </dbReference>
+    <dbReference id="IPR002365" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_CS"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF13243" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF13249" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01016" type="SFLD">
+      <property type="entry name" value="Prenyltransferase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="TIGR01787" type="TIGRFAMs">
+      <property type="entry name" value="squalene_cyclas"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PS01074" type="PROSITE">
+      <property type="entry name" value="TERPENE_SYNTHASES"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword id="KW-0256">Endoplasmic reticulum</keyword>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0414">Isoprene biosynthesis</keyword>
+    <keyword id="KW-0472">Membrane</keyword>
+    <keyword id="KW-0677">Repeat</keyword>
+    <feature description="Beta-amyrin synthase 2" id="PRO_0000413966" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="761"/>
+      </location>
+    </feature>
+    <feature description="PFTB 1" evidence="3" type="repeat">
+      <location>
+        <begin position="98"/>
+        <end position="140"/>
+      </location>
+    </feature>
+    <feature description="PFTB 2" evidence="3" type="repeat">
+      <location>
+        <begin position="148"/>
+        <end position="189"/>
+      </location>
+    </feature>
+    <feature description="PFTB 3" evidence="3" type="repeat">
+      <location>
+        <begin position="439"/>
+        <end position="483"/>
+      </location>
+    </feature>
+    <feature description="PFTB 4" evidence="3" type="repeat">
+      <location>
+        <begin position="513"/>
+        <end position="558"/>
+      </location>
+    </feature>
+    <feature description="PFTB 5" evidence="3" type="repeat">
+      <location>
+        <begin position="590"/>
+        <end position="630"/>
+      </location>
+    </feature>
+    <feature description="PFTB 6" evidence="3" type="repeat">
+      <location>
+        <begin position="639"/>
+        <end position="680"/>
+      </location>
+    </feature>
+    <feature description="PFTB 7" evidence="3" type="repeat">
+      <location>
+        <begin position="701"/>
+        <end position="742"/>
+      </location>
+    </feature>
+    <feature description="Proton donor" evidence="2" type="active site">
+      <location>
+        <position position="484"/>
+      </location>
+    </feature>
+    <feature description="Transition state stabilizer" evidence="2" type="site">
+      <location>
+        <position position="417"/>
+      </location>
+    </feature>
+    <feature description="Transition state stabilizer" evidence="2" type="site">
+      <location>
+        <position position="473"/>
+      </location>
+    </feature>
+    <feature description="Transition state stabilizer" evidence="2" type="site">
+      <location>
+        <position position="611"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="O82140" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000250">
+      <source>
+        <dbReference id="P48449" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000255"/>
+    <evidence key="4" type="ECO:0000303">
+      <source>
+        <dbReference id="24198659" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000303">
+      <source>
+        <dbReference id="29378087" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000303">
+      <source>
+        <dbReference id="29509695" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000303">
+      <source ref="1"/>
+    </evidence>
+    <evidence key="8" type="ECO:0000305"/>
+    <sequence checksum="BDCFAD5E1C11E441" length="761" mass="87875" modified="1998-11-01" version="1">MWRLMTAKGGNDPYLYSTNNFIGRQTWEFDPDYGTPAERAEVEEARLHFWNNRYQVKPSSDVLWRMQFLKEKNFKQIIPQVKVEDGEEITYEAATTTLRRAVHYFSALQADDGHWPAENAGPLFFLPPLVMCLYITGHLNTVFPAEHRIEILRYIYCHQNDDGGWGLHIEGHSTMFCTALSYICMRILGEGRDGGENNACARARKWILDHGSVTAIPSWGKTWLSILGLFDWSGSNPMPPEFWILPPFLPMHPAKMWCYCRMVYMPMSYLYGKRFVGPITPLILQLREELYAQAYDEINWRKVRHNCAKEDLYYPHPLIQDLMWDSLYIFTEPFLTRWPFNKLREKALQTTMKHIHYEDENSRYITIGCVEKVLCMLACWVEDPNGDYFKQHLARIPDYIWVAEDGMKMQSFGSQEWDTGFAIQALLASDLIDEIRPTLMKGHDFIKKSQVKENPSGDFKSMHRHISKGSWTFSDQDHGWQVSDCTAEALKCCLLFSRMPTEIVGDKMEDNQLFDAVNMLLSLQSKNGGLAAWEPAGSSEWLELLNPTEFFEDIVIEHEYVECTSSAIQAMVMFKKLYPGHRKKEIEVSITNAVQYLEDIQMPDGSWYGNWGVCFTYGTWFAMGGLTAAGKTYNNCQTLHKAVDFLIKSQRSDGGWGESYLSCPNKEYTPLEGNRSNLVHTSWAMMGLIHSRQAERDPTPLHRAAKLLINSQMESGDFPQQEITGVFMKNCMLHYAASRNIYPLWALAEYRKNVRLPSKSV</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

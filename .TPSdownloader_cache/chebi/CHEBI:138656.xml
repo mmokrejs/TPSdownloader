@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:138656</ID>
+<NAME>rhizathalene A</NAME>
+<DEFINITION>A carbotricyclic compound and diterpene that is 1',2',3',3a',5',6',7',7a'-octahydrospiro[cyclohex-3-ene-1,4'-indene] which is substituted by methyl groups at the 4, 5', and 7a' positions, and by an isopropenyl group at the 3' position. It is produced in the stele of Arabidopsis roots and contributes to the direct defense against root herbivores.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>rhizathalene A</SYNONYM>
+<IUPAC_NAME>(1S,3'S,3a'S,5'R,7a'S)-4,5',7a'-trimethyl-3'-(prop-1-en-2-yl)-1',2',3',3a',5',6',7',7a'-octahydrospiro[cyclohex-3-ene-1,4'-indene]</IUPAC_NAME>
+<FORMULA>C20H32</FORMULA>
+<MASS>272.469</MASS>
+<MONOISOTOPIC_MASS>272.25040</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[C@H]1(CC[C@@]2([C@@]([C@@]13CC=C(CC3)C)([C@H](CC2)C(C)=C)[H])C)C</SMILES>
+<INCHI>InChI=1S/C20H32/c1-14(2)17-9-11-19(5)10-8-16(4)20(18(17)19)12-6-15(3)7-13-20/h6,16-18H,1,7-13H2,2-5H3/t16-,17-,18+,19+,20-/m1/s1</INCHI>
+<INCHIKEY>IIMQNFIZNZKEMW-SWBPCFCJSA-N</INCHIKEY>
+<PUBMED_CITATION>23512856</PUBMED_CITATION>
+<PUBMED_CITATION>27933080</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

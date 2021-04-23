@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:63190</ID>
+<NAME>(+)-beta-caryophyllene</NAME>
+<DEFINITION>A β-caryophyllene in which the stereocentre adjacent to the exocyclic double bond has R configuration while the remaining stereocentre has S configuration. It is the enantiomer of (−)-β-caryophyllene, which occurs much more widely than the (+)-form.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>trans-(1S,9R)-4,11,11-trimethyl-8-methylenebicyclo[7.2.0]undec-4-ene</SYNONYM>
+<SYNONYM>(+)-caryophyllene</SYNONYM>
+<SYNONYM>(+)-beta-caryophyllene</SYNONYM>
+<IUPAC_NAME>(1S,4E,9R)-4,11,11-trimethyl-8-methylidenebicyclo[7.2.0]undec-4-ene</IUPAC_NAME>
+<FORMULA>C15H24</FORMULA>
+<MASS>204.35110</MASS>
+<MONOISOTOPIC_MASS>204.18780</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@@]12CC(C)(C)[C@@]1([H])CC\C(C)=C\CCC2=C</SMILES>
+<INCHI>InChI=1S/C15H24/c1-11-6-5-7-12(2)13-10-15(3,4)14(13)9-8-11/h6,13-14H,2,5,7-10H2,1,3-4H3/b11-6+/t13-,14-/m0/s1</INCHI>
+<INCHIKEY>NPNUFJAVOOONJE-IOMPXFEGSA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>6767547</REAXYS_REGISTRY_NUMBER>
+<PUBMED_CITATION>21693706</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

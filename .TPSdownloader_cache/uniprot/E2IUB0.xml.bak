@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2012-09-05" modified="2021-04-07" version="29">
+<accession>E2IUB0</accession>
+<name>CASS_KALDA</name>
+<protein>
+<recommendedName>
+<fullName>Cycloartenol synthase</fullName>
+<shortName>KdCAS</shortName>
+<ecNumber>5.4.99.8</ecNumber>
+</recommendedName>
+</protein>
+<organism>
+<name type="scientific">Kalanchoe daigremontiana</name>
+<name type="common">Devil's backbone</name>
+<name type="synonym">Bryophyllum daigremontianum</name>
+<dbReference type="NCBI Taxonomy" id="23013"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>Saxifragales</taxon>
+<taxon>Crassulaceae</taxon>
+<taxon>Bryophyllum</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2010" name="J. Biol. Chem." volume="285" first="29703" last="29712">
+<title>Cloning and characterization of oxidosqualene cyclases from Kalanchoe daigremontiana: enzymes catalyzing up to 10 rearrangement steps yielding friedelin and other triterpenoids.</title>
+<authorList>
+<person name="Wang Z."/>
+<person name="Yeats T."/>
+<person name="Han H."/>
+<person name="Jetter R."/>
+</authorList>
+<dbReference type="PubMed" id="20610397"/>
+<dbReference type="DOI" id="10.1074/jbc.m109.098871"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<comment type="function">
+<text evidence="3">Oxidosqualene cyclase which catalyzes the conversion of oxidosqualene to cycloartenol.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>(S)-2,3-epoxysqualene = cycloartenol</text>
+<dbReference type="Rhea" id="RHEA:21308"/>
+<dbReference type="ChEBI" id="CHEBI:15441"/>
+<dbReference type="ChEBI" id="CHEBI:17030"/>
+<dbReference type="EC" id="5.4.99.8"/>
+</reaction>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="4">Membrane</location>
+<topology evidence="4">Single-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="3">Expressed in all leaf tissues.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene cyclase/mutase family.</text>
+</comment>
+<dbReference type="EC" id="5.4.99.8"/>
+<dbReference type="EMBL" id="HM623872">
+<property type="protein sequence ID" value="ADK35127.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="E2IUB0"/>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005811">
+<property type="term" value="C:lipid droplet"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042300">
+<property type="term" value="F:beta-amyrin synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016871">
+<property type="term" value="F:cycloartenol synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000250">
+<property type="term" value="F:lanosterol synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006694">
+<property type="term" value="P:steroid biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016104">
+<property type="term" value="P:triterpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="CDD" id="cd02892">
+<property type="entry name" value="SQCY_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032696">
+<property type="entry name" value="SQ_cyclase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032697">
+<property type="entry name" value="SQ_cyclase_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018333">
+<property type="entry name" value="Squalene_cyclase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002365">
+<property type="entry name" value="Terpene_synthase_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13243">
+<property type="entry name" value="SQHop_cyclase_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13249">
+<property type="entry name" value="SQHop_cyclase_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01016">
+<property type="entry name" value="Prenyltransferase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01787">
+<property type="entry name" value="squalene_cyclas"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01074">
+<property type="entry name" value="TERPENE_SYNTHASES"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0413">Isomerase</keyword>
+<keyword id="KW-0444">Lipid biosynthesis</keyword>
+<keyword id="KW-0443">Lipid metabolism</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0752">Steroid biosynthesis</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Cycloartenol synthase" id="PRO_0000418479">
+<location>
+<begin position="1"/>
+<end position="764"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="609"/>
+<end position="629"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 1">
+<location>
+<begin position="148"/>
+<end position="189"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 2">
+<location>
+<begin position="513"/>
+<end position="558"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 3">
+<location>
+<begin position="590"/>
+<end position="630"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 4">
+<location>
+<begin position="639"/>
+<end position="680"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 5">
+<location>
+<begin position="701"/>
+<end position="742"/>
+</location>
+</feature>
+<feature type="active site" description="Proton donor" evidence="1">
+<location>
+<position position="484"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P48449"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="20610397"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="764" mass="86531" checksum="9A59D94C1072CF6A" modified="2010-11-30" version="1">MWKLKIADAGGSQWLRSVNNHIGRQIWDFDPALGSPEELAQIEDARDNFARHRFDKKHSADLLMRFQLTKENPQSDLLPKVNIGKIEDITEDAVTNTLRRAINFHSTTQAHDGHWPGDYGGPLFLMPGLVITLSITGALNAVLSKEHKKEMCRYLYNHQNEDGGWGLHIEGPSTMFGSVLNYVTLRLLGEDVNGGDGEIERARKWILDHGGATAITSWGKMWLSVLGVFEWCGNNPLPPEMWLFPYYLPVHPGRMWCHCRMVYLPMSYLYGKRFVGPITPTVLSLRKELFTVPYHEIDWNEARSLCAKEDLYYPHPVVQDILWATLHKVVEPVLLNWPGKKLREKALCSAIEHIHYEDENTRYICIGPVNKVLNMLCCWVEDPNSEAFKLHIPRLYDYLWIAEDGMKMQGYNGSQLWDTAFSVQAIVATKLVEEFSSTISKAHEFMKNSQVLEDYPGDLSYWYRHISKGAWPFSTADHGWPISDCTAEGLKVVLKLSQFPAELVGAPLSAKLVYNAVNVILSLQNIDGGFATYELTRSYSWMELLNPAETFGDIVIDYPYVECTSAALQSLVLFKKLHPEHRKEEVELCIKKAAAFIEKIQESDGSWYGSWAVCFTYGTWFGVLGLVAAGRNYKNSPSIRKACDFLLSKQLASGGWGESYLSCQNKVYTNIPGGRSHVVNTGWAMLALIGAGQAERDPVPLHRAAKFLIESQLENGDFPQQEIMGVFNKNCMISYAAYRNIFPIWALGEYRCKVLNASRGQMKT</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

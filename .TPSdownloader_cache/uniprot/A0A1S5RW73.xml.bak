@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2019-07-31" modified="2021-04-07" version="16">
+<accession>A0A1S5RW73</accession>
+<accession>A0A1L3THX5</accession>
+<name>KPS_SALDI</name>
+<protein>
+<recommendedName>
+<fullName evidence="7">(-)-kolavenyl diphosphate synthase, chloroplastic</fullName>
+<shortName evidence="7">SdKPS</shortName>
+<ecNumber evidence="4 5">5.5.1.28</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="6">Clerodienyl diphosphate synthase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="6">Kolavenyl diphosphate synthase CPS2</fullName>
+<shortName evidence="6">SdCPS2</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="7">KPS</name>
+<name type="synonym" evidence="6">CPS2</name>
+</gene>
+<organism>
+<name type="scientific">Salvia divinorum</name>
+<name type="common">Maria pastora</name>
+<name type="synonym">Diviner's sage</name>
+<dbReference type="NCBI Taxonomy" id="28513"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>lamiids</taxon>
+<taxon>Lamiales</taxon>
+<taxon>Lamiaceae</taxon>
+<taxon>Nepetoideae</taxon>
+<taxon>Mentheae</taxon>
+<taxon>Salvia</taxon>
+<taxon>Salvia subgen. Calosphace</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2017" name="J. Exp. Bot." volume="68" first="1109" last="1122">
+<title>A (-)-kolavenyl diphosphate synthase catalyzes the first step of salvinorin A biosynthesis in Salvia divinorum.</title>
+<authorList>
+<person name="Chen X."/>
+<person name="Berim A."/>
+<person name="Dayan F.E."/>
+<person name="Gang D.R."/>
+</authorList>
+<dbReference type="PubMed" id="28204567"/>
+<dbReference type="DOI" id="10.1093/jxb/erw493"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>COFACTOR</scope>
+<scope>ACTIVITY REGULATION</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>DXDD MOTIF</scope>
+<scope>MUTAGENESIS OF VAL-200; PHE-255; ALA-314; SER-369 AND SER-402</scope>
+<source>
+<tissue>Peltate glandular trichome</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2017" name="Plant J." volume="89" first="885" last="897">
+<title>Biosynthesis of the psychotropic plant diterpene salvinorin A: Discovery and characterization of the Salvia divinorum clerodienyl diphosphate synthase.</title>
+<authorList>
+<person name="Pelot K.A."/>
+<person name="Mitchell R."/>
+<person name="Kwon M."/>
+<person name="Hagelthorn D.M."/>
+<person name="Wardman J.F."/>
+<person name="Chiang A."/>
+<person name="Bohlmann J."/>
+<person name="Ro D.K."/>
+<person name="Zerbe P."/>
+</authorList>
+<dbReference type="PubMed" id="27865008"/>
+<dbReference type="DOI" id="10.1111/tpj.13427"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>MUTAGENESIS OF PHE-255</scope>
+<source>
+<tissue>Peltate glandular trichome</tissue>
+</source>
+</reference>
+<comment type="function">
+<text evidence="4 5">Diterpene synthase that catalyzes the formation of (-)-kolavenyl diphosphate from geranylgeranyl diphosphate (GGPP) as the first reaction in salvinorin A biosynthesis.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="4 5">
+<text>(2E,6E,10E)-geranylgeranyl diphosphate = (-)-kolavenyl diphosphate</text>
+<dbReference type="Rhea" id="RHEA:54684"/>
+<dbReference type="ChEBI" id="CHEBI:58756"/>
+<dbReference type="ChEBI" id="CHEBI:138310"/>
+<dbReference type="EC" id="5.5.1.28"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="4 5">
+<dbReference type="Rhea" id="RHEA:54685"/>
+</physiologicalReaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="5">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="activity regulation">
+<text evidence="5">Inhibited by high concentrations of magnesium.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="5">1.9 uM for geranylgeranyl diphosphate</KM>
+<text evidence="5">kcat is 0.88 with geranylgeranyl diphosphate as substrate.</text>
+</kinetics>
+<phDependence>
+<text evidence="5">Optimum pH is 7.0.</text>
+</phDependence>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Plastid</location>
+<location evidence="3">Chloroplast</location>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="4 5">Expressed in peltate glandular trichomes of leaves (PubMed:27865008). Highly expressed in the first leaf pair (PubMed:28204567).</text>
+</comment>
+<comment type="domain">
+<text evidence="9">The Asp-Xaa-Asp-Asp (DXDD) motif is important for the catalytic activity through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="8">Belongs to the terpene synthase family. Tpsc subfamily.</text>
+</comment>
+<dbReference type="EC" id="5.5.1.28" evidence="4 5"/>
+<dbReference type="EMBL" id="KX268505">
+<property type="protein sequence ID" value="AOZ15895.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="KX424877">
+<property type="protein sequence ID" value="APH81400.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="A0A1S5RW73"/>
+<dbReference type="KEGG" id="ag:AOZ15895"/>
+<dbReference type="GO" id="GO:0009507">
+<property type="term" value="C:chloroplast"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016853">
+<property type="term" value="F:isomerase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016102">
+<property type="term" value="P:diterpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0150">Chloroplast</keyword>
+<keyword id="KW-0413">Isomerase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0934">Plastid</keyword>
+<keyword id="KW-0809">Transit peptide</keyword>
+<feature type="transit peptide" description="Chloroplast" evidence="3">
+<location>
+<begin position="1"/>
+<end position="47"/>
+</location>
+</feature>
+<feature type="chain" description="(-)-kolavenyl diphosphate synthase, chloroplastic" id="PRO_0000447688">
+<location>
+<begin position="48"/>
+<end position="787"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DXDD motif" evidence="9">
+<location>
+<begin position="368"/>
+<end position="371"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="368"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="370"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="2">
+<location>
+<position position="237"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="2">
+<location>
+<position position="454"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No switch of product outcome." evidence="5">
+<original>V</original>
+<variation>I</variation>
+<location>
+<position position="200"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Complete switch of product outcome from (-)-kolavenyl diphosphate to ent-copalyl diphosphate." evidence="4 5">
+<original>F</original>
+<variation>H</variation>
+<location>
+<position position="255"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No switch of product outcome." evidence="5">
+<original>A</original>
+<variation>V</variation>
+<location>
+<position position="314"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No switch of product outcome." evidence="5">
+<original>S</original>
+<variation>V</variation>
+<location>
+<position position="369"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No switch of product outcome." evidence="5">
+<original>S</original>
+<variation>C</variation>
+<location>
+<position position="402"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; APH81400." ref="2" evidence="8">
+<original>N</original>
+<variation>H</variation>
+<location>
+<position position="308"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; APH81400." ref="2" evidence="8">
+<original>Q</original>
+<variation>L</variation>
+<location>
+<position position="643"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; APH81400." ref="2" evidence="8">
+<original>K</original>
+<variation>KQ</variation>
+<location>
+<position position="710"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="C7BKP9"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q38802"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="27865008"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="28204567"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="27865008"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="28204567"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000305"/>
+<evidence key="9" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="28204567"/>
+</source>
+</evidence>
+<sequence length="787" mass="89377" checksum="1015581F3C0DC1FA" modified="2017-05-10" version="1" precursor="true">MSFATSLPRPTTTGAAGFGLPLATCISLSVSHSFSPKFGICNNTSLRLKSKAGSGCYEGIHRSQLAASTILEGHTPINPEVESEKIRLIERIRLMFRSMDDGEISVSPYDTAWVALVEDIGGSGGPQFPTSLEWISNNQLDDGSWGDRKFVLYDRILNTLACVVALTTWKMHPNKCEKGLRFISDNIEKLADEDEELMPVGFEIALPSLIDLAKRLCIEIPDNSASIKNIYAKRDSKLKRIPMDLMHKKPTSLLFSLEGMEGLNWDKLLDFQSEGSFLSSPSSTAYALHHTKDELCLEYLLKAVKKFNGGVPNAYPVDMFEHLWSVDRLRRLGISRYFQVEIDECLDYVYRYWTNKGICWARNMCVQDSDDSSMGFRLLRLYGYDVSIDVFKQFEEGGQFCSIPGQMTHAITGMYNLYRASQLMFPQEHILADARNFTANLLHQKRVTNSIVDKWIITKDLPGEVAYALDVPFYASLPRLEARFFLEQYGGDDDVWIGKTLYRMLYVNCNTYLELAKLDYKHCQTVHQLEWNSMQTWYRECNLGEFGLSERSLLLAYYIAASTAFEPEKSSERLAWAITTILVETIMSQELSDEQKREFVDEFVNISIINNQNGGRYKPGNRLVEVLINTVTLMAEGRGTDQQLSNAWKNWLKTWEEGGDLGEAEARLLLHTIHLSSGLDESSFSHPKYQQLLEATSKVCHQLRLFQNLKANDAQGSTSRLVTVTTFQIEAGMQELVKLIFTKTLEDLTSATKQSFFNIARSFYYTAYCPADTIDSHINKVLFEKIV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

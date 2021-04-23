@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-01-25" modified="2021-04-07" version="59">
+<accession>G7K980</accession>
+<name>G7K980_MEDTR</name>
+<protein>
+<recommendedName>
+<fullName evidence="4">Terpene cyclase/mutase family member</fullName>
+<ecNumber evidence="4">5.4.99.-</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="9">11428926</name>
+<name type="ordered locus" evidence="7">MTR_5g008810</name>
+<name type="ORF" evidence="8">MtrunA17_Chr5g0396321</name>
+</gene>
+<organism evidence="7 10">
+<name type="scientific">Medicago truncatula</name>
+<name type="common">Barrel medic</name>
+<name type="synonym">Medicago tribuloides</name>
+<dbReference type="NCBI Taxonomy" id="3880"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>fabids</taxon>
+<taxon>Fabales</taxon>
+<taxon>Fabaceae</taxon>
+<taxon>Papilionoideae</taxon>
+<taxon>50 kb inversion clade</taxon>
+<taxon>NPAAA clade</taxon>
+<taxon>Hologalegina</taxon>
+<taxon>IRL clade</taxon>
+<taxon>Trifolieae</taxon>
+<taxon>Medicago</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="7 9 10">
+<citation type="journal article" date="2011" name="Nature" volume="480" first="520" last="524">
+<title>The Medicago genome provides insight into the evolution of rhizobial symbioses.</title>
+<authorList>
+<person name="Young N.D."/>
+<person name="Debelle F."/>
+<person name="Oldroyd G.E.D."/>
+<person name="Geurts R."/>
+<person name="Cannon S.B."/>
+<person name="Udvardi M.K."/>
+<person name="Benedito V.A."/>
+<person name="Mayer K.F.X."/>
+<person name="Gouzy J."/>
+<person name="Schoof H."/>
+<person name="Van de Peer Y."/>
+<person name="Proost S."/>
+<person name="Cook D.R."/>
+<person name="Meyers B.C."/>
+<person name="Spannagl M."/>
+<person name="Cheung F."/>
+<person name="De Mita S."/>
+<person name="Krishnakumar V."/>
+<person name="Gundlach H."/>
+<person name="Zhou S."/>
+<person name="Mudge J."/>
+<person name="Bharti A.K."/>
+<person name="Murray J.D."/>
+<person name="Naoumkina M.A."/>
+<person name="Rosen B."/>
+<person name="Silverstein K.A.T."/>
+<person name="Tang H."/>
+<person name="Rombauts S."/>
+<person name="Zhao P.X."/>
+<person name="Zhou P."/>
+<person name="Barbe V."/>
+<person name="Bardou P."/>
+<person name="Bechner M."/>
+<person name="Bellec A."/>
+<person name="Berger A."/>
+<person name="Berges H."/>
+<person name="Bidwell S."/>
+<person name="Bisseling T."/>
+<person name="Choisne N."/>
+<person name="Couloux A."/>
+<person name="Denny R."/>
+<person name="Deshpande S."/>
+<person name="Dai X."/>
+<person name="Doyle J.J."/>
+<person name="Dudez A.-M."/>
+<person name="Farmer A.D."/>
+<person name="Fouteau S."/>
+<person name="Franken C."/>
+<person name="Gibelin C."/>
+<person name="Gish J."/>
+<person name="Goldstein S."/>
+<person name="Gonzalez A.J."/>
+<person name="Green P.J."/>
+<person name="Hallab A."/>
+<person name="Hartog M."/>
+<person name="Hua A."/>
+<person name="Humphray S.J."/>
+<person name="Jeong D.-H."/>
+<person name="Jing Y."/>
+<person name="Jocker A."/>
+<person name="Kenton S.M."/>
+<person name="Kim D.-J."/>
+<person name="Klee K."/>
+<person name="Lai H."/>
+<person name="Lang C."/>
+<person name="Lin S."/>
+<person name="Macmil S.L."/>
+<person name="Magdelenat G."/>
+<person name="Matthews L."/>
+<person name="McCorrison J."/>
+<person name="Monaghan E.L."/>
+<person name="Mun J.-H."/>
+<person name="Najar F.Z."/>
+<person name="Nicholson C."/>
+<person name="Noirot C."/>
+<person name="O'Bleness M."/>
+<person name="Paule C.R."/>
+<person name="Poulain J."/>
+<person name="Prion F."/>
+<person name="Qin B."/>
+<person name="Qu C."/>
+<person name="Retzel E.F."/>
+<person name="Riddle C."/>
+<person name="Sallet E."/>
+<person name="Samain S."/>
+<person name="Samson N."/>
+<person name="Sanders I."/>
+<person name="Saurat O."/>
+<person name="Scarpelli C."/>
+<person name="Schiex T."/>
+<person name="Segurens B."/>
+<person name="Severin A.J."/>
+<person name="Sherrier D.J."/>
+<person name="Shi R."/>
+<person name="Sims S."/>
+<person name="Singer S.R."/>
+<person name="Sinharoy S."/>
+<person name="Sterck L."/>
+<person name="Viollet A."/>
+<person name="Wang B.-B."/>
+<person name="Wang K."/>
+<person name="Wang M."/>
+<person name="Wang X."/>
+<person name="Warfsmann J."/>
+<person name="Weissenbach J."/>
+<person name="White D.D."/>
+<person name="White J.D."/>
+<person name="Wiley G.B."/>
+<person name="Wincker P."/>
+<person name="Xing Y."/>
+<person name="Yang L."/>
+<person name="Yao Z."/>
+<person name="Ying F."/>
+<person name="Zhai J."/>
+<person name="Zhou L."/>
+<person name="Zuber A."/>
+<person name="Denarie J."/>
+<person name="Dixon R.A."/>
+<person name="May G.D."/>
+<person name="Schwartz D.C."/>
+<person name="Rogers J."/>
+<person name="Quetier F."/>
+<person name="Town C.D."/>
+<person name="Roe B.A."/>
+</authorList>
+<dbReference type="PubMed" id="22089132"/>
+<dbReference type="DOI" id="10.1038/nature10625"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="7">A17</strain>
+<strain evidence="9 10">cv. Jemalong A17</strain>
+</source>
+</reference>
+<reference key="2" evidence="7 9 10">
+<citation type="journal article" date="2014" name="BMC Genomics" volume="15" first="312" last="312">
+<title>An improved genome release (version Mt4.0) for the model legume Medicago truncatula.</title>
+<authorList>
+<person name="Tang H."/>
+<person name="Krishnakumar V."/>
+<person name="Bidwell S."/>
+<person name="Rosen B."/>
+<person name="Chan A."/>
+<person name="Zhou S."/>
+<person name="Gentzbittel L."/>
+<person name="Childs K.L."/>
+<person name="Yandell M."/>
+<person name="Gundlach H."/>
+<person name="Mayer K.F."/>
+<person name="Schwartz D.C."/>
+<person name="Town C.D."/>
+</authorList>
+<dbReference type="PubMed" id="24767513"/>
+<dbReference type="DOI" id="10.1186/1471-2164-15-312"/>
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain evidence="9 10">cv. Jemalong A17</strain>
+</source>
+</reference>
+<reference key="3" evidence="9">
+<citation type="submission" date="2015-04" db="UniProtKB">
+<authorList>
+<consortium name="EnsemblPlants"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+<source>
+<strain evidence="9">cv. Jemalong A17</strain>
+</source>
+</reference>
+<reference key="4" evidence="11">
+<citation type="journal article" date="2018" name="Nat. Plants" volume="4" first="1017" last="1025">
+<title>Whole-genome landscape of Medicago truncatula symbiotic genes.</title>
+<authorList>
+<person name="Pecrix Y."/>
+<person name="Staton S.E."/>
+<person name="Sallet E."/>
+<person name="Lelandais-Briere C."/>
+<person name="Moreau S."/>
+<person name="Carrere S."/>
+<person name="Blein T."/>
+<person name="Jardinaud M.F."/>
+<person name="Latrasse D."/>
+<person name="Zouine M."/>
+<person name="Zahm M."/>
+<person name="Kreplak J."/>
+<person name="Mayjonade B."/>
+<person name="Satge C."/>
+<person name="Perez M."/>
+<person name="Cauet S."/>
+<person name="Marande W."/>
+<person name="Chantry-Darmon C."/>
+<person name="Lopez-Roques C."/>
+<person name="Bouchez O."/>
+<person name="Berard A."/>
+<person name="Debelle F."/>
+<person name="Munos S."/>
+<person name="Bendahmane A."/>
+<person name="Berges H."/>
+<person name="Niebel A."/>
+<person name="Buitink J."/>
+<person name="Frugier F."/>
+<person name="Benhamed M."/>
+<person name="Crespi M."/>
+<person name="Gouzy J."/>
+<person name="Gamas P."/>
+</authorList>
+<dbReference type="PubMed" id="30397259"/>
+<dbReference type="DOI" id="10.1038/s41477-018-0286-7"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="11">cv. Jemalong A17</strain>
+</source>
+</reference>
+<reference key="5" evidence="8">
+<citation type="journal article" date="2018" name="Nat. Plants">
+<title>Whole-genome landscape of Medicago truncatula symbiotic genes.</title>
+<authorList>
+<person name="Pecrix Y."/>
+<person name="Gamas P."/>
+<person name="Carrere S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="8">Leaves</tissue>
+</source>
+</reference>
+<comment type="similarity">
+<text evidence="1 4">Belongs to the terpene cyclase/mutase family.</text>
+</comment>
+<dbReference type="EC" id="5.4.99.-" evidence="4"/>
+<dbReference type="EMBL" id="CM001221">
+<property type="protein sequence ID" value="AES93905.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="PSQE01000005">
+<property type="protein sequence ID" value="RHN53482.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_003610947.1">
+<property type="nucleotide sequence ID" value="XM_003610899.2"/>
+</dbReference>
+<dbReference type="STRING" id="3880.AES93905"/>
+<dbReference type="EnsemblPlants" id="AES93905">
+<property type="protein sequence ID" value="AES93905"/>
+<property type="gene ID" value="MTR_5g008810"/>
+</dbReference>
+<dbReference type="GeneID" id="11428926"/>
+<dbReference type="Gramene" id="AES93905">
+<property type="protein sequence ID" value="AES93905"/>
+<property type="gene ID" value="MTR_5g008810"/>
+</dbReference>
+<dbReference type="KEGG" id="mtr:MTR_5g008810"/>
+<dbReference type="eggNOG" id="KOG0497">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_009074_2_0_1"/>
+<dbReference type="OMA" id="CWARQTI"/>
+<dbReference type="OrthoDB" id="365003at2759"/>
+<dbReference type="Proteomes" id="UP000002051">
+<property type="component" value="Chromosome 5"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000265566">
+<property type="component" value="Chromosome 5"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005811">
+<property type="term" value="C:lipid droplet"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042300">
+<property type="term" value="F:beta-amyrin synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000250">
+<property type="term" value="F:lanosterol synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016104">
+<property type="term" value="P:triterpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="CDD" id="cd02892">
+<property type="entry name" value="SQCY_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032696">
+<property type="entry name" value="SQ_cyclase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032697">
+<property type="entry name" value="SQ_cyclase_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018333">
+<property type="entry name" value="Squalene_cyclase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002365">
+<property type="entry name" value="Terpene_synthase_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13243">
+<property type="entry name" value="SQHop_cyclase_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13249">
+<property type="entry name" value="SQHop_cyclase_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01016">
+<property type="entry name" value="Prenyltransferase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01787">
+<property type="entry name" value="squalene_cyclas"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01074">
+<property type="entry name" value="TERPENE_SYNTHASES"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0413" evidence="3 4 8">Isomerase</keyword>
+<keyword id="KW-1185" evidence="10">Reference proteome</keyword>
+<keyword id="KW-0677" evidence="2">Repeat</keyword>
+<feature type="domain" description="SQHop_cyclase_N" evidence="6">
+<location>
+<begin position="98"/>
+<end position="401"/>
+</location>
+</feature>
+<feature type="domain" description="SQHop_cyclase_C" evidence="5">
+<location>
+<begin position="413"/>
+<end position="751"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00009755"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022737"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00023235"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU362003"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13243"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13249"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AES93905.1"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="RHN53482.1"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000313">
+<source>
+<dbReference type="EnsemblPlants" id="AES93905"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000002051"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000265566"/>
+</source>
+</evidence>
+<sequence length="757" mass="86410" checksum="F0D632A994ED8F27" modified="2012-01-25" version="1">MWKLKVAEGGSPWLRTLNNHVGRQLWEFDPNSGSPQDLADIESVRQNFRNNRFSHKHSDDLLMRIQFAKENPMKEVIPKVRVKDVEDVNEESVTTTLRRALNFYSTLQSHDGHWPGDYAGPMFLLPGLVITLSITGALNAVLTDEHRKEMRRYLYNHQNKDGGWGLHIEGPSTMFGSVLSYVTLRLLGEGPNDGEGDMEKARDWILEHGGATHITSWGKMWLSVLGVFEWSGNNPLPPELWLLPYILPFHPGRMWCHCRMVYLPMCYLYGKRFVGPITPTILSLRKELFTVPYHDVDWNQARNLCAKEDLYYPHPLVQDILWATLHKVVEPIFMNWPCKKLREKAVETVMEHIHYEDENTRYICIGPVNKVLNMLCCWVEDPNSEAFKLHLPRIHDYLWIAEDGMKMQGYNGSQLWDTSFIAQAIISTNLIEEFGPTLRKAHTFIKNSQVSEDCPGDLSKWYRHISKGAWPFSTADHGWPISDCTAEGLKAVLLLSKIAPEIVGEPLDAKRLYDAVNVIISLQNEDGGLATYELTRSYSWLEICNPAETFGDIVIDYTYVECTSAAIQALSTFRKLYPGHRREEIQRCIEKAAAFIEKIQASDGSWYGSWGVCFTYGTWFGVKGLIAAGKSFSNCLSIRKACDFLLSKQLPSGGWGESYLSCQNKVYSNLESNRSHVVNTGWAMLALIEAEQAKRDPTPLHRAAVCLINSQMENGDFPQEEIMGVFNKNCMITYAAYRNIFPIWALGEYRRHVLQTC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

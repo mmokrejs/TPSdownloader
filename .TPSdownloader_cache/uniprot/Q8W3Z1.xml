@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2011-11-16" dataset="Swiss-Prot" modified="2021-04-07" version="59">
+    <accession>Q8W3Z1</accession>
+    <name>BAMS_BETPL</name>
+    <protein>
+      <recommendedName>
+        <fullName>Beta-amyrin synthase</fullName>
+        <ecNumber>5.4.99.39</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="primary">OSCBPY</name>
+    </gene>
+    <organism>
+      <name type="scientific">Betula platyphylla</name>
+      <name type="common">Asian white birch</name>
+      <dbReference id="78630" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>fabids</taxon>
+        <taxon>Fagales</taxon>
+        <taxon>Betulaceae</taxon>
+        <taxon>Betula</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2003" first="642" last="650" name="Biol. Pharm. Bull." type="journal article" volume="26">
+        <title>Oxidosqualene cyclases from cell suspension cultures of Betula platyphylla var. japonica: molecular evolution of oxidosqualene cyclases in higher plants.</title>
+        <authorList>
+          <person name="Zhang H."/>
+          <person name="Shibuya M."/>
+          <person name="Yokota S."/>
+          <person name="Ebizuka Y."/>
+        </authorList>
+        <dbReference id="12736505" type="PubMed"/>
+        <dbReference id="10.1248/bpb.26.642" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Oxidosqualene cyclase converting oxidosqualene into beta-amyrin, generating five rings and eight asymmetric centers in a single transformation.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(S)-2,3-epoxysqualene = beta-amyrin</text>
+        <dbReference id="RHEA:31007" type="Rhea"/>
+        <dbReference id="CHEBI:10352" type="ChEBI"/>
+        <dbReference id="CHEBI:15441" type="ChEBI"/>
+        <dbReference id="5.4.99.39" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene cyclase/mutase family.</text>
+    </comment>
+    <dbReference id="5.4.99.39" type="EC"/>
+    <dbReference id="AB055512" type="EMBL">
+      <property type="protein sequence ID" value="BAB83088.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="Q8W3Z1" type="SMR"/>
+    <dbReference id="ag:BAB83088" type="KEGG"/>
+    <dbReference id="5.4.99.39" type="BRENDA">
+      <property type="organism ID" value="9789"/>
+    </dbReference>
+    <dbReference id="GO:0005811" type="GO">
+      <property type="term" value="C:lipid droplet"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0042300" type="GO">
+      <property type="term" value="F:beta-amyrin synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0000250" type="GO">
+      <property type="term" value="F:lanosterol synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0019745" type="GO">
+      <property type="term" value="P:pentacyclic triterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="cd02892" type="CDD">
+      <property type="entry name" value="SQCY_1"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR032696" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_C"/>
+    </dbReference>
+    <dbReference id="IPR032697" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_N"/>
+    </dbReference>
+    <dbReference id="IPR018333" type="InterPro">
+      <property type="entry name" value="Squalene_cyclase"/>
+    </dbReference>
+    <dbReference id="IPR002365" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_CS"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF13243" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF13249" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01016" type="SFLD">
+      <property type="entry name" value="Prenyltransferase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="TIGR01787" type="TIGRFAMs">
+      <property type="entry name" value="squalene_cyclas"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PS01074" type="PROSITE">
+      <property type="entry name" value="TERPENE_SYNTHASES"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0677">Repeat</keyword>
+    <feature description="Beta-amyrin synthase" id="PRO_0000413997" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="779"/>
+      </location>
+    </feature>
+    <feature description="PFTB 1" type="repeat">
+      <location>
+        <begin position="148"/>
+        <end position="189"/>
+      </location>
+    </feature>
+    <feature description="PFTB 2" type="repeat">
+      <location>
+        <begin position="514"/>
+        <end position="556"/>
+      </location>
+    </feature>
+    <feature description="PFTB 3" type="repeat">
+      <location>
+        <begin position="640"/>
+        <end position="681"/>
+      </location>
+    </feature>
+    <feature description="Proton donor" evidence="1" type="active site">
+      <location>
+        <position position="485"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="P48449" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="12736505" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <sequence checksum="2719195638B22B58" length="779" mass="89558" modified="2002-03-01" version="1">MWRLKIADGGSDPYIYSTNNFVGRQTWEFDPQAGSPQERAEVEEARRNFYDNRYQVKPSGDLLWRMQFLKEKNFKQTIPPVKVEDGEEITYEKSTAALRRAVHFYSALQASDGHWPAENAGPLFFLPPLVMCMYITGHLNTVFPAEHQKEILRYIYYHQNEDGGWGLHIEGHSTMFCTALSYICMRILGEGPDGGQDNACARARKWILDHGGVTHMPSWGKTWLSILGIFEWIGSNPMPPEFWILPSFLPMHPAKMWCYCRMVYMPMSYLYGKRFVGPITPLILQLREELYTQPYHQVNWKKVRHLCAKEDIYYPHPLIQDLLWDSLYIFTEPLLTRWPFNKLVREKALQVTMKHIHYEDENSRYITIGCVEKVLCMLACWVEDPNGDYFKKHIARIPDYIWVAEDGIKMQSFGSQEWDTGFAIQALLASNLTDEIGPTLARGHDFIKKSQVKDNPSGDFESMHRHISKGSWTFSDQDHGWQVSDCTAEGLKCCLLFSIMPPEIVGEKMEPEQLYDSVNVLLSLQSKNGGLAAWEPAGAQEWLELLNSTEFFADIVIEHEYIECTASAMQTLVLFKKLYPGHRKKEIENFIKNAAQFLQVIQMPDGSWYGNWGVCFTYGTWFALGGLAAVGKTYNNCLAVRRAVDFLLRAQRDNGGWGESYLSCPKKEYVPLEGNKSNLVHTAWAMMGLIHAGQAERDPTPLHRAAKLIINSQLEDGDFPQQEITGVFMKNCMLHYAAYKNIYPLWALAEYRKHVPLPLGKNLNQVVNCIGQSLYKKYK</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

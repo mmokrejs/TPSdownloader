@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:68658</ID>
+<NAME>(+)-epi-alpha-bisabolol</NAME>
+<DEFINITION>A sesquiterpenoid that is bisabolane having double bonds at positions 2 and 9 as well as a hydroxy substituent at position 7.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>(+)-epi-alpha-bisabolol</SYNONYM>
+<IUPAC_NAME>(2S)-6-methyl-2-[(1R)-4-methylcyclohex-3-en-1-yl]hept-5-en-2-ol</IUPAC_NAME>
+<FORMULA>C15H26O</FORMULA>
+<MASS>222.36630</MASS>
+<MONOISOTOPIC_MASS>222.19837</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@]1(CCC(C)=CC1)[C@@](C)(O)CCC=C(C)C</SMILES>
+<INCHI>InChI=1S/C15H26O/c1-12(2)6-5-11-15(4,16)14-9-7-13(3)8-10-14/h6-7,14,16H,5,8-11H2,1-4H3/t14-,15-/m0/s1</INCHI>
+<INCHIKEY>RGZSQWQPBWRIAQ-GJZGRUSLSA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>3082343</REAXYS_REGISTRY_NUMBER>
+<PUBMED_CITATION>22867794</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2000-10-01" dataset="TrEMBL" modified="2021-04-07" version="82">
+    <accession>Q9LKN1</accession>
+    <name>Q9LKN1_GOSHI</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="3">(+)-delta-cadinene synthase</fullName>
+        <ecNumber evidence="3">4.2.3.13</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name evidence="10" type="primary">cdn1-C4</name>
+    </gene>
+    <organism evidence="10">
+      <name type="scientific">Gossypium hirsutum</name>
+      <name type="common">Upland cotton</name>
+      <name type="synonym">Gossypium mexicanum</name>
+      <dbReference id="3635" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>malvids</taxon>
+        <taxon>Malvales</taxon>
+        <taxon>Malvaceae</taxon>
+        <taxon>Malvoideae</taxon>
+        <taxon>Gossypium</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="10" key="1">
+      <citation date="2005" first="516" last="528" name="Plant Physiol." type="journal article" volume="138">
+        <title>Antisense suppression of a (+)-delta-cadinene synthase gene in cotton prevents the induction of this defense response gene during bacterial blight infection but not its constitutive expression.</title>
+        <authorList>
+          <person name="Townsend B.J."/>
+          <person name="Poole A."/>
+          <person name="Blake C.J."/>
+          <person name="Llewellyn D.J."/>
+        </authorList>
+        <dbReference id="15849309" type="PubMed"/>
+        <dbReference id="10.1104/pp.104.056010" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Responsible for the cyclization of trans,trans-farnesyl diphosphate (FPP) to (+)-delta cadinene.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="1">
+        <text>(2E,6E)-farnesyl diphosphate = (1S,8aR)-delta-cadinene + diphosphate</text>
+        <dbReference id="RHEA:19525" type="Rhea"/>
+        <dbReference id="CHEBI:15385" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.13" type="EC"/>
+      </reaction>
+    </comment>
+    <dbReference evidence="3" id="4.2.3.13" type="EC"/>
+    <dbReference id="AF270425" type="EMBL">
+      <property type="protein sequence ID" value="AAF74977.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="ERTIETW" type="OMA"/>
+    <dbReference id="GO:0047461" type="GO">
+      <property type="term" value="F:(+)-delta-cadinene synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="AgBase"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000304"/>
+      <property type="project" value="AgBase"/>
+    </dbReference>
+    <dbReference id="GO:0009617" type="GO">
+      <property type="term" value="P:response to bacterium"/>
+      <property type="evidence" value="ECO:0000315"/>
+      <property type="project" value="AgBase"/>
+    </dbReference>
+    <dbReference id="GO:0009620" type="GO">
+      <property type="term" value="P:response to fungus"/>
+      <property type="evidence" value="ECO:0000315"/>
+      <property type="project" value="AgBase"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="6" id="KW-0175">Coiled coil</keyword>
+    <keyword evidence="10" id="KW-0456">Lyase</keyword>
+    <keyword evidence="5" id="KW-0460">Magnesium</keyword>
+    <keyword evidence="4" id="KW-0479">Metal-binding</keyword>
+    <feature description="Terpene_synth" evidence="8" type="domain">
+      <location>
+        <begin position="28"/>
+        <end position="198"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="9" type="domain">
+      <location>
+        <begin position="229"/>
+        <end position="494"/>
+      </location>
+    </feature>
+    <feature description="Disordered" evidence="7" type="region of interest">
+      <location>
+        <begin position="1"/>
+        <end position="20"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="coiled-coil region">
+      <location>
+        <begin position="87"/>
+        <end position="107"/>
+      </location>
+    </feature>
+    <feature description="Polar" evidence="7" type="compositionally biased region">
+      <location>
+        <begin position="1"/>
+        <end position="15"/>
+      </location>
+    </feature>
+    <feature evidence="10" type="non-terminal residue">
+      <location>
+        <position position="1"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00001693" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00002383" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00013103" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022842" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000256">
+      <source>
+        <dbReference id="Coils" type="SAM"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000256">
+      <source>
+        <dbReference id="MobiDB-lite" type="SAM"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0000313">
+      <source>
+        <dbReference id="AAF74977.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="49D8165412259EF0" fragment="single" length="551" mass="63863" modified="2000-10-01" version="1">QVSQMPSSSPLSSNKDEMRPKADFQPSIWGDFFLNCPDKNIDAETQKRHQQLKEEVRKMIVAPMANSTQKLAFIDSVQRLGVSYHFTKEIEDELENIYHNNNDAENDLYTTSLRFRLLREHGFNVSCDVFNKFKDEQGNFKSSVTSDVRGLLELYQASYLRVHGEDILDEAISFTSNHLSLAVASLDHPLSEEVSHALKQSIRRGLPRVEARHYLSVYQDIESHNKVLLEFAKIDFNMVQLLHRKELSEISRWWKDLDFQRKLPYARDRVVEGYFWISGVYFEPQYSLGRKMLTKVIAMASIVDDTYDSYATYEELIPYTNAIERWDIKCIDELPEYMKPSYKALLDVYEEMEQLVAEHGRQYRVEYAKNAMIRLAQSYLVEARWTLQNYKPSFEEFKANALPTCGYAMLAITSFVGMGDIVTPETFKWAANDPKIIQASTIICRFMDDVAEHKFKHRREDDCSAIECYMEEYGVTAQEAYDVFNKHVESAWKDVNQEFLKPTEMPTEVLNRSLNLARVMDVLYREGDGYTYVGKAAKGGITSLLIEPIAL</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

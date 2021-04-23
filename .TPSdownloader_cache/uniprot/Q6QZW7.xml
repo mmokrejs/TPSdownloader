@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2004-07-05" dataset="TrEMBL" modified="2021-04-07" version="57">
+    <accession>Q6QZW7</accession>
+    <name>Q6QZW7_9APIA</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="3">Terpene cyclase/mutase family member</fullName>
+        <ecNumber evidence="3">5.4.99.-</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name evidence="6" type="primary">OSCCCS</name>
+    </gene>
+    <organism evidence="6">
+      <name type="scientific">Centella asiatica</name>
+      <dbReference id="48106" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>campanulids</taxon>
+        <taxon>Apiales</taxon>
+        <taxon>Apiaceae</taxon>
+        <taxon>Mackinlayoideae</taxon>
+        <taxon>Centella</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="6" key="1">
+      <citation date="2005" first="16" last="22" name="Biotechnol. Bioprocess Eng." type="journal article" volume="10">
+        <title>Cloning and molecular analysis of cDNA encoding cycloartenol synthase from Centella asiatica (L.) urban.</title>
+        <authorList>
+          <person name="Kim O.T."/>
+          <person name="Kim M.Y."/>
+          <person name="Huang S.J."/>
+          <person name="Ahn J.C."/>
+          <person name="Hwang B."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <comment type="similarity">
+      <text evidence="1 3">Belongs to the terpene cyclase/mutase family.</text>
+    </comment>
+    <dbReference evidence="3" id="5.4.99.-" type="EC"/>
+    <dbReference id="AY520819" type="EMBL">
+      <property type="protein sequence ID" value="AAS01524.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="Q6QZW7" type="SMR"/>
+    <dbReference id="GO:0005811" type="GO">
+      <property type="term" value="C:lipid droplet"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0042300" type="GO">
+      <property type="term" value="F:beta-amyrin synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0000250" type="GO">
+      <property type="term" value="F:lanosterol synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016104" type="GO">
+      <property type="term" value="P:triterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="cd02892" type="CDD">
+      <property type="entry name" value="SQCY_1"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR032696" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_C"/>
+    </dbReference>
+    <dbReference id="IPR032697" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_N"/>
+    </dbReference>
+    <dbReference id="IPR018333" type="InterPro">
+      <property type="entry name" value="Squalene_cyclase"/>
+    </dbReference>
+    <dbReference id="IPR002365" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_CS"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF13243" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF13249" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01016" type="SFLD">
+      <property type="entry name" value="Prenyltransferase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="TIGR01787" type="TIGRFAMs">
+      <property type="entry name" value="squalene_cyclas"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PS01074" type="PROSITE">
+      <property type="entry name" value="TERPENE_SYNTHASES"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="3" id="KW-0413">Isomerase</keyword>
+    <keyword evidence="2" id="KW-0677">Repeat</keyword>
+    <feature description="SQHop_cyclase_N" evidence="5" type="domain">
+      <location>
+        <begin position="98"/>
+        <end position="400"/>
+      </location>
+    </feature>
+    <feature description="SQHop_cyclase_C" evidence="4" type="domain">
+      <location>
+        <begin position="413"/>
+        <end position="750"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00009755" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022737" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000256">
+      <source>
+        <dbReference id="RU362003" type="RuleBase"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000259">
+      <source>
+        <dbReference id="PF13243" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000259">
+      <source>
+        <dbReference id="PF13249" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000313">
+      <source>
+        <dbReference id="AAS01524.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="CFEBD7B223287E20" length="757" mass="86260" modified="2004-07-05" version="1">MWKLKVAEGGNPWLRTVNNHVGRQIWEFDPKLGSPEELAEIEKARENFHNHRFEKQHSSDLLMRLQFANENPRHEVLPQVKVKDIGDISEDKVTITLKRALSFYSTLQANDGHWAGDYGGPMFLMPGLVITLSITEALNAILSKEHKREICRYLYNHQNRDGGWGLHIEGPSTMFGSVLNYVTLRLLGEGTKDGQGAMEKGRQWILDHGGATAITSWGRMWLSVLGVFEWSGNNPLPPEIWLFPYNLPFHPGRMWCHCRMVYLPMSYLYGKRFVGPITPTVLSLRKELFTVPYHEIDWNQARNLCAKEDLYYPHPLVQDILWASIDKVLEPILMRWPGKKLREKALRTVMEHIHYEDENTRYICIGPVNKVLNMLCCWAEDPNSEAFKLHLPRLYDFLWLAEDGMKMQGYNGSQLWDTAFAVQAIISTSLTEYCGPTLRKAHTFMKDSQVLDDCPGDLDFWYRHISKGAWPFSTADHGWPISDCTAEGFKAVLLLSKFPAELVGEPLDAKRLYDAVNVILSLQNSDGGYATYELTRSYRWLELINPAETFGDIVIDYPYAECTSAAIQALSAFKKLYPGHRREEIQCSIEKAADFIEKIQASDGSWYGSWGVCFTYGTWFGVKGLISAGRTFSNCSSIRKACYFLLSKQLASGGWGESYLSCQNKVYTNLEGERSHVVNTGWAMLALIEAGQAERDATPLHHAAKLLINSQMENGDFPQEEIMGVFNKNCMITYAAYRNIFPIWALGDYRCRVLLAP</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

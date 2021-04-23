@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2009-03-03" dataset="Swiss-Prot" modified="2021-04-07" version="114">
+    <accession>Q9SYN1</accession>
+    <name>PEN6_ARATH</name>
+    <protein>
+      <recommendedName>
+        <fullName>Seco-amyrin synthase</fullName>
+        <ecNumber>5.4.99.52</ecNumber>
+        <ecNumber>5.4.99.54</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>Alpha-seco-amyrin synthase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Beta-seco-amyrin synthase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Pentacyclic triterpene synthase 6</fullName>
+        <shortName>AtPEN6</shortName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name type="primary">PEN6</name>
+      <name type="ordered locus">At1g78500</name>
+      <name type="ORF">T30F21.16</name>
+    </gene>
+    <organism>
+      <name type="scientific">Arabidopsis thaliana</name>
+      <name type="common">Mouse-ear cress</name>
+      <dbReference id="3702" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>malvids</taxon>
+        <taxon>Brassicales</taxon>
+        <taxon>Brassicaceae</taxon>
+        <taxon>Camelineae</taxon>
+        <taxon>Arabidopsis</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2000" first="816" last="820" name="Nature" type="journal article" volume="408">
+        <title>Sequence and analysis of chromosome 1 of the plant Arabidopsis thaliana.</title>
+        <authorList>
+          <person name="Theologis A."/>
+          <person name="Ecker J.R."/>
+          <person name="Palm C.J."/>
+          <person name="Federspiel N.A."/>
+          <person name="Kaul S."/>
+          <person name="White O."/>
+          <person name="Alonso J."/>
+          <person name="Altafi H."/>
+          <person name="Araujo R."/>
+          <person name="Bowman C.L."/>
+          <person name="Brooks S.Y."/>
+          <person name="Buehler E."/>
+          <person name="Chan A."/>
+          <person name="Chao Q."/>
+          <person name="Chen H."/>
+          <person name="Cheuk R.F."/>
+          <person name="Chin C.W."/>
+          <person name="Chung M.K."/>
+          <person name="Conn L."/>
+          <person name="Conway A.B."/>
+          <person name="Conway A.R."/>
+          <person name="Creasy T.H."/>
+          <person name="Dewar K."/>
+          <person name="Dunn P."/>
+          <person name="Etgu P."/>
+          <person name="Feldblyum T.V."/>
+          <person name="Feng J.-D."/>
+          <person name="Fong B."/>
+          <person name="Fujii C.Y."/>
+          <person name="Gill J.E."/>
+          <person name="Goldsmith A.D."/>
+          <person name="Haas B."/>
+          <person name="Hansen N.F."/>
+          <person name="Hughes B."/>
+          <person name="Huizar L."/>
+          <person name="Hunter J.L."/>
+          <person name="Jenkins J."/>
+          <person name="Johnson-Hopson C."/>
+          <person name="Khan S."/>
+          <person name="Khaykin E."/>
+          <person name="Kim C.J."/>
+          <person name="Koo H.L."/>
+          <person name="Kremenetskaia I."/>
+          <person name="Kurtz D.B."/>
+          <person name="Kwan A."/>
+          <person name="Lam B."/>
+          <person name="Langin-Hooper S."/>
+          <person name="Lee A."/>
+          <person name="Lee J.M."/>
+          <person name="Lenz C.A."/>
+          <person name="Li J.H."/>
+          <person name="Li Y.-P."/>
+          <person name="Lin X."/>
+          <person name="Liu S.X."/>
+          <person name="Liu Z.A."/>
+          <person name="Luros J.S."/>
+          <person name="Maiti R."/>
+          <person name="Marziali A."/>
+          <person name="Militscher J."/>
+          <person name="Miranda M."/>
+          <person name="Nguyen M."/>
+          <person name="Nierman W.C."/>
+          <person name="Osborne B.I."/>
+          <person name="Pai G."/>
+          <person name="Peterson J."/>
+          <person name="Pham P.K."/>
+          <person name="Rizzo M."/>
+          <person name="Rooney T."/>
+          <person name="Rowley D."/>
+          <person name="Sakano H."/>
+          <person name="Salzberg S.L."/>
+          <person name="Schwartz J.R."/>
+          <person name="Shinn P."/>
+          <person name="Southwick A.M."/>
+          <person name="Sun H."/>
+          <person name="Tallon L.J."/>
+          <person name="Tambunga G."/>
+          <person name="Toriumi M.J."/>
+          <person name="Town C.D."/>
+          <person name="Utterback T."/>
+          <person name="Van Aken S."/>
+          <person name="Vaysberg M."/>
+          <person name="Vysotskaia V.S."/>
+          <person name="Walker M."/>
+          <person name="Wu D."/>
+          <person name="Yu G."/>
+          <person name="Fraser C.M."/>
+          <person name="Venter J.C."/>
+          <person name="Davis R.W."/>
+        </authorList>
+        <dbReference id="11130712" type="PubMed"/>
+        <dbReference id="10.1038/35048500" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>cv. Columbia</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2017" first="789" last="804" name="Plant J." type="journal article" volume="89">
+        <title>Araport11: a complete reannotation of the Arabidopsis thaliana reference genome.</title>
+        <authorList>
+          <person name="Cheng C.Y."/>
+          <person name="Krishnakumar V."/>
+          <person name="Chan A.P."/>
+          <person name="Thibaud-Nissen F."/>
+          <person name="Schobel S."/>
+          <person name="Town C.D."/>
+        </authorList>
+        <dbReference id="27862469" type="PubMed"/>
+        <dbReference id="10.1111/tpj.13415" type="DOI"/>
+      </citation>
+      <scope>GENOME REANNOTATION</scope>
+      <source>
+        <strain>cv. Columbia</strain>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2007" first="1450" last="1455" name="J. Am. Chem. Soc." type="journal article" volume="129">
+        <title>Origin of structural diversity in natural triterpenes: direct synthesis of seco-triterpene skeletons by oxidosqualene cyclase.</title>
+        <authorList>
+          <person name="Shibuya M."/>
+          <person name="Xiang T."/>
+          <person name="Katsube Y."/>
+          <person name="Otsuka M."/>
+          <person name="Zhang H."/>
+          <person name="Ebizuka Y."/>
+        </authorList>
+        <dbReference id="17263431" type="PubMed"/>
+        <dbReference id="10.1021/ja066873w" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+    </reference>
+    <reference key="4">
+      <citation date="2001" first="75" last="92" name="Plant Mol. Biol." type="journal article" volume="45">
+        <title>Molecular cloning and expression in yeast of 2,3-oxidosqualene-triterpenoid cyclases from Arabidopsis thaliana.</title>
+        <authorList>
+          <person name="Husselstein-Muller T."/>
+          <person name="Schaller H."/>
+          <person name="Benveniste P."/>
+        </authorList>
+        <dbReference id="11247608" type="PubMed"/>
+        <dbReference id="10.1023/a:1006476123930" type="DOI"/>
+      </citation>
+      <scope>IDENTIFICATION</scope>
+      <scope>NOMENCLATURE</scope>
+    </reference>
+    <reference key="5">
+      <citation date="2003" first="369" last="374" name="Pure Appl. Chem." type="journal article" volume="75">
+        <title>Functional genomics approach to the study of triterpene biosynthesis.</title>
+        <authorList>
+          <person name="Ebizuka Y."/>
+          <person name="Katsube Y."/>
+          <person name="Tsutsumi T."/>
+          <person name="Kushiro T."/>
+          <person name="Shibuya M."/>
+        </authorList>
+        <dbReference id="10.1351/pac200375020369" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2 3">Multifunctional enzyme that converts oxidosqualene to lupeol, bauerenol, alpha-amyrin, taraxasterol, psi-taraxasterol, multiflorenol, alpha-seco-amyrin and beta-seco-amyrin.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(S)-2,3-epoxysqualene = alpha-seco-amyrin</text>
+        <dbReference id="RHEA:31871" type="Rhea"/>
+        <dbReference id="CHEBI:15441" type="ChEBI"/>
+        <dbReference id="CHEBI:63464" type="ChEBI"/>
+        <dbReference id="5.4.99.52" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(S)-2,3-epoxysqualene = beta-seco-amyrin</text>
+        <dbReference id="RHEA:31879" type="Rhea"/>
+        <dbReference id="CHEBI:15441" type="ChEBI"/>
+        <dbReference id="CHEBI:63466" type="ChEBI"/>
+        <dbReference id="5.4.99.54" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="similarity">
+      <text evidence="4">Belongs to the terpene cyclase/mutase family.</text>
+    </comment>
+    <dbReference id="5.4.99.52" type="EC"/>
+    <dbReference id="5.4.99.54" type="EC"/>
+    <dbReference id="AC007260" type="EMBL">
+      <property type="protein sequence ID" value="AAD30585.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="CP002684" type="EMBL">
+      <property type="protein sequence ID" value="AEE36113.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="CP002684" type="EMBL">
+      <property type="protein sequence ID" value="ANM60176.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="AB274959" type="EMBL">
+      <property type="protein sequence ID" value="BAF80447.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="E96813" type="PIR">
+      <property type="entry name" value="E96813"/>
+    </dbReference>
+    <dbReference id="NP_001322480.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_001334828.1"/>
+    </dbReference>
+    <dbReference id="NP_177971.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_106497.1"/>
+    </dbReference>
+    <dbReference id="Q9SYN1" type="SMR"/>
+    <dbReference id="3702.AT1G78500.1" type="STRING"/>
+    <dbReference id="Q9SYN1" type="PaxDb"/>
+    <dbReference id="Q9SYN1" type="PRIDE"/>
+    <dbReference id="236408" type="ProteomicsDB"/>
+    <dbReference id="AT1G78500.1" type="EnsemblPlants">
+      <property type="protein sequence ID" value="AT1G78500.1"/>
+      <property type="gene ID" value="AT1G78500"/>
+    </dbReference>
+    <dbReference id="AT1G78500.2" type="EnsemblPlants">
+      <property type="protein sequence ID" value="AT1G78500.2"/>
+      <property type="gene ID" value="AT1G78500"/>
+    </dbReference>
+    <dbReference id="844186" type="GeneID"/>
+    <dbReference id="AT1G78500.1" type="Gramene">
+      <property type="protein sequence ID" value="AT1G78500.1"/>
+      <property type="gene ID" value="AT1G78500"/>
+    </dbReference>
+    <dbReference id="AT1G78500.2" type="Gramene">
+      <property type="protein sequence ID" value="AT1G78500.2"/>
+      <property type="gene ID" value="AT1G78500"/>
+    </dbReference>
+    <dbReference id="ath:AT1G78500" type="KEGG"/>
+    <dbReference id="AT1G78500" type="Araport"/>
+    <dbReference id="locus:2202950" type="TAIR">
+      <property type="gene designation" value="AT1G78500"/>
+    </dbReference>
+    <dbReference id="KOG0497" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="CLU_009074_2_0_1" type="HOGENOM"/>
+    <dbReference id="Q9SYN1" type="InParanoid"/>
+    <dbReference id="ISADLLW" type="OMA"/>
+    <dbReference id="365003at2759" type="OrthoDB"/>
+    <dbReference id="Q9SYN1" type="PhylomeDB"/>
+    <dbReference id="ARA:AT1G78500-MONOMER" type="BioCyc"/>
+    <dbReference id="PR:Q9SYN1" type="PRO"/>
+    <dbReference id="UP000006548" type="Proteomes">
+      <property type="component" value="Chromosome 1"/>
+    </dbReference>
+    <dbReference id="Q9SYN1" type="ExpressionAtlas">
+      <property type="expression patterns" value="baseline and differential"/>
+    </dbReference>
+    <dbReference id="Q9SYN1" type="Genevisible">
+      <property type="organism ID" value="AT"/>
+    </dbReference>
+    <dbReference id="GO:0005811" type="GO">
+      <property type="term" value="C:lipid droplet"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0042300" type="GO">
+      <property type="term" value="F:beta-amyrin synthase activity"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0000250" type="GO">
+      <property type="term" value="F:lanosterol synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0042299" type="GO">
+      <property type="term" value="F:lupeol synthase activity"/>
+      <property type="evidence" value="ECO:0000304"/>
+      <property type="project" value="TAIR"/>
+    </dbReference>
+    <dbReference id="GO:0031559" type="GO">
+      <property type="term" value="F:oxidosqualene cyclase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="TAIR"/>
+    </dbReference>
+    <dbReference id="GO:0016104" type="GO">
+      <property type="term" value="P:triterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="cd02892" type="CDD">
+      <property type="entry name" value="SQCY_1"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR032696" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_C"/>
+    </dbReference>
+    <dbReference id="IPR032697" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_N"/>
+    </dbReference>
+    <dbReference id="IPR018333" type="InterPro">
+      <property type="entry name" value="Squalene_cyclase"/>
+    </dbReference>
+    <dbReference id="IPR002365" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_CS"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF13243" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF13249" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01016" type="SFLD">
+      <property type="entry name" value="Prenyltransferase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="TIGR01787" type="TIGRFAMs">
+      <property type="entry name" value="squalene_cyclas"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PS01074" type="PROSITE">
+      <property type="entry name" value="TERPENE_SYNTHASES"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0677">Repeat</keyword>
+    <feature description="Seco-amyrin synthase" id="PRO_0000366141" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="767"/>
+      </location>
+    </feature>
+    <feature description="PFTB 1" type="repeat">
+      <location>
+        <begin position="149"/>
+        <end position="190"/>
+      </location>
+    </feature>
+    <feature description="PFTB 2" type="repeat">
+      <location>
+        <begin position="598"/>
+        <end position="638"/>
+      </location>
+    </feature>
+    <feature description="PFTB 3" type="repeat">
+      <location>
+        <begin position="647"/>
+        <end position="688"/>
+      </location>
+    </feature>
+    <feature description="Poly-Asp" type="compositionally biased region">
+      <location>
+        <begin position="435"/>
+        <end position="441"/>
+      </location>
+    </feature>
+    <feature description="Proton donor" evidence="1" type="active site">
+      <location>
+        <position position="492"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="P48449" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="17263431" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source ref="5"/>
+    </evidence>
+    <evidence key="4" type="ECO:0000305"/>
+    <sequence checksum="A7CBB9FA961A3050" length="767" mass="88447" modified="2000-05-01" version="1">MWRLKIGAKGGDETHLFTTNNYTGRQTWEFDADACSPEELAEVDEARQNFSINRSRFKISADLLWRMQFLREKKFEQKIPRVEIGDAENITYKDAKTALRRGILYFKALQAEDGHWPAENSGCLFFEAPFVICLYITGHLEKILTLEHRKELLRYMYNHQNEDGGWGIHVEGQSAMFCTVINYICLRILGVEADLDDIKGSGCARARKWILDHGGATYTPLIGKAWLSILGVYDWSGCKPIPPEVWMLPTFSPFNGGTLWIYFRDIFMGVSYLYGKKFVATPTPLILQLREELYPQPYDKILWSQARNQCAKEDLYYPQSFLQEMFWKCVHILSENILNRWPCNKLIRQKALRTTMELLHYQDEASRYFTGGCVPKPFHMLACWVEDPDGDYFKKHLARVPDYIWIGEDGLKIQSFGSQLWDTAFSLQVMLAYQDVDDDDDEIRSTLIKGYSFLNKSQLTQNPPGDHRKMLKDIAKGGWTFSDQDQGWPVSDCTAESLECCLVFGSMPSELIGEKMDVERLYDAVNLLLYFQSKNGGITVWEAARGRTWLEWLSPVEFMEDTIVEHEYVECTGSAIVALARFLKEFPEHRREEVEKFIKNAVKYIESFQMPDGSWYGNWGVCFMYGTFFAVRGLVAAGKTYQNCEPIRKAVQFILETQNVEGGWGESYLSCPNKKYTLLEGNRTNVVNTGQALMVLIMGGQMERDPLPVHRAAKVLINSQLDNGDFPQEEIMGVFKMNVMVHYATYRNIFTLWALTYYTKALRVPLC</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

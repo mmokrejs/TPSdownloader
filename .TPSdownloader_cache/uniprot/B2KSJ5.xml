@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2012-10-31" dataset="Swiss-Prot" modified="2020-12-02" version="47">
+    <accession>B2KSJ5</accession>
+    <name>GCSY1_CUCME</name>
+    <protein>
+      <recommendedName>
+        <fullName>(+)-gamma-cadinene synthase</fullName>
+        <shortName>CmTpsNY</shortName>
+        <ecNumber>4.2.3.13</ecNumber>
+        <ecNumber>4.2.3.92</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>(+)-delta-cadinene synthase</fullName>
+      </alternativeName>
+    </protein>
+    <organism>
+      <name type="scientific">Cucumis melo</name>
+      <name type="common">Muskmelon</name>
+      <dbReference id="3656" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>fabids</taxon>
+        <taxon>Cucurbitales</taxon>
+        <taxon>Cucurbitaceae</taxon>
+        <taxon>Benincaseae</taxon>
+        <taxon>Cucumis</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2008" first="647" last="661" name="Plant Mol. Biol." type="journal article" volume="66">
+        <title>The molecular and biochemical basis for varietal variation in sesquiterpene content in melon (Cucumis melo L.) rinds.</title>
+        <authorList>
+          <person name="Portnoy V."/>
+          <person name="Benyamini Y."/>
+          <person name="Bar E."/>
+          <person name="Harel-Beja R."/>
+          <person name="Gepstein S."/>
+          <person name="Giovannoni J.J."/>
+          <person name="Schaffer A.A."/>
+          <person name="Burger J."/>
+          <person name="Tadmor Y."/>
+          <person name="Lewinsohn E."/>
+          <person name="Katzir N."/>
+        </authorList>
+        <dbReference id="18264780" type="PubMed"/>
+        <dbReference id="10.1007/s11103-008-9296-6" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>TISSUE SPECIFICITY</scope>
+      <scope>DEVELOPMENTAL STAGE</scope>
+      <source>
+        <strain>cv. Noy Yizre'el</strain>
+      </source>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Sesquiterpene synthase producing mainly delta- and gamma-cadinene with traces of several other sesquiterpenoids, including alpha-copaene. Associated with the production of sesquiterpenes responsible for the aroma of the fruit.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = (+)-gamma-cadinene + diphosphate</text>
+        <dbReference id="RHEA:31827" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:63205" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.92" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = (1S,8aR)-delta-cadinene + diphosphate</text>
+        <dbReference id="RHEA:19525" type="Rhea"/>
+        <dbReference id="CHEBI:15385" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.13" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="3">Cytoplasm</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="tissue specificity">
+      <text evidence="2">Expressed in the rind tissues of ripe fruits.</text>
+    </comment>
+    <comment type="developmental stage">
+      <text evidence="2">Expressed during ripening.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene synthase family. Tpsa subfamily.</text>
+    </comment>
+    <dbReference id="4.2.3.13" type="EC"/>
+    <dbReference id="4.2.3.92" type="EC"/>
+    <dbReference id="EU158098" type="EMBL">
+      <property type="protein sequence ID" value="ABX83200.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="NP_001284382.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_001297453.1"/>
+    </dbReference>
+    <dbReference id="B2KSJ5" type="SMR"/>
+    <dbReference id="3656.XP_008452327.1" type="STRING"/>
+    <dbReference id="103493386" type="GeneID"/>
+    <dbReference id="cmo:103493386" type="KEGG"/>
+    <dbReference id="ENOG502QUCN" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="360509at2759" type="OrthoDB"/>
+    <dbReference id="4.2.3.46" type="BRENDA">
+      <property type="organism ID" value="1735"/>
+    </dbReference>
+    <dbReference id="4.2.3.62" type="BRENDA">
+      <property type="organism ID" value="1735"/>
+    </dbReference>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="UP000089565" type="Proteomes">
+      <property type="component" value="Genome assembly"/>
+    </dbReference>
+    <dbReference id="GO:0005737" type="GO">
+      <property type="term" value="C:cytoplasm"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0047461" type="GO">
+      <property type="term" value="F:(+)-delta-cadinene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010334" type="GO">
+      <property type="term" value="F:sesquiterpene synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0045338" type="GO">
+      <property type="term" value="P:farnesyl diphosphate metabolic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0051762" type="GO">
+      <property type="term" value="P:sesquiterpene biosynthetic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0963">Cytoplasm</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="(+)-gamma-cadinene synthase" id="PRO_0000419798" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="571"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="323"/>
+        <end position="327"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="323"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="323"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="327"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="327"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="476"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="18264780" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <sequence checksum="5F6D1370E817D409" length="571" mass="66633" modified="2008-06-10" version="1">MSSQVSNFPASIMKTNDIPDVKRSLANFHPNIWKEHFLSFTFDDALKIDEGMKERTEKLKEEIRMMMIAYVENQLIKLNLVDSIQRLGVSYHFEDEVDEFLEHIYVSYNNSLLLSNKNSNGEDLHITALLFRLLRQQGYRISCDIFLKFMDDNGKFKESLVEDERGLLSLYEASHMMGHGEALLEEALEFTTTHLQTYIHRYSNINPSFASEVSNALKLPIRKSVPRIKAREYLEIYQQHPSHNETLLEFSKLDFNILQKLHQKELSEICRWWKDLDVPTKFPFARDRIVECYFWTLGAYFEPQYSVGRKMLTKVIAIASILDDIYDAYGTFEELQVLTPAIQRWDRSMVHTLPLYMKPFYVAMLELYEEIGKEIDKDQNSLHLQVAIGGIKRLSESYFEEAKWLNKEYKPSFKEYMELALKTTGYTMLISISFLGLGDHIVTNEVLQWLSNGPQIIKASTIICRLMDDIASHKFEQEREHVASAVECYMKQYDCSEEEACIELHKEVVDAWKDTNEAFYRPFNVPVPVLMRVLNFSRVINLLYLDEDGYTNAKSGTKFLIKSLLVDPLPC</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

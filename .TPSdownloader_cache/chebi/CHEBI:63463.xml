@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:63463</ID>
+<NAME>baccharis oxide</NAME>
+<DEFINITION>A pentacyclic triterpenoid that is perhydrochrysene which is substituted by methyl groups at positions 1, 1, 4bβ, 6aα, 8β and 10aβ positions, by a 4-methylpent-3-enyl group at the 8α position, and with a β-oxygen bridge between the 2 and the 4a positions.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>baccharis oxide</SYNONYM>
+<IUPAC_NAME>(2S,4aR,4bR,6aS,8R,10aR,10bR,12aS)-1,1,4b,6a,8,10a-hexamethyl-8-(4-methylpent-3-en-1-yl)hexadecahydro-2H-2,4a-epoxychrysene</IUPAC_NAME>
+<FORMULA>C30H50O</FORMULA>
+<MASS>426.71740</MASS>
+<MONOISOTOPIC_MASS>426.38617</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@@]12CC[C@]3([H])[C@@]4(C)CC[C@@](C)(CCC=C(C)C)C[C@]4(C)CC[C@@]3(C)[C@@]11CC[C@H](O1)C2(C)C</SMILES>
+<INCHI>InChI=1S/C30H50O/c1-21(2)10-9-14-26(5)16-18-28(7)23-12-11-22-25(3,4)24-13-15-30(22,31-24)29(23,8)19-17-27(28,6)20-26/h10,22-24H,9,11-20H2,1-8H3/t22-,23+,24-,26+,27-,28+,29+,30+/m0/s1</INCHI>
+<INCHIKEY>FPGOBAVTXMFTQR-LXERUMJASA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>19099090</REAXYS_REGISTRY_NUMBER>
+<PUBMED_CITATION>18850716</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

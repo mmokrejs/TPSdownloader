@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:58206</ID>
+<NAME>all-trans-heptaprenyl diphosphate(3-)</NAME>
+<DEFINITION>An organophosphate oxoanion arising from deprotonation of the diphosphate OH groups of all-trans-heptaprenyl diphosphate; major species at pH 7.3.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>all-trans-heptaprenyl diphosphate trianion</SYNONYM>
+<SYNONYM>all-trans-heptaprenyl diphosphate</SYNONYM>
+<SYNONYM>all-trans-heptaprenyl diphosphate</SYNONYM>
+<IUPAC_NAME>(2E,6E,10E,14E,18E,22E)-3,7,11,15,19,23,27-heptamethyloctacosa-2,6,10,14,18,22,26-heptaen-1-yl diphosphate</IUPAC_NAME>
+<FORMULA>C35H57O7P2</FORMULA>
+<MASS>651.77200</MASS>
+<MONOISOTOPIC_MASS>651.35960</MONOISOTOPIC_MASS>
+<CHARGE>-3</CHARGE>
+<SMILES>CC(C)=CCC\C(C)=C\CC\C(C)=C\CC\C(C)=C\CC\C(C)=C\CC\C(C)=C\CC\C(C)=C\COP([O-])(=O)OP([O-])([O-])=O</SMILES>
+<INCHI>InChI=1S/C35H60O7P2/c1-29(2)15-9-16-30(3)17-10-18-31(4)19-11-20-32(5)21-12-22-33(6)23-13-24-34(7)25-14-26-35(8)27-28-41-44(39,40)42-43(36,37)38/h15,17,19,21,23,25,27H,9-14,16,18,20,22,24,26,28H2,1-8H3,(H,39,40)(H2,36,37,38)/p-3/b30-17+,31-19+,32-21+,33-23+,34-25+,35-27+</INCHI>
+<INCHIKEY>LSJLEXWXRKTZAJ-YUIIPXGZSA-K</INCHIKEY>
+</ENTRY>
+</TABLE>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2020-04-22" dataset="Swiss-Prot" modified="2020-12-02" version="12">
+    <accession>A0A2K9RFZ9</accession>
+    <name>TPS6_VITAC</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="4">Class I diterpene synthase TPS6, chloroplastic</fullName>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="4">Labd-13(16),14-diene-9-ol synthase</fullName>
+        <ecNumber evidence="3">4.2.3.-</ecNumber>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="4">Syn-isopimara-7,15-diene synthase</fullName>
+        <ecNumber evidence="3">4.2.3.-</ecNumber>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="4">Terpene synthase 6</fullName>
+        <shortName evidence="4">VacTPS6</shortName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="4" type="primary">TPS6</name>
+    </gene>
+    <organism>
+      <name type="scientific">Vitex agnus-castus</name>
+      <name type="common">Chaste tree</name>
+      <dbReference id="54477" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>lamiids</taxon>
+        <taxon>Lamiales</taxon>
+        <taxon>Lamiaceae</taxon>
+        <taxon>Viticoideae</taxon>
+        <taxon>Vitex</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2018" first="943" last="958" name="Plant J." type="journal article" volume="93">
+        <title>Biosynthesis of bioactive diterpenoids in the medicinal plant Vitex agnus-castus.</title>
+        <authorList>
+          <person name="Heskes A.M."/>
+          <person name="Sundram T.C.M."/>
+          <person name="Boughton B.A."/>
+          <person name="Jensen N.B."/>
+          <person name="Hansen N.L."/>
+          <person name="Crocoll C."/>
+          <person name="Cozzi F."/>
+          <person name="Rasmussen S."/>
+          <person name="Hamberger B."/>
+          <person name="Hamberger B."/>
+          <person name="Staerk D."/>
+          <person name="Moeller B.L."/>
+          <person name="Pateraki I."/>
+        </authorList>
+        <dbReference id="29315936" type="PubMed"/>
+        <dbReference id="10.1111/tpj.13822" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>PATHWAY</scope>
+      <scope>TISSUE SPECIFICITY</scope>
+      <source>
+        <tissue>Fruit</tissue>
+        <tissue>Leaf</tissue>
+        <tissue>Trichome gland</tissue>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2003" first="348" last="357" name="Phytomedicine" type="journal article" volume="10">
+        <title>Chaste tree (Vitex agnus-castus)--pharmacology and clinical indications.</title>
+        <authorList>
+          <person name="Wuttke W."/>
+          <person name="Jarry H."/>
+          <person name="Christoffel V."/>
+          <person name="Spengler B."/>
+          <person name="Seidlova-Wuttke D."/>
+        </authorList>
+        <dbReference id="12809367" type="PubMed"/>
+        <dbReference id="10.1078/094471103322004866" type="DOI"/>
+      </citation>
+      <scope>REVIEW ON MENSTRUAL CYCLE DISORDERS</scope>
+    </reference>
+    <reference key="3">
+      <citation date="2019" first="626" last="665" name="Nat. Prod. Rep." type="journal article" volume="36">
+        <title>Non-volatile natural products in plant glandular trichomes: chemistry, biological activities and biosynthesis.</title>
+        <authorList>
+          <person name="Liu Y."/>
+          <person name="Jing S.-X."/>
+          <person name="Luo S.-H."/>
+          <person name="Li S.-H."/>
+        </authorList>
+        <dbReference id="30468448" type="PubMed"/>
+        <dbReference id="10.1039/c8np00077h" type="DOI"/>
+      </citation>
+      <scope>PATHWAY</scope>
+      <scope>REVIEW</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="3 6 7 8">Involved in the biosynthesis of labdane-type diterpenoid including cleroda-dienols, and peregrinol lactones and furan derivatives, dopaminergic diterpenoids that can bind to dopamine receptors in the human pituitary gland, have probably ability to lower prolactin levels, and are used to treat menstrual cycle disorders (e.g. premenstrual syndrome and mastodynia) (Probable). Terpene synthase the catalyzes the conversion of peregrinol diphosphate to labda-13(16),14-dien-9-ol, and of syn-copalyl diphosophate to dehydroabietadiene and syn-isopimara-7,15-diene (PubMed:29315936).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3">
+        <text>peregrinol diphosphate = diphosphate + labd-13(16),14-diene-9-ol</text>
+        <dbReference id="RHEA:62184" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:138232" type="ChEBI"/>
+        <dbReference id="CHEBI:145549" type="ChEBI"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="3">
+        <dbReference id="RHEA:62185" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3">
+        <text>9alpha-copalyl diphosphate = diphosphate + syn-isopimara-7,15-diene</text>
+        <dbReference id="RHEA:62188" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:58622" type="ChEBI"/>
+        <dbReference id="CHEBI:145566" type="ChEBI"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="3">
+        <dbReference id="RHEA:62189" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="2">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="2">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment evidence="7 8" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="7">Plastid</location>
+        <location evidence="7">Chloroplast</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="tissue specificity">
+      <text evidence="3">Mostly expressed in trichomes of leaves and fruits.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="5">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="3" id="4.2.3.-" type="EC"/>
+    <dbReference id="MG696753" type="EMBL">
+      <property type="protein sequence ID" value="AUT77125.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="A0A2K9RFZ9" type="SMR"/>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="GO:0009507" type="GO">
+      <property type="term" value="C:chloroplast"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0062202" type="GO">
+      <property type="term" value="F:Labd-13(16),14-diene-9-ol synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0106243" type="GO">
+      <property type="term" value="F:syn-isopimara-7,15-diene synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0150">Chloroplast</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-0934">Plastid</keyword>
+    <feature description="Class I diterpene synthase TPS6, chloroplastic" id="PRO_0000449312" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="594"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="1" type="short sequence motif">
+      <location>
+        <begin position="330"/>
+        <end position="334"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="330"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="330"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="334"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="334"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="474"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="477"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="482"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="G8GJ94" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000250">
+      <source>
+        <dbReference id="Q40577" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="29315936" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000303">
+      <source>
+        <dbReference id="29315936" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000305"/>
+    <evidence key="6" type="ECO:0000305">
+      <source>
+        <dbReference id="12809367" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000305">
+      <source>
+        <dbReference id="29315936" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000305">
+      <source>
+        <dbReference id="30468448" type="PubMed"/>
+      </source>
+    </evidence>
+    <sequence checksum="24C183A37ED574D9" length="594" mass="69281" modified="2018-04-25" version="1">MSLRFNLIVTPFSNYEIRNRRETFPVQKFLMTTSKSAIKVKCSLKTSIDLVGKIREKINGKVDNSLEVPTINYLVDIPSNLCMIDSLERLGVARYFQSEIDGVLEKTYRLWQQREKDIFADVTCRAMAFRFLRVKGYEVSSDELAPYADQVHVNPQISDVTTVVELYRASQVRIYEEDSILEKLHAWTSTFLKQQLQSKTISDKKLHEQVEYYLKNYHGIQNQVAVRRSLDLYDIDHYPILKVADRFRIIYNEDFFVFLRQDFNLCQAQHQKELQQLQRWYEDCRLDTLNYGRNVVHVSCFLAAANFGDPELSNARLAFAKTIVLVTRIDDFFDLAGSREESYKILELVKEWKEKPTEDYGSKEVEILFTALYDTVNEFAEIAYIEQGRCVKPLLIKLWVELLTSFKKELDSWTDDTALTLDEYLSSAWMSIACRVCTLTALQFLGVKLSEEMLSSQECTDLCRHLSFVNRLLNDVQTFERERKENTINAVSVLLAAHRHERAITEEEAISKIQEIVEQNRRKLMRMVYQRESVFPRKCRNVFLEVSKMGHYLYASGDELTTPQQLMEDMKSLVFEPLALHPLETNNVIASGKN</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:138232</ID>
+<NAME>peregrinol diphosphate(3-)</NAME>
+<DEFINITION>An organophosphate oxoanion obtained by deprotonation of the diphosphate OH groups of peregrinol diphosphate; major species at pH 7.3.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>peregrinol diphosphate</SYNONYM>
+<SYNONYM>(13E)-9-hydroxy-8alpha-labda-13-en-15-yl diphosphate</SYNONYM>
+<IUPAC_NAME>(2E)-5-[(1R,2R,4aS,8aS)-1-hydroxy-2,5,5,8a-tetramethyldecahydronaphthalen-1-yl]-3-methylpent-2-en-1-yl diphosphate</IUPAC_NAME>
+<FORMULA>C20H35O8P2</FORMULA>
+<MASS>465.435</MASS>
+<MONOISOTOPIC_MASS>465.18236</MONOISOTOPIC_MASS>
+<CHARGE>-3</CHARGE>
+<SMILES>[C@@]1(CC/C(/C)=C/COP(OP(=O)([O-])[O-])(=O)[O-])([C@@H](CC[C@@]2([C@]1(C)CCCC2(C)C)[H])C)O</SMILES>
+<INCHI>InChI=1S/C20H38O8P2/c1-15(10-14-27-30(25,26)28-29(22,23)24)9-13-20(21)16(2)7-8-17-18(3,4)11-6-12-19(17,20)5/h10,16-17,21H,6-9,11-14H2,1-5H3,(H,25,26)(H2,22,23,24)/p-3/b15-10+/t16-,17+,19+,20-/m1/s1</INCHI>
+<INCHIKEY>BXBWAHVSCRSIHO-UEHSRLBXSA-K</INCHIKEY>
+<METACYC_ACCESSION>CPD-20436</METACYC_ACCESSION>
+<PUBMED_CITATION>24990389</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

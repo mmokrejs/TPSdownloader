@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2012-09-05" dataset="Swiss-Prot" modified="2021-04-07" version="71">
+    <accession>Q9UR08</accession>
+    <name>ARIS_ASPTE</name>
+    <protein>
+      <recommendedName>
+        <fullName>Aristolochene synthase</fullName>
+        <shortName>AS</shortName>
+        <ecNumber>4.2.3.9</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>Sesquiterpene cyclase</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name type="primary">Ari1</name>
+    </gene>
+    <organism>
+      <name type="scientific">Aspergillus terreus</name>
+      <dbReference id="33178" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Ascomycota</taxon>
+        <taxon>Pezizomycotina</taxon>
+        <taxon>Eurotiomycetes</taxon>
+        <taxon>Eurotiomycetidae</taxon>
+        <taxon>Eurotiales</taxon>
+        <taxon>Aspergillaceae</taxon>
+        <taxon>Aspergillus</taxon>
+        <taxon>Aspergillus subgen. Circumdati</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2000" first="354" last="364" name="Arch. Biochem. Biophys." type="journal article" volume="376">
+        <title>Aristolochene synthase: purification, molecular cloning, high-level expression in Escherichia coli, and characterization of the Aspergillus terreus cyclase.</title>
+        <authorList>
+          <person name="Cane D.E."/>
+          <person name="Kang I."/>
+        </authorList>
+        <dbReference id="10775423" type="PubMed"/>
+        <dbReference id="10.1006/abbi.2000.1734" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]</scope>
+      <scope>PROTEIN SEQUENCE OF 35-48; 183-195 AND 215-226</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <source>
+        <strain>ATCC 20516 / NRRL 11156</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2004" first="7212" last="7221" name="J. Am. Chem. Soc." type="journal article" volume="126">
+        <title>Aristolochene synthase: mechanistic analysis of active site residues by site-directed mutagenesis.</title>
+        <authorList>
+          <person name="Felicetti B."/>
+          <person name="Cane D.E."/>
+        </authorList>
+        <dbReference id="15186158" type="PubMed"/>
+        <dbReference id="10.1021/ja0499593" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <scope>MUTAGENESIS OF GLU-227</scope>
+    </reference>
+    <reference key="3">
+      <citation date="2007" first="1941" last="1951" name="Biochemistry" type="journal article" volume="46">
+        <title>X-ray crystal structure of aristolochene synthase from Aspergillus terreus and evolution of templates for the cyclization of farnesyl diphosphate.</title>
+        <authorList>
+          <person name="Shishova E.Y."/>
+          <person name="Di Costanzo L."/>
+          <person name="Cane D.E."/>
+          <person name="Christianson D.W."/>
+        </authorList>
+        <dbReference id="17261032" type="PubMed"/>
+        <dbReference id="10.1021/bi0622524" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (2.15 ANGSTROMS) IN COMPLEX WITH MAGNESIUM</scope>
+      <scope>SUBUNIT</scope>
+    </reference>
+    <reference key="4">
+      <citation date="2008" first="15431" last="15439" name="J. Biol. Chem." type="journal article" volume="283">
+        <title>X-ray crystallographic studies of substrate binding to aristolochene synthase suggest a metal ion binding sequence for catalysis.</title>
+        <authorList>
+          <person name="Shishova E.Y."/>
+          <person name="Yu F."/>
+          <person name="Miller D.J."/>
+          <person name="Faraldos J.A."/>
+          <person name="Zhao Y."/>
+          <person name="Coates R.M."/>
+          <person name="Allemann R.K."/>
+          <person name="Cane D.E."/>
+          <person name="Christianson D.W."/>
+        </authorList>
+        <dbReference id="18385128" type="PubMed"/>
+        <dbReference id="10.1074/jbc.m800659200" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (1.89 ANGSTROMS) IN COMPLEX WITH SUBSTRATE; SUBSTRATE ANALOGS AND MAGNESIUM</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="1 2">Catalyzes the cyclization of trans,trans-farnesyl diphosphate (FPP) to the bicyclic sesquiterpene aristolochene. Produces germacrene A as an enzyme-bound intermediate that is not released by the enzyme, but is further cyclized to produce aristolochene. Aristolochene is the likely parent compound for a number of sesquiterpenoid toxins produced by filamentous fungi.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="1">
+        <text>(2E,6E)-farnesyl diphosphate = (+)-aristolochene + diphosphate</text>
+        <dbReference id="RHEA:19825" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:43445" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.9" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="4">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="4">Binds 3 Mg(2+) ions per monomer.</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="1 2">13.5 nM for (2E,6E)-farnesyl diphosphate</KM>
+        <Vmax evidence="1 2">23.6 nmol/min/mg enzyme</Vmax>
+      </kinetics>
+      <phDependence>
+        <text evidence="1 2">Optimum pH is 8.0.</text>
+      </phDependence>
+    </comment>
+    <comment type="pathway">
+      <text>Sesquiterpene biosynthesis; aristolochene biosynthesis; aristolochene from farnesyl diphosphate: step 1/1.</text>
+    </comment>
+    <comment type="subunit">
+      <text evidence="3 4">Homodimer.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="5">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference id="4.2.3.9" type="EC"/>
+    <dbReference id="AF198359" type="EMBL">
+      <property type="protein sequence ID" value="AAF13263.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AF198360" type="EMBL">
+      <property type="protein sequence ID" value="AAF13264.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="2E4O" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.20"/>
+      <property type="chains" value="A/B/C/D=1-320"/>
+    </dbReference>
+    <dbReference id="2OA6" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.15"/>
+      <property type="chains" value="A/B/C/D=1-320"/>
+    </dbReference>
+    <dbReference id="3BNX" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.10"/>
+      <property type="chains" value="A/B/C/D=1-320"/>
+    </dbReference>
+    <dbReference id="3BNY" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.89"/>
+      <property type="chains" value="A/B/C/D=1-320"/>
+    </dbReference>
+    <dbReference id="3CKE" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.40"/>
+      <property type="chains" value="A/B/C/D=1-320"/>
+    </dbReference>
+    <dbReference id="4KUX" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.90"/>
+      <property type="chains" value="A/B/C/D=14-320"/>
+    </dbReference>
+    <dbReference id="4KVD" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.40"/>
+      <property type="chains" value="A/B/C/D=14-320"/>
+    </dbReference>
+    <dbReference id="4KVI" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.15"/>
+      <property type="chains" value="A/B/C/D=14-320"/>
+    </dbReference>
+    <dbReference id="4KVW" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.10"/>
+      <property type="chains" value="A/B/C/D=14-320"/>
+    </dbReference>
+    <dbReference id="4KVY" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.95"/>
+      <property type="chains" value="A/B/C/D=14-320"/>
+    </dbReference>
+    <dbReference id="4KWD" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.86"/>
+      <property type="chains" value="A/B/C/D=14-320"/>
+    </dbReference>
+    <dbReference id="5IMI" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.46"/>
+      <property type="chains" value="A/B/C/D=14-320"/>
+    </dbReference>
+    <dbReference id="5IMN" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.53"/>
+      <property type="chains" value="A/B/C/D=14-320"/>
+    </dbReference>
+    <dbReference id="5IMP" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.04"/>
+      <property type="chains" value="A/B/C/D=14-320"/>
+    </dbReference>
+    <dbReference id="5IN8" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.35"/>
+      <property type="chains" value="A/B/C/D=14-320"/>
+    </dbReference>
+    <dbReference id="5IVG" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.95"/>
+      <property type="chains" value="A/B/C/D=14-320"/>
+    </dbReference>
+    <dbReference id="2E4O" type="PDBsum"/>
+    <dbReference id="2OA6" type="PDBsum"/>
+    <dbReference id="3BNX" type="PDBsum"/>
+    <dbReference id="3BNY" type="PDBsum"/>
+    <dbReference id="3CKE" type="PDBsum"/>
+    <dbReference id="4KUX" type="PDBsum"/>
+    <dbReference id="4KVD" type="PDBsum"/>
+    <dbReference id="4KVI" type="PDBsum"/>
+    <dbReference id="4KVW" type="PDBsum"/>
+    <dbReference id="4KVY" type="PDBsum"/>
+    <dbReference id="4KWD" type="PDBsum"/>
+    <dbReference id="5IMI" type="PDBsum"/>
+    <dbReference id="5IMN" type="PDBsum"/>
+    <dbReference id="5IMP" type="PDBsum"/>
+    <dbReference id="5IN8" type="PDBsum"/>
+    <dbReference id="5IVG" type="PDBsum"/>
+    <dbReference id="Q9UR08" type="SMR"/>
+    <dbReference id="4.2.3.9" type="BRENDA">
+      <property type="organism ID" value="536"/>
+    </dbReference>
+    <dbReference id="Q9UR08" type="SABIO-RK"/>
+    <dbReference id="UPA00177" type="UniPathway">
+      <property type="reaction ID" value="UER00582"/>
+    </dbReference>
+    <dbReference id="Q9UR08" type="EvolutionaryTrace"/>
+    <dbReference id="GO:0045483" type="GO">
+      <property type="term" value="F:aristolochene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0002">3D-structure</keyword>
+    <keyword id="KW-0903">Direct protein sequencing</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Aristolochene synthase" id="PRO_0000418550" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="320"/>
+      </location>
+    </feature>
+    <feature description="Substrate-binding" type="region of interest">
+      <location>
+        <begin position="314"/>
+        <end position="315"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="3 4" type="metal ion-binding site">
+      <location>
+        <position position="90"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="3 4" type="metal ion-binding site">
+      <location>
+        <position position="90"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="3 4" type="metal ion-binding site">
+      <location>
+        <position position="219"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="3 4" type="metal ion-binding site">
+      <location>
+        <position position="223"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="3 4" type="metal ion-binding site">
+      <location>
+        <position position="227"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="4" type="binding site">
+      <location>
+        <position position="175"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="4" type="binding site">
+      <location>
+        <position position="226"/>
+      </location>
+    </feature>
+    <feature description="Abolishes catalytic activity." evidence="2" type="mutagenesis site">
+      <original>E</original>
+      <variation>Q</variation>
+      <location>
+        <position position="227"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="29"/>
+        <end position="43"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="49"/>
+        <end position="58"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="60"/>
+        <end position="67"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="turn">
+      <location>
+        <begin position="73"/>
+        <end position="75"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="76"/>
+        <end position="92"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="93"/>
+        <end position="95"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="98"/>
+        <end position="112"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="123"/>
+        <end position="138"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="140"/>
+        <end position="144"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="147"/>
+        <end position="157"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="160"/>
+        <end position="163"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="168"/>
+        <end position="178"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="181"/>
+        <end position="192"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="198"/>
+        <end position="203"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="205"/>
+        <end position="233"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="turn">
+      <location>
+        <begin position="236"/>
+        <end position="239"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="244"/>
+        <end position="252"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="256"/>
+        <end position="283"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="turn">
+      <location>
+        <begin position="284"/>
+        <end position="286"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="289"/>
+        <end position="311"/>
+      </location>
+    </feature>
+    <feature evidence="7" type="helix">
+      <location>
+        <begin position="313"/>
+        <end position="316"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000269">
+      <source>
+        <dbReference id="10775423" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="15186158" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="17261032" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="18385128" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000305"/>
+    <evidence key="6" type="ECO:0007744">
+      <source>
+        <dbReference id="4KVW" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0007744">
+      <source>
+        <dbReference id="4KWD" type="PDB"/>
+      </source>
+    </evidence>
+    <sequence checksum="73190707711ADC2E" length="320" mass="36481" modified="2000-05-01" version="1">MKKPNGTNGASSSLEPPPSTFQPLCHPLVEEVSKEVDGYFLQHWNFPNEKARKKFVAAGFSRVTCLYFPKALDDRIHFACRLLTVLFLIDDLLEYMSFEEGSAYNEKLIPISRGDVLPDRSIPVEYIIYDLWESMRAHDREMADEILEPVFLFMRAQTDRTRARPMGLGGYLEYRERDVGKELLAALMRFSMGLKLSPSELQRVREIDANCSKHLSVVNDIYSYEKELYTSKTAHSEGGILCTSVQILAQEADVTAEAAKRVLFVMCREWELRHQLLVARLSAEGLETPGLAAYVEGLEYQMSGNELWSQTTLRYSVVVD</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

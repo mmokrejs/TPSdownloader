@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:63464</ID>
+<NAME>alpha-seco-amyrin</NAME>
+<DEFINITION>A triterpenoid that is (2S)-1,2,3,4,4a,5,8,8a-octahydronaphthalen-2-ol substituted by methyl groups at the 1, 1, 4a, and 6 positions and substituted at position 5 by a 2-[(4aR,7R,8S,8aR)-2,4a,7,8-tetramethyl-3,4,4a,5,6,7,8,8a-octahydronaphthalen-1-yl]ethyl group.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>Alpha-seco-amyrin</SYNONYM>
+<SYNONYM>8,14-secoursa-7,13-diene-3beta-ol</SYNONYM>
+<IUPAC_NAME>(2S,4aR,5S,8aR)-1,1,4a,6-tetramethyl-5-{2-[(4aR,7R,8S,8aR)-2,4a,7,8-tetramethyl-3,4,4a,5,6,7,8,8a-octahydronaphthalen-1-yl]ethyl}-1,2,3,4,4a,5,8,8a-octahydronaphthalen-2-ol</IUPAC_NAME>
+<FORMULA>C30H50O</FORMULA>
+<MASS>426.71740</MASS>
+<MONOISOTOPIC_MASS>426.38617</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@]1(CCC2=C(C)CC[C@@]3(C)CC[C@@H](C)[C@H](C)[C@@]23[H])C(C)=CC[C@@]2([H])C(C)(C)[C@@H](O)CC[C@]12C</SMILES>
+<INCHI>InChI=1S/C30H50O/c1-19-13-16-29(7)17-14-20(2)23(27(29)22(19)4)10-11-24-21(3)9-12-25-28(5,6)26(31)15-18-30(24,25)8/h9,19,22,24-27,31H,10-18H2,1-8H3/t19-,22+,24+,25+,26+,27+,29-,30-/m1/s1</INCHI>
+<INCHIKEY>BMTRRCREWLAQBX-CHJNBIAGSA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>10736242</REAXYS_REGISTRY_NUMBER>
+<PUBMED_CITATION>17263431</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

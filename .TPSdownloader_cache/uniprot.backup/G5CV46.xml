@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2012-09-05" modified="2021-04-07" version="47">
+<accession>G5CV46</accession>
+<name>TPS31_SOLLC</name>
+<protein>
+<recommendedName>
+<fullName>Viridiflorene synthase</fullName>
+<shortName>SlTPS31</shortName>
+<ecNumber>4.2.3.88</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">TPS31</name>
+</gene>
+<organism>
+<name type="scientific">Solanum lycopersicum</name>
+<name type="common">Tomato</name>
+<name type="synonym">Lycopersicon esculentum</name>
+<dbReference type="NCBI Taxonomy" id="4081"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>lamiids</taxon>
+<taxon>Solanales</taxon>
+<taxon>Solanaceae</taxon>
+<taxon>Solanoideae</taxon>
+<taxon>Solaneae</taxon>
+<taxon>Solanum</taxon>
+<taxon>Solanum subgen. Lycopersicon</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2011" name="Plant Mol. Biol." volume="77" first="323" last="336">
+<title>RNA-seq discovery, functional characterization, and comparison of sesquiterpene synthases from Solanum lycopersicum and Solanum habrochaites trichomes.</title>
+<authorList>
+<person name="Bleeker P.M."/>
+<person name="Spyropoulou E.A."/>
+<person name="Diergaarde P.J."/>
+<person name="Volpin H."/>
+<person name="De Both M.T."/>
+<person name="Zerbe P."/>
+<person name="Bohlmann J."/>
+<person name="Falara V."/>
+<person name="Matsuba Y."/>
+<person name="Pichersky E."/>
+<person name="Haring M.A."/>
+<person name="Schuurink R.C."/>
+</authorList>
+<dbReference type="PubMed" id="21818683"/>
+<dbReference type="DOI" id="10.1007/s11103-011-9813-x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>INDUCTION BY JASMONATE</scope>
+<source>
+<strain>cv. Moneymaker</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2011" name="Plant Physiol." volume="157" first="770" last="789">
+<title>The tomato terpene synthase gene family.</title>
+<authorList>
+<person name="Falara V."/>
+<person name="Akhtar T.A."/>
+<person name="Nguyen T.T."/>
+<person name="Spyropoulou E.A."/>
+<person name="Bleeker P.M."/>
+<person name="Schauvinhold I."/>
+<person name="Matsuba Y."/>
+<person name="Bonini M.E."/>
+<person name="Schilmiller A.L."/>
+<person name="Last R.L."/>
+<person name="Schuurink R.C."/>
+<person name="Pichersky E."/>
+</authorList>
+<dbReference type="PubMed" id="21813655"/>
+<dbReference type="DOI" id="10.1104/pp.111.179648"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>INDUCTION BY JASMONATE</scope>
+</reference>
+<comment type="function">
+<text evidence="3">Sesquiterpene synthase involved in the production of viridiflorene from (E,E)-farnesyl diphosphate. Has no activity with (Z,Z)-FPP. Can act with a low efficiency as a monoterpene synthase with geranyl diphosphate as substrate.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>(2E,6E)-farnesyl diphosphate = diphosphate + viridiflorene</text>
+<dbReference type="Rhea" id="RHEA:31811"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:63444"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.88"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="pathway">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="4">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="2 3">Expressed in stem and leaf trichomes. Detected in roots, fruits and flowers.</text>
+</comment>
+<comment type="induction">
+<text evidence="2 3">Up-regulated by jasmonic acid treatment.</text>
+</comment>
+<comment type="domain">
+<text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family. Tpsa subfamily.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.88"/>
+<dbReference type="EMBL" id="JN402396">
+<property type="protein sequence ID" value="AEM23833.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="JN412082">
+<property type="protein sequence ID" value="AEP82774.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001239040.1">
+<property type="nucleotide sequence ID" value="NM_001252111.1"/>
+</dbReference>
+<dbReference type="SMR" id="G5CV46"/>
+<dbReference type="STRING" id="4081.Solyc01g101170.2.1"/>
+<dbReference type="PaxDb" id="G5CV46"/>
+<dbReference type="GeneID" id="100820700"/>
+<dbReference type="KEGG" id="sly:100820700"/>
+<dbReference type="eggNOG" id="ENOG502QUCN">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_003125_7_2_1"/>
+<dbReference type="InParanoid" id="G5CV46"/>
+<dbReference type="OMA" id="FTYENFE"/>
+<dbReference type="OrthoDB" id="360509at2759"/>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="Proteomes" id="UP000004994">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="G5CV46">
+<property type="expression patterns" value="differential"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Viridiflorene synthase" id="PRO_0000418827">
+<location>
+<begin position="1"/>
+<end position="555"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif">
+<location>
+<begin position="308"/>
+<end position="312"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Poly-Glu">
+<location>
+<begin position="13"/>
+<end position="16"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Poly-Glu">
+<location>
+<begin position="223"/>
+<end position="226"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="308"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="308"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="312"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="312"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="451"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="455"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="459"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="21813655"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="21818683"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="555" mass="64299" checksum="BF7E4CD3F76338E5" modified="2011-12-14" version="1">MAPAAALMSKCQEEEEIVRPVADFSPSLWGDRFHSFSLDNQVAEKYVEEIETLKEQTRSMLMSGKTLAEKLNLIDIVERLGIAYHFEKQIDDMLNHIFNIDPNFEAHEYNDLCTLSLQFRILRQHGYYISPKIFSRFQDANGKFKESLCDDIRGILNLYEASHVRTHGEDTLEEALAFSTAHLESAAPHLKSPLSKQVTHALEQSLHKSIPRVETRYFISIYEEEELKNDVFLRFAKLDFNLLQMLHKQELSEVSRWWKDLDFVTTLPYARDRAVECYFWTMGVYAEPQYSQARVMLAKTIAMISIVDDTFDAYGIVKELEVYTDAIQRWDVSQIDRLPEYMKISYKALLDLYNDYETELSNDGRSDVVQYAKERMKEIVRNYFVEAKWFIEGYMPPVSEYLSNALATSTYYLLTTTSYLGMKSATKKDFEWLAKNPKILEANVTLCRVIDDIATYEVEKGRGQIATGIECYMRDYGVSTQVAMDKFQEMAETAWKDVNEGILRPTPVSAKILTRILNLARIIDVTYKHNQDGYTHPEKVLKPHIIALLVDSIEI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2019-07-03" modified="2021-04-07" version="8">
+<accession>A0A3L6G998</accession>
+<name>TS23M_MAIZE</name>
+<protein>
+<recommendedName>
+<fullName evidence="2">(E)-beta-caryophyllene synthase</fullName>
+<ecNumber evidence="2">4.2.3.57</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="2">Terpene synthase 23</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="2">TPS23</name>
+<name type="ORF" evidence="9">Zm00014a_002860</name>
+</gene>
+<organism>
+<name type="scientific">Zea mays</name>
+<name type="common">Maize</name>
+<dbReference type="NCBI Taxonomy" id="4577"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Poales</taxon>
+<taxon>Poaceae</taxon>
+<taxon>PACMAD clade</taxon>
+<taxon>Panicoideae</taxon>
+<taxon>Andropogonodae</taxon>
+<taxon>Andropogoneae</taxon>
+<taxon>Tripsacinae</taxon>
+<taxon>Zea</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2018" name="Nat. Genet." volume="50" first="1289" last="1295">
+<title>Extensive intraspecific gene order and gene structural variations between Mo17 and other maize genomes.</title>
+<authorList>
+<person name="Sun S."/>
+<person name="Zhou Y."/>
+<person name="Chen J."/>
+<person name="Shi J."/>
+<person name="Zhao H."/>
+<person name="Zhao H."/>
+<person name="Song W."/>
+<person name="Zhang M."/>
+<person name="Cui Y."/>
+<person name="Dong X."/>
+<person name="Liu H."/>
+<person name="Ma X."/>
+<person name="Jiao Y."/>
+<person name="Wang B."/>
+<person name="Wei X."/>
+<person name="Stein J.C."/>
+<person name="Glaubitz J.C."/>
+<person name="Lu F."/>
+<person name="Yu G."/>
+<person name="Liang C."/>
+<person name="Fengler K."/>
+<person name="Li B."/>
+<person name="Rafalski A."/>
+<person name="Schnable P.S."/>
+<person name="Ware D.H."/>
+<person name="Buckler E.S."/>
+<person name="Lai J."/>
+</authorList>
+<dbReference type="PubMed" id="30061735"/>
+<dbReference type="DOI" id="10.1038/s41588-018-0182-0"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>cv. Missouri 17</strain>
+<tissue>Seedling</tissue>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2 8">Component of the volatile terpenes biosynthesis pathways (Probable). Sesquiterpene synthase that converts farnesyl diphosphate to (E)-beta-caryophyllene (By similarity). Involved in indirect defense by producing volatile signals attracting natural enemies of herbivores (By similarity).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate = (E)-beta-caryophyllene + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:28294"/>
+<dbReference type="ChEBI" id="CHEBI:10357"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.57"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="2">
+<dbReference type="Rhea" id="RHEA:28295"/>
+</physiologicalReaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="2">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<cofactor evidence="2">
+<name>Mn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29035"/>
+</cofactor>
+<text evidence="4">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+</comment>
+<comment type="pathway" evidence="7">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="subunit">
+<text evidence="5">Monomer.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="6">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="domain">
+<text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="8">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.57" evidence="2"/>
+<dbReference type="EMBL" id="NCVQ01000002">
+<property type="protein sequence ID" value="PWZ45177.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="SMR" id="A0A3L6G998"/>
+<dbReference type="MaizeGDB" id="1204229"/>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="Proteomes" id="UP000007305">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000251960">
+<property type="component" value="Chromosome 10"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000251960">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0080016">
+<property type="term" value="F:(-)-E-beta-caryophyllene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="RHEA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006952">
+<property type="term" value="P:defense response"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0464">Manganese</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0611">Plant defense</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="(E)-beta-caryophyllene synthase" id="PRO_0000447522">
+<location>
+<begin position="1"/>
+<end position="547"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif" evidence="1">
+<location>
+<begin position="302"/>
+<end position="306"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="3">
+<location>
+<position position="302"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="3">
+<location>
+<position position="302"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="3">
+<location>
+<position position="306"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="3">
+<location>
+<position position="306"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="3">
+<location>
+<position position="446"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="3">
+<location>
+<position position="454"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="302"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="306"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="443"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="446"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="A0A1C9J6A7"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="B2C4D0"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q40577"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q5GJ60"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q6JD73"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q6Q3H2"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q84ZW8"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000305"/>
+<evidence key="9" type="ECO:0000312">
+<source>
+<dbReference type="EMBL" id="PWZ45177.1"/>
+</source>
+</evidence>
+<sequence length="547" mass="63483" checksum="5E56D1BE164C124B" modified="2019-02-13" version="1">MAADEARSVSRLHSEEDMHGKHHSTLWGDFFLHHVPCRPGQYSIMKDNVKIMKEEVKKMLLDVGSSDLSHKLECIDTLERLGLDYHYTKEIDELMCNVFEARDQDLDLTTTSQLFYLLRKHGYHVSSDVFLKFGDDKGDIVTDDARCLLRMYEAAHVRVNGEEILDNILIHTKRQLQCIVDDLEPTLQEEVRYALETPLFRRLNRVQARQFISTYEKSTTRNNMLLEFSKLDFNILLTLYCEELKDLTMWWKEFQAQANTAIYARDRMVEMHFWMMGVFFEPQYSYSRKMLTQLFMIVSVLDDLYDSHCTTEEGNAFTAALQRWDEEGVEQCPTYLRTLYTNIRATVKAIEEDLNLQNNKHAKLVKGLIIDMAMCYNAETEWRDKKYVPATVDEHLKISARSSGCMHLVSQGFISMGDVATSEALEWASTYPKIVRAVCIIARLANDIMSYKREASNNTMVSTVQTCAKEYGTTTVEQAIEKIRELIEEAWMDITHECLRQPQPMALLERAVNLARTMDFLYKDVDGYTDSRSIKGILDSLYVDIID</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

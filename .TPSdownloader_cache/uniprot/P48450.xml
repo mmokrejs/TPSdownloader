@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="1996-02-01" dataset="Swiss-Prot" modified="2021-04-07" version="138">
+    <accession>P48450</accession>
+    <accession>Q62811</accession>
+    <name>LSS_RAT</name>
+    <protein>
+      <recommendedName>
+        <fullName>Lanosterol synthase</fullName>
+        <ecNumber evidence="3">5.4.99.7</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>2,3-epoxysqualene--lanosterol cyclase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Oxidosqualene--lanosterol cyclase</fullName>
+        <shortName>OSC</shortName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name type="primary">Lss</name>
+      <name type="synonym">Osc</name>
+    </gene>
+    <organism>
+      <name type="scientific">Rattus norvegicus</name>
+      <name type="common">Rat</name>
+      <dbReference id="10116" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Metazoa</taxon>
+        <taxon>Chordata</taxon>
+        <taxon>Craniata</taxon>
+        <taxon>Vertebrata</taxon>
+        <taxon>Euteleostomi</taxon>
+        <taxon>Mammalia</taxon>
+        <taxon>Eutheria</taxon>
+        <taxon>Euarchontoglires</taxon>
+        <taxon>Glires</taxon>
+        <taxon>Rodentia</taxon>
+        <taxon>Myomorpha</taxon>
+        <taxon>Muroidea</taxon>
+        <taxon>Muridae</taxon>
+        <taxon>Murinae</taxon>
+        <taxon>Rattus</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="1995" first="9274" last="9278" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="92">
+        <title>Molecular cloning, characterization, and functional expression of rat oxidosqualene cyclase cDNA.</title>
+        <authorList>
+          <person name="Abe I."/>
+          <person name="Prestwich G.D."/>
+        </authorList>
+        <dbReference id="7568116" type="PubMed"/>
+        <dbReference id="10.1073/pnas.92.20.9274" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>PROTEIN SEQUENCE OF 129-154; 279-287 AND 439-470</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <source>
+        <strain>Sprague-Dawley</strain>
+        <tissue>Liver</tissue>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="1995" first="195" last="197" name="Biol. Pharm. Bull." type="journal article" volume="18">
+        <title>Molecular cloning of cDNA encoding rat 2,3-oxidosqualene: lanosterol cyclase.</title>
+        <authorList>
+          <person name="Kusano M."/>
+          <person name="Shibuya M."/>
+          <person name="Sankawa U."/>
+          <person name="Ebizuka Y."/>
+        </authorList>
+        <dbReference id="7735243" type="PubMed"/>
+        <dbReference id="10.1248/bpb.18.195" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <source>
+        <strain>Sprague-Dawley</strain>
+        <tissue>Liver</tissue>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2006" first="395" last="404" name="J. Clin. Invest." type="journal article" volume="116">
+        <title>Lanosterol synthase mutations cause cholesterol deficiency-associated cataracts in the Shumiya cataract rat.</title>
+        <authorList>
+          <person name="Mori M."/>
+          <person name="Li G."/>
+          <person name="Abe I."/>
+          <person name="Nakayama J."/>
+          <person name="Guo Z."/>
+          <person name="Sawashita J."/>
+          <person name="Ugawa T."/>
+          <person name="Nishizono S."/>
+          <person name="Serikawa T."/>
+          <person name="Higuchi K."/>
+          <person name="Shumiya S."/>
+        </authorList>
+        <dbReference id="16440058" type="PubMed"/>
+        <dbReference id="10.1172/jci20797" type="DOI"/>
+      </citation>
+      <scope>DISRUPTION PHENOTYPE</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="1 3">Key enzyme in the cholesterol biosynthesis pathway. Catalyzes the cyclization of (S)-2,3 oxidosqualene to lanosterol, a reaction that forms the sterol nucleus (PubMed:7568116). Through the production of lanosterol may regulate lens protein aggregation and increase transparency (By similarity).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3">
+        <text>(S)-2,3-epoxysqualene = lanosterol</text>
+        <dbReference id="RHEA:14621" type="Rhea"/>
+        <dbReference id="CHEBI:15441" type="ChEBI"/>
+        <dbReference id="CHEBI:16521" type="ChEBI"/>
+        <dbReference id="5.4.99.7" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="pathway">
+      <text>Terpene metabolism; lanosterol biosynthesis; lanosterol from farnesyl diphosphate: step 3/3.</text>
+    </comment>
+    <comment type="subunit">
+      <text evidence="1">Monomer.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="1">Endoplasmic reticulum membrane</location>
+        <topology evidence="1">Peripheral membrane protein</topology>
+      </subcellularLocation>
+    </comment>
+    <comment type="disruption phenotype">
+      <text evidence="2">Hypomorphic mutations in this gene and the Fdft1 gene were identified, as well as a null mutation in this gene. Cataract onset is associated with the specific combination of Lss and Fdft1 mutant alleles that decrease cholesterol levels in cataractous lenses to about 57% of normal. Cholesterol insufficiency may cause the deficient proliferation of lens epithelial cells in Shumiya cataract rats, resulting in the loss of homeostatic epithelial cell control of the underlying fiber cells and ultimately cataractogenesis.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="4">Belongs to the terpene cyclase/mutase family.</text>
+    </comment>
+    <dbReference evidence="3" id="5.4.99.7" type="EC"/>
+    <dbReference id="U31352" type="EMBL">
+      <property type="protein sequence ID" value="AAA91023.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="D45252" type="EMBL">
+      <property type="protein sequence ID" value="BAA08208.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="NP_112311.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_031049.1"/>
+    </dbReference>
+    <dbReference id="P48450" type="SMR"/>
+    <dbReference id="249578" type="BioGRID">
+      <property type="interactions" value="1"/>
+    </dbReference>
+    <dbReference id="10116.ENSRNOP00000039946" type="STRING"/>
+    <dbReference id="P48450" type="BindingDB"/>
+    <dbReference id="CHEMBL3262" type="ChEMBL"/>
+    <dbReference id="2434" type="GuidetoPHARMACOLOGY"/>
+    <dbReference id="P48450" type="iPTMnet"/>
+    <dbReference id="P48450" type="PhosphoSitePlus"/>
+    <dbReference id="P48450" type="jPOST"/>
+    <dbReference id="P48450" type="PRIDE"/>
+    <dbReference id="81681" type="GeneID"/>
+    <dbReference id="rno:81681" type="KEGG"/>
+    <dbReference id="RGD:620955" type="UCSC">
+      <property type="organism name" value="rat"/>
+    </dbReference>
+    <dbReference id="4047" type="CTD"/>
+    <dbReference id="620955" type="RGD">
+      <property type="gene designation" value="Lss"/>
+    </dbReference>
+    <dbReference id="KOG0497" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="P48450" type="InParanoid"/>
+    <dbReference id="365003at2759" type="OrthoDB"/>
+    <dbReference id="P48450" type="PhylomeDB"/>
+    <dbReference id="5.4.99.7" type="BRENDA">
+      <property type="organism ID" value="5301"/>
+    </dbReference>
+    <dbReference id="R-RNO-191273" type="Reactome">
+      <property type="pathway name" value="Cholesterol biosynthesis"/>
+    </dbReference>
+    <dbReference id="P48450" type="SABIO-RK"/>
+    <dbReference id="UPA00767" type="UniPathway">
+      <property type="reaction ID" value="UER00753"/>
+    </dbReference>
+    <dbReference id="PR:P48450" type="PRO"/>
+    <dbReference id="UP000002494" type="Proteomes">
+      <property type="component" value="Unplaced"/>
+    </dbReference>
+    <dbReference id="GO:0005789" type="GO">
+      <property type="term" value="C:endoplasmic reticulum membrane"/>
+      <property type="evidence" value="ECO:0000250"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0043231" type="GO">
+      <property type="term" value="C:intracellular membrane-bounded organelle"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="RGD"/>
+    </dbReference>
+    <dbReference id="GO:0005811" type="GO">
+      <property type="term" value="C:lipid droplet"/>
+      <property type="evidence" value="ECO:0000266"/>
+      <property type="project" value="RGD"/>
+    </dbReference>
+    <dbReference id="GO:0042300" type="GO">
+      <property type="term" value="F:beta-amyrin synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0000250" type="GO">
+      <property type="term" value="F:lanosterol synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0006695" type="GO">
+      <property type="term" value="P:cholesterol biosynthetic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0031647" type="GO">
+      <property type="term" value="P:regulation of protein stability"/>
+      <property type="evidence" value="ECO:0000266"/>
+      <property type="project" value="RGD"/>
+    </dbReference>
+    <dbReference id="GO:0006694" type="GO">
+      <property type="term" value="P:steroid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000266"/>
+      <property type="project" value="RGD"/>
+    </dbReference>
+    <dbReference id="GO:0016125" type="GO">
+      <property type="term" value="P:sterol metabolic process"/>
+      <property type="evidence" value="ECO:0000315"/>
+      <property type="project" value="RGD"/>
+    </dbReference>
+    <dbReference id="GO:0016104" type="GO">
+      <property type="term" value="P:triterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="cd02892" type="CDD">
+      <property type="entry name" value="SQCY_1"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR032696" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_C"/>
+    </dbReference>
+    <dbReference id="IPR032697" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_N"/>
+    </dbReference>
+    <dbReference id="IPR018333" type="InterPro">
+      <property type="entry name" value="Squalene_cyclase"/>
+    </dbReference>
+    <dbReference id="IPR002365" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_CS"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF13243" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF13249" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01016" type="SFLD">
+      <property type="entry name" value="Prenyltransferase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="TIGR01787" type="TIGRFAMs">
+      <property type="entry name" value="squalene_cyclas"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PS01074" type="PROSITE">
+      <property type="entry name" value="TERPENE_SYNTHASES"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0007">Acetylation</keyword>
+    <keyword id="KW-0903">Direct protein sequencing</keyword>
+    <keyword id="KW-0256">Endoplasmic reticulum</keyword>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0444">Lipid biosynthesis</keyword>
+    <keyword id="KW-0443">Lipid metabolism</keyword>
+    <keyword id="KW-0472">Membrane</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0677">Repeat</keyword>
+    <keyword id="KW-0752">Steroid biosynthesis</keyword>
+    <feature description="Removed" evidence="1" type="initiator methionine">
+      <location>
+        <position position="1"/>
+      </location>
+    </feature>
+    <feature description="Lanosterol synthase" id="PRO_0000072661" type="chain">
+      <location>
+        <begin position="2"/>
+        <end position="733"/>
+      </location>
+    </feature>
+    <feature description="PFTB 1" type="repeat">
+      <location>
+        <begin position="125"/>
+        <end position="166"/>
+      </location>
+    </feature>
+    <feature description="PFTB 2" type="repeat">
+      <location>
+        <begin position="484"/>
+        <end position="529"/>
+      </location>
+    </feature>
+    <feature description="PFTB 3" type="repeat">
+      <location>
+        <begin position="561"/>
+        <end position="601"/>
+      </location>
+    </feature>
+    <feature description="PFTB 4" type="repeat">
+      <location>
+        <begin position="613"/>
+        <end position="654"/>
+      </location>
+    </feature>
+    <feature description="Proton donor" evidence="1" type="active site">
+      <location>
+        <position position="456"/>
+      </location>
+    </feature>
+    <feature description="N-acetylthreonine" evidence="1" type="modified residue">
+      <location>
+        <position position="2"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAA91023." evidence="4" ref="1" type="sequence conflict">
+      <original>D</original>
+      <variation>N</variation>
+      <location>
+        <position position="139"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; BAA08208." evidence="4" ref="2" type="sequence conflict">
+      <original>A</original>
+      <variation>G</variation>
+      <location>
+        <position position="189"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; BAA08208." evidence="4" ref="2" type="sequence conflict">
+      <original>R</original>
+      <variation>Q</variation>
+      <location>
+        <position position="481"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; BAA08208." evidence="4" ref="2" type="sequence conflict">
+      <original>D</original>
+      <variation>N</variation>
+      <location>
+        <position position="486"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAA91023." evidence="4" ref="1" type="sequence conflict">
+      <original>S</original>
+      <variation>I</variation>
+      <location>
+        <position position="557"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; BAA08208." evidence="4" ref="2" type="sequence conflict">
+      <original>L</original>
+      <variation>F</variation>
+      <location>
+        <position position="683"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; BAA08208." evidence="4" ref="2" type="sequence conflict">
+      <original>D</original>
+      <variation>E</variation>
+      <location>
+        <position position="687"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="P48449" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="16440058" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="7568116" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000305"/>
+    <sequence checksum="3679C0259CBDF771" length="733" mass="83301" modified="2005-03-29" version="2">MTEGTCLRRRGGPYKTEPATDLTRWRLHNELGRQRWTYYQAEEDPGREQTGLEAHSLGLDTTSYFKNLPKAQTAHEGALNGVTFYAKLQAEDGHWAGDYGGPLFLLPGLLITCHIAHIPLPAGYREEMVRYLRSVQLPDGGWGLHIEDKSTVFGTALSYVSLRILGIGPDDPDLVRARNILHKKGGAVAIPSWGKFWLAVLNVYSWEGINTLFPEMWLLPEWFPAHPSTLWCHCRQVYLPMSYCYATRLSASEDPLVQSLRQELYVEDYASIDWPAQKNNVCPDDMYTPHSWLLHVVYGLLNLYERFHSTSLRKWAIQLLYEHVAADDRFTKCISIGPISKTVNMLIRWSVDGPSSPAFQEHVSRIKDYLWLGLDGMKMQGTNGSQTWDTSFAVQALLEAGAHRRPEFLPCLQKAHEFLRLSQVPDNNPDYQKYYRHMHKGGFPFSTLDCGWIVADCTAEALKAVLLLQERCPSITEHVPRERLYDAVAVLLSMRNSDGGFATYETKRGGYLLELLNPSEVFGDIMIDYTYVECTSAVMQALRHFREYFPDHRATESRETLNQGLDFCRKKQRADGSWEGSWGVCFTYGTWFGLEAFACMGHIYQNRTACAEVAQACHFLLSRQMADGGWGEDFESCEQRRYVQSAGSQVHSTCWALLGLMAVRHPDISAQERGIRCLLGKQLPNGDWPQENISGVFNKSCAISYTNYRNIFPIWALGRFSSLYPDNTLAGHI</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

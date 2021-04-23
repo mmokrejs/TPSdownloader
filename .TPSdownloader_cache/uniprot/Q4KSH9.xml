@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2009-07-28" dataset="Swiss-Prot" modified="2020-12-02" version="98">
+    <accession>Q4KSH9</accession>
+    <accession>A3KPF7</accession>
+    <accession>Q9LU03</accession>
+    <name>BARS_ARATH</name>
+    <protein>
+      <recommendedName>
+        <fullName>Alpha-barbatene synthase</fullName>
+        <shortName>AtBS</shortName>
+        <ecNumber>4.2.3.69</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>Beta-chamigrene synthase</fullName>
+        <ecNumber>4.2.3.78</ecNumber>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Terpeneoid synthase 11</fullName>
+        <shortName>AtTPS11</shortName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Thujopsene synthase</fullName>
+        <ecNumber>4.2.3.79</ecNumber>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name type="primary">BS</name>
+      <name type="synonym">TPS11</name>
+      <name type="ordered locus">At5g44630</name>
+      <name type="ORF">K15C23.7</name>
+    </gene>
+    <organism>
+      <name type="scientific">Arabidopsis thaliana</name>
+      <name type="common">Mouse-ear cress</name>
+      <dbReference id="3702" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>malvids</taxon>
+        <taxon>Brassicales</taxon>
+        <taxon>Brassicaceae</taxon>
+        <taxon>Camelineae</taxon>
+        <taxon>Arabidopsis</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2005" first="1322" last="1333" name="Plant Physiol." type="journal article" volume="138">
+        <title>Surrogate splicing for functional analysis of sesquiterpene synthase genes.</title>
+        <authorList>
+          <person name="Wu S."/>
+          <person name="Schoenbeck M.A."/>
+          <person name="Greenhagen B.T."/>
+          <person name="Takahashi S."/>
+          <person name="Lee S."/>
+          <person name="Coates R.M."/>
+          <person name="Chappell J."/>
+        </authorList>
+        <dbReference id="15965019" type="PubMed"/>
+        <dbReference id="10.1104/pp.105.059386" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="2">
+      <citation date="1999-02" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Structural analysis of Arabidopsis thaliana chromosome 5. XI.</title>
+        <authorList>
+          <person name="Kaneko T."/>
+          <person name="Katoh T."/>
+          <person name="Asamizu E."/>
+          <person name="Sato S."/>
+          <person name="Nakamura Y."/>
+          <person name="Kotani H."/>
+          <person name="Tabata S."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>cv. Columbia</strain>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2017" first="789" last="804" name="Plant J." type="journal article" volume="89">
+        <title>Araport11: a complete reannotation of the Arabidopsis thaliana reference genome.</title>
+        <authorList>
+          <person name="Cheng C.Y."/>
+          <person name="Krishnakumar V."/>
+          <person name="Chan A.P."/>
+          <person name="Thibaud-Nissen F."/>
+          <person name="Schobel S."/>
+          <person name="Town C.D."/>
+        </authorList>
+        <dbReference id="27862469" type="PubMed"/>
+        <dbReference id="10.1111/tpj.13415" type="DOI"/>
+      </citation>
+      <scope>GENOME REANNOTATION</scope>
+      <source>
+        <strain>cv. Columbia</strain>
+      </source>
+    </reference>
+    <reference key="4">
+      <citation date="2007-02" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Arabidopsis ORF clones.</title>
+        <authorList>
+          <person name="Bautista V.R."/>
+          <person name="Kim C.J."/>
+          <person name="Chen H."/>
+          <person name="Wu S.Y."/>
+          <person name="De Los Reyes C."/>
+          <person name="Ecker J.R."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+      <source>
+        <strain>cv. Columbia</strain>
+      </source>
+    </reference>
+    <reference key="5">
+      <citation date="2002" first="730" last="745" name="Mol. Genet. Genomics" type="journal article" volume="267">
+        <title>Genomic analysis of the terpenoid synthase (AtTPS) gene family of Arabidopsis thaliana.</title>
+        <authorList>
+          <person name="Aubourg S."/>
+          <person name="Lecharny A."/>
+          <person name="Bohlmann J."/>
+        </authorList>
+        <dbReference id="12207221" type="PubMed"/>
+        <dbReference id="10.1007/s00438-002-0709-y" type="DOI"/>
+      </citation>
+      <scope>GENE FAMILY</scope>
+      <scope>NOMENCLATURE</scope>
+    </reference>
+    <reference key="6">
+      <citation date="2003" first="481" last="494" name="Plant Cell" type="journal article" volume="15">
+        <title>Biosynthesis and emission of terpenoid volatiles from Arabidopsis flowers.</title>
+        <authorList>
+          <person name="Chen F."/>
+          <person name="Tholl D."/>
+          <person name="D'Auria J.C."/>
+          <person name="Farooq A."/>
+          <person name="Pichersky E."/>
+          <person name="Gershenzon J."/>
+        </authorList>
+        <dbReference id="12566586" type="PubMed"/>
+        <dbReference id="10.1105/tpc.007989" type="DOI"/>
+      </citation>
+      <scope>TISSUE SPECIFICITY</scope>
+    </reference>
+    <reference key="7">
+      <citation date="2003" first="925" last="948" name="Plant Mol. Biol." type="journal article" volume="51">
+        <title>Genome organization in Arabidopsis thaliana: a survey for genes involved in isoprenoid and chlorophyll metabolism.</title>
+        <authorList>
+          <person name="Lange B.M."/>
+          <person name="Ghassemian M."/>
+        </authorList>
+        <dbReference id="12777052" type="PubMed"/>
+        <dbReference id="10.1023/a:1023005504702" type="DOI"/>
+      </citation>
+      <scope>GENE FAMILY</scope>
+    </reference>
+    <reference key="8">
+      <citation date="2005" first="757" last="771" name="Plant J." type="journal article" volume="42">
+        <title>Two sesquiterpene synthases are responsible for the complex mixture of sesquiterpenes emitted from Arabidopsis flowers.</title>
+        <authorList>
+          <person name="Tholl D."/>
+          <person name="Chen F."/>
+          <person name="Petri J."/>
+          <person name="Gershenzon J."/>
+          <person name="Pichersky E."/>
+        </authorList>
+        <dbReference id="15918888" type="PubMed"/>
+        <dbReference id="10.1111/j.1365-313x.2005.02417.x" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <scope>DISRUPTION PHENOTYPE</scope>
+      <scope>TISSUE SPECIFICITY</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="3 4">Involved in the biosynthesis of over 15 sesquiterpenes (C15). The major products are (+)-alpha-barbatene (27.3%), (+)-thujopsene (17.8%) and (+)-beta-chamigrene (9.9%). Can use farnesyl diphosphate or geranyl diphosphate as substrates, but not geranylgeranyl diphosphate.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3">
+        <text>(2E,6E)-farnesyl diphosphate = (+)-alpha-barbatene + diphosphate</text>
+        <dbReference id="RHEA:29499" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:61690" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.69" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3">
+        <text>(2E,6E)-farnesyl diphosphate = (+)-thujopsene + diphosphate</text>
+        <dbReference id="RHEA:30375" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:61737" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.79" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3">
+        <text>(2E,6E)-farnesyl diphosphate = (+)-beta-chamigrene + diphosphate</text>
+        <dbReference id="RHEA:30379" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:61746" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.78" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <cofactor evidence="1">
+        <name>Mn(2+)</name>
+        <dbReference id="CHEBI:29035" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="3">1.2 uM for farnesyl diphosphate</KM>
+        <KM evidence="3">0.21 uM for geranyl diphosphate</KM>
+        <text>The formation of monoterpene products from geranyl diphosphate (GPP) is unlikely, as the protein is not expected to be present in plastids, where GPP is thought to be produced.</text>
+      </kinetics>
+    </comment>
+    <comment type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="5">Cytoplasm</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="tissue specificity">
+      <text evidence="2 3">Expressed exclusively in flowers. Expressed in intrafloral nectaries and in the funiculus within the ovules.</text>
+    </comment>
+    <comment type="domain">
+      <text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="disruption phenotype">
+      <text evidence="3">Does not emit any sesquiterpene volatiles except (E)-beta-caryophyllene, alpha-copaene and alpha-humulene.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="5">Belongs to the terpene synthase family. Tpsa subfamily.</text>
+    </comment>
+    <comment evidence="5" type="sequence caution">
+      <conflict type="erroneous gene model prediction">
+        <sequence id="BAA98116" resource="EMBL-CDS" version="1"/>
+      </conflict>
+    </comment>
+    <dbReference id="4.2.3.69" type="EC"/>
+    <dbReference id="4.2.3.78" type="EC"/>
+    <dbReference id="4.2.3.79" type="EC"/>
+    <dbReference id="AY876386" type="EMBL">
+      <property type="protein sequence ID" value="AAX59990.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AB024024" type="EMBL">
+      <property type="protein sequence ID" value="BAA98116.1"/>
+      <property type="status" value="ALT_SEQ"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="CP002688" type="EMBL">
+      <property type="protein sequence ID" value="AED95140.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="BT030324" type="EMBL">
+      <property type="protein sequence ID" value="ABO09887.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="NP_199276.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_123830.3"/>
+    </dbReference>
+    <dbReference id="Q4KSH9" type="SMR"/>
+    <dbReference id="3702.AT5G44630.1" type="STRING"/>
+    <dbReference id="Q4KSH9" type="iPTMnet"/>
+    <dbReference id="Q4KSH9" type="PaxDb"/>
+    <dbReference id="Q4KSH9" type="PRIDE"/>
+    <dbReference id="240741" type="ProteomicsDB"/>
+    <dbReference id="AT5G44630.1" type="EnsemblPlants">
+      <property type="protein sequence ID" value="AT5G44630.1"/>
+      <property type="gene ID" value="AT5G44630"/>
+    </dbReference>
+    <dbReference id="834491" type="GeneID"/>
+    <dbReference id="AT5G44630.1" type="Gramene">
+      <property type="protein sequence ID" value="AT5G44630.1"/>
+      <property type="gene ID" value="AT5G44630"/>
+    </dbReference>
+    <dbReference id="ath:AT5G44630" type="KEGG"/>
+    <dbReference id="AT5G44630" type="Araport"/>
+    <dbReference id="locus:2152155" type="TAIR">
+      <property type="gene designation" value="AT5G44630"/>
+    </dbReference>
+    <dbReference id="ENOG502QUCN" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="CLU_003125_7_2_1" type="HOGENOM"/>
+    <dbReference id="Q4KSH9" type="InParanoid"/>
+    <dbReference id="YNHREGK" type="OMA"/>
+    <dbReference id="360509at2759" type="OrthoDB"/>
+    <dbReference id="Q4KSH9" type="PhylomeDB"/>
+    <dbReference id="ARA:AT5G44630-MONOMER" type="BioCyc"/>
+    <dbReference id="MetaCyc:AT5G44630-MONOMER" type="BioCyc"/>
+    <dbReference id="4.2.3.69" type="BRENDA">
+      <property type="organism ID" value="399"/>
+    </dbReference>
+    <dbReference id="4.2.3.78" type="BRENDA">
+      <property type="organism ID" value="399"/>
+    </dbReference>
+    <dbReference id="4.2.3.79" type="BRENDA">
+      <property type="organism ID" value="399"/>
+    </dbReference>
+    <dbReference id="Q4KSH9" type="SABIO-RK"/>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="PR:Q4KSH9" type="PRO"/>
+    <dbReference id="UP000006548" type="Proteomes">
+      <property type="component" value="Chromosome 5"/>
+    </dbReference>
+    <dbReference id="Q4KSH9" type="ExpressionAtlas">
+      <property type="expression patterns" value="baseline and differential"/>
+    </dbReference>
+    <dbReference id="Q4KSH9" type="Genevisible">
+      <property type="organism ID" value="AT"/>
+    </dbReference>
+    <dbReference id="GO:0005737" type="GO">
+      <property type="term" value="C:cytoplasm"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0009506" type="GO">
+      <property type="term" value="C:plasmodesma"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="TAIR"/>
+    </dbReference>
+    <dbReference id="GO:0102878" type="GO">
+      <property type="term" value="F:(+)-alpha-barbatene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0102883" type="GO">
+      <property type="term" value="F:(+)-beta-chamigrene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0102879" type="GO">
+      <property type="term" value="F:(+)-thujopsene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0009975" type="GO">
+      <property type="term" value="F:cyclase activity"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0051762" type="GO">
+      <property type="term" value="P:sesquiterpene biosynthetic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="TAIR"/>
+    </dbReference>
+    <dbReference id="GO:0016106" type="GO">
+      <property type="term" value="P:sesquiterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="TAIR"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0963">Cytoplasm</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0464">Manganese</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="Alpha-barbatene synthase" id="PRO_0000380673" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="557"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="310"/>
+        <end position="314"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="310"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="310"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="314"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="314"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="454"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="462"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 1; AAX59990." evidence="5" ref="1" type="sequence conflict">
+      <original>F</original>
+      <variation>Y</variation>
+      <location>
+        <position position="162"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="12566586" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="15918888" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="15965019" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000305"/>
+    <sequence checksum="05439A5144A37240" length="557" mass="64909" modified="2009-07-28" version="2">MEALGNFDYESYTNFTKLPSSQWGDQFLKFSIADSDFDVLEREIEVLKPKVRENIFVSSSTDKDAMKKTILSIHFLDSLGLSYHFEKEIEESLKHAFEKIEDLIADENKLHTISTIFRVFRTYGYYMSSDVFKIFKGDDGKFKESLIEDVKGMLSFYEAVHFGTTTDHILDEALSFTLNHLESLATGRRASPPHISKLIQNALHIPQHRNIQALVAREYISFYEHEEDHDETLLKLAKLNFKFLQLHYFQELKTITMWWTKLDHTSNLPPNFRERTVETWFAALMMYFEPQFSLGRIMSAKLYLVITFLDDACDTYGSISEVESLADCLERWDPDYMENLQGHMKTAFKFVMYLFKEYEEILRSQGRSFVLEKMIEEFKIIARKNLELVKWARGGHVPSFDEYIESGGAEIGTYATIACSIMGLGEIGKKEAFEWLISRPKLVRILGAKTRLMDDIADFEEDMEKGYTANALNYYMNEHGVTKEEASRELEKMNGDMNKIVNEECLKITTMPRRILMQSVNYARSLDVLYTADDVYNHREGKLKEYMRLLLVDPILL</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

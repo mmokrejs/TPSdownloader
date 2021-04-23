@@ -1,0 +1,1198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2005-04-12" dataset="Swiss-Prot" modified="2021-04-07" version="108">
+    <accession>Q38710</accession>
+    <accession>Q94FW1</accession>
+    <name>TPSDV_ABIGR</name>
+    <protein>
+      <recommendedName>
+        <fullName>Bifunctional abietadiene synthase, chloroplastic</fullName>
+      </recommendedName>
+      <alternativeName>
+        <fullName>(-)-abieta-7(8),13(14)-diene synthase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Abietadiene cyclase</fullName>
+        <shortName>AgAS</shortName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Agggabi</fullName>
+      </alternativeName>
+      <domain>
+        <recommendedName>
+          <fullName>Abietadiene synthase</fullName>
+          <ecNumber evidence="6 7">4.2.3.18</ecNumber>
+        </recommendedName>
+        <alternativeName>
+          <fullName>Neoabietadiene synthase</fullName>
+          <ecNumber evidence="6 7">4.2.3.132</ecNumber>
+        </alternativeName>
+      </domain>
+      <domain>
+        <recommendedName>
+          <fullName>Copalyl diphosphate synthase</fullName>
+          <ecNumber evidence="6 7">5.5.1.12</ecNumber>
+        </recommendedName>
+      </domain>
+    </protein>
+    <gene>
+      <name type="primary">AS</name>
+      <name type="synonym">ac22</name>
+      <name type="synonym">ag22</name>
+    </gene>
+    <organism>
+      <name type="scientific">Abies grandis</name>
+      <name type="common">Grand fir</name>
+      <name type="synonym">Pinus grandis</name>
+      <dbReference id="46611" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Pinopsida</taxon>
+        <taxon>Pinidae</taxon>
+        <taxon>Pinales</taxon>
+        <taxon>Pinaceae</taxon>
+        <taxon>Abies</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="1996" first="23262" last="23268" name="J. Biol. Chem." type="journal article" volume="271">
+        <title>Abietadiene synthase from grand fir (Abies grandis). cDNA isolation, characterization, and bacterial expression of a bifunctional diterpene cyclase involved in resin acid biosynthesis.</title>
+        <authorList>
+          <person name="Stoffer Vogel B."/>
+          <person name="Wildung M.R."/>
+          <person name="Vogel G."/>
+          <person name="Croteau R.B."/>
+        </authorList>
+        <dbReference id="8798524" type="PubMed"/>
+        <dbReference id="10.1074/jbc.271.38.23262" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>PROTEIN SEQUENCE OF 148-166; 522-530; 615-625 AND 699-705</scope>
+      <scope>INDUCTION</scope>
+      <source>
+        <tissue>Stem</tissue>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2001" first="811" last="832" name="Genetics" type="journal article" volume="158">
+        <title>Genomic organization of plant terpene synthases and molecular evolutionary implications.</title>
+        <authorList>
+          <person name="Trapp S.C."/>
+          <person name="Croteau R.B."/>
+        </authorList>
+        <dbReference id="11404343" type="PubMed"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 16-868</scope>
+      <scope>NOMENCLATURE</scope>
+    </reference>
+    <reference key="3">
+      <citation date="1998" first="4126" last="4133" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="95">
+        <title>Plant terpenoid synthases: molecular biology and phylogenetic analysis.</title>
+        <authorList>
+          <person name="Bohlmann J."/>
+          <person name="Meyer-Gauen G."/>
+          <person name="Croteau R.B."/>
+        </authorList>
+        <dbReference id="9539701" type="PubMed"/>
+        <dbReference id="10.1073/pnas.95.8.4126" type="DOI"/>
+      </citation>
+      <scope>GENE FAMILY</scope>
+      <scope>NOMENCLATURE</scope>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="4">
+      <citation date="2000" first="15592" last="15602" name="Biochemistry" type="journal article" volume="39">
+        <title>Abietadiene synthase from grand fir (Abies grandis): characterization and mechanism of action of the 'pseudomature' recombinant enzyme.</title>
+        <authorList>
+          <person name="Peters R.J."/>
+          <person name="Flory J.E."/>
+          <person name="Jetter R."/>
+          <person name="Ravn M.M."/>
+          <person name="Lee H.J."/>
+          <person name="Coates R.M."/>
+          <person name="Croteau R.B."/>
+        </authorList>
+        <dbReference id="11112547" type="PubMed"/>
+        <dbReference id="10.1021/bi001997l" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <scope>ACTIVITY REGULATION</scope>
+    </reference>
+    <reference key="5">
+      <citation date="2000" first="573" last="576" name="Org. Lett." type="journal article" volume="2">
+        <title>Stereochemistry of the cyclization-rearrangement of (+)-copalyl diphosphate to (-)-abietadiene catalyzed by recombinant abietadiene synthase from Abies grandis.</title>
+        <authorList>
+          <person name="Ravn M.M."/>
+          <person name="Coates R.M."/>
+          <person name="Flory J.E."/>
+          <person name="Peters R.J."/>
+          <person name="Croteau R."/>
+        </authorList>
+        <dbReference id="10814381" type="PubMed"/>
+        <dbReference id="10.1021/ol991230p" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+    </reference>
+    <reference key="6">
+      <citation date="2001" first="8974" last="8978" name="J. Am. Chem. Soc." type="journal article" volume="123">
+        <title>Bifunctional abietadiene synthase: free diffusive transfer of the (+)-copalyl diphosphate intermediate between two distinct active sites.</title>
+        <authorList>
+          <person name="Peters R.J."/>
+          <person name="Ravn M.M."/>
+          <person name="Coates R.M."/>
+          <person name="Croteau R.B."/>
+        </authorList>
+        <dbReference id="11552804" type="PubMed"/>
+        <dbReference id="10.1021/ja010670k" type="DOI"/>
+      </citation>
+      <scope>MUTAGENESIS OF ASP-404 AND ASP-621</scope>
+      <scope>CHARACTERIZATION</scope>
+    </reference>
+    <reference key="7">
+      <citation date="2002" first="1836" last="1842" name="Biochemistry" type="journal article" volume="41">
+        <title>Abietadiene synthase catalysis: conserved residues involved in protonation-initiated cyclization of geranylgeranyl diphosphate to (+)-copalyl diphosphate.</title>
+        <authorList>
+          <person name="Peters R.J."/>
+          <person name="Croteau R.B."/>
+        </authorList>
+        <dbReference id="11827528" type="PubMed"/>
+        <dbReference id="10.1021/bi011879d" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <scope>3D-STRUCTURE MODELING</scope>
+      <scope>MUTAGENESIS OF TRP-358; ASP-361; ARG-365; ASP-402; ASP-404; ASP-405; ARG-411; ARG-454; GLU-499 AND TYR-520</scope>
+    </reference>
+    <reference key="8">
+      <citation date="2002" first="580" last="584" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="99">
+        <title>Abietadiene synthase catalysis: mutational analysis of a prenyl diphosphate ionization-initiated cyclization and rearrangement.</title>
+        <authorList>
+          <person name="Peters R.J."/>
+          <person name="Croteau R.B."/>
+        </authorList>
+        <dbReference id="11805316" type="PubMed"/>
+        <dbReference id="10.1073/pnas.022627099" type="DOI"/>
+      </citation>
+      <scope>MUTAGENESIS OF ARG-584; ARG-586; GLU-589; THR-617; ASP-621; ASP-625; GLU-699; SER-721; ARG-762; ASN-765; ASP-766; THR-769; GLU-773; GLU-778; TYR-841; ASP-845 AND THR-848</scope>
+      <scope>CHARACTERIZATION</scope>
+    </reference>
+    <reference key="9">
+      <citation date="2003" first="2700" last="2707" name="Biochemistry" type="journal article" volume="42">
+        <title>Bifunctional abietadiene synthase: mutual structural dependence of the active sites for protonation-initiated and ionization-initiated cyclizations.</title>
+        <authorList>
+          <person name="Peters R.J."/>
+          <person name="Carter O.A."/>
+          <person name="Zhang Y."/>
+          <person name="Matthews B.W."/>
+          <person name="Croteau R.B."/>
+        </authorList>
+        <dbReference id="12614165" type="PubMed"/>
+        <dbReference id="10.1021/bi020492n" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>MUTAGENESIS OF LYS-86 AND ARG-87</scope>
+    </reference>
+    <reference key="10">
+      <citation date="2007" first="15736" last="15737" name="J. Am. Chem. Soc." type="journal article" volume="129">
+        <title>A single residue switch converts abietadiene synthase into a pimaradiene specific cyclase.</title>
+        <authorList>
+          <person name="Wilderman P.R."/>
+          <person name="Peters R.J."/>
+        </authorList>
+        <dbReference id="18052062" type="PubMed"/>
+        <dbReference id="10.1021/ja074977g" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>MUTAGENESIS OF ALA-723</scope>
+    </reference>
+    <reference key="11">
+      <citation date="2010" first="20558" last="20563" name="J. Biol. Chem." type="journal article" volume="285">
+        <title>A single residue switch for Mg(2+)-dependent inhibition characterizes plant class II diterpene cyclases from primary and secondary metabolism.</title>
+        <authorList>
+          <person name="Mann F.M."/>
+          <person name="Prisic S."/>
+          <person name="Davenport E.K."/>
+          <person name="Determan M.K."/>
+          <person name="Coates R.M."/>
+          <person name="Peters R.J."/>
+        </authorList>
+        <dbReference id="20430888" type="PubMed"/>
+        <dbReference id="10.1074/jbc.m110.123307" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>MUTAGENESIS OF ARG-356 AND ASP-621</scope>
+    </reference>
+    <reference key="12">
+      <citation date="2012" first="6840" last="6850" name="J. Biol. Chem." type="journal article" volume="287">
+        <title>Insights into diterpene cyclization from structure of bifunctional abietadiene synthase from Abies grandis.</title>
+        <authorList>
+          <person name="Zhou K."/>
+          <person name="Gao Y."/>
+          <person name="Hoy J.A."/>
+          <person name="Mann F.M."/>
+          <person name="Honzatko R.B."/>
+          <person name="Peters R.J."/>
+        </authorList>
+        <dbReference id="22219188" type="PubMed"/>
+        <dbReference id="10.1074/jbc.m111.337592" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (2.30 ANGSTROMS) OF 85-868</scope>
+      <scope>MUTAGENESIS OF ASN-451 AND VAL-727</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="6 7 10 11 12 13 16">Involved in defensive oleoresin formation in conifers in response to insect attack or other injury. Involved in diterpene (C20) olefins biosynthesis. Bifunctional enzyme that catalyzes two sequential cyclizations of geranylgeranyl diphosphate (GGPP) to abietadiene. The copalyl diphosphate (CPP) intermediate diffuses freely between the 2 active sites in the enzyme. Changes in reaction pH, but not salt concentration, influence the relative proportion of the major products of the enzyme, abitadiene, levopimaradiene and neoabitadiene.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="6 7">
+        <text>(2E,6E,10E)-geranylgeranyl diphosphate = (+)-copalyl diphosphate</text>
+        <dbReference id="RHEA:24316" type="Rhea"/>
+        <dbReference id="CHEBI:58635" type="ChEBI"/>
+        <dbReference id="CHEBI:58756" type="ChEBI"/>
+        <dbReference id="5.5.1.12" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="6 7">
+        <text>(+)-copalyl diphosphate = abieta-7,13-diene + diphosphate</text>
+        <dbReference id="RHEA:13873" type="Rhea"/>
+        <dbReference id="CHEBI:30232" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:58635" type="ChEBI"/>
+        <dbReference id="4.2.3.18" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="6 7">
+        <text>(+)-copalyl diphosphate = diphosphate + neoabietadiene</text>
+        <dbReference id="RHEA:33987" type="Rhea"/>
+        <dbReference id="CHEBI:29651" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:58635" type="ChEBI"/>
+        <dbReference id="4.2.3.132" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="4">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="4">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment type="cofactor">
+      <cofactor>
+        <name>K(+)</name>
+        <dbReference id="CHEBI:29103" type="ChEBI"/>
+      </cofactor>
+    </comment>
+    <comment type="activity regulation">
+      <text evidence="7">Not inhibited by 13-cyclopropylidene or 16-methylidenegeranylgeranyl diphosphate. The copalyl diphosphate synthase activity is not susceptible to magnesium-dependent inhibition.</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="7 10">3 uM for GGPP (in presence of magnesium)</KM>
+        <KM evidence="7 10">20 uM for GGPP (in absence of magnesium)</KM>
+        <KM evidence="7 10">0.4 uM for CPP (in presence of magnesium)</KM>
+        <KM evidence="7 10">10 uM for CPP (in absence of magnesium)</KM>
+      </kinetics>
+      <phDependence>
+        <text evidence="7 10">Optimum pH is 7.2 with GGPP as substrate and 8.7 with CPP as substrate.</text>
+      </phDependence>
+    </comment>
+    <comment type="pathway">
+      <text>Terpene metabolism; oleoresin biosynthesis.</text>
+    </comment>
+    <comment type="subunit">
+      <text>Monomer.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="1">Plastid</location>
+        <location evidence="1">Chloroplast</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="induction">
+      <text evidence="15">By wounding.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="17">The Asp-Xaa-Asp-Asp (DXDD) motif is important for the catalytic activity in the class II active site relevant for the cyclization of GGPP. The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity in the class I active site, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="PTM">
+      <text>The N-terminus is blocked.</text>
+    </comment>
+    <comment type="miscellaneous">
+      <text>The abietadiene synthase activity exhibits an absolute dependence on a divalent metal ion cofactor while the copalyl diphosphate synthase activity is not completely dependent.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="17">Belongs to the terpene synthase family. Tpsd subfamily.</text>
+    </comment>
+    <dbReference evidence="6 7" id="4.2.3.18" type="EC"/>
+    <dbReference evidence="6 7" id="4.2.3.132" type="EC"/>
+    <dbReference evidence="6 7" id="5.5.1.12" type="EC"/>
+    <dbReference id="U50768" type="EMBL">
+      <property type="protein sequence ID" value="AAB05407.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AF326516" type="EMBL">
+      <property type="protein sequence ID" value="AAK83563.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="3S9V" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.30"/>
+      <property type="chains" value="A/B/C/D=85-868"/>
+    </dbReference>
+    <dbReference id="3S9V" type="PDBsum"/>
+    <dbReference id="Q38710" type="SMR"/>
+    <dbReference id="ag:AAB05407" type="KEGG"/>
+    <dbReference id="MetaCyc:MONOMER-12822" type="BioCyc"/>
+    <dbReference id="4.2.3.132" type="BRENDA">
+      <property type="organism ID" value="2"/>
+    </dbReference>
+    <dbReference id="4.2.3.18" type="BRENDA">
+      <property type="organism ID" value="2"/>
+    </dbReference>
+    <dbReference id="UPA00924" type="UniPathway"/>
+    <dbReference id="GO:0009507" type="GO">
+      <property type="term" value="C:chloroplast"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0050554" type="GO">
+      <property type="term" value="F:abietadiene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0050559" type="GO">
+      <property type="term" value="F:copalyl diphosphate synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0008152" type="GO">
+      <property type="term" value="P:metabolic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0002">3D-structure</keyword>
+    <keyword id="KW-0150">Chloroplast</keyword>
+    <keyword id="KW-0903">Direct protein sequencing</keyword>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0464">Manganese</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-0511">Multifunctional enzyme</keyword>
+    <keyword id="KW-0934">Plastid</keyword>
+    <keyword id="KW-0809">Transit peptide</keyword>
+    <feature description="Chloroplast" evidence="5" type="transit peptide">
+      <location>
+        <begin position="1"/>
+        <end position="70"/>
+      </location>
+    </feature>
+    <feature description="Bifunctional abietadiene synthase, chloroplastic" id="PRO_0000033634" type="chain">
+      <location>
+        <begin position="71"/>
+        <end position="868"/>
+      </location>
+    </feature>
+    <feature description="DXDD motif" evidence="17" type="short sequence motif">
+      <location>
+        <begin position="402"/>
+        <end position="405"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="17" type="short sequence motif">
+      <location>
+        <begin position="621"/>
+        <end position="625"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 4" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="402"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 4" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="404"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="4" type="metal ion-binding site">
+      <location>
+        <position position="621"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="4" type="metal ion-binding site">
+      <location>
+        <position position="621"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="4" type="metal ion-binding site">
+      <location>
+        <position position="625"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="4" type="metal ion-binding site">
+      <location>
+        <position position="625"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="4" type="metal ion-binding site">
+      <location>
+        <position position="765"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="4" type="metal ion-binding site">
+      <location>
+        <position position="769"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="4" type="metal ion-binding site">
+      <location>
+        <position position="773"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="3" type="binding site">
+      <location>
+        <position position="269"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="3" type="binding site">
+      <location>
+        <position position="489"/>
+      </location>
+    </feature>
+    <feature description="No effect on CPP binding, but decreased abietadiene synthase activity; when associated with A-87." evidence="11" type="mutagenesis site">
+      <original>K</original>
+      <variation>A</variation>
+      <location>
+        <position position="86"/>
+      </location>
+    </feature>
+    <feature description="No effect on CPP binding, but decreased abietadiene synthase activity; when associated with A-86." evidence="11" type="mutagenesis site">
+      <original>R</original>
+      <variation>A</variation>
+      <location>
+        <position position="87"/>
+      </location>
+    </feature>
+    <feature description="No effect on abietadiene synthase activity, but strongly reduced copalyl diphosphate synthase activity." evidence="13" type="mutagenesis site">
+      <original>R</original>
+      <variation>A</variation>
+      <location>
+        <position position="356"/>
+      </location>
+    </feature>
+    <feature description="Increased Mg(2+) inhibition; when associated with A-621." evidence="13" type="mutagenesis site">
+      <original>R</original>
+      <variation>H</variation>
+      <location>
+        <position position="356"/>
+      </location>
+    </feature>
+    <feature description="Decreased copalyl diphosphate synthase activity." evidence="10" type="mutagenesis site">
+      <original>W</original>
+      <variation>A</variation>
+      <location>
+        <position position="358"/>
+      </location>
+    </feature>
+    <feature description="No effect on GGPP binding, but decreased copalyl diphosphate synthase activity." evidence="10" type="mutagenesis site">
+      <original>D</original>
+      <variation>A</variation>
+      <location>
+        <position position="361"/>
+      </location>
+    </feature>
+    <feature description="No effect on GGPP binding, but decreased copalyl diphosphate synthase activity." evidence="10" type="mutagenesis site">
+      <original>R</original>
+      <variation>A</variation>
+      <location>
+        <position position="365"/>
+      </location>
+    </feature>
+    <feature description="No effect on GGPP binding, but decreased copalyl diphosphate synthase activity." evidence="10" type="mutagenesis site">
+      <original>D</original>
+      <variation>A</variation>
+      <variation>E</variation>
+      <variation>N</variation>
+      <location>
+        <position position="402"/>
+      </location>
+    </feature>
+    <feature description="No effect on GGPP binding, but loss of copalyl diphosphate synthase activity." evidence="8 10" type="mutagenesis site">
+      <original>D</original>
+      <variation>A</variation>
+      <variation>E</variation>
+      <variation>N</variation>
+      <location>
+        <position position="404"/>
+      </location>
+    </feature>
+    <feature description="No effect on GGPP binding, but decreased copalyl diphosphate synthase activity." evidence="10" type="mutagenesis site">
+      <original>D</original>
+      <variation>A</variation>
+      <variation>E</variation>
+      <variation>N</variation>
+      <location>
+        <position position="405"/>
+      </location>
+    </feature>
+    <feature description="No effect on GGPP binding, but slightly decreased copalyl diphosphate synthase activity." evidence="10" type="mutagenesis site">
+      <original>R</original>
+      <variation>A</variation>
+      <location>
+        <position position="411"/>
+      </location>
+    </feature>
+    <feature description="No effect on abietadiene synthase activity, but strongly reduced copalyl diphosphate synthase activity." evidence="14" type="mutagenesis site">
+      <original>N</original>
+      <variation>A</variation>
+      <location>
+        <position position="451"/>
+      </location>
+    </feature>
+    <feature description="No effect on GGPP binding, but decreased copalyl diphosphate synthase activity." evidence="10" type="mutagenesis site">
+      <original>R</original>
+      <variation>A</variation>
+      <location>
+        <position position="454"/>
+      </location>
+    </feature>
+    <feature description="No effect on GGPP binding, but decreased copalyl diphosphate synthase activity." evidence="10" type="mutagenesis site">
+      <original>E</original>
+      <variation>A</variation>
+      <location>
+        <position position="499"/>
+      </location>
+    </feature>
+    <feature description="No effect on GGPP binding, but slightly decreased copalyl diphosphate synthase activity." evidence="10" type="mutagenesis site">
+      <original>Y</original>
+      <variation>A</variation>
+      <location>
+        <position position="520"/>
+      </location>
+    </feature>
+    <feature description="No or small effect on substrate binding, but strongly decreases abietadiene synthase activity." evidence="9" type="mutagenesis site">
+      <original>R</original>
+      <variation>A</variation>
+      <location>
+        <position position="584"/>
+      </location>
+    </feature>
+    <feature description="No or small effect on substrate binding, but strongly decreases abietadiene synthase activity." evidence="9" type="mutagenesis site">
+      <original>R</original>
+      <variation>A</variation>
+      <location>
+        <position position="586"/>
+      </location>
+    </feature>
+    <feature description="Lower substrate binding and strong decrease of abietadiene synthase activity." evidence="9" type="mutagenesis site">
+      <original>E</original>
+      <variation>A</variation>
+      <location>
+        <position position="589"/>
+      </location>
+    </feature>
+    <feature description="Increased production of abietadiene at the expense of levopimaradiene." evidence="9" type="mutagenesis site">
+      <original>T</original>
+      <variation>A</variation>
+      <location>
+        <position position="617"/>
+      </location>
+    </feature>
+    <feature description="Loss of abietadiene synthase activity. Increased Mg(2+) inhibition; when associated with H-356." evidence="8 9 13" type="mutagenesis site">
+      <original>D</original>
+      <variation>A</variation>
+      <location>
+        <position position="621"/>
+      </location>
+    </feature>
+    <feature description="No or small effect on substrate binding, but strongly decreases abietadiene synthase activity." evidence="9" type="mutagenesis site">
+      <original>D</original>
+      <variation>A</variation>
+      <location>
+        <position position="625"/>
+      </location>
+    </feature>
+    <feature description="No or small effect on substrate binding, but strongly decreases abietadiene synthase activity." evidence="9" type="mutagenesis site">
+      <original>E</original>
+      <variation>A</variation>
+      <location>
+        <position position="699"/>
+      </location>
+    </feature>
+    <feature description="Lower substrate binding and strong decrease of abietadiene synthase activity." evidence="9" type="mutagenesis site">
+      <original>S</original>
+      <variation>A</variation>
+      <location>
+        <position position="721"/>
+      </location>
+    </feature>
+    <feature description="Produces pimaradienes instead of abietadienes." evidence="12" type="mutagenesis site">
+      <original>A</original>
+      <variation>S</variation>
+      <location>
+        <position position="723"/>
+      </location>
+    </feature>
+    <feature description="No effect." evidence="14" type="mutagenesis site">
+      <original>V</original>
+      <variation>T</variation>
+      <location>
+        <position position="727"/>
+      </location>
+    </feature>
+    <feature description="No or small effect on substrate binding, but strongly decreases abietadiene synthase activity." evidence="9" type="mutagenesis site">
+      <original>R</original>
+      <variation>A</variation>
+      <location>
+        <position position="762"/>
+      </location>
+    </feature>
+    <feature description="Abolishes the conversion of CPP to abietadiene; produces only sandaracopimaradiene." evidence="9" type="mutagenesis site">
+      <original>N</original>
+      <variation>A</variation>
+      <location>
+        <position position="765"/>
+      </location>
+    </feature>
+    <feature description="No or small effect on substrate binding, but strongly decreases abietadiene synthase activity." evidence="9" type="mutagenesis site">
+      <original>D</original>
+      <variation>A</variation>
+      <location>
+        <position position="766"/>
+      </location>
+    </feature>
+    <feature description="Increased production of neoabietadiene at the expense of both levopimaradiene and abietadiene." evidence="9" type="mutagenesis site">
+      <original>T</original>
+      <variation>A</variation>
+      <location>
+        <position position="769"/>
+      </location>
+    </feature>
+    <feature description="Increased production of neoabietadiene." evidence="9" type="mutagenesis site">
+      <original>E</original>
+      <variation>A</variation>
+      <location>
+        <position position="773"/>
+      </location>
+    </feature>
+    <feature description="No or small effect on substrate binding, but strongly decreases abietadiene synthase activity." evidence="9" type="mutagenesis site">
+      <original>E</original>
+      <variation>A</variation>
+      <location>
+        <position position="778"/>
+      </location>
+    </feature>
+    <feature description="No or small effect on substrate binding, but strongly decreases abietadiene synthase activity." evidence="9" type="mutagenesis site">
+      <original>Y</original>
+      <variation>F</variation>
+      <location>
+        <position position="841"/>
+      </location>
+    </feature>
+    <feature description="No or small effect on substrate binding, but strongly decreases abietadiene synthase activity." evidence="9" type="mutagenesis site">
+      <original>D</original>
+      <variation>A</variation>
+      <location>
+        <position position="845"/>
+      </location>
+    </feature>
+    <feature description="No or small effect on substrate binding, but strongly decreases abietadiene synthase activity." evidence="9" type="mutagenesis site">
+      <original>T</original>
+      <variation>A</variation>
+      <location>
+        <position position="848"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; AAK83563." evidence="17" ref="2" type="sequence conflict">
+      <original>A</original>
+      <variation>T</variation>
+      <location>
+        <position position="23"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; AAK83563." evidence="17" ref="2" type="sequence conflict">
+      <original>F</original>
+      <variation>S</variation>
+      <location>
+        <position position="214"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; AAK83563." evidence="17" ref="2" type="sequence conflict">
+      <original>DWQ</original>
+      <variation>EWE</variation>
+      <location>
+        <begin position="297"/>
+        <end position="299"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; AAK83563." evidence="17" ref="2" type="sequence conflict">
+      <original>V</original>
+      <variation>L</variation>
+      <location>
+        <position position="557"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; AAK83563." evidence="17" ref="2" type="sequence conflict">
+      <original>D</original>
+      <variation>E</variation>
+      <location>
+        <position position="579"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 2; AAK83563." evidence="17" ref="2" type="sequence conflict">
+      <original>Q</original>
+      <variation>K</variation>
+      <location>
+        <position position="653"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="112"/>
+        <end position="129"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="139"/>
+        <end position="145"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="strand">
+      <location>
+        <begin position="155"/>
+        <end position="159"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="160"/>
+        <end position="168"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="strand">
+      <location>
+        <begin position="179"/>
+        <end position="181"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="184"/>
+        <end position="200"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="205"/>
+        <end position="219"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="220"/>
+        <end position="224"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="234"/>
+        <end position="247"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="257"/>
+        <end position="270"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="275"/>
+        <end position="280"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="284"/>
+        <end position="291"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="turn">
+      <location>
+        <begin position="293"/>
+        <end position="295"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="298"/>
+        <end position="302"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="315"/>
+        <end position="325"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="328"/>
+        <end position="341"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="352"/>
+        <end position="365"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="369"/>
+        <end position="372"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="373"/>
+        <end position="384"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="403"/>
+        <end position="415"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="422"/>
+        <end position="428"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="446"/>
+        <end position="456"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="464"/>
+        <end position="480"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="turn">
+      <location>
+        <begin position="481"/>
+        <end position="483"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="strand">
+      <location>
+        <begin position="492"/>
+        <end position="494"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="496"/>
+        <end position="505"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="508"/>
+        <end position="510"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="513"/>
+        <end position="523"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="strand">
+      <location>
+        <begin position="530"/>
+        <end position="536"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="turn">
+      <location>
+        <begin position="539"/>
+        <end position="541"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="544"/>
+        <end position="574"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="turn">
+      <location>
+        <begin position="575"/>
+        <end position="578"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="strand">
+      <location>
+        <begin position="581"/>
+        <end position="583"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="587"/>
+        <end position="597"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="601"/>
+        <end position="603"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="604"/>
+        <end position="624"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="630"/>
+        <end position="642"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="strand">
+      <location>
+        <begin position="644"/>
+        <end position="647"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="648"/>
+        <end position="650"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="653"/>
+        <end position="677"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="682"/>
+        <end position="704"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="711"/>
+        <end position="721"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="724"/>
+        <end position="731"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="strand">
+      <location>
+        <begin position="735"/>
+        <end position="737"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="741"/>
+        <end position="744"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="turn">
+      <location>
+        <begin position="745"/>
+        <end position="747"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="752"/>
+        <end position="776"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="782"/>
+        <end position="789"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="795"/>
+        <end position="819"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="824"/>
+        <end position="840"/>
+      </location>
+    </feature>
+    <feature evidence="18" type="helix">
+      <location>
+        <begin position="851"/>
+        <end position="863"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000250">
+      <source>
+        <dbReference id="C7BKP9" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000250">
+      <source>
+        <dbReference id="Q38802" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000250">
+      <source>
+        <dbReference id="Q40577" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000255"/>
+    <evidence key="6" type="ECO:0000269">
+      <source>
+        <dbReference id="10814381" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000269">
+      <source>
+        <dbReference id="11112547" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000269">
+      <source>
+        <dbReference id="11552804" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0000269">
+      <source>
+        <dbReference id="11805316" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0000269">
+      <source>
+        <dbReference id="11827528" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="11" type="ECO:0000269">
+      <source>
+        <dbReference id="12614165" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="12" type="ECO:0000269">
+      <source>
+        <dbReference id="18052062" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="13" type="ECO:0000269">
+      <source>
+        <dbReference id="20430888" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="14" type="ECO:0000269">
+      <source>
+        <dbReference id="22219188" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="15" type="ECO:0000269">
+      <source>
+        <dbReference id="8798524" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="16" type="ECO:0000269">
+      <source>
+        <dbReference id="9539701" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="17" type="ECO:0000305"/>
+    <evidence key="18" type="ECO:0007744">
+      <source>
+        <dbReference id="3S9V" type="PDB"/>
+      </source>
+    </evidence>
+    <sequence checksum="AD5E79F56B70D25C" length="868" mass="99536" modified="1996-11-01" precursor="true" version="1">MAMPSSSLSSQIPTAAHHLTANAQSIPHFSTTLNAGSSASKRRSLYLRWGKGSNKIIACVGEGGATSVPYQSAEKNDSLSSSTLVKREFPPGFWKDDLIDSLTSSHKVAASDEKRIETLISEIKNMFRCMGYGETNPSAYDTAWVARIPAVDGSDNPHFPETVEWILQNQLKDGSWGEGFYFLAYDRILATLACIITLTLWRTGETQVQKGIEFFRTQAGKMEDEADSHRPSGFEIVFPAMLKEAKILGLDLPYDLPFLKQIIEKREAKLKRIPTDVLYALPTTLLYSLEGLQEIVDWQKIMKLQSKDGSFLSSPASTAAVFMRTGNKKCLDFLNFVLKKFGNHVPCHYPLDLFERLWAVDTVERLGIDRHFKEEIKEALDYVYSHWDERGIGWARENPVPDIDDTAMGLRILRLHGYNVSSDVLKTFRDENGEFFCFLGQTQRGVTDMLNVNRCSHVSFPGETIMEEAKLCTERYLRNALENVDAFDKWAFKKNIRGEVEYALKYPWHKSMPRLEARSYIENYGPDDVWLGKTVYMMPYISNEKYLELAKLDFNKVQSIHQTELQDLRRWWKSSGFTDLNFTRERVTEIYFSPASFIFEPEFSKCREVYTKTSNFTVILDDLYDAHGSLDDLKLFTESVKRWDLSLVDQMPQQMKICFVGFYNTFNDIAKEGRERQGRDVLGYIQNVWKVQLEAYTKEAEWSEAKYVPSFNEYIENASVSIALGTVVLISALFTGEVLTDEVLSKIDRESRFLQLMGLTGRLVNDTKTYQAERGQGEVASAIQCYMKDHPKISEEEALQHVYSVMENALEELNREFVNNKIPDIYKRLVFETARIMQLFYMQGDGLTLSHDMEIKEHVKNCLFQPVA</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

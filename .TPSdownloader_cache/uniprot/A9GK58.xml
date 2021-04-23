@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2020-06-17" dataset="Swiss-Prot" modified="2020-12-02" version="62">
+    <accession>A9GK58</accession>
+    <name>ECUBS_SORC5</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="3">10-epi-cubebol synthase</fullName>
+        <ecNumber evidence="2">4.2.3.175</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name evidence="5" type="ordered locus">sce6369</name>
+    </gene>
+    <organism>
+      <name type="scientific">Sorangium cellulosum (strain So ce56)</name>
+      <name type="synonym">Polyangium cellulosum (strain So ce56)</name>
+      <dbReference id="448385" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Bacteria</taxon>
+        <taxon>Proteobacteria</taxon>
+        <taxon>Deltaproteobacteria</taxon>
+        <taxon>Myxococcales</taxon>
+        <taxon>Sorangiineae</taxon>
+        <taxon>Polyangiaceae</taxon>
+        <taxon>Sorangium</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2007" first="1281" last="1289" name="Nat. Biotechnol." type="journal article" volume="25">
+        <title>Complete genome sequence of the myxobacterium Sorangium cellulosum.</title>
+        <authorList>
+          <person name="Schneiker S."/>
+          <person name="Perlova O."/>
+          <person name="Kaiser O."/>
+          <person name="Gerth K."/>
+          <person name="Alici A."/>
+          <person name="Altmeyer M.O."/>
+          <person name="Bartels D."/>
+          <person name="Bekel T."/>
+          <person name="Beyer S."/>
+          <person name="Bode E."/>
+          <person name="Bode H.B."/>
+          <person name="Bolten C.J."/>
+          <person name="Choudhuri J.V."/>
+          <person name="Doss S."/>
+          <person name="Elnakady Y.A."/>
+          <person name="Frank B."/>
+          <person name="Gaigalat L."/>
+          <person name="Goesmann A."/>
+          <person name="Groeger C."/>
+          <person name="Gross F."/>
+          <person name="Jelsbak L."/>
+          <person name="Jelsbak L."/>
+          <person name="Kalinowski J."/>
+          <person name="Kegler C."/>
+          <person name="Knauber T."/>
+          <person name="Konietzny S."/>
+          <person name="Kopp M."/>
+          <person name="Krause L."/>
+          <person name="Krug D."/>
+          <person name="Linke B."/>
+          <person name="Mahmud T."/>
+          <person name="Martinez-Arias R."/>
+          <person name="McHardy A.C."/>
+          <person name="Merai M."/>
+          <person name="Meyer F."/>
+          <person name="Mormann S."/>
+          <person name="Munoz-Dorado J."/>
+          <person name="Perez J."/>
+          <person name="Pradella S."/>
+          <person name="Rachid S."/>
+          <person name="Raddatz G."/>
+          <person name="Rosenau F."/>
+          <person name="Rueckert C."/>
+          <person name="Sasse F."/>
+          <person name="Scharfe M."/>
+          <person name="Schuster S.C."/>
+          <person name="Suen G."/>
+          <person name="Treuner-Lange A."/>
+          <person name="Velicer G.J."/>
+          <person name="Vorholter F.-J."/>
+          <person name="Weissman K.J."/>
+          <person name="Welch R.D."/>
+          <person name="Wenzel S.C."/>
+          <person name="Whitworth D.E."/>
+          <person name="Wilhelm S."/>
+          <person name="Wittmann C."/>
+          <person name="Bloecker H."/>
+          <person name="Puehler A."/>
+          <person name="Mueller R."/>
+        </authorList>
+        <dbReference id="17965706" type="PubMed"/>
+        <dbReference id="10.1038/nbt1354" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>So ce56</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2016" first="3385" last="3393" name="Org. Biomol. Chem." type="journal article" volume="14">
+        <title>A single terpene synthase is responsible for a wide variety of sesquiterpenes in Sorangium cellulosum Soce56.</title>
+        <authorList>
+          <person name="Schifrin A."/>
+          <person name="Khatri Y."/>
+          <person name="Kirsch P."/>
+          <person name="Thiel V."/>
+          <person name="Schulz S."/>
+          <person name="Bernhardt R."/>
+        </authorList>
+        <dbReference id="26947062" type="PubMed"/>
+        <dbReference id="10.1039/c6ob00130k" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <source>
+        <strain>So ce56</strain>
+      </source>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Catalyzes the cyclization of farnesyl diphosphate (FPP) to 10-epi-cubebol. Is also responsible for the formation of many other sesquiterpenes, mainly cadalanes and cubebanes, including 1,10-di-epi-cubebol and the cadalanes delta-cadinene, T-cadinol and alpha-cadinol.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate + H2O = 10-epi-cubebol + diphosphate</text>
+        <dbReference id="RHEA:54064" type="Rhea"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:138045" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.175" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="4">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="2" id="4.2.3.175" type="EC"/>
+    <dbReference id="AM746676" type="EMBL">
+      <property type="protein sequence ID" value="CAN96536.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="A9GK58" type="SMR"/>
+    <dbReference id="448385.sce6369" type="STRING"/>
+    <dbReference id="CAN96536" type="EnsemblBacteria">
+      <property type="protein sequence ID" value="CAN96536"/>
+      <property type="gene ID" value="sce6369"/>
+    </dbReference>
+    <dbReference id="scl:sce6369" type="KEGG"/>
+    <dbReference id="COG0664" type="eggNOG">
+      <property type="taxonomic scope" value="Bacteria"/>
+    </dbReference>
+    <dbReference id="CLU_042538_2_1_7" type="HOGENOM"/>
+    <dbReference id="EWLLSMA" type="OMA"/>
+    <dbReference id="UP000002139" type="Proteomes">
+      <property type="component" value="Chromosome"/>
+    </dbReference>
+    <dbReference id="GO:0016829" type="GO">
+      <property type="term" value="F:lyase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034686" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_2"/>
+    </dbReference>
+    <dbReference id="SFLDG01020" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="10-epi-cubebol synthase" id="PRO_0000449804" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="315"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="1" type="short sequence motif">
+      <location>
+        <begin position="79"/>
+        <end position="83"/>
+      </location>
+    </feature>
+    <feature description="NXXXSXXXE motif" evidence="1" type="short sequence motif">
+      <location>
+        <begin position="220"/>
+        <end position="228"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="79"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="79"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="220"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="224"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="228"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="B5GMG2" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="26947062" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000303">
+      <source>
+        <dbReference id="26947062" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000305"/>
+    <evidence key="5" type="ECO:0000312">
+      <source>
+        <dbReference id="CAN96536.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="C63F19BE4DAFA14C" length="315" mass="36142" modified="2008-02-05" version="1">MHRALLCPFPATTPHPQAAQLANDCLEWTRKCGLLPDESPRTLDKVRSYSALAAHCYPDAHFERLRAICDYYSWLFFFDDVCENTSLNGAEPKVVSSLLFDVYGVLRGPTAAVGHAPFAQALADIWRRIGDGCPGFWRRRLIRHVENYIDGCVWEAQNRQLDRVPSRAVFEGMRMHTSTMYEFWDFIEYAGDLFLPDEVVEHPLVAEVRRAGNAIASFANDIYSLRKETSNRDVHNLVVVLMHEERIELEAAYARAAGIHDAQVEHFLDLVKHLPTFSATIDRNLARYVEGIRIWIRANHDWSIVTPRYNEPDAR</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

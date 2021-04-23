@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2020-04-22" modified="2021-04-07" version="24">
+<accession>A0A075FAK4</accession>
+<name>CPS1_MARVU</name>
+<protein>
+<recommendedName>
+<fullName evidence="5">Peregrinol diphosphate synthase CPS1, chloroplastic</fullName>
+<ecNumber evidence="4">4.2.1.174</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="5">(+)-copalyl diphosphate synthase 1</fullName>
+<shortName evidence="5">MvCPS1</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="5">CPS1</name>
+</gene>
+<organism>
+<name type="scientific">Marrubium vulgare</name>
+<name type="common">White horehound</name>
+<dbReference type="NCBI Taxonomy" id="41230"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>lamiids</taxon>
+<taxon>Lamiales</taxon>
+<taxon>Lamiaceae</taxon>
+<taxon>Lamioideae</taxon>
+<taxon>Marrubieae</taxon>
+<taxon>Marrubium</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2014" name="Plant J." volume="79" first="914" last="927">
+<title>Diterpene synthases of the biosynthetic system of medicinally active diterpenoids in Marrubium vulgare.</title>
+<authorList>
+<person name="Zerbe P."/>
+<person name="Chiang A."/>
+<person name="Dullat H."/>
+<person name="O'Neil-Johnson M."/>
+<person name="Starks C."/>
+<person name="Hamberger B."/>
+<person name="Bohlmann J."/>
+</authorList>
+<dbReference type="PubMed" id="24990389"/>
+<dbReference type="DOI" id="10.1111/tpj.12589"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>PATHWAY</scope>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<comment type="function">
+<text evidence="4 7">Involved in the biosynthesis of labdane-type diterpenoid including marrubiin and other labdane-related furanoid diterpenoids with potential applications as anti-diabetics, analgesics or vasorelaxants (Probable). Terpene synthase that produces peregrinol diphosphate from geranylgeranyl diphosphate (GGPP) (PubMed:24990389).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="4">
+<text>peregrinol diphosphate = (2E,6E,10E)-geranylgeranyl diphosphate + H2O</text>
+<dbReference type="Rhea" id="RHEA:54652"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:58756"/>
+<dbReference type="ChEBI" id="CHEBI:138232"/>
+<dbReference type="EC" id="4.2.1.174"/>
+</reaction>
+<physiologicalReaction direction="right-to-left" evidence="4">
+<dbReference type="Rhea" id="RHEA:54654"/>
+</physiologicalReaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="2">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="pathway" evidence="7">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Plastid</location>
+<location evidence="3">Chloroplast</location>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="4">Present in both leaves and flowers, with higher levels in leaves.</text>
+</comment>
+<comment type="domain">
+<text evidence="6">The Asp-Xaa-Asp-Asp (DXDD) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.1.174" evidence="4"/>
+<dbReference type="EMBL" id="KJ584450">
+<property type="protein sequence ID" value="AIE77090.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="A0A075FAK4"/>
+<dbReference type="KEGG" id="ag:AIE77090"/>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="GO" id="GO:0009507">
+<property type="term" value="C:chloroplast"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0106238">
+<property type="term" value="F:peregrinol diphosphate synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0150">Chloroplast</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0934">Plastid</keyword>
+<keyword id="KW-0809">Transit peptide</keyword>
+<feature type="transit peptide" description="Chloroplast" evidence="3">
+<location>
+<begin position="1"/>
+<end position="17"/>
+</location>
+</feature>
+<feature type="chain" description="Peregrinol diphosphate synthase CPS1, chloroplastic" id="PRO_0000449301">
+<location>
+<begin position="18"/>
+<end position="776"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DXDD motif" evidence="6">
+<location>
+<begin position="371"/>
+<end position="374"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="371"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="373"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="2">
+<location>
+<position position="238"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="2">
+<location>
+<position position="457"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="C7BKP9"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q38802"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="24990389"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="24990389"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<evidence key="7" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="24990389"/>
+</source>
+</evidence>
+<sequence length="776" mass="89510" checksum="E4A70BB7C56C505E" modified="2014-10-29" version="1" precursor="true">MASTPTLNLSITTPFVRTKIPAKISLPACSWLDRSSSRHVELNHKFCRKLELKVAMCRASLDVQQVRDEVYSNAQPHELVDKKIEERVKYVKNLLSTMDDGRINWSAYDTAWISLIKDFEGRDCPQFPSTLERIAENQLPDGSWGDKDFDCSYDRIINTLACVVALTTWNVHPEINQKGIRYLKENMRKLEETPTVLMTCAFEVVFPALLKKARNLGIHDLPYDMPIVKEICKIGDEKLARIPKKMMEKETTSLMYAAEGVENLDWERLLKLRTPENGSFLSSPAATVVAFMHTKDEDCLRYIKYLLNKFNGGAPNVYPVDLWSRLWATDRLQRLGISRYFESEIKDLLSYVHSYWTDIGVYCTRDSKYADIDDTSMGFRLLRVQGYNMDANVFKYFQKDDKFVCLGGQMNGSATATYNLYRAAQYQFPGEQILEDARKFSQQFLQESIDTNNLLDKWVISPHIPEEMRFGMEMTWYSCLPRIEASYYLQHYGATEDVWLGKTFFRMEEISNENYRELAILDFSKCQAQHQTEWIHMQEWYESNNVKEFGISRKDLLFAYFLAAASIFETERAKERILWARSKIICKMVKSFLEKETGSLEHKIAFLTGSGDKGNGPVNNAMATLHQLLGEFDGYISIQLENAWAAWLTKLEQGEANDGELLATTINICGGRVNQDTLSHNEYKALSDLTNKICHNLAQIQNDKGDEIKDSKRSERDKEVEQDMQALAKLVFEESDLERSIKQTFLAVVRTYYYGAYIAAEKIDVHMFKVLFKPVG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

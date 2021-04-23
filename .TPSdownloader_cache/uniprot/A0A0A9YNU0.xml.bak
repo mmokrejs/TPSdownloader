@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-03-04" modified="2019-12-11" version="3">
+<accession>A0A0A9YNU0</accession>
+<name>A0A0A9YNU0_LYGHE</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Isomultiflorenol synthase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="1">IMS1</name>
+<name type="ORF" evidence="1">CM83_83440</name>
+</gene>
+<organism evidence="1">
+<name type="scientific">Lygus hesperus</name>
+<name type="common">Western plant bug</name>
+<dbReference type="NCBI Taxonomy" id="30085"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Paraneoptera</taxon>
+<taxon>Hemiptera</taxon>
+<taxon>Heteroptera</taxon>
+<taxon>Panheteroptera</taxon>
+<taxon>Cimicomorpha</taxon>
+<taxon>Miridae</taxon>
+<taxon>Mirini</taxon>
+<taxon>Lygus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1">
+<citation type="journal article" date="2014" name="PLoS ONE" volume="9" first="E113046" last="E113046">
+<title>Transcriptome-Based Identification of ABC Transporters in the Western Tarnished Plant Bug Lygus hesperus.</title>
+<authorList>
+<person name="Hull J.J."/>
+<person name="Chaney K."/>
+<person name="Geib S.M."/>
+<person name="Fabrick J.A."/>
+<person name="Brent C.S."/>
+<person name="Walsh D."/>
+<person name="Lavine L.C."/>
+</authorList>
+<dbReference type="PubMed" id="25401762"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="2" evidence="1">
+<citation type="submission" date="2014-07" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Hull J."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="GBHO01010303">
+<property type="protein sequence ID" value="JAG33301.1"/>
+<property type="molecule type" value="Transcribed_RNA"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="non-terminal residue" evidence="1">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAG33301.1"/>
+</source>
+</evidence>
+<sequence length="264" mass="30716" checksum="DDF1842D35A72DDA" modified="2015-03-04" version="1" fragment="single">KKSSHIESSIRSLVKQVKTFDAISTTSALAPTQSTVKIVKESICPKYWEGDSCDKTCKKKHKINCDEFPSVTVDDVFQAVSVRLIELERPQLEMVSSLIEWLADHNEIIKIFSFSKILLSEKGLNLCTTLCGLFIKHLAKMYNSEQVSMVEFLLKFHYFMVRKNPLTVKTVMNKLIFYSQVGTYRLKVYNIVRFLLDVDDYSLPFVILDKLLYEVINNPPTDINVAKDRIKRHLKSFEKVEDVDFRARAYKFLRTYFPETTDEK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

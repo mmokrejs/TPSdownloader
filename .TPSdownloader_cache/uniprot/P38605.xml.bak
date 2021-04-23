@@ -1,0 +1,659 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1994-10-01" modified="2021-04-07" version="146">
+<accession>P38605</accession>
+<accession>P92967</accession>
+<name>CAS1_ARATH</name>
+<protein>
+<recommendedName>
+<fullName>Cycloartenol synthase</fullName>
+<shortName>AtCYC</shortName>
+<ecNumber>5.4.99.8</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>2,3-epoxysqualene--cycloartenol cyclase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">CAS1</name>
+<name type="synonym">CYC</name>
+<name type="ordered locus">At2g07050</name>
+<name type="ORF">T4E14.16</name>
+</gene>
+<organism>
+<name type="scientific">Arabidopsis thaliana</name>
+<name type="common">Mouse-ear cress</name>
+<dbReference type="NCBI Taxonomy" id="3702"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>malvids</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+<taxon>Camelineae</taxon>
+<taxon>Arabidopsis</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1993" name="Proc. Natl. Acad. Sci. U.S.A." volume="90" first="11628" last="11632">
+<title>Isolation of an Arabidopsis thaliana gene encoding cycloartenol synthase by functional expression in a yeast mutant lacking lanosterol synthase by the use of a chromatographic screen.</title>
+<authorList>
+<person name="Corey E.J."/>
+<person name="Matsuda S.P.T."/>
+<person name="Bartel B."/>
+</authorList>
+<dbReference type="PubMed" id="7505443"/>
+<dbReference type="DOI" id="10.1073/pnas.90.24.11628"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<source>
+<strain>cv. Landsberg erecta</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1999" name="Nature" volume="402" first="761" last="768">
+<title>Sequence and analysis of chromosome 2 of the plant Arabidopsis thaliana.</title>
+<authorList>
+<person name="Lin X."/>
+<person name="Kaul S."/>
+<person name="Rounsley S.D."/>
+<person name="Shea T.P."/>
+<person name="Benito M.-I."/>
+<person name="Town C.D."/>
+<person name="Fujii C.Y."/>
+<person name="Mason T.M."/>
+<person name="Bowman C.L."/>
+<person name="Barnstead M.E."/>
+<person name="Feldblyum T.V."/>
+<person name="Buell C.R."/>
+<person name="Ketchum K.A."/>
+<person name="Lee J.J."/>
+<person name="Ronning C.M."/>
+<person name="Koo H.L."/>
+<person name="Moffat K.S."/>
+<person name="Cronin L.A."/>
+<person name="Shen M."/>
+<person name="Pai G."/>
+<person name="Van Aken S."/>
+<person name="Umayam L."/>
+<person name="Tallon L.J."/>
+<person name="Gill J.E."/>
+<person name="Adams M.D."/>
+<person name="Carrera A.J."/>
+<person name="Creasy T.H."/>
+<person name="Goodman H.M."/>
+<person name="Somerville C.R."/>
+<person name="Copenhaver G.P."/>
+<person name="Preuss D."/>
+<person name="Nierman W.C."/>
+<person name="White O."/>
+<person name="Eisen J.A."/>
+<person name="Salzberg S.L."/>
+<person name="Fraser C.M."/>
+<person name="Venter J.C."/>
+</authorList>
+<dbReference type="PubMed" id="10617197"/>
+<dbReference type="DOI" id="10.1038/45471"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>cv. Columbia</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2017" name="Plant J." volume="89" first="789" last="804">
+<title>Araport11: a complete reannotation of the Arabidopsis thaliana reference genome.</title>
+<authorList>
+<person name="Cheng C.Y."/>
+<person name="Krishnakumar V."/>
+<person name="Chan A.P."/>
+<person name="Thibaud-Nissen F."/>
+<person name="Schobel S."/>
+<person name="Town C.D."/>
+</authorList>
+<dbReference type="PubMed" id="27862469"/>
+<dbReference type="DOI" id="10.1111/tpj.13415"/>
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain>cv. Columbia</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2003" name="Science" volume="302" first="842" last="846">
+<title>Empirical analysis of transcriptional activity in the Arabidopsis genome.</title>
+<authorList>
+<person name="Yamada K."/>
+<person name="Lim J."/>
+<person name="Dale J.M."/>
+<person name="Chen H."/>
+<person name="Shinn P."/>
+<person name="Palm C.J."/>
+<person name="Southwick A.M."/>
+<person name="Wu H.C."/>
+<person name="Kim C.J."/>
+<person name="Nguyen M."/>
+<person name="Pham P.K."/>
+<person name="Cheuk R.F."/>
+<person name="Karlin-Newmann G."/>
+<person name="Liu S.X."/>
+<person name="Lam B."/>
+<person name="Sakano H."/>
+<person name="Wu T."/>
+<person name="Yu G."/>
+<person name="Miranda M."/>
+<person name="Quach H.L."/>
+<person name="Tripp M."/>
+<person name="Chang C.H."/>
+<person name="Lee J.M."/>
+<person name="Toriumi M.J."/>
+<person name="Chan M.M."/>
+<person name="Tang C.C."/>
+<person name="Onodera C.S."/>
+<person name="Deng J.M."/>
+<person name="Akiyama K."/>
+<person name="Ansari Y."/>
+<person name="Arakawa T."/>
+<person name="Banh J."/>
+<person name="Banno F."/>
+<person name="Bowser L."/>
+<person name="Brooks S.Y."/>
+<person name="Carninci P."/>
+<person name="Chao Q."/>
+<person name="Choy N."/>
+<person name="Enju A."/>
+<person name="Goldsmith A.D."/>
+<person name="Gurjal M."/>
+<person name="Hansen N.F."/>
+<person name="Hayashizaki Y."/>
+<person name="Johnson-Hopson C."/>
+<person name="Hsuan V.W."/>
+<person name="Iida K."/>
+<person name="Karnes M."/>
+<person name="Khan S."/>
+<person name="Koesema E."/>
+<person name="Ishida J."/>
+<person name="Jiang P.X."/>
+<person name="Jones T."/>
+<person name="Kawai J."/>
+<person name="Kamiya A."/>
+<person name="Meyers C."/>
+<person name="Nakajima M."/>
+<person name="Narusaka M."/>
+<person name="Seki M."/>
+<person name="Sakurai T."/>
+<person name="Satou M."/>
+<person name="Tamse R."/>
+<person name="Vaysberg M."/>
+<person name="Wallender E.K."/>
+<person name="Wong C."/>
+<person name="Yamamura Y."/>
+<person name="Yuan S."/>
+<person name="Shinozaki K."/>
+<person name="Davis R.W."/>
+<person name="Theologis A."/>
+<person name="Ecker J.R."/>
+</authorList>
+<dbReference type="PubMed" id="14593172"/>
+<dbReference type="DOI" id="10.1126/science.1088305"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<strain>cv. Columbia</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2000" name="J. Am. Chem. Soc." volume="122" first="6765" last="6766">
+<title>A tyrosine-to-threonine mutation converts cycloartenol synthase to an oxidosqualene cyclase that forms lanosterol as its major product.</title>
+<authorList>
+<person name="Herrera J.B.R."/>
+<person name="Wilson W.K."/>
+<person name="Matsuda S.P.T."/>
+</authorList>
+<dbReference type="DOI" id="10.1021/ja0013226"/>
+</citation>
+<scope>MUTAGENESIS OF TYR-410 AND ILE-481</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2001" name="Plant Mol. Biol." volume="45" first="75" last="92">
+<title>Molecular cloning and expression in yeast of 2,3-oxidosqualene-triterpenoid cyclases from Arabidopsis thaliana.</title>
+<authorList>
+<person name="Husselstein-Muller T."/>
+<person name="Schaller H."/>
+<person name="Benveniste P."/>
+</authorList>
+<dbReference type="PubMed" id="11247608"/>
+<dbReference type="DOI" id="10.1023/a:1006476123930"/>
+</citation>
+<scope>NOMENCLATURE</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2002" name="Org. Lett." volume="4" first="4459" last="4462">
+<title>Directed evolution experiments reveal mutations at cycloartenol synthase residue His477 that dramatically alter catalysis.</title>
+<authorList>
+<person name="Segura M.J.R."/>
+<person name="Lodeiro S."/>
+<person name="Meyer M.M."/>
+<person name="Patel A.J."/>
+<person name="Matsuda S.P.T."/>
+</authorList>
+<dbReference type="PubMed" id="12465912"/>
+<dbReference type="DOI" id="10.1021/ol0269897"/>
+</citation>
+<scope>MUTAGENESIS OF HIS-477</scope>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2002" name="Biochemistry" volume="41" first="8238" last="8244">
+<title>Conversion of a plant oxidosqualene-cycloartenol synthase to an oxidosqualene-lanosterol cyclase by random mutagenesis.</title>
+<authorList>
+<person name="Wu T.-K."/>
+<person name="Griffin J.H."/>
+</authorList>
+<dbReference type="PubMed" id="12081472"/>
+<dbReference type="DOI" id="10.1021/bi0200920"/>
+</citation>
+<scope>MUTAGENESIS OF TYR-410; ALA-469; HIS-477; ILE-481 AND TYR-532</scope>
+</reference>
+<reference key="9">
+<citation type="journal article" date="2004" name="ChemBioChem" volume="5" first="1581" last="1585">
+<title>Oxidosqualene cyclase second-sphere residues profoundly influence the product profile.</title>
+<authorList>
+<person name="Lodeiro S."/>
+<person name="Segura M.J.R."/>
+<person name="Stahl M."/>
+<person name="Schulz-Gasch T."/>
+<person name="Matsuda S.P.T."/>
+</authorList>
+<dbReference type="PubMed" id="15515077"/>
+<dbReference type="DOI" id="10.1002/cbic.200400086"/>
+</citation>
+<scope>MUTAGENESIS OF TYR-410; HIS-477 AND ILE-481</scope>
+</reference>
+<reference key="10">
+<citation type="journal article" date="2006" name="Plant Cell Physiol." volume="47" first="565" last="571">
+<title>Lanosterol synthase in dicotyledonous plants.</title>
+<authorList>
+<person name="Suzuki M."/>
+<person name="Xiang T."/>
+<person name="Ohyama K."/>
+<person name="Seki H."/>
+<person name="Saito K."/>
+<person name="Muranaka T."/>
+<person name="Hayashi H."/>
+<person name="Katsube Y."/>
+<person name="Kushiro T."/>
+<person name="Shibuya M."/>
+<person name="Ebizuka Y."/>
+</authorList>
+<dbReference type="PubMed" id="16531458"/>
+<dbReference type="DOI" id="10.1093/pcp/pcj031"/>
+</citation>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<reference key="11">
+<citation type="journal article" date="2008" name="Proc. Natl. Acad. Sci. U.S.A." volume="105" first="3163" last="3168">
+<title>Allelic mutant series reveal distinct functions for Arabidopsis cycloartenol synthase 1 in cell viability and plastid biogenesis.</title>
+<authorList>
+<person name="Babiychuk E."/>
+<person name="Bouvier-Nave P."/>
+<person name="Compagnon V."/>
+<person name="Suzuki M."/>
+<person name="Muranaka T."/>
+<person name="Van Montagu M."/>
+<person name="Kushnir S."/>
+<person name="Schaller H."/>
+</authorList>
+<dbReference type="PubMed" id="18287026"/>
+<dbReference type="DOI" id="10.1073/pnas.0712190105"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+</reference>
+<comment type="function">
+<text evidence="6">Converts oxidosqualene to cycloartenol and 1% parkeol. Involved in plastid biogenesis. Essential for the male gametophyte function.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>(S)-2,3-epoxysqualene = cycloartenol</text>
+<dbReference type="Rhea" id="RHEA:21308"/>
+<dbReference type="ChEBI" id="CHEBI:15441"/>
+<dbReference type="ChEBI" id="CHEBI:17030"/>
+<dbReference type="EC" id="5.4.99.8"/>
+</reaction>
+</comment>
+<comment type="tissue specificity">
+<text evidence="5">Expressed in roots, stems, leaves, inflorescences and siliques.</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="6">Albino phenotype leading to lethality.</text>
+</comment>
+<comment type="similarity">
+<text evidence="8">Belongs to the terpene cyclase/mutase family.</text>
+</comment>
+<dbReference type="EC" id="5.4.99.8"/>
+<dbReference type="EMBL" id="U02555">
+<property type="protein sequence ID" value="AAC04931.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AC005171">
+<property type="protein sequence ID" value="AAM15015.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CP002685">
+<property type="protein sequence ID" value="AEC06032.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY094394">
+<property type="protein sequence ID" value="AAM19773.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BT001118">
+<property type="protein sequence ID" value="AAN64509.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="PIR" id="A49398">
+<property type="entry name" value="A49398"/>
+</dbReference>
+<dbReference type="PIR" id="H84481">
+<property type="entry name" value="H84481"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_178722.1">
+<property type="nucleotide sequence ID" value="NM_126681.3"/>
+</dbReference>
+<dbReference type="SMR" id="P38605"/>
+<dbReference type="STRING" id="3702.AT2G07050.1"/>
+<dbReference type="BindingDB" id="P38605"/>
+<dbReference type="ChEMBL" id="CHEMBL5356"/>
+<dbReference type="iPTMnet" id="P38605"/>
+<dbReference type="PaxDb" id="P38605"/>
+<dbReference type="PRIDE" id="P38605"/>
+<dbReference type="ProteomicsDB" id="223909"/>
+<dbReference type="EnsemblPlants" id="AT2G07050.1">
+<property type="protein sequence ID" value="AT2G07050.1"/>
+<property type="gene ID" value="AT2G07050"/>
+</dbReference>
+<dbReference type="GeneID" id="815275"/>
+<dbReference type="Gramene" id="AT2G07050.1">
+<property type="protein sequence ID" value="AT2G07050.1"/>
+<property type="gene ID" value="AT2G07050"/>
+</dbReference>
+<dbReference type="KEGG" id="ath:AT2G07050"/>
+<dbReference type="Araport" id="AT2G07050"/>
+<dbReference type="TAIR" id="locus:2060121">
+<property type="gene designation" value="AT2G07050"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG0497">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_009074_2_0_1"/>
+<dbReference type="InParanoid" id="P38605"/>
+<dbReference type="OrthoDB" id="365003at2759"/>
+<dbReference type="PhylomeDB" id="P38605"/>
+<dbReference type="BioCyc" id="ARA:AT2G07050-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:AT2G07050-MONOMER"/>
+<dbReference type="BRENDA" id="5.4.99.8">
+<property type="organism ID" value="399"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P38605"/>
+<dbReference type="Proteomes" id="UP000006548">
+<property type="component" value="Chromosome 2"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="P38605">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="P38605">
+<property type="organism ID" value="AT"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005811">
+<property type="term" value="C:lipid droplet"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005739">
+<property type="term" value="C:mitochondrion"/>
+<property type="evidence" value="ECO:0007005"/>
+<property type="project" value="TAIR"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005773">
+<property type="term" value="C:vacuole"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="TAIR"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042300">
+<property type="term" value="F:beta-amyrin synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016871">
+<property type="term" value="F:cycloartenol synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="TAIR"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000250">
+<property type="term" value="F:lanosterol synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019745">
+<property type="term" value="P:pentacyclic triterpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="TAIR"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009555">
+<property type="term" value="P:pollen development"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="TAIR"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010027">
+<property type="term" value="P:thylakoid membrane organization"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="TAIR"/>
+</dbReference>
+<dbReference type="CDD" id="cd02892">
+<property type="entry name" value="SQCY_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032696">
+<property type="entry name" value="SQ_cyclase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032697">
+<property type="entry name" value="SQ_cyclase_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018333">
+<property type="entry name" value="Squalene_cyclase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002365">
+<property type="entry name" value="Terpene_synthase_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13243">
+<property type="entry name" value="SQHop_cyclase_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13249">
+<property type="entry name" value="SQHop_cyclase_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01016">
+<property type="entry name" value="Prenyltransferase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01787">
+<property type="entry name" value="squalene_cyclas"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01074">
+<property type="entry name" value="TERPENE_SYNTHASES"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0413">Isomerase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<feature type="chain" description="Cycloartenol synthase" id="PRO_0000072662">
+<location>
+<begin position="1"/>
+<end position="759"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 1">
+<location>
+<begin position="147"/>
+<end position="188"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 2">
+<location>
+<begin position="512"/>
+<end position="557"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 3">
+<location>
+<begin position="589"/>
+<end position="629"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 4">
+<location>
+<begin position="638"/>
+<end position="679"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 5">
+<location>
+<begin position="700"/>
+<end position="741"/>
+</location>
+</feature>
+<feature type="active site" description="Proton donor" evidence="1">
+<location>
+<position position="483"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Produces lanosterol instead of cycloartenol." evidence="2 4 7">
+<original>Y</original>
+<variation>C</variation>
+<location>
+<position position="410"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Produces 65% lanosterol, 2% parkeol and 33% 9beta-delta7-lanosterol instead of cycloartenol. Produces 75% lanosterol, 0.6% parkeol and 24% 9beta-delta7-lanosterol instead of cycloartenol; when associated with V-481. Produces 75% lanosterol and 24% 9beta-delta7-lanosterol instead of cycloartenol; when associated with N-477 or Q-477 and V-481." evidence="2 4 7">
+<original>Y</original>
+<variation>T</variation>
+<location>
+<position position="410"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Produces lanosterol and achilleol A instead of cycloartenol." evidence="2">
+<original>A</original>
+<variation>V</variation>
+<location>
+<position position="469"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Produces 88% lanosterol and 12% parkeol instead of cycloartenol. Produces 75% lanosterol and 24% 9beta-delta7-lanosterol instead of cycloartenol; when associated with T-410 and V-481." evidence="2 3 4">
+<original>H</original>
+<variation>N</variation>
+<location>
+<position position="477"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Produces 22% lanosterol, 73% parkeol and 5% 9beta-delta7-lanosterol instead of cycloartenol. Produces 75% lanosterol and 24% 9beta-delta7-lanosterol instead of cycloartenol; when associated with T-410 and V-481." evidence="2 3 4">
+<original>H</original>
+<variation>Q</variation>
+<location>
+<position position="477"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Produces lanosterol instead of cycloartenol." evidence="2 3 4">
+<original>H</original>
+<variation>Y</variation>
+<location>
+<position position="477"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Produces lanosterol and achilleol A instead of cycloartenol." evidence="2 4 7">
+<original>I</original>
+<variation>T</variation>
+<location>
+<position position="481"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Produces 24% lanosterol, 20% parkeol and 56% cycloartenol. Produces 75% lanosterol, 0.6% parkeol and 24% 9beta-delta7-lanosterol instead of cycloartenol; when associated with T-410." evidence="2 4 7">
+<original>I</original>
+<variation>V</variation>
+<location>
+<position position="481"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Produces lanosterol and achilleol A instead of cycloartenol." evidence="2">
+<original>Y</original>
+<variation>H</variation>
+<location>
+<position position="532"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAC04931." ref="1" evidence="8">
+<original>A</original>
+<variation>E</variation>
+<location>
+<position position="501"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P48449"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12081472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12465912"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15515077"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16531458"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18287026"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source ref="5"/>
+</evidence>
+<evidence key="8" type="ECO:0000305"/>
+<sequence length="759" mass="86033" checksum="DBA75CC57BB1F74D" modified="2002-06-20" version="2">MWKLKIAEGGSPWLRTTNNHVGRQFWEFDPNLGTPEDLAAVEEARKSFSDNRFVQKHSADLLMRLQFSRENLISPVLPQVKIEDTDDVTEEMVETTLKRGLDFYSTIQAHDGHWPGDYGGPMFLLPGLIITLSITGALNTVLSEQHKQEMRRYLYNHQNEDGGWGLHIEGPSTMFGSVLNYVTLRLLGEGPNDGDGDMEKGRDWILNHGGATNITSWGKMWLSVLGAFEWSGNNPLPPEIWLLPYFLPIHPGRMWCHCRMVYLPMSYLYGKRFVGPITSTVLSLRKELFTVPYHEVNWNEARNLCAKEDLYYPHPLVQDILWASLHKIVEPVLMRWPGANLREKAIRTAIEHIHYEDENTRYICIGPVNKVLNMLCCWVEDPNSEAFKLHLPRIHDFLWLAEDGMKMQGYNGSQLWDTGFAIQAILATNLVEEYGPVLEKAHSFVKNSQVLEDCPGDLNYWYRHISKGAWPFSTADHGWPISDCTAEGLKAALLLSKVPKAIVGEPIDAKRLYEAVNVIISLQNADGGLATYELTRSYPWLELINPAETFGDIVIDYPYVECTSAAIQALISFRKLYPGHRKKEVDECIEKAVKFIESIQAADGSWYGSWAVCFTYGTWFGVKGLVAVGKTLKNSPHVAKACEFLLSKQQPSGGWGESYLSCQDKVYSNLDGNRSHVVNTAWAMLALIGAGQAEVDRKPLHRAARYLINAQMENGDFPQQEIMGVFNRNCMITYAAYRNIFPIWALGEYRCQVLLQQGE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

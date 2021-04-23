@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:63459</ID>
+<NAME>shionone</NAME>
+<DEFINITION>A tetracyclic triterpenoid that is perhydrochrysene which is substituted by methyl groups at positions 1, 4bβ, 6aα, 8β, 10aβ and 12a positions, by a 4-methylpent-3-enyl group at the 8α position, and with an oxo group at position 2.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>shionone</SYNONYM>
+<SYNONYM>D:A-friedo-18,19-secolup-19-en-3-one</SYNONYM>
+<IUPAC_NAME>(1R,4aS,4bS,6aS,8R,10aR,10bS,12aS)-1,4b,6a,8,10a,12a-hexamethyl-8-(4-methylpent-3-en-1-yl)hexadecahydrochrysen-2(1H)-one</IUPAC_NAME>
+<FORMULA>C30H50O</FORMULA>
+<MASS>426.71740</MASS>
+<MONOISOTOPIC_MASS>426.38617</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@@]12CCC(=O)[C@H](C)[C@@]1(C)CC[C@@]1([H])[C@@]2(C)CC[C@@]2(C)C[C@](C)(CCC=C(C)C)CC[C@]12C</SMILES>
+<INCHI>InChI=1S/C30H50O/c1-21(2)10-9-14-26(4)16-19-30(8)25-13-15-28(6)22(3)23(31)11-12-24(28)29(25,7)18-17-27(30,5)20-26/h10,22,24-25H,9,11-20H2,1-8H3/t22-,24+,25-,26+,27-,28+,29-,30+/m0/s1</INCHI>
+<INCHIKEY>HXPXUNQUXCHJLL-LZQQOHPBSA-N</INCHIKEY>
+<CAS_REGISTRY_NUMBER>10376-48-4</CAS_REGISTRY_NUMBER>
+<CHEMIDPLUS>10376-48-4</CHEMIDPLUS>
+<KEGG_COMPOUND_ACCESSION>C17966</KEGG_COMPOUND_ACCESSION>
+<PUBMED_CITATION>14191440</PUBMED_CITATION>
+<PUBMED_CITATION>21377465</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

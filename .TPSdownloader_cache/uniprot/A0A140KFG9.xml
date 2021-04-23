@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2021-04-07" dataset="Swiss-Prot" modified="2021-04-07" version="21">
+    <accession>A0A140KFG9</accession>
+    <name>TPS1_CAMBE</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="3">Hedycaryol synthase</fullName>
+        <ecNumber evidence="2">4.2.3.174</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="4">(2E,6E)-hedycaryol synthase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="3">Terpene synthase 1</fullName>
+        <shortName evidence="3">CbTps1</shortName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="3" type="primary">TPS1</name>
+    </gene>
+    <organism>
+      <name type="scientific">Camellia brevistyla</name>
+      <dbReference id="296050" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>Ericales</taxon>
+        <taxon>Theaceae</taxon>
+        <taxon>Camellia</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2016" first="959" last="972" name="Planta" type="journal article" volume="243">
+        <title>Identification of a novel hedycaryol synthase gene isolated from Camellia brevistyla flowers and floral scent of Camellia cultivars.</title>
+        <authorList>
+          <person name="Hattan J."/>
+          <person name="Shindo K."/>
+          <person name="Ito T."/>
+          <person name="Shibuya Y."/>
+          <person name="Watanabe A."/>
+          <person name="Tagaki C."/>
+          <person name="Ohno F."/>
+          <person name="Sasaki T."/>
+          <person name="Ishii J."/>
+          <person name="Kondo A."/>
+          <person name="Misawa N."/>
+        </authorList>
+        <dbReference id="26744017" type="PubMed"/>
+        <dbReference id="10.1007/s00425-015-2454-6" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>TISSUE SPECIFICITY</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2 5">Sesquiterpene synthase that catalyzes the formation of sesquiterpenes and sesquiterpenoid alcohols (PubMed:26744017). Converts farnesyl diphosphate (FPP) to hedycaryol (PubMed:26744017). Hedycaryol is likely to be one of the terpenes that attract insects for pollination of Camellia brevistyla (Probable).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate + H2O = (2E,6E)-hedycaryol + diphosphate</text>
+        <dbReference id="RHEA:54056" type="Rhea"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:138043" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.174" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="2">
+        <dbReference id="RHEA:54057" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment evidence="4" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="tissue specificity">
+      <text evidence="2">Specifically expressed in flowers.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="4">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="4">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="2" id="4.2.3.174" type="EC"/>
+    <dbReference id="LC070683" type="EMBL">
+      <property type="protein sequence ID" value="BAU68096.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="A0A140KFG9" type="SMR"/>
+    <dbReference id="ag:BAU68096" type="KEGG"/>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Hedycaryol synthase" id="PRO_0000452462" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="554"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="4" type="short sequence motif">
+      <location>
+        <begin position="307"/>
+        <end position="311"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="307"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="307"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="311"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="311"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="452"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="456"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="460"/>
+      </location>
+    </feature>
+    <feature description="(2E,6E)-farnesyl diphosphate" evidence="1" type="binding site">
+      <location>
+        <position position="270"/>
+      </location>
+    </feature>
+    <feature description="(2E,6E)-farnesyl diphosphate" evidence="1" type="binding site">
+      <location>
+        <position position="307"/>
+      </location>
+    </feature>
+    <feature description="(2E,6E)-farnesyl diphosphate" evidence="1" type="binding site">
+      <location>
+        <position position="311"/>
+      </location>
+    </feature>
+    <feature description="(2E,6E)-farnesyl diphosphate" evidence="1" type="binding site">
+      <location>
+        <position position="449"/>
+      </location>
+    </feature>
+    <feature description="(2E,6E)-farnesyl diphosphate" evidence="1" type="binding site">
+      <location>
+        <position position="452"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="Q40577" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="26744017" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000303">
+      <source>
+        <dbReference id="26744017" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000305"/>
+    <evidence key="5" type="ECO:0000305">
+      <source>
+        <dbReference id="26744017" type="PubMed"/>
+      </source>
+    </evidence>
+    <sequence checksum="2AF4D52D433E2649" length="554" mass="64001" modified="2016-05-11" version="1">MASSQVGDMVNGNAEPTRHLAKFPPSLWGDRFTSFTLDKQLWDKYGNEIEVLKEQVRSMVVAGGRKAAEQINLINVLERLGVSYHFEKEIEEQLEQLFAKFEDNEDYDLFTIALHFRIFRQHGYKMSCDVFNKFRDSNGEFKETVSNDVRGMLSLYEATYLKIRGEGFLDEAHAFTIAQLESLVGGPHLSSDLSEQVMHALKQSIHRGFPRLEAKHFISFYEKDAARNETLLRLAKLDFNQLQLSHREELCHIFRWWKELDLISKVPYARDRAVECFFWSTCAYYEPQHSVGRAVLTKIVLLLSVTDDTYDAYGTYDELKLYTNAVQRWDASAMDELPDYMKTLYRALLNVYDEVERDLAKQGRAYGVHHSKEAFKEIVRSYEIEAEWFKEGYVASFEEYMKNALVTSTGRLHTTSCFMGLEADVATTEAFEWILTKPKMVAASGAIGRLVDDVMSNDEEQERGHVATGLDCYMKQHGVSKQEAIVELYKMIENAWRDINEEMLKPTAISMKLLIHVLNLSRISDVVYKYVDGYTHPEIIKDHVISLFEDPIPM</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

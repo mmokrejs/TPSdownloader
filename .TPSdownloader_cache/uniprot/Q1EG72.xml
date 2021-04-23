@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2011-09-21" dataset="Swiss-Prot" modified="2020-12-02" version="88">
+    <accession>Q1EG72</accession>
+    <accession>A0A1Q0XLC1</accession>
+    <name>TPS11_MAIZE</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="9">(S)-beta-macrocarpene synthase</fullName>
+        <ecNumber evidence="6">5.5.1.17</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="9">Alpha-terpinolene synthase</fullName>
+        <ecNumber evidence="6">4.2.3.113</ecNumber>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="9">Beta-bisabolene synthase</fullName>
+        <ecNumber evidence="6">4.2.3.55</ecNumber>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="9">Beta-myrcene synthase</fullName>
+        <ecNumber evidence="6">4.2.3.15</ecNumber>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="9">Limonene synthase</fullName>
+        <ecNumber evidence="6">4.2.3.16</ecNumber>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="9">Linalool synthase</fullName>
+        <ecNumber evidence="6">4.2.3.25</ecNumber>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="9">Terpene synthase 11</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="9" type="primary">TPS11</name>
+      <name evidence="8" type="synonym">UMI3</name>
+      <name evidence="13" type="ORF">ZEAMMB73_Zm00001d024210</name>
+    </gene>
+    <organism>
+      <name type="scientific">Zea mays</name>
+      <name type="common">Maize</name>
+      <dbReference id="4577" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>Liliopsida</taxon>
+        <taxon>Poales</taxon>
+        <taxon>Poaceae</taxon>
+        <taxon>PACMAD clade</taxon>
+        <taxon>Panicoideae</taxon>
+        <taxon>Andropogonodae</taxon>
+        <taxon>Andropogoneae</taxon>
+        <taxon>Tripsacinae</taxon>
+        <taxon>Zea</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2005" first="1774" last="1784" name="Plant Physiol." type="journal article" volume="138">
+        <title>Dissecting defense-related and developmental transcriptional responses of maize during Ustilago maydis infection and subsequent tumor formation.</title>
+        <authorList>
+          <person name="Basse C.W."/>
+        </authorList>
+        <dbReference id="15980197" type="PubMed"/>
+        <dbReference id="10.1104/pp.105.061200" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>INDUCTION BY FUNGI</scope>
+      <source>
+        <strain>cv. Golden Bantam early</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2008" first="20779" last="20788" name="J. Biol. Chem." type="journal article" volume="283">
+        <title>Protonation of a neutral (S)-beta-bisabolene intermediate is involved in (S)-beta-macrocarpene formation by the maize sesquiterpene synthases TPS6 and TPS11.</title>
+        <authorList>
+          <person name="Koellner T.G."/>
+          <person name="Schnee C."/>
+          <person name="Li S."/>
+          <person name="Svatos A."/>
+          <person name="Schneider B."/>
+          <person name="Gershenzon J."/>
+          <person name="Degenhardt J."/>
+        </authorList>
+        <dbReference id="18524777" type="PubMed"/>
+        <dbReference id="10.1074/jbc.m802682200" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>MUTAGENESIS OF TYR-522 AND ASP-526</scope>
+      <scope>INDUCTION BY HERBIVORY</scope>
+      <scope>TISSUE SPECIFICITY</scope>
+      <source>
+        <strain>cv. B73</strain>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2009" first="1112" last="1115" name="Science" type="journal article" volume="326">
+        <title>The B73 maize genome: complexity, diversity, and dynamics.</title>
+        <authorList>
+          <person name="Schnable P.S."/>
+          <person name="Ware D."/>
+          <person name="Fulton R.S."/>
+          <person name="Stein J.C."/>
+          <person name="Wei F."/>
+          <person name="Pasternak S."/>
+          <person name="Liang C."/>
+          <person name="Zhang J."/>
+          <person name="Fulton L."/>
+          <person name="Graves T.A."/>
+          <person name="Minx P."/>
+          <person name="Reily A.D."/>
+          <person name="Courtney L."/>
+          <person name="Kruchowski S.S."/>
+          <person name="Tomlinson C."/>
+          <person name="Strong C."/>
+          <person name="Delehaunty K."/>
+          <person name="Fronick C."/>
+          <person name="Courtney B."/>
+          <person name="Rock S.M."/>
+          <person name="Belter E."/>
+          <person name="Du F."/>
+          <person name="Kim K."/>
+          <person name="Abbott R.M."/>
+          <person name="Cotton M."/>
+          <person name="Levy A."/>
+          <person name="Marchetto P."/>
+          <person name="Ochoa K."/>
+          <person name="Jackson S.M."/>
+          <person name="Gillam B."/>
+          <person name="Chen W."/>
+          <person name="Yan L."/>
+          <person name="Higginbotham J."/>
+          <person name="Cardenas M."/>
+          <person name="Waligorski J."/>
+          <person name="Applebaum E."/>
+          <person name="Phelps L."/>
+          <person name="Falcone J."/>
+          <person name="Kanchi K."/>
+          <person name="Thane T."/>
+          <person name="Scimone A."/>
+          <person name="Thane N."/>
+          <person name="Henke J."/>
+          <person name="Wang T."/>
+          <person name="Ruppert J."/>
+          <person name="Shah N."/>
+          <person name="Rotter K."/>
+          <person name="Hodges J."/>
+          <person name="Ingenthron E."/>
+          <person name="Cordes M."/>
+          <person name="Kohlberg S."/>
+          <person name="Sgro J."/>
+          <person name="Delgado B."/>
+          <person name="Mead K."/>
+          <person name="Chinwalla A."/>
+          <person name="Leonard S."/>
+          <person name="Crouse K."/>
+          <person name="Collura K."/>
+          <person name="Kudrna D."/>
+          <person name="Currie J."/>
+          <person name="He R."/>
+          <person name="Angelova A."/>
+          <person name="Rajasekar S."/>
+          <person name="Mueller T."/>
+          <person name="Lomeli R."/>
+          <person name="Scara G."/>
+          <person name="Ko A."/>
+          <person name="Delaney K."/>
+          <person name="Wissotski M."/>
+          <person name="Lopez G."/>
+          <person name="Campos D."/>
+          <person name="Braidotti M."/>
+          <person name="Ashley E."/>
+          <person name="Golser W."/>
+          <person name="Kim H."/>
+          <person name="Lee S."/>
+          <person name="Lin J."/>
+          <person name="Dujmic Z."/>
+          <person name="Kim W."/>
+          <person name="Talag J."/>
+          <person name="Zuccolo A."/>
+          <person name="Fan C."/>
+          <person name="Sebastian A."/>
+          <person name="Kramer M."/>
+          <person name="Spiegel L."/>
+          <person name="Nascimento L."/>
+          <person name="Zutavern T."/>
+          <person name="Miller B."/>
+          <person name="Ambroise C."/>
+          <person name="Muller S."/>
+          <person name="Spooner W."/>
+          <person name="Narechania A."/>
+          <person name="Ren L."/>
+          <person name="Wei S."/>
+          <person name="Kumari S."/>
+          <person name="Faga B."/>
+          <person name="Levy M.J."/>
+          <person name="McMahan L."/>
+          <person name="Van Buren P."/>
+          <person name="Vaughn M.W."/>
+          <person name="Ying K."/>
+          <person name="Yeh C.-T."/>
+          <person name="Emrich S.J."/>
+          <person name="Jia Y."/>
+          <person name="Kalyanaraman A."/>
+          <person name="Hsia A.-P."/>
+          <person name="Barbazuk W.B."/>
+          <person name="Baucom R.S."/>
+          <person name="Brutnell T.P."/>
+          <person name="Carpita N.C."/>
+          <person name="Chaparro C."/>
+          <person name="Chia J.-M."/>
+          <person name="Deragon J.-M."/>
+          <person name="Estill J.C."/>
+          <person name="Fu Y."/>
+          <person name="Jeddeloh J.A."/>
+          <person name="Han Y."/>
+          <person name="Lee H."/>
+          <person name="Li P."/>
+          <person name="Lisch D.R."/>
+          <person name="Liu S."/>
+          <person name="Liu Z."/>
+          <person name="Nagel D.H."/>
+          <person name="McCann M.C."/>
+          <person name="SanMiguel P."/>
+          <person name="Myers A.M."/>
+          <person name="Nettleton D."/>
+          <person name="Nguyen J."/>
+          <person name="Penning B.W."/>
+          <person name="Ponnala L."/>
+          <person name="Schneider K.L."/>
+          <person name="Schwartz D.C."/>
+          <person name="Sharma A."/>
+          <person name="Soderlund C."/>
+          <person name="Springer N.M."/>
+          <person name="Sun Q."/>
+          <person name="Wang H."/>
+          <person name="Waterman M."/>
+          <person name="Westerman R."/>
+          <person name="Wolfgruber T.K."/>
+          <person name="Yang L."/>
+          <person name="Yu Y."/>
+          <person name="Zhang L."/>
+          <person name="Zhou S."/>
+          <person name="Zhu Q."/>
+          <person name="Bennetzen J.L."/>
+          <person name="Dawe R.K."/>
+          <person name="Jiang J."/>
+          <person name="Jiang N."/>
+          <person name="Presting G.G."/>
+          <person name="Wessler S.R."/>
+          <person name="Aluru S."/>
+          <person name="Martienssen R.A."/>
+          <person name="Clifton S.W."/>
+          <person name="McCombie W.R."/>
+          <person name="Wing R.A."/>
+          <person name="Wilson R.K."/>
+        </authorList>
+        <dbReference id="19965430" type="PubMed"/>
+        <dbReference id="10.1126/science.1178534" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>cv. B73</strain>
+        <tissue>Seedling</tissue>
+      </source>
+    </reference>
+    <reference key="4">
+      <citation date="2017" first="1455" last="1468" name="Plant Physiol." type="journal article" volume="175">
+        <title>Selinene volatiles are essential precursors for maize defense promoting fungal pathogen resistance.</title>
+        <authorList>
+          <person name="Ding Y."/>
+          <person name="Huffaker A."/>
+          <person name="Koellner T.G."/>
+          <person name="Weckwerth P."/>
+          <person name="Robert C.A.M."/>
+          <person name="Spencer J.L."/>
+          <person name="Lipka A.E."/>
+          <person name="Schmelz E.A."/>
+        </authorList>
+        <dbReference id="28931629" type="PubMed"/>
+        <dbReference id="10.1104/pp.17.00879" type="DOI"/>
+      </citation>
+      <scope>INDUCTION BY FUNGUS</scope>
+    </reference>
+    <reference key="5">
+      <citation date="2019" first="21" last="30" name="Planta" type="journal article" volume="249">
+        <title>Biosynthesis and function of terpenoid defense compounds in maize (Zea mays).</title>
+        <authorList>
+          <person name="Block A.K."/>
+          <person name="Vaughan M.M."/>
+          <person name="Schmelz E.A."/>
+          <person name="Christensen S.A."/>
+        </authorList>
+        <dbReference id="30187155" type="PubMed"/>
+        <dbReference id="10.1007/s00425-018-2999-2" type="DOI"/>
+      </citation>
+      <scope>REVIEW</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="6">Involved in the biosynthesis of the bicyclic sesquiterpene (S)-beta-macrocarpene. Can use both geranyl diphosphate and farnesyl diphosphate as substrate, but not geranylgeranyl diphosphate. Produces mainly (S)-beta-macrocarpene, but also smaller amounts of beta-bisabolene and (E)-beta-farnesene when used with farnesyl diphosphate as substrate. In the presence of geranyl diphosphate, produces the acyclic monoterpenes beta-myrcene and linalool along with minor amounts of the cyclic compounds limonene, alpha-thujene, sabinene and alpha-terpinolene. May be involved in plant defense.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="6">
+        <text>(S)-beta-bisabolene = (S)-beta-macrocarpene</text>
+        <dbReference id="RHEA:28282" type="Rhea"/>
+        <dbReference id="CHEBI:49263" type="ChEBI"/>
+        <dbReference id="CHEBI:61344" type="ChEBI"/>
+        <dbReference id="5.5.1.17" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="6">
+        <dbReference id="RHEA:28283" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="6">
+        <text>(2E,6E)-farnesyl diphosphate = (S)-beta-bisabolene + diphosphate</text>
+        <dbReference id="RHEA:28266" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:49263" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.55" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="6">
+        <dbReference id="RHEA:28267" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="6">
+        <text>(2E)-geranyl diphosphate = (4S)-limonene + diphosphate</text>
+        <dbReference id="RHEA:12869" type="Rhea"/>
+        <dbReference id="CHEBI:15383" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:58057" type="ChEBI"/>
+        <dbReference id="4.2.3.16" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="6">
+        <dbReference id="RHEA:12870" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="6">
+        <text>(2E)-geranyl diphosphate = beta-myrcene + diphosphate</text>
+        <dbReference id="RHEA:16965" type="Rhea"/>
+        <dbReference id="CHEBI:17221" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:58057" type="ChEBI"/>
+        <dbReference id="4.2.3.15" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="6">
+        <dbReference id="RHEA:16966" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="6">
+        <text>(2E)-geranyl diphosphate = diphosphate + terpinolene</text>
+        <dbReference id="RHEA:25500" type="Rhea"/>
+        <dbReference id="CHEBI:9457" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:58057" type="ChEBI"/>
+        <dbReference id="4.2.3.113" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="6">
+        <dbReference id="RHEA:25501" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="6">
+        <text>(2E)-geranyl diphosphate + H2O = (S)-linalool + diphosphate</text>
+        <dbReference id="RHEA:24116" type="Rhea"/>
+        <dbReference id="CHEBI:98" type="ChEBI"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:58057" type="ChEBI"/>
+        <dbReference id="4.2.3.25" type="EC"/>
+      </reaction>
+      <physiologicalReaction direction="left-to-right" evidence="6">
+        <dbReference id="RHEA:24117" type="Rhea"/>
+      </physiologicalReaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="11">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <cofactor evidence="11">
+        <name>Mn(2+)</name>
+        <dbReference id="CHEBI:29035" type="ChEBI"/>
+      </cofactor>
+      <text evidence="11">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+    </comment>
+    <comment evidence="12" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subunit">
+      <text evidence="3">Monomer.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="4">Cytoplasm</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="tissue specificity">
+      <text evidence="6">Expressed in roots. Not detected in leaves, unless damaged by herbivory or infected by fungi.</text>
+    </comment>
+    <comment type="induction">
+      <text evidence="5 6 7">Up-regulated by herbivory and fungi (e.g. Fusarium spp., C.heterostrophus, F.verticillioides, R.microsporus and A.parasiticus).</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="miscellaneous">
+      <text>Tyr-522 is involved in the initial isomerization of the (E,E)-nerolidyl cation to its (Z,E)-isomer.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="10">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="6" id="5.5.1.17" type="EC"/>
+    <dbReference evidence="6" id="4.2.3.113" type="EC"/>
+    <dbReference evidence="6" id="4.2.3.55" type="EC"/>
+    <dbReference evidence="6" id="4.2.3.15" type="EC"/>
+    <dbReference evidence="6" id="4.2.3.16" type="EC"/>
+    <dbReference evidence="6" id="4.2.3.25" type="EC"/>
+    <dbReference id="AY647254" type="EMBL">
+      <property type="protein sequence ID" value="AAT70086.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="EU716166" type="EMBL">
+      <property type="protein sequence ID" value="ACF58240.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="CM000786" type="EMBL">
+      <property type="protein sequence ID" value="AQK40803.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="NP_001105950.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_001112480.1"/>
+    </dbReference>
+    <dbReference id="NP_001307938.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_001321009.1"/>
+    </dbReference>
+    <dbReference id="Q1EG72" type="SMR"/>
+    <dbReference id="4577.GRMZM2G127087_P03" type="STRING"/>
+    <dbReference id="Q1EG72" type="PaxDb"/>
+    <dbReference id="Zm00001d024210_T002" type="EnsemblPlants">
+      <property type="protein sequence ID" value="Zm00001d024210_P002"/>
+      <property type="gene ID" value="Zm00001d024210"/>
+    </dbReference>
+    <dbReference id="103641097" type="GeneID"/>
+    <dbReference id="Zm00001d024210_T002" type="Gramene">
+      <property type="protein sequence ID" value="Zm00001d024210_P002"/>
+      <property type="gene ID" value="Zm00001d024210"/>
+    </dbReference>
+    <dbReference id="zma:103641097" type="KEGG"/>
+    <dbReference id="1219887" type="MaizeGDB"/>
+    <dbReference id="ENOG502QUCN" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="FTYENFE" type="OMA"/>
+    <dbReference id="360509at2759" type="OrthoDB"/>
+    <dbReference id="4.2.3.55" type="BRENDA">
+      <property type="organism ID" value="6752"/>
+    </dbReference>
+    <dbReference id="5.5.1.17" type="BRENDA">
+      <property type="organism ID" value="6752"/>
+    </dbReference>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="UP000007305" type="Proteomes">
+      <property type="component" value="Chromosome 10"/>
+    </dbReference>
+    <dbReference id="Q1EG72" type="ExpressionAtlas">
+      <property type="expression patterns" value="baseline and differential"/>
+    </dbReference>
+    <dbReference id="GO:0005737" type="GO">
+      <property type="term" value="C:cytoplasm"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0050552" type="GO">
+      <property type="term" value="F:(4S)-limonene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0016853" type="GO">
+      <property type="term" value="F:isomerase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0050551" type="GO">
+      <property type="term" value="F:myrcene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0034007" type="GO">
+      <property type="term" value="F:S-linalool synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0050832" type="GO">
+      <property type="term" value="P:defense response to fungus"/>
+      <property type="evidence" value="ECO:0000270"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0963">Cytoplasm</keyword>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0464">Manganese</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-0611">Plant defense</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="(S)-beta-macrocarpene synthase" id="PRO_0000412242" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="548"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="1" type="short sequence motif">
+      <location>
+        <begin position="302"/>
+        <end position="306"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="302"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="302"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="306"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="306"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="446"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="450"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="454"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="302"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="306"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="443"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="446"/>
+      </location>
+    </feature>
+    <feature description="Decreased activity and loss of production of (S)-beta-macrocarpene." evidence="6" type="mutagenesis site">
+      <original>Y</original>
+      <variation>F</variation>
+      <location>
+        <position position="522"/>
+      </location>
+    </feature>
+    <feature description="Loss of activity." evidence="6" type="mutagenesis site">
+      <original>D</original>
+      <variation>N</variation>
+      <location>
+        <position position="526"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="A0A1C9J6A7" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000250">
+      <source>
+        <dbReference id="Q40577" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000250">
+      <source>
+        <dbReference id="Q6JD73" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000250">
+      <source>
+        <dbReference id="Q6Q3H2" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000269">
+      <source>
+        <dbReference id="15980197" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000269">
+      <source>
+        <dbReference id="18524777" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000269">
+      <source>
+        <dbReference id="28931629" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000303">
+      <source>
+        <dbReference id="15980197" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0000303">
+      <source>
+        <dbReference id="18524777" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0000305"/>
+    <evidence key="11" type="ECO:0000305">
+      <source>
+        <dbReference id="18524777" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="12" type="ECO:0000305">
+      <source>
+        <dbReference id="30187155" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="13" type="ECO:0000312">
+      <source>
+        <dbReference id="AQK40803.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="6CCA020476F8F42F" length="548" mass="63938" modified="2006-07-11" version="1">MAAPTLTTDGPRLGQQEMKKMSPSFHPTLWGDFFLSYEAPTEAQEAEMRQRAEVLREEVRNMIKGSHDVPEIVDLIITLQRLNLDYHYEDEINEKLAVVYNSNYDGGNLDLVSRRFYLLRKCGYHVSSDVFLNFKDQYGNFIEVDTRSLLSLYNAAYLRIHGETVLDEAISFTTRCLQDRLEHLESPIAEEVSSALDTPLFRRVGTLEMKDYIPIYEKDAKQNKSILEFAKLNFNLLQLLYSSELKECTTWWKELRVESNLSFVRDRIVEVYFWMSGGCYDPQYSHSRIILTKIVAFITILDDTLDSHANSYESMQLAEAVERWDESAVSLLPEYMKDFYMYLLKTFSSFENELGPDKSYRVFYLKEAVKELVREYTKEIKWRDEDYVPKTLKEHLKVSLISIGGTLVLCSAFVGMGDVVTKKIMEWVMSDAELVKSFGIFVRLSNDIVSTKREQREKHCVSTVQCYMKQHELTMDEACEQIKELTEDSWKFMIEQGLALKEYPIIVPRTVLEFARTVDYMYKEADKYTVSHTIKDMLTSLYVKPVLM</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

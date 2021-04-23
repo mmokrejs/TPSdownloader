@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-07-28" modified="2021-04-07" version="61">
+<accession>C5H3I7</accession>
+<name>C5H3I7_ORYSJ</name>
+<protein>
+<submittedName>
+<fullName evidence="6">Sesquiterpene synthase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="6">TPS46</name>
+</gene>
+<organism evidence="6">
+<name type="scientific">Oryza sativa subsp. japonica</name>
+<name type="common">Rice</name>
+<dbReference type="NCBI Taxonomy" id="39947"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Poales</taxon>
+<taxon>Poaceae</taxon>
+<taxon>BOP clade</taxon>
+<taxon>Oryzoideae</taxon>
+<taxon>Oryzeae</taxon>
+<taxon>Oryzinae</taxon>
+<taxon>Oryza</taxon>
+<taxon>Oryza sativa</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="6">
+<citation type="submission" date="2008-03" db="EMBL/GenBank/DDBJ databases">
+<title>Molecular and Genomic Basis of Volatile-mediated Indirect Defense against Insects in Rice.</title>
+<authorList>
+<person name="Yuan J.S."/>
+<person name="Kollner T.G."/>
+<person name="Wiggins G."/>
+<person name="Grant J."/>
+<person name="Degenhardt J."/>
+<person name="Chen F."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="2" evidence="7">
+<citation type="journal article" date="2019" name="Plant Physiol.">
+<title>Combinatorial Evolution of a Terpene Synthase Gene Cluster Explains Terpene Variations in Oryza.</title>
+<authorList>
+<person name="Chen H."/>
+<person name="Kollner T.G."/>
+<person name="Li G."/>
+<person name="Wei G."/>
+<person name="Chen X."/>
+<person name="Zeng D."/>
+<person name="Qian Q."/>
+<person name="Chen F."/>
+</authorList>
+<dbReference type="PubMed" id="31712306"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="pathway" evidence="2">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<dbReference type="EMBL" id="EU596452">
+<property type="protein sequence ID" value="ACF05529.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="MN607026">
+<property type="protein sequence ID" value="QGN18498.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_015648810.1">
+<property type="nucleotide sequence ID" value="XM_015793324.1"/>
+</dbReference>
+<dbReference type="GeneID" id="4344755"/>
+<dbReference type="KEGG" id="osa:4344755"/>
+<dbReference type="HOGENOM" id="CLU_003125_7_2_1"/>
+<dbReference type="OMA" id="IWGDTFL"/>
+<dbReference type="OrthoDB" id="360509at2759"/>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0479" evidence="3">Metal-binding</keyword>
+<feature type="domain" description="Terpene_synth" evidence="4">
+<location>
+<begin position="27"/>
+<end position="193"/>
+</location>
+</feature>
+<feature type="domain" description="Terpene_synth_C" evidence="5">
+<location>
+<begin position="224"/>
+<end position="489"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00001946"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00004721"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022723"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF01397"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF03936"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ACF05529.1"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="QGN18498.1"/>
+</source>
+</evidence>
+<sequence length="546" mass="63352" checksum="327B7270757EDEFA" modified="2009-07-28" version="1">MSSTPAANFSNEDDERKAPTGFHPSLWGDFFISYQPPTAPKHAYMKERAEVLKEEVRKVVKGSNEVPEILDLVITLQRLGLDSYYKAEIDELLCTVYNTDYNDKDLHLVSLRFYLLRKNGYDVSSDIFQHFKDKEGSFVADDTRSLLSLYNAAYMRTHGEKVLDEAVVFTTNRLRSELKHLKSPVADEVSLALDTPLFRRVRIIETQNYIPIYESATTRNEAILEFAKLNVNLLQLIYCEELKTITRWWKELNVESNLSFIRDRIVEMHFWMTGACSEPHYSLLRIILTKMTAFITILDDIFDTYATTEESMMLAKAIYMCNESATVLLPKYMKDFYLYYLKTFDSFEEALGPNKSYRVLYFKELFKILIKGYSEEIKWRDDHYIPKTIEEHLELSRMTVGAFQLACASLVGMGDFITEDTLDYLLTYPKLIKSYTTCVRLSNDIASTKREQAGDHYASTIQCYMLQHGTTIHEACIGIKELIEDSWKDMMKEYLAPTNLQPKIVARTVIDFARTGDYIYKQADSFTFSHTIKDMIASLYVEPYSI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

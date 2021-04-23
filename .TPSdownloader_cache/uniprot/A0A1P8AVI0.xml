@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2017-04-12" dataset="TrEMBL" modified="2021-04-07" version="19">
+    <accession>A0A1P8AVI0</accession>
+    <name>A0A1P8AVI0_ARATH</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="3">Terpene cyclase/mutase family member</fullName>
+        <ecNumber evidence="3">5.4.99.-</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name evidence="7" type="primary">LUP2</name>
+      <name evidence="7" type="synonym">ATLUP2</name>
+      <name evidence="7" type="synonym">lupeol synthase 2</name>
+      <name evidence="7" type="synonym">YUP8H12R.43</name>
+      <name evidence="7" type="synonym">YUP8H12R_43</name>
+      <name evidence="6 7" type="ordered locus">At1g78960</name>
+    </gene>
+    <organism evidence="7 8">
+      <name type="scientific">Arabidopsis thaliana</name>
+      <name type="common">Mouse-ear cress</name>
+      <dbReference id="3702" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>malvids</taxon>
+        <taxon>Brassicales</taxon>
+        <taxon>Brassicaceae</taxon>
+        <taxon>Camelineae</taxon>
+        <taxon>Arabidopsis</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="7 8" key="1">
+      <citation date="2000" first="816" last="820" name="Nature" type="journal article" volume="408">
+        <title>Sequence and analysis of chromosome 1 of the plant Arabidopsis thaliana.</title>
+        <authorList>
+          <person name="Theologis A."/>
+          <person name="Ecker J.R."/>
+          <person name="Palm C.J."/>
+          <person name="Federspiel N.A."/>
+          <person name="Kaul S."/>
+          <person name="White O."/>
+          <person name="Alonso J."/>
+          <person name="Altafi H."/>
+          <person name="Araujo R."/>
+          <person name="Bowman C.L."/>
+          <person name="Brooks S.Y."/>
+          <person name="Buehler E."/>
+          <person name="Chan A."/>
+          <person name="Chao Q."/>
+          <person name="Chen H."/>
+          <person name="Cheuk R.F."/>
+          <person name="Chin C.W."/>
+          <person name="Chung M.K."/>
+          <person name="Conn L."/>
+          <person name="Conway A.B."/>
+          <person name="Conway A.R."/>
+          <person name="Creasy T.H."/>
+          <person name="Dewar K."/>
+          <person name="Dunn P."/>
+          <person name="Etgu P."/>
+          <person name="Feldblyum T.V."/>
+          <person name="Feng J.-D."/>
+          <person name="Fong B."/>
+          <person name="Fujii C.Y."/>
+          <person name="Gill J.E."/>
+          <person name="Goldsmith A.D."/>
+          <person name="Haas B."/>
+          <person name="Hansen N.F."/>
+          <person name="Hughes B."/>
+          <person name="Huizar L."/>
+          <person name="Hunter J.L."/>
+          <person name="Jenkins J."/>
+          <person name="Johnson-Hopson C."/>
+          <person name="Khan S."/>
+          <person name="Khaykin E."/>
+          <person name="Kim C.J."/>
+          <person name="Koo H.L."/>
+          <person name="Kremenetskaia I."/>
+          <person name="Kurtz D.B."/>
+          <person name="Kwan A."/>
+          <person name="Lam B."/>
+          <person name="Langin-Hooper S."/>
+          <person name="Lee A."/>
+          <person name="Lee J.M."/>
+          <person name="Lenz C.A."/>
+          <person name="Li J.H."/>
+          <person name="Li Y.-P."/>
+          <person name="Lin X."/>
+          <person name="Liu S.X."/>
+          <person name="Liu Z.A."/>
+          <person name="Luros J.S."/>
+          <person name="Maiti R."/>
+          <person name="Marziali A."/>
+          <person name="Militscher J."/>
+          <person name="Miranda M."/>
+          <person name="Nguyen M."/>
+          <person name="Nierman W.C."/>
+          <person name="Osborne B.I."/>
+          <person name="Pai G."/>
+          <person name="Peterson J."/>
+          <person name="Pham P.K."/>
+          <person name="Rizzo M."/>
+          <person name="Rooney T."/>
+          <person name="Rowley D."/>
+          <person name="Sakano H."/>
+          <person name="Salzberg S.L."/>
+          <person name="Schwartz J.R."/>
+          <person name="Shinn P."/>
+          <person name="Southwick A.M."/>
+          <person name="Sun H."/>
+          <person name="Tallon L.J."/>
+          <person name="Tambunga G."/>
+          <person name="Toriumi M.J."/>
+          <person name="Town C.D."/>
+          <person name="Utterback T."/>
+          <person name="Van Aken S."/>
+          <person name="Vaysberg M."/>
+          <person name="Vysotskaia V.S."/>
+          <person name="Walker M."/>
+          <person name="Wu D."/>
+          <person name="Yu G."/>
+          <person name="Fraser C.M."/>
+          <person name="Venter J.C."/>
+          <person name="Davis R.W."/>
+        </authorList>
+        <dbReference id="11130712" type="PubMed"/>
+        <dbReference id="10.1038/35048500" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain evidence="8">cv. Columbia</strain>
+      </source>
+    </reference>
+    <reference evidence="8" key="2">
+      <citation date="2017" first="789" last="804" name="Plant J." type="journal article" volume="89">
+        <title>Araport11: a complete reannotation of the Arabidopsis thaliana reference genome.</title>
+        <authorList>
+          <person name="Cheng C.Y."/>
+          <person name="Krishnakumar V."/>
+          <person name="Chan A.P."/>
+          <person name="Thibaud-Nissen F."/>
+          <person name="Schobel S."/>
+          <person name="Town C.D."/>
+        </authorList>
+        <dbReference id="27862469" type="PubMed"/>
+        <dbReference id="10.1111/tpj.13415" type="DOI"/>
+      </citation>
+      <scope>GENOME REANNOTATION</scope>
+      <source>
+        <strain evidence="8">cv. Columbia</strain>
+      </source>
+    </reference>
+    <comment type="similarity">
+      <text evidence="1 3">Belongs to the terpene cyclase/mutase family.</text>
+    </comment>
+    <dbReference evidence="3" id="5.4.99.-" type="EC"/>
+    <dbReference id="CP002684" type="EMBL">
+      <property type="protein sequence ID" value="ANM60691.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="NP_001322961.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_001334863.1"/>
+    </dbReference>
+    <dbReference id="A0A1P8AVI0" type="SMR"/>
+    <dbReference id="217875" type="ProteomicsDB"/>
+    <dbReference id="AT1G78960.4" type="EnsemblPlants">
+      <property type="protein sequence ID" value="AT1G78960.4"/>
+      <property type="gene ID" value="AT1G78960"/>
+    </dbReference>
+    <dbReference id="844236" type="GeneID"/>
+    <dbReference id="AT1G78960.4" type="Gramene">
+      <property type="protein sequence ID" value="AT1G78960.4"/>
+      <property type="gene ID" value="AT1G78960"/>
+    </dbReference>
+    <dbReference id="AT1G78960" type="Araport"/>
+    <dbReference id="UP000006548" type="Proteomes">
+      <property type="component" value="Chromosome 1"/>
+    </dbReference>
+    <dbReference id="A0A1P8AVI0" type="ExpressionAtlas">
+      <property type="expression patterns" value="baseline and differential"/>
+    </dbReference>
+    <dbReference id="GO:0005811" type="GO">
+      <property type="term" value="C:lipid droplet"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0042300" type="GO">
+      <property type="term" value="F:beta-amyrin synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0000250" type="GO">
+      <property type="term" value="F:lanosterol synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016104" type="GO">
+      <property type="term" value="P:triterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="cd02892" type="CDD">
+      <property type="entry name" value="SQCY_1"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR032696" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_C"/>
+    </dbReference>
+    <dbReference id="IPR032697" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_N"/>
+    </dbReference>
+    <dbReference id="IPR018333" type="InterPro">
+      <property type="entry name" value="Squalene_cyclase"/>
+    </dbReference>
+    <dbReference id="IPR002365" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_CS"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF13243" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF13249" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="TIGR01787" type="TIGRFAMs">
+      <property type="entry name" value="squalene_cyclas"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PS01074" type="PROSITE">
+      <property type="entry name" value="TERPENE_SYNTHASES"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword evidence="3" id="KW-0413">Isomerase</keyword>
+    <keyword evidence="9" id="KW-1267">Proteomics identification</keyword>
+    <keyword evidence="8" id="KW-1185">Reference proteome</keyword>
+    <keyword evidence="2" id="KW-0677">Repeat</keyword>
+    <feature description="SQHop_cyclase_N" evidence="5" type="domain">
+      <location>
+        <begin position="100"/>
+        <end position="405"/>
+      </location>
+    </feature>
+    <feature description="SQHop_cyclase_C" evidence="4" type="domain">
+      <location>
+        <begin position="416"/>
+        <end position="723"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00009755" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022737" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000256">
+      <source>
+        <dbReference id="RU362003" type="RuleBase"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000259">
+      <source>
+        <dbReference id="PF13243" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000259">
+      <source>
+        <dbReference id="PF13249" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000313">
+      <source>
+        <dbReference id="AT1G78960" type="Araport"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000313">
+      <source>
+        <dbReference id="ANM60691.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000313">
+      <source>
+        <dbReference id="UP000006548" type="Proteomes"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0007829">
+      <source>
+        <dbReference id="A0A1P8AVI0" type="ProteomicsDB"/>
+      </source>
+    </evidence>
+    <sequence checksum="165D717BF7485935" length="738" mass="84648" modified="2017-04-12" version="1">MWKLKIGEGNGEDPYLFSSNNFVGRQTWEFDPKAGTPEERAAVEDARRNYLDNRPRVKGCSDLLWRMQFLKEAKFEQVIPPVKIDDGEGITYKNATDALRRAVSFYSALQSSDGHWPAEITGTLFFLPPLVFCFYITGHLEKIFDAEHRKEMLRHIYCHQNEDGGWGLHIEGKSVMFCTVLNYICLRMLGEGPNGGRNNACKRARQWILDHGGVTYIPSWGKIWLSILGIYDWSGTNPMPPEIWLLPSFFPIHLGKTLCYTRMVYMPMSYLYGKRFVGPLTPLIMLLRKELHLQPYEEINWNKARRLCAKEDMIYPHPLVQDLLWDTLHNFVEPILTNWPLKKLVREKALRVAMEHIHYEDENSHYITIGCVEKVLCMLACWIENPNGDHFKKHLARIPDFMWVAEDGLKMQSFGSQLWDTVFAIQALLACDLSDETDDVLRKGHSFIKKSQVRENPSGDFKSMYRHISKGAWTLSDRDHGWQVSDCTAEALKCCMLLSMMPAEVVGQKIDPEQLYDSVNLLLSLQGEKGGLTAWEPVRAQEWLELLNPTDFFTCVMAEREYVECTSAVIQALVLFKQLYPDHRTKEIIKSIEKGVQFIESKQTPDGSWHGNWGICFIYATWFALSGLAAAGKTYKSCLAVRKGVDFLLAIQEEDGGWGESHLSCPEQRYIPLEGNRSNLVQTAWAMMGLIHAGQAERDPTPLHRAAKLIITSQLENGDFPQQVSFKHPLFDRYMNIS</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

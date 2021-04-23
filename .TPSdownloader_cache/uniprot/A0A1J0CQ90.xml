@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2017-02-15" dataset="TrEMBL" modified="2019-12-11" version="8">
+    <accession>A0A1J0CQ90</accession>
+    <name>A0A1J0CQ90_SCANE</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="2">Terpene synthase 2</fullName>
+      </submittedName>
+    </protein>
+    <organism evidence="2">
+      <name type="scientific">Scapania nemorea</name>
+      <name type="common">Grove earwort</name>
+      <dbReference id="41848" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Marchantiophyta</taxon>
+        <taxon>Jungermanniopsida</taxon>
+        <taxon>Jungermanniidae</taxon>
+        <taxon>Jungermanniales</taxon>
+        <taxon>Cephaloziineae</taxon>
+        <taxon>Scapaniaceae</taxon>
+        <taxon>Scapania</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="2" key="1">
+      <citation date="2016" first="12328" last="12333" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="113">
+        <title>Microbial-type terpene synthase genes occur widely in nonseed land plants, but not in seed plants.</title>
+        <authorList>
+          <person name="Jia Q."/>
+          <person name="Li G."/>
+          <person name="Kollner T.G."/>
+          <person name="Fu J."/>
+          <person name="Chen X."/>
+          <person name="Xiong W."/>
+          <person name="Crandall-Stotler B.J."/>
+          <person name="Bowman J.L."/>
+          <person name="Weston D.J."/>
+          <person name="Zhang Y."/>
+          <person name="Chen L."/>
+          <person name="Xie Y."/>
+          <person name="Li F.W."/>
+          <person name="Rothfels C.J."/>
+          <person name="Larsson A."/>
+          <person name="Graham S.W."/>
+          <person name="Stevenson D.W."/>
+          <person name="Wong G.K."/>
+          <person name="Gershenzon J."/>
+          <person name="Chen F."/>
+        </authorList>
+        <dbReference id="27791023" type="PubMed"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <dbReference id="KX230835" type="EMBL">
+      <property type="protein sequence ID" value="APB88773.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="1" id="KW-0175">Coiled coil</keyword>
+    <feature evidence="1" type="coiled-coil region">
+      <location>
+        <begin position="326"/>
+        <end position="346"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="Coils" type="SAM"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000313">
+      <source>
+        <dbReference id="APB88773.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="1E64703618B1B997" length="382" mass="44226" modified="2017-02-15" version="1">MATEVVAAAAEPRFAMPTQPYRLPSYSPPYPVVINPHFSSTVFRERIDRWLKQLKVDTIFSPKIYKMLVDMDVSGLPARIFTEASELGLEWSCKFFLMLWIWDDTLDSTDTGKSPEAALSPLLEVHLMMMWSFPDDPVLRTRLEPFLNHLEGPAREEKTRHVESVLAEARTKPGTVYPKPILDIICNVYLELWKDVVTTASPEFCLRLAHYNQQWFLGILKETENRKFKTLPSSIEHYIEIRKGSSAVPPTVVLVDFVYGLNTPDSWFYSPEMQRIVEAINDIVSWHNDIWSFKREVLVEKDSFNMVLAISVHRKVSYNEAADITLRMIYERIADLEQAARELESVSPPEYMHNFDLYMLTGYQAHMTDISNLCAINNWYIS</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2012-09-05" dataset="Swiss-Prot" modified="2020-12-02" version="51">
+    <accession>B2J4A4</accession>
+    <name>GERAS_NOSP7</name>
+    <protein>
+      <recommendedName>
+        <fullName>Germacrene A synthase</fullName>
+        <ecNumber>4.2.3.90</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>5-epi-alpha-selinene synthase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>8a-epi-alpha-selinene synthase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Terpene synthase</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name type="ordered locus">Npun_R3832</name>
+    </gene>
+    <organism>
+      <name type="scientific">Nostoc punctiforme (strain ATCC 29133 / PCC 73102)</name>
+      <dbReference id="63737" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Bacteria</taxon>
+        <taxon>Cyanobacteria</taxon>
+        <taxon>Nostocales</taxon>
+        <taxon>Nostocaceae</taxon>
+        <taxon>Nostoc</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2008-04" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Complete sequence of chromosome of Nostoc punctiforme ATCC 29133.</title>
+        <authorList>
+          <consortium name="US DOE Joint Genome Institute"/>
+          <person name="Copeland A."/>
+          <person name="Lucas S."/>
+          <person name="Lapidus A."/>
+          <person name="Glavina del Rio T."/>
+          <person name="Dalin E."/>
+          <person name="Tice H."/>
+          <person name="Pitluck S."/>
+          <person name="Chain P."/>
+          <person name="Malfatti S."/>
+          <person name="Shin M."/>
+          <person name="Vergez L."/>
+          <person name="Schmutz J."/>
+          <person name="Larimer F."/>
+          <person name="Land M."/>
+          <person name="Hauser L."/>
+          <person name="Kyrpides N."/>
+          <person name="Kim E."/>
+          <person name="Meeks J.C."/>
+          <person name="Elhai J."/>
+          <person name="Campbell E.L."/>
+          <person name="Thiel T."/>
+          <person name="Longmire J."/>
+          <person name="Potts M."/>
+          <person name="Atlas R."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC 29133 / PCC 73102</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2008" first="6084" last="6096" name="J. Bacteriol." type="journal article" volume="190">
+        <title>Identification of sesquiterpene synthases from Nostoc punctiforme PCC 73102 and Nostoc sp. strain PCC 7120.</title>
+        <authorList>
+          <person name="Agger S.A."/>
+          <person name="Lopez-Gallego F."/>
+          <person name="Hoye T.R."/>
+          <person name="Schmidt-Dannert C."/>
+        </authorList>
+        <dbReference id="18658271" type="PubMed"/>
+        <dbReference id="10.1128/jb.00759-08" type="DOI"/>
+      </citation>
+      <scope>FUNCTION AS A GERMACRENE A SYNTHASE</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Catalyzes the cyclization of farnesyl diphosphate (FPP) to the sesquiterpene germacrene A.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = 5-epi-alpha-selinene + diphosphate</text>
+        <dbReference id="RHEA:31819" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:63445" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.90" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="2">3.4 uM for FPP (at pH 8)</KM>
+        <text>Kcat is 0.044 s(-1) with FPP as substrate (at pH 8).</text>
+      </kinetics>
+    </comment>
+    <comment type="domain">
+      <text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference id="4.2.3.90" type="EC"/>
+    <dbReference id="CP001037" type="EMBL">
+      <property type="protein sequence ID" value="ACC82216.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="WP_012410187.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NC_010628.1"/>
+    </dbReference>
+    <dbReference id="B2J4A4" type="SMR"/>
+    <dbReference id="63737.Npun_R3832" type="STRING"/>
+    <dbReference id="ACC82216" type="EnsemblBacteria">
+      <property type="protein sequence ID" value="ACC82216"/>
+      <property type="gene ID" value="Npun_R3832"/>
+    </dbReference>
+    <dbReference id="npu:Npun_R3832" type="KEGG"/>
+    <dbReference id="COG0664" type="eggNOG">
+      <property type="taxonomic scope" value="Bacteria"/>
+    </dbReference>
+    <dbReference id="CLU_042538_4_2_3" type="HOGENOM"/>
+    <dbReference id="HLVEYAH" type="OMA"/>
+    <dbReference id="1869158at2" type="OrthoDB"/>
+    <dbReference id="B2J4A4" type="PhylomeDB"/>
+    <dbReference id="UP000001191" type="Proteomes">
+      <property type="component" value="Chromosome"/>
+    </dbReference>
+    <dbReference id="GO:0034005" type="GO">
+      <property type="term" value="F:germacrene-A synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0051762" type="GO">
+      <property type="term" value="P:sesquiterpene biosynthetic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034686" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_2"/>
+    </dbReference>
+    <dbReference id="SFLDG01020" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="Germacrene A synthase" id="PRO_0000418841" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="323"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="82"/>
+        <end position="86"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="82"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="82"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="86"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="86"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="222"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="226"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="230"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="18658271" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <sequence checksum="910D85B8B7B53777" length="323" mass="38123" modified="2008-06-10" version="1">MNQLLCPGLYCPFPSQTNKYVDVLEEYSLEWVLRFNLLANESAYKRFCKSKFFFLAASAYPDSKFEELKITHDWLSWVFIWDDQCDLSELKKQPEVLNNFHQRYLEILNGAELTSQDTLFSHALIDLRKRTLQRASIKWFNYFISYLEDYFYGCVQEATNRAKGIVPDLDTYIMIRRSSVGVYAVLALSEFCNQFIIPDVLRNHHLVKKLELITTDIIAWSNDIFSASREIASGDVHNLIFVLHYHKKISLEKAIEQVVKIHNEEVHSLIKVESSLSFFSEELDVEITKYISGMHSWIRGNLDWCYESYRYHNLERLELTEFK</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

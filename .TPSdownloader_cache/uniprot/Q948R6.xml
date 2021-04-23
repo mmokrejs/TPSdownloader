@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2011-10-19" dataset="Swiss-Prot" modified="2021-04-07" version="60">
+    <accession>Q948R6</accession>
+    <name>IMFS_LUFAE</name>
+    <protein>
+      <recommendedName>
+        <fullName>Isomultiflorenol synthase</fullName>
+        <shortName>LcIMS1</shortName>
+        <ecNumber>5.4.99.36</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="primary">IMS1</name>
+    </gene>
+    <organism>
+      <name type="scientific">Luffa aegyptiaca</name>
+      <name type="common">Sponge gourd</name>
+      <name type="synonym">Luffa cylindrica</name>
+      <dbReference id="3670" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>fabids</taxon>
+        <taxon>Cucurbitales</taxon>
+        <taxon>Cucurbitaceae</taxon>
+        <taxon>Sicyoeae</taxon>
+        <taxon>Luffa</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2001" first="6311" last="6317" name="Eur. J. Biochem." type="journal article" volume="268">
+        <title>Molecular cloning and characterization of isomultiflorenol synthase, a new triterpene synthase from Luffa cylindrica, involved in biosynthesis of bryonolic acid.</title>
+        <authorList>
+          <person name="Hayashi H."/>
+          <person name="Huang P."/>
+          <person name="Inoue K."/>
+          <person name="Hiraoka N."/>
+          <person name="Ikeshiro Y."/>
+          <person name="Yazaki K."/>
+          <person name="Tanaka S."/>
+          <person name="Kushiro T."/>
+          <person name="Shibuya M."/>
+          <person name="Ebizuka Y."/>
+        </authorList>
+        <dbReference id="11733028" type="PubMed"/>
+        <dbReference id="10.1046/j.0014-2956.2001.02588.x" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>INDUCTION</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Oxidosqualene cyclase involved in the biosynthesis of bryonolic acid. Converts oxidosqualene to isomultiflorenol.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(S)-2,3-epoxysqualene = isomultiflorenol</text>
+        <dbReference id="RHEA:30451" type="Rhea"/>
+        <dbReference id="CHEBI:15441" type="ChEBI"/>
+        <dbReference id="CHEBI:62262" type="ChEBI"/>
+        <dbReference id="5.4.99.36" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="miscellaneous">
+      <text>In cultured cells, IMS1 mRNA expression is high between days 16 and 20 and precedes the accumulation of bryonolic acid.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene cyclase/mutase family.</text>
+    </comment>
+    <dbReference id="5.4.99.36" type="EC"/>
+    <dbReference id="AB058643" type="EMBL">
+      <property type="protein sequence ID" value="BAB68529.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="Q948R6" type="SMR"/>
+    <dbReference id="ag:BAB68529" type="KEGG"/>
+    <dbReference id="5.4.99.36" type="BRENDA">
+      <property type="organism ID" value="3083"/>
+    </dbReference>
+    <dbReference id="GO:0005811" type="GO">
+      <property type="term" value="C:lipid droplet"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0042300" type="GO">
+      <property type="term" value="F:beta-amyrin synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0000250" type="GO">
+      <property type="term" value="F:lanosterol synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016104" type="GO">
+      <property type="term" value="P:triterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="cd02892" type="CDD">
+      <property type="entry name" value="SQCY_1"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR032696" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_C"/>
+    </dbReference>
+    <dbReference id="IPR032697" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_N"/>
+    </dbReference>
+    <dbReference id="IPR018333" type="InterPro">
+      <property type="entry name" value="Squalene_cyclase"/>
+    </dbReference>
+    <dbReference id="IPR002365" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_CS"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF13243" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF13249" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01016" type="SFLD">
+      <property type="entry name" value="Prenyltransferase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="TIGR01787" type="TIGRFAMs">
+      <property type="entry name" value="squalene_cyclas"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PS01074" type="PROSITE">
+      <property type="entry name" value="TERPENE_SYNTHASES"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0677">Repeat</keyword>
+    <feature description="Isomultiflorenol synthase" id="PRO_0000412991" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="759"/>
+      </location>
+    </feature>
+    <feature description="PFTB 1" type="repeat">
+      <location>
+        <begin position="148"/>
+        <end position="189"/>
+      </location>
+    </feature>
+    <feature description="PFTB 2" type="repeat">
+      <location>
+        <begin position="588"/>
+        <end position="628"/>
+      </location>
+    </feature>
+    <feature description="PFTB 3" type="repeat">
+      <location>
+        <begin position="637"/>
+        <end position="678"/>
+      </location>
+    </feature>
+    <feature description="PFTB 4" type="repeat">
+      <location>
+        <begin position="699"/>
+        <end position="743"/>
+      </location>
+    </feature>
+    <feature description="Proton donor" evidence="1" type="active site">
+      <location>
+        <position position="482"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="P48449" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="11733028" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <sequence checksum="8215E88FB3A43359" length="759" mass="87840" modified="2001-12-01" version="1">MWRLKVADGGNDPYIYSMNNFIGRQIWEFDPNAGTPEERAEIERLRHHFTKNRHKGFPSADLLWRVQLLREKNFKQSIPAVKVGDGEEISYEMALDAMRRGAHFLAAIQASDGHWPSETSGPLFYVCPLLICMYIMGFMDKVFSPEHKKEMMRYIYNHQNEDGGWGLHVGGHSNMFCTTFNYISLRLLGEEPDVEAVCKARNWIHDHDGVTSILSWGKTWLSILNVFDWSASNPMPPEYWMLPTWVPIHPSNMMCYTRITYMPMSYLYGKRFQAPLTPLVLQLRDELHTQPYDQINWRKVRHMCATEDLYFPHPFVQDLLWDTLYLLSEPLMTRWPFNKLIRQKALNETMRHIHYEDENSRYITIGCVEKPLCMLACWVEDPNSEYVKKHLARIPDYLWMAEDGMKMQSFGSQSWDAALAMQALLSCNITREIGSVLNSGHDFIKNSQVRNNPPGDYKSMFRYMSKGSWTFSDCDHGWQVSDCTAENLKCCLLLSLLPPDIVGEKMEPERFYDAVNVILNMQSKNGGLPAWEPASSYYWMEWLNPVEFLEDLIIEHQHVECTSSALQAILLFRKQYPGHRRKEINNFINKAVQFLQDIQLPDGSWYGNWGICYTYGTWFALKALSMAGKTYENCEAVRKGANFLRKIQNPEGGFGESYLSCPYKRYIPLDGKRSNLVQTAWGMMGLICAGQADVDPTPIHRAAKLLINSQTEDGDFPQEEITGEFFKNCTLHFAAFREVFPVMALGEYCNKVPLPSKKK</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

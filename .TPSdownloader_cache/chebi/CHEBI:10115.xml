@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:10115</ID>
+<NAME>zingiberene</NAME>
+<DEFINITION>2-Methylcyclohexa-1,3-diene in which a hydrogen at the 5 position is substituted (R configuration) by a 6-methyl-hept-5-en-2-yl group (S configuration). It is a sesquiterpene found in the dried rhizomes of Indonesian ginger, Zingiber officinale.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>alpha-zingiberene</SYNONYM>
+<SYNONYM>alpha-Zingiberene</SYNONYM>
+<SYNONYM>Alpha-zingiberene</SYNONYM>
+<SYNONYM>(5R)-5-[(1S)-1,5-dimethyl-4-hexenyl]-2-methyl-1,3-cyclohexadiene</SYNONYM>
+<SYNONYM>(-)-zingiberene</SYNONYM>
+<SYNONYM>(-)-alpha-zingiberene</SYNONYM>
+<IUPAC_NAME>(5R)-2-methyl-5-[(2S)-6-methylhept-5-en-2-yl]cyclohexa-1,3-diene</IUPAC_NAME>
+<FORMULA>C15H24</FORMULA>
+<MASS>204.35110</MASS>
+<MONOISOTOPIC_MASS>204.18780</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@@]1(CC=C(C)C=C1)[C@@H](C)CCC=C(C)C</SMILES>
+<INCHI>InChI=1S/C15H24/c1-12(2)6-5-7-14(4)15-10-8-13(3)9-11-15/h6,8-10,14-15H,5,7,11H2,1-4H3/t14-,15+/m0/s1</INCHI>
+<INCHIKEY>KKOXKGNSUHTUBV-LSDHHAIUSA-N</INCHIKEY>
+<BEILSTEIN_REGISTRY_NUMBER>2554989</BEILSTEIN_REGISTRY_NUMBER>
+<CAS_REGISTRY_NUMBER>495-60-3</CAS_REGISTRY_NUMBER>
+<CHEMIDPLUS>495-60-3</CHEMIDPLUS>
+<KEGG_COMPOUND_ACCESSION>C09750</KEGG_COMPOUND_ACCESSION>
+<KNAPSACK_ACCESSION>C00003204</KNAPSACK_ACCESSION>
+</ENTRY>
+</TABLE>

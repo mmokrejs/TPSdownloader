@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2012-02-22" modified="2021-04-07" version="33">
+<accession>B2DBF0</accession>
+<name>PADC1_PHOAM</name>
+<protein>
+<recommendedName>
+<fullName>Phyllocladan-16-alpha-ol synthase</fullName>
+<ecNumber>4.2.3.45</ecNumber>
+<ecNumber>5.5.1.12</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">PaDC1</name>
+</gene>
+<organism>
+<name type="scientific">Phomopsis amygdali</name>
+<name type="synonym">Fusicoccum amygdali</name>
+<dbReference type="NCBI Taxonomy" id="1214568"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Sordariomycetes</taxon>
+<taxon>Sordariomycetidae</taxon>
+<taxon>Diaporthales</taxon>
+<taxon>Diaporthaceae</taxon>
+<taxon>Diaporthe</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2008" name="Biosci. Biotechnol. Biochem." volume="72" first="1038" last="1047">
+<title>Identification of diterpene biosynthetic gene clusters and functional analysis of labdane-related diterpene cyclases in Phomopsis amygdali.</title>
+<authorList>
+<person name="Toyomasu T."/>
+<person name="Niida R."/>
+<person name="Kenmoku H."/>
+<person name="Kanno Y."/>
+<person name="Miura S."/>
+<person name="Nakano C."/>
+<person name="Shiono Y."/>
+<person name="Mitsuhashi W."/>
+<person name="Toshima H."/>
+<person name="Oikawa H."/>
+<person name="Hoshino T."/>
+<person name="Dairi T."/>
+<person name="Kato N."/>
+<person name="Sassa T."/>
+</authorList>
+<dbReference type="PubMed" id="18391465"/>
+<dbReference type="DOI" id="10.1271/bbb.70790"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>DOMAIN</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<source>
+<strain>N2</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="3">Involved in the synthesis of labdane-related hydrocarbons by catalyzing the conversion of geranylgeranyl diphosphate (GGDP) to phyllocladan-16-alpha-ol in a two step via type B cyclization into a (+)-copalyl diphosphate ((+)-CDP) intermediate.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>(2E,6E,10E)-geranylgeranyl diphosphate = (+)-copalyl diphosphate</text>
+<dbReference type="Rhea" id="RHEA:24316"/>
+<dbReference type="ChEBI" id="CHEBI:58635"/>
+<dbReference type="ChEBI" id="CHEBI:58756"/>
+<dbReference type="EC" id="5.5.1.12"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>(+)-copalyl diphosphate + H2O = diphosphate + phyllocladan-16alpha-ol</text>
+<dbReference type="Rhea" id="RHEA:26430"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:53643"/>
+<dbReference type="ChEBI" id="CHEBI:58635"/>
+<dbReference type="EC" id="4.2.3.45"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="domain">
+<text evidence="3">The DXDD and DEXXE motifs are important for the catalytic activity.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.45"/>
+<dbReference type="EC" id="5.5.1.12"/>
+<dbReference type="EMBL" id="AB252834">
+<property type="protein sequence ID" value="BAG30961.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="KEGG" id="ag:BAG30961"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-15022"/>
+<dbReference type="BRENDA" id="4.2.3.45">
+<property type="organism ID" value="10693"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016838">
+<property type="term" value="F:carbon-oxygen lyase activity, acting on phosphates"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050559">
+<property type="term" value="F:copalyl diphosphate synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017057">
+<property type="entry name" value="Ent-kaurene_synthase_fun"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF036498">
+<property type="entry name" value="Ent-kaurene_synthase_fungi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0413">Isomerase</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<feature type="chain" description="Phyllocladan-16-alpha-ol synthase" id="PRO_0000415666">
+<location>
+<begin position="1"/>
+<end position="1004"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DXDD motif">
+<location>
+<begin position="321"/>
+<end position="324"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DEXXE motif">
+<location>
+<begin position="667"/>
+<end position="671"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 4" evidence="2">
+<location>
+<position position="321"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 4" evidence="2">
+<location>
+<position position="323"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="667"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="667"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="671"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="671"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="872"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="876"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="880"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="C7BKP9"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18391465"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="1004" mass="112836" checksum="78D85416DEC79A5E" modified="2008-06-10" version="1">MTIMDIDDHSRLRDLAVSLIRQAAEGYSPKYGYGSMSCAAYDTAWVSLVAKPFNGIKKWLFPQSFKFLLENQENDGSWGRQTSPVDRILNTAAPLLSLQRHAREPLQLHDVCEDGDLDDRIHRATLSLQRQLSDWDIASTAHVGFEIIVPALLNLLAAEGLCFSFKAQDELMKVNAAKLKRFDPEVLLYGKHKTTLLHSLEAFVGIIDFDKVVHHKVGGSFMASPSATAAYLMNASCWDDEAEDYIKNVLVNGSGRGHGAVPSAYPSSNFEYSWLLSTLLHAGFTAKDIECPELCDVAGMLENSFIEGQGTIGFARSISSDADDTAKAAFALNKLGYDVSVNEMVKEFEVKNHFQTYPSERDASLSANCNTLLALLHQKQVGAYQPQILKCVKFLTRCWWNTDGPIRDKWNQSHLYSTMLMVQALTEFQAILDQKGLPYGLNTVEMARVSICLFQGCLRTMLQQCEDGSWSHSREQTAYAVLTLGQARRLSTFKHLQSQIDSAIDQAATFIRLHSVDLAQQSLPEFIWTEKVSYTSPLVTEAYCLAALKVATSLVDNPGIVGESLDLGIPSRQRIDKYIWLFHQTPLFRSLPEWQLRASFIEGHLFLPIVNEHRLDVFPRKNMDPDDDYIRLIPFTWTATNNRNFTFASPAWLYDMIMVSVVDYQADEFMEAVAGLTFSEDLSMLVGLIQEVLTPYKTEPASPVTSLIDMSSVQCPRAKLSNIASGDIEEVRTCLRRFASFFLDHPAVRNAQRDDRATAWREVHNYLVAHVRHTQDNMRLNLQEQRRWYVSRNMPYFHWVRSNDDIACPITFGFVTCLVPYLVANPTVERAVIGNESESIVTSSDVSFDSVESKYYADDVCRHITNVTRIYNDCGSVVRDATEKNLNSVNFPEFAVTASGSEKQALRAMGEYERACCQAAFQRLEEASLQTATTEAERAKRRRRLDVWKVFLDTADPYGQIYVVRDFTARSVHVRETGIASTAKDVPLVSSSVPLVGGGPMLVT</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

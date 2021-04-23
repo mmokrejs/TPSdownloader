@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2020-06-17" modified="2020-12-02" version="30">
+<accession>U3KYL2</accession>
+<name>DS_VALOF</name>
+<protein>
+<recommendedName>
+<fullName evidence="3">(-)-drimenol synthase</fullName>
+<shortName evidence="3">VoDMS</shortName>
+<ecNumber evidence="2">4.2.3.194</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="4">Drimenol cyclase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="3">Sesquiterpene synthase 3</fullName>
+<shortName evidence="3">VoTPS3</shortName>
+</alternativeName>
+</protein>
+<organism>
+<name type="scientific">Valeriana officinalis</name>
+<name type="common">Valerian</name>
+<name type="synonym">Garden heliotrope</name>
+<dbReference type="NCBI Taxonomy" id="19953"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>campanulids</taxon>
+<taxon>Dipsacales</taxon>
+<taxon>Caprifoliaceae</taxon>
+<taxon>Valeriana</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2014" name="FEBS Lett." volume="588" first="4597" last="4603">
+<title>Molecular cloning and characterization of drimenol synthase from valerian plant (Valeriana officinalis).</title>
+<authorList>
+<person name="Kwon M."/>
+<person name="Cochrane S.A."/>
+<person name="Vederas J.C."/>
+<person name="Ro D.K."/>
+</authorList>
+<dbReference type="PubMed" id="25447532"/>
+<dbReference type="DOI" id="10.1016/j.febslet.2014.10.031"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>MUTAGENESIS OF ASP-307</scope>
+</reference>
+<comment type="function">
+<text evidence="2 5">Catalyzes the conversion of (2E,6E)-farnesyl diphosphate (FPP) into drimenol, a precursor of the sesquiterpenoid polygodial (PubMed:25447532). Polygodial has been shown to be an antifeedant for a number of herbivorous insects (Probable).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate + H2O = (5S,9S,10S)-drim-7-en-11-ol + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:28290"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:61148"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.194"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="2">
+<dbReference type="Rhea" id="RHEA:28291"/>
+</physiologicalReaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2">9.6 uM for (2E,6E)-farnesyl diphosphate</KM>
+<text evidence="2">kcat is 0.025 sec (-1) with (2E,6E)-farnesyl diphosphate as substrate.</text>
+</kinetics>
+</comment>
+<comment type="pathway" evidence="4">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="domain">
+<text evidence="2">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.194" evidence="2"/>
+<dbReference type="EMBL" id="JQ437841">
+<property type="protein sequence ID" value="AFR42419.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="U3KYL2"/>
+<dbReference type="KEGG" id="ag:AFR42419"/>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<feature type="chain" description="(-)-drimenol synthase" id="PRO_0000449920">
+<location>
+<begin position="1"/>
+<end position="556"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif" evidence="4">
+<location>
+<begin position="307"/>
+<end position="311"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="307"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="307"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="311"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="311"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="453"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="457"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="461"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of catalytic activity." evidence="2">
+<original>D</original>
+<variation>A</variation>
+<location>
+<position position="307"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q40577"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="25447532"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="25447532"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<evidence key="5" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="25447532"/>
+</source>
+</evidence>
+<sequence length="556" mass="64840" checksum="DA227AFBBEF28A24" modified="2013-12-11" version="1">MSTALNSEHETVRPLASFQPSTWGDLFISYSEDSQLKEVYGKEHECLKQQVKTMLLDVTNYRISEKIAFINTLERLGVSHEFENEIEGLLHQMFDAHSKFQDGIQHFDLFTLGIYFRILRQHGYRIYCDVFNKLKDSNNEFKKELKEDAIGLLSLYEATQVRAHAEEILDEALIFTKAQLESIAATSSLSPFVEKQITHALVQALHKGIPRVESRHFISVYEEDPDKNDLLLRFSKIDYNIVQMLHKQELCHISKWWRDSELETKLTYARNRVAECFLWTLCVYHEPKYSPARLLLGKLINIISCTDDTYDAYGTLEEVQIFTDVIQRLDRSSMEQLPDYMKILYKAVLDLFDEVEVQLSNQETNNTYRMAYAKEELKAIAKCYEKEHIWFRKCHVPPFEEYLENAVVSIGNRLAVTFSFLGMDQVAAVEAFEWAKTDPKMVKSCGKVLRLVDDVMSHEEEDVRGHVATGVECYMKEHGVSREEAVVEFYKRVEYAWKDVNEEFITPNHLHIDLLNRVLNLTRIADVVYKFEDGYTHPEKTLKHHIMALFVDPVPI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

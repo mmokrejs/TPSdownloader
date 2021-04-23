@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2011-01-11" modified="2020-08-12" version="109">
+<accession>Q9LRR2</accession>
+<name>TPS17_ARATH</name>
+<protein>
+<recommendedName>
+<fullName>Terpenoid synthase 17</fullName>
+<shortName>AtTPS17</shortName>
+<ecNumber>4.2.3.-</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">TPS17</name>
+<name type="ordered locus">At3g14490</name>
+<name type="ORF">MOA2.12</name>
+</gene>
+<organism>
+<name type="scientific">Arabidopsis thaliana</name>
+<name type="common">Mouse-ear cress</name>
+<dbReference type="NCBI Taxonomy" id="3702"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>malvids</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+<taxon>Camelineae</taxon>
+<taxon>Arabidopsis</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2000" name="DNA Res." volume="7" first="131" last="135">
+<title>Structural analysis of Arabidopsis thaliana chromosome 3. I. Sequence features of the regions of 4,504,864 bp covered by sixty P1 and TAC clones.</title>
+<authorList>
+<person name="Sato S."/>
+<person name="Nakamura Y."/>
+<person name="Kaneko T."/>
+<person name="Katoh T."/>
+<person name="Asamizu E."/>
+<person name="Tabata S."/>
+</authorList>
+<dbReference type="PubMed" id="10819329"/>
+<dbReference type="DOI" id="10.1093/dnares/7.2.131"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>cv. Columbia</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2017" name="Plant J." volume="89" first="789" last="804">
+<title>Araport11: a complete reannotation of the Arabidopsis thaliana reference genome.</title>
+<authorList>
+<person name="Cheng C.Y."/>
+<person name="Krishnakumar V."/>
+<person name="Chan A.P."/>
+<person name="Thibaud-Nissen F."/>
+<person name="Schobel S."/>
+<person name="Town C.D."/>
+</authorList>
+<dbReference type="PubMed" id="27862469"/>
+<dbReference type="DOI" id="10.1111/tpj.13415"/>
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain>cv. Columbia</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2002" name="Mol. Genet. Genomics" volume="267" first="730" last="745">
+<title>Genomic analysis of the terpenoid synthase (AtTPS) gene family of Arabidopsis thaliana.</title>
+<authorList>
+<person name="Aubourg S."/>
+<person name="Lecharny A."/>
+<person name="Bohlmann J."/>
+</authorList>
+<dbReference type="PubMed" id="12207221"/>
+<dbReference type="DOI" id="10.1007/s00438-002-0709-y"/>
+</citation>
+<scope>GENE FAMILY</scope>
+<scope>NOMENCLATURE</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2003" name="Plant Cell" volume="15" first="481" last="494">
+<title>Biosynthesis and emission of terpenoid volatiles from Arabidopsis flowers.</title>
+<authorList>
+<person name="Chen F."/>
+<person name="Tholl D."/>
+<person name="D'Auria J.C."/>
+<person name="Farooq A."/>
+<person name="Pichersky E."/>
+<person name="Gershenzon J."/>
+</authorList>
+<dbReference type="PubMed" id="12566586"/>
+<dbReference type="DOI" id="10.1105/tpc.007989"/>
+</citation>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2003" name="Plant Mol. Biol." volume="51" first="925" last="948">
+<title>Genome organization in Arabidopsis thaliana: a survey for genes involved in isoprenoid and chlorophyll metabolism.</title>
+<authorList>
+<person name="Lange B.M."/>
+<person name="Ghassemian M."/>
+</authorList>
+<dbReference type="PubMed" id="12777052"/>
+<dbReference type="DOI" id="10.1023/a:1023005504702"/>
+</citation>
+<scope>GENE FAMILY</scope>
+</reference>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<cofactor evidence="1">
+<name>Mn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29035"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+</comment>
+<comment type="pathway">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="2">Expressed exclusively in flowers.</text>
+</comment>
+<comment type="domain">
+<text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the terpene synthase family. Tpsa subfamily.</text>
+</comment>
+<comment type="sequence caution" evidence="3">
+<conflict type="erroneous gene model prediction">
+<sequence resource="EMBL-CDS" id="BAB01341" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EC" id="4.2.3.-"/>
+<dbReference type="EMBL" id="AB028617">
+<property type="protein sequence ID" value="BAB01341.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CP002686">
+<property type="protein sequence ID" value="AEE75532.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_188067.1">
+<property type="nucleotide sequence ID" value="NM_112309.2"/>
+</dbReference>
+<dbReference type="SMR" id="Q9LRR2"/>
+<dbReference type="STRING" id="3702.AT3G14490.1"/>
+<dbReference type="PaxDb" id="Q9LRR2"/>
+<dbReference type="PRIDE" id="Q9LRR2"/>
+<dbReference type="ProteomicsDB" id="228329"/>
+<dbReference type="EnsemblPlants" id="AT3G14490.1">
+<property type="protein sequence ID" value="AT3G14490.1"/>
+<property type="gene ID" value="AT3G14490"/>
+</dbReference>
+<dbReference type="GeneID" id="820672"/>
+<dbReference type="Gramene" id="AT3G14490.1">
+<property type="protein sequence ID" value="AT3G14490.1"/>
+<property type="gene ID" value="AT3G14490"/>
+</dbReference>
+<dbReference type="KEGG" id="ath:AT3G14490"/>
+<dbReference type="Araport" id="AT3G14490"/>
+<dbReference type="TAIR" id="locus:2091687">
+<property type="gene designation" value="AT3G14490"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG502QUCN">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_003125_7_2_1"/>
+<dbReference type="InParanoid" id="Q9LRR2"/>
+<dbReference type="OMA" id="RLRGYYM"/>
+<dbReference type="OrthoDB" id="360509at2759"/>
+<dbReference type="PhylomeDB" id="Q9LRR2"/>
+<dbReference type="BioCyc" id="ARA:AT3G14490-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="PRO" id="PR:Q9LRR2"/>
+<dbReference type="Proteomes" id="UP000006548">
+<property type="component" value="Chromosome 3"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="Q9LRR2">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q9LRR2">
+<property type="organism ID" value="AT"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009975">
+<property type="term" value="F:cyclase activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051762">
+<property type="term" value="P:sesquiterpene biosynthetic process"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0464">Manganese</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Terpenoid synthase 17" id="PRO_0000403708">
+<location>
+<begin position="1"/>
+<end position="601"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif; degenerate">
+<location>
+<begin position="354"/>
+<end position="358"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="354"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="354"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="358"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="358"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="1">
+<location>
+<position position="497"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="1">
+<location>
+<position position="501"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="1">
+<location>
+<position position="505"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12566586"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="601" mass="70179" checksum="F8382AFBB22CE84B" modified="2011-01-11" version="2">MEATRTSFGLHNAPLCPTTNPSLFPRRWLHKHTLSLKPAKQHHLVCVRATESNDNLESSRPLAHFSPTLWGDHFLSVPLHVAEFDDFSREIEVTMKPKVRDMLKSSKNSDNERIRLIHLLMNLGIAYHFEIEIDEILGQAFGNLDDIIAKENDLETISTMFEVFRLRGYYMPCYAFNRFKGEDGRFKESLAEDIRGMLQLYEAAHLGTPSEDIMDEALSFTRYRLESLTSNHTATASPHLSKHIQNALYRARYHNLEILVAREYISFYEQEEDHDETLLKFAKLNFNYCQLHYIQELKDLTKWWKELDLASKLPYIRDRIVEVYFGALALYFEPRYSLGRIIVTKITMIVTVFNDTCDAYGTLPEVTSLVDSFQRWDLGDIEKLPSYVKIVFRGVFETLEEIEQEMRPQGRSRIVQVAVDEIKKLGKAYLAISKWARASHVPTFEEYMEFGMQTSMDHFAAYSFIAMEDCDENQTCEWYKSRPKMMEALNGVFRIKNDINTFEQEMSRGEVAKGLNCYMKQHGVSKEEAIGEMNKIYSNYYKIIMEEYLTTTAVPRPILVRCLNVSRPIHHFYKERDEFTDPYFGMLKEVITSLFIHPIPL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2008-04-08" dataset="Swiss-Prot" modified="2021-04-07" version="95">
+    <accession>Q55D85</accession>
+    <accession>Q9NDE9</accession>
+    <name>CAS1_DICDI</name>
+    <protein>
+      <recommendedName>
+        <fullName>Cycloartenol synthase</fullName>
+        <ecNumber>5.4.99.8</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName>2,3-epoxysqualene--cycloartenol cyclase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName>Oxidosqualene cyclase</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name type="primary">cas1</name>
+      <name type="ORF">DDB_G0269226</name>
+    </gene>
+    <organism>
+      <name type="scientific">Dictyostelium discoideum</name>
+      <name type="common">Slime mold</name>
+      <dbReference id="44689" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Amoebozoa</taxon>
+        <taxon>Evosea</taxon>
+        <taxon>Eumycetozoa</taxon>
+        <taxon>Dictyostelia</taxon>
+        <taxon>Dictyosteliales</taxon>
+        <taxon>Dictyosteliaceae</taxon>
+        <taxon>Dictyostelium</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2000" first="249" last="255" name="Lipids" type="journal article" volume="35">
+        <title>Cloning and characterization of the Dictyostelium discoideum cycloartenol synthase cDNA.</title>
+        <authorList>
+          <person name="Godzina S.M."/>
+          <person name="Lovato M.A."/>
+          <person name="Meyer M.M."/>
+          <person name="Foster K.A."/>
+          <person name="Wilson W.K."/>
+          <person name="Gu W."/>
+          <person name="de Hostos E.L."/>
+          <person name="Matsuda S.P.T."/>
+        </authorList>
+        <dbReference id="10783001" type="PubMed"/>
+        <dbReference id="10.1007/s11745-000-0520-3" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+    </reference>
+    <reference key="2">
+      <citation date="2005" first="43" last="57" name="Nature" type="journal article" volume="435">
+        <title>The genome of the social amoeba Dictyostelium discoideum.</title>
+        <authorList>
+          <person name="Eichinger L."/>
+          <person name="Pachebat J.A."/>
+          <person name="Gloeckner G."/>
+          <person name="Rajandream M.A."/>
+          <person name="Sucgang R."/>
+          <person name="Berriman M."/>
+          <person name="Song J."/>
+          <person name="Olsen R."/>
+          <person name="Szafranski K."/>
+          <person name="Xu Q."/>
+          <person name="Tunggal B."/>
+          <person name="Kummerfeld S."/>
+          <person name="Madera M."/>
+          <person name="Konfortov B.A."/>
+          <person name="Rivero F."/>
+          <person name="Bankier A.T."/>
+          <person name="Lehmann R."/>
+          <person name="Hamlin N."/>
+          <person name="Davies R."/>
+          <person name="Gaudet P."/>
+          <person name="Fey P."/>
+          <person name="Pilcher K."/>
+          <person name="Chen G."/>
+          <person name="Saunders D."/>
+          <person name="Sodergren E.J."/>
+          <person name="Davis P."/>
+          <person name="Kerhornou A."/>
+          <person name="Nie X."/>
+          <person name="Hall N."/>
+          <person name="Anjard C."/>
+          <person name="Hemphill L."/>
+          <person name="Bason N."/>
+          <person name="Farbrother P."/>
+          <person name="Desany B."/>
+          <person name="Just E."/>
+          <person name="Morio T."/>
+          <person name="Rost R."/>
+          <person name="Churcher C.M."/>
+          <person name="Cooper J."/>
+          <person name="Haydock S."/>
+          <person name="van Driessche N."/>
+          <person name="Cronin A."/>
+          <person name="Goodhead I."/>
+          <person name="Muzny D.M."/>
+          <person name="Mourier T."/>
+          <person name="Pain A."/>
+          <person name="Lu M."/>
+          <person name="Harper D."/>
+          <person name="Lindsay R."/>
+          <person name="Hauser H."/>
+          <person name="James K.D."/>
+          <person name="Quiles M."/>
+          <person name="Madan Babu M."/>
+          <person name="Saito T."/>
+          <person name="Buchrieser C."/>
+          <person name="Wardroper A."/>
+          <person name="Felder M."/>
+          <person name="Thangavelu M."/>
+          <person name="Johnson D."/>
+          <person name="Knights A."/>
+          <person name="Loulseged H."/>
+          <person name="Mungall K.L."/>
+          <person name="Oliver K."/>
+          <person name="Price C."/>
+          <person name="Quail M.A."/>
+          <person name="Urushihara H."/>
+          <person name="Hernandez J."/>
+          <person name="Rabbinowitsch E."/>
+          <person name="Steffen D."/>
+          <person name="Sanders M."/>
+          <person name="Ma J."/>
+          <person name="Kohara Y."/>
+          <person name="Sharp S."/>
+          <person name="Simmonds M.N."/>
+          <person name="Spiegler S."/>
+          <person name="Tivey A."/>
+          <person name="Sugano S."/>
+          <person name="White B."/>
+          <person name="Walker D."/>
+          <person name="Woodward J.R."/>
+          <person name="Winckler T."/>
+          <person name="Tanaka Y."/>
+          <person name="Shaulsky G."/>
+          <person name="Schleicher M."/>
+          <person name="Weinstock G.M."/>
+          <person name="Rosenthal A."/>
+          <person name="Cox E.C."/>
+          <person name="Chisholm R.L."/>
+          <person name="Gibbs R.A."/>
+          <person name="Loomis W.F."/>
+          <person name="Platzer M."/>
+          <person name="Kay R.R."/>
+          <person name="Williams J.G."/>
+          <person name="Dear P.H."/>
+          <person name="Noegel A.A."/>
+          <person name="Barrell B.G."/>
+          <person name="Kuspa A."/>
+        </authorList>
+        <dbReference id="15875012" type="PubMed"/>
+        <dbReference id="10.1038/nature03481" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>AX4</strain>
+      </source>
+    </reference>
+    <comment type="function">
+      <text>Converts oxidosqualene to cycloartenol (in vitro).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(S)-2,3-epoxysqualene = cycloartenol</text>
+        <dbReference id="RHEA:21308" type="Rhea"/>
+        <dbReference id="CHEBI:15441" type="ChEBI"/>
+        <dbReference id="CHEBI:17030" type="ChEBI"/>
+        <dbReference id="5.4.99.8" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene cyclase/mutase family.</text>
+    </comment>
+    <comment evidence="3" type="sequence caution">
+      <conflict type="erroneous initiation">
+        <sequence id="AAF80384" resource="EMBL-CDS" version="1"/>
+      </conflict>
+    </comment>
+    <dbReference id="5.4.99.8" type="EC"/>
+    <dbReference id="AF159949" type="EMBL">
+      <property type="protein sequence ID" value="AAF80384.1"/>
+      <property type="status" value="ALT_INIT"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AAFI02000005" type="EMBL">
+      <property type="protein sequence ID" value="EAL71963.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="XP_646246.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="XM_641154.1"/>
+    </dbReference>
+    <dbReference id="Q55D85" type="SMR"/>
+    <dbReference id="44689.DDB0191311" type="STRING"/>
+    <dbReference id="Q55D85" type="PaxDb"/>
+    <dbReference id="EAL71963" type="EnsemblProtists">
+      <property type="protein sequence ID" value="EAL71963"/>
+      <property type="gene ID" value="DDB_G0269226"/>
+    </dbReference>
+    <dbReference id="8617202" type="GeneID"/>
+    <dbReference id="ddi:DDB_G0269226" type="KEGG"/>
+    <dbReference id="DDB_G0269226" type="dictyBase">
+      <property type="gene designation" value="cas1"/>
+    </dbReference>
+    <dbReference id="KOG0497" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="CLU_009074_2_1_1" type="HOGENOM"/>
+    <dbReference id="Q55D85" type="InParanoid"/>
+    <dbReference id="CWARQTI" type="OMA"/>
+    <dbReference id="Q55D85" type="PhylomeDB"/>
+    <dbReference id="R-DDI-191273" type="Reactome">
+      <property type="pathway name" value="Cholesterol biosynthesis"/>
+    </dbReference>
+    <dbReference id="PR:Q55D85" type="PRO"/>
+    <dbReference id="UP000002195" type="Proteomes">
+      <property type="component" value="Chromosome 1"/>
+    </dbReference>
+    <dbReference id="UP000002195" type="Proteomes">
+      <property type="component" value="Unassembled WGS sequence"/>
+    </dbReference>
+    <dbReference id="GO:0005811" type="GO">
+      <property type="term" value="C:lipid droplet"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0042300" type="GO">
+      <property type="term" value="F:beta-amyrin synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016871" type="GO">
+      <property type="term" value="F:cycloartenol synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="dictyBase"/>
+    </dbReference>
+    <dbReference id="GO:0000250" type="GO">
+      <property type="term" value="F:lanosterol synthase activity"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0006695" type="GO">
+      <property type="term" value="P:cholesterol biosynthetic process"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0016126" type="GO">
+      <property type="term" value="P:sterol biosynthetic process"/>
+      <property type="evidence" value="ECO:0000304"/>
+      <property type="project" value="dictyBase"/>
+    </dbReference>
+    <dbReference id="GO:0016104" type="GO">
+      <property type="term" value="P:triterpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="cd02892" type="CDD">
+      <property type="entry name" value="SQCY_1"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR032696" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_C"/>
+    </dbReference>
+    <dbReference id="IPR032697" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_N"/>
+    </dbReference>
+    <dbReference id="IPR018333" type="InterPro">
+      <property type="entry name" value="Squalene_cyclase"/>
+    </dbReference>
+    <dbReference id="IPR002365" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_CS"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF13243" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF13249" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01016" type="SFLD">
+      <property type="entry name" value="Prenyltransferase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="TIGR01787" type="TIGRFAMs">
+      <property type="entry name" value="squalene_cyclas"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PS01074" type="PROSITE">
+      <property type="entry name" value="TERPENE_SYNTHASES"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0444">Lipid biosynthesis</keyword>
+    <keyword id="KW-0443">Lipid metabolism</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0677">Repeat</keyword>
+    <keyword id="KW-0752">Steroid biosynthesis</keyword>
+    <feature description="Cycloartenol synthase" id="PRO_0000327386" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="703"/>
+      </location>
+    </feature>
+    <feature description="PFTB 1" type="repeat">
+      <location>
+        <begin position="59"/>
+        <end position="103"/>
+      </location>
+    </feature>
+    <feature description="PFTB 2" type="repeat">
+      <location>
+        <begin position="106"/>
+        <end position="148"/>
+      </location>
+    </feature>
+    <feature description="PFTB 3" type="repeat">
+      <location>
+        <begin position="461"/>
+        <end position="503"/>
+      </location>
+    </feature>
+    <feature description="PFTB 4" type="repeat">
+      <location>
+        <begin position="539"/>
+        <end position="579"/>
+      </location>
+    </feature>
+    <feature description="PFTB 5" type="repeat">
+      <location>
+        <begin position="587"/>
+        <end position="628"/>
+      </location>
+    </feature>
+    <feature description="PFTB 6" type="repeat">
+      <location>
+        <begin position="645"/>
+        <end position="686"/>
+      </location>
+    </feature>
+    <feature description="Proton donor" evidence="1" type="active site">
+      <location>
+        <position position="435"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="P48449" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="10783001" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <sequence checksum="C50F9F28056CA56B" length="703" mass="80763" modified="2005-05-24" version="1">MTTTNWSLKVDRGRQTWEYSQEKKEATDVDIHLLRLKEPGTHCPEGCDLNRAKTPQQAIKKAFQYFSKVQTEDGHWAGDYGGPMFLLPGLVITCYVTGYQLPESTQREIIRYLFNRQNPVDGGWGLHIEAHSDIFGTTLQYVSLRLLGVPADHPSVVKARTFLLQNGGATGIPSWGKFWLATLNAYDWNGLNPIPIEFWLLPYNLPIAPGRWWCHCRMVYLPMSYIYAKKTTGPLTDLVKDLRREIYCQEYEKINWSEQRNNISKLDMYYEHTSLLNVINGSLNAYEKVHSKWLRDKAIDYTFDHIRYEDEQTKYIDIGPVNKTVNMLCVWDREGKSPAFYKHADRLKDYLWLSFDGMKMQGYNGSQLWDTAFTIQAFMESGIANQFQDCMKLAGHYLDISQVPEDARDMKHYHRHYSKGAWPFSTVDHGWPISDCTAEGIKSALALRSLPFIEPISLDRIADGINVLLTLQNGDGGWASYENTRGPKWLEKFNPSEVFQNIMIDYSYVECSAACIQAMSAFRKHAPNHPRIKEINRSIARGVKFIKSIQRQDGSWLGSWGICFTYGTWFGIEGLVASGEPLTSPSIVKACKFLASKQRADGGWGESFKSNVTKEYVQHETSQVVNTGWALLSLMSAKYPDRECIERGIKFLIQRQYPNGDFPQESIIGVFNFNCMISYSNYKNIFPLWALSRYNQLYLKSKI</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

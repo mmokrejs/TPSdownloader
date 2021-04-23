@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2004-10-11" dataset="TrEMBL" modified="2021-04-07" version="68">
+    <accession>Q66PX8</accession>
+    <name>Q66PX8_CUCSA</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="6">Beta-caryophyllene synthase</fullName>
+      </submittedName>
+    </protein>
+    <organism evidence="6">
+      <name type="scientific">Cucumis sativus</name>
+      <name type="common">Cucumber</name>
+      <dbReference id="3659" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>fabids</taxon>
+        <taxon>Cucurbitales</taxon>
+        <taxon>Cucurbitaceae</taxon>
+        <taxon>Benincaseae</taxon>
+        <taxon>Cucumis</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="6" key="1">
+      <citation date="2004" first="2012" last="2024" name="Plant Physiol." type="journal article" volume="135">
+        <title>Combined transcript and metabolite analysis reveals genes involved in spider mite induced volatile formation in cucumber plants.</title>
+        <authorList>
+          <person name="Mercke P."/>
+          <person name="Kappers I.F."/>
+          <person name="Verstappen F.W."/>
+          <person name="Vorst O."/>
+          <person name="Dicke M."/>
+          <person name="Bouwmeester H.J."/>
+        </authorList>
+        <dbReference id="15310834" type="PubMed"/>
+        <dbReference id="10.1104/pp.104.048116" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <reference evidence="6" key="2">
+      <citation date="2004-05" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <authorList>
+          <person name="Mercke P.E."/>
+          <person name="Bouwmeester H.J."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+    </comment>
+    <dbReference id="AY640155" type="EMBL">
+      <property type="protein sequence ID" value="AAU05952.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="NP_001292628.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NM_001305699.1"/>
+    </dbReference>
+    <dbReference id="101211697" type="GeneID"/>
+    <dbReference id="csv:101211697" type="KEGG"/>
+    <dbReference id="DWVSTMP" type="OMA"/>
+    <dbReference id="MetaCyc:MONOMER-14906" type="BioCyc"/>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="3" id="KW-0460">Magnesium</keyword>
+    <keyword evidence="2" id="KW-0479">Metal-binding</keyword>
+    <feature description="Terpene_synth" evidence="4" type="domain">
+      <location>
+        <begin position="29"/>
+        <end position="214"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="5" type="domain">
+      <location>
+        <begin position="245"/>
+        <end position="510"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00001946" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022842" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000313">
+      <source>
+        <dbReference id="AAU05952.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="F7DAC997E1D4D31B" length="567" mass="66362" modified="2004-10-11" version="1">MSSHFPASIMKTNDIYDTKRSLANFHPTIWKEHFLSFTFDDALKVDGGMKERIEKLKEEIRMMVIASVQNPLVKLNLVDSIQRLGVSYHFEDEIDQFLEHMYVSYNNSLLFSSNDSQDDDLHISALLFRLLRQHGYRISCDIFLKFMDNNGKFKESLVEDERGILSLYEASHMRGHGEALLEEALEFTTTHLKAYIHLYSNINPNFASEVSNALKLPIRKCVPRVKAREYFEIYQQQPSHNETLLTFSKLDFNILQKLHQKEIAEICRWWKDLNVSTNFPFARDRIVECYFWILSIYFEPYFKFGRKILTKVIAMTSIMDDIYDAYGTFEELQLFTLAIKRWDMSMVNLLPQYMKVHYTTLLDLFEEMDKGIVNDGISYRSCFGKEAMKRQAESYFKEAEWLNKNYKPKYGEYMEVALASSGYELLSTISFVCMGDIATKEVFEWLFDCPQILKASTTISRLMDDVVSYKFEKEREHIVSAVECYMSNHGRSEDETCAELLKQVEDAWKTINECCLHPMNVPMPFLICLLNLTRVMALLYSHEDGYTNSKGRTKLLIQSLLIDPLHL</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

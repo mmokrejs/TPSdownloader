@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2018-02-28" modified="2021-02-10" version="52">
+<accession>E8W6C7</accession>
+<name>GERS_STRFA</name>
+<protein>
+<recommendedName>
+<fullName evidence="3">(+)-(1(10)E,4E,6S,7R)-germacradien-6-ol synthase</fullName>
+<ecNumber evidence="2">4.2.3.166</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="3">Terpene synthase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="3">Type I terpene cyclase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="6">Sfla_1617</name>
+</gene>
+<organism>
+<name type="scientific">Streptomyces pratensis (strain ATCC 33331 / IAF-45CD)</name>
+<dbReference type="NCBI Taxonomy" id="591167"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Streptomycetales</taxon>
+<taxon>Streptomycetaceae</taxon>
+<taxon>Streptomyces</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2011-01" db="EMBL/GenBank/DDBJ databases">
+<title>Complete sequence of chromosome of Streptomyces flavogriseus ATCC 33331.</title>
+<authorList>
+<consortium name="US DOE Joint Genome Institute"/>
+<person name="Lucas S."/>
+<person name="Copeland A."/>
+<person name="Lapidus A."/>
+<person name="Cheng J.-F."/>
+<person name="Goodwin L."/>
+<person name="Pitluck S."/>
+<person name="Davenport K."/>
+<person name="Detter J.C."/>
+<person name="Han C."/>
+<person name="Tapia R."/>
+<person name="Land M."/>
+<person name="Hauser L."/>
+<person name="Kyrpides N."/>
+<person name="Ivanova N."/>
+<person name="Ovchinnikova G."/>
+<person name="Pagani I."/>
+<person name="Brumm P."/>
+<person name="Mead D."/>
+<person name="Woyke T."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 33331 / IAF-45CD</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2015" name="Angew. Chem. Int. Ed." volume="54" first="13448" last="13451">
+<title>Conformational analysis, thermal rearrangement, and EI-MS fragmentation mechanism of (1(10)E,4E,6S,7R)-germacradien-6-ol by (13)C-labeling experiments.</title>
+<authorList>
+<person name="Rabe P."/>
+<person name="Barra L."/>
+<person name="Rinkel J."/>
+<person name="Riclea R."/>
+<person name="Citron C.A."/>
+<person name="Klapschinski T.A."/>
+<person name="Janusko A."/>
+<person name="Dickschat J.S."/>
+</authorList>
+<dbReference type="PubMed" id="26361082"/>
+<dbReference type="DOI" id="10.1002/anie.201507615"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>SUBSTRATE SPECIFICITY</scope>
+<scope>DOMAIN</scope>
+<source>
+<strain>ATCC 33331 / IAF-45CD</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2">Catalyzes the conversion of (2E,6E)-farnesyl diphosphate (FPP) to yield the sesquiterpene (+)-(1(10)E,4E,6S,7R)-germacradien-6-ol via a putative 1,10-cyclization, which could require the abstraction of the pyrophosphate from FPP to yield the (E,E)-germacradienyl cation. The only accepted substrate is farnesyl diphosphate (FPP).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>(2E,6E)-farnesyl diphosphate + H2O = (+)-(1(10)E,4E,6S,7R)-germacradien-6-ol + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:12192"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:137564"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.166"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="pathway" evidence="4">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="domain">
+<text evidence="5">The Asp-Asp-Xaa-Xaa-Xaa-Asp (DDXXXD) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.166" evidence="2"/>
+<dbReference type="EMBL" id="CP002475">
+<property type="protein sequence ID" value="ADW03055.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_014153723.1">
+<property type="nucleotide sequence ID" value="NC_016114.1"/>
+</dbReference>
+<dbReference type="SMR" id="E8W6C7"/>
+<dbReference type="STRING" id="591167.Sfla_1617"/>
+<dbReference type="EnsemblBacteria" id="ADW03055">
+<property type="protein sequence ID" value="ADW03055"/>
+<property type="gene ID" value="Sfla_1617"/>
+</dbReference>
+<dbReference type="KEGG" id="sfa:Sfla_1617"/>
+<dbReference type="PATRIC" id="fig|591167.6.peg.1658"/>
+<dbReference type="eggNOG" id="COG0664">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_042538_4_2_11"/>
+<dbReference type="OMA" id="AMEHWVI"/>
+<dbReference type="OrthoDB" id="1869158at2"/>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="GO" id="GO:0016829">
+<property type="term" value="F:lyase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034686">
+<property type="entry name" value="Terpene_cyclase-like_2"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01020">
+<property type="entry name" value="Terpene_Cyclase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<feature type="chain" description="(+)-(1(10)E,4E,6S,7R)-germacradien-6-ol synthase" id="PRO_0000443322">
+<location>
+<begin position="1"/>
+<end position="356"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate binding" evidence="1">
+<location>
+<begin position="314"/>
+<end position="315"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXXD motif" evidence="5">
+<location>
+<begin position="86"/>
+<end position="91"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="86"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="91"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="91"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="227"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="231"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="235"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="181"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="234"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="B5HDJ6"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="26361082"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="26361082"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<evidence key="5" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="26361082"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000312">
+<source>
+<dbReference type="EMBL" id="ADW03055.1"/>
+</source>
+</evidence>
+<sequence length="356" mass="40241" checksum="2EB4B1C61F7D9019" modified="2011-04-05" version="1">MTSQASAPKIPQLWVPLPSGIHPSWREIDQGSAAWLDRFGLYSDHAQRERLTRISVGEITGRGGPDGRLAALQWTADFLMWLFAFDDEYCDEGPAAASPDATLLIITKLQRIVEVPWAAPADDNYSAALLELRLRLDDLTTPVQTARWAASFRAYLQGQIWMAANSTYGRIPTLSDHLAVRLDSSGVKIFSTLSEIIHGYDLPAADYDRHDVRGFVEVFAAIIGWSNDLVSYHKERRRSQDSYGNVVDLIAHERQCSVEEAVSETATMHTRAMALYLRLRDQILRDAEPELRKWITDCDSWIRADYDWSLTTHRYVNPDDPADLPVGSAEAPFRAREADQPLPIASVSWWWTLLKD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

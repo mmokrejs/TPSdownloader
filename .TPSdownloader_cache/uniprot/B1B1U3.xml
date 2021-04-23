@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2012-09-05" dataset="Swiss-Prot" modified="2021-04-07" version="41">
+    <accession>B1B1U3</accession>
+    <name>ZSS1_ZINZE</name>
+    <protein>
+      <recommendedName>
+        <fullName>Alpha-humulene synthase</fullName>
+        <ecNumber>4.2.3.104</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="primary">ZSS1</name>
+    </gene>
+    <organism>
+      <name type="scientific">Zingiber zerumbet</name>
+      <name type="common">Shampoo ginger</name>
+      <name type="synonym">Amomum zerumbet</name>
+      <dbReference id="311405" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>Liliopsida</taxon>
+        <taxon>Zingiberales</taxon>
+        <taxon>Zingiberaceae</taxon>
+        <taxon>Zingiber</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2008" first="1291" last="1299" name="Planta" type="journal article" volume="227">
+        <title>Molecular cloning and functional characterization of alpha-humulene synthase, a possible key enzyme of zerumbone biosynthesis in shampoo ginger (Zingiber zerumbet Smith).</title>
+        <authorList>
+          <person name="Yu F.N."/>
+          <person name="Okamoto S."/>
+          <person name="Nakasone K."/>
+          <person name="Adachi K."/>
+          <person name="Matsuda S."/>
+          <person name="Harada H."/>
+          <person name="Misawa N."/>
+          <person name="Utsumi R."/>
+        </authorList>
+        <dbReference id="18273640" type="PubMed"/>
+        <dbReference id="10.1007/s00425-008-0700-x" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>TISSUE SPECIFICITY</scope>
+      <scope>INDUCTION</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Catalyzes the formation of alpha-humulene in the first step of zerumbone biosynthesis, a highly promising multi-anticancer agent. Also mediates formation of beta-caryophyllene at a much lower level.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = (1E,4E,8E)-alpha-humulene + diphosphate</text>
+        <dbReference id="RHEA:31895" type="Rhea"/>
+        <dbReference id="CHEBI:5768" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.104" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="tissue specificity">
+      <text evidence="2">Mostly expressed in rhizomes.</text>
+    </comment>
+    <comment type="induction">
+      <text evidence="2">Up-regulated in leaves and rhizomes following treatment with methyl jasmonate (meJA).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference id="4.2.3.104" type="EC"/>
+    <dbReference id="AB247331" type="EMBL">
+      <property type="protein sequence ID" value="BAG12020.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="AB263736" type="EMBL">
+      <property type="protein sequence ID" value="BAG12315.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="B1B1U3" type="SMR"/>
+    <dbReference id="B1B1U3" type="PRIDE"/>
+    <dbReference id="ag:BAG12020" type="KEGG"/>
+    <dbReference id="MetaCyc:MONOMER-14875" type="BioCyc"/>
+    <dbReference id="GO:0080017" type="GO">
+      <property type="term" value="F:alpha-humulene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="RHEA"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Alpha-humulene synthase" id="PRO_0000418755" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="548"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="302"/>
+        <end position="306"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="302"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="302"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="306"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="306"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="453"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="18273640" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <sequence checksum="D21A6983B9AC2C5A" length="548" mass="64518" modified="2008-04-29" version="1">MERQSMALVGDKEEIIRKSFEYHPTVWGDYFIRNYSCLPLEKECMIKRVEELKDRVRNLFEETHDVLQIMILVDSIQLLGLDYHFEKEITAALRLIYEADVENYGLYEVSLRFRLLRQHGYNLSPDVFNKFKDDKGRFLPTLNGDAKGLLNLYNAAYLGTHEETILDEAISFTKCQLESLLGELEQPLAIEVSLFLETPLYRRTRRLLVRKYIPIYQEKVMRNDTILELAKLDFNLLQSLHQEEVKKITIWWNDLALTKSLKFARDRVVECYYWIVAVYFEPQYSRARVITSKAISLMSIMDDIYDNYSTLEESRLLTEAIERWEPQAVDCVPEYLKDFYLKLLKTYKDFEDELEPNEKYRIPYLQEEIKVLSRAYFQEAKWGVERYVPALEEHLLVSLITAGYFAVACASYVGLGEDATKETFEWVASSPKILKSCSIHCRLMDDITSHQREQERDHFASTVESYMKEHGTSAKVACEKLQVMVEQKWKDLNEECLRPTQVARPLIEIILNLSRAMEDIYKHKDTYTNSNTRMKDNVSLIFVESFLI</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

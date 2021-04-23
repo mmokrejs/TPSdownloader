@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2012-10-31" modified="2020-12-02" version="37">
+<accession>B3TPQ6</accession>
+<name>BCUSY_MAGGA</name>
+<protein>
+<recommendedName>
+<fullName>Beta-cubebene synthase</fullName>
+<shortName>Mg25</shortName>
+<ecNumber>4.2.3.128</ecNumber>
+</recommendedName>
+</protein>
+<organism>
+<name type="scientific">Magnolia grandiflora</name>
+<name type="common">Southern magnolia</name>
+<dbReference type="NCBI Taxonomy" id="3406"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>Magnoliidae</taxon>
+<taxon>Magnoliales</taxon>
+<taxon>Magnoliaceae</taxon>
+<taxon>Magnolia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2008" name="Plant Physiol." volume="147" first="1017" last="1033">
+<title>Biochemical and genomic characterization of terpene synthases in Magnolia grandiflora.</title>
+<authorList>
+<person name="Lee S."/>
+<person name="Chappell J."/>
+</authorList>
+<dbReference type="PubMed" id="18467455"/>
+<dbReference type="DOI" id="10.1104/pp.108.115824"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>COFACTOR</scope>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<comment type="function">
+<text evidence="2">Sesquiterpene synthase converting farnesyl diphosphate into beta-cubebene (24.5%), alpha-muurolene (19.3%), delta-cadinol (18.6%), delta-elemene (16.0%), tau-muurolene (10.8%), and beta-elemene (10.8%). No activity with geranyl diphosphate or geranylgeranyl diphosphate.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate = beta-cubebene + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:32019"/>
+<dbReference type="ChEBI" id="CHEBI:10363"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.128"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="4">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="4">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2">1.07 uM for farnesyl diphosphate</KM>
+<text>kcat is 0.35 x 10(-3) sec(-1) for farnesyl diphosphate.</text>
+</kinetics>
+<phDependence>
+<text evidence="2">Optimum pH is 7.5.</text>
+</phDependence>
+<temperatureDependence>
+<text evidence="2">Optimum temperature is 24-26 degrees Celsius.</text>
+</temperatureDependence>
+</comment>
+<comment type="pathway">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="tissue specificity">
+<text evidence="2">Expressed in young developing leaves and in stamens. Not detected in tepals and carpels.</text>
+</comment>
+<comment type="domain">
+<text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the terpene synthase family. Tpsa subfamily.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.128"/>
+<dbReference type="EMBL" id="EU366429">
+<property type="protein sequence ID" value="ACC66281.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="SMR" id="B3TPQ6"/>
+<dbReference type="KEGG" id="ag:ACC66281"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-14947"/>
+<dbReference type="BRENDA" id="4.2.3.128">
+<property type="organism ID" value="13170"/>
+</dbReference>
+<dbReference type="SABIO-RK" id="B3TPQ6"/>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010334">
+<property type="term" value="F:sesquiterpene synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045338">
+<property type="term" value="P:farnesyl diphosphate metabolic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051762">
+<property type="term" value="P:sesquiterpene biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<feature type="chain" description="Beta-cubebene synthase" id="PRO_0000419800">
+<location>
+<begin position="1"/>
+<end position="550"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif">
+<location>
+<begin position="303"/>
+<end position="307"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="303"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="303"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="307"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="307"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="1">
+<location>
+<position position="447"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="1">
+<location>
+<position position="455"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18467455"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<evidence key="4" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="18467455"/>
+</source>
+</evidence>
+<sequence length="550" mass="63421" checksum="BEC626551B7BECF6" modified="2008-09-02" version="1">MDSPTTQRPNMEIGRAFVNYHPSIWGEHFIAASPDVMRLDAHKGRGEELKEVVRNMFSTVNDPLLKMNLIDAIQRLGVAYHFEMEIDKALGQMYDDHINGKDDGFDLQTLALQFRLLRQQGYNVSSGVFAKFKDDEGNFSSILSKDTHGLLSLYEAAFLGTHGDDILDEAITFTTVHLKSTLPHVSAPLTKLVELALEIPLHRRMERLQTRFYISIYEEDRERNDVLLEFSKLEFLRLQSLHQRELRDISLWWKEMDLLAKLPFTRDRVLEGYFWTVGVYFEPHYSRARMIMTKMIAFATVMDDTYDVYGTLEELELLTATIERWNRGDMDQLPDYMKVIFIALLDGVDATEDDLTGEGKSYRIYYLKEAVKDLAKAYLAEARWVSSGYVPTSEEYMKVALISAVYPMLFVAFLIGMDEVVTKEVLEWAIHMPTMLRTCSIVARLMDDIPSNKLEQERKHVSSSVECYMKEHGTSYHESIQKLREMVASGWKDINKECLKPTPVPTAVINVILNFTRVLEIIYQHRDGYTDASVETKEHIASLFVDPIPL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

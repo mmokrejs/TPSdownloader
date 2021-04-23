@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:63704</ID>
+<NAME>(+)-Tau-muurolol</NAME>
+<DEFINITION>A cadinane sesquiterpenoid that consists of 4-isopropyl-1,6-dimethyl-1,2,3,4,4a,7,8,8a-octahydronaphthalene having a hydroxy substituent at position 1 and (1R,4R,4aS,8aR)-configuration.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>(+)-T-muurolol</SYNONYM>
+<IUPAC_NAME>(1R,4R,4aS,8aR)-4-isopropyl-1,6-dimethyl-1,2,3,4,4a,7,8,8a-octahydronaphthalen-1-ol</IUPAC_NAME>
+<FORMULA>C15H26O</FORMULA>
+<MASS>222.36630</MASS>
+<MONOISOTOPIC_MASS>222.19837</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@]12C=C(C)CC[C@@]1([H])[C@](C)(O)CC[C@@H]2C(C)C</SMILES>
+<INCHI>InChI=1S/C15H26O/c1-10(2)12-7-8-15(4,16)14-6-5-11(3)9-13(12)14/h9-10,12-14,16H,5-8H2,1-4H3/t12-,13-,14-,15-/m1/s1</INCHI>
+<INCHIKEY>LHYHMMRYTDARSZ-KBUPBQIOSA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>6567255</REAXYS_REGISTRY_NUMBER>
+<PUBMED_CITATION>21276937</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

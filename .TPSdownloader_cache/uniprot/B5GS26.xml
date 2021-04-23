@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2012-09-05" dataset="Swiss-Prot" modified="2021-04-07" version="47">
+    <accession>B5GS26</accession>
+    <name>DCADS_STRCL</name>
+    <protein>
+      <recommendedName>
+        <fullName>(-)-delta-cadinene synthase</fullName>
+        <ecNumber>4.2.3.97</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">SCreLAV_p0328</name>
+      <name type="ORF">SSCG_02150</name>
+    </gene>
+    <organism>
+      <name type="scientific">Streptomyces clavuligerus</name>
+      <dbReference id="1901" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Bacteria</taxon>
+        <taxon>Actinobacteria</taxon>
+        <taxon>Streptomycetales</taxon>
+        <taxon>Streptomycetaceae</taxon>
+        <taxon>Streptomyces</taxon>
+      </lineage>
+    </organism>
+    <geneLocation type="plasmid">
+      <name>pSCL4</name>
+    </geneLocation>
+    <reference key="1">
+      <citation date="2010" first="212" last="224" name="Genome Biol. Evol." type="journal article" volume="2">
+        <title>The sequence of a 1.8-mb bacterial linear plasmid reveals a rich evolutionary reservoir of secondary metabolic pathways.</title>
+        <authorList>
+          <person name="Medema M.H."/>
+          <person name="Trefzer A."/>
+          <person name="Kovalchuk A."/>
+          <person name="van den Berg M."/>
+          <person name="Mueller U."/>
+          <person name="Heijne W."/>
+          <person name="Wu L."/>
+          <person name="Alam M.T."/>
+          <person name="Ronning C.M."/>
+          <person name="Nierman W.C."/>
+          <person name="Bovenberg R.A.L."/>
+          <person name="Breitling R."/>
+          <person name="Takano E."/>
+        </authorList>
+        <dbReference id="20624727" type="PubMed"/>
+        <dbReference id="10.1093/gbe/evq013" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <plasmid>pSCL4</plasmid>
+        <strain>ATCC 27064 / DSM 738 / JCM 4710 / NBRC 13307 / NCIMB 12785 / NRRL 3585 / VKM Ac-602</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2008-02" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Annotation of Streptomyces clavuligerus ATCC 27064.</title>
+        <authorList>
+          <person name="Fischbach M."/>
+          <person name="Ward D."/>
+          <person name="Young S."/>
+          <person name="Jaffe D."/>
+          <person name="Gnerre S."/>
+          <person name="Berlin A."/>
+          <person name="Heiman D."/>
+          <person name="Hepburn T."/>
+          <person name="Sykes S."/>
+          <person name="Alvarado L."/>
+          <person name="Kodira C.D."/>
+          <person name="Straight P."/>
+          <person name="Clardy J."/>
+          <person name="Hung D."/>
+          <person name="Kolter R."/>
+          <person name="Mekalanos J."/>
+          <person name="Walker S."/>
+          <person name="Walsh C.T."/>
+          <person name="Lander E."/>
+          <person name="Galagan J."/>
+          <person name="Nusbaum C."/>
+          <person name="Birren B."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC 27064 / DSM 738 / JCM 4710 / NBRC 13307 / NCIMB 12785 / NRRL 3585 / VKM Ac-602</strain>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2011" first="32" last="37" name="Chem. Biol." type="journal article" volume="18">
+        <title>Genome mining in Streptomyces clavuligerus: expression and biochemical characterization of two new cryptic sesquiterpene synthases.</title>
+        <authorList>
+          <person name="Hu Y."/>
+          <person name="Chou W.K."/>
+          <person name="Hopson R."/>
+          <person name="Cane D.E."/>
+        </authorList>
+        <dbReference id="21276937" type="PubMed"/>
+        <dbReference id="10.1016/j.chembiol.2010.11.008" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <source>
+        <strain>ATCC 27064 / DSM 738 / JCM 4710 / NBRC 13307 / NCIMB 12785 / NRRL 3585 / VKM Ac-602</strain>
+      </source>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Catalyzes the conversion of (2E,6E)-farnesyl diphosphate into (-)-delta-cadinene. Cyclization mechanism involves an intermediate nerolidyl diphosphate leading to a helminthogermacradienyl cation.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = (-)-delta-cadinene + diphosphate</text>
+        <dbReference id="RHEA:32015" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:63703" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.97" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="2">1.4 uM for (2E,6E)-farnesyl diphosphate</KM>
+        <text>kcat is 0.00114 sec(-1).</text>
+      </kinetics>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference id="4.2.3.97" type="EC"/>
+    <dbReference id="CM000914" type="EMBL">
+      <property type="protein sequence ID" value="EFG03819.2"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="DS570637" type="EMBL">
+      <property type="protein sequence ID" value="EDY49122.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="WP_003954606.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NZ_CP027859.1"/>
+    </dbReference>
+    <dbReference id="B5GS26" type="SMR"/>
+    <dbReference id="443255.SCLAV_p0328" type="STRING"/>
+    <dbReference id="EDY49122" type="EnsemblBacteria">
+      <property type="protein sequence ID" value="EDY49122"/>
+      <property type="gene ID" value="SSCG_02150"/>
+    </dbReference>
+    <dbReference id="ag:EFG03819" type="KEGG"/>
+    <dbReference id="ENOG502Z881" type="eggNOG">
+      <property type="taxonomic scope" value="Bacteria"/>
+    </dbReference>
+    <dbReference id="1869158at2" type="OrthoDB"/>
+    <dbReference id="4.2.3.97" type="BRENDA">
+      <property type="organism ID" value="5988"/>
+    </dbReference>
+    <dbReference id="UP000002357" type="Proteomes">
+      <property type="component" value="Plasmid pSCL4"/>
+    </dbReference>
+    <dbReference id="UP000006569" type="Proteomes">
+      <property type="component" value="Unassembled WGS sequence"/>
+    </dbReference>
+    <dbReference id="GO:0016829" type="GO">
+      <property type="term" value="F:lyase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-0614">Plasmid</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="(-)-delta-cadinene synthase" id="PRO_0000418477" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="327"/>
+      </location>
+    </feature>
+    <feature description="Magnesium" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="84"/>
+      </location>
+    </feature>
+    <feature description="Magnesium" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="85"/>
+      </location>
+    </feature>
+    <feature description="Magnesium" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="222"/>
+      </location>
+    </feature>
+    <feature description="Magnesium" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="226"/>
+      </location>
+    </feature>
+    <feature description="Magnesium" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="230"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="21276937" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <sequence checksum="471B84889442CF01" length="327" mass="35838" modified="2008-10-14" version="1">MSTRPVEGSAIWDVLSPHSPHAAAADGKTLVWVEAGELCGHDTAESANLARIRPGLLAAFCHPKATEDDLTLITKWMAWLFLLDDRIDESDLGRDADLLDGHLQDLQGVALGIRTASGPMSRALEEIITQASAGMGDAWQLRFRRNISDYLLACVWQAAHRQAGEFPDPEVFPHWRRAFGAIMPSFDLIERTDGGALPSCVYYSRPYQSLLTAAADLVCWTNDLMTVDKEAAHGDLHNLVLVTEHDRHQDRRTASAAVSAACEQRMRAHTSARRDLTGLTAALGLPDTVRTHADDCAASLLVWVRGHLEWGLETPRYRPGTTGTGTD</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

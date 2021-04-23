@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2018-09-12" dataset="Swiss-Prot" modified="2020-06-17" version="8">
+    <accession>P0DPK6</accession>
+    <name>SPVIS_STRVB</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="3">Spiroviolene synthase</fullName>
+        <shortName evidence="3">SvS</shortName>
+        <ecNumber evidence="2">4.2.3.158</ecNumber>
+      </recommendedName>
+    </protein>
+    <organism>
+      <name type="scientific">Streptomyces violens</name>
+      <name type="synonym">Chainia violens</name>
+      <dbReference id="66377" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Bacteria</taxon>
+        <taxon>Actinobacteria</taxon>
+        <taxon>Streptomycetales</taxon>
+        <taxon>Streptomycetaceae</taxon>
+        <taxon>Streptomyces</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2017" first="2776" last="2779" name="Angew. Chem. Int. Ed." type="journal article" volume="56">
+        <title>Mechanistic investigations of two bacterial diterpene cyclases: spiroviolene synthase and tsukubadiene synthase.</title>
+        <authorList>
+          <person name="Rabe P."/>
+          <person name="Rinkel J."/>
+          <person name="Dolja E."/>
+          <person name="Schmitz T."/>
+          <person name="Nubbemeyer B."/>
+          <person name="Luu T.H."/>
+          <person name="Dickschat J.S."/>
+        </authorList>
+        <dbReference id="28146322" type="PubMed"/>
+        <dbReference id="10.1002/anie.201612439" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>DOMAIN</scope>
+      <scope>REACTION MECHANISM</scope>
+      <source>
+        <strain>ATCC 15898 / DSM 40597 / NRRL ISP-5597</strain>
+      </source>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Catalyzes the formation of (3R,6R,10S,11R,14R)-spiroviolene from geranylgeranyl diphosphate (GGPP) via a 1,11-cyclization and a 10Re,14Si-cyclization.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E,10E)-geranylgeranyl diphosphate = (-)-spiroviolene + diphosphate</text>
+        <dbReference id="RHEA:53620" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:58756" type="ChEBI"/>
+        <dbReference id="CHEBI:137523" type="ChEBI"/>
+        <dbReference id="4.2.3.158" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="5">The Asp-Asp-Xaa-Xaa-Xaa-Asp (DDXXXD) and Asn-Xaa-Xaa-Xaa-Ser-Xaa-Xaa-Xaa-Glu (NSE) motifs are important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="4">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="2" id="4.2.3.158" type="EC"/>
+    <dbReference id="WP_030261827.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NZ_JOBH01000013.1"/>
+    </dbReference>
+    <dbReference id="P0DPK6" type="SMR"/>
+    <dbReference id="GO:0016829" type="GO">
+      <property type="term" value="F:lyase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034686" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_2"/>
+    </dbReference>
+    <dbReference id="SFLDG01020" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="Spiroviolene synthase" id="PRO_0000444978" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="359"/>
+      </location>
+    </feature>
+    <feature description="Substrate binding" evidence="1" type="region of interest">
+      <location>
+        <begin position="312"/>
+        <end position="313"/>
+      </location>
+    </feature>
+    <feature description="DDXXXD motif" evidence="5" type="short sequence motif">
+      <location>
+        <begin position="85"/>
+        <end position="90"/>
+      </location>
+    </feature>
+    <feature description="NXXXSXXXE motif" evidence="5" type="short sequence motif">
+      <location>
+        <begin position="226"/>
+        <end position="234"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="85"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="90"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="90"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="226"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="230"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="234"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="180"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="233"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="B5HDJ6" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="28146322" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000303">
+      <source>
+        <dbReference id="28146322" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000305"/>
+    <evidence key="5" type="ECO:0000305">
+      <source>
+        <dbReference id="28146322" type="PubMed"/>
+      </source>
+    </evidence>
+    <sequence checksum="0ECDB51A64EBC0F8" length="359" mass="39968" modified="2018-09-12" version="1">MTVNEIDLPPIFCPLESARHPRAHLVDERAREWIRTSPMCTTDEERTWVAASCSTDFFARFAPDAATDDRLLWTSLWVYWGFAFDDHRCDNGPFSNRPAAFSALAGRVQRALEAPSARDESDGFIPALQEIAAQFRSFGTPLQVRRFAAAHRAWLSGVTWQIGNAAAGRMPGLDEYVAMRLLSAGGEPPFAMLELATGLEVPAQDLERPAVRALTEMAIMVAALDNDRHSLRKELARGQTDQNVYSVLMQETGLPLQEAVAAATRLRDRVLLRFMAVHDRVRPGAGLELSTYLQGLRYGIRGNAEWGLRVPRYLSLGRVPDPMDEAPLEWAESPADDDRSAPRGLPTVAWWWDDALLGV</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2011-05-03" dataset="Swiss-Prot" modified="2020-12-02" version="77">
+    <accession>O23945</accession>
+    <name>PINS_FRAVE</name>
+    <protein>
+      <recommendedName>
+        <fullName>(-)-alpha-pinene synthase</fullName>
+        <shortName>FvPINS</shortName>
+        <ecNumber>4.2.3.119</ecNumber>
+      </recommendedName>
+    </protein>
+    <organism>
+      <name type="scientific">Fragaria vesca</name>
+      <name type="common">Woodland strawberry</name>
+      <name type="synonym">Potentilla vesca</name>
+      <dbReference id="57918" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>fabids</taxon>
+        <taxon>Rosales</taxon>
+        <taxon>Rosaceae</taxon>
+        <taxon>Rosoideae</taxon>
+        <taxon>Potentilleae</taxon>
+        <taxon>Fragariinae</taxon>
+        <taxon>Fragaria</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2002-08-22" number="WO02064764" type="patent">
+        <title>Isoprenoid synthases.</title>
+        <authorList>
+          <person name="Aharoni A."/>
+          <person name="Jongsma M.A."/>
+          <person name="Verhoeven H.A."/>
+          <person name="Bouwmeester H.J."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]</scope>
+    </reference>
+    <reference key="2">
+      <citation date="2004" first="3110" last="3131" name="Plant Cell" type="journal article" volume="16">
+        <title>Gain and loss of fruit flavor compounds produced by wild and cultivated strawberry species.</title>
+        <authorList>
+          <person name="Aharoni A."/>
+          <person name="Giri A.P."/>
+          <person name="Verstappen F.W."/>
+          <person name="Bertea C.M."/>
+          <person name="Sevenier R."/>
+          <person name="Sun Z."/>
+          <person name="Jongsma M.A."/>
+          <person name="Schwab W."/>
+          <person name="Bouwmeester H.J."/>
+        </authorList>
+        <dbReference id="15522848" type="PubMed"/>
+        <dbReference id="10.1105/tpc.104.023895" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>TISSUE SPECIFICITY</scope>
+      <scope>SUBCELLULAR LOCATION</scope>
+    </reference>
+    <reference key="3">
+      <citation date="1999" first="629" last="636" name="Plant Mol. Biol." type="journal article" volume="39">
+        <title>Isolation and characterization of mRNAs differentially expressed during ripening of wild strawberry (Fragaria vesca L.) fruits.</title>
+        <authorList>
+          <person name="Nam Y.W."/>
+          <person name="Tichit L."/>
+          <person name="Leperlier M."/>
+          <person name="Cuerq B."/>
+          <person name="Marty I."/>
+          <person name="Lelievre J.M."/>
+        </authorList>
+        <dbReference id="10092188" type="PubMed"/>
+        <dbReference id="10.1023/a:1006179928312" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [MRNA] OF 209-556</scope>
+      <scope>DEVELOPMENTAL STAGE</scope>
+      <scope>TISSUE SPECIFICITY</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="3">Monoterpene synthase catalyzing the production of (-)-alpha-pinene, beta-phellandrene and beta-myrcene as the major products. Unable to use farnesyl diphosphate as substrate. Exclusively expressed in the fruit of wild strawberries. Not detected in cultivated varieties.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3">
+        <text>(2E)-geranyl diphosphate = (1S,5S)-alpha-pinene + diphosphate</text>
+        <dbReference id="RHEA:25488" type="Rhea"/>
+        <dbReference id="CHEBI:28660" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:58057" type="ChEBI"/>
+        <dbReference id="4.2.3.119" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <cofactor evidence="1">
+        <name>Mn(2+)</name>
+        <dbReference id="CHEBI:29035" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+    </comment>
+    <comment type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="3">Cytoplasm</location>
+        <location evidence="3">Cytosol</location>
+      </subcellularLocation>
+    </comment>
+    <comment type="tissue specificity">
+      <text evidence="2 3">Expressed in ripe fruits and roots. Not detected in vegetative tissues.</text>
+    </comment>
+    <comment type="developmental stage">
+      <text evidence="2">Expressed during fruit ripening.</text>
+    </comment>
+    <comment type="domain">
+      <text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="4">Belongs to the terpene synthase family. Tpsa subfamily.</text>
+    </comment>
+    <dbReference id="4.2.3.119" type="EC"/>
+    <dbReference id="AX529025" type="EMBL">
+      <property type="protein sequence ID" value="CAD57092.1"/>
+      <property type="molecule type" value="Unassigned_DNA"/>
+    </dbReference>
+    <dbReference id="AJ001452" type="EMBL">
+      <property type="protein sequence ID" value="CAA04773.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="O23945" type="SMR"/>
+    <dbReference id="O23945" type="PRIDE"/>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="GO:0005829" type="GO">
+      <property type="term" value="C:cytosol"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0963">Cytoplasm</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0464">Manganese</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="(-)-alpha-pinene synthase" id="PRO_0000407983" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="556"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="309"/>
+        <end position="313"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="309"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="309"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="313"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="313"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="453"/>
+      </location>
+    </feature>
+    <feature description="Magnesium or manganese 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="461"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 3; CAA04773." evidence="4" ref="3" type="sequence conflict">
+      <original>E</original>
+      <variation>K</variation>
+      <location>
+        <position position="303"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 3; CAA04773." evidence="4" ref="3" type="sequence conflict">
+      <original>M</original>
+      <variation>I</variation>
+      <location>
+        <position position="377"/>
+      </location>
+    </feature>
+    <feature description="In Ref. 3; CAA04773." evidence="4" ref="3" type="sequence conflict">
+      <original>I</original>
+      <variation>R</variation>
+      <location>
+        <position position="389"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="10092188" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="15522848" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000305"/>
+    <sequence checksum="7E2A584C1C33041A" length="556" mass="64450" modified="2011-05-03" version="2">MPVHATPAAESQIISKPEVVRRTANFKPSVWGDRFANYAEDIITQTQMQEQVEELKQVVRKEVFTNAADDSSHQLKLIDEIQRLGVAYHFESEIDQALERIHETYQDIHDGGDLYNVALRFRLLRRHGYNVSCDVFNKFKDTNGDYKKSLVTDLSGMLSFYEAAHLRVHGEKLLEEALVFTTTHLQSASAKSSLLKTQITEAVERPLLKTMERLGARRYMSIYQDEASYSENLLKLAKLDFNVVQCLHKKELSDILRWYKELDFARRMPFARDRIVELFFWIAGIYFEPEYVFGRHILTKLIEITTVMDDMYDAFGTFEELVILTEAIDRWDASCMDQLPDYMQPFYITLLDVIDEVEEELTKQGRSYRIHYAKEIMKNQARLYFAEAIWFHEGCTPKMDGYMRVAASSVGNTMLSVVSLVGMGDIITKFEFEWLTNEPKILRASNTIFRLMDDIAGYKFEKERGHVASSIDCYMNEYGVSEQETIDIFNKRIVDSWKDINEEFLRPTAAPVPVLNRVLNLTRVVDLLYKRGDAFTHVGKLMKDCIAAMFIDPVPL</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

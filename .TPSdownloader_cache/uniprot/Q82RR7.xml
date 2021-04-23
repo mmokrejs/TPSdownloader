@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2012-09-05" dataset="Swiss-Prot" modified="2020-12-02" version="99">
+    <accession>Q82RR7</accession>
+    <name>TPC1_STRAW</name>
+    <protein>
+      <recommendedName>
+        <fullName>Avermitilol synthase</fullName>
+        <ecNumber>4.2.3.96</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="primary">tpc1</name>
+      <name type="ordered locus">SAV_76</name>
+    </gene>
+    <organism>
+      <name type="scientific">Streptomyces avermitilis (strain ATCC 31267 / DSM 46492 / JCM 5070 / NBRC 14893 / NCIMB 12804 / NRRL 8165 / MA-4680)</name>
+      <dbReference id="227882" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Bacteria</taxon>
+        <taxon>Actinobacteria</taxon>
+        <taxon>Streptomycetales</taxon>
+        <taxon>Streptomycetaceae</taxon>
+        <taxon>Streptomyces</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2001" first="12215" last="12220" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="98">
+        <title>Genome sequence of an industrial microorganism Streptomyces avermitilis: deducing the ability of producing secondary metabolites.</title>
+        <authorList>
+          <person name="Omura S."/>
+          <person name="Ikeda H."/>
+          <person name="Ishikawa J."/>
+          <person name="Hanamoto A."/>
+          <person name="Takahashi C."/>
+          <person name="Shinose M."/>
+          <person name="Takahashi Y."/>
+          <person name="Horikawa H."/>
+          <person name="Nakazawa H."/>
+          <person name="Osonoe T."/>
+          <person name="Kikuchi H."/>
+          <person name="Shiba T."/>
+          <person name="Sakaki Y."/>
+          <person name="Hattori M."/>
+        </authorList>
+        <dbReference id="11572948" type="PubMed"/>
+        <dbReference id="10.1073/pnas.211433198" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC 31267 / DSM 46492 / JCM 5070 / NBRC 14893 / NCIMB 12804 / NRRL 8165 / MA-4680</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2003" first="526" last="531" name="Nat. Biotechnol." type="journal article" volume="21">
+        <title>Complete genome sequence and comparative analysis of the industrial microorganism Streptomyces avermitilis.</title>
+        <authorList>
+          <person name="Ikeda H."/>
+          <person name="Ishikawa J."/>
+          <person name="Hanamoto A."/>
+          <person name="Shinose M."/>
+          <person name="Kikuchi H."/>
+          <person name="Shiba T."/>
+          <person name="Sakaki Y."/>
+          <person name="Hattori M."/>
+          <person name="Omura S."/>
+        </authorList>
+        <dbReference id="12692562" type="PubMed"/>
+        <dbReference id="10.1038/nbt820" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC 31267 / DSM 46492 / JCM 5070 / NBRC 14893 / NCIMB 12804 / NRRL 8165 / MA-4680</strain>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2010" first="8850" last="8851" name="J. Am. Chem. Soc." type="journal article" volume="132">
+        <title>Genome mining in Streptomyces avermitilis: cloning and characterization of SAV_76, the synthase for a new sesquiterpene, avermitilol.</title>
+        <authorList>
+          <person name="Chou W.K."/>
+          <person name="Fanizza I."/>
+          <person name="Uchiyama T."/>
+          <person name="Komatsu M."/>
+          <person name="Ikeda H."/>
+          <person name="Cane D.E."/>
+        </authorList>
+        <dbReference id="20536237" type="PubMed"/>
+        <dbReference id="10.1021/ja103087w" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Catalyzes the cyclization of farnesyl diphosphate to avermitilol.</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate + H2O = avermitilol + diphosphate</text>
+        <dbReference id="RHEA:32023" type="Rhea"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:63702" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.96" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="2">1.06 uM for farnesyl diphosphate</KM>
+        <text>kcat is 0.04 sec(-1).</text>
+      </kinetics>
+    </comment>
+    <comment type="miscellaneous">
+      <text evidence="4">The recombinent enzyme produces avermitilol (85%), accompanied by small quantities of germacrene A, germacrene B and viridiflorol.</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference id="4.2.3.96" type="EC"/>
+    <dbReference id="BA000030" type="EMBL">
+      <property type="protein sequence ID" value="BAC67785.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="WP_010981512.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NZ_JZJK01000037.1"/>
+    </dbReference>
+    <dbReference id="Q82RR7" type="SMR"/>
+    <dbReference id="227882.SAV_76" type="STRING"/>
+    <dbReference id="BAC67785" type="EnsemblBacteria">
+      <property type="protein sequence ID" value="BAC67785"/>
+      <property type="gene ID" value="SAVERM_76"/>
+    </dbReference>
+    <dbReference id="sma:SAVERM_76" type="KEGG"/>
+    <dbReference id="COG2124" type="eggNOG">
+      <property type="taxonomic scope" value="Bacteria"/>
+    </dbReference>
+    <dbReference id="CLU_042538_4_0_11" type="HOGENOM"/>
+    <dbReference id="PTSPFIE" type="OMA"/>
+    <dbReference id="1869158at2" type="OrthoDB"/>
+    <dbReference id="SAVE227882:G1G23-86-MONOMER" type="BioCyc"/>
+    <dbReference id="UP000000428" type="Proteomes">
+      <property type="component" value="Chromosome"/>
+    </dbReference>
+    <dbReference id="GO:0016829" type="GO">
+      <property type="term" value="F:lyase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034686" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_2"/>
+    </dbReference>
+    <dbReference id="SFLDG01020" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="Avermitilol synthase" id="PRO_0000418451" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="335"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" type="short sequence motif">
+      <location>
+        <begin position="80"/>
+        <end position="84"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="80"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="80"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="84"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="84"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="219"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="223"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="227"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250"/>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="20536237" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000305"/>
+    <evidence key="4" type="ECO:0000305">
+      <source>
+        <dbReference id="20536237" type="PubMed"/>
+      </source>
+    </evidence>
+    <sequence checksum="49B8477E2D52666F" length="335" mass="36480" modified="2003-06-01" version="1">MPQDIDFGLPAPAGISPGLEATRRHNLGWVRRLGLVGDGPSLAWYTSWDMPRLAACGFPHARGAALDLCADAMAFFFVFDDQFDGPLGRDPARAARVCRRLTGIVHGAGPGPGADACSAAFADVWARSTDGAHPGWVARTAHEWEYYFAAQAHEAINRLRGTPGDMESYLQVRRGIAGTDLPLSLGERAAGITVPAAAFHSPQLRIMREAAIDVTLMCNDVYSLEKEEARGDMDNLVLVIEHARRCTRDEAVTAARGEVARRVIRFEQLAREVPALCAQLGLSAVERAHVDTYLGVMEAWMSGYHAWQTQTRRYTGAPHVLPSTGPGYFDEVLPT</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

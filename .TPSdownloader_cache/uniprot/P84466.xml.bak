@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-03-29" modified="2021-04-07" version="86">
+<accession>P84466</accession>
+<accession>Q2EMV7</accession>
+<name>LSS_BOVIN</name>
+<protein>
+<recommendedName>
+<fullName>Lanosterol synthase</fullName>
+<ecNumber evidence="2">5.4.99.7</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>2,3-epoxysqualene--lanosterol cyclase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Oxidosqualene--lanosterol cyclase</fullName>
+<shortName>OSC</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">LSS</name>
+</gene>
+<organism>
+<name type="scientific">Bos taurus</name>
+<name type="common">Bovine</name>
+<dbReference type="NCBI Taxonomy" id="9913"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Laurasiatheria</taxon>
+<taxon>Artiodactyla</taxon>
+<taxon>Ruminantia</taxon>
+<taxon>Pecora</taxon>
+<taxon>Bovidae</taxon>
+<taxon>Bovinae</taxon>
+<taxon>Bos</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2006-01" db="EMBL/GenBank/DDBJ databases">
+<title>Molecular cloning and active-site mapping of oxidosqualene-lanosterol cyclase from bovine liver.</title>
+<authorList>
+<person name="Chang C.-H."/>
+<person name="Huang C.-Y."/>
+<person name="Ko C.-Y."/>
+<person name="Wu T.-K."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<source>
+<tissue>Liver</tissue>
+</source>
+</reference>
+<reference key="2" evidence="3">
+<citation type="journal article" date="2004" name="Arch. Biochem. Biophys." volume="421" first="42" last="53">
+<title>Purification, tandem mass characterization, and inhibition studies of oxidosqualene-lanosterol cyclase enzyme from bovine liver.</title>
+<authorList>
+<person name="Wu T.-K."/>
+<person name="Huang C.-Y."/>
+<person name="Ko C.-Y."/>
+<person name="Chang C.-H."/>
+<person name="Chen Y.-J."/>
+<person name="Liao H.-K."/>
+</authorList>
+<dbReference type="PubMed" id="14678783"/>
+<dbReference type="DOI" id="10.1016/j.abb.2003.09.036"/>
+</citation>
+<scope>PROTEIN SEQUENCE OF 163-174; 247-258 AND 493-506</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>ACTIVITY REGULATION</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>PATHWAY</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<source>
+<tissue evidence="2">Liver</tissue>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1 2">Key enzyme in the cholesterol biosynthesis pathway. Catalyzes the cyclization of (S)-2,3 oxidosqualene to lanosterol, a reaction that forms the sterol nucleus (PubMed:14678783). Through the production of lanosterol may regulate lens protein aggregation and increase transparency (By similarity).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(S)-2,3-epoxysqualene = lanosterol</text>
+<dbReference type="Rhea" id="RHEA:14621"/>
+<dbReference type="ChEBI" id="CHEBI:15441"/>
+<dbReference type="ChEBI" id="CHEBI:16521"/>
+<dbReference type="EC" id="5.4.99.7"/>
+</reaction>
+</comment>
+<comment type="activity regulation">
+<text evidence="2">Inhibited by the benzophenone containing OSC inhibitor Ro48-8071 and to a lesser extent by other benzophene containing inhibitors.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2">11 uM for (3S)-2,3-oxidosqualine</KM>
+</kinetics>
+<phDependence>
+<text evidence="2">Optimum pH is 7.4. Active from pH 5.0 to 10.0.</text>
+</phDependence>
+<temperatureDependence>
+<text evidence="2">Optimum temperature is 37 degrees Celsius. Active from 25 to 50 degrees Celsius.</text>
+</temperatureDependence>
+</comment>
+<comment type="pathway" evidence="2">
+<text>Terpene metabolism; lanosterol biosynthesis; lanosterol from farnesyl diphosphate: step 3/3.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Monomer.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Endoplasmic reticulum membrane</location>
+<topology evidence="1">Peripheral membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="2">Detected in the liver (at protein level).</text>
+</comment>
+<comment type="PTM">
+<text>The N-terminus is blocked.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the terpene cyclase/mutase family.</text>
+</comment>
+<dbReference type="EC" id="5.4.99.7" evidence="2"/>
+<dbReference type="EMBL" id="DQ372933">
+<property type="protein sequence ID" value="ABD24094.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001040029.1">
+<property type="nucleotide sequence ID" value="NM_001046564.1"/>
+</dbReference>
+<dbReference type="SMR" id="P84466"/>
+<dbReference type="STRING" id="9913.ENSBTAP00000025201"/>
+<dbReference type="PaxDb" id="P84466"/>
+<dbReference type="PRIDE" id="P84466"/>
+<dbReference type="GeneID" id="615906"/>
+<dbReference type="KEGG" id="bta:615906"/>
+<dbReference type="CTD" id="4047"/>
+<dbReference type="eggNOG" id="KOG0497">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="InParanoid" id="P84466"/>
+<dbReference type="OrthoDB" id="365003at2759"/>
+<dbReference type="SABIO-RK" id="P84466"/>
+<dbReference type="UniPathway" id="UPA00767">
+<property type="reaction ID" value="UER00753"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000009136">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005789">
+<property type="term" value="C:endoplasmic reticulum membrane"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005811">
+<property type="term" value="C:lipid droplet"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042300">
+<property type="term" value="F:beta-amyrin synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000250">
+<property type="term" value="F:lanosterol synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006695">
+<property type="term" value="P:cholesterol biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006694">
+<property type="term" value="P:steroid biosynthetic process"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016104">
+<property type="term" value="P:triterpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="CDD" id="cd02892">
+<property type="entry name" value="SQCY_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032696">
+<property type="entry name" value="SQ_cyclase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032697">
+<property type="entry name" value="SQ_cyclase_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018333">
+<property type="entry name" value="Squalene_cyclase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002365">
+<property type="entry name" value="Terpene_synthase_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13243">
+<property type="entry name" value="SQHop_cyclase_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13249">
+<property type="entry name" value="SQHop_cyclase_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01016">
+<property type="entry name" value="Prenyltransferase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01787">
+<property type="entry name" value="squalene_cyclas"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01074">
+<property type="entry name" value="TERPENE_SYNTHASES"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0007">Acetylation</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0256">Endoplasmic reticulum</keyword>
+<keyword id="KW-0413">Isomerase</keyword>
+<keyword id="KW-0444">Lipid biosynthesis</keyword>
+<keyword id="KW-0443">Lipid metabolism</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0752">Steroid biosynthesis</keyword>
+<feature type="initiator methionine" description="Removed" evidence="1">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Lanosterol synthase" id="PRO_0000072658">
+<location>
+<begin position="2"/>
+<end position="732"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 1">
+<location>
+<begin position="124"/>
+<end position="165"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 2">
+<location>
+<begin position="483"/>
+<end position="528"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 3">
+<location>
+<begin position="560"/>
+<end position="600"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 4">
+<location>
+<begin position="612"/>
+<end position="663"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 5">
+<location>
+<begin position="670"/>
+<end position="712"/>
+</location>
+</feature>
+<feature type="active site" description="Proton donor" evidence="1">
+<location>
+<position position="455"/>
+</location>
+</feature>
+<feature type="modified residue" description="N-acetylthreonine" evidence="1">
+<location>
+<position position="2"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P48449"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="14678783"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="732" mass="83184" checksum="B06289C2FE03B4B2" modified="2006-06-27" version="2">MTEGTCLRRRGGPYKTEPATDLSRWRLSNQVGRQTWTYSQEEDPVREQSGLEAHLLGLDTKSFFKDLPKAHTACRGALNGVTFYAALQTEDGHWAGDYGGPLFLLPGLLITCHVANIPLPAGYREEIIRYLRSVQLPDGGWGLHIEDKSTVFGTALNYVSLRILGVGPDDPDLVRARNLLHKKGGAVFIPSWGKFWLAVLNVYSWEGLNTLFPEMWLFPDWMPAHPSTIWCHCRQVYLPMAYCYSTRLSAEEGPLVQSLRQELYLEDYSCIDWAAHRNSVAPDDLYTPHSWLLHVVYAILNLYERHHSTSLRQWATQKLYEHIAADDRFTKCISIGPISKTINMLVRWHVDGPASAVFQEHVSRIPDYLWLGLDGMKMQGTNGSQIWDTAFAIQALLEARAQHRPEFWSCLRKAHEYLRISQVPDNFPDYQKYYRHMSKGGFSFSTLDCGWIVADCTAEALKSILLLQEKCPFVSNHVPRERLFDTVAVLLSLRNPDGGFATYETKRGGHLLELLNPSEVFGDIMIDYTYVECTSAVMQALKTFHKQFPDHRAGEIRETLEQGLQFCRQKQRPDGSWEGSWGVCFTYGAWFGLEAFACMGHTYHNGVACAEISRACDFLLSRQMADGGWGEDFESCKQRRYVQSAQSQIHNTCWALMGLMAVRHPDVAALERGVSYLLEKQLPNGDWPQENISGVFNKSCAISYTSYRNVFPIWTLGRFSRLHPDPALAGHP</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

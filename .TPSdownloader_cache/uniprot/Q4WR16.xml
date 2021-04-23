@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2012-02-22" dataset="Swiss-Prot" modified="2021-04-07" version="88">
+    <accession>Q4WR16</accession>
+    <name>HELA_ASPFU</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="10">Protostadienol synthase helA</fullName>
+        <ecNumber evidence="2 3 4 6">5.4.99.32</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="10">Helvolic acid biosynthesis cluster protein A</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="8">Oxidosqualene cyclase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="9">Oxidosqualene:protostadienol cyclase</fullName>
+        <shortName evidence="9">OSPC</shortName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="10" type="primary">helA</name>
+      <name evidence="8" type="synonym">osc3</name>
+      <name evidence="7" type="synonym">pdsA</name>
+      <name type="ORF">AFUA_4G14770</name>
+    </gene>
+    <organism>
+      <name type="scientific">Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100)</name>
+      <name type="synonym">Aspergillus fumigatus</name>
+      <dbReference id="330879" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Ascomycota</taxon>
+        <taxon>Pezizomycotina</taxon>
+        <taxon>Eurotiomycetes</taxon>
+        <taxon>Eurotiomycetidae</taxon>
+        <taxon>Eurotiales</taxon>
+        <taxon>Aspergillaceae</taxon>
+        <taxon>Aspergillus</taxon>
+        <taxon>Aspergillus subgen. Fumigati</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2005" first="1151" last="1156" name="Nature" type="journal article" volume="438">
+        <title>Genomic sequence of the pathogenic and allergenic filamentous fungus Aspergillus fumigatus.</title>
+        <authorList>
+          <person name="Nierman W.C."/>
+          <person name="Pain A."/>
+          <person name="Anderson M.J."/>
+          <person name="Wortman J.R."/>
+          <person name="Kim H.S."/>
+          <person name="Arroyo J."/>
+          <person name="Berriman M."/>
+          <person name="Abe K."/>
+          <person name="Archer D.B."/>
+          <person name="Bermejo C."/>
+          <person name="Bennett J.W."/>
+          <person name="Bowyer P."/>
+          <person name="Chen D."/>
+          <person name="Collins M."/>
+          <person name="Coulsen R."/>
+          <person name="Davies R."/>
+          <person name="Dyer P.S."/>
+          <person name="Farman M.L."/>
+          <person name="Fedorova N."/>
+          <person name="Fedorova N.D."/>
+          <person name="Feldblyum T.V."/>
+          <person name="Fischer R."/>
+          <person name="Fosker N."/>
+          <person name="Fraser A."/>
+          <person name="Garcia J.L."/>
+          <person name="Garcia M.J."/>
+          <person name="Goble A."/>
+          <person name="Goldman G.H."/>
+          <person name="Gomi K."/>
+          <person name="Griffith-Jones S."/>
+          <person name="Gwilliam R."/>
+          <person name="Haas B.J."/>
+          <person name="Haas H."/>
+          <person name="Harris D.E."/>
+          <person name="Horiuchi H."/>
+          <person name="Huang J."/>
+          <person name="Humphray S."/>
+          <person name="Jimenez J."/>
+          <person name="Keller N."/>
+          <person name="Khouri H."/>
+          <person name="Kitamoto K."/>
+          <person name="Kobayashi T."/>
+          <person name="Konzack S."/>
+          <person name="Kulkarni R."/>
+          <person name="Kumagai T."/>
+          <person name="Lafton A."/>
+          <person name="Latge J.-P."/>
+          <person name="Li W."/>
+          <person name="Lord A."/>
+          <person name="Lu C."/>
+          <person name="Majoros W.H."/>
+          <person name="May G.S."/>
+          <person name="Miller B.L."/>
+          <person name="Mohamoud Y."/>
+          <person name="Molina M."/>
+          <person name="Monod M."/>
+          <person name="Mouyna I."/>
+          <person name="Mulligan S."/>
+          <person name="Murphy L.D."/>
+          <person name="O'Neil S."/>
+          <person name="Paulsen I."/>
+          <person name="Penalva M.A."/>
+          <person name="Pertea M."/>
+          <person name="Price C."/>
+          <person name="Pritchard B.L."/>
+          <person name="Quail M.A."/>
+          <person name="Rabbinowitsch E."/>
+          <person name="Rawlins N."/>
+          <person name="Rajandream M.A."/>
+          <person name="Reichard U."/>
+          <person name="Renauld H."/>
+          <person name="Robson G.D."/>
+          <person name="Rodriguez de Cordoba S."/>
+          <person name="Rodriguez-Pena J.M."/>
+          <person name="Ronning C.M."/>
+          <person name="Rutter S."/>
+          <person name="Salzberg S.L."/>
+          <person name="Sanchez M."/>
+          <person name="Sanchez-Ferrero J.C."/>
+          <person name="Saunders D."/>
+          <person name="Seeger K."/>
+          <person name="Squares R."/>
+          <person name="Squares S."/>
+          <person name="Takeuchi M."/>
+          <person name="Tekaia F."/>
+          <person name="Turner G."/>
+          <person name="Vazquez de Aldana C.R."/>
+          <person name="Weidman J."/>
+          <person name="White O."/>
+          <person name="Woodward J.R."/>
+          <person name="Yu J.-H."/>
+          <person name="Fraser C.M."/>
+          <person name="Galagan J.E."/>
+          <person name="Asai K."/>
+          <person name="Machida M."/>
+          <person name="Hall N."/>
+          <person name="Barrell B.G."/>
+          <person name="Denning D.W."/>
+        </authorList>
+        <dbReference id="16372009" type="PubMed"/>
+        <dbReference id="10.1038/nature04332" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2007" first="E50" last="E50" name="PLoS Pathog." type="journal article" volume="3">
+        <title>Transcriptional regulation of chemical diversity in Aspergillus fumigatus by LaeA.</title>
+        <authorList>
+          <person name="Perrin R.M."/>
+          <person name="Fedorova N.D."/>
+          <person name="Bok J.W."/>
+          <person name="Cramer R.A."/>
+          <person name="Wortman J.R."/>
+          <person name="Kim H.S."/>
+          <person name="Nierman W.C."/>
+          <person name="Keller N.P."/>
+        </authorList>
+        <dbReference id="17432932" type="PubMed"/>
+        <dbReference id="10.1371/journal.ppat.0030050" type="DOI"/>
+      </citation>
+      <scope>INDUCTION</scope>
+    </reference>
+    <reference key="3">
+      <citation date="2009" first="6402" last="6411" name="J. Am. Chem. Soc." type="journal article" volume="131">
+        <title>Biosynthesis of steroidal antibiotic fusidanes: functional analysis of oxidosqualene cyclase and subsequent tailoring enzymes from Aspergillus fumigatus.</title>
+        <authorList>
+          <person name="Mitsuguchi H."/>
+          <person name="Seshime Y."/>
+          <person name="Fujii I."/>
+          <person name="Shibuya M."/>
+          <person name="Ebizuka Y."/>
+          <person name="Kushiro T."/>
+        </authorList>
+        <dbReference id="19415934" type="PubMed"/>
+        <dbReference id="10.1021/ja8095976" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <reference key="4">
+      <citation date="2009" first="1241" last="1244" name="Org. Lett." type="journal article" volume="11">
+        <title>Protostadienol biosynthesis and metabolism in the pathogenic fungus Aspergillus fumigatus.</title>
+        <authorList>
+          <person name="Lodeiro S."/>
+          <person name="Xiong Q."/>
+          <person name="Wilson W.K."/>
+          <person name="Ivanova Y."/>
+          <person name="Smith M.L."/>
+          <person name="May G.S."/>
+          <person name="Matsuda S.P."/>
+        </authorList>
+        <dbReference id="19216560" type="PubMed"/>
+        <dbReference id="10.1021/ol802696a" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <reference key="5">
+      <citation date="2010" first="899" last="902" name="Biochem. Biophys. Res. Commun." type="journal article" volume="391">
+        <title>Protostadienol synthase from Aspergillus fumigatus: functional conversion into lanosterol synthase.</title>
+        <authorList>
+          <person name="Kimura M."/>
+          <person name="Kushiro T."/>
+          <person name="Shibuya M."/>
+          <person name="Ebizuka Y."/>
+          <person name="Abe I."/>
+        </authorList>
+        <dbReference id="19951700" type="PubMed"/>
+        <dbReference id="10.1016/j.bbrc.2009.11.160" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <scope>MUTAGENESIS OF PRO-703 AND PRO-704</scope>
+    </reference>
+    <reference key="6">
+      <citation date="2014" first="894" last="894" name="BMC Genomics" type="journal article" volume="15">
+        <title>RNA-seq reveals the pan-transcriptomic impact of attenuating the gliotoxin self-protection mechanism in Aspergillus fumigatus.</title>
+        <authorList>
+          <person name="O'Keeffe G."/>
+          <person name="Hammel S."/>
+          <person name="Owens R.A."/>
+          <person name="Keane T.M."/>
+          <person name="Fitzpatrick D.A."/>
+          <person name="Jones G.W."/>
+          <person name="Doyle S."/>
+        </authorList>
+        <dbReference id="25311525" type="PubMed"/>
+        <dbReference id="10.1186/1471-2164-15-894" type="DOI"/>
+      </citation>
+      <scope>INDUCTION</scope>
+    </reference>
+    <reference key="7">
+      <citation date="2017" first="1644" last="1644" name="Nat. Commun." type="journal article" volume="8">
+        <title>Biosynthesis of helvolic acid and identification of an unusual C-4-demethylation process distinct from sterol biosynthesis.</title>
+        <authorList>
+          <person name="Lv J.M."/>
+          <person name="Hu D."/>
+          <person name="Gao H."/>
+          <person name="Kushiro T."/>
+          <person name="Awakawa T."/>
+          <person name="Chen G.D."/>
+          <person name="Wang C.X."/>
+          <person name="Abe I."/>
+          <person name="Yao X.S."/>
+        </authorList>
+        <dbReference id="29158519" type="PubMed"/>
+        <dbReference id="10.1038/s41467-017-01813-9" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2 3 4 6">Protostadienol synthase; part of the gene cluster that mediates the biosynthesis of helvolic acid, an antibacterial nortriterpenoid (PubMed:19415934, PubMed:19216560, PubMed:19951700, PubMed:29158519). Protostadienol synthase helA cyclizes (3S)-oxidosqualene to (17Z)-protosta-17(20),24-dien-3-beta-ol (protostadienol)(PubMed:19415934, PubMed:19216560, PubMed:19951700, PubMed:29158519). The synthesis of protostadienol is followed by several steps of monooxygenation, dehydrogenation, and acyl transfer to yield the final helvolic acid (PubMed:19216560). Following the cyclization to the tetracyclic protostadienol by helA, cytochrome P450 monooxygenases helB1-mediated and helB2-mediated oxidation at C-4 and C-16, acyltransferase helD2-dependent acetylation of 16-OH, oxidation of C-21 by cytochrome P450 monooxygenase helB4, and short chain dehydrogenase helC-dependent oxidative decarboxylation yield the fusidane skeleton (PubMed:29158519). This intermediate is further modified in three additional steps mediated by the cytochrome P450 monooxygenase helB3, the acyltransferase helD1, and the 3-ketosteroid 1-dehydrogenase helE to give helvolic acid (PubMed:19415934, PubMed:19216560, PubMed:29158519). Compared with the late stages in the biosynthesis of helvolic acid, enzymes involved in the early stage modifications act in a relatively strict order (PubMed:29158519). The hydroxylation of C-16 by helB1 and subsequent acetylation by helD2 should occur before the helB3-mediated oxidation of C-21 (PubMed:29158519). C-4 demethylation in fusidane-type antibiotics proceeds in an unusual manner though it is also achieved by oxidative decarboxylation (PubMed:19415934, PubMed:29158519). The methyl group at C-4 beta position is oxidized by helB1 and subsequently removed by the short chain dehydrogenase helC (PubMed:19415934, PubMed:29158519).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2 3 4 6">
+        <text>(S)-2,3-epoxysqualene = (17Z)-protosta-17(20),24-dien-3beta-ol</text>
+        <dbReference id="RHEA:30987" type="Rhea"/>
+        <dbReference id="CHEBI:15441" type="ChEBI"/>
+        <dbReference id="CHEBI:62457" type="ChEBI"/>
+        <dbReference id="5.4.99.32" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="4">14.4 uM for 2,3-oxidosqualene</KM>
+      </kinetics>
+    </comment>
+    <comment evidence="2 3 6" type="pathway">
+      <text>Mycotoxin biosynthesis.</text>
+    </comment>
+    <comment type="induction">
+      <text evidence="1 5">Expression is under the control of the secondary metabolism regulator laeA (PubMed:17432932). Expression is down-regulated when gliT is deleted and up-regulated upon exposure to exogenous gliotoxin (PubMed:25311525).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="11">Belongs to the terpene cyclase/mutase family.</text>
+    </comment>
+    <dbReference evidence="2 3 4 6" id="5.4.99.32" type="EC"/>
+    <dbReference id="AAHF01000005" type="EMBL">
+      <property type="protein sequence ID" value="EAL89318.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="XP_751356.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="XM_746263.1"/>
+    </dbReference>
+    <dbReference id="Q4WR16" type="SMR"/>
+    <dbReference id="746128.CADAFUBP00007020" type="STRING"/>
+    <dbReference id="EAL89318" type="EnsemblFungi">
+      <property type="protein sequence ID" value="EAL89318"/>
+      <property type="gene ID" value="AFUA_4G14770"/>
+    </dbReference>
+    <dbReference id="3509337" type="GeneID"/>
+    <dbReference id="afm:AFUA_4G14770" type="KEGG"/>
+    <dbReference id="FungiDB:Afu4g14770" type="VEuPathDB"/>
+    <dbReference id="KOG0497" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="CLU_009074_2_1_1" type="HOGENOM"/>
+    <dbReference id="Q4WR16" type="InParanoid"/>
+    <dbReference id="SMLCCWI" type="OMA"/>
+    <dbReference id="365003at2759" type="OrthoDB"/>
+    <dbReference id="MetaCyc:MONOMER-16527" type="BioCyc"/>
+    <dbReference id="UP000002530" type="Proteomes">
+      <property type="component" value="Chromosome 4"/>
+    </dbReference>
+    <dbReference id="UP000002530" type="Proteomes">
+      <property type="component" value="Unassembled WGS sequence"/>
+    </dbReference>
+    <dbReference id="GO:0005811" type="GO">
+      <property type="term" value="C:lipid droplet"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0042300" type="GO">
+      <property type="term" value="F:beta-amyrin synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0000250" type="GO">
+      <property type="term" value="F:lanosterol synthase activity"/>
+      <property type="evidence" value="ECO:0000315"/>
+      <property type="project" value="AspGD"/>
+    </dbReference>
+    <dbReference id="GO:1900581" type="GO">
+      <property type="term" value="P:(17Z)-protosta-17(20),24-dien-3beta-ol biosynthetic process"/>
+      <property type="evidence" value="ECO:0000315"/>
+      <property type="project" value="AspGD"/>
+    </dbReference>
+    <dbReference id="GO:0006696" type="GO">
+      <property type="term" value="P:ergosterol biosynthetic process"/>
+      <property type="evidence" value="ECO:0000318"/>
+      <property type="project" value="GO_Central"/>
+    </dbReference>
+    <dbReference id="GO:0009405" type="GO">
+      <property type="term" value="P:pathogenesis"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0019748" type="GO">
+      <property type="term" value="P:secondary metabolic process"/>
+      <property type="evidence" value="ECO:0000317"/>
+      <property type="project" value="AspGD"/>
+    </dbReference>
+    <dbReference id="cd02892" type="CDD">
+      <property type="entry name" value="SQCY_1"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR032696" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_C"/>
+    </dbReference>
+    <dbReference id="IPR032697" type="InterPro">
+      <property type="entry name" value="SQ_cyclase_N"/>
+    </dbReference>
+    <dbReference id="IPR018333" type="InterPro">
+      <property type="entry name" value="Squalene_cyclase"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF13243" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF13249" type="Pfam">
+      <property type="entry name" value="SQHop_cyclase_N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01016" type="SFLD">
+      <property type="entry name" value="Prenyltransferase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="TIGR01787" type="TIGRFAMs">
+      <property type="entry name" value="squalene_cyclas"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0444">Lipid biosynthesis</keyword>
+    <keyword id="KW-0443">Lipid metabolism</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0677">Repeat</keyword>
+    <keyword id="KW-0752">Steroid biosynthesis</keyword>
+    <keyword id="KW-0843">Virulence</keyword>
+    <feature description="Protostadienol synthase helA" id="PRO_0000415495" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="735"/>
+      </location>
+    </feature>
+    <feature description="PFTB 1" type="repeat">
+      <location>
+        <begin position="132"/>
+        <end position="173"/>
+      </location>
+    </feature>
+    <feature description="PFTB 2" type="repeat">
+      <location>
+        <begin position="490"/>
+        <end position="531"/>
+      </location>
+    </feature>
+    <feature description="PFTB 3" type="repeat">
+      <location>
+        <begin position="567"/>
+        <end position="607"/>
+      </location>
+    </feature>
+    <feature description="PFTB 4" type="repeat">
+      <location>
+        <begin position="616"/>
+        <end position="663"/>
+      </location>
+    </feature>
+    <feature description="Proton donor" evidence="11" type="active site">
+      <location>
+        <position position="463"/>
+      </location>
+    </feature>
+    <feature description="Changes its oxidosqualene:protostadienol cyclase (OSPC) activity to oxidosqualene:lanosterol cyclase (OSLC) activity." evidence="4" type="mutagenesis site">
+      <original>APPGGMR</original>
+      <variation>NKSCAIS</variation>
+      <location>
+        <begin position="702"/>
+        <end position="708"/>
+      </location>
+    </feature>
+    <feature description="Impairs catalytic activity; when associated with S-704." evidence="4" type="mutagenesis site">
+      <original>P</original>
+      <variation>K</variation>
+      <location>
+        <position position="703"/>
+      </location>
+    </feature>
+    <feature description="Impairs catalytic activity; when associated with K-703." evidence="4" type="mutagenesis site">
+      <original>P</original>
+      <variation>S</variation>
+      <location>
+        <position position="704"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000269">
+      <source>
+        <dbReference id="17432932" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="19216560" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="19415934" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="19951700" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000269">
+      <source>
+        <dbReference id="25311525" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000269">
+      <source>
+        <dbReference id="29158519" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000303">
+      <source>
+        <dbReference id="19216560" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000303">
+      <source>
+        <dbReference id="19415934" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0000303">
+      <source>
+        <dbReference id="19951700" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0000303">
+      <source>
+        <dbReference id="29158519" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="11" type="ECO:0000305"/>
+    <sequence checksum="AA0AC92A8A6E36F8" length="735" mass="83091" modified="2005-07-05" version="1">MATDSSMPGTVIGKAEFSDTKAASEFGTDLSRWRLNVDNGRHMWEYLESEDEARKRPQSFLEKYWLGLPYELPARPRATCALEAVENGWEFFKRLQTADGHWGCNDDGPLFVTSGMVIARYIVGIPIDSHMKQEMCRYLLNVVNEDGGWGLFIQSPSTVFGTVMNYCMLRILGLGPEHPAMAKARNTLHRLGSARATPTWGKFWLCVLGVYEWEGMVPLPPEPLLVPASLPFNPGKWWVHTRNVYISMSYLYGHRFSMPPNKLVQALRDELYDIPYQQINWPAQRTNVSAADRLTDPTWIQRSFTSALTMYETFKIPFLRRRALNEALFQIETETRNTHYLCIAPVSFASNMLALYHAHGRDSHWIRGMRDRFIDPMWLCREGLAASGTNGTSLWDTALTVQATIDAGLAARPENQAILRKALEFIDNSQIREDPLGVHHVYRQPTRGAWPFSTRDQSYAVSDTTAEAVKVIVLLQRIEGFPSRISDERLQQAIDLILGMENAGGGFSAYEPVRGPKFLELLNITELYENVMTDNLYPECTSSVIMCLTTFAREYPTYRPRDIQACLSRSIDYLLRSQYPNGGWFASWGVCFTYATMFALQGLACMGWNESNCAACQRACSFLLQHQNPDGGWGESLDTVRFKQYLPHPDGSQVTNTAYAVIGLLAARCGNHEAIRRGVAYLVKEQQDTGEWLPGPLEGVFAPPGGMRYPNYKFHFTLMALGRYVAIHGNECLAI</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

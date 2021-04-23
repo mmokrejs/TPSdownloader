@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:62417</ID>
+<NAME>arabidiol</NAME>
+<DEFINITION>A tricyclic triterpenoid that is perhydro-1H-cyclopenta[a]naphthalene that is substituted bu methyl groups at positions 3a, 6, 6, and 9a, by a hydroxy group at position 7, and by a (2R,5E)-2-hydroxy-6,10-dimethylundeca-5,9-dien-2-yl group at position 3 (the     3R,3aR,5aR,7S,9aR,9bR-isomer).</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>arabidiol</SYNONYM>
+<SYNONYM>(13R)-malabarica-17,21-diene-3beta,14-diol</SYNONYM>
+<IUPAC_NAME>(3R,3aR,5aR,7S,9aR,9bR)-3-[(2R,5E)-2-hydroxy-6,10-dimethylundeca-5,9-dien-2-yl]-3a,6,6,9a-tetramethyldodecahydro-1H-cyclopenta[a]naphthalen-7-ol</IUPAC_NAME>
+<FORMULA>C30H52O2</FORMULA>
+<MASS>444.73270</MASS>
+<MONOISOTOPIC_MASS>444.39673</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@]1(CC[C@@]2([H])[C@@]1(C)CC[C@@]1([H])C(C)(C)[C@@H](O)CC[C@]21C)[C@](C)(O)CC\C=C(/C)CCC=C(C)C</SMILES>
+<INCHI>InChI=1S/C30H52O2/c1-21(2)11-9-12-22(3)13-10-18-30(8,32)25-15-14-24-28(6)20-17-26(31)27(4,5)23(28)16-19-29(24,25)7/h11,13,23-26,31-32H,9-10,12,14-20H2,1-8H3/b22-13+/t23-,24+,25+,26-,28-,29+,30+/m0/s1</INCHI>
+<INCHIKEY>KCSCTOANDBOIGV-ZFAZNOKVSA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>11037015</REAXYS_REGISTRY_NUMBER>
+<PUBMED_CITATION>16774269</PUBMED_CITATION>
+<PUBMED_CITATION>17474751</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

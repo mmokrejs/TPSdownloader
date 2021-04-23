@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2018-02-28" dataset="Swiss-Prot" modified="2019-12-11" version="11">
+    <accession>A0A1L7U8F2</accession>
+    <name>GUDIS_FUSMA</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="3">(1R,4R,5S)-(-)-guaia-6,10(14)-diene synthase</fullName>
+        <ecNumber evidence="2">4.2.3.165</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="3">Sesquiterpene cyclase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="3">Terpene synthase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="3">Type I terpene cyclase</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="6" type="ORF">FMAN_14887</name>
+    </gene>
+    <organism>
+      <name type="scientific">Fusarium mangiferae</name>
+      <name type="common">Mango malformation disease fungus</name>
+      <dbReference id="192010" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Ascomycota</taxon>
+        <taxon>Pezizomycotina</taxon>
+        <taxon>Sordariomycetes</taxon>
+        <taxon>Hypocreomycetidae</taxon>
+        <taxon>Hypocreales</taxon>
+        <taxon>Nectriaceae</taxon>
+        <taxon>Fusarium</taxon>
+        <taxon>Fusarium fujikuroi species complex</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2016" first="3574" last="3599" name="Genome Biol. Evol." type="journal article" volume="8">
+        <title>Comparative 'omics' of the Fusarium fujikuroi species complex highlights differences in genetic potential and metabolite synthesis.</title>
+        <authorList>
+          <person name="Niehaus E.-M."/>
+          <person name="Muensterkoetter M."/>
+          <person name="Proctor R.H."/>
+          <person name="Brown D.W."/>
+          <person name="Sharon A."/>
+          <person name="Idan Y."/>
+          <person name="Oren-Young L."/>
+          <person name="Sieber C.M."/>
+          <person name="Novak O."/>
+          <person name="Pencik A."/>
+          <person name="Tarkowska D."/>
+          <person name="Hromadova K."/>
+          <person name="Freeman S."/>
+          <person name="Maymon M."/>
+          <person name="Elazar M."/>
+          <person name="Youssef S.A."/>
+          <person name="El-Shabrawy E.S.M."/>
+          <person name="Shalaby A.B.A."/>
+          <person name="Houterman P."/>
+          <person name="Brock N.L."/>
+          <person name="Burkhardt I."/>
+          <person name="Tsavkelova E.A."/>
+          <person name="Dickschat J.S."/>
+          <person name="Galuszka P."/>
+          <person name="Gueldener U."/>
+          <person name="Tudzynski B."/>
+        </authorList>
+        <dbReference id="28040774" type="PubMed"/>
+        <dbReference id="10.1093/gbe/evw259" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain>MRC7560</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2016" first="8748" last="8751" name="Angew. Chem. Int. Ed." type="journal article" volume="55">
+        <title>Mechanistic characterisation of two sesquiterpene cyclases from the plant pathogenic fungus Fusarium fujikuroi.</title>
+        <authorList>
+          <person name="Burkhardt I."/>
+          <person name="Siemon T."/>
+          <person name="Henrot M."/>
+          <person name="Studt L."/>
+          <person name="Roesler S."/>
+          <person name="Tudzynski B."/>
+          <person name="Christmann M."/>
+          <person name="Dickschat J.S."/>
+        </authorList>
+        <dbReference id="27294564" type="PubMed"/>
+        <dbReference id="10.1002/anie.201603782" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>SUBSTRATE SPECIFICITY</scope>
+      <scope>DOMAIN</scope>
+      <scope>REACTION MECHANISM</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="2">Catalyzes the conversion of (2E,6E)-farnesyl diphosphate (FPP) to yield the bicyclic sesquiterpene guaia-6,10(14)-diene via a 1,10-cyclization, which requires the abstraction of the pyrophosphate from FPP to yield the (E,E)-germacradienyl cation. The only accepted substrate is farnesyl diphosphate (FPP).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="2">
+        <text>(2E,6E)-farnesyl diphosphate = (1R,4R,5S)-(-)-guaia-6,10(14)-diene + diphosphate</text>
+        <dbReference id="RHEA:53668" type="Rhea"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:137563" type="ChEBI"/>
+        <dbReference id="CHEBI:175763" type="ChEBI"/>
+        <dbReference id="4.2.3.165" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment evidence="4" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="5">The Asp-Asp-Xaa-Xaa-Asp (DDXXD) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="4">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="2" id="4.2.3.165" type="EC"/>
+    <dbReference id="FCQH01000014" type="EMBL">
+      <property type="protein sequence ID" value="CVL03997.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="A0A1L7U8F2" type="SMR"/>
+    <dbReference id="1143139at2759" type="OrthoDB"/>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="UP000184255" type="Proteomes">
+      <property type="component" value="Unassembled WGS sequence"/>
+    </dbReference>
+    <dbReference id="GO:0016829" type="GO">
+      <property type="term" value="F:lyase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034686" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_2"/>
+    </dbReference>
+    <dbReference id="SFLDG01020" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <feature description="(1R,4R,5S)-(-)-guaia-6,10(14)-diene synthase" id="PRO_0000443320" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="401"/>
+      </location>
+    </feature>
+    <feature description="Substrate binding" evidence="1" type="region of interest">
+      <location>
+        <begin position="375"/>
+        <end position="376"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="5" type="short sequence motif">
+      <location>
+        <begin position="134"/>
+        <end position="138"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="134"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="139"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="139"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="288"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="292"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="1" type="metal ion-binding site">
+      <location>
+        <position position="296"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="242"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="1" type="binding site">
+      <location>
+        <position position="295"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="B5HDJ6" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="27294564" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000303">
+      <source>
+        <dbReference id="27294564" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000305"/>
+    <evidence key="5" type="ECO:0000305">
+      <source>
+        <dbReference id="27294564" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000312">
+      <source>
+        <dbReference id="CVL03997.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="59740D71C76183A6" length="401" mass="45843" modified="2017-03-15" version="1">MVKFDSGSESEMTNGDEVHINTKHEVKSRMANGNGVHNVPDHDQFQDRAEMEVLILPDLFSSLMSVPARENPHYASVKADADEWISSVINADAKWASRNKRVDFTYLASIWAPDCSAFALRTSADWNSWAFLFDDQFDEGHLSNDLDGAINEIARTREIMEGTAPRYTADSEHPIRYVFQTLCDRVKQSPEGFYAGKPSSDRFYRRWMWAHELYWEGLVAQVRTNVEGRSFTRGPEEYLAMRRGSLGAYPALVNNEWAYGIDLPEDVADHPLVFEIMVIMSDQILLVNDILSYEKDLRLGVDHNMVRLLKAKGLSTQQAINEVGVMINNCYRRYYRALSELPCFGEEADRALLGYLEVEKNHALGSLLWSYKTGRYFKSKEDGARVRKTRELLIPKKMAAL</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

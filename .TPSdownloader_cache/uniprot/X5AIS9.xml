@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2014-06-11" dataset="TrEMBL" modified="2020-10-07" version="24">
+    <accession>X5AIS9</accession>
+    <name>X5AIS9_9LAMI</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="4">Diterpene synthase TPS15</fullName>
+        <ecNumber evidence="4">5.5.1.13</ecNumber>
+      </submittedName>
+    </protein>
+    <organism evidence="4">
+      <name type="scientific">Plectranthus barbatus</name>
+      <dbReference id="41228" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>lamiids</taxon>
+        <taxon>Lamiales</taxon>
+        <taxon>Lamiaceae</taxon>
+        <taxon>Nepetoideae</taxon>
+        <taxon>Ocimeae</taxon>
+        <taxon>Plectranthus</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="4" key="1">
+      <citation date="2014" first="1222" last="1236" name="Plant Physiol." type="journal article" volume="164">
+        <title>Manoyl Oxide (13R), the Biosynthetic Precursor of Forskolin, Is Synthesized in Specialized Root Cork Cells in Coleus forskohlii.</title>
+        <authorList>
+          <person name="Pateraki I."/>
+          <person name="Andersen-Ranberg J."/>
+          <person name="Hamberger B."/>
+          <person name="Heskes A.M."/>
+          <person name="Martens H.J."/>
+          <person name="Zerbe P."/>
+          <person name="Bach S.S."/>
+          <person name="Moller B.L."/>
+          <person name="Bohlmann J."/>
+          <person name="Hamberger B."/>
+        </authorList>
+        <dbReference id="24481136" type="PubMed"/>
+        <dbReference id="10.1104/pp.113.228429" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <comment evidence="1" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <dbReference evidence="4" id="5.5.1.13" type="EC"/>
+    <dbReference id="KF471011" type="EMBL">
+      <property type="protein sequence ID" value="AHW04050.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="GO:0009905" type="GO">
+      <property type="term" value="F:ent-copalyl diphosphate synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="4" id="KW-0413">Isomerase</keyword>
+    <feature description="Terpene_synth" evidence="2" type="domain">
+      <location>
+        <begin position="107"/>
+        <end position="312"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="3" type="domain">
+      <location>
+        <begin position="356"/>
+        <end position="506"/>
+      </location>
+    </feature>
+    <feature evidence="4" type="non-terminal residue">
+      <location>
+        <position position="1"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00004721" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000313">
+      <source>
+        <dbReference id="AHW04050.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="DDC989B7D6E4C984" fragment="single" length="637" mass="73515" modified="2014-06-11" version="1">SLACVVALKSWNVHPHKTDKGISFIKKNMFRIDEENLEHMPIGFEVALPSLIDIAKKLEIDIPDETRGLREIYARREIKLKKIPREIMHQVPTTLLHSLEGMAGLVWEKLLKLQNEDGSFLFSPSSTAFALQQTRDDNCLKYLTNHIHKFNGGVPNVYPVDLFEHLWAADRLQRLGVSRYFQPEIDECIAYVHRYWTEKGICWARNSEVEDIDDTAMGFRLLRLHGYEVSADVFEHFKSGGEFFCFKGQSTQAVTGMYNLYRASQVMFPGENILADAARFSANFLQEKRANNQLLDKWIITKDLPGEVGYALDVPWHASLPRLETRFYLEQYGGDDDVWIGKTLYRMPYVNNNKYLELAKLDYNNCQALHQDEWQNIKKWYRNCNVGECGLPEKSLVQIYYVAAASIFEPEKSQQRLAWVKTEVLMKTIISHFEFQQLPRQQKRAFLEEFENGSILKYTNGGRYKTKSCLVGTLVRTLNHLSLDILLAHGRDIYQPLKNAWRKWMREGDDAELLVQTLNLSGGGSCWASEELLSSNPKYGQLLKATISVCKKLHPSQNRKVNGEDGCIRSAEGTAKLEIESDMQELVKLVMTRSLNDLNSEIKHNFYIIARSFYYVAYCNPSRISFHVSKVLFERVL</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

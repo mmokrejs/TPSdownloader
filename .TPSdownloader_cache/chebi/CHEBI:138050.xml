@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:138050</ID>
+<NAME>pseudolaratriene</NAME>
+<DEFINITION>A bicyclic diterpene that is 1,2,3,3a,4,5,8,8a-octahydroazulene carrying two methyl substituents at positions 6 and 8a as well as a 6-methylhepta-2,5-dien-2-yl at position 3. The relative stereochemistry has been assigned tentatively.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>pseudolaratriene</SYNONYM>
+<IUPAC_NAME>rel-(3R,3aR,8aS)-6,8a-dimethyl-3-[(2Z)-6-methylhepta-2,5-dien-2-yl]-1,2,3,3a,4,5,8,8a-octahydroazulene</IUPAC_NAME>
+<FORMULA>C20H32</FORMULA>
+<MASS>272.469</MASS>
+<MONOISOTOPIC_MASS>272.25040</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[C@@]12([C@@]([C@@](CC1)(/C(=C\CC=C(C)C)/C)[H])(CCC(=CC2)C)[H])C</SMILES>
+<INCHI>InChI=1S/C20H32/c1-15(2)7-6-8-17(4)18-12-14-20(5)13-11-16(3)9-10-19(18)20/h7-8,11,18-19H,6,9-10,12-14H2,1-5H3/b17-8-/t18-,19+,20+/m0/s1</INCHI>
+<INCHIKEY>FUOLWDALQQTTKB-OHAZERQJSA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>30775058</REAXYS_REGISTRY_NUMBER>
+<METACYC_ACCESSION>CPD-20245</METACYC_ACCESSION>
+<PUBMED_CITATION>28096378</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2018-10-10" dataset="Swiss-Prot" modified="2021-04-07" version="59">
+    <accession>B5GMG2</accession>
+    <name>CNSA_STRCL</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="4">1,8-cineole synthase</fullName>
+        <shortName evidence="4">CnsA</shortName>
+        <shortName evidence="5">bCinS</shortName>
+        <ecNumber evidence="1 2 3">4.2.3.108</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="5">Monoterpene synthase</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="4" type="primary">cnsA</name>
+      <name evidence="9" type="ORF">SCLAV_p0982</name>
+      <name evidence="8" type="ORF">SSCG_00536</name>
+    </gene>
+    <organism>
+      <name type="scientific">Streptomyces clavuligerus</name>
+      <dbReference id="1901" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Bacteria</taxon>
+        <taxon>Actinobacteria</taxon>
+        <taxon>Streptomycetales</taxon>
+        <taxon>Streptomycetaceae</taxon>
+        <taxon>Streptomyces</taxon>
+      </lineage>
+    </organism>
+    <geneLocation evidence="9 10" type="plasmid">
+      <name>pSCL4</name>
+    </geneLocation>
+    <reference key="1">
+      <citation date="2008-02" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Annotation of Streptomyces clavuligerus ATCC 27064.</title>
+        <authorList>
+          <person name="Fischbach M."/>
+          <person name="Ward D."/>
+          <person name="Young S."/>
+          <person name="Jaffe D."/>
+          <person name="Gnerre S."/>
+          <person name="Berlin A."/>
+          <person name="Heiman D."/>
+          <person name="Hepburn T."/>
+          <person name="Sykes S."/>
+          <person name="Alvarado L."/>
+          <person name="Kodira C.D."/>
+          <person name="Straight P."/>
+          <person name="Clardy J."/>
+          <person name="Hung D."/>
+          <person name="Kolter R."/>
+          <person name="Mekalanos J."/>
+          <person name="Walker S."/>
+          <person name="Walsh C.T."/>
+          <person name="Lander E."/>
+          <person name="Galagan J."/>
+          <person name="Nusbaum C."/>
+          <person name="Birren B."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain evidence="11">ATCC 27064 / DSM 738 / JCM 4710 / NBRC 13307 / NCIMB 12785 / NRRL 3585 / VKM Ac-602</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="2010" first="212" last="224" name="Genome Biol. Evol." type="journal article" volume="2">
+        <title>The sequence of a 1.8-mb bacterial linear plasmid reveals a rich evolutionary reservoir of secondary metabolic pathways.</title>
+        <authorList>
+          <person name="Medema M.H."/>
+          <person name="Trefzer A."/>
+          <person name="Kovalchuk A."/>
+          <person name="van den Berg M."/>
+          <person name="Mueller U."/>
+          <person name="Heijne W."/>
+          <person name="Wu L."/>
+          <person name="Alam M.T."/>
+          <person name="Ronning C.M."/>
+          <person name="Nierman W.C."/>
+          <person name="Bovenberg R.A.L."/>
+          <person name="Breitling R."/>
+          <person name="Takano E."/>
+        </authorList>
+        <dbReference id="20624727" type="PubMed"/>
+        <dbReference id="10.1093/gbe/evq013" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <plasmid evidence="9">pSCL4</plasmid>
+        <strain evidence="10">ATCC 27064 / DSM 738 / JCM 4710 / NBRC 13307 / NCIMB 12785 / NRRL 3585 / VKM Ac-602</strain>
+      </source>
+    </reference>
+    <reference key="3">
+      <citation date="2011" first="1988" last="1991" name="ChemBioChem" type="journal article" volume="12">
+        <title>Identification of the first bacterial monoterpene cyclase, a 1,8-cineole synthase, that catalyzes the direct conversion of geranyl diphosphate.</title>
+        <authorList>
+          <person name="Nakano C."/>
+          <person name="Kim H.K."/>
+          <person name="Ohnishi Y."/>
+        </authorList>
+        <dbReference id="21726035" type="PubMed"/>
+        <dbReference id="10.1002/cbic.201100330" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+      <source>
+        <strain>ATCC 27064 / DSM 738 / JCM 4710 / NBRC 13307 / NCIMB 12785 / NRRL 3585 / VKM Ac-602</strain>
+      </source>
+    </reference>
+    <reference key="4">
+      <citation date="2016" first="2317" last="2324" name="Beilstein J. Org. Chem." type="journal article" volume="12">
+        <title>A detailed view on 1,8-cineol biosynthesis by Streptomyces clavuligerus.</title>
+        <authorList>
+          <person name="Rinkel J."/>
+          <person name="Rabe P."/>
+          <person name="Zur Horst L."/>
+          <person name="Dickschat J.S."/>
+        </authorList>
+        <dbReference id="28144299" type="PubMed"/>
+        <dbReference id="10.3762/bjoc.12.225" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>REACTION MECHANISM</scope>
+      <source>
+        <strain>ATCC 27064 / DSM 738 / JCM 4710 / NBRC 13307 / NCIMB 12785 / NRRL 3585 / VKM Ac-602</strain>
+      </source>
+    </reference>
+    <reference key="5">
+      <citation date="2017" first="6268" last="6282" name="ACS Catal." type="journal article" volume="7">
+        <title>Structural basis of catalysis in the bacterial monoterpene synthases linalool synthase and 1,8-cineole synthase.</title>
+        <authorList>
+          <person name="Karuppiah V."/>
+          <person name="Ranaghan K.E."/>
+          <person name="Leferink N.G.H."/>
+          <person name="Johannissen L.O."/>
+          <person name="Shanmugam M."/>
+          <person name="Cheallaigh A.N."/>
+          <person name="Bennett N.J."/>
+          <person name="Kearset L.J."/>
+          <person name="Takano E."/>
+          <person name="Gardiner J.M."/>
+          <person name="van der Kamp M.W."/>
+          <person name="Hay S."/>
+          <person name="Mulholland A.J."/>
+          <person name="Leys D."/>
+          <person name="Scrutton N.S."/>
+        </authorList>
+        <dbReference id="28966840" type="PubMed"/>
+        <dbReference id="10.1021/acscatal.7b01924" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (1.51 ANGSTROMS) IN COMPLEX WITH SUBSTRATE ANALOG AND MAGMESIUM IONS</scope>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>COFACTOR</scope>
+      <scope>SUBSTRATE SPECIFICITY</scope>
+      <scope>REACTION MECHANISM</scope>
+      <scope>DOMAIN</scope>
+      <scope>SUBUNIT</scope>
+      <source>
+        <strain>ATCC 27064 / DSM 738 / JCM 4710 / NBRC 13307 / NCIMB 12785 / NRRL 3585 / VKM Ac-602</strain>
+      </source>
+    </reference>
+    <comment type="function">
+      <text evidence="1 2 3">In vitro, catalyzes the formation of 1,8-cineole from geranyl diphosphate (GPP) (PubMed:21726035, PubMed:28144299, PubMed:28966840). Can also accept neryl diphosphate (NPP) as substrate to produce 1,8-cineole (PubMed:28966840).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="1 2 3">
+        <text>(2E)-geranyl diphosphate + H2O = 1,8-cineole + diphosphate</text>
+        <dbReference id="RHEA:32543" type="Rhea"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:27961" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:58057" type="ChEBI"/>
+        <dbReference id="4.2.3.108" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="3">
+        <text>H2O + neryl diphosphate = 1,8-cineole + diphosphate</text>
+        <dbReference id="RHEA:56632" type="Rhea"/>
+        <dbReference id="CHEBI:15377" type="ChEBI"/>
+        <dbReference id="CHEBI:27961" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:57665" type="ChEBI"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="3">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="3">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment type="biophysicochemical properties">
+      <kinetics>
+        <KM evidence="1">170 nM for geranyl diphosphate (GPP)</KM>
+        <text evidence="1">Kcat is 0.079 sec(-1) with geranyl diphosphate (GPP) as substrate.</text>
+      </kinetics>
+    </comment>
+    <comment type="subunit">
+      <text evidence="3">Homodimer.</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="7">The Asp-Asp-Xaa-Xaa-Asp (DDXXD) and Asn-Xaa-Xaa-Xaa-Ser-Xaa-Xaa-Xaa-Glu (NSE) motifs are important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="6">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="1 2 3" id="4.2.3.108" type="EC"/>
+    <dbReference id="DS570626" type="EMBL">
+      <property type="protein sequence ID" value="EDY47508.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="CM000914" type="EMBL">
+      <property type="protein sequence ID" value="EFG04469.2"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="WP_003952918.1" type="RefSeq">
+      <property type="nucleotide sequence ID" value="NZ_CP032054.1"/>
+    </dbReference>
+    <dbReference id="5NX6" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.63"/>
+      <property type="chains" value="A/B=1-330"/>
+    </dbReference>
+    <dbReference id="5NX7" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.51"/>
+      <property type="chains" value="A/B=1-330"/>
+    </dbReference>
+    <dbReference id="5NX6" type="PDBsum"/>
+    <dbReference id="5NX7" type="PDBsum"/>
+    <dbReference id="B5GMG2" type="SMR"/>
+    <dbReference id="443255.SCLAV_p0982" type="STRING"/>
+    <dbReference id="EDY47508" type="EnsemblBacteria">
+      <property type="protein sequence ID" value="EDY47508"/>
+      <property type="gene ID" value="SSCG_00536"/>
+    </dbReference>
+    <dbReference id="60430374" type="GeneID"/>
+    <dbReference id="sclf:BB341_29050" type="KEGG"/>
+    <dbReference id="COG0664" type="eggNOG">
+      <property type="taxonomic scope" value="Bacteria"/>
+    </dbReference>
+    <dbReference id="1869158at2" type="OrthoDB"/>
+    <dbReference id="MetaCyc:MONOMER-17530" type="BioCyc"/>
+    <dbReference id="UP000002357" type="Proteomes">
+      <property type="component" value="Plasmid pSCL4"/>
+    </dbReference>
+    <dbReference id="UP000006569" type="Proteomes">
+      <property type="component" value="Unassembled WGS sequence"/>
+    </dbReference>
+    <dbReference id="GO:0102313" type="GO">
+      <property type="term" value="F:1,8-cineole synthase activity"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="GO:0033383" type="GO">
+      <property type="term" value="P:geranyl diphosphate metabolic process"/>
+      <property type="evidence" value="ECO:0000314"/>
+      <property type="project" value="UniProtKB"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034686" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_2"/>
+    </dbReference>
+    <dbReference id="SFLDG01020" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_2"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0002">3D-structure</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-0614">Plasmid</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="1,8-cineole synthase" id="PRO_0000445228" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="330"/>
+      </location>
+    </feature>
+    <feature description="Substrate binding" evidence="3 12 13" type="region of interest">
+      <location>
+        <begin position="314"/>
+        <end position="315"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="7" type="short sequence motif">
+      <location>
+        <begin position="81"/>
+        <end position="85"/>
+      </location>
+    </feature>
+    <feature description="NXXXSXXXE motif" evidence="7" type="short sequence motif">
+      <location>
+        <begin position="220"/>
+        <end position="228"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="3 12 13" type="metal ion-binding site">
+      <location>
+        <position position="81"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="3 12 13" type="metal ion-binding site">
+      <location>
+        <position position="81"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="3 12 13" type="metal ion-binding site">
+      <location>
+        <position position="220"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="3 12 13" type="metal ion-binding site">
+      <location>
+        <position position="224"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="3 12 13" type="metal ion-binding site">
+      <location>
+        <position position="228"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="3 13" type="binding site">
+      <location>
+        <position position="174"/>
+      </location>
+    </feature>
+    <feature description="Substrate" evidence="3 12 13" type="binding site">
+      <location>
+        <position position="227"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="20"/>
+        <end position="33"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="40"/>
+        <end position="48"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="53"/>
+        <end position="58"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="turn">
+      <location>
+        <begin position="59"/>
+        <end position="61"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="64"/>
+        <end position="83"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="96"/>
+        <end position="104"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="117"/>
+        <end position="130"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="135"/>
+        <end position="150"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="152"/>
+        <end position="160"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="167"/>
+        <end position="177"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="180"/>
+        <end position="190"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="197"/>
+        <end position="200"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="203"/>
+        <end position="223"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="225"/>
+        <end position="231"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="237"/>
+        <end position="245"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="249"/>
+        <end position="270"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="271"/>
+        <end position="273"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="274"/>
+        <end position="281"/>
+      </location>
+    </feature>
+    <feature evidence="13" type="helix">
+      <location>
+        <begin position="285"/>
+        <end position="311"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000269">
+      <source>
+        <dbReference id="21726035" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000269">
+      <source>
+        <dbReference id="28144299" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000269">
+      <source>
+        <dbReference id="28966840" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000303">
+      <source>
+        <dbReference id="21726035" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000303">
+      <source>
+        <dbReference id="28966840" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000305"/>
+    <evidence key="7" type="ECO:0000305">
+      <source>
+        <dbReference id="28966840" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000312">
+      <source>
+        <dbReference id="EDY47508.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0000312">
+      <source>
+        <dbReference id="EFG04469.2" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0000312">
+      <source>
+        <dbReference id="UP000002357" type="Proteomes"/>
+      </source>
+    </evidence>
+    <evidence key="11" type="ECO:0000312">
+      <source>
+        <dbReference id="UP000006569" type="Proteomes"/>
+      </source>
+    </evidence>
+    <evidence key="12" type="ECO:0007744">
+      <source>
+        <dbReference id="5NX6" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="13" type="ECO:0007744">
+      <source>
+        <dbReference id="5NX7" type="PDB"/>
+      </source>
+    </evidence>
+    <sequence checksum="05B46E3F7F34C372" length="330" mass="37725" modified="2008-10-14" version="1">MPAGHEEFDIPFPSRVNPFHARAEDRHVAWMRAMGLITGDAAEATYRRWSPAKVGARWFYLAQGEDLDLGCDIFGWFFAYDDHFDGPTGTDPRQTAAFVNRTVAMLDPRADPTGEHPLNIAFHDLWQRESAPMSPLWQRRAVDHWTQYLTAHITEATNRTRHTSPTIADYLELRHRTGFMPPLLDLIERVWRAEIPAPVYTTPEVQTLLHTTNQNINIVNDVLSLEKEEAHGDPHNLVLVIQHERQSTRQQALATARRMIDEWTDTFIRTEPRLPALCGRLGIPLADRTSLYTAVEGMRAAIRGNYDWCAETNRYAVHRPTGTGRATTPW</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

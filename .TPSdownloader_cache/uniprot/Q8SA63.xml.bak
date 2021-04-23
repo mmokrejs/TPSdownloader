@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2011-07-27" modified="2021-04-07" version="67">
+<accession>Q8SA63</accession>
+<name>CARS_ARTAN</name>
+<protein>
+<recommendedName>
+<fullName>Beta-caryophyllene synthase</fullName>
+<ecNumber>4.2.3.57</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">QHS1</name>
+</gene>
+<organism>
+<name type="scientific">Artemisia annua</name>
+<name type="common">Sweet wormwood</name>
+<dbReference type="NCBI Taxonomy" id="35608"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>campanulids</taxon>
+<taxon>Asterales</taxon>
+<taxon>Asteraceae</taxon>
+<taxon>Asteroideae</taxon>
+<taxon>Anthemideae</taxon>
+<taxon>Artemisiinae</taxon>
+<taxon>Artemisia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2002" name="Phytochemistry" volume="61" first="523" last="529">
+<title>A cDNA clone for beta-caryophyllene synthase from Artemisia annua.</title>
+<authorList>
+<person name="Cai Y."/>
+<person name="Jia J.W."/>
+<person name="Crock J."/>
+<person name="Lin Z.X."/>
+<person name="Chen X.Y."/>
+<person name="Croteau R."/>
+</authorList>
+<dbReference type="PubMed" id="12409018"/>
+<dbReference type="DOI" id="10.1016/s0031-9422(02)00265-0"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>SUBUNIT</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>DEVELOPMENTAL STAGE</scope>
+<scope>INDUCTION BY WOUNDING AND ELICITORS</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2011" name="BMC Plant Biol." volume="11" first="45" last="45">
+<title>Relative expression of genes of terpene metabolism in different tissues of Artemisia annua L.</title>
+<authorList>
+<person name="Olofsson L."/>
+<person name="Engstroem A."/>
+<person name="Lundgren A."/>
+<person name="Brodelius P.E."/>
+</authorList>
+<dbReference type="PubMed" id="21388533"/>
+<dbReference type="DOI" id="10.1186/1471-2229-11-45"/>
+</citation>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<comment type="function">
+<text evidence="2">Sesquiterpene synthase involved in the biosynthesis of beta-caryophyllene, a sesquiterpene with anti-inflammatory and anti-carcinogenic activities. Can use farnesyl diphosphate and (+)-chrysanthemyl diphosphate as substrates, but not geranylgeranyl diphosphate. Produces two irregular monoterpenes, yomogi alcohol and artemisia alcohol from (+)-chrysanthemyl diphosphate. Limited activity with geranyl diphosphate, leading to the production of limonene, terpinolene, beta-pinene, gamma-terpinene, alpha-terpinene and other minor products.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate = (E)-beta-caryophyllene + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:28294"/>
+<dbReference type="ChEBI" id="CHEBI:10357"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.57"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<cofactor evidence="1">
+<name>Mn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29035"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2">1.8 uM for (2E,6E)-farnesyl diphosphate</KM>
+</kinetics>
+<phDependence>
+<text evidence="2">Optimum pH is 7.7.</text>
+</phDependence>
+</comment>
+<comment type="subunit">
+<text evidence="2">Monomer.</text>
+</comment>
+<comment type="tissue specificity">
+<text evidence="2 3">Highly expressed in stem epidermis, cortex and stele. Detected in leaves, petioles and inflorescences, but not in roots.</text>
+</comment>
+<comment type="developmental stage">
+<text evidence="2">Expression decreases with the age of the seedlings.</text>
+</comment>
+<comment type="induction">
+<text evidence="2">Up-regulated by wounding and by elicitor treatment.</text>
+</comment>
+<comment type="domain">
+<text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family. Tpsa subfamily.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.57"/>
+<dbReference type="EMBL" id="AF472361">
+<property type="protein sequence ID" value="AAL79181.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="Q8SA63"/>
+<dbReference type="KEGG" id="ag:AAL79181"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-14912"/>
+<dbReference type="GO" id="GO:0080016">
+<property type="term" value="F:(-)-E-beta-caryophyllene synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051762">
+<property type="term" value="P:sesquiterpene biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0464">Manganese</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<feature type="chain" description="Beta-caryophyllene synthase" id="PRO_0000412110">
+<location>
+<begin position="1"/>
+<end position="548"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif">
+<location>
+<begin position="301"/>
+<end position="305"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="301"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="301"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="305"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="305"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="1">
+<location>
+<position position="445"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="1">
+<location>
+<position position="449"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="1">
+<location>
+<position position="453"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12409018"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="21388533"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="548" mass="63737" checksum="40B8E69751FF6654" modified="2002-06-01" version="1">MSVKEEKVIRPIVHFPPSVWADQFLIFDDKQAEQANVEQVVNELREDVRKDLVSSLDVQTEHTNLLKLIDAIQRLGIAYHFEEEIEQALQHIYDTYGDDWKGRSPSLWFRILRQQGFYVSCDIFKNYKKEDGSFKESLTNDVEGLLELYEATYLRVQGEGVLDDALVFTRTCLEKIAKDLVHTNPTLSTYIQEALKQPLHKRLTRLEALRYIPMYEQQASHNESLLKLAKLGFNLLQSLHRKELSEVSRWWKGLDVPNNLPYARDRMVECYFWALGVYFEPKYSQARIFLAKVISLATVLDDTYDAYGTYEELKIFTEAIQRWSITCIDMLPEYLKLLYQGVLDIYIEMEEIMGKEGKAHHLSYAKESMKEFIRSYMMEAKWANEGYVPTAEEHMSVAFVSSGYSMLATTCFVGMGDIVTDEAFKWALTKPPIIKASCAIARLMDDIHSQKEEKERIHVASSVESYMKQYDVTEEHVLKVFNKKIEDAWKDITRESLVRKDIPMPLMMRVINLAQVMDVLYKHKDGFTNVGEELKDHIKSLLVHPIPI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

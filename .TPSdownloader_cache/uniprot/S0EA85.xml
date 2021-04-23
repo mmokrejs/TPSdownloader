@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2017-10-25" dataset="Swiss-Prot" modified="2020-12-02" version="27">
+    <accession>S0EA85</accession>
+    <name>GA6_GIBF5</name>
+    <protein>
+      <recommendedName>
+        <fullName evidence="14">Bifunctional ent-kaurene synthase</fullName>
+        <ecNumber evidence="5">4.2.3.19</ecNumber>
+        <ecNumber evidence="5">5.5.1.13</ecNumber>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="16">CPS/KS</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="16">Ent-copalyl diphosphate synthase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="3">Ent-kaur-16-ene synthase</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="15">Gibberellin cluster-kaurene synthase</fullName>
+      </alternativeName>
+    </protein>
+    <gene>
+      <name evidence="16" type="primary">CPS/KS</name>
+      <name type="ORF">FFUJ_14336</name>
+    </gene>
+    <organism>
+      <name type="scientific">Gibberella fujikuroi (strain CBS 195.34 / IMI 58289 / NRRL A-6831)</name>
+      <name type="common">Bakanae and foot rot disease fungus</name>
+      <name type="synonym">Fusarium fujikuroi</name>
+      <dbReference id="1279085" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Fungi</taxon>
+        <taxon>Dikarya</taxon>
+        <taxon>Ascomycota</taxon>
+        <taxon>Pezizomycotina</taxon>
+        <taxon>Sordariomycetes</taxon>
+        <taxon>Hypocreomycetidae</taxon>
+        <taxon>Hypocreales</taxon>
+        <taxon>Nectriaceae</taxon>
+        <taxon>Fusarium</taxon>
+        <taxon>Fusarium fujikuroi species complex</taxon>
+      </lineage>
+    </organism>
+    <reference key="1">
+      <citation date="2013" first="E1003475" last="E1003475" name="PLoS Pathog." type="journal article" volume="9">
+        <title>Deciphering the cryptic genome: genome-wide analyses of the rice pathogen Fusarium fujikuroi reveal complex regulation of secondary metabolism and novel metabolites.</title>
+        <authorList>
+          <person name="Wiemann P."/>
+          <person name="Sieber C.M.K."/>
+          <person name="von Bargen K.W."/>
+          <person name="Studt L."/>
+          <person name="Niehaus E.-M."/>
+          <person name="Espino J.J."/>
+          <person name="Huss K."/>
+          <person name="Michielse C.B."/>
+          <person name="Albermann S."/>
+          <person name="Wagner D."/>
+          <person name="Bergner S.V."/>
+          <person name="Connolly L.R."/>
+          <person name="Fischer A."/>
+          <person name="Reuter G."/>
+          <person name="Kleigrewe K."/>
+          <person name="Bald T."/>
+          <person name="Wingfield B.D."/>
+          <person name="Ophir R."/>
+          <person name="Freeman S."/>
+          <person name="Hippler M."/>
+          <person name="Smith K.M."/>
+          <person name="Brown D.W."/>
+          <person name="Proctor R.H."/>
+          <person name="Muensterkoetter M."/>
+          <person name="Freitag M."/>
+          <person name="Humpf H.-U."/>
+          <person name="Gueldener U."/>
+          <person name="Tudzynski B."/>
+        </authorList>
+        <dbReference id="23825955" type="PubMed"/>
+        <dbReference id="10.1371/journal.ppat.1003475" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <scope>FUNCTION</scope>
+      <source>
+        <strain>CBS 195.34 / IMI 58289 / NRRL A-6831</strain>
+      </source>
+    </reference>
+    <reference key="2">
+      <citation date="1998" first="234" last="240" name="Curr. Genet." type="journal article" volume="34">
+        <title>Gibberellin biosynthesis in Gibberella fujikuroi: cloning and characterization of the copalyl diphosphate synthase gene.</title>
+        <authorList>
+          <person name="Tudzynski B."/>
+          <person name="Kawaide H."/>
+          <person name="Kamiya Y."/>
+        </authorList>
+        <dbReference id="9745028" type="PubMed"/>
+        <dbReference id="10.1007/s002940050392" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>INDUCTION</scope>
+      <scope>DISRUPTION PHENOTYPE</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <reference key="3">
+      <citation date="1998" first="157" last="170" name="Fungal Genet. Biol." type="journal article" volume="25">
+        <title>Gibberellin biosynthetic pathway in Gibberella fujikuroi: evidence for a gene cluster.</title>
+        <authorList>
+          <person name="Tudzynski B."/>
+          <person name="Hoelter K."/>
+        </authorList>
+        <dbReference id="9917370" type="PubMed"/>
+        <dbReference id="10.1006/fgbi.1998.1095" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>INDUCTION</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <reference key="4">
+      <citation date="1999" first="2558" last="2564" name="Appl. Environ. Microbiol." type="journal article" volume="65">
+        <title>Deletions in the gibberellin biosynthesis gene cluster of Gibberella fujikuroi by restriction enzyme-mediated integration and conventional transformation-mediated mutagenesis.</title>
+        <authorList>
+          <person name="Linnemannstoens P."/>
+          <person name="Voss T."/>
+          <person name="Hedden P."/>
+          <person name="Gaskin P."/>
+          <person name="Tudzynski B."/>
+        </authorList>
+        <dbReference id="10347043" type="PubMed"/>
+        <dbReference id="10.1128/aem.65.6.2558-2564.1999" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="5">
+      <citation date="2000" first="660" last="664" name="Biosci. Biotechnol. Biochem." type="journal article" volume="64">
+        <title>Cloning of a full-length cDNA encoding ent-kaurene synthase from Gibberella fujikuroi: functional analysis of a bifunctional diterpene cyclase.</title>
+        <authorList>
+          <person name="Toyomasu T."/>
+          <person name="Kawaide H."/>
+          <person name="Ishizaki A."/>
+          <person name="Shinoda S."/>
+          <person name="Otsuka M."/>
+          <person name="Mitsuhashi W."/>
+          <person name="Sassa T."/>
+        </authorList>
+        <dbReference id="10803977" type="PubMed"/>
+        <dbReference id="10.1271/bbb.64.660" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+      <scope>CATALYTIC ACTIVITY</scope>
+      <scope>PATHWAY</scope>
+    </reference>
+    <reference key="6">
+      <citation date="2001" first="3514" last="3522" name="Appl. Environ. Microbiol." type="journal article" volume="67">
+        <title>The P450-4 gene of Gibberella fujikuroi encodes ent-kaurene oxidase in the gibberellin biosynthesis pathway.</title>
+        <authorList>
+          <person name="Tudzynski B."/>
+          <person name="Hedden P."/>
+          <person name="Carrera E."/>
+          <person name="Gaskin P."/>
+        </authorList>
+        <dbReference id="11472927" type="PubMed"/>
+        <dbReference id="10.1128/aem.67.8.3514-3522.2001" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="7">
+      <citation date="2001" first="5838" last="5843" name="Proc. Natl. Acad. Sci. U.S.A." type="journal article" volume="98">
+        <title>The P450-1 gene of Gibberella fujikuroi encodes a multifunctional enzyme in gibberellin biosynthesis.</title>
+        <authorList>
+          <person name="Rojas M.C."/>
+          <person name="Hedden P."/>
+          <person name="Gaskin P."/>
+          <person name="Tudzynski B."/>
+        </authorList>
+        <dbReference id="11320210" type="PubMed"/>
+        <dbReference id="10.1073/pnas.091096298" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="8">
+      <citation date="2002" first="21246" last="21253" name="J. Biol. Chem." type="journal article" volume="277">
+        <title>The gibberellin 20-oxidase of Gibberella fujikuroi is a multifunctional monooxygenase.</title>
+        <authorList>
+          <person name="Tudzynski B."/>
+          <person name="Rojas M.C."/>
+          <person name="Gaskin P."/>
+          <person name="Hedden P."/>
+        </authorList>
+        <dbReference id="11943776" type="PubMed"/>
+        <dbReference id="10.1074/jbc.m201651200" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="9">
+      <citation date="2003" first="28635" last="28643" name="J. Biol. Chem." type="journal article" volume="278">
+        <title>Characterization of the final two genes of the gibberellin biosynthesis gene cluster of Gibberella fujikuroi: des and P450-3 encode GA4 desaturase and the 13-hydroxylase, respectively.</title>
+        <authorList>
+          <person name="Tudzynski B."/>
+          <person name="Mihlan M."/>
+          <person name="Rojas M.C."/>
+          <person name="Linnemannstons P."/>
+          <person name="Gaskin P."/>
+          <person name="Hedden P."/>
+        </authorList>
+        <dbReference id="12750377" type="PubMed"/>
+        <dbReference id="10.1074/jbc.m301927200" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <reference key="10">
+      <citation date="2005" first="1296" last="1311" name="Phytochemistry" type="journal article" volume="66">
+        <title>Distribution of gibberellin biosynthetic genes and gibberellin production in the Gibberella fujikuroi species complex.</title>
+        <authorList>
+          <person name="Malonek S."/>
+          <person name="Boemke C."/>
+          <person name="Bornberg-Bauer E."/>
+          <person name="Rojas M.C."/>
+          <person name="Hedden P."/>
+          <person name="Hopkins P."/>
+          <person name="Tudzynski B."/>
+        </authorList>
+        <dbReference id="15925394" type="PubMed"/>
+        <dbReference id="10.1016/j.phytochem.2005.04.012" type="DOI"/>
+      </citation>
+      <scope>FUNCTION</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="4 5 6 7 8 9 10 11 12 13">Bifunctional ent-kaurene synthase; part of the gene cluster that mediates the biosynthesis of gibberellins (GAs), diterpenoids that may provide a selective advantage during infection of the preferred host plant, rice (PubMed:23825955, PubMed:9917370, PubMed:10347043, PubMed:12750377, PubMed:15925394). Gibberellins (GAs) are diterpenoids and are synthesized via the mevalonate pathway (PubMed:12750377). Biosynthesis of the major metabolite GA3 (gibberellic acid) from geranylgeranyl diphosphate (GGPP) requires 13 steps (PubMed:12750377). The GGPP produced by the geranylgeranyl diphosphate synthase GGS2 is converted to ent-kaurene via ent-copalyldiphosphate in a two-step cyclization reaction performed by the bifunctional ent-copalyl diphosphate synthase/ent-kaurene synthase enzyme (CPS/KS) (PubMed:9745028, PubMed:10803977, PubMed:12750377). Ent-Kaurene is metabolized to GAs by a series of oxidation reactions catalyzed by cytochrome P450 monooxygenases (PubMed:9917370, PubMed:12750377). Cytochrome P450 monooxygenase P450-4 is an ent-kaurene oxidase that catalyzes the three oxidation steps between ent-kaurene and ent-kaurenoic acid (PubMed:11472927). The highly multifunctional cytochrome P450 monooxygenase P450-1 then catalyzes four steps involving oxidation at two carbon atoms, in the main pathway from ent-kaurenoic acid to GA14 via GA12-aldehyde as well as producing kaurenolides and fujenoic acids as by-products (PubMed:11320210). The cytochrome P450 monooxygenase P450-2 then converts GA14 to GA4 by removal of C-20 (PubMed:11943776). GA4 is further converted to GA7 by the GA4 desaturase DES via 1,2-desaturation before cytochrome P450 monooxygenase P450-3, a 13-hydroxylase, hydroxylates GA7 to GA3, the final product of the GA-biosynthetic pathway (PubMed:12750377).</text>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="5">
+        <text>ent-copalyl diphosphate = diphosphate + ent-kaur-16-ene</text>
+        <dbReference id="RHEA:22220" type="Rhea"/>
+        <dbReference id="CHEBI:15415" type="ChEBI"/>
+        <dbReference id="CHEBI:33019" type="ChEBI"/>
+        <dbReference id="CHEBI:58553" type="ChEBI"/>
+        <dbReference id="4.2.3.19" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="catalytic activity">
+      <reaction evidence="5">
+        <text>(2E,6E,10E)-geranylgeranyl diphosphate = ent-copalyl diphosphate</text>
+        <dbReference id="RHEA:14841" type="Rhea"/>
+        <dbReference id="CHEBI:58553" type="ChEBI"/>
+        <dbReference id="CHEBI:58756" type="ChEBI"/>
+        <dbReference id="5.5.1.13" type="EC"/>
+      </reaction>
+    </comment>
+    <comment type="cofactor">
+      <cofactor evidence="2">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+      <text evidence="2">Binds 3 Mg(2+) ions per subunit.</text>
+    </comment>
+    <comment evidence="5 12 13" type="pathway">
+      <text>Plant hormone biosynthesis; gibberellin biosynthesis.</text>
+    </comment>
+    <comment type="induction">
+      <text evidence="13">Expression is induced under gibberellin-producing conditions (PubMed:9917370).</text>
+    </comment>
+    <comment type="domain">
+      <text evidence="17">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+    </comment>
+    <comment type="disruption phenotype">
+      <text evidence="13">Impairs the production of gibberellins (PubMed:9917370).</text>
+    </comment>
+    <comment type="similarity">
+      <text evidence="17">Belongs to the terpene synthase family.</text>
+    </comment>
+    <dbReference evidence="5" id="4.2.3.19" type="EC"/>
+    <dbReference evidence="5" id="5.5.1.13" type="EC"/>
+    <dbReference id="HF679027" type="EMBL">
+      <property type="protein sequence ID" value="CCT69398.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="CCT69398" type="EnsemblFungi">
+      <property type="protein sequence ID" value="CCT69398"/>
+      <property type="gene ID" value="FFUJ_14336"/>
+    </dbReference>
+    <dbReference id="CLU_005861_0_0_1" type="HOGENOM"/>
+    <dbReference id="UPA00390" type="UniPathway"/>
+    <dbReference id="UP000016800" type="Proteomes">
+      <property type="component" value="Chromosome 5"/>
+    </dbReference>
+    <dbReference id="GO:0009905" type="GO">
+      <property type="term" value="F:ent-copalyl diphosphate synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0009899" type="GO">
+      <property type="term" value="F:ent-kaurene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0046872" type="GO">
+      <property type="term" value="F:metal ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference id="GO:0009686" type="GO">
+      <property type="term" value="P:gibberellin biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="IPR017057" type="InterPro">
+      <property type="entry name" value="Ent-kaurene_synthase_fun"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PIRSF036498" type="PIRSF">
+      <property type="entry name" value="Ent-kaurene_synthase_fungi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword id="KW-0413">Isomerase</keyword>
+    <keyword id="KW-0456">Lyase</keyword>
+    <keyword id="KW-0460">Magnesium</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature description="Bifunctional ent-kaurene synthase" id="PRO_0000442046" type="chain">
+      <location>
+        <begin position="1"/>
+        <end position="952"/>
+      </location>
+    </feature>
+    <feature description="DDXXD motif" evidence="1" type="short sequence motif">
+      <location>
+        <begin position="690"/>
+        <end position="694"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="690"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="690"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 1" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="694"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 2" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="694"/>
+      </location>
+    </feature>
+    <feature description="Magnesium 3" evidence="2" type="metal ion-binding site">
+      <location>
+        <position position="848"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000250">
+      <source>
+        <dbReference id="H8ZM73" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000250">
+      <source>
+        <dbReference id="Q40577" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000250">
+      <source>
+        <dbReference id="Q9UVY5" type="UniProtKB"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000269">
+      <source>
+        <dbReference id="10347043" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000269">
+      <source>
+        <dbReference id="10803977" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000269">
+      <source>
+        <dbReference id="11320210" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000269">
+      <source>
+        <dbReference id="11472927" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000269">
+      <source>
+        <dbReference id="11943776" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0000269">
+      <source>
+        <dbReference id="12750377" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0000269">
+      <source>
+        <dbReference id="15925394" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="11" type="ECO:0000269">
+      <source>
+        <dbReference id="23825955" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="12" type="ECO:0000269">
+      <source>
+        <dbReference id="9745028" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="13" type="ECO:0000269">
+      <source>
+        <dbReference id="9917370" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="14" type="ECO:0000303">
+      <source>
+        <dbReference id="10803977" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="15" type="ECO:0000303">
+      <source>
+        <dbReference id="23825955" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="16" type="ECO:0000303">
+      <source>
+        <dbReference id="9917370" type="PubMed"/>
+      </source>
+    </evidence>
+    <evidence key="17" type="ECO:0000305"/>
+    <sequence checksum="E5E8C6D904C77A05" length="952" mass="106762" modified="2013-09-18" version="1">MPGKIENGTPKDLKTGNDFVSAAKSLLDRAFKSHHSYYGLCSTSCQVYDTAWVAMIPKTRDNVKQWLFPECFHYLLKTQAADGSWGSLPTTQTAGILDTASAVLALLCHAQEPLQILDVSPDEMGLRIEHGVTSLKRQLAVWNDVEDTNHIGVEFIIPALLSMLEKELDVPSFEFPCRSILERMHGEKLGHFDLEQVYGKPSSLLHSLEAFLGKLDFDRLSHHLYHGSMMASPSSTAAYLIGATKWDDEAEDYLRHVMRNGAGHGNGGISGTFPTTHFECSWIIATLLKGGFTLKQIDGDGLRGLSTILLEALRDENGVIGFAPRTADVDDTAKALLALSLVNQPVSPDIMIKVFEGKDHFTTFGSERDPSLTSNLHVLLSLLKQSNLSQYHPQILKTTLFTCRWWWGSDHCVKDKWNLSHLYPTMLLVEAFTEVLHLIDGGELSSLFDESFKCKIGLSIFQAVLRIILTQDNDGSWRGYREQTCYAILALVQARHVCFFTHMVDRLQSCVDRGFSWLKSCSFHSQDLTWTSKTAYEVGFVAEAYKLAALQSASLEVPAATIGHSVTSAVPSSDLEKYMRLVRKTALFSPLDEWGLMASIIESSFFVPLLQAQRVEIYPRDNIKVDEDKYLSIIPFTWVGCNNRSRTFASNRWLYDMMYLSLLGYQTDEYMEAVAGPVFGDVSLLHQTIDKVIDNTMGNLARANGTVHSGNGHQHESPNIGQVEDTLTRFTNSVLNHKDVLNSSSSDQDTLRREFRTFMHAHITQIEDNSRFSKQASSDAFSSPEQSYFQWVNSTGGSHVACAYSFAFSNCLMSANLLQGKDAFPSGTQKYLISSVMRHATNMCRMYNDFGSIARDNAERNVNSIHFPEFTLCNGTSQNLDERKERLLKIATYEQGYLDRALEALERQSRDDAGDRAGSKDMRKLKIVKLFCDVTDLYDQLYVIKDLSSSMK</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

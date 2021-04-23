@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2012-09-05" modified="2020-12-02" version="59">
+<accession>B1W019</accession>
+<name>GCOA_STRGG</name>
+<protein>
+<recommendedName>
+<fullName>(+)-caryolan-1-ol synthase</fullName>
+<ecNumber>4.2.1.138</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>(+)-beta-caryophyllene synthase</fullName>
+<ecNumber>4.2.3.89</ecNumber>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">gcoA</name>
+<name type="ordered locus">SGR_2079</name>
+</gene>
+<organism>
+<name type="scientific">Streptomyces griseus subsp. griseus (strain JCM 4626 / NBRC 13350)</name>
+<dbReference type="NCBI Taxonomy" id="455632"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Streptomycetales</taxon>
+<taxon>Streptomycetaceae</taxon>
+<taxon>Streptomyces</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2008" name="J. Bacteriol." volume="190" first="4050" last="4060">
+<title>Genome sequence of the streptomycin-producing microorganism Streptomyces griseus IFO 13350.</title>
+<authorList>
+<person name="Ohnishi Y."/>
+<person name="Ishikawa J."/>
+<person name="Hara H."/>
+<person name="Suzuki H."/>
+<person name="Ikenoya M."/>
+<person name="Ikeda H."/>
+<person name="Yamashita A."/>
+<person name="Hattori M."/>
+<person name="Horinouchi S."/>
+</authorList>
+<dbReference type="PubMed" id="18375553"/>
+<dbReference type="DOI" id="10.1128/jb.00204-08"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>JCM 4626 / NBRC 13350</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2011" name="J. Biol. Chem." volume="286" first="27980" last="27987">
+<title>Characterization of a novel sesquiterpene cyclase involved in (+)-caryolan-1-ol biosynthesis in Streptomyces griseus.</title>
+<authorList>
+<person name="Nakano C."/>
+<person name="Horinouchi S."/>
+<person name="Ohnishi Y."/>
+</authorList>
+<dbReference type="PubMed" id="21693706"/>
+<dbReference type="DOI" id="10.1074/jbc.m111.265652"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>COFACTOR</scope>
+<scope>REACTION STEREOCHEMISTRY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>GENE NAME</scope>
+<scope>INDUCTION</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+<scope>REACTION MECHANISM</scope>
+<source>
+<strain>JCM 4626 / NBRC 13350</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2">Sesquiterpene cyclase that first catalyzes the cyclization of farnesyl diphosphate (FPP) to the bicyclic sesquiterpene (+)-beta-caryophyllene intermediate, and then its conversion to (+)-caryolan-1-ol via a second cyclization and the addition of a water molecule.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate = (+)-beta-caryophyllene + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:31815"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:63190"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.89"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(+)-beta-caryophyllene + H2O = (+)-caryolan-1-ol</text>
+<dbReference type="Rhea" id="RHEA:31795"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:63190"/>
+<dbReference type="ChEBI" id="CHEBI:63196"/>
+<dbReference type="EC" id="4.2.1.138"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="2">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<cofactor evidence="2">
+<name>Mn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29035"/>
+</cofactor>
+<text evidence="2">Binds 3 Mg(2+) ions per subunit. To a lesser extent, can also use Mn(2+) instead of Mg(2+). Cannot use Fe(2+), Co(2+), Zn(2+), Ni(2+), or Cu(2+).</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2">95.6 nM for farnesyl diphosphate (at pH 7.5 and 30 degrees Celsius)</KM>
+<text>kcat is 0.025 sec(-1) for (+)-caryolan-1-ol formation (at pH 7.5 and 30 degrees Celsius).</text>
+</kinetics>
+<phDependence>
+<text evidence="2">Optimum pH is 7.5 for (+)-caryolan-1-ol synthesis.</text>
+</phDependence>
+<temperatureDependence>
+<text evidence="2">Optimum temperature is 30 degrees Celsius for (+)-caryolan-1-ol synthesis.</text>
+</temperatureDependence>
+</comment>
+<comment type="pathway">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="induction">
+<text evidence="2">Expressed under the control of A-factor (2-isocapryloyl-3R-hydroxymethyl-gamma-butyrolactone), in an AdpA-dependent manner.</text>
+</comment>
+<comment type="domain">
+<text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="2">Cells lacking this gene do not produce (+)-caryolan-1-ol.</text>
+</comment>
+<comment type="miscellaneous">
+<text>A study of the reaction mechanism indicates that (+)-caryolan-1-ol is synthesized by a proton attack on the C-8/C-9 double bond of (+)-beta-caryophyllene.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.1.138"/>
+<dbReference type="EC" id="4.2.3.89"/>
+<dbReference type="EMBL" id="AP009493">
+<property type="protein sequence ID" value="BAG18908.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="SMR" id="B1W019"/>
+<dbReference type="STRING" id="455632.SGR_2079"/>
+<dbReference type="EnsemblBacteria" id="BAG18908">
+<property type="protein sequence ID" value="BAG18908"/>
+<property type="gene ID" value="SGR_2079"/>
+</dbReference>
+<dbReference type="KEGG" id="sgr:SGR_2079"/>
+<dbReference type="eggNOG" id="ENOG5033VJC">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_042538_4_0_11"/>
+<dbReference type="OMA" id="CKMTKEF"/>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="Proteomes" id="UP000001685">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016823">
+<property type="term" value="F:hydrolase activity, acting on acid carbon-carbon bonds, in ketonic substances"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030145">
+<property type="term" value="F:manganese ion binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010334">
+<property type="term" value="F:sesquiterpene synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051762">
+<property type="term" value="P:sesquiterpene biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016106">
+<property type="term" value="P:sesquiterpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034686">
+<property type="entry name" value="Terpene_cyclase-like_2"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01020">
+<property type="entry name" value="Terpene_Cyclase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0464">Manganese</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<feature type="chain" description="(+)-caryolan-1-ol synthase" id="PRO_0000418814">
+<location>
+<begin position="1"/>
+<end position="335"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif">
+<location>
+<begin position="83"/>
+<end position="87"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="NSE/DTE motif">
+<location>
+<begin position="220"/>
+<end position="228"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="83"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="83"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="87"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="87"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="220"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="224"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="228"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="21693706"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="335" mass="37906" checksum="28EFFDF108D53353" modified="2008-05-20" version="1">MSQITLPAFHMPFQSAGCHPGLAETREAAWEWAAAEGLDLSVPARRKMIRTRPELWISLIFPQATQAHLDLFCQWLFWAFLVDDEFDDGPAGRDPLMCERAIARLVDVFDGAAPNGPMERALAGLRDRTCRGRSPQWNRQFRRDTAAWLWTYYAEAVERAAGQVPSRAEFAKHRRDSVAMQPFLCLHEITAGIDLPDSARSLPAYIALRNAVTDHSGLCNDICSFEKEAALGYEHNAVRLIQRDRGSTLQEAVDEAGIQLARIAERVQRAERELIEEIEAAGIDGPTRTALERCVRDYRGLVRGDFDYHARAERYTRPDLVELDERDSLSRHFAA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

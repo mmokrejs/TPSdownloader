@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2016-06-08" dataset="TrEMBL" modified="2020-08-12" version="17">
+    <accession>A0A142F309</accession>
+    <name>A0A142F309_AQUCR</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="6">Alpha-humulene synthase</fullName>
+      </submittedName>
+    </protein>
+    <gene>
+      <name evidence="6" type="primary">HS2</name>
+    </gene>
+    <organism evidence="6">
+      <name type="scientific">Aquilaria crassna</name>
+      <name type="common">Eagle wood</name>
+      <dbReference id="223751" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>malvids</taxon>
+        <taxon>Malvales</taxon>
+        <taxon>Thymelaeaceae</taxon>
+        <taxon>Aquilaria</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="6" key="1">
+      <citation date="2015-10" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Characterization of alpha-humulene synthases responsible for the production of sesquiterpenes induced by methyl jasmonate in Aquilaria cell culture.</title>
+        <authorList>
+          <person name="Kumeta Y."/>
+          <person name="Ito M."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <dbReference id="KT893310" type="EMBL">
+      <property type="protein sequence ID" value="AMQ67166.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="2" id="KW-0460">Magnesium</keyword>
+    <keyword evidence="1" id="KW-0479">Metal-binding</keyword>
+    <feature description="Terpene_synth" evidence="4" type="domain">
+      <location>
+        <begin position="33"/>
+        <end position="200"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="5" type="domain">
+      <location>
+        <begin position="231"/>
+        <end position="497"/>
+      </location>
+    </feature>
+    <feature description="Disordered" evidence="3" type="region of interest">
+      <location>
+        <begin position="1"/>
+        <end position="24"/>
+      </location>
+    </feature>
+    <feature evidence="6" type="non-terminal residue">
+      <location>
+        <position position="555"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022842" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000256">
+      <source>
+        <dbReference id="MobiDB-lite" type="SAM"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000313">
+      <source>
+        <dbReference id="AMQ67166.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="05EBA1E0F5D9F948" fragment="single" length="555" mass="63541" modified="2016-06-08" version="1">MSPAQAPQVSAPTQKAADEEANRRSAGYHPSFWGEFFLTHSSGYTKSDTKIQQKHEELKQQVRGMILDAAADTSQKLELIDAALRLGVGYHFEAEIQSQLQKIHGQGSFHSDLYTACIWFRVLRGQGFTVSADVFNIMKNKDGGFEARDARTLLCLYETTHLRIQGEQVLEEALEFSRKQLGDLLAELSSPLAEYVNNSLELPYHKGMQRLEARQYIPIYESYANKNDTLLQFAKLDFNLLQALHQSEIREITRWWKDLDFKARLPYARDRLVECYFWILGVQYEPQYSISRVFLTKVISLASVFDDTYDIYGTFDELKLLTDAVERWEPEATDSLPGYMQILYGALLKVFEEYKDELINAGGRDYCLYYAKEAMKGLVRSYHTEAVSFHTGYVQNFEEYLDNSAVSSGYPMLTVEALIGMGAPYATRESLDWALKVPKIIKASSDICRLVDDLRTYKVEEERGDAPSGVHCYMRDYNVSEEEACTKIEEMIDLAWKAINEEIQKPNHLPLPILLPALNFARMMEVLYQNIDGYTNSGGRTKERISSLLVHPFTI</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

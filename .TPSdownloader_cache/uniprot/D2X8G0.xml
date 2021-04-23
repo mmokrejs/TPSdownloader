@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2010-03-02" dataset="TrEMBL" modified="2020-10-07" version="42">
+    <accession>D2X8G0</accession>
+    <name>D2X8G0_PICGL</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="5">Ent-copalyl diphosphate synthase</fullName>
+      </submittedName>
+    </protein>
+    <gene>
+      <name evidence="5" type="primary">CPS</name>
+    </gene>
+    <organism evidence="5">
+      <name type="scientific">Picea glauca</name>
+      <name type="common">White spruce</name>
+      <name type="synonym">Pinus glauca</name>
+      <dbReference id="3330" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Pinopsida</taxon>
+        <taxon>Pinidae</taxon>
+        <taxon>Pinales</taxon>
+        <taxon>Pinaceae</taxon>
+        <taxon>Picea</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="5" key="1">
+      <citation date="2010" first="1197" last="1208" name="Plant Physiol." type="journal article" volume="152">
+        <title>Identification and functional characterization of monofunctional ent-copalyl diphosphate and ent-kaurene synthases in white spruce reveal different patterns for diterpene synthase evolution for primary and secondary metabolism in gymnosperms.</title>
+        <authorList>
+          <person name="Keeling C.I."/>
+          <person name="Dullat H.K."/>
+          <person name="Yuen M."/>
+          <person name="Ralph S.G."/>
+          <person name="Jancsik S."/>
+          <person name="Bohlmann J."/>
+        </authorList>
+        <dbReference id="20044448" type="PubMed"/>
+        <dbReference id="10.1104/pp.109.151456" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <dbReference id="GU045755" type="EMBL">
+      <property type="protein sequence ID" value="ADB55707.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="5.5.1.13" type="BRENDA">
+      <property type="organism ID" value="4816"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="2" id="KW-0456">Lyase</keyword>
+    <keyword evidence="1" id="KW-0479">Metal-binding</keyword>
+    <feature description="Terpene_synth" evidence="3" type="domain">
+      <location>
+        <begin position="221"/>
+        <end position="427"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="4" type="domain">
+      <location>
+        <begin position="471"/>
+        <end position="622"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00023239" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000313">
+      <source>
+        <dbReference id="ADB55707.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <sequence checksum="71FAA4565DD98C6A" length="761" mass="87723" modified="2010-03-02" version="1">MKMSKSVEVQHCAVQFLSSTTDQIEIRERNLQISTEAMKMKSWIETVKYILQSMEDGEITISAYDTAWIALVPALNGSSEPQFPSSLQWLINNQLQDGSWGDPLMFLIRDRIINTLACVLALKTWNIHSLGVNKGLSFLQTYIPKMNDEHDAHTPVGFEIVFPALMEDAKIMELDLPYDAEFLQKIYDERDLKMKRIPMKVLHEFPSTLLHSLEGLRDKVNWEELLKLQSKNGSFLFSPASTACALAQTSDTNCLRYLNEITKKYDGGAPNVYPVDLFERLWTVDRIERLGIARYFESEITDSLEYVYRYWTNQGIGWARDSPVKDVDDTSMAFRLLRSHGFDVTAEAFNHFKQDDQFFCFFGQTKQTVTGMYNLYRASQFSFPGESILEEARVFTKNFLEEKRAEKQLRDKWIIAKGLKEEVEYALKFPWYASQPRIDTRMYINQYRVDDVWIGKALYRMPIVNNKTYIELAKADFNICQSIHRTELHGIIRWYRESGLDELGLRQDQIVKSYFLAAIAIYEPDMASARLAWAKSAVLMAAIRIFFSGENCFAHHRRQFLDAFTRWDGRAMRDSPNSAKRLFSCLFRMVNLFSVDGVVAQGRDISGDLRHRWEHWLASEAEDLTDAQDHEKLGTEAEIVVLTAAFLGRETISPDLISHPDFSSIMKVTNTVCSLLRRIATYKEEGCDSPSGTEEDDRLKRRAEEGMGHLVRAVYRHQYSPVPSGVKRLCLVVGKSFYYAAHCNNEEVGNHVETVLFQPVY</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

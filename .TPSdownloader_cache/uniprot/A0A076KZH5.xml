@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2014-10-29" dataset="TrEMBL" modified="2020-10-07" version="33">
+    <accession>A0A076KZH5</accession>
+    <name>A0A076KZH5_9ORYZ</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="6 7">Terpene synthase</fullName>
+      </submittedName>
+    </protein>
+    <organism evidence="6">
+      <name type="scientific">Oryza barthii</name>
+      <dbReference id="65489" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>Liliopsida</taxon>
+        <taxon>Poales</taxon>
+        <taxon>Poaceae</taxon>
+        <taxon>BOP clade</taxon>
+        <taxon>Oryzoideae</taxon>
+        <taxon>Oryzeae</taxon>
+        <taxon>Oryzinae</taxon>
+        <taxon>Oryza</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="7" key="1">
+      <citation date="2009" first="35" last="43" name="Rice" type="journal article" volume="2">
+        <title>De novo next generation sequencing of plant genomes.</title>
+        <authorList>
+          <person name="Rounsley S."/>
+          <person name="Marri P.R."/>
+          <person name="Yu Y."/>
+          <person name="He R."/>
+          <person name="Sisneros N."/>
+          <person name="Goicoechea J.L."/>
+          <person name="Lee S.J."/>
+          <person name="Angelova A."/>
+          <person name="Kudrna D."/>
+          <person name="Luo M."/>
+          <person name="Affourtit J."/>
+          <person name="Desany B."/>
+          <person name="Knight J."/>
+          <person name="Niazi F."/>
+          <person name="Egholm M."/>
+          <person name="Wing R.A."/>
+        </authorList>
+        <dbReference id="10.1007/s12284-009-9025-z" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain evidence="7">IRGC 105608</strain>
+      </source>
+    </reference>
+    <reference evidence="6" key="2">
+      <citation date="2014-02" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Positive darwinian selection is a driving force for the diversification of terpenoid biosynthesis in the genus Oryza.</title>
+        <authorList>
+          <person name="Chen H."/>
+          <person name="Li G."/>
+          <person name="Kollner T.G."/>
+          <person name="Gershenzon J."/>
+          <person name="Chen F."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <reference evidence="7" key="3">
+      <citation date="2015-03" db="UniProtKB" type="submission">
+        <authorList>
+          <consortium name="EnsemblPlants"/>
+        </authorList>
+      </citation>
+      <scope>IDENTIFICATION</scope>
+    </reference>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+    </comment>
+    <comment evidence="2" type="pathway">
+      <text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+    </comment>
+    <dbReference id="KJ415253" type="EMBL">
+      <property type="protein sequence ID" value="AIJ00878.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="65489.OBART08G02480.1" type="STRING"/>
+    <dbReference id="OBART08G02480.1" type="EnsemblPlants">
+      <property type="protein sequence ID" value="OBART08G02480.1"/>
+      <property type="gene ID" value="OBART08G02480"/>
+    </dbReference>
+    <dbReference id="OBART08G02480.1" type="Gramene">
+      <property type="protein sequence ID" value="OBART08G02480.1"/>
+      <property type="gene ID" value="OBART08G02480"/>
+    </dbReference>
+    <dbReference id="ENOG502QUCN" type="eggNOG">
+      <property type="taxonomic scope" value="Eukaryota"/>
+    </dbReference>
+    <dbReference id="CLU_003125_7_2_1" type="HOGENOM"/>
+    <dbReference id="UPA00213" type="UniPathway"/>
+    <dbReference id="UP000026960" type="Proteomes">
+      <property type="component" value="Chromosome 8"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0016114" type="GO">
+      <property type="term" value="P:terpenoid biosynthetic process"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-UniPathway"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="3" id="KW-0479">Metal-binding</keyword>
+    <keyword evidence="8" id="KW-1185">Reference proteome</keyword>
+    <feature description="Terpene_synth" evidence="4" type="domain">
+      <location>
+        <begin position="43"/>
+        <end position="219"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="5" type="domain">
+      <location>
+        <begin position="250"/>
+        <end position="519"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00001946" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00004721" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000313">
+      <source>
+        <dbReference id="AIJ00878.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000313">
+      <source>
+        <dbReference id="OBART08G02480.1" type="EnsemblPlants"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000313">
+      <source>
+        <dbReference id="UP000026960" type="Proteomes"/>
+      </source>
+    </evidence>
+    <sequence checksum="637483146B784CAF" length="575" mass="66360" modified="2014-10-29" version="1">MATSVPSVLLLPVPTCTDMLVSPVEGGDLLHCKPHFDHHPNVWGDYFLTFSPCTPSMLLNMKRKAHVSEEQVRRMILECSSGPNLHVKLELIDTLERLCIDYHYEKEIENVLRRVHEEEDDTDNHYDLHTTALRFYLLRKHGYYASPDVFQRFRDEEGNFTCDDNNNGTRSMLSLYNAAHLRIHGEEILDDAIVFTRNYLQSVVKHLQSPMADEVCSALRTPLFRRPRRVEARHYISVYDKLPTRNETILEFAKLDFGILQSLYCEELNILTMWWKELQLQDHLSFARDRMVEMHFWMLGVLFEPQYSYGRTMLTKLFIFVSIFDDIYDNYSTLEESKLFTEAIERWDEEAAEELPGYMKFFYKKVLTTMKSIETDLKLQGNKHVDYVKNLLIDATRCYYNEVKWRSEGADQAAATVEEHLKISVPSSCCMHVPVYAFVAMGNDVTTDDAINWGMAYPKIITSSCIVGRLVNDIASHEREQGSSSSSSTVEACMREHGGITKEEAYAKLRELVEESWMDIAGECLRPAAAQPPPLLEAVVNATRVLDFLYKDDQDAYTHPSSLKDTIHSIYILSV</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

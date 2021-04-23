@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:63712</ID>
+<NAME>baruol</NAME>
+<DEFINITION>A tetracyclic triterpenoid that is chrysene which has been fully hydrogenated except for a double bond between the 12 and 12a positions and which is substituted by methyl groups at positions 1, 1, 4b, 6a, 8 and 10a positions, and by a 4-methylpent-3-en-1-yl group at position 8 (the 2S,4aS,4bR,6aS,8R,10aR,10bS-diastereoisomer). It has been isolated from the root bark of the Panamanian tree Maytenus blepharodes.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>D:B-friedobaccharan-5,21-dien-3-ol</SYNONYM>
+<SYNONYM>baruol</SYNONYM>
+<IUPAC_NAME>(2S,4aS,4bR,6aS,8R,10aR,10bS)-1,1,4b,6a,8,10a-hexamethyl-8-(4-methylpent-3-en-1-yl)-1,2,3,4,4a,4b,5,6,6a,7,8,9,10,10a,10b,11-hexadecahydrochrysen-2-ol</IUPAC_NAME>
+<FORMULA>C30H50O</FORMULA>
+<MASS>426.71740</MASS>
+<MONOISOTOPIC_MASS>426.38617</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@@]12CC[C@H](O)C(C)(C)C1=CC[C@@]1([H])[C@@]2(C)CC[C@@]2(C)C[C@](C)(CCC=C(C)C)CC[C@]12C</SMILES>
+<INCHI>InChI=1S/C30H50O/c1-21(2)10-9-15-27(5)16-19-30(8)24-13-11-22-23(12-14-25(31)26(22,3)4)29(24,7)18-17-28(30,6)20-27/h10-11,23-25,31H,9,12-20H2,1-8H3/t23-,24+,25+,27-,28+,29+,30-/m1/s1</INCHI>
+<INCHIKEY>XJJAVFWIAXATMT-KNUFMLCHSA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>9820201</REAXYS_REGISTRY_NUMBER>
+<METACYC_ACCESSION>CPD-10308</METACYC_ACCESSION>
+<PUBMED_CITATION>17705488</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

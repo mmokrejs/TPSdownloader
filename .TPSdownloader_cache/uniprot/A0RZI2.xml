@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2007-01-09" dataset="TrEMBL" modified="2020-08-12" version="53">
+    <accession>A0RZI2</accession>
+    <name>A0RZI2_MEDTR</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="7">Putative lyase</fullName>
+        <ecNumber evidence="7">4.2.3.-</ecNumber>
+      </submittedName>
+      <submittedName>
+        <fullName evidence="6">Terpene synthase</fullName>
+      </submittedName>
+    </protein>
+    <gene>
+      <name evidence="6" type="primary">TPS5</name>
+      <name evidence="7" type="ORF">MtrunA17_Chr7g0237001</name>
+      <name evidence="8" type="ORF">MtrunA17_Chr7g0237041</name>
+      <name evidence="9" type="ORF">MtrunA17_Chr7g0237051</name>
+      <name evidence="10" type="ORF">MtrunA17_Chr7g0237081</name>
+    </gene>
+    <organism evidence="6">
+      <name type="scientific">Medicago truncatula</name>
+      <name type="common">Barrel medic</name>
+      <name type="synonym">Medicago tribuloides</name>
+      <dbReference id="3880" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>rosids</taxon>
+        <taxon>fabids</taxon>
+        <taxon>Fabales</taxon>
+        <taxon>Fabaceae</taxon>
+        <taxon>Papilionoideae</taxon>
+        <taxon>50 kb inversion clade</taxon>
+        <taxon>NPAAA clade</taxon>
+        <taxon>Hologalegina</taxon>
+        <taxon>IRL clade</taxon>
+        <taxon>Trifolieae</taxon>
+        <taxon>Medicago</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="6" key="1">
+      <citation date="2005-08" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <authorList>
+          <person name="Arimura G.-I."/>
+          <person name="Boland W."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <reference evidence="6" key="2">
+      <citation date="2008" first="453" last="464" name="Planta" type="journal article" volume="227">
+        <title>Herbivore-induced terpenoid emission in Medicago truncatula: concerted action of jasmonate, ethylene and calcium signaling.</title>
+        <authorList>
+          <person name="Arimura G.I."/>
+          <person name="Garms S."/>
+          <person name="Maffei M."/>
+          <person name="Bossi S."/>
+          <person name="Schulze B."/>
+          <person name="Leitner M."/>
+          <person name="Mithofer A."/>
+          <person name="Boland W."/>
+        </authorList>
+        <dbReference id="17924138" type="PubMed"/>
+        <dbReference id="10.1007/s00425-007-0631-y" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <reference evidence="11" key="3">
+      <citation date="2018" first="1017" last="1025" name="Nat. Plants" type="journal article" volume="4">
+        <title>Whole-genome landscape of Medicago truncatula symbiotic genes.</title>
+        <authorList>
+          <person name="Pecrix Y."/>
+          <person name="Staton S.E."/>
+          <person name="Sallet E."/>
+          <person name="Lelandais-Briere C."/>
+          <person name="Moreau S."/>
+          <person name="Carrere S."/>
+          <person name="Blein T."/>
+          <person name="Jardinaud M.F."/>
+          <person name="Latrasse D."/>
+          <person name="Zouine M."/>
+          <person name="Zahm M."/>
+          <person name="Kreplak J."/>
+          <person name="Mayjonade B."/>
+          <person name="Satge C."/>
+          <person name="Perez M."/>
+          <person name="Cauet S."/>
+          <person name="Marande W."/>
+          <person name="Chantry-Darmon C."/>
+          <person name="Lopez-Roques C."/>
+          <person name="Bouchez O."/>
+          <person name="Berard A."/>
+          <person name="Debelle F."/>
+          <person name="Munos S."/>
+          <person name="Bendahmane A."/>
+          <person name="Berges H."/>
+          <person name="Niebel A."/>
+          <person name="Buitink J."/>
+          <person name="Frugier F."/>
+          <person name="Benhamed M."/>
+          <person name="Crespi M."/>
+          <person name="Gouzy J."/>
+          <person name="Gamas P."/>
+        </authorList>
+        <dbReference id="30397259" type="PubMed"/>
+        <dbReference id="10.1038/s41477-018-0286-7" type="DOI"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+      <source>
+        <strain evidence="11">cv. Jemalong A17</strain>
+      </source>
+    </reference>
+    <reference evidence="7" key="4">
+      <citation date="2018" name="Nat. Plants" type="journal article">
+        <title>Whole-genome landscape of Medicago truncatula symbiotic genes.</title>
+        <authorList>
+          <person name="Pecrix Y."/>
+          <person name="Gamas P."/>
+          <person name="Carrere S."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+      <source>
+        <tissue evidence="7">Leaves</tissue>
+      </source>
+    </reference>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+    </comment>
+    <dbReference evidence="7" id="4.2.3.-" type="EC"/>
+    <dbReference id="DQ188184" type="EMBL">
+      <property type="protein sequence ID" value="ABB01625.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="PSQE01000007" type="EMBL">
+      <property type="protein sequence ID" value="RHN45953.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="PSQE01000007" type="EMBL">
+      <property type="protein sequence ID" value="RHN45957.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="PSQE01000007" type="EMBL">
+      <property type="protein sequence ID" value="RHN45958.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="PSQE01000007" type="EMBL">
+      <property type="protein sequence ID" value="RHN45961.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference id="UP000265566" type="Proteomes">
+      <property type="component" value="Chromosome 7"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at transcript level"/>
+    <keyword evidence="7" id="KW-0456">Lyase</keyword>
+    <keyword evidence="3" id="KW-0460">Magnesium</keyword>
+    <keyword evidence="2" id="KW-0479">Metal-binding</keyword>
+    <feature description="Terpene_synth" evidence="4" type="domain">
+      <location>
+        <begin position="24"/>
+        <end position="200"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="5" type="domain">
+      <location>
+        <begin position="231"/>
+        <end position="496"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00001946" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022842" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000313">
+      <source>
+        <dbReference id="ABB01625.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000313">
+      <source>
+        <dbReference id="RHN45953.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0000313">
+      <source>
+        <dbReference id="RHN45957.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0000313">
+      <source>
+        <dbReference id="RHN45958.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0000313">
+      <source>
+        <dbReference id="RHN45961.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="11" type="ECO:0000313">
+      <source>
+        <dbReference id="UP000265566" type="Proteomes"/>
+      </source>
+    </evidence>
+    <sequence checksum="0E781BE2AABDAFF3" length="553" mass="64451" modified="2007-01-09" version="1">MSTVAYSDHDAKQRNLADYHPSVWGGFFLQYASETMELDQNLASQIDTLKDEVRNMLVSKTEMPLTKVKLIDSICRLGVGYHFEKEIDEVLQHIHKSYVENGEITLEDSLCSLAMLFRVFRQQGLHVSPNVFNKFKDKQGNFNENLSTDVEGMLSLYEASHMMVHEDDILEEALNFTSTHLESIASQSSPSLAAQIEYTLKQALHKNIPRLEARHYISIYEKDPTCDEVLLTFAKLDFNLLQSLHQKEFGNISKWWKELDFSTKLPYARDRIAECSFWVLTAFFEPQYSQARKMMIKVITLLSIIDDTYDAYGTIDELELFTKAVERWDISSLDELPDYMKPIYRSFLTIYEEIEKEMRKEGRIYTLDYYKIEFKKSVQAFMTEARWLNENHIPTTEEYMRISKKSGAYPLLILTSYIGMGDIATKEIFNWVSNEPRIVNAAATLCRLMDEIVSSEFEQKRGHVCSLLDCYMKQFDMSREAAIQECKNRMTIVWKDINEECLRPTEVPMPFMTRVLNLSRFMDVIYKNKDNYTDSDGLMKTCIKEVLVDPVPI</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

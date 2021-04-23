@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:142536</ID>
+<NAME>7-epi-ent-eudesmane-5,11-diol</NAME>
+<DEFINITION>A carbobicyclic compound that is decahydronaphthalene substituted at positions 2, 4a, 8 and 8a by 2-hydroxypropan-2-yl, methyl, methyl and hydroxy groups, respectively. The (3R,4aS,5S,8aS) stereoisomer.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>eudesmane-2,11-diol</SYNONYM>
+<SYNONYM>7-epi-ent-eudesmane-5,11-diol</SYNONYM>
+<SYNONYM>(4beta,5beta,7beta,10alpha)-5,11-eudesmanediol</SYNONYM>
+<IUPAC_NAME>(3R,4aS,5S,8aS)-3-(2-hydroxypropan-2-yl)-5,8a-dimethyloctahydronaphthalen-4a(2H)-ol</IUPAC_NAME>
+<FORMULA>C15H28O2</FORMULA>
+<MASS>240.382</MASS>
+<MONOISOTOPIC_MASS>240.20893</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[C@@]12([C@@](CCC[C@@H]1C)(CC[C@H](C2)C(O)(C)C)C)O</SMILES>
+<INCHI>InChI=1S/C15H28O2/c1-11-6-5-8-14(4)9-7-12(13(2,3)16)10-15(11,14)17/h11-12,16-17H,5-10H2,1-4H3/t11-,12+,14-,15-/m0/s1</INCHI>
+<INCHIKEY>DUMZYTYPNQNWMU-NEBZKDRISA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>6966076</REAXYS_REGISTRY_NUMBER>
+<METACYC_ACCESSION>CPD-21651</METACYC_ACCESSION>
+<PUBMED_CITATION>29314238</PUBMED_CITATION>
+<PUBMED_CITATION>29570233</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

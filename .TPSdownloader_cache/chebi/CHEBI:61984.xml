@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:61984</ID>
+<NAME>(E)-2-methylgeranyl diphosphate(3-)</NAME>
+<DEFINITION>An organophosphate oxoanion resulting from deprotonation of the three diphosphate OH groups of (E)-2-methylgeranyl diphosphate.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>(E)-2-methylgeranyl pyrophosphate(3-)</SYNONYM>
+<SYNONYM>(E)-2-methylgeranyl pyrophosphate trianion</SYNONYM>
+<SYNONYM>(E)-2-methylgeranyl pyrophosphate</SYNONYM>
+<SYNONYM>(E)-2-methylgeranyl diphosphate trianion</SYNONYM>
+<SYNONYM>(E)-2-methylgeranyl diphosphate</SYNONYM>
+<SYNONYM>(E)-2-methylgeranyl diphosphate</SYNONYM>
+<FORMULA>C11H19O7P2</FORMULA>
+<MASS>325.21190</MASS>
+<MONOISOTOPIC_MASS>325.06225</MONOISOTOPIC_MASS>
+<CHARGE>-3</CHARGE>
+<SMILES>CC(C)=CCC\C(C)=C(/C)COP([O-])(=O)OP([O-])([O-])=O</SMILES>
+<INCHI>InChI=1S/C11H22O7P2/c1-9(2)6-5-7-10(3)11(4)8-17-20(15,16)18-19(12,13)14/h6H,5,7-8H2,1-4H3,(H,15,16)(H2,12,13,14)/p-3/b11-10+</INCHI>
+<INCHIKEY>PRUWPPRJQIGKNB-ZHACJKMWSA-K</INCHIKEY>
+<PUBMED_CITATION>18492804</PUBMED_CITATION>
+<PUBMED_CITATION>18563898</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

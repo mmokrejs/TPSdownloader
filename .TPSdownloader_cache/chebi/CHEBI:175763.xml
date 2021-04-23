@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:175763</ID>
+<NAME>2-trans,6-trans-farnesyl diphosphate(3-)</NAME>
+<DEFINITION>An organophosphate oxoanion that is the trianion obtained by removal of the three protons from the diphosphate group of 2-trans,6-trans-farnesyl diphosphate.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>trans,trans-farnesyl diphosphate(3-)</SYNONYM>
+<SYNONYM>farnesyl pyrophosphate(3-)</SYNONYM>
+<SYNONYM>(E,E)-farnesyl diphosphate(3-)</SYNONYM>
+<SYNONYM>(2E,6E)-farnesyl diphosphate(3-)</SYNONYM>
+<SYNONYM>(2E,6E)-farnesyl diphosphate</SYNONYM>
+<SYNONYM>(2E,6E)-3,7,11-trimethyldodeca-2,6,10-trien-1-yl (phosphonatooxy)phosphonate</SYNONYM>
+<SYNONYM>(2-trans,6-trans)-farnesyl diphosphate(3-)</SYNONYM>
+<IUPAC_NAME>(2E,6E)-3,7,11-trimethyldodeca-2,6,10-trien-1-yl diphosphate</IUPAC_NAME>
+<FORMULA>C15H25O7P2</FORMULA>
+<MASS>379.30230</MASS>
+<MONOISOTOPIC_MASS>379.10920</MONOISOTOPIC_MASS>
+<CHARGE>-3</CHARGE>
+<SMILES>CC(C)=CCC\C(C)=C\CC\C(C)=C\COP([O-])(=O)OP([O-])([O-])=O</SMILES>
+<INCHI>InChI=1S/C15H28O7P2/c1-13(2)7-5-8-14(3)9-6-10-15(4)11-12-21-24(19,20)22-23(16,17)18/h7,9,11H,5-6,8,10,12H2,1-4H3,(H,19,20)(H2,16,17,18)/p-3/b14-9+,15-11+</INCHI>
+<INCHIKEY>VWFJDQUYCIWHTN-YFVJMOTDSA-K</INCHIKEY>
+</ENTRY>
+</TABLE>

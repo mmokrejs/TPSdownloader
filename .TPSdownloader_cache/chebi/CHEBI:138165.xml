@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:138165</ID>
+<NAME>(+)-(2S,3R,9R)-pristinol</NAME>
+<DEFINITION>A bicyclic sesquiterpenoid that is 2,3,5,6,7,8,9,9a-octahydro-1H-cyclopenta[8]annulen-6-ol carrying four additional methyl substiuents at positions 1, 4, 8 and 8.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>(1R,6R,9aS)-1,4,8,8-tetramethyl-2,3,5,6,7,8,9,9a-octahydro-1H-cyclopenta[8]annulen-6-ol</SYNONYM>
+<SYNONYM>(+)-(2S,3R,9R)-pristinol</SYNONYM>
+<IUPAC_NAME>(1R,3aZ,6R,9aS)-1,4,8,8-tetramethyl-2,3,5,6,7,8,9,9a-octahydro-1H-cyclopenta[8]annulen-6-ol</IUPAC_NAME>
+<FORMULA>C15H26O</FORMULA>
+<MASS>222.372</MASS>
+<MONOISOTOPIC_MASS>222.19837</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@@]12CC(C)(C)C[C@@H](O)C\C(C)=C1\CC[C@H]2C</SMILES>
+<INCHI>InChI=1S/C15H26O/c1-10-5-6-13-11(2)7-12(16)8-15(3,4)9-14(10)13/h10,12,14,16H,5-9H2,1-4H3/b13-11-/t10-,12+,14+/m1/s1</INCHI>
+<INCHIKEY>PXKJCWZAMAFFIW-GLBIRDDMSA-N</INCHIKEY>
+<METACYC_ACCESSION>CPD-20250</METACYC_ACCESSION>
+<PUBMED_CITATION>27403888</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

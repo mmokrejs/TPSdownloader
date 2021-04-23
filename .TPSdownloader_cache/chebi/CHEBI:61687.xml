@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:61687</ID>
+<NAME>cis-muurola-3,5-diene</NAME>
+<DEFINITION>A carbobicyclic compound that is 1,2,3,4,4a,5-hexahydronaphthalene which is substituted at position 1 by a propan-2-yl group and at positions 4 and 7 by methyl groups (the 1R,4R,4aS-diastereoisomer).</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>Cis-muurola-3,5-diene</SYNONYM>
+<IUPAC_NAME>(1R,4R,4aS)-4,7-dimethyl-1-(propan-2-yl)-1,2,3,4,4a,5-hexahydronaphthalene</IUPAC_NAME>
+<FORMULA>C15H24</FORMULA>
+<MASS>204.35110</MASS>
+<MONOISOTOPIC_MASS>204.18780</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[H][C@@]12CC=C(C)C=C1[C@H](CC[C@H]2C)C(C)C</SMILES>
+<INCHI>InChI=1S/C15H24/c1-10(2)13-8-6-12(4)14-7-5-11(3)9-15(13)14/h5,9-10,12-14H,6-8H2,1-4H3/t12-,13-,14+/m1/s1</INCHI>
+<INCHIKEY>JOCWPECWTZZSSX-MCIONIFRSA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>8484960</REAXYS_REGISTRY_NUMBER>
+<METACYC_ACCESSION>CPD-10707</METACYC_ACCESSION>
+<PUBMED_CITATION>16083926</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

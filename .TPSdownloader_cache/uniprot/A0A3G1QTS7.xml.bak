@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2021-04-07" modified="2021-04-07" version="10">
+<accession>A0A3G1QTS7</accession>
+<name>KS1_ISOER</name>
+<protein>
+<recommendedName>
+<fullName evidence="4">Ent-kaurene synthase 1, chloroplastic</fullName>
+<shortName evidence="4">IeKS1</shortName>
+<ecNumber evidence="3">4.2.3.19</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="4">KS1</name>
+</gene>
+<organism>
+<name type="scientific">Isodon eriocalyx</name>
+<name type="synonym">Plectranthus eriocalyx</name>
+<dbReference type="NCBI Taxonomy" id="662907"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>lamiids</taxon>
+<taxon>Lamiales</taxon>
+<taxon>Lamiaceae</taxon>
+<taxon>Nepetoideae</taxon>
+<taxon>Ocimeae</taxon>
+<taxon>Isodon</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2019" name="Phytochemistry" volume="158" first="96" last="102">
+<title>Diterpene synthases facilitating production of the kaurane skeleton of eriocalyxin B in the medicinal plant Isodon eriocalyx.</title>
+<authorList>
+<person name="Du G."/>
+<person name="Gong H.-Y."/>
+<person name="Feng K.-N."/>
+<person name="Chen Q.-Q."/>
+<person name="Yang Y.-L."/>
+<person name="Fu X.-L."/>
+<person name="Lu S."/>
+<person name="Zeng Y."/>
+</authorList>
+<dbReference type="PubMed" id="30496917"/>
+<dbReference type="DOI" id="10.1016/j.phytochem.2018.11.015"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>PATHWAY</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>DEVELOPMENTAL STAGE</scope>
+</reference>
+<comment type="function">
+<text evidence="3">Involved in the biosynthesis of ent-kaurene diterpenoids natural products such as oridonin, miltiradiene, eriocalyxin B and nezukol, known to exhibit antitumor, anti-inflammatory and antibacterial activities, and in the production of gibberellins phytohormones (PubMed:30496917). Catalyzes the conversion of ent-copalyl diphosphate (ent-CPP) to ent-kaurene (PubMed:30496917).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>ent-copalyl diphosphate = diphosphate + ent-kaur-16-ene</text>
+<dbReference type="Rhea" id="RHEA:22220"/>
+<dbReference type="ChEBI" id="CHEBI:15415"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:58553"/>
+<dbReference type="EC" id="4.2.3.19"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="3">
+<dbReference type="Rhea" id="RHEA:22221"/>
+</physiologicalReaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="pathway" evidence="3">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="pathway" evidence="6">
+<text>Plant hormone biosynthesis; gibberellin biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="2">Plastid</location>
+<location evidence="2">Chloroplast</location>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="3">Accumulates in leaves, and, at low levels, in germinating seeds.</text>
+</comment>
+<comment type="developmental stage">
+<text evidence="3">Moslty expressed in leaves where ent-kaurane diterpenoids accumulates but weakly expressed in germinating seeds in which gibberellins are produced.</text>
+</comment>
+<comment type="domain">
+<text evidence="5">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.19" evidence="3"/>
+<dbReference type="EMBL" id="KY937953">
+<property type="protein sequence ID" value="AWN06647.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="UniPathway" id="UPA00390"/>
+<dbReference type="GO" id="GO:0009899">
+<property type="term" value="F:ent-kaurene synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0033332">
+<property type="term" value="P:ent-kaurene biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0150">Chloroplast</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0934">Plastid</keyword>
+<keyword id="KW-0809">Transit peptide</keyword>
+<feature type="transit peptide" description="Chloroplast" evidence="2">
+<location>
+<begin position="1"/>
+<end position="28"/>
+</location>
+</feature>
+<feature type="chain" description="Ent-kaurene synthase 1, chloroplastic" id="PRO_0000452388">
+<location>
+<begin position="29"/>
+<end position="794"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif" evidence="5">
+<location>
+<begin position="543"/>
+<end position="547"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="543"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="543"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="547"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="547"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="687"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="695"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q40577"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="30496917"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="30496917"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<evidence key="6" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="30496917"/>
+</source>
+</evidence>
+<sequence length="794" mass="90262" checksum="B4231EBFD07ADC48" modified="2019-02-13" version="1" precursor="true">MSLLLSNSVLVGPKFRSSRISHASASLDIGLQRATSPQNASVPTCFEETKGRIAKLFHKNELSVSTYDTAWVAMVPSPTSSEEPCFPACLNWLLENQCHDGSWARPHHHHMLKKDVLSSTLACILALKKWGVGEEQINRGLHFVELNFASATEKGQITPMGFDIIFPAMLDNARGLSLNLQLEPTMLNDLIYKRDLELKRCNQSNSAEKEVYWAHIAEGMGKLHDWESVMKYQRKNGSLFNCPSTTAAAFTALRNSDCLNYLCLALEKFGSAVPAVYPLDIYSQLCTVGNLERLGISRYFLTEIQSVLDETYRSWLQGDEEIFMDASTCALAFRTLRMNGYNVTSDPITKILQECFSSSFRGNMTDNNTTLEIYRASELILYPEERDLVQHNLRLKTFLEQELSSNGFIQSCQLGRNINAEVNQAIEYPFYAIMDRMAKRKNIENYNIDNTRILKTSYRSPNFGNKDFLSLSVEDFNRCQVIHREELRELERWVIENRLDELKFARSKAAYCYFSAAATIFSPELSDARMSWAKNGVLTTVVDDFFDVGGSVEELKNLIQLVELWDVDVSTQCCSPNVQIIFSALKHTICEIADKGFKLQGRSITDHIISIWLDLLYSMMKETELGIDKSFPTMDEYMSNAYVSFALGPIVLPALYLVGPKLSEEMVNHSEYHTLFKLMSTCGRLLNDIRGYERELKDGKISAVSLYIMNNGGEITTEAAISEMRSWIERDRRELLRLVLEENKSVLPKACKKLFWHMCTVVHVFYSKDDGFTSLNLHGVVNAIINEPIVLNQF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

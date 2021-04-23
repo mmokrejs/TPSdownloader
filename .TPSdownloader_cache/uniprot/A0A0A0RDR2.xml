@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2015-02-04" dataset="TrEMBL" modified="2021-04-07" version="24">
+    <accession>A0A0A0RDR2</accession>
+    <name>A0A0A0RDR2_SANAL</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="7">Sesquisabinene B synthase 1</fullName>
+      </submittedName>
+    </protein>
+    <organism evidence="7">
+      <name type="scientific">Santalum album</name>
+      <name type="common">White sandalwood</name>
+      <dbReference id="35974" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>Santalales</taxon>
+        <taxon>Santalaceae</taxon>
+        <taxon>Santalum</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="7" key="1">
+      <citation date="2014-04" db="EMBL/GenBank/DDBJ databases" type="submission">
+        <title>Isolation and characterization of two isoforms of sesquisabinene B synthase from Indian sandalwood Santalum album using transcriptome sequencing.</title>
+        <authorList>
+          <person name="Srivastava P.L."/>
+          <person name="Thulasiram H.V."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE</scope>
+    </reference>
+    <reference evidence="10" key="2">
+      <citation date="2018-06" db="PDB data bank" type="submission">
+        <title>Crystal structure of a synthase 1 from Santalum album in complex with ligand s.</title>
+        <authorList>
+          <person name="Han X."/>
+          <person name="Ko T.P."/>
+          <person name="Liu W.D."/>
+          <person name="Chen C.C."/>
+          <person name="Guo R.T."/>
+        </authorList>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (1.75 ANGSTROMS)</scope>
+    </reference>
+    <reference evidence="8 9" key="3">
+      <citation date="2018-06" db="PDB data bank" type="submission">
+        <title>Crystal structure of a synthase 1 from Santalum album in complex with ligand.</title>
+        <authorList>
+          <person name="Han X."/>
+          <person name="Ko T.P."/>
+          <person name="Liu W.D."/>
+          <person name="Chen C.C."/>
+          <person name="Guo R.T."/>
+        </authorList>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (1.60 ANGSTROMS)</scope>
+    </reference>
+    <reference evidence="12 13" key="4">
+      <citation date="2019" first="1011" last="1019" name="ACS Chem. Biol." type="journal article" volume="14">
+        <title>Structure of Sesquisabinene Synthase 1, a Terpenoid Cyclase That Generates a Strained [3.1.0] Bridged-Bicyclic Product.</title>
+        <authorList>
+          <person name="Blank P.N."/>
+          <person name="Shinsky S.A."/>
+          <person name="Christianson D.W."/>
+        </authorList>
+        <dbReference id="30977996" type="PubMed"/>
+        <dbReference id="10.1021/acschembio.9b00218" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (1.90 ANGSTROMS)</scope>
+    </reference>
+    <reference evidence="11" key="5">
+      <citation date="2019-05" db="PDB data bank" type="submission">
+        <title>Crystal Structure of Sesquisabinene B Synthase 1 from Santalum album.</title>
+        <authorList>
+          <person name="Singh S."/>
+          <person name="Thulasiram H.V."/>
+          <person name="Kulkarni K.A."/>
+        </authorList>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (2.20 ANGSTROMS) OF 18-566</scope>
+    </reference>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mn(2+)</name>
+        <dbReference id="CHEBI:29035" type="ChEBI"/>
+      </cofactor>
+    </comment>
+    <dbReference id="KJ665776" type="EMBL">
+      <property type="protein sequence ID" value="AIV42939.1"/>
+      <property type="molecule type" value="mRNA"/>
+    </dbReference>
+    <dbReference id="6A1D" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.78"/>
+      <property type="chains" value="A=1-566"/>
+    </dbReference>
+    <dbReference id="6A1E" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.89"/>
+      <property type="chains" value="A=1-566"/>
+    </dbReference>
+    <dbReference id="6A1I" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.60"/>
+      <property type="chains" value="A=1-566"/>
+    </dbReference>
+    <dbReference id="6A3X" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.75"/>
+      <property type="chains" value="A=1-566"/>
+    </dbReference>
+    <dbReference id="6K16" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.20"/>
+      <property type="chains" value="A=18-566"/>
+    </dbReference>
+    <dbReference id="6O9P" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="2.10"/>
+      <property type="chains" value="A=1-566"/>
+    </dbReference>
+    <dbReference id="6O9Q" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.90"/>
+      <property type="chains" value="A=1-566"/>
+    </dbReference>
+    <dbReference id="6A1D" type="PDBsum"/>
+    <dbReference id="6A1E" type="PDBsum"/>
+    <dbReference id="6A1I" type="PDBsum"/>
+    <dbReference id="6A3X" type="PDBsum"/>
+    <dbReference id="6K16" type="PDBsum"/>
+    <dbReference id="6O9P" type="PDBsum"/>
+    <dbReference id="6O9Q" type="PDBsum"/>
+    <dbReference id="A0A0A0RDR2" type="SMR"/>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="GO:0010333" type="GO">
+      <property type="term" value="F:terpene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword evidence="8 9" id="KW-0002">3D-structure</keyword>
+    <keyword evidence="3" id="KW-0464">Manganese</keyword>
+    <keyword evidence="2" id="KW-0479">Metal-binding</keyword>
+    <feature description="Terpene_synth" evidence="5" type="domain">
+      <location>
+        <begin position="37"/>
+        <end position="211"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="6" type="domain">
+      <location>
+        <begin position="242"/>
+        <end position="505"/>
+      </location>
+    </feature>
+    <feature description="Disordered" evidence="4" type="region of interest">
+      <location>
+        <begin position="1"/>
+        <end position="20"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00001936" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00023211" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000256">
+      <source>
+        <dbReference id="MobiDB-lite" type="SAM"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000313">
+      <source>
+        <dbReference id="AIV42939.1" type="EMBL"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0007829">
+      <source>
+        <dbReference id="6A1D" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="9" type="ECO:0007829">
+      <source>
+        <dbReference id="6A1E" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="10" type="ECO:0007829">
+      <source>
+        <dbReference id="6A3X" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="11" type="ECO:0007829">
+      <source>
+        <dbReference id="6K16" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="12" type="ECO:0007829">
+      <source>
+        <dbReference id="6O9P" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="13" type="ECO:0007829">
+      <source>
+        <dbReference id="6O9Q" type="PDB"/>
+      </source>
+    </evidence>
+    <sequence checksum="C9259639720B76C4" length="566" mass="65223" modified="2015-02-04" version="1">MDLCQIPPTSPISPSVPFNGDDSSVVRRSANYPANLWDYDFLQSLGRHSSVTEEHVGLAEKLKGEVKSLITGPMEPLAKLEFIDSVRRLGLKYQFETEMKEALANISKDGYDSWWVDNLRATALRFRLLRENGIFVPQDVFERFQNKETGKFKNELCEDVKGLLNLYEASFLGWEGEDILDEARTFSTAQLKNVEGKISSPNLAKIVHHALDLPLHWRAIRYEARWFIDIYEDEEDMNPTLLKYAKLDFNIVQSFHQAEIGRLARWWVGTGLDKLPFARNGLIQSYMYAIGMLFEPHLGEVREMEAKVGALITTIDDVYDVYGTMEELELFTDITERWDINRVDQLPRNIRMPLLTMFNTSNDIGYWALKERGFNGIPYTAKVWADQLKSYTKEAKWFHEGHKPTLEEYLENALVSIGFPNLLVTSYLLTVDNPTKEKLDYVDSLPLFVRASCILCRIINDLGTSPDEMERGDNLKSIQCYMNETGASQEVAREHIEGLVRMWWKRLNKCLFEPSPFTEPFLSFTINVVRGSHFFYQYGDGYGNAESWTKNQGMSVLIHPITLDEE</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

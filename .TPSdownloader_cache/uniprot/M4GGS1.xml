@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2013-05-01" dataset="TrEMBL" modified="2021-04-07" version="41">
+    <accession>M4GGS1</accession>
+    <name>M4GGS1_ARTAN</name>
+    <protein>
+      <submittedName>
+        <fullName evidence="7">Amorpha-4,11-diene synthase</fullName>
+        <ecNumber evidence="7">4.2.3.24</ecNumber>
+      </submittedName>
+    </protein>
+    <gene>
+      <name evidence="7" type="primary">AaBOS</name>
+      <name evidence="7" type="ORF">KCS12</name>
+    </gene>
+    <organism evidence="7">
+      <name type="scientific">Artemisia annua</name>
+      <name type="common">Sweet wormwood</name>
+      <dbReference id="35608" type="NCBI Taxonomy"/>
+      <lineage>
+        <taxon>Eukaryota</taxon>
+        <taxon>Viridiplantae</taxon>
+        <taxon>Streptophyta</taxon>
+        <taxon>Embryophyta</taxon>
+        <taxon>Tracheophyta</taxon>
+        <taxon>Spermatophyta</taxon>
+        <taxon>Magnoliopsida</taxon>
+        <taxon>eudicotyledons</taxon>
+        <taxon>Gunneridae</taxon>
+        <taxon>Pentapetalae</taxon>
+        <taxon>asterids</taxon>
+        <taxon>campanulids</taxon>
+        <taxon>Asterales</taxon>
+        <taxon>Asteraceae</taxon>
+        <taxon>Asteroideae</taxon>
+        <taxon>Anthemideae</taxon>
+        <taxon>Artemisiinae</taxon>
+        <taxon>Artemisia</taxon>
+      </lineage>
+    </organism>
+    <reference evidence="7 8" key="1">
+      <citation date="2013" first="417" last="426" name="Biochem. J." type="journal article" volume="451">
+        <title>Rational engineering of plasticity residues of sesquiterpene synthases from Artemisia annua: product specificity and catalytic efficiency.</title>
+        <authorList>
+          <person name="Li J.X."/>
+          <person name="Fang X."/>
+          <person name="Zhao Q."/>
+          <person name="Ruan J.X."/>
+          <person name="Yang C.Q."/>
+          <person name="Wang L.J."/>
+          <person name="Miller D.J."/>
+          <person name="Faraldos J.A."/>
+          <person name="Allemann R.K."/>
+          <person name="Chen X.Y."/>
+          <person name="Zhang P."/>
+        </authorList>
+        <dbReference id="23438177" type="PubMed"/>
+        <dbReference id="10.1042/BJ20130041" type="DOI"/>
+      </citation>
+      <scope>X-RAY CRYSTALLOGRAPHY (1.99 ANGSTROMS)</scope>
+    </reference>
+    <comment type="cofactor">
+      <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference id="CHEBI:18420" type="ChEBI"/>
+      </cofactor>
+    </comment>
+    <dbReference evidence="7" id="4.2.3.24" type="EC"/>
+    <dbReference id="4GAX" type="PDB">
+      <property type="method" value="X-ray"/>
+      <property type="resolution" value="1.99"/>
+      <property type="chains" value="A=1-563"/>
+    </dbReference>
+    <dbReference id="4GAX" type="PDBsum"/>
+    <dbReference id="M4GGS1" type="SMR"/>
+    <dbReference id="GO:0034006" type="GO">
+      <property type="term" value="F:amorpha-4,11-diene synthase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-EC"/>
+    </dbReference>
+    <dbReference id="GO:0000287" type="GO">
+      <property type="term" value="F:magnesium ion binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference id="1.10.600.10" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="1.50.10.130" type="Gene3D">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="IPR008949" type="InterPro">
+      <property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+    </dbReference>
+    <dbReference id="IPR034741" type="InterPro">
+      <property type="entry name" value="Terpene_cyclase-like_1_C"/>
+    </dbReference>
+    <dbReference id="IPR001906" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N"/>
+    </dbReference>
+    <dbReference id="IPR036965" type="InterPro">
+      <property type="entry name" value="Terpene_synth_N_sf"/>
+    </dbReference>
+    <dbReference id="IPR005630" type="InterPro">
+      <property type="entry name" value="Terpene_synthase_metal-bd"/>
+    </dbReference>
+    <dbReference id="IPR008930" type="InterPro">
+      <property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+    </dbReference>
+    <dbReference id="PF01397" type="Pfam">
+      <property type="entry name" value="Terpene_synth"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="PF03936" type="Pfam">
+      <property type="entry name" value="Terpene_synth_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SFLDG01019" type="SFLD">
+      <property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48239" type="SUPFAM">
+      <property type="entry name" value="SSF48239"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference id="SSF48576" type="SUPFAM">
+      <property type="entry name" value="SSF48576"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="evidence at protein level"/>
+    <keyword evidence="7 8" id="KW-0002">3D-structure</keyword>
+    <keyword evidence="3" id="KW-0175">Coiled coil</keyword>
+    <keyword evidence="2" id="KW-0479">Metal-binding</keyword>
+    <feature description="Terpene_synth" evidence="5" type="domain">
+      <location>
+        <begin position="37"/>
+        <end position="210"/>
+      </location>
+    </feature>
+    <feature description="Terpene_synth_C" evidence="6" type="domain">
+      <location>
+        <begin position="242"/>
+        <end position="506"/>
+      </location>
+    </feature>
+    <feature description="Disordered" evidence="4" type="region of interest">
+      <location>
+        <begin position="1"/>
+        <end position="20"/>
+      </location>
+    </feature>
+    <feature evidence="3" type="coiled-coil region">
+      <location>
+        <begin position="49"/>
+        <end position="69"/>
+      </location>
+    </feature>
+    <feature description="Polar" evidence="4" type="compositionally biased region">
+      <location>
+        <begin position="1"/>
+        <end position="18"/>
+      </location>
+    </feature>
+    <evidence key="1" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00001946" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="2" type="ECO:0000256">
+      <source>
+        <dbReference id="ARBA00022723" type="ARBA"/>
+      </source>
+    </evidence>
+    <evidence key="3" type="ECO:0000256">
+      <source>
+        <dbReference id="Coils" type="SAM"/>
+      </source>
+    </evidence>
+    <evidence key="4" type="ECO:0000256">
+      <source>
+        <dbReference id="MobiDB-lite" type="SAM"/>
+      </source>
+    </evidence>
+    <evidence key="5" type="ECO:0000259">
+      <source>
+        <dbReference id="PF01397" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="6" type="ECO:0000259">
+      <source>
+        <dbReference id="PF03936" type="Pfam"/>
+      </source>
+    </evidence>
+    <evidence key="7" type="ECO:0000313">
+      <source>
+        <dbReference id="4GAX" type="PDB"/>
+      </source>
+    </evidence>
+    <evidence key="8" type="ECO:0007829">
+      <source>
+        <dbReference id="4GAX" type="PDB"/>
+      </source>
+    </evidence>
+    <sequence checksum="620B4A798C837028" length="563" mass="65143" modified="2013-05-01" version="1">GSHMASMTGGQQMGRGSMSLTEEKPIRPIANFSPSIWGDQFLIVDNQVEQGVEQIVKDLKKEVRQLLKEALDIPMKHANLLKLVDEIQRLGISYLFEQEIDHALQHIYETYGDNWSGARSSLWFRLMRKQGYFVTCDVFNNHKDESGVFKQSLKNHVEGLLELYEATSMRVPGEIILEDALVFTQSHLSIIAKDTLSINPALSTEIQRALKKPLWKRLPRIEAVQYIPFYEQQDSHNKTLIKLAKLEFNLLQSLHREELSQLSKWWKAFDVKNNAPYSRDRIVECYFWALASRFEPQYSRARIFLAKVIALVTLIDDIYDAYGTYEELKIFTEAIERWSITCLDMIPEYMKPIYKLFMDTYTEMEEILAKEGKTNIFNCGKEFVKDFVRNLMVEAQWANEGHIPTTEELDSVAVITGGANLLTTTCYLGMSDIVTKEAFEWAVSEPPLLRYKGILGRRLNDLAGHKEEQERKHVSSSVESYMKEYNVSEEYAKNLLYKQVEDLWKDINREYLITKTIPRPLLVAVINLVHFLDVLYAAKDAFTAMGEEYKNLVKSLLVYPMSI</sequence>
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

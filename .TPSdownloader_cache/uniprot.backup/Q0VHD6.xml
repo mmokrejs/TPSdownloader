@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2011-11-16" modified="2020-12-02" version="52">
+<accession>Q0VHD6</accession>
+<name>TSGD1_ZINOF</name>
+<protein>
+<recommendedName>
+<fullName>(+)-germacrene D synthase</fullName>
+<ecNumber>4.2.3.77</ecNumber>
+</recommendedName>
+</protein>
+<organism>
+<name type="scientific">Zingiber officinale</name>
+<name type="common">Ginger</name>
+<name type="synonym">Amomum zingiber</name>
+<dbReference type="NCBI Taxonomy" id="94328"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Zingiberales</taxon>
+<taxon>Zingiberaceae</taxon>
+<taxon>Zingiber</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2006" name="Arch. Biochem. Biophys." volume="452" first="17" last="28">
+<title>Cloning, expression, purification and characterization of recombinant (+)-germacrene D synthase from Zingiber officinale.</title>
+<authorList>
+<person name="Picaud S."/>
+<person name="Olsson M.E."/>
+<person name="Brodelius M."/>
+<person name="Brodelius P.E."/>
+</authorList>
+<dbReference type="PubMed" id="16839518"/>
+<dbReference type="DOI" id="10.1016/j.abb.2006.06.007"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<source>
+<tissue>Rhizome</tissue>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2">Involved in the biosynthesis of germacrene D. Can use farnesyl diphosphate as substrate, but not geranyl diphosphate. Produces mainly (+)-germacrene D along with germacrene B and a number of minor by-products.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate = (+)-germacrene D + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:30427"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:49046"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.77"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<cofactor evidence="1">
+<name>Mn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29035"/>
+</cofactor>
+<cofactor evidence="1">
+<name>Co(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:48828"/>
+</cofactor>
+<cofactor evidence="1">
+<name>Ni(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:49786"/>
+</cofactor>
+<text evidence="1">Magnesium, manganese, cobalt or nickel, but not zinc or copper. Binds 3 magnesium ions per subunit.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2">0.88 uM for (2E,6E)-farnesyl diphosphate (in presence of magnesium)</KM>
+</kinetics>
+<phDependence>
+<text evidence="2">Optimum pH is 7.5-8.5.</text>
+</phDependence>
+</comment>
+<comment type="pathway">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="domain">
+<text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the terpene synthase family. Tpsa subfamily.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.77"/>
+<dbReference type="EMBL" id="AY860846">
+<property type="protein sequence ID" value="AAX40665.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="Q0VHD6"/>
+<dbReference type="KEGG" id="ag:AAX40665"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-13556"/>
+<dbReference type="BRENDA" id="4.2.3.71">
+<property type="organism ID" value="6754"/>
+</dbReference>
+<dbReference type="BRENDA" id="4.2.3.77">
+<property type="organism ID" value="6754"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<feature type="chain" description="(+)-germacrene D synthase" id="PRO_0000413960">
+<location>
+<begin position="1"/>
+<end position="550"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif">
+<location>
+<begin position="304"/>
+<end position="308"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="304"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="304"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="308"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="308"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="455"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16839518"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="550" mass="63755" checksum="6FFD9F668E648F7F" modified="2006-09-05" version="1">MENQSLTFVGDEEAKVRKSTKFHPSIWGDYFIQNSSLSHAEESTQRMIKRVEELKVQVKSMFKDTSDILQLMNLIDSIQMLGLDYHFENEIDKALRLINEVDDKSYGLYETSLRFRLLRQHGNHVSTDIFNKFKGDNGSFISSLNGDAKGLLSLYNASYLGTHGETILDEAKSFAKPQLISLLSELEQSLAAQVTLFLELPLHKRVKILLVRKYILIYQEGAMRNNVLLEFAKLNFNLLQSLYQEELKKISIWWYDLALAKSLSFTRDRIVECYYWVLTLYFDPQYSHSRLIYSKVISLVSIMDDIYDNYGTLEECRQLTEAIKRWKPQAIDSLPEYLKYFYLKLLKTFEEIGEELEHNEKYRMLYLQDQIKAIAVAYLEEAKWSIERHVPSLDEHLHYSLITSGCSLVPCASYVGMGEVATKEVFDWHSSFPKAVEACCAIGRILNDITSYEREQGRGDNASTVESYMKDHGTNEKDACKKLQEIVEKAWKDLNQESLNQKNISRLIIERLVNFSRSMEEIYMSNDMYTNSGTKMKGNITLVLVEAFPV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

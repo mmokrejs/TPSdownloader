@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:128769</ID>
+<NAME>isopentenyl diphosphate(3-)</NAME>
+<DEFINITION>An organophosphate oxoanion that is the trianion of isopentenyl diphosphate arising from deprotonation of the three OH groups of the diphosphate.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>isopentenyl pyrophosphate</SYNONYM>
+<SYNONYM>isopentenyl diphosphate</SYNONYM>
+<SYNONYM>3-methylbut-3-enyl pyrophosphate</SYNONYM>
+<SYNONYM>3-methylbut-3-enyl diphosphate trianion</SYNONYM>
+<SYNONYM>3-methylbut-3-enyl diphosphate</SYNONYM>
+<IUPAC_NAME>3-methylbut-3-en-1-yl diphosphate</IUPAC_NAME>
+<FORMULA>C5H9O7P2</FORMULA>
+<MASS>243.06830</MASS>
+<MONOISOTOPIC_MASS>242.98400</MONOISOTOPIC_MASS>
+<CHARGE>-3</CHARGE>
+<SMILES>CC(=C)CCOP([O-])(=O)OP([O-])([O-])=O</SMILES>
+<INCHI>InChI=1S/C5H12O7P2/c1-5(2)3-4-11-14(9,10)12-13(6,7)8/h1,3-4H2,2H3,(H,9,10)(H2,6,7,8)/p-3</INCHI>
+<INCHIKEY>NUHSROFQTUXZQQ-UHFFFAOYSA-K</INCHIKEY>
+<BEILSTEIN_REGISTRY_NUMBER>1824090</BEILSTEIN_REGISTRY_NUMBER>
+<REAXYS_REGISTRY_NUMBER>1824090</REAXYS_REGISTRY_NUMBER>
+<PUBMED_CITATION>12657258</PUBMED_CITATION>
+<PUBMED_CITATION>9873578</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

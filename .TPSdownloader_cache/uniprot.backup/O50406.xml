@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2012-07-11" modified="2021-04-07" version="118">
+<accession>O50406</accession>
+<accession>F2GEC3</accession>
+<accession>L0TCC7</accession>
+<name>DITCY_MYCTU</name>
+<protein>
+<recommendedName>
+<fullName>Type B diterpene cyclase</fullName>
+<ecNumber>5.5.1.16</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus">Rv3377c</name>
+</gene>
+<organism>
+<name type="scientific">Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)</name>
+<dbReference type="NCBI Taxonomy" id="83332"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Corynebacteriales</taxon>
+<taxon>Mycobacteriaceae</taxon>
+<taxon>Mycobacterium</taxon>
+<taxon>Mycobacterium tuberculosis complex</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1998" name="Nature" volume="393" first="537" last="544">
+<title>Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence.</title>
+<authorList>
+<person name="Cole S.T."/>
+<person name="Brosch R."/>
+<person name="Parkhill J."/>
+<person name="Garnier T."/>
+<person name="Churcher C.M."/>
+<person name="Harris D.E."/>
+<person name="Gordon S.V."/>
+<person name="Eiglmeier K."/>
+<person name="Gas S."/>
+<person name="Barry C.E. III"/>
+<person name="Tekaia F."/>
+<person name="Badcock K."/>
+<person name="Basham D."/>
+<person name="Brown D."/>
+<person name="Chillingworth T."/>
+<person name="Connor R."/>
+<person name="Davies R.M."/>
+<person name="Devlin K."/>
+<person name="Feltwell T."/>
+<person name="Gentles S."/>
+<person name="Hamlin N."/>
+<person name="Holroyd S."/>
+<person name="Hornsby T."/>
+<person name="Jagels K."/>
+<person name="Krogh A."/>
+<person name="McLean J."/>
+<person name="Moule S."/>
+<person name="Murphy L.D."/>
+<person name="Oliver S."/>
+<person name="Osborne J."/>
+<person name="Quail M.A."/>
+<person name="Rajandream M.A."/>
+<person name="Rogers J."/>
+<person name="Rutter S."/>
+<person name="Seeger K."/>
+<person name="Skelton S."/>
+<person name="Squares S."/>
+<person name="Squares R."/>
+<person name="Sulston J.E."/>
+<person name="Taylor K."/>
+<person name="Whitehead S."/>
+<person name="Barrell B.G."/>
+</authorList>
+<dbReference type="PubMed" id="9634230"/>
+<dbReference type="DOI" id="10.1038/31159"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 25618 / H37Rv</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2005" name="Chem. Commun. (Camb.)" volume="8" first="1016" last="1018">
+<title>Mycobacterium tuberculosis H37Rv3377c encodes the diterpene cyclase for producing the halimane skeleton.</title>
+<authorList>
+<person name="Nakano C."/>
+<person name="Okamura T."/>
+<person name="Sato T."/>
+<person name="Dairi T."/>
+<person name="Hoshino T."/>
+</authorList>
+<dbReference type="PubMed" id="15719101"/>
+<dbReference type="DOI" id="10.1039/b415346d"/>
+</citation>
+<scope>FUNCTION AS A DITERPENE CYCLASE AND IN TUBERCULOSINOL BIOSYNTHESIS</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>NOMENCLATURE</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2009" name="ChemBioChem" volume="10" first="2060" last="2071">
+<title>Characterization of the Rv3377c gene product, a type-B diterpene cyclase, from the Mycobacterium tuberculosis H37 genome.</title>
+<authorList>
+<person name="Nakano C."/>
+<person name="Hoshino T."/>
+</authorList>
+<dbReference type="PubMed" id="19618417"/>
+<dbReference type="DOI" id="10.1002/cbic.200900248"/>
+</citation>
+<scope>FUNCTION AS A DITERPENE CYCLASE</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>MUTAGENESIS OF GLU-292; ASP-293; ASP-295; THR-296 AND THR-297</scope>
+<scope>SUBSTRATE SPECIFICITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>COFACTOR</scope>
+<scope>SUBUNIT</scope>
+<scope>ACTIVITY REGULATION</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2011" name="Mol. Cell. Proteomics" volume="10" first="M111.011627" last="M111.011627">
+<title>Proteogenomic analysis of Mycobacterium tuberculosis by high resolution mass spectrometry.</title>
+<authorList>
+<person name="Kelkar D.S."/>
+<person name="Kumar D."/>
+<person name="Kumar P."/>
+<person name="Balakrishnan L."/>
+<person name="Muthusamy B."/>
+<person name="Yadav A.K."/>
+<person name="Shrivastava P."/>
+<person name="Marimuthu A."/>
+<person name="Anand S."/>
+<person name="Sundaram H."/>
+<person name="Kingsbury R."/>
+<person name="Harsha H.C."/>
+<person name="Nair B."/>
+<person name="Prasad T.S."/>
+<person name="Chauhan D.S."/>
+<person name="Katoch K."/>
+<person name="Katoch V.M."/>
+<person name="Kumar P."/>
+<person name="Chaerkady R."/>
+<person name="Ramachandran S."/>
+<person name="Dash D."/>
+<person name="Pandey A."/>
+</authorList>
+<dbReference type="PubMed" id="21969609"/>
+<dbReference type="DOI" id="10.1074/mcp.m111.011627"/>
+</citation>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+<source>
+<strain>ATCC 25618 / H37Rv</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1 2">Catalyzes the formation of tuberculosinyl diphosphate from geranylgeranyl diphosphate (GGPP). It could also react with (14R/S)-14,15-oxidoGGPP to generate 3alpha- and 3beta-hydroxytuberculosinyl diphosphate.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1 2">
+<text>geranylgeranyl diphosphate = tuberculosinyl diphosphate</text>
+<dbReference type="Rhea" id="RHEA:25621"/>
+<dbReference type="ChEBI" id="CHEBI:57533"/>
+<dbReference type="ChEBI" id="CHEBI:58822"/>
+<dbReference type="EC" id="5.5.1.16"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="2">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="activity regulation">
+<text evidence="2">Strongly inhibited by 15-aza-dihydrogeranylgeraniol and 5-isopropyl-N,N,N,2-tetramethyl-4-(piperidine-1-carbonyloxy)benzenaminium chloride (Amo-1618). Inhibited by GGPP concentrations higher than 50 uM.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2">11.7 uM for GGPP (at 30 degrees Celsius and pH 7.5)</KM>
+<Vmax evidence="2">186 nmol/min/mg enzyme (at 30 degrees Celsius and pH 7.5)</Vmax>
+</kinetics>
+<phDependence>
+<text evidence="2">Optimum pH is 7.5. Enzyme activity is not detected at pH values above 9.0.</text>
+</phDependence>
+<temperatureDependence>
+<text evidence="2">Optimum temperature is 30 degrees Celsius.</text>
+</temperatureDependence>
+</comment>
+<comment type="subunit">
+<text evidence="2">Monomer.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="5.5.1.16"/>
+<dbReference type="EMBL" id="AL123456">
+<property type="protein sequence ID" value="CCP46198.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="H70972">
+<property type="entry name" value="H70972"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_217894.1">
+<property type="nucleotide sequence ID" value="NC_000962.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_003417905.1">
+<property type="nucleotide sequence ID" value="NZ_NVQJ01000052.1"/>
+</dbReference>
+<dbReference type="SMR" id="O50406"/>
+<dbReference type="STRING" id="83332.Rv3377c"/>
+<dbReference type="SwissLipids" id="SLP:000001170"/>
+<dbReference type="PaxDb" id="O50406"/>
+<dbReference type="GeneID" id="888073"/>
+<dbReference type="KEGG" id="mtu:Rv3377c"/>
+<dbReference type="TubercuList" id="Rv3377c"/>
+<dbReference type="eggNOG" id="COG1657">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="InParanoid" id="O50406"/>
+<dbReference type="OMA" id="RWHASPY"/>
+<dbReference type="BioCyc" id="MetaCyc:G185E-7653-MONOMER"/>
+<dbReference type="Proteomes" id="UP000001584">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035439">
+<property type="term" value="F:halimadienyl-diphosphate synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MTBBASE"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016829">
+<property type="term" value="F:lyase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MTBBASE"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010350">
+<property type="term" value="P:cellular response to magnesium starvation"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MTBBASE"/>
+</dbReference>
+<dbReference type="GO" id="GO:0033385">
+<property type="term" value="P:geranylgeranyl diphosphate metabolic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MTBBASE"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052572">
+<property type="term" value="P:response to host immune response"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MTBBASE"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035440">
+<property type="term" value="P:tuberculosinol biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MTBBASE"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001330">
+<property type="entry name" value="PFTB_repeat"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032696">
+<property type="entry name" value="SQ_cyclase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00432">
+<property type="entry name" value="Prenyltrans"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13243">
+<property type="entry name" value="SQHop_cyclase_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0413">Isomerase</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Type B diterpene cyclase" id="PRO_0000416457">
+<location>
+<begin position="1"/>
+<end position="501"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No change." evidence="2">
+<original>E</original>
+<variation>Q</variation>
+<location>
+<position position="292"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of cyclase activity." evidence="2">
+<original>D</original>
+<variation>E</variation>
+<location>
+<position position="293"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of cyclase activity." evidence="2">
+<original>D</original>
+<variation>N</variation>
+<location>
+<position position="293"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of cyclase activity." evidence="2">
+<original>D</original>
+<variation>N</variation>
+<location>
+<position position="295"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of cyclase activity." evidence="2">
+<original>D</original>
+<variation>Q</variation>
+<location>
+<position position="295"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of cyclase activity." evidence="2">
+<original>T</original>
+<variation>D</variation>
+<location>
+<position position="296"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of cyclase activity." evidence="2">
+<original>T</original>
+<variation>N</variation>
+<location>
+<position position="296"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of cyclase activity." evidence="2">
+<original>T</original>
+<variation>S</variation>
+<location>
+<position position="296"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of cyclase activity." evidence="2">
+<original>T</original>
+<variation>V</variation>
+<location>
+<position position="296"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of cyclase activity." evidence="2">
+<original>T</original>
+<variation>S</variation>
+<location>
+<position position="297"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of cyclase activity." evidence="2">
+<original>T</original>
+<variation>V</variation>
+<location>
+<position position="297"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15719101"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19618417"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="501" mass="55262" checksum="B9B6076F13837AFE" modified="1998-06-01" version="1">METFRTLLAKAALGNGISSTAYDTAWVAKLGQLDDELSDLALNWLCERQLPDGSWGAEFPFCYEDRLLSTLAAMISLTSNKHRRRRAAQVEKGLLALKNLTSGAFEGPQLDIKDATVGFELIAPTLMAEAARLGLAICHEESILGELVGVREQKLRKLGGSKINKHITAAFSVELAGQDGVGMLDVDNLQETNGSVKYSPSASAYFALHVKPGDKRALAYISSIIQAGDGGAPAFYQAEIFEIVWSLWNLSRTDIDLSDPEIVRTYLPYLDHVEQHWVRGRGVGWTGNSTLEDCDTTSVAYDVLSKFGRSPDIGAVLQFEDADWFRTYFHEVGPSISTNVHVLGALKQAGYDKCHPRVRKVLEFIRSSKEPGRFCWRDKWHRSAYYTTAHLICAASNYDDALCSDAIGWILNTQRPDGSWGFFDGQATAEETAYCIQALAHWQRHSGTSLSAQISRAGGWLSQHCEPPYAPLWIAKTLYCSATVVKAAILSALRLVDESNQ</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>
