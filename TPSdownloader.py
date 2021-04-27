@@ -72,10 +72,14 @@ def parse_chebi_xml(filename):
                 else:
                     raise(ValueError)
             if child.tag == 'NAME':
+                # ['casbene', 'casbene', 'Casbene']
+                # ['terpinolene', 'Terpinolene', 'terpinolene', 'Terpinolen', 'isoterpinene', 'alpha-terpinolene', '4-isopropylidene-1-methylcyclohexene', '1-methyl-4-(1-methylethylidene)cyclohexene', '1-methyl-4-(1-methylethylidene)-1-cyclohexene', '1,4(8)-p-menthadiene']
+                # ['epi-cedrol', 'epi-cedrol', '8-epicedrol', '8-epicedrol', '8-epi-cedrol', '(3R,3aS,6S,7R,8aS)-3,6,8,8-tetramethyloctahydro-1H-3a,7-methanoazulen-6-ol', '(-)-epicedrol']
+                # ['viridiflorene', 'viridiflorene', 'Ledene', 'Leden']
                 if not _names:
-                    _names = [child.text]
+                    _names = [child.text.lower()]
                 else:
-                    _names += [child.text]
+                    _names += [child.text.lower()]
             if child.tag == 'DEFINITION':
                 if not _definition:
                     _definition = [child.text]
