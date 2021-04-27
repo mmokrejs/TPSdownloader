@@ -52,8 +52,8 @@ def parse_chebi_xml(filename):
     etree=ET.parse(filename)
     root=etree.getroot()
 
-    _chebi_id = None
-    _definition = None
+    _chebi_id = []
+    _definition = []
     _names = []
     _formula = []
     _smiles = []
@@ -84,21 +84,17 @@ def parse_chebi_xml(filename):
             if child.tag == 'FORMULA':
                 if not _formula:
                     _formula = [child.text]
-                else:
-                    _formula += [child.text] # unify using set() in necessary
             if child.tag == 'SYNONYM':
                 if not _names:
                     _names = [child.text]
                 else:
                     _names += [child.text]
             if child.tag == 'SMILES':
-                _smiles = [child.text]
-            else:
-                _smiles += [child.text] # unify using set() in necessary
+                if not _smiles:
+                    _smiles = [child.text]
             if child.tag == 'INCHI':
-                _inchi = [child.text]
-            else:
-                _inchi += [child.text] # unify using set() in necessary
+                if not _inchi:
+                    _inchi = [child.text]
 
     print("Info: IDs: %s, names: %s, definition: %s, formula: %s, smiles: %s, inchi: %s" % (str(_chebi_id), str(_names), str(_definition), str(_formula), str(_smiles), str(_inchi)))
     return(_chebi_id, _names, _definition, _formula, _smiles, _inchi)
