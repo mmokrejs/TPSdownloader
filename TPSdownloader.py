@@ -47,14 +47,17 @@ def parse_known_terpenes(filename="terpene_names.uniq.txt"):
 
 def parse_chebi_xml(filename):
     """Keeps data in lists so we can capture multiple values eventually, do not know
-    what to expect at the moment."""
+    what to expect at the moment.
+
+    ChEBI keeps substance names in two places, <NAME> and <SYNONYM> tags.
+    """
 
     etree=ET.parse(filename)
     root=etree.getroot()
 
     _chebi_id = []
     _definition = []
-    _names = []
+    _names = set()
     _formula = []
     _smiles = []
     _inchi = []
@@ -76,10 +79,9 @@ def parse_chebi_xml(filename):
                 # ['terpinolene', 'Terpinolene', 'terpinolene', 'Terpinolen', 'isoterpinene', 'alpha-terpinolene', '4-isopropylidene-1-methylcyclohexene', '1-methyl-4-(1-methylethylidene)cyclohexene', '1-methyl-4-(1-methylethylidene)-1-cyclohexene', '1,4(8)-p-menthadiene']
                 # ['epi-cedrol', 'epi-cedrol', '8-epicedrol', '8-epicedrol', '8-epi-cedrol', '(3R,3aS,6S,7R,8aS)-3,6,8,8-tetramethyloctahydro-1H-3a,7-methanoazulen-6-ol', '(-)-epicedrol']
                 # ['viridiflorene', 'viridiflorene', 'Ledene', 'Leden']
-                if not _names:
-                    _names = [child.text.lower()]
-                else:
-                    _names += [child.text.lower()]
+                # ['dammarenediol-ii', 'dammarenediol-ii', 'dammarenediol ii', 'dammarenediol', 'dammar-24-ene-3beta,20-diol', 'dammar-24-ene-20(ss),3beta-diol', '8-methyl-18-nor-lanost-24-ene-3beta,20-diol', '8-methyl-18-nor-lanost-24-en-3beta,20-diol', '3beta-glucodammar-24-ene-3,20-diol', '(20s)-dammarenediol', '(20s)-dammar-24-ene-3beta,20-diol']
+                # ['beta-phellandren', 'beta-phellandrene', '3-isopropyl-6-methylene-1-cyclohexene', '2-p-menthadiene', '3-methylene-6-(1-methylethyl)cyclohexene', '4-isopropyl-1-methylene-2-cyclohexene']
+                _names.update([child.text.lower()])
             if child.tag == 'DEFINITION':
                 if not _definition:
                     _definition = [child.text]
@@ -89,10 +91,7 @@ def parse_chebi_xml(filename):
                 if not _formula:
                     _formula = [child.text]
             if child.tag == 'SYNONYM':
-                if not _names:
-                    _names = [child.text]
-                else:
-                    _names += [child.text]
+                _names.update([child.text.lower()])
             if child.tag == 'SMILES':
                 if not _smiles:
                     _smiles = [child.text]
