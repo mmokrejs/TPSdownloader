@@ -366,8 +366,8 @@ def fetch_ids_from_xlsx(terpenes):
                     _all_uniprot_ids.update([_uniprot_id])
                 for _chebi_id in _chebi_ids:
                     _all_chebi_ids.update(set(_chebi_id))
-        if myoptions.debug or True: print("Debug: _all_uniprot_ids=%s" % str(_all_uniprot_ids))
-        if myoptions.debug or True: print("Debug: _all_chebi_ids=%s" % str(_all_chebi_ids))
+        if myoptions.debug: print("Debug: _all_uniprot_ids=%s" % str(_all_uniprot_ids))
+        if myoptions.debug: print("Debug: _all_chebi_ids=%s" % str(_all_chebi_ids))
     return (_all_uniprot_ids, _all_chebi_ids)
 
 
