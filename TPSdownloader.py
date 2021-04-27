@@ -249,7 +249,8 @@ def downloader_wrapper(myid, dbname, cachedir, url):
             os.remove(_filename)
         if not os.path.exists(_filename):
             #print("Debug: fetching %s from uniprot" % myid)
-            _cmdline = "curl --no-progress-meter -o " + _filename + " " + url + myid
+            # older curl version do not support --no-progress-meter
+            _cmdline = "curl --silent --show-error -o " + _filename + " " + url + myid
             if dbname == 'uniprot':
                 _cmdline += ".xml"
             downloader(_cmdline)
