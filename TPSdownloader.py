@@ -10,6 +10,8 @@ from subprocess import Popen, PIPE, call #, STDOUT
 from optparse import OptionParser
 import xml.etree.ElementTree as ET
 import time
+import re
+# from re import compile, findall, finditer, sub, IGNORECASE
 
 version = "20210422"
 myparser = OptionParser(version="%s version %s" % ('%prog', version))
@@ -44,15 +46,18 @@ def parse_known_terpenes(filename="terpene_names.uniq.txt"):
 
 
 def parse_chebi_xml(filename):
+    """Keeps data in lists so we can capture multiple values eventually, do not know
+    what to expect at the moment."""
+
     etree=ET.parse(filename)
     root=etree.getroot()
 
     _chebi_id = None
     _definition = None
-    _names = None
-    _formula = None
-    _smiles = None
-    _inchi = None
+    _names = []
+    _formula = []
+    _smiles = []
+    _inchi = []
 
     for elem in root:
         if myoptions.debug: print("Level 0: ", elem.tag, ' ', elem.attrib, ' ', elem.text)
@@ -70,22 +75,30 @@ def parse_chebi_xml(filename):
                 if not _names:
                     _names = [child.text]
                 else:
-                    _names == [child.text]
+                    _names += [child.text]
             if child.tag == 'DEFINITION':
                 if not _definition:
                     _definition = [child.text]
+                else:
+                    _definition += [child.text]
             if child.tag == 'FORMULA':
                 if not _formula:
                     _formula = [child.text]
+                else:
+                    _formula += [child.text] # unify using set() in necessary
             if child.tag == 'SYNONYM':
                 if not _names:
                     _names = [child.text]
                 else:
-                    _names == [child.text]
+                    _names += [child.text]
             if child.tag == 'SMILES':
                 _smiles = [child.text]
+            else:
+                _smiles += [child.text] # unify using set() in necessary
             if child.tag == 'INCHI':
                 _inchi = [child.text]
+            else:
+                _inchi += [child.text] # unify using set() in necessary
 
     print("Info: IDs: %s, names: %s, definition: %s, formula: %s, smiles: %s, inchi: %s" % (str(_chebi_id), str(_names), str(_definition), str(_formula), str(_smiles), str(_inchi)))
     return(_chebi_id, _names, _definition, _formula, _smiles, _inchi)
@@ -153,6 +166,7 @@ def parse_uniprot_xml(filename, terpenes):
                             if sschild.tag == '{http://uniprot.org/uniprot}fullName':
                                 _protein_names += [sschild.text] # G1JUH4
                     elif child.tag == '{http://uniprot.org/uniprot}comment' and 'type' in child.attrib.keys() and child.attrib['type'] == 'catalytic activity' and subchild.tag == '{http://uniprot.org/uniprot}reaction' and sschild.tag == '{http://uniprot.org/uniprot}dbReference' and sschild.attrib['type'] == 'ChEBI':
+                        # do not even fetch unwanted ChEBI Ids
                         if sschild.attrib['id'] not in non_terpene_chebi_ids:
                             if not _chebi_ids_local:
                                 _chebi_ids_local = [sschild.attrib['id']]
@@ -175,17 +189,18 @@ def parse_uniprot_xml(filename, terpenes):
                                     _lineage = [sschild.text]
                                 else:
                                     _lineage += [sschild.text]
-    
+
                 if _chebi_ids_local:
                     _chebi_ids += [_chebi_ids_local]
                     _chebi_ids_local = []
 
-    for _i in range(0,len(_chebi_ids)-1):
-        if len(_chebi_ids) != len(_protein_names):
-            print("Warning: Number of ChEBI entries does not match number of alternative protein names : _chebi_ids=%s _protein_names=%s" % (str(_chebi_ids), str(_protein_names)))
-            print("Info: accessions: %s, chebi_ids: %s, _protein_names: %s, description: %s, organism: %s, lineage: %s, sequence: %s" % (str(_accessions), str(_chebi_ids[_i]), str(_protein_names), str(_feature_descriptions), str(_organism), str(_lineage), str(_sequence)))
-        else:
-            print("Info: accessions: %s, chebi_ids: %s, _protein_names: %s, description: %s, organism: %s, lineage: %s, sequence: %s" % (str(_accessions), str(_chebi_ids[_i]), str(_protein_names[_i]), str(_feature_descriptions), str(_organism), str(_lineage), str(_sequence)))
+    if myoptions.debug:
+        for _i in range(0,len(_chebi_ids)-1):
+            if len(_chebi_ids) != len(_protein_names):
+                print("Warning: Number of ChEBI entries does not match number of alternative protein names : _chebi_ids=%s _protein_names=%s" % (str(_chebi_ids), str(_protein_names)))
+                print("Info: accessions: %s, chebi_ids: %s, _protein_names: %s, description: %s, organism: %s, lineage: %s, sequence: %s" % (str(_accessions), str(_chebi_ids[_i]), str(_protein_names), str(_feature_descriptions), str(_organism), str(_lineage), str(_sequence)))
+            else:
+                print("Info: accessions: %s, chebi_ids: %s, _protein_names: %s, description: %s, organism: %s, lineage: %s, sequence: %s" % (str(_accessions), str(_chebi_ids[_i]), str(_protein_names[_i]), str(_feature_descriptions), str(_organism), str(_lineage), str(_sequence)))
 
     if not _protein_names:
         # <uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
@@ -355,6 +370,31 @@ def fetch_ids_from_xlsx(terpenes):
     return (_all_uniprot_ids, _all_chebi_ids)
 
 
+_r1 = re.compile(r'C[0-9]+')
+
+def classify_terpene(formula):
+    _match = _r1.search(formula)
+    if _match:
+        _carbon_count = int(formula[_match.span()[0]+1:_match.span()[1]])
+    else:
+        _carbon_count = None
+    if _carbon_count > 12 and _carbon_count < 17:
+        _terpene_type = 'sesq'
+    elif _carbon_count > 8 and _carbon_count < 12:
+        _terpene_type = 'mono'
+    elif _carbon_count > 18 and _carbon_count < 22:
+        _terpene_type = 'di'
+    elif _carbon_count > 28 and _carbon_count < 32:
+        _terpene_type = 'tri'
+    elif _carbon_count > 38 and _carbon_count < 42:
+        _terpene_type = 'tetra'
+    elif _carbon_count > 23 and _carbon_count < 27:
+        _terpene_type = 'sest'
+    else:
+        _terpene_type = 'unexpected'
+    return _terpene_type
+
+
 def main():
     create_cache()
     _terpenes = parse_known_terpenes()
@@ -370,7 +410,17 @@ def main():
         _filename = ".TPSdownloader_cache" + os.path.sep + 'chebi' + os.path.sep + _chebi_id + '.xml'
         if os.path.exists(_filename) and os.path.getsize(_filename):
             _chebi_id2, _names, _definition, _formula, _smiles, _inchi = parse_chebi_xml(_filename)
+            _terpene_type = classify_terpene(_formula[0])
 
+        #for _i in range(0,len(_chebi_ids)-1):
+        #    if len(_chebi_ids) != len(_protein_names):
+        #        print("Warning: Number of ChEBI entries does not match number of alternative protein names : _chebi_ids=%s _protein_names=%s" % (str(_chebi_ids), str(_protein_names)))
+        #        print("Info: accessions: %s, chebi_ids: %s, _protein_names: %s, description: %s, organism: %s, lineage: %s, sequence: %s" % (str(_accessions), str(_chebi_ids[_i]), str(_protein_names), str(_feature_descriptions), str(_organism), str(_lineage), str(_sequence)))
+        #    else:
+        #        print("Info: accessions: %s, chebi_ids: %s, _protein_names: %s, description: %s, organism: %s, lineage: %s, sequence: %s" % (str(_accessions), str(_chebi_ids[_i]), str(_protein_names[_i]), str(_feature_descriptions), str(_organism), str(_lineage), str(_sequence)))
+
+    # move dictionary of lists into Pandas dataframe at once
+    # dfObj = pd.DataFrame({'Uniprot ID': _accessions, 'Name': _protein_names, 'Amino acid sequence': _sequence, 'Species': _organism, 'Kingdom': _lineage, 'Terpene type': _terpene_type, 'Substrate (including stereochemistry)': None, 'Cofactors': None, 'Name of intermediate': None, 'SMILES of intermediate': None, 'Product': None, 'SMILES of product (including stereochemistry)': None, 'CheEBI ID': _chebi_ids, 'Notes': None, 'Publication (URL)': None})
 
 if __name__ == "__main__":
     main()
