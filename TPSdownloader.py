@@ -260,7 +260,8 @@ def downloader_wrapper(myid, dbname, cachedir, url):
             # could also prettyprint the XML files using
             # xml_pp -i.bak _filename
         else:
-            sys.stderr.write("Info: File %s already exists\n" % _filename)
+            if myoptions.debug:
+                sys.stderr.write("Debug: File %s already exists\n" % _filename)
     else:
         sys.stderr.write("Error: Directory %s does not exist\n" % _cachedir)
 
