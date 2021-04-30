@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2021-04-07" modified="2021-04-07" version="1">
+<accession>A0A7L7SCQ9</accession>
+<name>A0A7L7SCQ9_FICCA</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Germacrene D synthase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="1">TPS1</name>
+</gene>
+<organism evidence="1">
+<name type="scientific">Ficus carica</name>
+<name type="common">Common fig</name>
+<dbReference type="NCBI Taxonomy" id="3494"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>fabids</taxon>
+<taxon>Rosales</taxon>
+<taxon>Moraceae</taxon>
+<taxon>Ficus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1">
+<citation type="journal article" date="2020" name="Plant Sci." volume="298" last="110549">
+<title>Characterization of terpene synthase genes potentially involved in black fig fly (Silba adipata) interactions with Ficus carica.</title>
+<authorList>
+<person name="Nawade B."/>
+<person name="Shaltiel-Harpaz L."/>
+<person name="Yahyaa M."/>
+<person name="Kabaha A."/>
+<person name="Kedoshim R."/>
+<person name="Bosamia T.C."/>
+<person name="Ibdah M."/>
+</authorList>
+<dbReference type="PubMed" id="32771161"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="2" evidence="1">
+<citation type="submission" date="2020-02" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Ibadh M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="MT086603">
+<property type="protein sequence ID" value="QNV48470.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="QNV48470.1"/>
+</source>
+</evidence>
+<sequence length="549" mass="64658" checksum="43B3013EF774584B" modified="2021-04-07" version="1">MSFPVLAQNTKPEILRRTATFHPSIWGDRFLNYDSEKVKNDRTKQQVEELKEVARREVFRAAHDSSEKLNLIDAVQRLGLSYHFEREIEEALQHIYDQDHDQDGDLYDIALRFRLLRQHGYNVSSDIFEKFKDERGKFTESLVSDISGMLAFYEASYLRLHGDETLEEALVFTTTHLKTAASKTTDRMSEQIICALKQPLRKSPERLQARQYIAIYQDEVSHNKALLELAKLDFNLLQSLHKEELAQILRWWKELDFANKLPYIRDRIVELYFWILGVYFEPQYFLARKILTKVIAMASVLDDTYDSYGTFEELQLFTETIERWDINLKDQLREYMQIIYQTLLNVYQEFEEEMEEEEKYRVHYAKEAMKILVRAYFEEVRWLEQGYTPSLEEYLEVALVSTGYFTLSTTSFVGIMEDNIITKDVFEWVFNHPKIVEASQIICRFMDDIVSHKFEQEREHVASSVECYTKQYGVSEQDAYDELNKKVVDAWKDINEELLINPTAVPRPVLIRVLNLSRVIDLLYKDGDGYTHVGKATRESVAALLIDSV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

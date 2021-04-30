@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-04-26" modified="2021-04-07" version="94">
+<accession>O04408</accession>
+<name>KSA_PEA</name>
+<protein>
+<recommendedName>
+<fullName>Ent-copalyl diphosphate synthase, chloroplastic</fullName>
+<shortName>Ent-CDP synthase</shortName>
+<ecNumber>5.5.1.13</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Ent-copalyl diphosphate synthase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Ent-kaurene synthase A</fullName>
+<shortName>KSA</shortName>
+</alternativeName>
+</protein>
+<organism>
+<name type="scientific">Pisum sativum</name>
+<name type="common">Garden pea</name>
+<dbReference type="NCBI Taxonomy" id="3888"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>fabids</taxon>
+<taxon>Fabales</taxon>
+<taxon>Fabaceae</taxon>
+<taxon>Papilionoideae</taxon>
+<taxon>50 kb inversion clade</taxon>
+<taxon>NPAAA clade</taxon>
+<taxon>Hologalegina</taxon>
+<taxon>IRL clade</taxon>
+<taxon>Fabeae</taxon>
+<taxon>Pisum</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1997" name="Plant J." volume="11" first="443" last="454">
+<title>The LS locus of pea encodes the gibberellin biosynthesis enzyme ent-kaurene synthase A.</title>
+<authorList>
+<person name="Ait-Ali T."/>
+<person name="Swain S.M."/>
+<person name="Reid J.B."/>
+<person name="Sun T.-P."/>
+<person name="Kamiya Y."/>
+</authorList>
+<dbReference type="PubMed" id="9107034"/>
+<dbReference type="DOI" id="10.1046/j.1365-313x.1997.11030443.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+</reference>
+<comment type="function">
+<text>Catalyzes the conversion of geranylgeranyl diphosphate to the gibberellin precursor ent-copalyl diphosphate.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>(2E,6E,10E)-geranylgeranyl diphosphate = ent-copalyl diphosphate</text>
+<dbReference type="Rhea" id="RHEA:14841"/>
+<dbReference type="ChEBI" id="CHEBI:58553"/>
+<dbReference type="ChEBI" id="CHEBI:58756"/>
+<dbReference type="EC" id="5.5.1.13"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="4">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="pathway">
+<text>Plant hormone biosynthesis; gibberellin biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Plastid</location>
+<location>Chloroplast</location>
+</subcellularLocation>
+</comment>
+<comment type="domain">
+<text>The Asp-Xaa-Asp-Asp (DXDD) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="5.5.1.13"/>
+<dbReference type="EMBL" id="U63652">
+<property type="protein sequence ID" value="AAB58822.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="PIR" id="T06783">
+<property type="entry name" value="T06783"/>
+</dbReference>
+<dbReference type="SMR" id="O04408"/>
+<dbReference type="UniPathway" id="UPA00390"/>
+<dbReference type="GO" id="GO:0009507">
+<property type="term" value="C:chloroplast"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009905">
+<property type="term" value="F:ent-copalyl diphosphate synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009686">
+<property type="term" value="P:gibberellin biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0150">Chloroplast</keyword>
+<keyword id="KW-0413">Isomerase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0934">Plastid</keyword>
+<keyword id="KW-0809">Transit peptide</keyword>
+<feature type="transit peptide" description="Chloroplast" evidence="3">
+<location>
+<begin position="1"/>
+<end status="unknown"/>
+</location>
+</feature>
+<feature type="chain" description="Ent-copalyl diphosphate synthase, chloroplastic" id="PRO_0000033624">
+<location>
+<begin status="unknown"/>
+<end position="801"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DXDD motif">
+<location>
+<begin position="373"/>
+<end position="376"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="373"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="375"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="2">
+<location>
+<position position="241"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="2">
+<location>
+<position position="459"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="C7BKP9"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q38802"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="801" mass="92718" checksum="5CB88ADE00366844" modified="1997-07-01" version="1" precursor="true">MFTHFSTHFHLPSSSSLFFLHPFYKSSSLGAVSFVAKDKEKRCRAISKSRTQEYEGVFQTNVATLKLSEINVEDVIVIDDEEEQDIRVGLVNKIKSILSSLEDGEITISAYDTAWVALVEDVNAISTPQFPSSLEWIAKNQLQDGSWGDSRLFSAHDRIINTLACVIALRSWNMHSEKCDKGMIFFRENLSKLENENEEHMPIGFEVAFPSLLEGARGIKPLMCPNDSPILKNIFEKRDEKLTRIPKEIMHKVPTTLLHSLEGMSGLDWKQLLKLQSQDGSFLFSPSSTAFALMQTKDGNCLKYLNNVVKKFNGGVPNVYPVDLFEHIWVVDRLERLGISRFFRHEIKDCMNYVSKIWSEKGICWARNSNVQDIDDTAMAFRLLRLHGHQVSAHVFKHFERNGEFFCFAGQCTQAVTGMYNLFRASQVLFPGEKILEHAKHFSAKVLKEKREANELIDKWIIMKNLPEEVGYALDMPWYANLDRIETRFYIDQYGAESDVWIGKTLYRMAYVNNNNYLELAKLDYNNCQAQHLIEWNVIQTWYLESRLGEFGLSKRDLLLAYFLATGSIFEPERSHERLAWAKTTALLETIKCYVRNEDLRKDFAKKFNDHIDVRDYSIARRMKRNKTEHELVESLFATIGEISWDVRLSYGHEIGYDMHQCWKKWLSSWQSEGDKCEGEAELLIQIINLCSNHWISEGPSMQSTIQHLLQLTNSICHKLSCYQKDKELKGISCQENITNSEVESKMQELVQMVFQKCPNDIDFNVKNTFFTIAKSFYYAAFCDSRTINFHIAKVLFEKVV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

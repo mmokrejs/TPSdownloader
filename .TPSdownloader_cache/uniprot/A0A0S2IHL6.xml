@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2021-04-07" modified="2021-04-07" version="17">
+<accession>A0A0S2IHL6</accession>
+<name>BASM1_KALSE</name>
+<protein>
+<recommendedName>
+<fullName evidence="4">Beta-amyrin synthase 1</fullName>
+<shortName evidence="4">KsBAS1</shortName>
+<ecNumber evidence="3">5.4.99.39</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="4">BAS1</name>
+<name type="synonym" evidence="4">BAS</name>
+</gene>
+<organism>
+<name type="scientific">Kalopanax septemlobus</name>
+<name type="common">Castor aralia</name>
+<name type="synonym">Acanthopanax septemlobus</name>
+<dbReference type="NCBI Taxonomy" id="228393"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>campanulids</taxon>
+<taxon>Apiales</taxon>
+<taxon>Araliaceae</taxon>
+<taxon>Kalopanax</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2018" name="Plant Cell Physiol." volume="59" first="319" last="330">
+<title>Transcriptomic analysis of Kalopanax septemlobus and characterization of KsBAS, CYP716A94 and CYP72A397 genes involved in hederagenin saponin biosynthesis.</title>
+<authorList>
+<person name="Han J.Y."/>
+<person name="Chun J.H."/>
+<person name="Oh S.A."/>
+<person name="Park S.B."/>
+<person name="Hwang H.S."/>
+<person name="Lee H."/>
+<person name="Choi Y.E."/>
+</authorList>
+<dbReference type="PubMed" id="29186583"/>
+<dbReference type="DOI" id="10.1093/pcp/pcx188"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+</reference>
+<comment type="function">
+<text evidence="3">Component of the oleanane-type triterpene saponins biosynthetic pathway (PubMed:29186583). Oxidosqualene cyclase converting oxidosqualene into beta-amyrin, generating five rings and eight asymmetric centers in a single transformation (PubMed:29186583).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>(S)-2,3-epoxysqualene = beta-amyrin</text>
+<dbReference type="Rhea" id="RHEA:31007"/>
+<dbReference type="ChEBI" id="CHEBI:10352"/>
+<dbReference type="ChEBI" id="CHEBI:15441"/>
+<dbReference type="EC" id="5.4.99.39"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="3">
+<dbReference type="Rhea" id="RHEA:31008"/>
+</physiologicalReaction>
+</comment>
+<comment type="pathway" evidence="5">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the terpene cyclase/mutase family.</text>
+</comment>
+<dbReference type="EC" id="5.4.99.39" evidence="3"/>
+<dbReference type="EMBL" id="KT150523">
+<property type="protein sequence ID" value="ALO23119.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="A0A0S2IHL6"/>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="GO" id="GO:0005811">
+<property type="term" value="C:lipid droplet"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042300">
+<property type="term" value="F:beta-amyrin synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000250">
+<property type="term" value="F:lanosterol synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016104">
+<property type="term" value="P:triterpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="CDD" id="cd02892">
+<property type="entry name" value="SQCY_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032696">
+<property type="entry name" value="SQ_cyclase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032697">
+<property type="entry name" value="SQ_cyclase_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018333">
+<property type="entry name" value="Squalene_cyclase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002365">
+<property type="entry name" value="Terpene_synthase_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13243">
+<property type="entry name" value="SQHop_cyclase_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13249">
+<property type="entry name" value="SQHop_cyclase_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01016">
+<property type="entry name" value="Prenyltransferase_Like_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01787">
+<property type="entry name" value="squalene_cyclas"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01074">
+<property type="entry name" value="TERPENE_SYNTHASES"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0413">Isomerase</keyword>
+<keyword id="KW-0414">Isoprene biosynthesis</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<feature type="chain" description="Beta-amyrin synthase 1" id="PRO_0000452138">
+<location>
+<begin position="1"/>
+<end position="763"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 1" evidence="2">
+<location>
+<begin position="100"/>
+<end position="142"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 2" evidence="2">
+<location>
+<begin position="150"/>
+<end position="191"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 3" evidence="2">
+<location>
+<begin position="441"/>
+<end position="485"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 4" evidence="2">
+<location>
+<begin position="515"/>
+<end position="560"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 5" evidence="2">
+<location>
+<begin position="592"/>
+<end position="632"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 6" evidence="2">
+<location>
+<begin position="641"/>
+<end position="682"/>
+</location>
+</feature>
+<feature type="repeat" description="PFTB 7" evidence="2">
+<location>
+<begin position="703"/>
+<end position="744"/>
+</location>
+</feature>
+<feature type="active site" description="Proton donor" evidence="1">
+<location>
+<position position="486"/>
+</location>
+</feature>
+<feature type="site" description="Transition state stabilizer" evidence="1">
+<location>
+<position position="419"/>
+</location>
+</feature>
+<feature type="site" description="Transition state stabilizer" evidence="1">
+<location>
+<position position="475"/>
+</location>
+</feature>
+<feature type="site" description="Transition state stabilizer" evidence="1">
+<location>
+<position position="613"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P48449"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="29186583"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="29186583"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<sequence length="763" mass="87385" checksum="BA333A8D580C0ECE" modified="2016-02-17" version="1">MWKLKIAEGDKNDPYLYSTNNFVGRQTWEFDPDYVGSPGELEEVEEARRQFGENRYKVKPCGDLLWRLQFLREKNFKQTIPQVKVGDDEAVTYEAATTTLRRAVHFFSALQASDGHWPAEIAGPLYFLPPLVMCLYITGHLDTVFPAEHRKEILRYIYCHQNEDGGWGFHIEGHSTMFCTTLSYICMRILGEGPDGGVNNACARGRKWILDHGSATAVPSWGKTWLSILGVYEWMGSNPMPPEFWILPSFLPMHPAKMWCYCRMVYMPMSYLYGKRFVGPITPLILQLREELYAQPYNEIKWGKVRHVCAKEDIYYPHPLIQDLLWDSLYVLTEPLLTRWPFNKLREKALQTTMKHVHYEDENSRYITIGCVEKVLCMLACWVEDPNGDYFKKHLARIPDYIWVGEDGMKMQSFGSQEWDTGFGIQALLASDLTHELGPTLMKGHDFIKKSQVKDNPSGDFKSMYRHISKGSWTFSDQDHGWQVSDCTAEGLKCCLIFSTMPEEIVGKKMEPELLYNSVNILLSLQSKNGGLAAWEPVTAQDWLELLNPTEFFADIVIEHEYVECTASAIQALVLFKKLYPGHRKKEIDNFITNAIRFLEDVQMPDGSWYGNWGVCFTYGSWFALGGLAAAGKTYDNCAAVRKAVNFLLESQLDDGGWGESYLSCPKKVYVPLEGNRSNLVHTGWALMGLIHSGQAERDPTPLHRAAKLLINSQMEDGDFPQQEITGVFMKNCMLHYATYRNIYPLWALAEYRRRVPLPSLGA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

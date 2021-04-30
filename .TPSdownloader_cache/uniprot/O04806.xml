@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1997-07-01" modified="2020-12-02" version="84">
+<accession>O04806</accession>
+<name>O04806_PERFR</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Limonene cyclase</fullName>
+</submittedName>
+</protein>
+<organism evidence="3">
+<name type="scientific">Perilla frutescens var. acuta</name>
+<dbReference type="NCBI Taxonomy" id="279737"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>lamiids</taxon>
+<taxon>Lamiales</taxon>
+<taxon>Lamiaceae</taxon>
+<taxon>Nepetoideae</taxon>
+<taxon>Elsholtzieae</taxon>
+<taxon>Perilla</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="1996" name="Arch. Biochem. Biophys." volume="332" first="280" last="287">
+<title>cDNA cloning, characterization, and functional expression of 4S-(-)-limonene synthase from Perilla frutescens.</title>
+<authorList>
+<person name="Yuba A."/>
+<person name="Yazaki K."/>
+<person name="Tabata M."/>
+<person name="Honda G."/>
+<person name="Croteau R."/>
+</authorList>
+<dbReference type="PubMed" id="8806736"/>
+<dbReference type="DOI" id="10.1006/abbi.1996.0343"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="3">No.9</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="D49368">
+<property type="protein sequence ID" value="BAA08367.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="KEGG" id="ag:BAA08367"/>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<feature type="domain" description="Terpene_synth" evidence="1">
+<location>
+<begin position="71"/>
+<end position="250"/>
+</location>
+</feature>
+<feature type="domain" description="Terpene_synth_C" evidence="2">
+<location>
+<begin position="281"/>
+<end position="546"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF01397"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF03936"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="BAA08367.1"/>
+</source>
+</evidence>
+<sequence length="603" mass="70321" checksum="67F41F0C6C871181" modified="1997-07-01" version="1">MYTGAIMHMAIPIKPAHYLHNSGRSYASQLCGFSSTSTRAAIARLPLCLRFRCSLQASDQRRSGNYSPSFWNADYILSLNSHYKDKSHMKRAGELIVQVKMVMGKETDPVVQLELIDDLQKLALSHHVEKEIKEILFKISTYDHKIMVERDLYSTALAFRLLRQYGFKVPQEVFDCFKNDNGEFKRSLSSDTKGLLQLYEASFLLTEGEMTLELAREFATKSLQEKLNEKTIDDDDDADTNLISCVRHSLDIPIHWRIQRPNASWWIDAYKRRSHMNPLVLELAKLDLNIFQAQFQQELKQDLGWWKNTCLAEKLPFVRDRLVECYFWCTGIIQPLQHENARVTLAKVNALITTLDDIYDVYGTLEELELFTEAIRRWDVSSIDHLPNYMQLCFLALNNFVDDTAYDVMKEKDINIIPYLRKSWLDLAETYLVEAKWFYSGHKPNLEEYLNNAWISISGPVMLWHVFFRVTDSITRETVESLFKYHDLIRYSSTILRLADDLGTSLEEVSRGDVPKSIQCYMNDNNASEEEARRHIRWLIAETWKKINEEVWSVDSPFCKDFIACAADMGRMAQFMYHNGDGHGIQNPQIHQQMTDILFEQWL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

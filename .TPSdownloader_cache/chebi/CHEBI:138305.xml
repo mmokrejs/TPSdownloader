@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:138305</ID>
+<NAME>(21S)-21,22-epoxypolypoda-8(26)-13,17-trien-3beta-ol</NAME>
+<DEFINITION>A triterpenoid that is an intermediate in the biosynthesis of α-onocerin by the fern Lycopodium clavatum.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>pre-alpha-onocerin</SYNONYM>
+<SYNONYM>polypoda-8(26),13,17-trien-21,22-epoxy-3beta-ol</SYNONYM>
+<IUPAC_NAME>(2S,4aR,5S,8aR)-5-{(3E,7E)-10-[(2S)-3,3-dimethyloxiran-2-yl]-4,8-dimethyldeca-3,7-dien-1-yl}-1,1,4a-trimethyl-6-methylidenedecahydronaphthalen-2-ol</IUPAC_NAME>
+<FORMULA>C30H50O2</FORMULA>
+<MASS>442.718</MASS>
+<MONOISOTOPIC_MASS>442.38108</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>C1C[C@@H](C([C@]2([C@]1([C@H](C(CC2)=C)CC/C=C(/CC/C=C(/CC[C@H]3C(O3)(C)C)\C)\C)C)[H])(C)C)O</SMILES>
+<INCHI>InChI=1S/C30H50O2/c1-21(11-9-12-22(2)15-18-27-29(6,7)32-27)13-10-14-24-23(3)16-17-25-28(4,5)26(31)19-20-30(24,25)8/h12-13,24-27,31H,3,9-11,14-20H2,1-2,4-8H3/b21-13+,22-12+/t24-,25-,26-,27-,30+/m0/s1</INCHI>
+<INCHIKEY>YOXYJGZFQYXPHZ-AEBUGLRVSA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>29170306</REAXYS_REGISTRY_NUMBER>
+<METACYC_ACCESSION>CPD-20474</METACYC_ACCESSION>
+<PUBMED_CITATION>26663356</PUBMED_CITATION>
+</ENTRY>
+</TABLE>
