@@ -71,13 +71,14 @@ def _q(filename, format='xml', URL='https://www.uniprot.org/uploadlists/'):
     try:
         _req = requests.post(URL, data=_data, headers=_headers, timeout=60)
     except requests.exceptions.Timeout:
-        sys.stderr.write("Timeout when writing to %s\n" % str(URL))
+        sys.stderr.write("Timeout when writing to %s due to %s\n" % (str(URL), r.status_code))
         return None
     except:
         sys.stderr.write("Unknown error when writing to %s\n" % str(URL))
         return None
 
     print("req: %s" % _req)
+    print("req.text: %s" % _req.text)
 
     #dir(_req)
     #help(_req)
