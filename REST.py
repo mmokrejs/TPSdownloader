@@ -61,9 +61,13 @@ def get_post(request):
 
 
 def _q(filename, format='xml', URL='https://www.uniprot.org/uploadlists/'):
-    _headers = {'Content_Type': 'form-data', 'User-Agent': 'mmokrejs@gmail.com'}
+    """curl -i -X POST -d "name=@3queries.txt" https://www.uniprot.org/uploadlists/
+    curl -i-X POST -H "Content-Type: form-data" -d "@3queries.txt" https://www.uniprot.org/uploadlists/
+    """
+
+    _headers = {'Content-Type': 'form-data', 'User-Agent': 'mmokrejs@gmail.com'}
     if filename and os.path.exists(filename):
-        _data = {"file": open(filename, 'rb')}
+        _data = {"file": open(filename, 'rb'), 'format': 'xml', 'from': 'ACC+ID', 'to': 'ACC'}
     else:
         _data = {}
 
@@ -71,12 +75,17 @@ def _q(filename, format='xml', URL='https://www.uniprot.org/uploadlists/'):
     try:
         _req = requests.post(URL, data=_data, headers=_headers, timeout=60)
     except requests.exceptions.Timeout:
-        sys.stderr.write("Timeout when writing to %s due to %s\n" % (str(URL), r.status_code))
+        sys.stderr.write("Timeout when writing to %s due to %s\n" % (str(URL), requests.status_code))
         return None
     except:
-        sys.stderr.write("Unknown error when writing to %s\n" % str(URL))
+        sys.stderr.write("Unknown error when writing to %s due to %s\n" % (str(URL), requests.status_code))
         return None
 
+    print("_req.headers: %s" % str(_req.headers))
+
+    while 'Retry-After' in str(_req.headers):
+        print("sleeping for 2 secs")
+        sleep(2)
     print("req: %s" % _req)
     print("req.text: %s" % _req.text)
 
@@ -84,14 +93,14 @@ def _q(filename, format='xml', URL='https://www.uniprot.org/uploadlists/'):
     #help(_req)
     print("Response is:", str(_req))
 
-    if _req.ok:
-        _res = _req.read().decode("utf8")
-        dir(_res)
-        print(str(_res))
-    else:
-        _res = None
+    # if _req.ok:
+    #     _res = _req.read().decode("utf8") # AttributeError: 'Response' object has no attribute 'read'
+    #     dir(_res)
+    #     print(str(_res))
+    # else:
+    #     _res = None
 
-    return _res
+    return _req.text
 
 
 def main():
