@@ -60,7 +60,7 @@ def get_post(request):
     return _POST
 
 
-def _q(filename, format='xml', URL='https://www.uniprot.org/uploadlists/'):
+def do_query(filename, format='xml', URL='https://www.uniprot.org/uploadlists/'):
     """curl -i -X POST -d "file=@3queries.txt" https://www.uniprot.org/uploadlists/
     curl -i -X POST -H "Content-Type: form-data" -d "file=@3queries.txt" https://www.uniprot.org/uploadlists/
     """
@@ -127,27 +127,30 @@ def _q(filename, format='xml', URL='https://www.uniprot.org/uploadlists/'):
     for link in links:
         print(str(link))
 
-    from pyquery import PyQuery
-    pq = PyQuery(response.text)
-    _title = pq('title')
+    #from pyquery import PyQuery
+    #pq = PyQuery(response.text)
+    #_title = pq('title')
+
+    import re
+    # re.search('(?<=<title>).+?(?=</title>)', mytext, re.DOTALL).group().strip()
+    # re.DOTALL because title can have a new line character \n
+    d = re.search('<\W*title\W*(.*)</title', response.text, re.IGNORECASE)
+    _title = d.group(1)
     print("Title:", _title)
 
     # <head><title>yourlist:M2021050472FEB3358BE035486EE75ADE9E917725036DBB9 in UniProtKB</title>
     # https://www.uniprot.org/uniprot/?query=yourlist:M2021050472FEB3358BE035486EE75ADE9E917725036DBB9&format=xml&force=true&sort=yourlist:M2021050472FEB3358BE035486EE75ADE9E917725036DBB9&compress=yes
 
-    # if response.ok:
-    #     _res = response.read().decode("utf8") # AttributeError: 'Response' object has no attribute 'read'
-    #     dir(_res)
-    #     print(str(_res))
-    # else:
-    #     _res = None
+    if _title.startswith('yourlist'):
+        _results = str(_title).split(' ')[0]
+        print("Results might be at %s%s%s" % ('https://www.uniprot.org/uniprot/?query=', str(_results), '&format=xml&force=true&compress=yes'))
 
     return response.text
 
 
 def main():
-    _h = _q('3queries.txt')
-    print(str(_h))
+    _h = do_query('3queries.txt')
+    # print(str(_h))
 
 
 if __name__ == "__main__":
