@@ -1,7 +1,7 @@
 #! /usr/bin/python3
 
 import io
-import os, sys
+import os, sys, time
 import urllib, requests
 
 
@@ -61,46 +61,88 @@ def get_post(request):
 
 
 def _q(filename, format='xml', URL='https://www.uniprot.org/uploadlists/'):
-    """curl -i -X POST -d "name=@3queries.txt" https://www.uniprot.org/uploadlists/
-    curl -i-X POST -H "Content-Type: form-data" -d "@3queries.txt" https://www.uniprot.org/uploadlists/
+    """curl -i -X POST -d "file=@3queries.txt" https://www.uniprot.org/uploadlists/
+    curl -i -X POST -H "Content-Type: form-data" -d "file=@3queries.txt" https://www.uniprot.org/uploadlists/
     """
 
-    _headers = {'Content-Type': 'form-data', 'User-Agent': 'mmokrejs@gmail.com'}
+    # In the event you are posting a very large file as a multipart/form-data request, you may want to stream the request. By default, requests does not support this, but there is a separate package which does - requests-toolbelt. You should read the toolbelt’s documentation for more details about how to use it.
+    _headers = {'Content_Type': 'form-data', 'User-Agent': 'mmokrejs@gmail.com'}
     if filename and os.path.exists(filename):
-        _data = {"file": open(filename, 'rb'), 'format': 'xml', 'from': 'ACC+ID', 'to': 'ACC'}
+        _data = {'files': open(filename, 'rb'), 'format': 'xml', 'from': 'ACC+ID', 'to': 'ACC'}
     else:
         _data = {}
 
     print("trying URL=%s, data=%s, headers=%s" % (URL, str(_data), str(_headers)))
-    try:
-        _req = requests.post(URL, data=_data, headers=_headers, timeout=60)
-    except requests.exceptions.Timeout:
-        sys.stderr.write("Timeout when writing to %s due to %s\n" % (str(URL), requests.status_code))
-        return None
-    except:
-        sys.stderr.write("Unknown error when writing to %s due to %s\n" % (str(URL), requests.status_code))
-        return None
 
-    print("_req.headers: %s" % str(_req.headers))
+    # https://docs.python-requests.org/en/master/user/quickstart/#make-a-request
+    # https://docs.python-requests.org/en/master/user/advanced/#advanced
+    response = requests.post(URL, data=_data, headers=_headers)
 
-    while 'Retry-After' in str(_req.headers):
-        print("sleeping for 2 secs")
-        sleep(2)
-    print("req: %s" % _req)
-    print("req.text: %s" % _req.text)
+    # this does not work with Uniprot
+    # POST a Multipart-Encoded File
+    # response = requests.post(URL, files={'files': open(filename, 'rb')})
 
-    #dir(_req)
-    #help(_req)
-    print("Response is:", str(_req))
+    # <input id="uploadfile" name="file" class="uploadList" type="file"/>
+    print("response.headers: %s" % str(response.headers))
+    if response.status_code == 200:
+        print("response.headers: %s" % str(response.headers))
+    elif response.status_code in [ 413, 429, 503 ]:
+        # https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses
+        time.sleep(int(response.headers["Retry-After"]))
+        print("response.headers: %s" % str(response.headers))
+        while int(response.headers["Retry-After"]) in [ 413, 429, 503 ]:
+            print("response.headers: %s" % str(response.headers))
+            time.sleep(int(response.headers["Retry-After"]))
+    else:
+        sys.stderr.write("Unknown error when writing to %s due to status code %s\n" % (str(URL), response.status_code))
 
-    # if _req.ok:
-    #     _res = _req.read().decode("utf8") # AttributeError: 'Response' object has no attribute 'read'
+#    except requests.exceptions.Timeout:
+#        sys.stderr.write("Timeout when writing to %s due to %s\n" % (str(URL), requests.status_code))
+#        return None
+#    except:
+#        sys.stderr.write("Unknown error when writing to %s due to %s\n" % (str(URL), requests.status_code))
+#        return None
+
+    print("response.headers: %s" % str(response.headers))
+
+    # https://urllib3.readthedocs.io/en/latest/reference/urllib3.util.html
+    #
+    # respect_retry_after_header (bool) – Whether to respect Retry-After header on status codes defined as Retry.RETRY_AFTER_STATUS_CODES or not.
+    #
+    # get_retry_after(response) - Get the value of Retry-After in seconds.
+
+    print("req: %s" % response)
+    print("req.text: %s" % response.text)
+
+    #dir(response)
+    #help(response)
+    print("Response is:", str(response))
+
+    # id="basket-download-button"
+
+    # from BeautifulSoup import BeautifulSoup
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(response.text, features="lxml")
+    links = soup.findAll('a href')
+    for link in links:
+        print(str(link))
+
+    from pyquery import PyQuery
+    pq = PyQuery(response.text)
+    _title = pq('title')
+    print("Title:", _title)
+
+    # <head><title>yourlist:M2021050472FEB3358BE035486EE75ADE9E917725036DBB9 in UniProtKB</title>
+    # https://www.uniprot.org/uniprot/?query=yourlist:M2021050472FEB3358BE035486EE75ADE9E917725036DBB9&format=xml&force=true&sort=yourlist:M2021050472FEB3358BE035486EE75ADE9E917725036DBB9&compress=yes
+
+    # if response.ok:
+    #     _res = response.read().decode("utf8") # AttributeError: 'Response' object has no attribute 'read'
     #     dir(_res)
     #     print(str(_res))
     # else:
     #     _res = None
 
-    return _req.text
+    return response.text
 
 
 def main():
