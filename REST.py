@@ -88,11 +88,11 @@ def _q(filename, format='xml', URL='https://www.uniprot.org/uploadlists/'):
         print("response.headers: %s" % str(response.headers))
     elif response.status_code in [ 413, 429, 503 ]:
         # https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses
-        time.sleep(int(response.headers["Retry-After"]))
+        time.sleep(int(response.headers.get('retry-after')))
         print("response.headers: %s" % str(response.headers))
         while int(response.headers["Retry-After"]) in [ 413, 429, 503 ]:
             print("response.headers: %s" % str(response.headers))
-            time.sleep(int(response.headers["Retry-After"]))
+            time.sleep(int(response.headers.get('retry-after')))
     else:
         sys.stderr.write("Unknown error when writing to %s due to status code %s\n" % (str(URL), response.status_code))
 
