@@ -14,15 +14,16 @@ import re
 # from re import compile, findall, finditer, sub, IGNORECASE
 import copy
 from itertools import chain
+import gzip
 
 version = "20210511"
 myparser = OptionParser(version="%s version %s" % ('%prog', version))
 myparser.add_option("--uniprot-ids-from-file", action="store", type="string", dest="uniprot_ids_from_file", default='TPS-database_20210420.xlsx',
     help="Obtain a list of Uniprot IDs from column 'Uniprot ID' in 'Sheet1'.")
 myparser.add_option("--uniprot-id-file", action="store", type="string", dest="uniprot_idfile", default='-',
-    help="List of Uniprot IDs in a file or STDIN, is mutually exclusive with --chebi-id-file.")
+    help="Obtain list of Uniprot IDs from a single-column text file or STDIN, is mutually exclusive with --chebi-id-file.")
 myparser.add_option("--chebi-id-file", action="store", type="string", dest="chebi_idfile", default='-',
-    help="List of ChEBI IDs in a file or STDIN, is mutually exclusive with --uniprot-id-file.")
+    help="Obtain a list of ChEBI IDs from a single-column text file or STDIN, is mutually exclusive with --uniprot-id-file.")
 myparser.add_option("--uniprot-id", action="store", type="string", dest="uniprot_id", default=None,
     help="List of Uniprot IDs, is mutually exclusive with --chebi-id.")
 myparser.add_option("--chebi-id", action="store", type="string", dest="chebi_id", default=None,
@@ -30,7 +31,7 @@ myparser.add_option("--chebi-id", action="store", type="string", dest="chebi_id"
 myparser.add_option("--xls-storage", action="store", type="string", dest="xls_storage", default="TPSdownloader.xls",
     help="Use this file to parse input data and also as an output file with new results appended to it.")
 myparser.add_option("--outfmt", action="store", type="string", dest="outfmt", default="xls",
-    help="Format of output file. CSV or XLSX (default)")
+    help="Format of output file. It is used to preserve data between restarts too. CSV or XLSX (default)")
 myparser.add_option("--debug", action="store", type="int", dest="debug", default=0,
     help="Set debug to some value")
 (myoptions, myargs) = myparser.parse_args()
@@ -170,9 +171,27 @@ def parse_chebi_xml(filename):
 
 
 def parse_uniprot_xml(filename, terpenes):
-    etree=ET.parse(filename)
-    root=etree.getroot()
+    """Parse a single XML stream (a file pre-fetched into a local cache) from Uniprot.
 
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+  <entry created="2018-11-07" dataset="Swiss-Prot" modified="2019-12-11" version="30">
+    <accession>G0LES5</accession>
+    <name>TRI5_TRIAR</name>
+    ...
+  </entry>
+  <copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>
+    """
+
+    try:
+        etree=ET.parse(filename)
+    except ET.ParseError:
+        raise ET.ParseError("Maybe the file %s is not in XML format?" % str(filename))
+    root=etree.getroot()
     _accessions = []
     _uniprot_name = None
     _protein_names = [] # sometimes UniProt has unset protein_names and also feature_description
@@ -184,6 +203,42 @@ def parse_uniprot_xml(filename, terpenes):
 
     for elem in root:
         if myoptions.debug: print("Level 0: ", elem.tag, ' ', elem.attrib, ' ', elem.text)
+        if elem.tag == '{http://uniprot.org/uniprot}entry':
+            if _accessions:
+                if myoptions.debug: print("Reached items: %s, returning results parsed so far for %s" % (str(elem.items()), _accessions))
+                if not _protein_names:
+                    # <uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+                    #   <entry created="2011-10-19" dataset="TrEMBL" modified="2021-04-07" version="68">
+                    #     <accession>G1JUH4</accession>
+                    #     <name>G1JUH4_SOLLC</name>
+                    #     <protein>
+                    #       <submittedName>
+                    #         <fullName evidence="4 5">Beta myrcene/limonene synthase</fullName>
+                    #       </submittedName>
+                    raise ValueError("No proteins descriptions were parsed for _accessions=%s" % str(_accessions))
+                yield(_accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence)
+            _accessions = []
+            _uniprot_name = None
+            _protein_names = [] # sometimes UniProt has unset protein_names and also feature_description
+            _feature_descriptions = []
+            _chebi_ids = set()
+            _sequence = None
+            _organism = None
+            _lineage = None
+        elif elem.tag == '{http://uniprot.org/uniprot}copyright' and _accessions:
+            if myoptions.debug: print("Reached items: %s, returning results parsed so far for %s" % (str(elem.items()), _accessions))
+            if not _protein_names:
+                # <uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+                #   <entry created="2011-10-19" dataset="TrEMBL" modified="2021-04-07" version="68">
+                #     <accession>G1JUH4</accession>
+                #     <name>G1JUH4_SOLLC</name>
+                #     <protein>
+                #       <submittedName>
+                #         <fullName evidence="4 5">Beta myrcene/limonene synthase</fullName>
+                #       </submittedName>
+                raise ValueError("No proteins descriptions were parsed for _accessions=%s" % str(_accessions))
+            yield(_accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence)
+
         for child in elem:
             if myoptions.debug > 1: print("Items: ", str(child.items()))
     
@@ -201,7 +256,7 @@ def parse_uniprot_xml(filename, terpenes):
             if child.tag == '{http://uniprot.org/uniprot}feature':
                 if 'type' in child.attrib.keys() and 'description' in child.attrib.keys() and child.attrib['type'] == 'chain':
                     _feature_descriptions += [child.attrib['description']]
-                    
+                
             for subchild in child:
                 if myoptions.debug: print("Level 2: ", subchild.tag, ' ', subchild.attrib, ' ', subchild.text)
                 _chebi_ids_local = []
@@ -226,7 +281,7 @@ def parse_uniprot_xml(filename, terpenes):
                         if sschild.attrib['id'] not in non_terpene_chebi_ids:
                             if sschild.attrib['id'] not in _chebi_ids_local:
                                 _chebi_ids_local.append(sschild.attrib['id'])
-
+    
                     # Level 1:  {http://uniprot.org/uniprot}comment   {'type': 'catalytic activity'}   
                     # Level 2:  {http://uniprot.org/uniprot}reaction   {'evidence': '3'}
                     # Level 3:  {http://uniprot.org/uniprot}text   {}   (2E)-geranyl diphosphate = (1S,5S)-alpha-pinene + diphosphate
@@ -247,15 +302,7 @@ def parse_uniprot_xml(filename, terpenes):
                 if _chebi_ids_local:
                     _chebi_ids.update(set(_chebi_ids_local))
                     _chebi_ids_local = []
-
-    if myoptions.debug:
-        for _i in range(0,len(_chebi_ids)-1):
-            if len(_chebi_ids) != len(_protein_names):
-                print("Warning: Number of ChEBI entries does not match number of alternative protein names : _chebi_ids=%s _protein_names=%s" % (str(_chebi_ids), str(_protein_names)))
-                print("Info: accessions: %s, chebi_ids: %s, _protein_names: %s, description: %s, organism: %s, lineage: %s, sequence: %s" % (str(_accessions), str(_chebi_ids[_i]), str(_protein_names), str(_feature_descriptions), str(_organism), str(_lineage), str(_sequence)))
-            else:
-                print("Info: accessions: %s, chebi_ids: %s, _protein_names: %s, description: %s, organism: %s, lineage: %s, sequence: %s" % (str(_accessions), str(_chebi_ids[_i]), str(_protein_names[_i]), str(_feature_descriptions), str(_organism), str(_lineage), str(_sequence)))
-
+    
     if not _protein_names:
         # <uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
         #   <entry created="2011-10-19" dataset="TrEMBL" modified="2021-04-07" version="68">
@@ -266,7 +313,6 @@ def parse_uniprot_xml(filename, terpenes):
         #         <fullName evidence="4 5">Beta myrcene/limonene synthase</fullName>
         #       </submittedName>
         raise ValueError("No proteins descriptions were parsed for _accessions=%s" % str(_accessions))
-    return(_accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence)
 
 
 def create_cache(cachedir=".TPSdownloader_cache"):
@@ -316,6 +362,13 @@ def downloader_wrapper(myid, dbname, cachedir, url):
             if dbname == 'uniprot':
                 _cmdline += ".xml"
             downloader(_cmdline)
+            if os.path.exists(_filename) and not os.path.getsize(_filename):
+                sys.stderr.write("Error: Failed to download XML data using '%s' command, re-trying with wget\n" % _cmdline)
+                os.remove(_filename)
+                _cmdline = "wget -o " + _filename + " " + url + myid
+                if dbname == 'uniprot':
+                    _cmdline += ".xml"
+                downloader(_cmdline)
             # could also prettyprint the XML files using
             # xml_pp -i.bak _filename
         else:
@@ -326,7 +379,9 @@ def downloader_wrapper(myid, dbname, cachedir, url):
 
 
 def download_uniprot(myid, path=".TPSdownloader_cache" + os.path.sep + 'uniprot' + os.path.sep):
-    """Download a page like https://www.uniprot.org/uniprot/A0A2K9RFZ2.xml
+    """Download a page like
+    https://www.uniprot.org/uniprot/A0A2K9RFZ2.xml
+    https://www.uniprot.org/uniprot/D8R8K9.xml
 
     Some entries have multiple Accessions, like
 
@@ -428,6 +483,7 @@ def parse_storage(filename):
     _storage_df = pd.read_excel(filename, 'Sheet1', index_col=None, na_values=["NA"])
     for i in _storage_df['Uniprot ID']:
         _sub_i = sanitize_input_text_values(i)
+        if myoptions.debug: print("Debug: parsing entry %s from %s" % (i, filename))
         for _ii in _sub_i:
             for _colname in ['Uniprot ID', 'ChEBI ID', 'Protein name', 'Description', 'Species', 'Taxonomy', 'Amino acid sequence']:
                 for _val in _storage_df[_colname]:
@@ -439,7 +495,21 @@ def parse_storage(filename):
 
     del(_storage_df)
     return _uniprot_dict_of_lists, _chebi_dict_of_lists, _copy_without_chebi_id, _empty_template_dict_of_lists
-    
+
+
+def process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, dict_of_lists, _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence):
+    for _uniprot_id in _accessions:
+        _all_uniprot_ids.update([_uniprot_id])
+    for _chebi_id in _chebi_ids:
+        _all_chebi_ids.update([_chebi_id])
+    dict_of_lists['Uniprot ID'].append(_accessions)
+    dict_of_lists['ChEBI ID'].append(_chebi_ids)
+    dict_of_lists['Protein name'].append(_protein_names)
+    dict_of_lists['Description'].append(_feature_descriptions)
+    dict_of_lists['Species'].append(_organism)
+    dict_of_lists['Taxonomy'].append(_lineage)
+    dict_of_lists['Amino acid sequence'].append(_sequence)
+
 
 def fetch_ids_from_xlsx(filename, terpenes, dict_of_lists, already_parsed=[]):
     _all_uniprot_ids = set()
@@ -455,22 +525,28 @@ def fetch_ids_from_xlsx(filename, terpenes, dict_of_lists, already_parsed=[]):
                 download_uniprot(_ii)
                 _filename = ".TPSdownloader_cache" + os.path.sep + 'uniprot' + os.path.sep + _ii + '.xml'
                 if os.path.exists(_filename) and os.path.getsize(_filename):
-                    (_accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence) = parse_uniprot_xml(_filename, terpenes)
-                    for _uniprot_id in _accessions:
-                        _all_uniprot_ids.update([_uniprot_id])
-                    for _chebi_id in _chebi_ids:
-                        _all_chebi_ids.update([_chebi_id])
-                    dict_of_lists['Uniprot ID'].append(_accessions)
-                    dict_of_lists['ChEBI ID'].append(_chebi_ids)
-                    dict_of_lists['Protein name'].append(_protein_names)
-                    dict_of_lists['Description'].append(_feature_descriptions)
-                    dict_of_lists['Species'].append(_organism)
-                    dict_of_lists['Taxonomy'].append(_lineage)
-                    dict_of_lists['Amino acid sequence'].append(_sequence)
+                    for _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml(_filename, terpenes):
+                        process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, dict_of_lists, _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence)
 
         if myoptions.debug: print("Debug: _all_uniprot_ids=%s" % str(_all_uniprot_ids))
         if myoptions.debug: print("Debug: _all_chebi_ids=%s" % str(_all_chebi_ids))
     return (_all_uniprot_ids, _all_chebi_ids, dict_of_lists)
+
+
+def parse_multi_entry_uniprot_xml(filename):
+    if not os.path.exists(filename):
+        raise ValueError("File %s does not exist." % str(filename))
+    else:
+        if filename.endswith('xml.gz'):
+            _file = gzip.open(filename)
+        else:
+            _file = open(filename)
+    _xml_tree = ET.iterparse(_file)
+    for _items in _xml_tree:
+        for _uniprot_entry in _items:
+            # <Element '{http://uniprot.org/uniprot}entry'
+            (_accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence) = parse_uniprot_xml(_uniprot_entry, terpenes)
+            process_parsed_uniprot_values(_uniprot_id, _chebi_id, _all_uniprot_ids, _all_chebi_ids, dict_of_lists, _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence)
 
 
 _r1 = re.compile(r'C[0-9]+')
