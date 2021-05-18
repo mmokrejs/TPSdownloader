@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:33384</ID>
+<NAME>L-serine zwitterion</NAME>
+<DEFINITION>A serine zwitterion obtained by transfer of a proton from the carboxy to the amino group of L-serine.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>L-serine zwitterion</SYNONYM>
+<SYNONYM>L-serine</SYNONYM>
+<IUPAC_NAME>(2S)-2-ammonio-3-hydroxypropanoate</IUPAC_NAME>
+<FORMULA>C3H7NO3</FORMULA>
+<MASS>105.09262</MASS>
+<MONOISOTOPIC_MASS>105.04259</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>[NH3+][C@@H](CO)C([O-])=O</SMILES>
+<INCHI>InChI=1S/C3H7NO3/c4-2(1-5)3(6)7/h2,5H,1,4H2,(H,6,7)/t2-/m0/s1</INCHI>
+<INCHIKEY>MTCFGRXMJLQNBG-REOHCLBHSA-N</INCHIKEY>
+<METACYC_ACCESSION>SER</METACYC_ACCESSION>
+</ENTRY>
+</TABLE>

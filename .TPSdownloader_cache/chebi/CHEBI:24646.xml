@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:24646</ID>
+<NAME>hydroquinones</NAME>
+<DEFINITION>Benzenediols that have the hydroxy substituents in the 1- and 4-positions.</DEFINITION>
+<STAR>3</STAR>
+<SECONDARY_ID>CHEBI:134188</SECONDARY_ID>
+<SYNONYM>benzene-1,4-diols</SYNONYM>
+<SYNONYM>a quinol</SYNONYM>
+<SYNONYM>a 1,4-benzoquinol</SYNONYM>
+<SYNONYM>1,4-benzoquinols</SYNONYM>
+<FORMULA>C6H2O2R4</FORMULA>
+<MASS>106.079</MASS>
+<MONOISOTOPIC_MASS>106.00548</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>OC1=C(*)C(*)=C(O)C(*)=C1*</SMILES>
+</ENTRY>
+</TABLE>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:139521</ID>
+<NAME>phenolic radical donor</NAME>
+<STAR>2</STAR>
+<SYNONYM>a phenoxyl radical of a phenolic donor</SYNONYM>
+<SYNONYM>a phenolic radical donor</SYNONYM>
+<FORMULA>C6H4OR</FORMULA>
+<MASS>92.096</MASS>
+<MONOISOTOPIC_MASS>92.02621</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>C1(=CC=C(C=C1)*)[O]</SMILES>
+<METACYC_ACCESSION>Phenoxyl-rad-of-phenolic-donors</METACYC_ACCESSION>
+</ENTRY>
+</TABLE>

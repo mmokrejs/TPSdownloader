@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:128753</ID>
+<NAME>(2E)-4-hydroxy-3-methylbut-2-enyl diphosphate(3-)</NAME>
+<DEFINITION>An organophosphate oxoanion that is the trianion of (2E)-4-hydroxy-3-methylbut-2-enyl diphosphate arising from deprotonation of the three OH groups of the diphosphate.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>HMBPP</SYNONYM>
+<SYNONYM>(E)-4-hydroxy-3-methyl-but-2-enyl pyrophosphate</SYNONYM>
+<SYNONYM>(2E)-4-hydroxy-3-methylbut-2-enyl pyrophosphate(3-)</SYNONYM>
+<SYNONYM>(2E)-4-hydroxy-3-methylbut-2-enyl diphosphate trianion</SYNONYM>
+<SYNONYM>(2E)-4-hydroxy-3-methylbut-2-enyl diphosphate</SYNONYM>
+<IUPAC_NAME>(2E)-4-hydroxy-3-methylbut-2-enyl diphosphate</IUPAC_NAME>
+<FORMULA>C5H9O8P2</FORMULA>
+<MASS>259.06770</MASS>
+<MONOISOTOPIC_MASS>258.97891</MONOISOTOPIC_MASS>
+<CHARGE>-3</CHARGE>
+<SMILES>C\C(CO)=C/COP([O-])(=O)OP([O-])([O-])=O</SMILES>
+<INCHI>InChI=1S/C5H12O8P2/c1-5(4-6)2-3-12-15(10,11)13-14(7,8)9/h2,6H,3-4H2,1H3,(H,10,11)(H2,7,8,9)/p-3/b5-2+</INCHI>
+<INCHIKEY>MDSIZRKJVDMQOQ-GORDUTHDSA-K</INCHIKEY>
+<BEILSTEIN_REGISTRY_NUMBER>9274408</BEILSTEIN_REGISTRY_NUMBER>
+<REAXYS_REGISTRY_NUMBER>9274408</REAXYS_REGISTRY_NUMBER>
+<PUBMED_CITATION>12657258</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

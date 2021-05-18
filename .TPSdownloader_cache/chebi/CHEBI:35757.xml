@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:35757</ID>
+<NAME>monocarboxylic acid anion</NAME>
+<DEFINITION>A carboxylic acid anion formed when the carboxy group of a monocarboxylic acid is deprotonated.</DEFINITION>
+<STAR>3</STAR>
+<SECONDARY_ID>CHEBI:3407</SECONDARY_ID>
+<SECONDARY_ID>CHEBI:13657</SECONDARY_ID>
+<SECONDARY_ID>CHEBI:25382</SECONDARY_ID>
+<SYNONYM>monocarboxylic acid anions</SYNONYM>
+<SYNONYM>monocarboxylates</SYNONYM>
+<SYNONYM>Monocarboxylate</SYNONYM>
+<SYNONYM>Carboxylate</SYNONYM>
+<SYNONYM>a monocarboxylate</SYNONYM>
+<FORMULA>CO2R</FORMULA>
+<MASS>44.01000</MASS>
+<MONOISOTOPIC_MASS>43.98983</MONOISOTOPIC_MASS>
+<CHARGE>-1</CHARGE>
+<SMILES>[O-]C([*])=O</SMILES>
+<KEGG_COMPOUND_ACCESSION>C00060</KEGG_COMPOUND_ACCESSION>
+</ENTRY>
+</TABLE>

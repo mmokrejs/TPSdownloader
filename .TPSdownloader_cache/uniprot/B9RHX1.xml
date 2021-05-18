@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2003-02-12" modified="2020-12-02" version="94">
+<accession>P59287</accession>
+<accession>B9RHX1</accession>
+<name>CASS_RICCO</name>
+<protein>
+<recommendedName>
+<fullName>Casbene synthase, chloroplastic</fullName>
+<ecNumber>4.2.3.8</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="ORF">RCOM_1574350</name>
+</gene>
+<organism>
+<name type="scientific">Ricinus communis</name>
+<name type="common">Castor bean</name>
+<dbReference type="NCBI Taxonomy" id="3988"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>fabids</taxon>
+<taxon>Malpighiales</taxon>
+<taxon>Euphorbiaceae</taxon>
+<taxon>Acalyphoideae</taxon>
+<taxon>Acalypheae</taxon>
+<taxon>Ricinus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1994" name="Proc. Natl. Acad. Sci. U.S.A." volume="91" first="8497" last="8501">
+<title>Cloning of casbene synthase cDNA: evidence for conserved structural features among terpenoid cyclases in plants.</title>
+<authorList>
+<person name="Mau C.J."/>
+<person name="West C.A."/>
+</authorList>
+<dbReference type="PubMed" id="8078910"/>
+<dbReference type="DOI" id="10.1073/pnas.91.18.8497"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2010" name="Nat. Biotechnol." volume="28" first="951" last="956">
+<title>Draft genome sequence of the oilseed species Ricinus communis.</title>
+<authorList>
+<person name="Chan A.P."/>
+<person name="Crabtree J."/>
+<person name="Zhao Q."/>
+<person name="Lorenzi H."/>
+<person name="Orvis J."/>
+<person name="Puiu D."/>
+<person name="Melake-Berhan A."/>
+<person name="Jones K.M."/>
+<person name="Redman J."/>
+<person name="Chen G."/>
+<person name="Cahoon E.B."/>
+<person name="Gedil M."/>
+<person name="Stanke M."/>
+<person name="Haas B.J."/>
+<person name="Wortman J.R."/>
+<person name="Fraser-Liggett C.M."/>
+<person name="Ravel J."/>
+<person name="Rabinowicz P.D."/>
+</authorList>
+<dbReference type="PubMed" id="20729833"/>
+<dbReference type="DOI" id="10.1038/nbt.1674"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>cv. Hale</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1996" name="Arch. Biochem. Biophys." volume="336" first="283" last="289">
+<title>High level expression of Ricinus communis casbene synthase in Escherichia coli and characterization of the recombinant enzyme.</title>
+<authorList>
+<person name="Hill A.M."/>
+<person name="Cane D.E."/>
+<person name="Mau C.J."/>
+<person name="West C.A."/>
+</authorList>
+<dbReference type="PubMed" id="8954576"/>
+<dbReference type="DOI" id="10.1006/abbi.1996.0559"/>
+</citation>
+<scope>CHARACTERIZATION</scope>
+</reference>
+<comment type="function">
+<text>Catalyzes the cyclization of geranylgeranyl diphosphate to casbene, a diterpene phytoalexin with antibacterial and antifungal activity.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>(2E,6E,10E)-geranylgeranyl diphosphate = casbene + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:14901"/>
+<dbReference type="ChEBI" id="CHEBI:17695"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:58756"/>
+<dbReference type="EC" id="4.2.3.8"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM>1.9 uM for geranylgeranyl diphosphate</KM>
+</kinetics>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Plastid</location>
+<location>Chloroplast</location>
+</subcellularLocation>
+</comment>
+<comment type="induction">
+<text>By oligogalacturonide fragments released by fungal infection. Detected after 5 hours of incubation with the pectic fragments and reaches a maximum after 10-12 hours.</text>
+</comment>
+<comment type="domain">
+<text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the terpene synthase family.</text>
+</comment>
+<comment type="caution">
+<text evidence="3">It is uncertain whether Met-1 or Met-8 is the initiator.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.8"/>
+<dbReference type="EMBL" id="L32134">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="EQ973781">
+<property type="protein sequence ID" value="EEF48743.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_002513340.1">
+<property type="nucleotide sequence ID" value="XM_002513294.2"/>
+</dbReference>
+<dbReference type="SMR" id="P59287"/>
+<dbReference type="STRING" id="3988.XP_002513340.1"/>
+<dbReference type="PRIDE" id="P59287"/>
+<dbReference type="GeneID" id="8259981"/>
+<dbReference type="KEGG" id="rcu:8259981"/>
+<dbReference type="InParanoid" id="P59287"/>
+<dbReference type="OrthoDB" id="360509at2759"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-14979"/>
+<dbReference type="BRENDA" id="4.2.3.8">
+<property type="organism ID" value="1204"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000008311">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009507">
+<property type="term" value="C:chloroplast"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050449">
+<property type="term" value="F:casbene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006952">
+<property type="term" value="P:defense response"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0150">Chloroplast</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0611">Plant defense</keyword>
+<keyword id="KW-0934">Plastid</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0809">Transit peptide</keyword>
+<feature type="transit peptide" description="Chloroplast" evidence="2">
+<location>
+<begin position="1"/>
+<end position="56"/>
+</location>
+</feature>
+<feature type="chain" description="Casbene synthase, chloroplastic" id="PRO_0000033620">
+<location>
+<begin position="57"/>
+<end position="601"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif">
+<location>
+<begin position="355"/>
+<end position="359"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="355"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="355"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="359"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="359"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="499"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="503"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="507"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="601" mass="68966" checksum="F7B362D286747957" modified="2003-02-12" version="1" precursor="true">MALPSAAMQSNPEKLNLFHRLSSLPTTSLEYGNNRFPFFSSSAKSHFKKPTQACLSSTTHQEVRPLAYFPPTVWGNRFASLTFNPSEFESYDERVIVLKKKVKDILISSTSDSVETVILIDLLCRLGVSYHFENDIEELLSKIFNSQPDLVDEKECDLYTAAIVFRVFRQHGFKMSSDVFSKFKDSDGKFKESLRGDAKGMLSLFEASHLSVHGEDILEEAFAFTKDYLQSSAVELFPNLKRHITNALEQPFHSGVPRLEARKFIDLYEADIECRNETLLEFAKLDYNRVQLLHQQELCQFSKWWKDLNLASDIPYARDRMAEIFFWAVAMYFEPDYAHTRMIIAKVVLLISLIDDTIDAYATMEETHILAEAVARWDMSCLEKLPDYMKVIYKLLLNTFSEFEKELTAEGKSYSVKYGREAFQELVRGYYLEAVWRDEGKIPSFDDYLYNGSMTTGLPLVSTASFMGVQEITGLNEFQWLETNPKLSYASGAFIRLVNDLTSHVTEQQRGHVASCIDCYMNQHGVSKDEAVKILQKMATDCWKEINEECMRQSQVSVGHLMRIVNLARLTDVSYKYGDGYTDSQQLKQFVKGLFVDPISI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

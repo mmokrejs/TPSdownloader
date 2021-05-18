@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:15378</ID>
+<NAME>hydron</NAME>
+<DEFINITION>The general name for the hydrogen nucleus, to be used without regard to the hydrogen nuclear mass (either for hydrogen in its natural abundance or where it is not desired to distinguish between the isotopes).</DEFINITION>
+<STAR>3</STAR>
+<SECONDARY_ID>CHEBI:5584</SECONDARY_ID>
+<SECONDARY_ID>CHEBI:10744</SECONDARY_ID>
+<SECONDARY_ID>CHEBI:13357</SECONDARY_ID>
+<SYNONYM>Hydron</SYNONYM>
+<SYNONYM>H(+)</SYNONYM>
+<SYNONYM>H+</SYNONYM>
+<IUPAC_NAME>hydron</IUPAC_NAME>
+<IUPAC_NAME>hydrogen(1+)</IUPAC_NAME>
+<FORMULA>H</FORMULA>
+<MASS>1.00794</MASS>
+<MONOISOTOPIC_MASS>1.008</MONOISOTOPIC_MASS>
+<CHARGE>1</CHARGE>
+<SMILES>[H+]</SMILES>
+<INCHI>InChI=1S/p+1</INCHI>
+<INCHIKEY>GPRLSGONYQIRFK-UHFFFAOYSA-N</INCHIKEY>
+<KEGG_COMPOUND_ACCESSION>C00080</KEGG_COMPOUND_ACCESSION>
+</ENTRY>
+</TABLE>

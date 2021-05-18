@@ -37,6 +37,12 @@ myparser.add_option("--debug", action="store", type="int", dest="debug", default
 (myoptions, myargs) = myparser.parse_args()
 
 
+extra_product_colnames = ['Name of product', 'Product compound description', 'Chemical formula of product', 'SMILES of product (including stereochemistry)']
+extra_substrate_colnames = ['Substrate (including stereochemistry)', 'Substrate compound description', 'Chemical formula of substrate', 'SMILES of substrate (including stereochemistry)']
+extra_cofactor_colnames = ['Cofactors', 'Cofactors compound description', 'Chemical formula of cofactor', 'SMILES of cofactor (including stereochemistry)']
+extra_intermediate_colnames = ['Name of intermediate', 'Intermediate compound description', 'Chemical formula of intermediate', 'SMILES of intermediate (including stereochemistry)']
+
+
 def parse_list_or_set_line(line):
     _strlist = line.split(':')[1][1:-1]
     return filter(lambda x: x != 'None' and x is not None, parse_list_or_set(_strlist))
@@ -166,11 +172,10 @@ def parse_chebi_xml(filename):
     root=etree.getroot()
 
     _chebi_id = None
-    _definition = None
+    _definition = []
     _names = set()
     _formula = None
     _smiles = None
-    _inchi = None
 
     for elem in root:
         if myoptions.debug: print("Level 0: ", elem.tag, ' ', elem.attrib, ' ', elem.text)
@@ -183,7 +188,7 @@ def parse_chebi_xml(filename):
                 if not _chebi_id:
                     _chebi_id = child.text
                 else:
-                    raise(ValueError)
+                    raise ValueError("Does ChEBI have multiple IDs for %s ?" % str(child.text))
             if child.tag == 'NAME':
                 # ['casbene', 'casbene', 'Casbene']
                 # ['terpinolene', 'Terpinolene', 'terpinolene', 'Terpinolen', 'isoterpinene', 'alpha-terpinolene', '4-isopropylidene-1-methylcyclohexene', '1-methyl-4-(1-methylethylidene)cyclohexene', '1-methyl-4-(1-methylethylidene)-1-cyclohexene', '1,4(8)-p-menthadiene']
@@ -207,16 +212,16 @@ def parse_chebi_xml(filename):
             if child.tag == 'SMILES':
                 if not _smiles:
                     _smiles = child.text
-            if child.tag == 'INCHI':
-                if not _inchi:
-                    _inchi = child.text
+            #if child.tag == 'INCHI':
+            #    if not _inchi:
+            #        _inchi = child.text
     if not _names:
         _names = []
     else:
         _names = list(_names)
 
-    print("Info: IDs: %s, names: %s, definition: %s, formula: %s, smiles: %s, inchi: %s" % (str(_chebi_id), str(_names), str(_definition), str(_formula), str(_smiles), str(_inchi)))
-    return(_chebi_id, list(_names), _definition, _formula, _smiles, _inchi)
+    print("Info: IDs: %s, names: %s, definition: %s, formula: %s, smiles: %s" % (str(_chebi_id), str(_names), str(_definition), str(_formula), str(_smiles)))
+    return(_chebi_id, list(_names), _definition, _formula, _smiles)
 
 
 def parse_uniprot_xml(filename, terpenes, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc):
@@ -562,24 +567,20 @@ def parse_storage(filename):
 
     _uniprot_dict_of_lists, _chebi_dict_of_lists, _copy_without_chebi_id, _empty_template_dict_of_lists = initialize_data_structures()
     _storage_df = pd.read_excel(filename, 'Sheet1', index_col=None, na_values=["NA"])
-    for i in _storage_df['Uniprot ID']:
-        _sub_i = sanitize_input_text_values(i)
-        if myoptions.debug: print("Debug: parsing entry %s from %s" % (i, filename))
-        for _ii in _sub_i:
-            for _colname in ['Uniprot ID', 'ChEBI ID', 'Protein name', 'Description', 'Species', 'Taxonomy', 'Amino acid sequence']:
-                for _val in _storage_df[_colname]:
-                    _uniprot_dict_of_lists[_colname].append(sanitize_input_text_values(_val))
+    for _colname in ['Uniprot ID', 'ChEBI ID', 'Name', 'Description', 'Species', 'Taxonomy', 'Amino acid sequence', 'Kingdom (plant, fungi, bacteria)', 'Notes', 'Publication (URL)']:
+        for _val in _storage_df[_colname]:
+            _uniprot_dict_of_lists[_colname].append(sanitize_input_text_values(_val))
 
-            for _colname in ['ChEBI ID', 'Compound name', 'Compound description', 'Formula', 'SMILES', 'INCHI', 'Terpene type']:
-                for _val in _storage_df[_colname]:
-                    _chebi_dict_of_lists[_colname].append(sanitize_input_text_values(_val))
+    for _colname in ['ChEBI ID', 'Type (mono, sesq, di, …)'] + extra_product_colnames + extra_substrate_colnames + extra_cofactor_colnames + extra_intermediate_colnames:
+        for _val in _storage_df[_colname]:
+            _chebi_dict_of_lists[_colname].append(sanitize_input_text_values(_val))
 
     del(_storage_df)
     return _uniprot_dict_of_lists, _chebi_dict_of_lists, _copy_without_chebi_id, _empty_template_dict_of_lists
 
 
-def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_of_lists, accessions, chebi_ids, protein_names, feature_descriptions, organism, lineage, sequence, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc):
-    if accessions[0] not in all_uniprot_ids:
+def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_of_lists, already_parsed, accessions, chebi_ids, protein_names, feature_descriptions, organism, lineage, sequence, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc):
+    if accessions[0] not in already_parsed:
         print("Info: Storing uniprot values for entry %s into uniprot_dict_of_lists" % accessions[0])
         for _uniprot_id in accessions:
             all_uniprot_ids.update([_uniprot_id])
@@ -596,65 +597,77 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
 
         uniprot_dict_of_lists['Uniprot ID'].append(accessions)
         uniprot_dict_of_lists['ChEBI ID'].append(chebi_ids)
-        uniprot_dict_of_lists['Protein name'].append(protein_names)
+        uniprot_dict_of_lists['Name'].append(protein_names)
         uniprot_dict_of_lists['Description'].append(feature_descriptions)
         uniprot_dict_of_lists['Species'].append(organism)
         uniprot_dict_of_lists['Taxonomy'].append(lineage)
         uniprot_dict_of_lists['Amino acid sequence'].append(sequence)
+        if not lineage:
+            _kingdom = ''
+        elif 'Bacteria' == lineage[0]: # some taxons are only assigned as ['Bacteria'], without further specs
+            _kingdom = 'Bacteria'
+        elif 'Viridiplantae' == lineage[1]:
+            _kingdom = 'Plantae'
+        elif 'Fungi' == lineage[1]:
+            _kingdom = 'Fungi'
+        elif 'Homo sapiens' in lineage:
+            _kingdom = 'Human'
+        elif 'Animalia' in lineage:
+            _kingdom = 'Animal'
+        else:
+            _kingdom = 'unknown'
+        uniprot_dict_of_lists['Kingdom (plant, fungi, bacteria)'].append(_kingdom)
+        uniprot_dict_of_lists['Notes'].append('')
+        uniprot_dict_of_lists['Publication (URL)'].append('')
+        already_parsed.append(accessions[0])
     else:
         print("Info: Accession %s already kept in uniprot_dict_of_lists" % accessions[0])
 
 
 def fetch_ids_from_xlsx(filename, terpenes, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc, uniprot_dict_of_lists, already_parsed, all_uniprot_ids, all_chebi_ids):
+    _ids = []
     _df = pd.read_excel(filename, 'Sheet1', index_col=None, na_values=["NA"])
     for i in _df['Uniprot ID']:
         _sub_i = sanitize_input_text_values(i)
 
-        for _ii in _sub_i:
-            print("Looping over %s" % _ii)
-            _id = None
-            # remove redundancies but keep ordering
-            if _ii is not None and _ii not in already_parsed:
-                # check if this is a primary accession, if not, convert it to primary
-                if _ii in uniprot_pri_acc2aliases.keys():
-                    # already known primary accession, probably already in cache but maybe inferred from other sources
-                    _filename = download_uniprot(_ii)
-                    _id = _ii
-                    already_parsed.append(_id)
-                elif _ii in uniprot_pri_acc2aliases.values():
-                    # is a secondary/alias accession
-                    _iii = uniprot_aliases2pri_acc[_ii]
-                    _id = _iii
-                    if _id in all_uniprot_ids:
-                        # we already have parsed the primary acc uniprot entry into memory
-                        # for safety re-try fetching the data if it is not in the cache
-                        print("Info: Entry %s is an alias pointing to %s which we already have, skipping download" % (_ii, _iii))
-                        # _filename = download_uniprot(_id)
-                        _filename = None # prevent duplicated parsing of the input XML
-                        already_parsed.append(_iii)
-                    elif _id not in uniprot_aliases2pri_acc.keys():
-                        print("Info: Entry %s is an alias pointing to %s which we already have, also skipping download" % (_ii, _iii))
-                        # _filename = download_uniprot(_id)
-                        _filename = None
-                        already_parsed.append(_iii)
-                else:
-                    # new or already known primary accession
-                    _filename = download_uniprot(_ii)
-                    _id = _ii
-                    already_parsed.append(_ii)
-
-                if _filename:
-                    if _id not in all_uniprot_ids and _id not in uniprot_aliases2pri_acc.keys():
-                        if os.path.exists(_filename) and os.path.getsize(_filename):
-                            for _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml(_filename, terpenes, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc):
-                                process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_of_lists, _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc)
-                        else:
-                            print("Info: No such file %s" % str(_filename))
+        if len(_sub_i) > 1:
+            for _ii in _sub_i:
+                print("Looping over %s from %s, originates from %s" % (_ii, filename, str(i)))
+                _id = None
+                # remove redundancies but keep ordering
+                if _ii is not None and _ii not in already_parsed:
+                    # check if this is a primary accession, if not, convert it to primary
+                    if _ii in uniprot_pri_acc2aliases.keys():
+                        # already known primary accession, probably already in cache but maybe inferred from other sources
+                        _filename = download_uniprot(_ii)
+                        _id = _ii
+                    elif _ii in uniprot_pri_acc2aliases.values():
+                        # is a secondary/alias accession
+                        _iii = uniprot_aliases2pri_acc[_ii]
+                        _id = _iii
+                        if _iii in already_parsed:
+                            # we already have parsed the primary acc uniprot entry into memory
+                            # for safety re-try fetching the data if it is not in the cache
+                            print("Info: Entry %s is an alias pointing to %s which we already have, skipping download" % (_ii, _iii))
+                            # _filename = download_uniprot(_id)
+                            _filename = None # prevent duplicated parsing of the input XML
+                        elif _iii not in uniprot_aliases2pri_acc.keys():
+                            print("Info: Entry %s is an alias pointing to %s which we already have, also skipping download" % (_ii, _iii))
+                            _filename = download_uniprot(_iii)
+                            #_filename = None
                     else:
-                        print("Info: Skipping %s which is already in all_uniprot_ids, supposedly a secondary accession" % _id)
-
-        if myoptions.debug: print("Debug: all_uniprot_ids=%s" % str(all_uniprot_ids))
-        if myoptions.debug: print("Debug: all_chebi_ids=%s" % str(all_chebi_ids))
+                        # new or already known primary accession
+                        print("Info: Entry %s is new primary accession, downloading if not existing yet" % (_ii))
+                        _filename = download_uniprot(_ii)
+                        _id = _ii
+                if _id:
+                    _ids.append(_id)
+        else:
+            # there are no secondary accessions
+            _ids += _sub_i
+            if _sub_i[0] not in already_parsed:
+                _filename = download_uniprot(_sub_i[0])
+    return set(_ids)
 
 
 def parse_multi_entry_uniprot_xml(filename, terpenes, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc, uniprot_dict_of_lists, already_parsed):
@@ -673,7 +686,7 @@ def parse_multi_entry_uniprot_xml(filename, terpenes, uniprot_pri_acc2aliases, u
             print("Info: Acting over entry %s in %s" % (str(_uniprot_entry), filename))
             # <Element '{http://uniprot.org/uniprot}entry'
             (_accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence) = parse_uniprot_xml(_uniprot_entry, terpenes, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc)
-            process_parsed_uniprot_values(_uniprot_id, _chebi_id, _all_uniprot_ids, _all_chebi_ids, dict_of_lists, _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc)
+            process_parsed_uniprot_values(_uniprot_id, _chebi_id, _all_uniprot_ids, _all_chebi_ids, dict_of_lists, already_parsed, _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc)
 
 
 _r1 = re.compile(r'C[0-9]+')
@@ -710,16 +723,79 @@ def classify_terpene(formula):
 
 
 def initialize_data_structures():
-    #_uniprot_dict_of_lists = {'Uniprot ID': [], 'Protein name': [], 'Description': [], 'Species': [], 'Taxonomy': [], 'Amino acid sequence': [], 'Compound name': [], 'Compound description': [], 'Compound name': [], 'Substrate (including stereochemistry)': [], 'Cofactors': [], 'Name of intermediate': [], 'SMILES of intermediate': [], 'Product': [], 'SMILES of product (including stereochemistry)': [], 'ChEBI ID': [], 'Formula': [], 'SMILES': [], 'INCHI': [], 'Terpene type': [], 'Notes': [], 'Publication (URL)': []}
+    _uniprot_dict_of_lists = {'Uniprot ID': [], 'Name': [], 'Description': [], 'Species': [], 'Taxonomy': [], 'Amino acid sequence': [], 'Kingdom (plant, fungi, bacteria)': [], 'ChEBI ID': [], 'Notes': [], 'Publication (URL)': []}
 
-    _uniprot_dict_of_lists = {'Uniprot ID': [], 'Protein name': [], 'Description': [], 'Species': [], 'Taxonomy': [], 'Amino acid sequence': [], 'ChEBI ID': []}
-    _chebi_dict_of_lists = {'Compound name': [], 'Compound description': [], 'ChEBI ID': [], 'Formula': [], 'SMILES': [], 'INCHI': [], 'Terpene type': []}
+    _chebi_dict_of_lists = {'ChEBI ID': [], 'Type (mono, sesq, di, …)': []}
+    for _colname in extra_product_colnames + extra_substrate_colnames + extra_cofactor_colnames + extra_intermediate_colnames:
+        _chebi_dict_of_lists[_colname] = []
+
     _copy_without_chebi_id = copy.deepcopy(_chebi_dict_of_lists)
     _copy_without_chebi_id.pop('ChEBI ID')
-    _uniprot_dict_of_lists.update(_copy_without_chebi_id)
     _empty_template_dict_of_lists = copy.deepcopy(_uniprot_dict_of_lists)
+    _empty_template_dict_of_lists.update(_copy_without_chebi_id)
     return _uniprot_dict_of_lists, _chebi_dict_of_lists, _copy_without_chebi_id, _empty_template_dict_of_lists
 
+
+def split_chebi_data_into_substrates_and_products(_chebi_id2, _names, _definition, _formula, _smiles, _terpene_type, output_dict_of_lists):
+    "This functions needs reworking to simultaneously split into the all groups."
+
+    if _terpene_type:
+        output_dict_of_lists['ChEBI ID'].append(_chebi_id2)
+        output_dict_of_lists['Name of product'].append(_names) # this appends a list
+        output_dict_of_lists['Product compound description'].append(_definition) # this appends a list
+        output_dict_of_lists['Chemical formula of product'].append(_formula)
+        output_dict_of_lists['SMILES of product (including stereochemistry)'].append(_smiles)
+        output_dict_of_lists['Type (mono, sesq, di, …)'].append(_terpene_type)
+        for _colname in extra_substrate_colnames + extra_cofactor_colnames + extra_intermediate_colnames:
+            output_dict_of_lists[_colname].append('')
+    elif _chebi_id2 in ['CHEBI:17211']: # substrates
+        # CHEBI:17211 GPP
+        output_dict_of_lists['ChEBI ID'].append(_chebi_id2)
+        output_dict_of_lists['Substrate (including stereochemistry)'].append(_names) # this appends a list
+        output_dict_of_lists['Substrate compound description'].append(_definition) # this appends a list
+        output_dict_of_lists['Chemical formula of substrate'].append(_formula)
+        output_dict_of_lists['SMILES of substrate (including stereochemistry)'].append(_smiles)
+        output_dict_of_lists['Type (mono, sesq, di, …)'].append(_terpene_type)
+        for _colname in extra_product_colnames + extra_cofactor_colnames + extra_intermediate_colnames:
+            output_dict_of_lists[_colname].append('')
+    elif _chebi_id2 in ['CHEBI:18420', 'CHEBI:15377', 'CHEBI:29035']: # cofactors
+        # CHEBI:18420 Mg2+
+        # CHEBI:29035 Mn2+
+        # CHEBI:15377 H2O
+        output_dict_of_lists['ChEBI ID'].append(_chebi_id2)
+        output_dict_of_lists['Cofactors'].append(_names) # this appends a list
+        output_dict_of_lists['Cofactors compound description'].append(_definition) # this appends a list
+        output_dict_of_lists['Chemical formula of cofactor'].append(_formula)
+        output_dict_of_lists['SMILES of cofactor (including stereochemistry)'].append(_smiles)
+        output_dict_of_lists['Type (mono, sesq, di, …)'].append(_terpene_type)
+        for _colname in extra_product_colnames + extra_substrate_colnames + extra_intermediate_colnames:
+            output_dict_of_lists[_colname].append('')
+    elif ['CHEBI:63190']:
+        # CHEBI:63190 (+)-β-caryophyllene
+        # 9α-copalyl diphosphate
+        # (S)-β-bisabolene
+        # ent-copalyl diphosphate
+        # copal-8-ol diphosphate(3−)
+        # (+)-copalyl diphosphate
+        output_dict_of_lists['ChEBI ID'].append(_chebi_id2)
+        output_dict_of_lists['Name of intermediate'].append(_names) # this appends a list
+        output_dict_of_lists['Intermediate compound description'].append(_definition) # this appends a list
+        output_dict_of_lists['Chemical formula of intermediate'].append(_formula)
+        output_dict_of_lists['SMILES of intermediate (including stereochemistry)'].append(_smiles)
+        output_dict_of_lists['Type (mono, sesq, di, …)'].append(_terpene_type)
+        for _colname in extra_product_colnames + extra_substrate_colnames + extra_cofactor_colnames:
+            output_dict_of_lists[_colname].append('')
+    else:
+        raise ValueError("Unexpected compound %s" % _chebi_id2)
+
+    if len(set(map(lambda x: len(output_dict_of_lists[x]), extra_product_colnames + extra_substrate_colnames + extra_cofactor_colnames + extra_intermediate_colnames))) > 1:
+        raise ValueError("Non-equal amount if items in each column: %s" % str(map(lambda x: len(output_dict_of_lists[x]), extra_product_colnames + extra_substrate_colnames + extra_cofactor_colnames + extra_intermediate_colnames)))
+        
+
+def print_dict_lengths(somedict, dictname):
+    for _item in somedict.keys():
+        if myoptions.debug > 3: print("%s: Key=%s, len=%d" % (dictname, _item, len(somedict[_item])))
+        print("Info: Will output into CSV and XLS files in total %s: Key=%s, len=%d" % (dictname, _item, len(somedict[_item])))
 
 def main():
     create_cache()
@@ -736,6 +812,10 @@ def main():
         # one can disable the default value with passing None on the commandline
         _uniprot_dict_of_lists, _chebi_dict_of_lists, _copy_without_chebi_id, _empty_template_dict_of_lists = initialize_data_structures()
 
+    _output_dict_of_lists = copy.deepcopy(_empty_template_dict_of_lists)
+
+    print("Info: EEEEEEEEE before: %s", str(_uniprot_dict_of_lists))
+
     _already_parsed = []
     #  parse previously obtained multi-entry XML data, if any
     for _filename in os.listdir('.TPSdownloader_cache/uniprot/multientry/'):
@@ -743,7 +823,7 @@ def main():
         if os.path.getsize('.TPSdownloader_cache/uniprot/multientry/' + _filename):
             print("Info: Parsing %s" % '.TPSdownloader_cache/uniprot/multientry/' + _filename)
             for _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml('.TPSdownloader_cache/uniprot/multientry/' + _filename, _terpenes, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc):
-                process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc)
+                process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _already_parsed, _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc)
 
     if myoptions.debug: print("Info: _all_uniprot_ids=%s" % str(_all_uniprot_ids))
     if myoptions.debug: print("Info: _all_chebi_ids=%s" % str(_all_chebi_ids))
@@ -752,42 +832,55 @@ def main():
         download_uniprot(myoptions.uniprot_id)
     elif myoptions.uniprot_ids_from_file and os.path.exists(myoptions.uniprot_ids_from_file):
         # get list of accessions, fetch their single-entry XML files unless already in local cache and parse them
-        fetch_ids_from_xlsx(myoptions.uniprot_ids_from_file, _terpenes, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _uniprot_dict_of_lists, _already_parsed, _all_uniprot_ids, _all_chebi_ids)
+        _ids = fetch_ids_from_xlsx(myoptions.uniprot_ids_from_file, _terpenes, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _uniprot_dict_of_lists, _already_parsed, _all_uniprot_ids, _all_chebi_ids)
 
-    print("AAAAA: len(_already_parsed)=%s" % len(_already_parsed))
-    print("AAAAA: len(_uniprot_dict_of_lists)=%d, len(_uniprot_dict_of_lists['Uniprot ID'])=%s, _uniprot_dict_of_lists: %s" % (len(_uniprot_dict_of_lists), len(_uniprot_dict_of_lists['Uniprot ID']), str(_uniprot_dict_of_lists)))
+    _aliases = _uniprot_aliases2pri_acc.keys()
+    for _id in _ids:
+        _filename = '.TPSdownloader_cache/uniprot/' + _id + '.xml'
+        if _id not in _already_parsed and _id not in _aliases:
+            if os.path.exists(_filename) and os.path.getsize(_filename):
+                for _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml(_filename, _terpenes, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc):
+                    process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _already_parsed, _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc)
+            else:
+                print("Info: No such file %s" % str(_filename))
+        else:
+            print("Info: Skipping %s which is already in _all_uniprot_ids, supposedly a secondary accession" % _id)
 
+    if myoptions.debug: print("Debug: _all_uniprot_ids=%s" % str(_all_uniprot_ids))
+    if myoptions.debug: print("Debug: _all_chebi_ids=%s" % str(_all_chebi_ids))
+
+    print("Info: len(_already_parsed)=%s" % len(_already_parsed))
+    #print("AAAAA: len(_uniprot_dict_of_lists)=%d, len(_uniprot_dict_of_lists['Uniprot ID'])=%s, _uniprot_dict_of_lists: %s" % (len(_uniprot_dict_of_lists), len(_uniprot_dict_of_lists['Uniprot ID']), str(_uniprot_dict_of_lists)))
+
+    # parse values for all ChEBI entries
     for _chebi_id in _all_chebi_ids:
         download_chebi(_chebi_id)
         _filename = ".TPSdownloader_cache" + os.path.sep + 'chebi' + os.path.sep + _chebi_id + '.xml'
         if os.path.exists(_filename) and os.path.getsize(_filename):
-            _chebi_id2, _names, _definition, _formula, _smiles, _inchi = parse_chebi_xml(_filename)
+            _chebi_id2, _names, _definition, _formula, _smiles = parse_chebi_xml(_filename)
             if _formula:
                 _terpene_type = classify_terpene(_formula)
             else:
                 _terpene_type = None
-            if _terpene_type:
-                _chebi_dict_of_lists['ChEBI ID'].append(_chebi_id2)
-                _chebi_dict_of_lists['Compound name'].append(_names) # this appends a list
-                _chebi_dict_of_lists['Compound description'].append(_definition) # this appends a list
-                _chebi_dict_of_lists['Formula'].append(_formula)
-                _chebi_dict_of_lists['SMILES'].append(_smiles)
-                _chebi_dict_of_lists['INCHI'].append(_inchi)
-                _chebi_dict_of_lists['Terpene type'].append(_terpene_type)
+
+            split_chebi_data_into_substrates_and_products(_chebi_id2, _names, _definition, _formula, _smiles, _terpene_type, _chebi_dict_of_lists)
 
     if myoptions.debug > 1: print("Debug: After parsing ChEBI files _uniprot_dict_of_lists=", str(_uniprot_dict_of_lists))
     print("Info: There are %s 'ChEBI ID' entries in _chebi_dict_of_lists: %s" % (len(_chebi_dict_of_lists['ChEBI ID']), str(_chebi_dict_of_lists)))
 
     # re-copy the parsed data into rows if there are multiple _chebi_ids annotated (pointing to multiple cyclic terpenes), other ChEBI IDs were discarded
-    _output_dict_of_lists = copy.deepcopy(_empty_template_dict_of_lists)
     _unique_uniprot_ids = list(_uniprot_dict_of_lists['Uniprot ID'])
     for _uniprot_row_pos, _uniprot_entry in enumerate(_unique_uniprot_ids):
         _chebi_ids = _uniprot_dict_of_lists['ChEBI ID'][_uniprot_row_pos]
         # _chebi_ids = map(lambda x: x[1:], _uniprot_dict_of_lists['ChEBI ID'][_uniprot_row_pos])
         # for each CHEBI item in _chebi_ids, output a dedicated line in the output
-        if _chebi_ids and list(_chebi_ids)[0]:
+        if len(_output_dict_of_lists['ChEBI ID']) != len(_output_dict_of_lists['Uniprot ID']):
+            print_dict_lengths(_uniprot_dict_of_lists, '_uniprot_dict_of_lists')
+            print_dict_lengths(_chebi_dict_of_lists, '_chebi_dict_of_lists')
+            print_dict_lengths(_output_dict_of_lists, '_output_dict_of_lists')
+            raise ValueError("Sizes do not match,\n_output_dict_of_lists: %s\n" % str(_output_dict_of_lists))
+        if _chebi_ids and list(_chebi_ids):
             for _chebi_id in _chebi_ids:
-                # print("CHEBI ID:", str(_chebi_id))
                 _chebi_row_pos = _chebi_dict_of_lists['ChEBI ID'].index(_chebi_id)
                 if _chebi_id:
                     _chebi_id2 = _chebi_dict_of_lists['ChEBI ID'][_chebi_row_pos]
@@ -798,43 +891,44 @@ def main():
                     sys.stderr.write("Error: _chebi_id=%s != _chebi_id2=%s\n" % (str(_chebi_id), str(_chebi_id2)))
                 if myoptions.debug > 1: print("Found ChEBI ID in Uniprot data: %s at row %s, also in ChEBI data: %s at row %s" % (_chebi_id, _uniprot_row_pos, _chebi_id2, _chebi_row_pos))
                 if myoptions.debug > 1: print("  _chebi_row_pos=%s" % _chebi_row_pos)
-                if myoptions.debug > 1: print("  len(_uniprot_dict_of_lists['Uniprot ID']): %s, len(_uniprot_dict_of_lists['Compound name']): %s" % (len(_uniprot_dict_of_lists['Uniprot ID']), len(_uniprot_dict_of_lists['Compound name'])))
-                if myoptions.debug: print("  Going to update row %s with %s from row %s" % (str(_uniprot_row_pos), str(_chebi_dict_of_lists['Compound name'][_chebi_row_pos]), str(_chebi_row_pos)))
 
                 # re-copy the Uniprot-originating data
-                for _column in ['Uniprot ID', 'Protein name', 'Description', 'Species', 'Taxonomy', 'Amino acid sequence']:
-                    _val = _uniprot_dict_of_lists[_column][_uniprot_row_pos]
+                for _column in _uniprot_dict_of_lists.keys():
+                    if _column != 'ChEBI ID':
+                        _val = _uniprot_dict_of_lists[_column][_uniprot_row_pos]
+                        if _val:
+                            _output_dict_of_lists[_column].append(_val)
+                        else:
+                            _output_dict_of_lists[_column].append('')
+
+                # fill-in the ChEBI-originating data
+                for _column in _chebi_dict_of_lists.keys():
+                    _val = _chebi_dict_of_lists[_column][_chebi_row_pos]
+                    if _val:
+                        _output_dict_of_lists[_column].append(_val)
+                    else:
+                        _output_dict_of_lists[_column].append('')
+        else:
+            # re-copy just the Uniprot-originating data
+            for _column in _uniprot_dict_of_lists.keys():
+                if _column != 'ChEBI ID':
+                    try:
+                        _val = _uniprot_dict_of_lists[_column][_uniprot_row_pos]
+                    except IndexError:
+                        sys.stderr.write("Error: There are the following columns defined in _uniprot_dict_of_lists: %s\n" % str(_uniprot_dict_of_lists.keys()))
+                        raise IndexError("Row %s in '%s' column is missing, cannot copy its values from _uniprot_dict_of_lists" % (str(_uniprot_row_pos), str(_column)))
                     if _val:
                         _output_dict_of_lists[_column].append(_val)
                     else:
                         _output_dict_of_lists[_column].append('')
 
-                # fill-in the ChEBI-originating data
-                for _column in ['ChEBI ID', 'Compound name', 'Compound description', 'Formula', 'SMILES', 'INCHI', 'Terpene type']:
-                    if _chebi_id:
-                        _val = _chebi_dict_of_lists[_column][_chebi_row_pos]
-                        if _val:
-                            _output_dict_of_lists[_column].append(_val)
-                        else:
-                            _output_dict_of_lists[_column].append('')
-                    else:
-                        _output_dict_of_lists[_column].append('')
-        else:
-            # re-copy the Uniprot-originating data
-            for _column in ['Uniprot ID', 'Protein name', 'Description', 'Species', 'Taxonomy', 'Amino acid sequence']:
-                _val = _uniprot_dict_of_lists[_column][_uniprot_row_pos]
-                if _val:
-                    _output_dict_of_lists[_column].append(_val)
-                else:
-                    _output_dict_of_lists[_column].append('')
-
             # fill-in the ChEBI-originating data
-            for _column in ['ChEBI ID', 'Compound name', 'Compound description', 'Formula', 'SMILES', 'INCHI', 'Terpene type']:
+            for _column in _chebi_dict_of_lists.keys():
                 _output_dict_of_lists[_column].append('')
 
-    for _item in _output_dict_of_lists.keys():
-        if myoptions.debug > 3: print("_output_dict_of_lists: Key=%s, len=%d" % (_item, len(_uniprot_dict_of_lists[_item])))
-        print("Info: Will output into CSV and XLS files in total _output_dict_of_lists: Key=%s, len=%d" % (_item, len(_output_dict_of_lists[_item])))
+    print_dict_lengths(_uniprot_dict_of_lists, '_uniprot_dict_of_lists')
+    print_dict_lengths(_chebi_dict_of_lists, '_chebi_dict_of_lists')
+    print_dict_lengths(_output_dict_of_lists, '_output_dict_of_lists')
 
     # move dictionary of lists into Pandas dataframe at once
     df = pd.DataFrame(_output_dict_of_lists)

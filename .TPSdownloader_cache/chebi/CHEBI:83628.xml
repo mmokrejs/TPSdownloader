@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:83628</ID>
+<NAME>N-acylammonia</NAME>
+<DEFINITION>A carboxamide obtained by the formal condensation of the carboxy group of any carboxylic acid with ammonia.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>a monocarboxylic acid amide</SYNONYM>
+<FORMULA>CH2NOR</FORMULA>
+<MASS>44.033</MASS>
+<MONOISOTOPIC_MASS>44.01364</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>NC([*])=O</SMILES>
+</ENTRY>
+</TABLE>

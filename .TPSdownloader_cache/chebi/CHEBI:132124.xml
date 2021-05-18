@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:132124</ID>
+<NAME>1,4-benzoquinones</NAME>
+<DEFINITION>Any member of the class of benzoquinones that is 1,4-benzoquinone or its C-substituted derivatives.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>para-benzoquinones</SYNONYM>
+<SYNONYM>p-benzoquinones</SYNONYM>
+<SYNONYM>a quinone</SYNONYM>
+<FORMULA>C6O2R4</FORMULA>
+<MASS>104.063</MASS>
+<MONOISOTOPIC_MASS>103.98983</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>O=C1C(*)=C(*)C(=O)C(*)=C1*</SMILES>
+</ENTRY>
+</TABLE>

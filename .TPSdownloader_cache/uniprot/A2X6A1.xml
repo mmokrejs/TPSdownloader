@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2009-05-05" modified="2020-08-12" version="64">
+<accession>Q00G37</accession>
+<accession>A2X6A1</accession>
+<name>KSL7_ORYSI</name>
+<protein>
+<recommendedName>
+<fullName>Ent-cassa-12,15-diene synthase</fullName>
+<ecNumber>4.2.3.28</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Diterpene cyclase 1</fullName>
+<shortName>OsDTC1</shortName>
+</alternativeName>
+<alternativeName>
+<fullName>Ent-kaurene synthase-like 7</fullName>
+<shortName>OsKSL7</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">KSL7</name>
+<name type="synonym">DTC1</name>
+<name type="ORF">OsI_007594</name>
+</gene>
+<organism>
+<name type="scientific">Oryza sativa subsp. indica</name>
+<name type="common">Rice</name>
+<dbReference type="NCBI Taxonomy" id="39946"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Poales</taxon>
+<taxon>Poaceae</taxon>
+<taxon>BOP clade</taxon>
+<taxon>Oryzoideae</taxon>
+<taxon>Oryzeae</taxon>
+<taxon>Oryzinae</taxon>
+<taxon>Oryza</taxon>
+<taxon>Oryza sativa</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2006" name="Phytochemistry" volume="67" first="2307" last="2317">
+<title>Uncovering the complex metabolic network underlying diterpenoid phytoalexin biosynthesis in rice and other cereal crop plants.</title>
+<authorList>
+<person name="Peters R.J."/>
+</authorList>
+<dbReference type="PubMed" id="16956633"/>
+<dbReference type="DOI" id="10.1016/j.phytochem.2006.08.009"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<source>
+<strain>cv. IR24</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2005" name="PLoS Biol." volume="3" first="266" last="281">
+<title>The genomes of Oryza sativa: a history of duplications.</title>
+<authorList>
+<person name="Yu J."/>
+<person name="Wang J."/>
+<person name="Lin W."/>
+<person name="Li S."/>
+<person name="Li H."/>
+<person name="Zhou J."/>
+<person name="Ni P."/>
+<person name="Dong W."/>
+<person name="Hu S."/>
+<person name="Zeng C."/>
+<person name="Zhang J."/>
+<person name="Zhang Y."/>
+<person name="Li R."/>
+<person name="Xu Z."/>
+<person name="Li S."/>
+<person name="Li X."/>
+<person name="Zheng H."/>
+<person name="Cong L."/>
+<person name="Lin L."/>
+<person name="Yin J."/>
+<person name="Geng J."/>
+<person name="Li G."/>
+<person name="Shi J."/>
+<person name="Liu J."/>
+<person name="Lv H."/>
+<person name="Li J."/>
+<person name="Wang J."/>
+<person name="Deng Y."/>
+<person name="Ran L."/>
+<person name="Shi X."/>
+<person name="Wang X."/>
+<person name="Wu Q."/>
+<person name="Li C."/>
+<person name="Ren X."/>
+<person name="Wang J."/>
+<person name="Wang X."/>
+<person name="Li D."/>
+<person name="Liu D."/>
+<person name="Zhang X."/>
+<person name="Ji Z."/>
+<person name="Zhao W."/>
+<person name="Sun Y."/>
+<person name="Zhang Z."/>
+<person name="Bao J."/>
+<person name="Han Y."/>
+<person name="Dong L."/>
+<person name="Ji J."/>
+<person name="Chen P."/>
+<person name="Wu S."/>
+<person name="Liu J."/>
+<person name="Xiao Y."/>
+<person name="Bu D."/>
+<person name="Tan J."/>
+<person name="Yang L."/>
+<person name="Ye C."/>
+<person name="Zhang J."/>
+<person name="Xu J."/>
+<person name="Zhou Y."/>
+<person name="Yu Y."/>
+<person name="Zhang B."/>
+<person name="Zhuang S."/>
+<person name="Wei H."/>
+<person name="Liu B."/>
+<person name="Lei M."/>
+<person name="Yu H."/>
+<person name="Li Y."/>
+<person name="Xu H."/>
+<person name="Wei S."/>
+<person name="He X."/>
+<person name="Fang L."/>
+<person name="Zhang Z."/>
+<person name="Zhang Y."/>
+<person name="Huang X."/>
+<person name="Su Z."/>
+<person name="Tong W."/>
+<person name="Li J."/>
+<person name="Tong Z."/>
+<person name="Li S."/>
+<person name="Ye J."/>
+<person name="Wang L."/>
+<person name="Fang L."/>
+<person name="Lei T."/>
+<person name="Chen C.-S."/>
+<person name="Chen H.-C."/>
+<person name="Xu Z."/>
+<person name="Li H."/>
+<person name="Huang H."/>
+<person name="Zhang F."/>
+<person name="Xu H."/>
+<person name="Li N."/>
+<person name="Zhao C."/>
+<person name="Li S."/>
+<person name="Dong L."/>
+<person name="Huang Y."/>
+<person name="Li L."/>
+<person name="Xi Y."/>
+<person name="Qi Q."/>
+<person name="Li W."/>
+<person name="Zhang B."/>
+<person name="Hu W."/>
+<person name="Zhang Y."/>
+<person name="Tian X."/>
+<person name="Jiao Y."/>
+<person name="Liang X."/>
+<person name="Jin J."/>
+<person name="Gao L."/>
+<person name="Zheng W."/>
+<person name="Hao B."/>
+<person name="Liu S.-M."/>
+<person name="Wang W."/>
+<person name="Yuan L."/>
+<person name="Cao M."/>
+<person name="McDermott J."/>
+<person name="Samudrala R."/>
+<person name="Wang J."/>
+<person name="Wong G.K.-S."/>
+<person name="Yang H."/>
+</authorList>
+<dbReference type="PubMed" id="15685292"/>
+<dbReference type="DOI" id="10.1371/journal.pbio.0030038"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>cv. 93-11</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2007" name="Phytochemistry" volume="68" first="312" last="326">
+<title>Functional characterization of the rice kaurene synthase-like gene family.</title>
+<authorList>
+<person name="Xu M."/>
+<person name="Wilderman P.R."/>
+<person name="Morrone D."/>
+<person name="Xu J."/>
+<person name="Roy A."/>
+<person name="Margis-Pinheiro M."/>
+<person name="Upadhyaya N.M."/>
+<person name="Coates R.M."/>
+<person name="Peters R.J."/>
+</authorList>
+<dbReference type="PubMed" id="17141283"/>
+<dbReference type="DOI" id="10.1016/j.phytochem.2006.10.016"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<comment type="function">
+<text evidence="2">Involved in phytocassane phytoalexins biosynthesis. Catalyzes the conversion of ent-copalyl diphosphate to the phytoalexin precursor ent-cassa-12,15-diene.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>ent-copalyl diphosphate = diphosphate + ent-cassa-12,15-diene</text>
+<dbReference type="Rhea" id="RHEA:25532"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:50060"/>
+<dbReference type="ChEBI" id="CHEBI:58553"/>
+<dbReference type="EC" id="4.2.3.28"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="tissue specificity">
+<text>Expressed in roots and stems.</text>
+</comment>
+<comment type="developmental stage">
+<text>Expressed from 2 to 6 days after imbibition.</text>
+</comment>
+<comment type="induction">
+<text>By chitin oligosaccharide elicitor and UV irradiation.</text>
+</comment>
+<comment type="domain">
+<text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="miscellaneous">
+<text>Ent-cassa-12,15-diene is a precursor of the phytoalexins phytocassanes A-E. Phytoalexins are diterpenoid secondary metabolites involved in the defense mechanism of the plant and produced in response to attack (by a pathogen, elicitor or UV irradiation).</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the terpene synthase family.</text>
+</comment>
+<comment type="sequence caution" evidence="3">
+<conflict type="erroneous initiation">
+<sequence resource="EMBL-CDS" id="EAY86361" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EC" id="4.2.3.28"/>
+<dbReference type="EMBL" id="DQ823354">
+<property type="protein sequence ID" value="ABH10734.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CM000127">
+<property type="protein sequence ID" value="EAY86361.1"/>
+<property type="status" value="ALT_INIT"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="SMR" id="Q00G37"/>
+<dbReference type="PRIDE" id="Q00G37"/>
+<dbReference type="HOGENOM" id="CLU_003125_2_0_1"/>
+<dbReference type="Proteomes" id="UP000007015">
+<property type="component" value="Chromosome 2"/>
+</dbReference>
+<dbReference type="GO" id="GO:0034277">
+<property type="term" value="F:ent-cassa-12,15-diene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006952">
+<property type="term" value="P:defense response"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0611">Plant defense</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Ent-cassa-12,15-diene synthase" id="PRO_0000372321">
+<location>
+<begin position="1"/>
+<end position="830"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif">
+<location>
+<begin position="577"/>
+<end position="581"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="577"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="577"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="581"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="581"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="721"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="729"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; ABH10734." ref="1" evidence="3">
+<original>S</original>
+<variation>L</variation>
+<location>
+<position position="829"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="17141283"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="830" mass="92180" checksum="CE5C635B0DD9AE45" modified="2009-05-05" version="2">MMLLGSPSSGGYGGKFAGASPAGGTTTMAPSAKQPSSRAPPPGITGGRNDLRILSPAAAAAAVGGLEMKKPEAEGIAESLQATHRKELEASIRKQLQGVELSPSPYDTAWVAMVPLRGSSHNPSFPQCVDWILENQWDDGSWSIDGSISTANKDVLSSTLACVLALNKWNVGREHIRRGLSFIGRNFSIAMDDQAVAPIGFGITFPAMLTLANGSGLEVPVRQNDIDSLNHLREMKIQREAGNHSRGRKAYMAYLAEGFGNLLEWDEIMMFQRKNGSLFNCPSSTAGALANYHDDKALQYLQSLVNKFDGVVPTLYPLNIYCQLSMVDALENMGISQYFASEIKSILDMTYSSWLGRDEEIMLDVTTCAMAFRLLRMNGYDVSSDELSHVAGASGFRDSLQGYLNDRKSVLEVYKTSKHSISENDLILDSIGSWSGSLLKEMLCSNGIQGTPGREEIEFALKYPFYSTLERLVHRKNIVLFDAKGSQMLKTECMPVHDSQDFLALAVDDFCISQSNYQNELNYLESWVKDNRLDQLHFARQKITYCYLSGAATTFRPEMGYARTSWARTAWLTAVIDDLFDVGGLEQEQENLLALMEKWEEPGEDEYYSEDVKIVFQALYNTVNEIGAKASALQGHDVTKYLVDVWLHVVRCMKVEAEWQRSQHLPTFEEYMESGMVSLGQGATVMSALFLIGEKLPEGVVELEEYDEMFRLMGTCGRLLNDIRGIEREESDGKMTNGVSLLVHASGGSMSVDEAKTEVMKRIDASRRKLLSLVVGEQEGPIPRPCKQLFWKMCKILHLFYYQTDGFSSPKEMVSAVDAVIKEPLQLRSL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

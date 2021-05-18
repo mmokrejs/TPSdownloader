@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:58340</ID>
+<NAME>O-acetyl-L-serine zwitterion</NAME>
+<DEFINITION>An amino acid zwitterion arising from transfer of a proton from the carboxy to the amino group of O-acetyl-L-serine; major species at pH 7.3.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>O-acetyl-L-serine</SYNONYM>
+<SYNONYM>(2S)-3-acetoxy-2-ammoniopropanoate</SYNONYM>
+<IUPAC_NAME>(2S)-3-acetoxy-2-azaniumylpropanoate</IUPAC_NAME>
+<FORMULA>C5H9NO4</FORMULA>
+<MASS>147.12930</MASS>
+<MONOISOTOPIC_MASS>147.05316</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>CC(=O)OC[C@H]([NH3+])C([O-])=O</SMILES>
+<INCHI>InChI=1S/C5H9NO4/c1-3(7)10-2-4(6)5(8)9/h4H,2,6H2,1H3,(H,8,9)/t4-/m0/s1</INCHI>
+<INCHIKEY>VZXPDPZARILFQX-BYPYZUCNSA-N</INCHIKEY>
+<METACYC_ACCESSION>ACETYLSERINE</METACYC_ACCESSION>
+</ENTRY>
+</TABLE>

@@ -1,0 +1,513 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1998-12-15" modified="2021-02-10" version="114">
+<accession>Q00909</accession>
+<accession>A0A0E0S4D4</accession>
+<accession>Q4IGX1</accession>
+<accession>Q7LJN7</accession>
+<accession>Q7LP63</accession>
+<accession>Q7Z8C3</accession>
+<accession>Q8NII2</accession>
+<accession>Q8NJ97</accession>
+<accession>V6R4Z7</accession>
+<name>TRI5_GIBZE</name>
+<protein>
+<recommendedName>
+<fullName>Trichodiene synthase</fullName>
+<ecNumber>4.2.3.6</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Sesquiterpene cyclase</fullName>
+<shortName>TS</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">TRI5</name>
+<name type="ORF">FGRRES_03537</name>
+<name type="ORF">FGSG_03537</name>
+</gene>
+<organism>
+<name type="scientific">Gibberella zeae (strain ATCC MYA-4620 / CBS 123657 / FGSC 9075 / NRRL 31084 / PH-1)</name>
+<name type="common">Wheat head blight fungus</name>
+<name type="synonym">Fusarium graminearum</name>
+<dbReference type="NCBI Taxonomy" id="229533"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Sordariomycetes</taxon>
+<taxon>Hypocreomycetidae</taxon>
+<taxon>Hypocreales</taxon>
+<taxon>Nectriaceae</taxon>
+<taxon>Fusarium</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1995" name="Mol. Plant Microbe Interact." volume="8" first="593" last="601">
+<title>Reduced virulence of Gibberella zeae caused by disruption of a trichothecene toxin biosynthetic gene.</title>
+<authorList>
+<person name="Proctor R.H."/>
+<person name="Hohn T.M."/>
+<person name="McCormick S.P."/>
+</authorList>
+<dbReference type="PubMed" id="8589414"/>
+<dbReference type="DOI" id="10.1094/mpmi-8-0593"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>W-8</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2001" name="Appl. Environ. Microbiol." volume="67" first="2966" last="2972">
+<title>Identification of deoxynivalenol- and nivalenol-producing chemotypes of Gibberella zeae by using PCR.</title>
+<authorList>
+<person name="Lee T."/>
+<person name="Oh D.W."/>
+<person name="Kim H.-S."/>
+<person name="Lee J.-K."/>
+<person name="Kim Y.-H."/>
+<person name="Yun S.-H."/>
+<person name="Lee Y.-W."/>
+</authorList>
+<dbReference type="PubMed" id="11425709"/>
+<dbReference type="DOI" id="10.1128/aem.67.7.2966-2972.2001"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>H-11</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2002" name="Proc. Natl. Acad. Sci. U.S.A." volume="99" first="9278" last="9283">
+<title>Ancestral polymorphism and adaptive evolution in the trichothecene mycotoxin gene cluster of phytopathogenic Fusarium.</title>
+<authorList>
+<person name="Ward T.J."/>
+<person name="Bielawski J.P."/>
+<person name="Kistler H.C."/>
+<person name="Sullivan E."/>
+<person name="O'Donnell K."/>
+</authorList>
+<dbReference type="PubMed" id="12080147"/>
+<dbReference type="DOI" id="10.1073/pnas.142307199"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>NRRL 13383</strain>
+<strain>NRRL 28063</strain>
+<strain>NRRL 28336</strain>
+<strain>NRRL 28439</strain>
+<strain>NRRL 29169</strain>
+<strain>NRRL 5883</strain>
+<strain>NRRL 6394</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="submission" date="2002-07" db="EMBL/GenBank/DDBJ databases">
+<title>Trichodiene synthase (Tri5) targeted PCR for identification of Fusarium culmorum, F. graminearum, F. poae and F. sporotrichioides.</title>
+<authorList>
+<person name="Eriksson A.R.B."/>
+<person name="Schnurer J."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>IBT1958</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="submission" date="2003-02" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Brown D.W."/>
+<person name="Dyer R.B."/>
+<person name="Kendra D.F."/>
+<person name="Plattner R.H."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>GZ3639</strain>
+</source>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2007" name="Science" volume="317" first="1400" last="1402">
+<title>The Fusarium graminearum genome reveals a link between localized polymorphism and pathogen specialization.</title>
+<authorList>
+<person name="Cuomo C.A."/>
+<person name="Gueldener U."/>
+<person name="Xu J.-R."/>
+<person name="Trail F."/>
+<person name="Turgeon B.G."/>
+<person name="Di Pietro A."/>
+<person name="Walton J.D."/>
+<person name="Ma L.-J."/>
+<person name="Baker S.E."/>
+<person name="Rep M."/>
+<person name="Adam G."/>
+<person name="Antoniw J."/>
+<person name="Baldwin T."/>
+<person name="Calvo S.E."/>
+<person name="Chang Y.-L."/>
+<person name="DeCaprio D."/>
+<person name="Gale L.R."/>
+<person name="Gnerre S."/>
+<person name="Goswami R.S."/>
+<person name="Hammond-Kosack K."/>
+<person name="Harris L.J."/>
+<person name="Hilburn K."/>
+<person name="Kennell J.C."/>
+<person name="Kroken S."/>
+<person name="Magnuson J.K."/>
+<person name="Mannhaupt G."/>
+<person name="Mauceli E.W."/>
+<person name="Mewes H.-W."/>
+<person name="Mitterbauer R."/>
+<person name="Muehlbauer G."/>
+<person name="Muensterkoetter M."/>
+<person name="Nelson D."/>
+<person name="O'Donnell K."/>
+<person name="Ouellet T."/>
+<person name="Qi W."/>
+<person name="Quesneville H."/>
+<person name="Roncero M.I.G."/>
+<person name="Seong K.-Y."/>
+<person name="Tetko I.V."/>
+<person name="Urban M."/>
+<person name="Waalwijk C."/>
+<person name="Ward T.J."/>
+<person name="Yao J."/>
+<person name="Birren B.W."/>
+<person name="Kistler H.C."/>
+</authorList>
+<dbReference type="PubMed" id="17823352"/>
+<dbReference type="DOI" id="10.1126/science.1143708"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC MYA-4620 / CBS 123657 / FGSC 9075 / NRRL 31084 / PH-1</strain>
+</source>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2010" name="Nature" volume="464" first="367" last="373">
+<title>Comparative genomics reveals mobile pathogenicity chromosomes in Fusarium.</title>
+<authorList>
+<person name="Ma L.-J."/>
+<person name="van der Does H.C."/>
+<person name="Borkovich K.A."/>
+<person name="Coleman J.J."/>
+<person name="Daboussi M.-J."/>
+<person name="Di Pietro A."/>
+<person name="Dufresne M."/>
+<person name="Freitag M."/>
+<person name="Grabherr M."/>
+<person name="Henrissat B."/>
+<person name="Houterman P.M."/>
+<person name="Kang S."/>
+<person name="Shim W.-B."/>
+<person name="Woloshuk C."/>
+<person name="Xie X."/>
+<person name="Xu J.-R."/>
+<person name="Antoniw J."/>
+<person name="Baker S.E."/>
+<person name="Bluhm B.H."/>
+<person name="Breakspear A."/>
+<person name="Brown D.W."/>
+<person name="Butchko R.A.E."/>
+<person name="Chapman S."/>
+<person name="Coulson R."/>
+<person name="Coutinho P.M."/>
+<person name="Danchin E.G.J."/>
+<person name="Diener A."/>
+<person name="Gale L.R."/>
+<person name="Gardiner D.M."/>
+<person name="Goff S."/>
+<person name="Hammond-Kosack K.E."/>
+<person name="Hilburn K."/>
+<person name="Hua-Van A."/>
+<person name="Jonkers W."/>
+<person name="Kazan K."/>
+<person name="Kodira C.D."/>
+<person name="Koehrsen M."/>
+<person name="Kumar L."/>
+<person name="Lee Y.-H."/>
+<person name="Li L."/>
+<person name="Manners J.M."/>
+<person name="Miranda-Saavedra D."/>
+<person name="Mukherjee M."/>
+<person name="Park G."/>
+<person name="Park J."/>
+<person name="Park S.-Y."/>
+<person name="Proctor R.H."/>
+<person name="Regev A."/>
+<person name="Ruiz-Roldan M.C."/>
+<person name="Sain D."/>
+<person name="Sakthikumar S."/>
+<person name="Sykes S."/>
+<person name="Schwartz D.C."/>
+<person name="Turgeon B.G."/>
+<person name="Wapinski I."/>
+<person name="Yoder O."/>
+<person name="Young S."/>
+<person name="Zeng Q."/>
+<person name="Zhou S."/>
+<person name="Galagan J."/>
+<person name="Cuomo C.A."/>
+<person name="Kistler H.C."/>
+<person name="Rep M."/>
+</authorList>
+<dbReference type="PubMed" id="20237561"/>
+<dbReference type="DOI" id="10.1038/nature08850"/>
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain>ATCC MYA-4620 / CBS 123657 / FGSC 9075 / NRRL 31084 / PH-1</strain>
+</source>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2015" name="BMC Genomics" volume="16" first="544" last="544">
+<title>The completed genome sequence of the pathogenic ascomycete fungus Fusarium graminearum.</title>
+<authorList>
+<person name="King R."/>
+<person name="Urban M."/>
+<person name="Hammond-Kosack M.C.U."/>
+<person name="Hassani-Pak K."/>
+<person name="Hammond-Kosack K.E."/>
+</authorList>
+<dbReference type="PubMed" id="26198851"/>
+<dbReference type="DOI" id="10.1186/s12864-015-1756-1"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC MYA-4620 / CBS 123657 / FGSC 9075 / NRRL 31084 / PH-1</strain>
+</source>
+</reference>
+<comment type="function">
+<text>TS is a member of the terpene cyclase group of enzymes. It catalyzes the isomerization and cyclization of farnesyl pyro-phosphate to form trichodiene, the first cyclic intermediate in the biosynthetic pathway for trichothecenes. It serves to branch trichothecene biosynthesis from the isoprenoid pathway.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>(2E,6E)-farnesyl diphosphate = diphosphate + trichodiene</text>
+<dbReference type="Rhea" id="RHEA:12052"/>
+<dbReference type="ChEBI" id="CHEBI:15861"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.6"/>
+</reaction>
+</comment>
+<comment type="pathway">
+<text>Sesquiterpene biosynthesis; trichothecene biosynthesis.</text>
+</comment>
+<comment type="miscellaneous">
+<text>Trichothecenes are sesquiterpenoid toxins that act by inhibiting protein biosynthesis.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the trichodiene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.6"/>
+<dbReference type="EMBL" id="U22464">
+<property type="protein sequence ID" value="AAB72033.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AF336366">
+<property type="protein sequence ID" value="AAK53586.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY102567">
+<property type="protein sequence ID" value="AAM48750.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY102581">
+<property type="protein sequence ID" value="AAM48862.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY102584">
+<property type="protein sequence ID" value="AAM48886.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY102587">
+<property type="protein sequence ID" value="AAM48910.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY102599">
+<property type="protein sequence ID" value="AAM49006.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY102603">
+<property type="protein sequence ID" value="AAM49038.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY102605">
+<property type="protein sequence ID" value="AAM49054.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AF359361">
+<property type="protein sequence ID" value="AAK33084.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY130290">
+<property type="protein sequence ID" value="AAN05032.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="DS231664">
+<property type="protein sequence ID" value="ESU09673.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="HG970333">
+<property type="protein sequence ID" value="CEF78359.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_011322172.1">
+<property type="nucleotide sequence ID" value="XM_011323870.1"/>
+</dbReference>
+<dbReference type="SMR" id="Q00909"/>
+<dbReference type="STRING" id="5518.FGSG_03537P0"/>
+<dbReference type="EnsemblFungi" id="ESU09673">
+<property type="protein sequence ID" value="ESU09673"/>
+<property type="gene ID" value="FGSG_03537"/>
+</dbReference>
+<dbReference type="GeneID" id="23550840"/>
+<dbReference type="KEGG" id="fgr:FGSG_03537"/>
+<dbReference type="VEuPathDB" id="FungiDB:FGRAMPH1_01G13111"/>
+<dbReference type="eggNOG" id="ENOG502SQ3X">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_733855_0_0_1"/>
+<dbReference type="InParanoid" id="Q00909"/>
+<dbReference type="BRENDA" id="4.2.3.6">
+<property type="organism ID" value="2428"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00267"/>
+<dbReference type="PHI-base" id="PHI:3518"/>
+<dbReference type="PHI-base" id="PHI:4243"/>
+<dbReference type="PHI-base" id="PHI:6797"/>
+<dbReference type="PHI-base" id="PHI:8390"/>
+<dbReference type="Proteomes" id="UP000070720">
+<property type="component" value="Chromosome 2"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045482">
+<property type="term" value="F:trichodiene synthase activity"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="PHI-base"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016106">
+<property type="term" value="P:sesquiterpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR010458">
+<property type="entry name" value="TRI5_ascomyc"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024652">
+<property type="entry name" value="Trichodiene_synth"/>
+</dbReference>
+<dbReference type="Pfam" id="PF06330">
+<property type="entry name" value="TRI5"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF001388">
+<property type="entry name" value="TRI5"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01021">
+<property type="entry name" value="Trichodiene_Synthase_Like"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Trichodiene synthase" id="PRO_0000221586">
+<location>
+<begin position="1"/>
+<end position="375"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In strain: NRRL 13383 and NRRL 28439.">
+<original>Q</original>
+<variation>K</variation>
+<location>
+<position position="54"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In strain: NRRL 28336.">
+<original>A</original>
+<variation>S</variation>
+<location>
+<position position="124"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In strain: NRRL 29169.">
+<original>E</original>
+<variation>K</variation>
+<location>
+<position position="133"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In strain: IBT1958.">
+<original>N</original>
+<variation>D</variation>
+<location>
+<position position="137"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In strain: NRRL 28336.">
+<original>H</original>
+<variation>N</variation>
+<location>
+<position position="206"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In strain: NRRL 28336.">
+<original>S</original>
+<variation>T</variation>
+<location>
+<position position="212"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In strain: NRRL 28336.">
+<original>S</original>
+<variation>A</variation>
+<location>
+<position position="278"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In strain: IBT1958.">
+<original>Q</original>
+<variation>K</variation>
+<location>
+<position position="317"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In strain: NRRL 28336.">
+<original>V</original>
+<variation>M</variation>
+<location>
+<position position="360"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In strain: NRRL 13383 and NRRL 28439.">
+<original>Q</original>
+<variation>H</variation>
+<location>
+<position position="364"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000305"/>
+<sequence length="375" mass="43943" checksum="2224743B33FE218D" modified="1998-01-01" version="2">MENFPTEYFLNTSVRLLEYIRYRDSNYTREERIENLHYAYNKAAHHFAQPRQQQMLKVDPKRLQASLQTIVGMVVYSWAKVSKECMADLSIHYTYTLVLDDSSDDPHPAMLNYFDDLQAGREQAHPWWALVNEHFPNVLRHFGPFCSLNLIRSTMDFFEGCWIEQYNFGGFPGSDDYPQFLRRMNGLGHCVGASLWPKDLFDERKHFLEITSAVAQMENWMVWVNDLMSFYKEFDDERDQISLVKNFVTCHEITLDEALEKLTQETLHSSKQMVAVFSDKDPQVMDTIECFMHGYVTWHLCDARYRLHEIYEKVKDQDTEDAKKFCKFFEQAANVGAVAPSEWAYPQVAQLANVRAKDDVKEAQKPILSSIELVE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>
