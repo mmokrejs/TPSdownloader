@@ -42,6 +42,50 @@ extra_substrate_colnames = ['Substrate (including stereochemistry)', 'Substrate 
 extra_cofactor_colnames = ['Cofactors', 'Cofactors compound description', 'Chemical formula of cofactor', 'SMILES of cofactor (including stereochemistry)']
 extra_intermediate_colnames = ['Name of intermediate', 'Intermediate compound description', 'Chemical formula of intermediate', 'SMILES of intermediate (including stereochemistry)']
 
+substrates = ['CHEBI:17211', 'CHEBI:14299', 'CHEBI:5332', 'CHEBI:42877', 'CHEBI:24223', 'CHEBI:58635', 'CHEBI:30939', 'CHEBI:10760', 'CHEBI:29558', 'CHEBI:57907', 'CHEBI:58756', 'CHEBI:58057', 'CHEBI:162247', 'CHEBI:60374', 'CHEBI:138307', 'CHEBI:61984', 'CHEBI:64801', 'CHEBI:15441', 'CHEBI:18728', 'CHEBI:11026', 'CHEBI:11072', 'CHEBI:372', 'CHEBI:58622', 'CHEBI:58206', 'CHEBI:64283', 'CHEBI:138223', 'CHEBI:58553', 'CHEBI:57533', 'CHEBI:7525', 'CHEBI:138305', 'CHEBI:15440', 'CHEBI:10843', 'CHEBI:9245', 'CHEBI:10795', 'CHEBI:15104', 'CHEBI:26746', 'CHEBI:64283', 'CHEBI:175763', 'CHEBI:17407', 'CHEBI:12874', 'CHEBI:11491', 'CHEBI:42496', 'CHEBI:10700', 'CHEBI:11488', 'CHEBI:12854', 'CHEBI:19789', 'CHEBI:138890', 'CHEBI:138232']
+# CHEBI:17211 CHEBI:14299, CHEBI:5332, CHEBI:42877, CHEBI:24223 GPP
+# CHEBI:58635 nebo CHEBI:30939 CHEBI:10760, CHEBI:29558 (+)-copalyl diphosphate
+# CHEBI:57907 (2E,6E,10E,14E)-GFPP
+# CHEBI:58756 (2E,6E,10E)-GGPP
+# CHEBI:58057 (2E)-GPP
+# CHEBI:162247 (2Z,6E)-FPP
+# CHEBI:60374 (2Z,6Z)-FPP
+# CHEBI:138307 (3S,22S)-2,3:22,23-diepoxy-2,3,22,23-tetrahydrosqualene
+# CHEBI:61984 (E)-2-MeGPP alias (E)-2-methylgeranyl diphosphate
+# CHEBI:64801 (R)-tetraprenyl-β-curcumene
+# CHEBI:15441 CHEBI:18728, CHEBI:11026, CHEBI:11072, CHEBI:372 (S)-2,3-epoxysqualene
+# CHEBI:58622 9α-copalyl PP
+# CHEBI:58206 all-trans-heptaprenyl PP
+# CHEBI:64283 copal-8-ol diphosphate(3−)
+# CHEBI:138223 ent-copal-8-ol diphosphate(3−)
+# CHEBI:58553 ent-copalyl diphosphate
+# CHEBI:57533 GGPP
+# CHEBI:7525 NPP
+# CHEBI:138305 pre-α-onocerin
+# CHEBI:15440 CHEBI:10843, CHEBI:9245, CHEBI:10795, CHEBI:15104, CHEBI:26746 squalene
+# CHEBI:64283 8-hydroxycopalyl diphosphate
+# (2E,6E)-FPP(3-) CHEBI:175763
+# CHEBI:17407 (E,E)-FPP FPP CHEBI:12874, CHEBI:11491, CHEBI:42496, CHEBI:10700, CHEBI:11488, CHEBI:12854, CHEBI:19789 (2-trans,6-trans-farnesyl diphosphate) alias (E,E)-FPP alias (2E,6E)-FPP
+# peregrinol diphosphate CHEBI:138890
+# peregrinol PP alias? peregrinol diphosphate(3−) CHEBI:138232
+# 
+# Nevyreseno:
+# (Z,Z)-FPP
+# NNPP
+
+cofactors = ['CHEBI:18420', 'CHEBI:15377', 'CHEBI:29035']
+# CHEBI:18420 Mg2+
+# CHEBI:29035 Mn2+
+# CHEBI:15377 H2O
+
+intermediates = ['CHEBI:63190', 'CHEBI:58622', 'CHEBI:63190', 'CHEBI:58553', 'CHEBI:64283', 'CHEBI:58635', 'CHEBI:30939', 'CHEBI:10760', 'CHEBI:29558']
+# CHEBI:63190 (+)-β-caryophyllene
+# CHEBI:58622 9α-copalyl diphosphate
+# CHEBI:63190 (S)-β-bisabolene
+# CHEBI:58553 ent-copalyl diphosphate
+# CHEBI:64283 copal-8-ol diphosphate(3−)
+# CHEBI:58635 CHEBI:30939 CHEBI:10760, CHEBI:29558 (+)-copalyl diphosphate
+
 
 def parse_list_or_set_line(line):
     _strlist = line.split(':')[1][1:-1]
@@ -106,7 +150,7 @@ def parse_known_terpenes(filename="terpene_names.uniq.txt"):
 # blacklist of IDs of reaction substrates or non-cyclic terpenes, etc., but *also* including β-farnesene CHEBI:10418
 # these IDs are not downloaded into the cache, unless they already were downloaded before addition to this list
 # IDs appearing in this list also do not get output into the output list of terpenes
-non_terpene_chebi_ids = ['CHEBI:35194', 'CHEBI:15377', 'CHEBI:33019', 'CHEBI:58057', 'CHEBI:128769', 'CHEBI:175763', 'CHEBI:57533', 'CHEBI:10418', 'CHEBI:10280', 'CHEBI:175763', 'CHEBI:64283', 'CHEBI:58756', 'CHEBI:15441', 'CHEBI:58622', 'CHEBI:58553', 'CHEBI:57665', 'CHEBI:58635', 'CHEBI:15440', 'CHEBI:138223', 'CHEBI:128769', 'CHEBI:57907', 'CHEBI:64801', 'CHEBI:61984', 'CHEBI:58206', 'CHEBI:138167', 'CHEBI:15347', 'CHEBI:162247', 'CHEBI:17221', 'CHEBI:60374', 'CHEBI:61746', 'CHEBI:98', 'CHEBI:46702', 'CHEBI:61987', 'CHEBI:16240', 'CHEBI:35757', 'CHEBI:3407', 'CHEBI:13657', 'CHEBI:25382', 'CHEBI:43474', 'CHEBI:43470', 'CHEBI:29139', 'CHEBI:61987', 'CHEBI:28938', 'CHEBI:83628', 'CHEBI:24646', 'CHEBI:134188', 'CHEBI:28938', 'CHEBI:22534', 'CHEBI:49783', 'CHEBI:7435', 'CHEBI:139521', 'CHEBI:15379', 'CHEBI:44742', 'CHEBI:7860', 'CHEBI:10745', 'CHEBI:13416', 'CHEBI:23833', 'CHEBI:25366', 'CHEBI:29097', 'CHEBI:30491', 'CHEBI:139520', 'CHEBI:132124', 'CHEBI:57540', 'CHEBI:58340', 'CHEBI:128753', 'CHEBI:33384', 'CHEBI:17268', 'CHEBI:57288', 'CHEBI:33738', 'CHEBI:33737', 'CHEBI:58720', 'CHEBI:57783', 'CHEBI:57287', 'CHEBI:15378', 'CHEBI:57623']
+non_terpene_chebi_ids = set(['CHEBI:35194', 'CHEBI:15377', 'CHEBI:33019', 'CHEBI:58057', 'CHEBI:128769', 'CHEBI:175763', 'CHEBI:57533', 'CHEBI:10418', 'CHEBI:10280', 'CHEBI:175763', 'CHEBI:64283', 'CHEBI:58756', 'CHEBI:15441', 'CHEBI:58622', 'CHEBI:58553', 'CHEBI:57665', 'CHEBI:58635', 'CHEBI:15440', 'CHEBI:138223', 'CHEBI:128769', 'CHEBI:57907', 'CHEBI:64801', 'CHEBI:61984', 'CHEBI:58206', 'CHEBI:138167', 'CHEBI:15347', 'CHEBI:162247', 'CHEBI:17221', 'CHEBI:60374', 'CHEBI:61746', 'CHEBI:98', 'CHEBI:46702', 'CHEBI:61987', 'CHEBI:16240', 'CHEBI:35757', 'CHEBI:3407', 'CHEBI:13657', 'CHEBI:25382', 'CHEBI:43474', 'CHEBI:43470', 'CHEBI:29139', 'CHEBI:61987', 'CHEBI:28938', 'CHEBI:83628', 'CHEBI:24646', 'CHEBI:134188', 'CHEBI:28938', 'CHEBI:22534', 'CHEBI:49783', 'CHEBI:7435', 'CHEBI:139521', 'CHEBI:15379', 'CHEBI:44742', 'CHEBI:7860', 'CHEBI:10745', 'CHEBI:13416', 'CHEBI:23833', 'CHEBI:25366', 'CHEBI:29097', 'CHEBI:30491', 'CHEBI:139520', 'CHEBI:132124', 'CHEBI:57540', 'CHEBI:58340', 'CHEBI:128753', 'CHEBI:33384', 'CHEBI:17268', 'CHEBI:57288', 'CHEBI:33738', 'CHEBI:33737', 'CHEBI:58720', 'CHEBI:57783', 'CHEBI:57287', 'CHEBI:15378', 'CHEBI:57623']) - set(substrates) - set(cofactors) - set(intermediates)
 # CHEBI:35194 - isoprene
 # CHEBI:33019 - diphosphate(3−)
 # CHEBI:58057 - geranyl diphosphate(3−)
@@ -636,6 +680,7 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
                     chebi_dict_of_lists['Type (mono, sesq, di, …)'].append(_terpene_type)
                 else:
                     chebi_dict_of_lists['Type (mono, sesq, di, …)'].append('')
+            # print("%s: _chebi_id=%s, _old_vector=%s" % (accessions[0], _chebi_id, str(_old_vector)))
 
         if _has_substrate:
             uniprot_dict_of_lists['Substrate ChEBI IDs'].append(_substrate_ids)
@@ -692,7 +737,7 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
                 uniprot_dict_of_lists[_colname].append([])
         else:
             _indexes = [chebi_dict_of_lists['ChEBI ID'].index(x) for x in _cofactor_ids]
-            uniprot_dict_of_lists['Cofactors'].append([chebi_dict_of_lists['Compound name'][x] or x in _indexes])
+            uniprot_dict_of_lists['Cofactors'].append([chebi_dict_of_lists['Compound name'][x] for x in _indexes])
             uniprot_dict_of_lists['Cofactors compound description'].append([chebi_dict_of_lists['Compound description'][x] for x in _indexes])
             uniprot_dict_of_lists['Chemical formula of cofactor'].append([chebi_dict_of_lists['Formula'][x] for x in _indexes])
             uniprot_dict_of_lists['SMILES of cofactor (including stereochemistry)'].append([chebi_dict_of_lists['SMILES'][x] for x in _indexes])
@@ -848,49 +893,14 @@ def split_chebi_data_into_substrates_and_products(_chebi_id2, _terpene_type, sub
     _has_intermediate = False
     _has_cofactor = False
 
-    if _terpene_type:
-        product_ids.append(_chebi_id2)
-        _has_product = True
-    elif _chebi_id2 in ['CHEBI:17211', 'CHEBI:14299', 'CHEBI:5332', 'CHEBI:42877', 'CHEBI:24223', 'CHEBI:58635', 'CHEBI:30939', 'CHEBI:10760', 'CHEBI:29558', 'CHEBI:57907', 'CHEBI:58756', 'CHEBI:58057', 'CHEBI:162247', 'CHEBI:60374', 'CHEBI:138307', 'CHEBI:61984', 'CHEBI:64801', 'CHEBI:15441', 'CHEBI:18728', 'CHEBI:11026', 'CHEBI:11072', 'CHEBI:372', 'CHEBI:58622', 'CHEBI:58206', 'CHEBI:64283', 'CHEBI:138223', 'CHEBI:58553', 'CHEBI:57533', 'CHEBI:7525', 'CHEBI:138305', 'CHEBI:15440', 'CHEBI:10843', 'CHEBI:9245', 'CHEBI:10795', 'CHEBI:15104', 'CHEBI:26746', 'CHEBI:64283', 'CHEBI:175763', 'CHEBI:17407', 'CHEBI:12874', 'CHEBI:11491', 'CHEBI:42496', 'CHEBI:10700', 'CHEBI:11488', 'CHEBI:12854', 'CHEBI:19789', 'CHEBI:138890', 'CHEBI:138232']: # substrates
-        # CHEBI:17211 CHEBI:14299, CHEBI:5332, CHEBI:42877, CHEBI:24223 GPP
-        # CHEBI:58635 nebo CHEBI:30939 CHEBI:10760, CHEBI:29558 (+)-copalyl diphosphate
-        # CHEBI:57907 (2E,6E,10E,14E)-GFPP
-        # CHEBI:58756 (2E,6E,10E)-GGPP
-        # CHEBI:58057 (2E)-GPP
-        # CHEBI:162247 (2Z,6E)-FPP
-        # CHEBI:60374 (2Z,6Z)-FPP
-        # CHEBI:138307 (3S,22S)-2,3:22,23-diepoxy-2,3,22,23-tetrahydrosqualene
-        # CHEBI:61984 (E)-2-MeGPP alias (E)-2-methylgeranyl diphosphate
-        # CHEBI:64801 (R)-tetraprenyl-β-curcumene
-        # CHEBI:15441 CHEBI:18728, CHEBI:11026, CHEBI:11072, CHEBI:372 (S)-2,3-epoxysqualene
-        # CHEBI:58622 9α-copalyl PP
-        # CHEBI:58206 all-trans-heptaprenyl PP
-        # CHEBI:64283 copal-8-ol diphosphate(3−)
-        # CHEBI:138223 ent-copal-8-ol diphosphate(3−)
-        # CHEBI:58553 ent-copalyl diphosphate
-        # CHEBI:57533 GGPP
-        # CHEBI:7525 NPP
-        # CHEBI:138305 pre-α-onocerin
-        # CHEBI:15440 CHEBI:10843, CHEBI:9245, CHEBI:10795, CHEBI:15104, CHEBI:26746 squalene
-        # CHEBI:64283 8-hydroxycopalyl diphosphate
-        # (2E,6E)-FPP(3-) CHEBI:175763
-        # CHEBI:17407 (E,E)-FPP FPP CHEBI:12874, CHEBI:11491, CHEBI:42496, CHEBI:10700, CHEBI:11488, CHEBI:12854, CHEBI:19789 (2-trans,6-trans-farnesyl diphosphate) alias (E,E)-FPP alias (2E,6E)-FPP
-        # peregrinol diphosphate CHEBI:138890
-        # peregrinol PP alias? peregrinol diphosphate(3−) CHEBI:138232
-        # 
-        # Nevyreseno:
-        # (Z,Z)-FPP
-        # NNPP
-        # 
+    if _chebi_id2 in substrates:
         substrate_ids.append(_chebi_id2)
         _has_substrate = True
-    elif _chebi_id2 in ['CHEBI:18420', 'CHEBI:15377', 'CHEBI:29035']: # cofactors
-        # CHEBI:18420 Mg2+
-        # CHEBI:29035 Mn2+
-        # CHEBI:15377 H2O
+        # print("Found substrate %s" % _chebi_id2)
+    elif _chebi_id2 in cofactors:
         cofactor_ids.append(_chebi_id2)
         _has_cofactor = True
-    elif ['CHEBI:63190', 'CHEBI:58622', 'CHEBI:63190', 'CHEBI:58553', 'CHEBI:64283', 'CHEBI:58635', 'CHEBI:30939', 'CHEBI:10760', 'CHEBI:29558']:
+    elif _chebi_id2 in intermediates:
         # CHEBI:63190 (+)-β-caryophyllene
         # CHEBI:58622 9α-copalyl diphosphate
         # CHEBI:63190 (S)-β-bisabolene
@@ -899,6 +909,9 @@ def split_chebi_data_into_substrates_and_products(_chebi_id2, _terpene_type, sub
         # CHEBI:58635 CHEBI:30939 CHEBI:10760, CHEBI:29558 (+)-copalyl diphosphate
         intermediate_ids.append(_chebi_id2)
         _has_intermediate = True
+    elif _terpene_type:
+        product_ids.append(_chebi_id2)
+        _has_product = True
     else:
         raise ValueError("Unexpected compound %s" % _chebi_id2)
 
@@ -1033,22 +1046,21 @@ def main():
                     # _uniprot_dict_of_lists['ChEBI ID'][_uniprot_row_pos] = ['CHEBI:128', 'CHEBI:15383', 'CHEBI:10577', 'CHEBI:9457', 'CHEBI:78884']
                     # _chebi_ids = ['CHEBI:128', 'CHEBI:15383', 'CHEBI:10577', 'CHEBI:9457', 'CHEBI:78884'], _chebi_id2 = CHEBI:78884, _indexes = [0]
                     for _column in _chebi_dict_of_lists.keys():
-                        if _column in ['ChEBI ID', 'Substrate ChEBI IDs', 'Intermediate ChEBI IDs', 'Product ChEBI IDs', 'Cofactors ChEBI IDs']:
+                        if _column in ['Substrate ChEBI IDs', 'Intermediate ChEBI IDs', 'Product ChEBI IDs', 'Cofactors ChEBI IDs']:
                             #if _debug:
                             #    print("_chebi_dict_of_lists[_column][_chebi_row_pos] = %s" % str(_chebi_dict_of_lists[_column][_chebi_row_pos]))
                             #    print("_uniprot_dict_of_lists['ChEBI ID'][_uniprot_row_pos] = %s" % str(_uniprot_dict_of_lists['ChEBI ID'][_uniprot_row_pos]))
                             #    print("_chebi_ids = %s, _chebi_id2 = %s" % (str(_chebi_ids), str(_chebi_id2)))
                             #    print("_chebi_ids_index=%s, _chebi_row_pos=%s" % (_chebi_ids_index, _chebi_row_pos))
                             #    print("Column names: %s" % str(_chebi_dict_of_lists.keys()))
-                            _val = _chebi_dict_of_lists[_column][_chebi_row_pos]
-                            if _val:
-                                _output_dict_of_lists[_column].append(_val)
-                            else:
-                                _output_dict_of_lists[_column].append('')
+                            try:
+                                _val = _chebi_dict_of_lists[_column][_chebi_row_pos][_chebi_ids_index] # slice out for ['Substrate ChEBI IDs', 'Intermediate ChEBI IDs', 'Product ChEBI IDs', 'Cofactors ChEBI IDs']
+                            except IndexError:
+                                _val = _chebi_dict_of_lists[_column][_chebi_row_pos]
                         else:
                             # _chebi_dict_of_lists column names: ['ChEBI ID', 'Compound name', 'Compound description', 'Formula', 'SMILES', 'Type (mono, sesq, di, …)']
                             # _output_dict_of_lists column names: ['Product ChEBI IDs', 'Name of product', 'Product compound description', 'Chemical formula of product', 'SMILES of product (including stereochemistry)']
-                            if _column in ['Compound name', 'Compound description', 'Formula', 'SMILES']:
+                            if _column in ['Compound name', 'Compound description']:
                                 try:
                                     _val = _chebi_dict_of_lists[_column][_chebi_row_pos][_chebi_ids_index] # slice out for 'Product ChEBI IDs', 'Name of product', 'Product compound description', 'Chemical formula of product', 'SMILES of product (including stereochemistry)' columns using _chebi_ids_index
                                 except IndexError:
@@ -1056,10 +1068,10 @@ def main():
                                     # raise IndexError("Cannot slice over column %s" % _column) # well, some column are still totally empty
                             else:
                                 _val = _chebi_dict_of_lists[_column][_chebi_row_pos]
-                            if _val:
-                                _output_dict_of_lists[_column].append(_val)
-                            else:
-                                _output_dict_of_lists[_column].append('')
+                        if _val:
+                            _output_dict_of_lists[_column].append(_val)
+                        else:
+                            _output_dict_of_lists[_column].append('')
         else:
             # re-copy just the Uniprot-originating data
             for _column in _uniprot_dict_of_lists.keys():
@@ -1074,7 +1086,7 @@ def main():
                     else:
                         _output_dict_of_lists[_column].append('')
 
-            # fill-in the ChEBI-originating data
+            # fill-in the missing ChEBI data placeholders
             for _column in _chebi_dict_of_lists.keys():
                 _output_dict_of_lists[_column].append('')
 
