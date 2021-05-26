@@ -260,7 +260,7 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
     _uniprot_name = None
     _protein_names = [] # sometimes UniProt has unset protein_names and also feature_description
     _feature_descriptions = []
-    _chebi_ids = set()
+    _chebi_ids = []
     _sequence = None
     _organism = None
     _lineage = None
@@ -290,7 +290,7 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
             _uniprot_name = None
             _protein_names = [] # sometimes UniProt has unset protein_names and also feature_description
             _feature_descriptions = []
-            _chebi_ids = set()
+            _chebi_ids = []
             _sequence = None
             _organism = None
             _lineage = None
@@ -377,7 +377,7 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                                     _lineage += [sschild.text]
 
                 if _chebi_ids_local:
-                    _chebi_ids.update(set(_chebi_ids_local))
+                    _chebi_ids += list(set(_chebi_ids_local))
                     _chebi_ids_local = []
     
     if not _protein_names:
@@ -646,7 +646,7 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
         else:
             uniprot_dict_of_lists['Intermediate ChEBI IDs'].append([])
         if _has_product:
-            uniprot_dict_of_lists['Product ChEBI IDs'].append([x for x in _product_ids]) # if x == uniprot_dict_of_lists['ChEBI ID'][-1]])
+            uniprot_dict_of_lists['Product ChEBI IDs'].append(_product_ids)
         else:
             uniprot_dict_of_lists['Product ChEBI IDs'].append([])
         if _has_cofactor:
@@ -660,7 +660,7 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
             for _colname in extra_product_colnames:
                 uniprot_dict_of_lists[_colname].append([])
         else:
-            _indexes = [chebi_dict_of_lists['ChEBI ID'].index(x) for x in _product_ids] # if x == uniprot_dict_of_lists['ChEBI ID'][-1]] # maybe here filter for some IDs?
+            _indexes = [chebi_dict_of_lists['ChEBI ID'].index(x) for x in _product_ids]
             #_uniprot_index = uniprot_dict_of_lists['ChEBI ID'].index(accessions[0])
             uniprot_dict_of_lists['Name of product'].append([chebi_dict_of_lists['Compound name'][x] for x in _indexes])
             uniprot_dict_of_lists['Product compound description'].append([chebi_dict_of_lists['Compound description'][x] for x in _indexes])
@@ -981,7 +981,7 @@ def main():
             print_dict_lengths(_output_dict_of_lists, '_output_dict_of_lists')
             raise ValueError("Sizes do not match,\n_output_dict_of_lists: %s\n" % str(_output_dict_of_lists))
         if _chebi_ids and list(_chebi_ids):
-            for _chebi_id in _chebi_ids:
+            for _chebi_ids_index, _chebi_id in enumerate(_chebi_ids):
                 _chebi_row_pos = _chebi_dict_of_lists['ChEBI ID'].index(_chebi_id)
                 if _chebi_id:
                     _chebi_id2 = _chebi_dict_of_lists['ChEBI ID'][_chebi_row_pos]
@@ -993,22 +993,73 @@ def main():
                 if myoptions.debug > 1: print("Found ChEBI ID in Uniprot data: %s at row %s, also in ChEBI data: %s at row %s" % (_chebi_id, _uniprot_row_pos, _chebi_id2, _chebi_row_pos))
                 if myoptions.debug > 1: print("  _chebi_row_pos=%s" % _chebi_row_pos)
 
-                # re-copy the Uniprot-originating data
-                for _column in _uniprot_dict_of_lists.keys():
-                    if _column != 'ChEBI ID':
-                        _val = _uniprot_dict_of_lists[_column][_uniprot_row_pos]
-                        if _val:
-                            _output_dict_of_lists[_column].append(_val)
-                        else:
-                            _output_dict_of_lists[_column].append('')
+                if _chebi_id == _chebi_ids[_chebi_ids_index]:
+                    # re-copy the Uniprot-originating data
+                    for _column in _uniprot_dict_of_lists.keys():
+                        if _column != 'ChEBI ID':
+                            if _column in ['Substrate ChEBI IDs', 'Intermediate ChEBI IDs', 'Product ChEBI IDs', 'Cofactors ChEBI IDs'] + extra_product_colnames + extra_substrate_colnames + extra_cofactor_colnames + extra_intermediate_colnames:
+                                try:
+                                    _val = _uniprot_dict_of_lists[_column][_uniprot_row_pos][_chebi_ids_index] # slice out for 'Product ChEBI IDs', 'Name of product', 'Product compound description', 'Chemical formula of product', 'SMILES of product (including stereochemistry)' columns using _chebi_ids_index
+                                except IndexError:
+                                    _val = _uniprot_dict_of_lists[_column][_uniprot_row_pos] # well, some column are still totally empty
+                            else:
+                                _val = _uniprot_dict_of_lists[_column][_uniprot_row_pos]
+                            if _val:
+                                _output_dict_of_lists[_column].append(_val)
+                            else:
+                                _output_dict_of_lists[_column].append('')
 
-                # fill-in the ChEBI-originating data
-                for _column in _chebi_dict_of_lists.keys():
-                    _val = _chebi_dict_of_lists[_column][_chebi_row_pos]
-                    if _val:
-                        _output_dict_of_lists[_column].append(_val)
-                    else:
-                        _output_dict_of_lists[_column].append('')
+                    # fill-in the ChEBI-originating data
+                    # copy-out values from _chebi_dict_of_lists but only if they match ChEBI ID stored in _uniprot_dict_of_lists['Uniprot ID'] or are on the same line in _chebi_dict_of_lists
+                    # if _uniprot_entry[0] == 'A0A1D6LTV0':
+                    #     _debug = 1
+                    # else:
+                    #     _debug = 0
+
+                    # Uniprot ID: A0A1D6LTV0
+                    # _chebi_dict_of_lists[_column][_chebi_row_pos] = CHEBI:128
+                    # _uniprot_dict_of_lists['ChEBI ID'][_uniprot_row_pos] = ['CHEBI:128', 'CHEBI:15383', 'CHEBI:10577', 'CHEBI:9457', 'CHEBI:78884']
+                    # _chebi_ids = ['CHEBI:128', 'CHEBI:15383', 'CHEBI:10577', 'CHEBI:9457', 'CHEBI:78884'], _chebi_id2 = CHEBI:128, _indexes = [0]
+                    # _chebi_dict_of_lists[_column][_chebi_row_pos] = CHEBI:15383
+                    # _uniprot_dict_of_lists['ChEBI ID'][_uniprot_row_pos] = ['CHEBI:128', 'CHEBI:15383', 'CHEBI:10577', 'CHEBI:9457', 'CHEBI:78884']
+                    # _chebi_ids = ['CHEBI:128', 'CHEBI:15383', 'CHEBI:10577', 'CHEBI:9457', 'CHEBI:78884'], _chebi_id2 = CHEBI:15383, _indexes = [0]
+                    # _chebi_dict_of_lists[_column][_chebi_row_pos] = CHEBI:10577
+                    # _uniprot_dict_of_lists['ChEBI ID'][_uniprot_row_pos] = ['CHEBI:128', 'CHEBI:15383', 'CHEBI:10577', 'CHEBI:9457', 'CHEBI:78884']
+                    # _chebi_ids = ['CHEBI:128', 'CHEBI:15383', 'CHEBI:10577', 'CHEBI:9457', 'CHEBI:78884'], _chebi_id2 = CHEBI:10577, _indexes = [0]
+                    # _chebi_dict_of_lists[_column][_chebi_row_pos] = CHEBI:9457
+                    # _uniprot_dict_of_lists['ChEBI ID'][_uniprot_row_pos] = ['CHEBI:128', 'CHEBI:15383', 'CHEBI:10577', 'CHEBI:9457', 'CHEBI:78884']
+                    # _chebi_ids = ['CHEBI:128', 'CHEBI:15383', 'CHEBI:10577', 'CHEBI:9457', 'CHEBI:78884'], _chebi_id2 = CHEBI:9457, _indexes = [0]
+                    # _chebi_dict_of_lists[_column][_chebi_row_pos] = CHEBI:78884
+                    # _uniprot_dict_of_lists['ChEBI ID'][_uniprot_row_pos] = ['CHEBI:128', 'CHEBI:15383', 'CHEBI:10577', 'CHEBI:9457', 'CHEBI:78884']
+                    # _chebi_ids = ['CHEBI:128', 'CHEBI:15383', 'CHEBI:10577', 'CHEBI:9457', 'CHEBI:78884'], _chebi_id2 = CHEBI:78884, _indexes = [0]
+                    for _column in _chebi_dict_of_lists.keys():
+                        if _column in ['ChEBI ID', 'Substrate ChEBI IDs', 'Intermediate ChEBI IDs', 'Product ChEBI IDs', 'Cofactors ChEBI IDs']:
+                            #if _debug:
+                            #    print("_chebi_dict_of_lists[_column][_chebi_row_pos] = %s" % str(_chebi_dict_of_lists[_column][_chebi_row_pos]))
+                            #    print("_uniprot_dict_of_lists['ChEBI ID'][_uniprot_row_pos] = %s" % str(_uniprot_dict_of_lists['ChEBI ID'][_uniprot_row_pos]))
+                            #    print("_chebi_ids = %s, _chebi_id2 = %s" % (str(_chebi_ids), str(_chebi_id2)))
+                            #    print("_chebi_ids_index=%s, _chebi_row_pos=%s" % (_chebi_ids_index, _chebi_row_pos))
+                            #    print("Column names: %s" % str(_chebi_dict_of_lists.keys()))
+                            _val = _chebi_dict_of_lists[_column][_chebi_row_pos]
+                            if _val:
+                                _output_dict_of_lists[_column].append(_val)
+                            else:
+                                _output_dict_of_lists[_column].append('')
+                        else:
+                            # _chebi_dict_of_lists column names: ['ChEBI ID', 'Compound name', 'Compound description', 'Formula', 'SMILES', 'Type (mono, sesq, di, …)']
+                            # _output_dict_of_lists column names: ['Product ChEBI IDs', 'Name of product', 'Product compound description', 'Chemical formula of product', 'SMILES of product (including stereochemistry)']
+                            if _column in ['Compound name', 'Compound description', 'Formula', 'SMILES']:
+                                try:
+                                    _val = _chebi_dict_of_lists[_column][_chebi_row_pos][_chebi_ids_index] # slice out for 'Product ChEBI IDs', 'Name of product', 'Product compound description', 'Chemical formula of product', 'SMILES of product (including stereochemistry)' columns using _chebi_ids_index
+                                except IndexError:
+                                    _val = _chebi_dict_of_lists[_column][_chebi_row_pos]
+                                    # raise IndexError("Cannot slice over column %s" % _column) # well, some column are still totally empty
+                            else:
+                                _val = _chebi_dict_of_lists[_column][_chebi_row_pos]
+                            if _val:
+                                _output_dict_of_lists[_column].append(_val)
+                            else:
+                                _output_dict_of_lists[_column].append('')
         else:
             # re-copy just the Uniprot-originating data
             for _column in _uniprot_dict_of_lists.keys():
