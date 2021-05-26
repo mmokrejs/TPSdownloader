@@ -42,7 +42,7 @@ extra_substrate_colnames = ['Substrate (including stereochemistry)', 'Substrate 
 extra_cofactor_colnames = ['Cofactors', 'Cofactors compound description', 'Chemical formula of cofactor', 'SMILES of cofactor (including stereochemistry)']
 extra_intermediate_colnames = ['Name of intermediate', 'Intermediate compound description', 'Chemical formula of intermediate', 'SMILES of intermediate (including stereochemistry)']
 
-substrates = ['CHEBI:17211', 'CHEBI:14299', 'CHEBI:5332', 'CHEBI:42877', 'CHEBI:24223', 'CHEBI:58635', 'CHEBI:30939', 'CHEBI:10760', 'CHEBI:29558', 'CHEBI:57907', 'CHEBI:58756', 'CHEBI:58057', 'CHEBI:162247', 'CHEBI:60374', 'CHEBI:138307', 'CHEBI:61984', 'CHEBI:64801', 'CHEBI:15441', 'CHEBI:18728', 'CHEBI:11026', 'CHEBI:11072', 'CHEBI:372', 'CHEBI:58622', 'CHEBI:58206', 'CHEBI:64283', 'CHEBI:138223', 'CHEBI:58553', 'CHEBI:57533', 'CHEBI:7525', 'CHEBI:138305', 'CHEBI:15440', 'CHEBI:10843', 'CHEBI:9245', 'CHEBI:10795', 'CHEBI:15104', 'CHEBI:26746', 'CHEBI:64283', 'CHEBI:175763', 'CHEBI:17407', 'CHEBI:12874', 'CHEBI:11491', 'CHEBI:42496', 'CHEBI:10700', 'CHEBI:11488', 'CHEBI:12854', 'CHEBI:19789', 'CHEBI:138890', 'CHEBI:138232']
+substrates = set(['CHEBI:17211', 'CHEBI:14299', 'CHEBI:5332', 'CHEBI:42877', 'CHEBI:24223', 'CHEBI:58635', 'CHEBI:30939', 'CHEBI:10760', 'CHEBI:29558', 'CHEBI:57907', 'CHEBI:58756', 'CHEBI:58057', 'CHEBI:162247', 'CHEBI:60374', 'CHEBI:138307', 'CHEBI:61984', 'CHEBI:64801', 'CHEBI:15441', 'CHEBI:18728', 'CHEBI:11026', 'CHEBI:11072', 'CHEBI:372', 'CHEBI:58622', 'CHEBI:58206', 'CHEBI:64283', 'CHEBI:138223', 'CHEBI:58553', 'CHEBI:57533', 'CHEBI:7525', 'CHEBI:138305', 'CHEBI:15440', 'CHEBI:10843', 'CHEBI:9245', 'CHEBI:10795', 'CHEBI:15104', 'CHEBI:26746', 'CHEBI:64283', 'CHEBI:175763', 'CHEBI:17407', 'CHEBI:12874', 'CHEBI:11491', 'CHEBI:42496', 'CHEBI:10700', 'CHEBI:11488', 'CHEBI:12854', 'CHEBI:19789', 'CHEBI:138890', 'CHEBI:138232'])
 # CHEBI:17211 CHEBI:14299, CHEBI:5332, CHEBI:42877, CHEBI:24223 GPP
 # CHEBI:58635 nebo CHEBI:30939 CHEBI:10760, CHEBI:29558 (+)-copalyl diphosphate
 # CHEBI:57907 (2E,6E,10E,14E)-GFPP
@@ -73,18 +73,20 @@ substrates = ['CHEBI:17211', 'CHEBI:14299', 'CHEBI:5332', 'CHEBI:42877', 'CHEBI:
 # (Z,Z)-FPP
 # NNPP
 
-cofactors = ['CHEBI:18420', 'CHEBI:15377', 'CHEBI:29035']
+cofactors = set(['CHEBI:18420', 'CHEBI:15377', 'CHEBI:29035'])
 # CHEBI:18420 Mg2+
 # CHEBI:29035 Mn2+
 # CHEBI:15377 H2O
 
-intermediates = ['CHEBI:63190', 'CHEBI:58622', 'CHEBI:63190', 'CHEBI:58553', 'CHEBI:64283', 'CHEBI:58635', 'CHEBI:30939', 'CHEBI:10760', 'CHEBI:29558']
+# disabling intermediates altogether, they should be treated as products
+# intermediates = ['CHEBI:63190', 'CHEBI:58622', 'CHEBI:63190', 'CHEBI:58553', 'CHEBI:64283', 'CHEBI:58635', 'CHEBI:30939', 'CHEBI:10760', 'CHEBI:29558']
 # CHEBI:63190 (+)-β-caryophyllene
 # CHEBI:58622 9α-copalyl diphosphate
 # CHEBI:63190 (S)-β-bisabolene
 # CHEBI:58553 ent-copalyl diphosphate
 # CHEBI:64283 copal-8-ol diphosphate(3−)
 # CHEBI:58635 CHEBI:30939 CHEBI:10760, CHEBI:29558 (+)-copalyl diphosphate
+intermediates = set([])
 
 
 def parse_list_or_set_line(line):
@@ -136,7 +138,7 @@ def parse_known_terpenes(filename="terpene_names.uniq.txt"):
     """
 
     _terpenes = []
-    with open("terpene_names.uniq.txt") as _file:
+    with open(filename) as _file:
         for _line in _file:
             if _line[0] != '#':
                 if _line[0] != '"':
@@ -150,7 +152,7 @@ def parse_known_terpenes(filename="terpene_names.uniq.txt"):
 # blacklist of IDs of reaction substrates or non-cyclic terpenes, etc., but *also* including β-farnesene CHEBI:10418
 # these IDs are not downloaded into the cache, unless they already were downloaded before addition to this list
 # IDs appearing in this list also do not get output into the output list of terpenes
-non_terpene_chebi_ids = set(['CHEBI:35194', 'CHEBI:15377', 'CHEBI:33019', 'CHEBI:58057', 'CHEBI:128769', 'CHEBI:175763', 'CHEBI:57533', 'CHEBI:10418', 'CHEBI:10280', 'CHEBI:175763', 'CHEBI:64283', 'CHEBI:58756', 'CHEBI:15441', 'CHEBI:58622', 'CHEBI:58553', 'CHEBI:57665', 'CHEBI:58635', 'CHEBI:15440', 'CHEBI:138223', 'CHEBI:128769', 'CHEBI:57907', 'CHEBI:64801', 'CHEBI:61984', 'CHEBI:58206', 'CHEBI:138167', 'CHEBI:15347', 'CHEBI:162247', 'CHEBI:17221', 'CHEBI:60374', 'CHEBI:61746', 'CHEBI:98', 'CHEBI:46702', 'CHEBI:61987', 'CHEBI:16240', 'CHEBI:35757', 'CHEBI:3407', 'CHEBI:13657', 'CHEBI:25382', 'CHEBI:43474', 'CHEBI:43470', 'CHEBI:29139', 'CHEBI:61987', 'CHEBI:28938', 'CHEBI:83628', 'CHEBI:24646', 'CHEBI:134188', 'CHEBI:28938', 'CHEBI:22534', 'CHEBI:49783', 'CHEBI:7435', 'CHEBI:139521', 'CHEBI:15379', 'CHEBI:44742', 'CHEBI:7860', 'CHEBI:10745', 'CHEBI:13416', 'CHEBI:23833', 'CHEBI:25366', 'CHEBI:29097', 'CHEBI:30491', 'CHEBI:139520', 'CHEBI:132124', 'CHEBI:57540', 'CHEBI:58340', 'CHEBI:128753', 'CHEBI:33384', 'CHEBI:17268', 'CHEBI:57288', 'CHEBI:33738', 'CHEBI:33737', 'CHEBI:58720', 'CHEBI:57783', 'CHEBI:57287', 'CHEBI:15378', 'CHEBI:57623']) - set(substrates) - set(cofactors) - set(intermediates)
+non_terpene_chebi_ids = set(['CHEBI:35194', 'CHEBI:15377', 'CHEBI:33019', 'CHEBI:58057', 'CHEBI:128769', 'CHEBI:175763', 'CHEBI:57533', 'CHEBI:10418', 'CHEBI:10280', 'CHEBI:175763', 'CHEBI:64283', 'CHEBI:58756', 'CHEBI:15441', 'CHEBI:58622', 'CHEBI:58553', 'CHEBI:57665', 'CHEBI:58635', 'CHEBI:15440', 'CHEBI:138223', 'CHEBI:128769', 'CHEBI:57907', 'CHEBI:64801', 'CHEBI:61984', 'CHEBI:58206', 'CHEBI:138167', 'CHEBI:15347', 'CHEBI:162247', 'CHEBI:17221', 'CHEBI:60374', 'CHEBI:61746', 'CHEBI:98', 'CHEBI:46702', 'CHEBI:61987', 'CHEBI:16240', 'CHEBI:35757', 'CHEBI:3407', 'CHEBI:13657', 'CHEBI:25382', 'CHEBI:43474', 'CHEBI:43470', 'CHEBI:29139', 'CHEBI:61987', 'CHEBI:28938', 'CHEBI:83628', 'CHEBI:24646', 'CHEBI:134188', 'CHEBI:28938', 'CHEBI:22534', 'CHEBI:49783', 'CHEBI:7435', 'CHEBI:139521', 'CHEBI:15379', 'CHEBI:44742', 'CHEBI:7860', 'CHEBI:10745', 'CHEBI:13416', 'CHEBI:23833', 'CHEBI:25366', 'CHEBI:29097', 'CHEBI:30491', 'CHEBI:139520', 'CHEBI:132124', 'CHEBI:57540', 'CHEBI:58340', 'CHEBI:128753', 'CHEBI:33384', 'CHEBI:17268', 'CHEBI:57288', 'CHEBI:33738', 'CHEBI:33737', 'CHEBI:58720', 'CHEBI:57783', 'CHEBI:57287', 'CHEBI:15378', 'CHEBI:57623']) - substrates - cofactors - intermediates
 # CHEBI:35194 - isoprene
 # CHEBI:33019 - diphosphate(3−)
 # CHEBI:58057 - geranyl diphosphate(3−)
@@ -650,7 +652,6 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
         _cofactor_ids = []
         _old_vector = (False, False, False, False)
         _has_product, _has_substrate, _has_intermediate, _has_cofactor = None, None, None, None
-        _terpene_type_saved = ''
         for _chebi_id in chebi_ids:
             download_chebi(_chebi_id)
             _filename = ".TPSdownloader_cache" + os.path.sep + 'chebi' + os.path.sep + _chebi_id + '.xml'
@@ -667,9 +668,6 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
                 _has_product, _has_substrate, _has_intermediate, _has_cofactor = None, None, None, None
                 _terpene_type = None
 
-            if _terpene_type:
-                _terpene_type_saved = str(_terpene_type)
-
             if _chebi_id2 and _chebi_id2 not in chebi_dict_of_lists['ChEBI ID']:
                 chebi_dict_of_lists['ChEBI ID'].append(_chebi_id2)
                 chebi_dict_of_lists['Compound name'].append(_names)
@@ -682,26 +680,26 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
                     chebi_dict_of_lists['Type (mono, sesq, di, …)'].append('')
             # print("%s: _chebi_id=%s, _old_vector=%s" % (accessions[0], _chebi_id, str(_old_vector)))
 
-        if _has_substrate:
+        if _old_vector[1]:
             uniprot_dict_of_lists['Substrate ChEBI IDs'].append(_substrate_ids)
         else:
             uniprot_dict_of_lists['Substrate ChEBI IDs'].append([])
-        if _has_intermediate:
+        if _old_vector[2]:
             uniprot_dict_of_lists['Intermediate ChEBI IDs'].append(_intermediate_ids)
         else:
             uniprot_dict_of_lists['Intermediate ChEBI IDs'].append([])
-        if _has_product:
+        if _old_vector[0]:
             uniprot_dict_of_lists['Product ChEBI IDs'].append(_product_ids)
         else:
             uniprot_dict_of_lists['Product ChEBI IDs'].append([])
-        if _has_cofactor:
+        if _old_vector[3]:
             uniprot_dict_of_lists['Cofactors ChEBI IDs'].append(_cofactor_ids)
         else:
             uniprot_dict_of_lists['Cofactors ChEBI IDs'].append([])
 
         #uniprot_dict_of_lists['ChEBI ID'].append(_substrate_ids + _intermediate_ids + _product_ids + _cofactor_ids)
 
-        if not _has_product:
+        if not _old_vector[0]:
             for _colname in extra_product_colnames:
                 uniprot_dict_of_lists[_colname].append([])
         else:
@@ -712,7 +710,7 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
             uniprot_dict_of_lists['Chemical formula of product'].append([chebi_dict_of_lists['Formula'][x] for x in _indexes])
             uniprot_dict_of_lists['SMILES of product (including stereochemistry)'].append([chebi_dict_of_lists['SMILES'][x] for x in _indexes])
 
-        if not _has_substrate:
+        if not _old_vector[1]:
             for _colname in extra_substrate_colnames:
                 uniprot_dict_of_lists[_colname].append([])
         else:
@@ -722,7 +720,7 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
             uniprot_dict_of_lists['Chemical formula of substrate'].append([chebi_dict_of_lists['Formula'][x] for x in _indexes])
             uniprot_dict_of_lists['SMILES of substrate (including stereochemistry)'].append([chebi_dict_of_lists['SMILES'][x] for x in _indexes])
 
-        if not _has_intermediate:
+        if not _old_vector[2]:
             for _colname in extra_intermediate_colnames:
                 uniprot_dict_of_lists[_colname].append([])
         else:
@@ -732,7 +730,7 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
             uniprot_dict_of_lists['Chemical formula of intermediate'].append([chebi_dict_of_lists['Formula'][x] for x in _indexes])
             uniprot_dict_of_lists['SMILES of intermediate (including stereochemistry)'].append([chebi_dict_of_lists['SMILES'][x] for x in _indexes])
 
-        if not _has_cofactor:
+        if not _old_vector[3]:
             for _colname in extra_cofactor_colnames:
                 uniprot_dict_of_lists[_colname].append([])
         else:
@@ -770,6 +768,7 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
 
     for x in uniprot_dict_of_lists.keys():
         print("Info: uniprot_dict_of_lists[%s]=%d" % (x, len(uniprot_dict_of_lists[x])))
+        print("DDD: uniprot_dict_of_lists[%s][-1]=%s" % (x, str(uniprot_dict_of_lists[x][-1])))
 
 
 def fetch_ids_from_xlsx(filename, terpenes, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc, uniprot_dict_of_lists, already_parsed, all_uniprot_ids, all_chebi_ids):
@@ -818,23 +817,23 @@ def fetch_ids_from_xlsx(filename, terpenes, uniprot_pri_acc2aliases, uniprot_ali
     return set(_ids)
 
 
-def parse_multi_entry_uniprot_xml(filename, terpenes, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc, uniprot_dict_of_lists, already_parsed):
-    if not os.path.exists(filename):
-        raise ValueError("File %s does not exist." % str(filename))
-    else:
-        if filename.endswith('xml.gz'):
-            _file = gzip.open(filename)
-        else:
-            _file = open(filename)
-    _xml_tree = ET.iterparse(_file)
-    print("Info: ET.iterparse(%s) returned %s" % (str(_file), str(_xml_tree)))
-    for _items in _xml_tree:
-        print("Info: Acting upon %s" % str(_items))
-        for _uniprot_entry in _items:
-            print("Info: Acting over entry %s in %s" % (str(_uniprot_entry), filename))
-            # <Element '{http://uniprot.org/uniprot}entry'
-            (_accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence) = parse_uniprot_xml(_uniprot_entry, terpenes, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc)
-            process_parsed_uniprot_values(_uniprot_id, _chebi_id, _all_uniprot_ids, _all_chebi_ids, dict_of_lists, already_parsed, _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc)
+# def parse_multi_entry_uniprot_xml(filename, terpenes, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc, uniprot_dict_of_lists, already_parsed):
+#     if not os.path.exists(filename):
+#         raise ValueError("File %s does not exist." % str(filename))
+#     else:
+#         if filename.endswith('xml.gz'):
+#             _file = gzip.open(filename)
+#         else:
+#             _file = open(filename)
+#     _xml_tree = ET.iterparse(_file)
+#     print("Info: ET.iterparse(%s) returned %s" % (str(_file), str(_xml_tree)))
+#     for _items in _xml_tree:
+#         print("Info: Acting upon %s" % str(_items))
+#         for _uniprot_entry in _items:
+#             print("Info: Acting over entry %s in %s" % (str(_uniprot_entry), filename))
+#             # <Element '{http://uniprot.org/uniprot}entry'
+#             (_accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence) = parse_uniprot_xml(_uniprot_entry, terpenes, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc)
+#             process_parsed_uniprot_values(_uniprot_id, _chebi_id, _all_uniprot_ids, _all_chebi_ids, dict_of_lists, already_parsed, _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc)
 
 
 _r1 = re.compile(r'C[0-9]+')
