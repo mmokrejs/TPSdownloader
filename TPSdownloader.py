@@ -16,7 +16,7 @@ import copy
 from itertools import chain
 import gzip
 
-version = "20210511"
+version = "20210527"
 myparser = OptionParser(version="%s version %s" % ('%prog', version))
 myparser.add_option("--uniprot-ids-from-file", action="store", type="string", dest="uniprot_ids_from_file", default='',
     help="Obtain a list of Uniprot IDs from column 'Uniprot ID' in 'Sheet1'.")
@@ -40,14 +40,14 @@ myparser.add_option("--debug", action="store", type="int", dest="debug", default
 extra_product_colnames = ['Name of product', 'Product compound description', 'Chemical formula of product', 'SMILES of product (including stereochemistry)']
 extra_substrate_colnames = ['Substrate (including stereochemistry)', 'Substrate compound description', 'Chemical formula of substrate', 'SMILES of substrate (including stereochemistry)']
 extra_cofactor_colnames = ['Cofactors', 'Cofactors compound description', 'Chemical formula of cofactor', 'SMILES of cofactor (including stereochemistry)']
-extra_intermediate_colnames = ['Name of intermediate', 'Intermediate compound description', 'Chemical formula of intermediate', 'SMILES of intermediate (including stereochemistry)']
+# extra_intermediate_colnames = ['Name of intermediate', 'Intermediate compound description', 'Chemical formula of intermediate', 'SMILES of intermediate (including stereochemistry)']
 
 substrates = set(['CHEBI:17211', 'CHEBI:14299', 'CHEBI:5332', 'CHEBI:42877', 'CHEBI:24223', 'CHEBI:58635', 'CHEBI:30939', 'CHEBI:10760', 'CHEBI:29558', 'CHEBI:57907', 'CHEBI:58756', 'CHEBI:58057', 'CHEBI:162247', 'CHEBI:60374', 'CHEBI:138307', 'CHEBI:61984', 'CHEBI:64801', 'CHEBI:15441', 'CHEBI:18728', 'CHEBI:11026', 'CHEBI:11072', 'CHEBI:372', 'CHEBI:58622', 'CHEBI:58206', 'CHEBI:64283', 'CHEBI:138223', 'CHEBI:58553', 'CHEBI:57533', 'CHEBI:7525', 'CHEBI:138305', 'CHEBI:15440', 'CHEBI:10843', 'CHEBI:9245', 'CHEBI:10795', 'CHEBI:15104', 'CHEBI:26746', 'CHEBI:64283', 'CHEBI:175763', 'CHEBI:17407', 'CHEBI:12874', 'CHEBI:11491', 'CHEBI:42496', 'CHEBI:10700', 'CHEBI:11488', 'CHEBI:12854', 'CHEBI:19789', 'CHEBI:138890', 'CHEBI:138232'])
 # CHEBI:17211 CHEBI:14299, CHEBI:5332, CHEBI:42877, CHEBI:24223 GPP
 # CHEBI:58635 nebo CHEBI:30939 CHEBI:10760, CHEBI:29558 (+)-copalyl diphosphate
 # CHEBI:57907 (2E,6E,10E,14E)-GFPP
 # CHEBI:58756 (2E,6E,10E)-GGPP
-# CHEBI:58057 (2E)-GPP
+# CHEBI:58057 (2E)-GPP aka geranyl diphosphate(3−)
 # CHEBI:162247 (2Z,6E)-FPP
 # CHEBI:60374 (2Z,6Z)-FPP
 # CHEBI:138307 (3S,22S)-2,3:22,23-diepoxy-2,3,22,23-tetrahydrosqualene
@@ -59,12 +59,12 @@ substrates = set(['CHEBI:17211', 'CHEBI:14299', 'CHEBI:5332', 'CHEBI:42877', 'CH
 # CHEBI:64283 copal-8-ol diphosphate(3−)
 # CHEBI:138223 ent-copal-8-ol diphosphate(3−)
 # CHEBI:58553 ent-copalyl diphosphate
-# CHEBI:57533 GGPP
+# CHEBI:57533 GGPP aka geranylgeranyl diphosphate(3−)
 # CHEBI:7525 NPP
 # CHEBI:138305 pre-α-onocerin
 # CHEBI:15440 CHEBI:10843, CHEBI:9245, CHEBI:10795, CHEBI:15104, CHEBI:26746 squalene
 # CHEBI:64283 8-hydroxycopalyl diphosphate
-# (2E,6E)-FPP(3-) CHEBI:175763
+# CHEBI:175763 (2E,6E)-FPP(3-) aka 2-trans,6-trans-farnesyl diphosphate(3−)
 # CHEBI:17407 (E,E)-FPP FPP CHEBI:12874, CHEBI:11491, CHEBI:42496, CHEBI:10700, CHEBI:11488, CHEBI:12854, CHEBI:19789 (2-trans,6-trans-farnesyl diphosphate) alias (E,E)-FPP alias (2E,6E)-FPP
 # peregrinol diphosphate CHEBI:138890
 # peregrinol PP alias? peregrinol diphosphate(3−) CHEBI:138232
@@ -86,7 +86,56 @@ cofactors = set(['CHEBI:18420', 'CHEBI:15377', 'CHEBI:29035'])
 # CHEBI:58553 ent-copalyl diphosphate
 # CHEBI:64283 copal-8-ol diphosphate(3−)
 # CHEBI:58635 CHEBI:30939 CHEBI:10760, CHEBI:29558 (+)-copalyl diphosphate
-intermediates = set([])
+
+# blacklist of IDs of reaction substrates or non-cyclic terpenes, etc., but *also* including β-farnesene CHEBI:10418
+# these IDs are not downloaded into the cache, unless they already were downloaded before addition to this list
+# IDs appearing in this list also do not get output into the output list of terpenes
+non_terpene_chebi_ids = set(['CHEBI:35194', 'CHEBI:33019', 'CHEBI:128769', 'CHEBI:10418', 'CHEBI:10280', 'CHEBI:64283', 'CHEBI:58756', 'CHEBI:15441', 'CHEBI:58622', 'CHEBI:58553', 'CHEBI:57665', 'CHEBI:58635', 'CHEBI:15440', 'CHEBI:138223', 'CHEBI:57907', 'CHEBI:64801', 'CHEBI:61984', 'CHEBI:58206', 'CHEBI:138167', 'CHEBI:15347', 'CHEBI:162247', 'CHEBI:17221', 'CHEBI:60374', 'CHEBI:61746', 'CHEBI:98', 'CHEBI:46702', 'CHEBI:61987', 'CHEBI:16240', 'CHEBI:35757', 'CHEBI:3407', 'CHEBI:13657', 'CHEBI:25382', 'CHEBI:43474', 'CHEBI:43470', 'CHEBI:29139', 'CHEBI:61987', 'CHEBI:28938', 'CHEBI:83628', 'CHEBI:24646', 'CHEBI:134188', 'CHEBI:28938', 'CHEBI:22534', 'CHEBI:49783', 'CHEBI:7435', 'CHEBI:139521', 'CHEBI:15379', 'CHEBI:44742', 'CHEBI:7860', 'CHEBI:10745', 'CHEBI:13416', 'CHEBI:23833', 'CHEBI:25366', 'CHEBI:29097', 'CHEBI:30491', 'CHEBI:139520', 'CHEBI:132124', 'CHEBI:57540', 'CHEBI:58340', 'CHEBI:128753', 'CHEBI:33384', 'CHEBI:17268', 'CHEBI:57288', 'CHEBI:33738', 'CHEBI:33737', 'CHEBI:58720', 'CHEBI:57783', 'CHEBI:57287', 'CHEBI:15378', 'CHEBI:57623']) - substrates - cofactors
+# CHEBI:35194 - isoprene
+# CHEBI:33019 - diphosphate(3−)
+# CHEBI:57623 - prenyl diphosphate(3-)
+# CHEBI:128769 - isopentenyl diphosphate(3−)
+# CHEBI:16240 - hydrogen peroxide
+# CHEBI:35757 - monocarboxylic acid anion
+# CHEBI:3407 - monocarboxylic acid anion
+# CHEBI:13657 - monocarboxylic acid anion
+# CHEBI:25382 - monocarboxylic acid anion
+# CHEBI:43474 - hydrogenphosphate
+# CHEBI:43470 - hydrogenphosphate
+# CHEBI:29139 - hydrogenphosphate
+# CHEBI:61987 - 2-methylisoborneol
+# CHEBI:28938 - ammonium
+# CHEBI:83628 - N-acylammonia
+# CHEBI:24646 - hydroquinones
+# CHEBI:134188 - hydroquinones
+# CHEBI:28938 - ammonium
+# CHEBI:22534 - ammonium
+# CHEBI:49783 - ammonium
+# CHEBI:7435 - ammonium
+# CHEBI:139521 - phenolic radical donor
+# CHEBI:15379 - dioxygen
+# CHEBI:44742 - dioxygen
+# CHEBI:7860 - dioxygen
+# CHEBI:10745 - dioxygen
+# CHEBI:13416 - dioxygen
+# CHEBI:23833 - dioxygen
+# CHEBI:25366 - dioxygen
+# CHEBI:29097 - dioxygen
+# CHEBI:30491 - dioxygen
+# CHEBI:139520 - phenolic donor
+# CHEBI:132124 - 1,4-benzoquinones
+# CHEBI:57540 - NAD(1-)
+# CHEBI:58340 - O-acetyl-L-serine zwitterion
+# CHEBI:128753 - (2E)-4-hydroxy-3-methylbut-2-enyl diphosphate(3-)
+# CHEBI:33384 - L-serine zwitterion
+# CHEBI:17268 - myo-inositol
+# CHEBI:57288 - acetyl-CoA(4-)
+# CHEBI:57287 - coenzyme A(4-)
+# CHEBI:33738 - di-mu-sulfido-diiron(1+)
+# CHEBI:33737 - di-mu-sulfido-diiron(2+)
+# CHEBI:58720 - D-glucopyranuronate
+# CHEBI:57783 - NADPH(4-)
+# CHEBI:15378 - hydron
 
 
 def parse_list_or_set_line(line):
@@ -149,64 +198,6 @@ def parse_known_terpenes(filename="terpene_names.uniq.txt"):
     return _terpenes
 
 
-# blacklist of IDs of reaction substrates or non-cyclic terpenes, etc., but *also* including β-farnesene CHEBI:10418
-# these IDs are not downloaded into the cache, unless they already were downloaded before addition to this list
-# IDs appearing in this list also do not get output into the output list of terpenes
-non_terpene_chebi_ids = set(['CHEBI:35194', 'CHEBI:15377', 'CHEBI:33019', 'CHEBI:58057', 'CHEBI:128769', 'CHEBI:175763', 'CHEBI:57533', 'CHEBI:10418', 'CHEBI:10280', 'CHEBI:175763', 'CHEBI:64283', 'CHEBI:58756', 'CHEBI:15441', 'CHEBI:58622', 'CHEBI:58553', 'CHEBI:57665', 'CHEBI:58635', 'CHEBI:15440', 'CHEBI:138223', 'CHEBI:128769', 'CHEBI:57907', 'CHEBI:64801', 'CHEBI:61984', 'CHEBI:58206', 'CHEBI:138167', 'CHEBI:15347', 'CHEBI:162247', 'CHEBI:17221', 'CHEBI:60374', 'CHEBI:61746', 'CHEBI:98', 'CHEBI:46702', 'CHEBI:61987', 'CHEBI:16240', 'CHEBI:35757', 'CHEBI:3407', 'CHEBI:13657', 'CHEBI:25382', 'CHEBI:43474', 'CHEBI:43470', 'CHEBI:29139', 'CHEBI:61987', 'CHEBI:28938', 'CHEBI:83628', 'CHEBI:24646', 'CHEBI:134188', 'CHEBI:28938', 'CHEBI:22534', 'CHEBI:49783', 'CHEBI:7435', 'CHEBI:139521', 'CHEBI:15379', 'CHEBI:44742', 'CHEBI:7860', 'CHEBI:10745', 'CHEBI:13416', 'CHEBI:23833', 'CHEBI:25366', 'CHEBI:29097', 'CHEBI:30491', 'CHEBI:139520', 'CHEBI:132124', 'CHEBI:57540', 'CHEBI:58340', 'CHEBI:128753', 'CHEBI:33384', 'CHEBI:17268', 'CHEBI:57288', 'CHEBI:33738', 'CHEBI:33737', 'CHEBI:58720', 'CHEBI:57783', 'CHEBI:57287', 'CHEBI:15378', 'CHEBI:57623']) - substrates - cofactors - intermediates
-# CHEBI:35194 - isoprene
-# CHEBI:33019 - diphosphate(3−)
-# CHEBI:58057 - geranyl diphosphate(3−)
-# CHEBI:57623 - prenyl diphosphate(3-)
-# CHEBI:128769 - isopentenyl diphosphate(3−)
-# CHEBI:175763 - 2-trans,6-trans-farnesyl diphosphate(3−)
-# CHEBI:57533 - geranylgeranyl diphosphate(3−)
-# CHEBI:15377 - water
-# CHEBI:16240 - hydrogen peroxide
-# CHEBI:35757 - monocarboxylic acid anion
-# CHEBI:3407 - monocarboxylic acid anion
-# CHEBI:13657 - monocarboxylic acid anion
-# CHEBI:25382 - monocarboxylic acid anion
-# CHEBI:43474 - hydrogenphosphate
-# CHEBI:43470 - hydrogenphosphate
-# CHEBI:29139 - hydrogenphosphate
-# CHEBI:61987 - 2-methylisoborneol
-# CHEBI:28938 - ammonium
-# CHEBI:83628 - N-acylammonia
-# CHEBI:24646 - hydroquinones
-# CHEBI:134188 - hydroquinones
-# CHEBI:28938 - ammonium
-# CHEBI:22534 - ammonium
-# CHEBI:49783 - ammonium
-# CHEBI:7435 - ammonium
-# CHEBI:139521 - phenolic radical donor
-# CHEBI:15379 - dioxygen
-# CHEBI:44742 - dioxygen
-# CHEBI:7860 - dioxygen
-# CHEBI:10745 - dioxygen
-# CHEBI:13416 - dioxygen
-# CHEBI:23833 - dioxygen
-# CHEBI:25366 - dioxygen
-# CHEBI:29097 - dioxygen
-# CHEBI:30491 - dioxygen
-# CHEBI:139520 - phenolic donor
-# CHEBI:132124 - 1,4-benzoquinones
-# CHEBI:57540 - NAD(1-)
-# CHEBI:58340 - O-acetyl-L-serine zwitterion
-# CHEBI:128753 - (2E)-4-hydroxy-3-methylbut-2-enyl diphosphate(3-)
-# CHEBI:33384 - L-serine zwitterion
-# CHEBI:17268 - myo-inositol
-# CHEBI:57288 - acetyl-CoA(4-)
-# CHEBI:57287 - coenzyme A(4-)
-# CHEBI:33738 - di-mu-sulfido-diiron(1+)
-# CHEBI:33737 - di-mu-sulfido-diiron(2+)
-# CHEBI:58720 - D-glucopyranuronate
-# CHEBI:57783 - NADPH(4-)
-# CHEBI:15378 - hydron
-
-
-
-
-
 def parse_chebi_xml(filename):
     """Keeps data in lists so we can capture multiple values eventually, do not know
     what to expect at the moment.
@@ -244,7 +235,7 @@ def parse_chebi_xml(filename):
                 # ['beta-phellandren', 'beta-phellandrene', '3-isopropyl-6-methylene-1-cyclohexene', '2-p-menthadiene', '3-methylene-6-(1-methylethyl)cyclohexene', '4-isopropyl-1-methylene-2-cyclohexene']
                 # ['ophiobolin F', 'ophiobolene']
                 # ['(+)-vkiteagnusin d', 'viteagnusin d'] # typo in ChEBI
-                _names.update([child.text.lower()])
+                _names.update([child.text])
             if child.tag == 'DEFINITION':
                 if not _definition:
                     _definition = [child.text]
@@ -254,7 +245,7 @@ def parse_chebi_xml(filename):
                 if not _formula:
                     _formula = child.text
             if child.tag == 'SYNONYM':
-                _names.update([child.text.lower()])
+                _names.update([child.text])
             if child.tag == 'SMILES':
                 if not _smiles:
                     _smiles = child.text
@@ -302,9 +293,12 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
 #        raise ET.ParseError("Maybe the file %s is not in XML format?" % str(filename))
 #    root=etree.getroot() # AttributeError: 'IterParseIterator' object has no attribute 'getroot'
 
-    _accessions = []
+    _primary_accession = None
+    _secondary_accessions = []
     _uniprot_name = None
-    _protein_names = [] # sometimes UniProt has unset protein_names and also feature_description
+    _recommended_name = None # sometimes UniProt has unset protein_names and also feature_description
+    _alternative_names = []
+    _submitted_name = None
     _feature_descriptions = []
     _chebi_ids = []
     _sequence = None
@@ -317,9 +311,9 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
         # print("Debug: elem=%s" % str(elem))
         if myoptions.debug: print("Level 0: ", elem.tag, ' ', elem.attrib, ' ', elem.text)
         if elem.tag == '{http://uniprot.org/uniprot}entry':
-            if _accessions:
-                if myoptions.debug > 1: print("Reached items: %s, returning results parsed so far for %s" % (str(elem.items()), _accessions))
-                if not _protein_names:
+            if _primary_accession:
+                if myoptions.debug > 1: print("Reached items: %s, returning results parsed so far for %s" % (str(elem.items()), str(_primary_accession)))
+                if not _recommended_name and not _alternative_names and not _submitted_name:
                     # <uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
                     #   <entry created="2011-10-19" dataset="TrEMBL" modified="2021-04-07" version="68">
                     #     <accession>G1JUH4</accession>
@@ -328,21 +322,24 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                     #       <submittedName>
                     #         <fullName evidence="4 5">Beta myrcene/limonene synthase</fullName>
                     #       </submittedName>
-                    raise ValueError("No proteins descriptions were parsed for _accessions=%s" % str(_accessions))
+                    raise ValueError("No proteins descriptions were parsed for _primary_accession=%s, _secondary_accessions=%s" % str(_primary_accession), str(_secondary_accessions))
                 else:
-                    if myoptions.debug: print("Info: Yielding a single entry %s from file %s" % (_accessions[0], str(filename)))
-                yield(_accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence)
-            _accessions = []
+                    if myoptions.debug: print("Info: Yielding a single entry %s from file %s" % (_primary_accession, str(filename)))
+                yield(_primary_accession, _secondary_accessions, list(set(_chebi_ids)), _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence)
+            _primary_accession = None
+            _secondary_accessions = []
             _uniprot_name = None
-            _protein_names = [] # sometimes UniProt has unset protein_names and also feature_description
+            _recommended_name = None # sometimes UniProt has unset protein_names and also feature_description
+            _alternative_names = []
+            _submitted_name = None
             _feature_descriptions = []
             _chebi_ids = []
             _sequence = None
             _organism = None
             _lineage = None
-        elif elem.tag == '{http://uniprot.org/uniprot}copyright' and _accessions:
-            if myoptions.debug > 1: print("Reached items: %s, returning results parsed so far for %s" % (str(elem.items()), _accessions))
-            if not _protein_names:
+        elif elem.tag == '{http://uniprot.org/uniprot}copyright' and _primary_accession:
+            if myoptions.debug > 1: print("Reached items: %s, returning results parsed so far for %s" % (str(elem.items()), str(_primary_accession)))
+            if not _recommended_name and not _alternative_names and not _submitted_name:
                 # <uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
                 #   <entry created="2011-10-19" dataset="TrEMBL" modified="2021-04-07" version="68">
                 #     <accession>G1JUH4</accession>
@@ -351,10 +348,10 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                 #       <submittedName>
                 #         <fullName evidence="4 5">Beta myrcene/limonene synthase</fullName>
                 #       </submittedName>
-                raise ValueError("No proteins descriptions were parsed for _accessions=%s" % str(_accessions))
+                raise ValueError("No proteins descriptions were parsed for _accessions=%s" % str(_primary_accession))
             else:
-                if myoptions.debug: print("Info: Yielding the very last entry %s from file %s" % (_accessions[0], str(filename)))
-            yield(_accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence)
+                if myoptions.debug: print("Info: Yielding the very last entry %s from file %s" % (str(_primary_accession), str(filename)))
+            yield(_primary_accession, _secondary_accessions, list(set(_chebi_ids)), _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence)
 
         for child in elem:
             if myoptions.debug > 1: print("Items: ", str(child.items()))
@@ -363,22 +360,22 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
             if child.tag == '{http://uniprot.org/uniprot}accession':
                 if myoptions.debug > 1: print("Info: Came across accession %s" % child.text)
                 if myoptions.debug > 1: print("L1: child.attrib: ", child.attrib, "child.tag: ", child.tag)
-                if not _accessions:
-                    _accessions = [child.text] # "Q6XDB5"
+                if not _primary_accession:
+                    _primary_accession = child.text # "Q6XDB5"
                 else:
-                    _accessions += [child.text] # "C0PT91"
-                    uniprot_aliases2pri_acc[child.text] = _accessions[0] # point to the primary
-                    if _accessions[0] not in uniprot_pri_acc2aliases.keys():
-                        uniprot_pri_acc2aliases[_accessions[0]] = [child.text]
+                    _secondary_accessions.append(child.text) # "C0PT91"
+                    uniprot_aliases2pri_acc[child.text] = _primary_accession # point to the primary
+                    if _primary_accession not in uniprot_pri_acc2aliases.keys():
+                        uniprot_pri_acc2aliases[_primary_accession] = [child.text]
                     else:
-                        uniprot_pri_acc2aliases[_accessions[0]] += [child.text]
+                        uniprot_pri_acc2aliases[_primary_accession].extend([child.text])
             elif child.tag == '{http://uniprot.org/uniprot}name':
                 _uniprot_name = child.text # "TPSD2_PICSI"
             elif child.tag == '{http://uniprot.org/uniprot}sequence':
                 _sequence = child.text
             if child.tag == '{http://uniprot.org/uniprot}feature':
                 if 'type' in child.attrib.keys() and 'description' in child.attrib.keys() and child.attrib['type'] == 'chain':
-                    _feature_descriptions += [child.attrib['description']]
+                    _feature_descriptions.extend([child.attrib['description']]) # A0A2N8PG38, A0A239C551
                 
             for subchild in child:
                 if myoptions.debug > 1: print("Level 2: ", subchild.tag, ' ', subchild.attrib, ' ', subchild.text)
@@ -391,19 +388,22 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                     if myoptions.debug > 1: print("Level 3: ", sschild.tag, ' ', sschild.attrib, ' ', sschild.text)
                     if subchild.tag == '{http://uniprot.org/uniprot}recommendedName':
                         if sschild.tag == '{http://uniprot.org/uniprot}fullName':
-                            _protein_names = [sschild.text]
+                            _recommended_name = sschild.text
                     elif subchild.tag == '{http://uniprot.org/uniprot}alternativeName':
                         if sschild.tag == '{http://uniprot.org/uniprot}fullName':
-                            _protein_names += [sschild.text]
+                            if not _alternative_names:
+                                _alternative_names = [sschild.text]
+                            else:
+                                _alternative_names.extend([sschild.text]) # A0A2N0DJE2
                     elif child.tag == '{http://uniprot.org/uniprot}protein':
                         if subchild.tag == '{http://uniprot.org/uniprot}submittedName':
                             if sschild.tag == '{http://uniprot.org/uniprot}fullName':
-                                _protein_names += [sschild.text] # G1JUH4
+                                _submitted_name = sschild.text # G1JUH4
                     elif child.tag == '{http://uniprot.org/uniprot}comment' and 'type' in child.attrib.keys() and child.attrib['type'] == 'catalytic activity' and subchild.tag == '{http://uniprot.org/uniprot}reaction' and sschild.tag == '{http://uniprot.org/uniprot}dbReference' and sschild.attrib['type'] == 'ChEBI':
                         # do not even fetch unwanted ChEBI Ids
-                        if sschild.attrib['id'] not in non_terpene_chebi_ids:
-                            if sschild.attrib['id'] not in _chebi_ids_local:
-                                _chebi_ids_local.append(sschild.attrib['id'])
+                        # if sschild.attrib['id'] not in non_terpene_chebi_ids:
+                        if sschild.attrib['id'] not in _chebi_ids_local:
+                            _chebi_ids_local.append(sschild.attrib['id'])
     
                     # Level 1:  {http://uniprot.org/uniprot}comment   {'type': 'catalytic activity'}   
                     # Level 2:  {http://uniprot.org/uniprot}reaction   {'evidence': '3'}
@@ -426,7 +426,7 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                     _chebi_ids += list(set(_chebi_ids_local))
                     _chebi_ids_local = []
     
-    if not _protein_names:
+    if not _recommended_name and not _alternative_names and not _submitted_name:
         # <uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
         #   <entry created="2011-10-19" dataset="TrEMBL" modified="2021-04-07" version="68">
         #     <accession>G1JUH4</accession>
@@ -435,7 +435,7 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
         #       <submittedName>
         #         <fullName evidence="4 5">Beta myrcene/limonene synthase</fullName>
         #       </submittedName>
-        raise ValueError("No proteins descriptions were parsed for _accessions=%s" % str(_accessions))
+        raise ValueError("No proteins descriptions were parsed for primary_accession=%s" % str(primary_accession))
 
 
 def create_cache(cachedir=".TPSdownloader_cache"):
@@ -519,6 +519,41 @@ def download_uniprot(myid, path=".TPSdownloader_cache" + os.path.sep + 'uniprot'
     <accession>C0PT91</accession>
     <name>TPSD2_PICSI</name>
 
+    <entry created="2019-07-03" dataset="Swiss-Prot" modified="2020-08-12" version="27">
+      <accession>A0A1D6LTV0</accession>
+      <accession>A5YZT5</accession>
+      <accession>B4F964</accession>
+      <accession>C0PNL6</accession>
+      <name>TPS26_MAIZE</name>
+      <protein>
+        <recommendedName>
+          <fullName evidence="8">Alpha-terpineol synthase, chloroplastic</fullName>
+          <ecNumber evidence="7">4.2.3.111</ecNumber>
+        </recommendedName>
+        <alternativeName>
+          <fullName evidence="8">4-terpineol synthase</fullName>
+          <ecNumber evidence="7">4.2.3.-</ecNumber>
+        </alternativeName>
+        <alternativeName>
+          <fullName evidence="8">Alpha-terpinolene synthase</fullName>
+          <ecNumber evidence="7">4.2.3.113</ecNumber>
+        </alternativeName>
+        <alternativeName>
+          <fullName evidence="8">Beta-myrcene synthase</fullName>
+          <ecNumber evidence="7">4.2.3.15</ecNumber>
+        </alternativeName>
+        <alternativeName>
+          <fullName evidence="8">Gamma-terpinene synthase</fullName>
+          <ecNumber evidence="7">4.2.3.114</ecNumber>
+        </alternativeName>
+        <alternativeName>
+          <fullName evidence="8">Limonene synthase</fullName>
+          <ecNumber evidence="7">4.2.3.16</ecNumber>
+        </alternativeName>
+        <alternativeName>
+          <fullName evidence="9">Terpene synthase 26, chloroplastic</fullName>
+        </alternativeName>
+
     """
 
     downloader_wrapper(myid, 'uniprot', ".TPSdownloader_cache" + os.path.sep, "https://www.uniprot.org/uniprot/")
@@ -569,6 +604,7 @@ def write_csv_and_xls(df):
     _datetime = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     df.to_csv("TPSdownloader_" + _datetime + ".csv", index=False)
     df.to_excel("TPSdownloader_" + _datetime + ".xls", sheet_name="Sheet1", index=False)
+    print("Info: Wrote TPSdownloader_" + _datetime + ".csv and TPSdownloader_" + _datetime + ".xls files.")
 
 
 def sanitize_input_text_values(i):
@@ -613,7 +649,7 @@ def parse_storage(filename):
 
     _uniprot_dict_of_lists, _chebi_dict_of_lists, _copy_without_chebi_id, _empty_template_dict_of_lists = initialize_data_structures()
     _storage_df = pd.read_excel(filename, 'Sheet1', index_col=None, na_values=["NA"])
-    for _colname in ['Uniprot ID', 'ChEBI ID', 'Name', 'Description', 'Species', 'Taxonomy', 'Amino acid sequence', 'Kingdom (plant, fungi, bacteria)', 'Notes', 'Publication (URL)', 'Substrate ChEBI IDs', 'Intermediate ChEBI IDs', 'Product ChEBI IDs', 'Cofactors ChEBI IDs'] + extra_product_colnames + extra_substrate_colnames + extra_cofactor_colnames + extra_intermediate_colnames:
+    for _colname in ['Uniprot ID', 'Uniprot secondary ID', 'ChEBI ID', 'Name', 'Alternative names', 'Submitted name', 'Description', 'Species', 'Taxonomy', 'Amino acid sequence', 'Kingdom (plant, fungi, bacteria)', 'Notes', 'Publication (URL)', 'Substrate ChEBI IDs', 'Product ChEBI IDs', 'Cofactors ChEBI IDs'] + extra_product_colnames + extra_substrate_colnames + extra_cofactor_colnames:
         for _val in _storage_df[_colname]:
             _uniprot_dict_of_lists[_colname].append(sanitize_input_text_values(_val))
 
@@ -626,32 +662,31 @@ def parse_storage(filename):
     return _uniprot_dict_of_lists, _chebi_dict_of_lists, _copy_without_chebi_id, _empty_template_dict_of_lists
 
 
-def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_of_lists, chebi_dict_of_lists, already_parsed, accessions, chebi_ids, protein_names, feature_descriptions, organism, lineage, sequence, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc):
-    if accessions[0] not in already_parsed:
-        print("Info: Storing uniprot values for entry %s into uniprot_dict_of_lists" % accessions[0])
-        for _uniprot_id in accessions:
+def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_of_lists, chebi_dict_of_lists, already_parsed, primary_accession, secondary_accessions, chebi_ids, recommended_name, alternative_names, submitted_name, feature_descriptions, organism, lineage, sequence, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc):
+    if primary_accession not in already_parsed:
+        print("Info: Storing uniprot values for entry %s into uniprot_dict_of_lists" % primary_accession)
+        if primary_accession not in all_uniprot_ids:
+            all_uniprot_ids.update([primary_accession])
+        for _uniprot_id in secondary_accessions:
             all_uniprot_ids.update([_uniprot_id])
         for _chebi_id in chebi_ids:
             all_chebi_ids.update([_chebi_id])
-        if len(accessions) > 1:
-            if accessions[0] not in uniprot_pri_acc2aliases.values():
-                for _alias in accessions[1:]:
-                    uniprot_aliases2pri_acc[_alias] = accessions[0]
-                uniprot_pri_acc2aliases[accessions[0]] = accessions[1:]
-            else:
-                if uniprot_aliases2pri_acc[_alias] != accessions[0]:
-                    raise ValueError("Primary accession %s already recorded is not same as the parsed right now: %s" % (uniprot_aliases2pri_acc[_alias], accessions[0]))
+        if secondary_accessions:
+            if primary_accession not in uniprot_pri_acc2aliases.values():
+                for _secondary_accession in secondary_accessions:
+                    uniprot_aliases2pri_acc[_secondary_accession] = primary_accession
+                uniprot_pri_acc2aliases[primary_accession] = secondary_accessions
 
-        uniprot_dict_of_lists['Uniprot ID'].append(accessions)
+        uniprot_dict_of_lists['Uniprot ID'].append(primary_accession) # append a string value
+        uniprot_dict_of_lists['Uniprot secondary ID'].append(secondary_accessions) # append a list of string values
         uniprot_dict_of_lists['ChEBI ID'].append(chebi_ids)
 
         # parse values for ChEBI entries mentioned in the UniProt record
         _substrate_ids = []
-        _intermediate_ids = []
         _product_ids = []
         _cofactor_ids = []
         _old_vector = (False, False, False, False)
-        _has_product, _has_substrate, _has_intermediate, _has_cofactor = None, None, None, None
+        _has_product, _has_substrate, _has_cofactor = None, None, None
         for _chebi_id in chebi_ids:
             download_chebi(_chebi_id)
             _filename = ".TPSdownloader_cache" + os.path.sep + 'chebi' + os.path.sep + _chebi_id + '.xml'
@@ -662,10 +697,10 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
                 else:
                     _terpene_type = None
     
-                _has_product, _has_substrate, _has_intermediate, _has_cofactor = split_chebi_data_into_substrates_and_products(_chebi_id2, _terpene_type, _substrate_ids, _intermediate_ids, _product_ids, _cofactor_ids)
-                _old_vector = [x | y for x, y in zip(tuple(_old_vector), (_has_product, _has_substrate, _has_intermediate, _has_cofactor))] # perform bitwise OR operation to merge the bits
+                _has_product, _has_substrate, _has_cofactor = split_chebi_data_into_substrates_and_products(_chebi_id2, _terpene_type, _substrate_ids, _product_ids, _cofactor_ids)
+                _old_vector = [x | y for x, y in zip(tuple(_old_vector), (_has_product, _has_substrate, _has_cofactor))] # perform bitwise OR operation to merge the bits
             else:
-                _has_product, _has_substrate, _has_intermediate, _has_cofactor = None, None, None, None
+                _has_product, _has_substrate, _has_cofactor = None, None, None
                 _terpene_type = None
 
             if _chebi_id2 and _chebi_id2 not in chebi_dict_of_lists['ChEBI ID']:
@@ -678,41 +713,39 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
                     chebi_dict_of_lists['Type (mono, sesq, di, …)'].append(_terpene_type)
                 else:
                     chebi_dict_of_lists['Type (mono, sesq, di, …)'].append('')
-            # print("%s: _chebi_id=%s, _old_vector=%s" % (accessions[0], _chebi_id, str(_old_vector)))
+            # print("%s: _chebi_id=%s, _old_vector=%s" % (primary_accession, _chebi_id, str(_old_vector)))
 
         if _old_vector[1]:
             uniprot_dict_of_lists['Substrate ChEBI IDs'].append(_substrate_ids)
         else:
-            uniprot_dict_of_lists['Substrate ChEBI IDs'].append([])
-        if _old_vector[2]:
-            uniprot_dict_of_lists['Intermediate ChEBI IDs'].append(_intermediate_ids)
-        else:
-            uniprot_dict_of_lists['Intermediate ChEBI IDs'].append([])
+            uniprot_dict_of_lists['Substrate ChEBI IDs'].append('')
         if _old_vector[0]:
             uniprot_dict_of_lists['Product ChEBI IDs'].append(_product_ids)
         else:
-            uniprot_dict_of_lists['Product ChEBI IDs'].append([])
-        if _old_vector[3]:
+            uniprot_dict_of_lists['Product ChEBI IDs'].append('')
+        if _old_vector[2]:
             uniprot_dict_of_lists['Cofactors ChEBI IDs'].append(_cofactor_ids)
         else:
-            uniprot_dict_of_lists['Cofactors ChEBI IDs'].append([])
+            uniprot_dict_of_lists['Cofactors ChEBI IDs'].append('')
 
-        #uniprot_dict_of_lists['ChEBI ID'].append(_substrate_ids + _intermediate_ids + _product_ids + _cofactor_ids)
+        #uniprot_dict_of_lists['ChEBI ID'].append(_substrate_ids + _product_ids + _cofactor_ids)
 
         if not _old_vector[0]:
             for _colname in extra_product_colnames:
-                uniprot_dict_of_lists[_colname].append([])
+                uniprot_dict_of_lists[_colname].append('')
         else:
+            print("DDDDDDDDDDDD: _product_ids=%s, _substrate_ids=%s" % (str(_product_ids), str(_substrate_ids)))
             _indexes = [chebi_dict_of_lists['ChEBI ID'].index(x) for x in _product_ids]
-            #_uniprot_index = uniprot_dict_of_lists['ChEBI ID'].index(accessions[0])
+            #_uniprot_index = uniprot_dict_of_lists['ChEBI ID'].index(primary_accession)
             uniprot_dict_of_lists['Name of product'].append([chebi_dict_of_lists['Compound name'][x] for x in _indexes])
             uniprot_dict_of_lists['Product compound description'].append([chebi_dict_of_lists['Compound description'][x] for x in _indexes])
+            print("DDDDDDDDD: %s" % str([chebi_dict_of_lists['Compound name'][x] for x in _indexes]))
             uniprot_dict_of_lists['Chemical formula of product'].append([chebi_dict_of_lists['Formula'][x] for x in _indexes])
             uniprot_dict_of_lists['SMILES of product (including stereochemistry)'].append([chebi_dict_of_lists['SMILES'][x] for x in _indexes])
 
         if not _old_vector[1]:
             for _colname in extra_substrate_colnames:
-                uniprot_dict_of_lists[_colname].append([])
+                uniprot_dict_of_lists[_colname].append('')
         else:
             _indexes = [chebi_dict_of_lists['ChEBI ID'].index(x) for x in _substrate_ids]
             uniprot_dict_of_lists['Substrate (including stereochemistry)'].append([chebi_dict_of_lists['Compound name'][x] for x in _indexes])
@@ -721,18 +754,8 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
             uniprot_dict_of_lists['SMILES of substrate (including stereochemistry)'].append([chebi_dict_of_lists['SMILES'][x] for x in _indexes])
 
         if not _old_vector[2]:
-            for _colname in extra_intermediate_colnames:
-                uniprot_dict_of_lists[_colname].append([])
-        else:
-            _indexes = [chebi_dict_of_lists['ChEBI ID'].index(x) for x in _intermediate_ids]
-            uniprot_dict_of_lists['Name of intermediate'].append([chebi_dict_of_lists['Compound name'][x] for x in _indexes])
-            uniprot_dict_of_lists['Intermediate compound description'].append([chebi_dict_of_lists['Compound description'][x] for x in _indexes])
-            uniprot_dict_of_lists['Chemical formula of intermediate'].append([chebi_dict_of_lists['Formula'][x] for x in _indexes])
-            uniprot_dict_of_lists['SMILES of intermediate (including stereochemistry)'].append([chebi_dict_of_lists['SMILES'][x] for x in _indexes])
-
-        if not _old_vector[3]:
             for _colname in extra_cofactor_colnames:
-                uniprot_dict_of_lists[_colname].append([])
+                uniprot_dict_of_lists[_colname].append('')
         else:
             _indexes = [chebi_dict_of_lists['ChEBI ID'].index(x) for x in _cofactor_ids]
             uniprot_dict_of_lists['Cofactors'].append([chebi_dict_of_lists['Compound name'][x] for x in _indexes])
@@ -740,7 +763,9 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
             uniprot_dict_of_lists['Chemical formula of cofactor'].append([chebi_dict_of_lists['Formula'][x] for x in _indexes])
             uniprot_dict_of_lists['SMILES of cofactor (including stereochemistry)'].append([chebi_dict_of_lists['SMILES'][x] for x in _indexes])
 
-        uniprot_dict_of_lists['Name'].append(protein_names)
+        uniprot_dict_of_lists['Name'].append(recommended_name) # For compatibility with Adela I stick here to 'Name' column name
+        uniprot_dict_of_lists['Alternative names'].append(alternative_names)
+        uniprot_dict_of_lists['Submitted name'].append(submitted_name)
         uniprot_dict_of_lists['Description'].append(feature_descriptions)
         uniprot_dict_of_lists['Species'].append(organism)
         uniprot_dict_of_lists['Taxonomy'].append(lineage)
@@ -762,12 +787,12 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
         uniprot_dict_of_lists['Kingdom (plant, fungi, bacteria)'].append(_kingdom)
         uniprot_dict_of_lists['Notes'].append('')
         uniprot_dict_of_lists['Publication (URL)'].append('')
-        already_parsed.append(accessions[0])
+        already_parsed.append(primary_accession)
     else:
-        print("Info: Accession %s already kept in uniprot_dict_of_lists" % accessions[0])
+        print("Info: Accession %s already kept in uniprot_dict_of_lists" % primary_accession)
 
     for x in uniprot_dict_of_lists.keys():
-        print("Info: uniprot_dict_of_lists[%s]=%d" % (x, len(uniprot_dict_of_lists[x])))
+        print("Info: uniprot_dict_of_lists[%s] has length %d" % (x, len(uniprot_dict_of_lists[x])))
         print("DDD: uniprot_dict_of_lists[%s][-1]=%s" % (x, str(uniprot_dict_of_lists[x][-1])))
 
 
@@ -817,25 +842,6 @@ def fetch_ids_from_xlsx(filename, terpenes, uniprot_pri_acc2aliases, uniprot_ali
     return set(_ids)
 
 
-# def parse_multi_entry_uniprot_xml(filename, terpenes, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc, uniprot_dict_of_lists, already_parsed):
-#     if not os.path.exists(filename):
-#         raise ValueError("File %s does not exist." % str(filename))
-#     else:
-#         if filename.endswith('xml.gz'):
-#             _file = gzip.open(filename)
-#         else:
-#             _file = open(filename)
-#     _xml_tree = ET.iterparse(_file)
-#     print("Info: ET.iterparse(%s) returned %s" % (str(_file), str(_xml_tree)))
-#     for _items in _xml_tree:
-#         print("Info: Acting upon %s" % str(_items))
-#         for _uniprot_entry in _items:
-#             print("Info: Acting over entry %s in %s" % (str(_uniprot_entry), filename))
-#             # <Element '{http://uniprot.org/uniprot}entry'
-#             (_accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence) = parse_uniprot_xml(_uniprot_entry, terpenes, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc)
-#             process_parsed_uniprot_values(_uniprot_id, _chebi_id, _all_uniprot_ids, _all_chebi_ids, dict_of_lists, already_parsed, _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc)
-
-
 _r1 = re.compile(r'C[0-9]+')
 
 def classify_terpene(formula):
@@ -870,11 +876,11 @@ def classify_terpene(formula):
 
 
 def initialize_data_structures():
-    _uniprot_dict_of_lists = {'Uniprot ID': [], 'Name': [], 'Description': [], 'Species': [], 'Taxonomy': [], 'Amino acid sequence': [], 'Kingdom (plant, fungi, bacteria)': [], 'ChEBI ID': [], 'Substrate ChEBI IDs': [], 'Intermediate ChEBI IDs': [], 'Product ChEBI IDs': [], 'Cofactors ChEBI IDs': [], 'Notes': [], 'Publication (URL)': []}
+    _uniprot_dict_of_lists = {'Uniprot ID': [], 'Uniprot secondary ID': [], 'Name': [], 'Alternative names': [], 'Submitted name': [], 'Description': [], 'Species': [], 'Taxonomy': [], 'Amino acid sequence': [], 'Kingdom (plant, fungi, bacteria)': [], 'ChEBI ID': [], 'Substrate ChEBI IDs': [], 'Product ChEBI IDs': [], 'Cofactors ChEBI IDs': [], 'Notes': [], 'Publication (URL)': []}
 
     _chebi_dict_of_lists = {'ChEBI ID': [], 'Compound name': [], 'Compound description': [], 'Formula': [], 'SMILES': [], 'Type (mono, sesq, di, …)': []}
 
-    for _colname in extra_product_colnames + extra_substrate_colnames + extra_cofactor_colnames + extra_intermediate_colnames:
+    for _colname in extra_product_colnames + extra_substrate_colnames + extra_cofactor_colnames:
         _uniprot_dict_of_lists[_colname] = []
 
     _copy_without_chebi_id = copy.deepcopy(_chebi_dict_of_lists)
@@ -884,12 +890,11 @@ def initialize_data_structures():
     return _uniprot_dict_of_lists, _chebi_dict_of_lists, _copy_without_chebi_id, _empty_template_dict_of_lists
 
 
-def split_chebi_data_into_substrates_and_products(_chebi_id2, _terpene_type, substrate_ids, intermediate_ids, product_ids, cofactor_ids):
+def split_chebi_data_into_substrates_and_products(_chebi_id2, _terpene_type, substrate_ids, product_ids, cofactor_ids):
     "This function needs reworking to simultaneously split into all groups."
 
     _has_product = False
     _has_substrate = False
-    _has_intermediate = False
     _has_cofactor = False
 
     if _chebi_id2 in substrates:
@@ -899,24 +904,27 @@ def split_chebi_data_into_substrates_and_products(_chebi_id2, _terpene_type, sub
     elif _chebi_id2 in cofactors:
         cofactor_ids.append(_chebi_id2)
         _has_cofactor = True
-    elif _chebi_id2 in intermediates:
-        # CHEBI:63190 (+)-β-caryophyllene
-        # CHEBI:58622 9α-copalyl diphosphate
-        # CHEBI:63190 (S)-β-bisabolene
-        # CHEBI:58553 ent-copalyl diphosphate
-        # CHEBI:64283 copal-8-ol diphosphate(3−)
-        # CHEBI:58635 CHEBI:30939 CHEBI:10760, CHEBI:29558 (+)-copalyl diphosphate
-        intermediate_ids.append(_chebi_id2)
-        _has_intermediate = True
+    #elif _chebi_id2 in intermediates:
+    #    # CHEBI:63190 (+)-β-caryophyllene
+    #    # CHEBI:58622 9α-copalyl diphosphate
+    #    # CHEBI:63190 (S)-β-bisabolene
+    #    # CHEBI:58553 ent-copalyl diphosphate
+    #    # CHEBI:64283 copal-8-ol diphosphate(3−)
+    #    # CHEBI:58635 CHEBI:30939 CHEBI:10760, CHEBI:29558 (+)-copalyl diphosphate
+    #    intermediate_ids.append(_chebi_id2)
+    #    _has_intermediate = True
+    elif _chebi_id2 in non_terpene_chebi_ids:
+        # 'CHEBI:33019' diphosphate(3−)
+        # is not a product nor a cofactor nor a suibstrate, just keep the False values as they are
+        pass
     elif _terpene_type:
         product_ids.append(_chebi_id2)
         _has_product = True
     else:
         raise ValueError("Unexpected compound %s" % _chebi_id2)
 
-    return _has_product, _has_substrate, _has_intermediate, _has_cofactor
+    return _has_product, _has_substrate, _has_cofactor
 
-        
 
 def print_dict_lengths(somedict, dictname):
     for _item in somedict.keys():
@@ -948,8 +956,8 @@ def main():
         print("Info: Found multi-entry XML file %s" % '.TPSdownloader_cache/uniprot/multientry/' + _filename)
         if os.path.getsize('.TPSdownloader_cache/uniprot/multientry/' + _filename):
             print("Info: Parsing %s" % '.TPSdownloader_cache/uniprot/multientry/' + _filename)
-            for _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml('.TPSdownloader_cache/uniprot/multientry/' + _filename, _terpenes, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc):
-                process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _chebi_dict_of_lists, _already_parsed, _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc)
+            for _primary_accession, _secondary_accessions, _chebi_ids, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml('.TPSdownloader_cache/uniprot/multientry/' + _filename, _terpenes, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc):
+                process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _chebi_dict_of_lists, _already_parsed, _primary_accession, _secondary_accessions, _chebi_ids, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc)
 
     if myoptions.debug: print("Info: _all_uniprot_ids=%s" % str(_all_uniprot_ids))
     if myoptions.debug: print("Info: _all_chebi_ids=%s" % str(_all_chebi_ids))
@@ -965,8 +973,8 @@ def main():
         _filename = '.TPSdownloader_cache/uniprot/' + _id + '.xml'
         if _id not in _already_parsed and _id not in _aliases:
             if os.path.exists(_filename) and os.path.getsize(_filename):
-                for _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml(_filename, _terpenes, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc):
-                    process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _chebi_dict_of_lists, _already_parsed, _accessions, _chebi_ids, _protein_names, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc)
+                for _primary_accession, _secondary_accessions, _chebi_ids, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml(_filename, _terpenes, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc):
+                    process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _chebi_dict_of_lists, _already_parsed, _primary_accession, _secondary_accessions, _chebi_ids, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc)
             else:
                 print("Info: No such file %s" % str(_filename))
         else:
@@ -1009,7 +1017,7 @@ def main():
                     # re-copy the Uniprot-originating data
                     for _column in _uniprot_dict_of_lists.keys():
                         if _column != 'ChEBI ID':
-                            if _column in ['Substrate ChEBI IDs', 'Intermediate ChEBI IDs', 'Product ChEBI IDs', 'Cofactors ChEBI IDs'] + extra_product_colnames + extra_substrate_colnames + extra_cofactor_colnames + extra_intermediate_colnames:
+                            if _column in ['Substrate ChEBI IDs', 'Product ChEBI IDs', 'Cofactors ChEBI IDs'] + extra_product_colnames + extra_substrate_colnames + extra_cofactor_colnames:
                                 try:
                                     _val = _uniprot_dict_of_lists[_column][_uniprot_row_pos][_chebi_ids_index] # slice out for 'Product ChEBI IDs', 'Name of product', 'Product compound description', 'Chemical formula of product', 'SMILES of product (including stereochemistry)' columns using _chebi_ids_index
                                 except IndexError:
@@ -1018,6 +1026,19 @@ def main():
                                 _val = _uniprot_dict_of_lists[_column][_uniprot_row_pos]
                             if _val:
                                 _output_dict_of_lists[_column].append(_val)
+#                                if isinstance(_val, str):
+#                                    _output_dict_of_lists[_column].append(_val)
+#                                elif isinstance(_val[0], list):
+#                                    if len(_val) > 1:
+#                                        _output_dict_of_lists[_column].append(_val)
+#                                        print("DDDDDa: result %s" % str(_val))
+#                                        # raise ValueError("Unexpected nested list with length > 1: %s" % str(_val))
+#                                    else:
+#                                        _output_dict_of_lists[_column].append(_val[0])
+#                                        print("DDDDDb: result %s" % str(_val[0]))
+#                                else:
+#                                    _output_dict_of_lists[_column].append(_val)
+#                                    print("DDDDDc: result %s" % str(_val)) # both 'CHEBI:15441' and ['CHEBI:15441']
                             else:
                                 _output_dict_of_lists[_column].append('')
 
@@ -1045,7 +1066,7 @@ def main():
                     # _uniprot_dict_of_lists['ChEBI ID'][_uniprot_row_pos] = ['CHEBI:128', 'CHEBI:15383', 'CHEBI:10577', 'CHEBI:9457', 'CHEBI:78884']
                     # _chebi_ids = ['CHEBI:128', 'CHEBI:15383', 'CHEBI:10577', 'CHEBI:9457', 'CHEBI:78884'], _chebi_id2 = CHEBI:78884, _indexes = [0]
                     for _column in _chebi_dict_of_lists.keys():
-                        if _column in ['Substrate ChEBI IDs', 'Intermediate ChEBI IDs', 'Product ChEBI IDs', 'Cofactors ChEBI IDs']:
+                        if _column in ['Substrate ChEBI IDs', 'Product ChEBI IDs', 'Cofactors ChEBI IDs']:
                             #if _debug:
                             #    print("_chebi_dict_of_lists[_column][_chebi_row_pos] = %s" % str(_chebi_dict_of_lists[_column][_chebi_row_pos]))
                             #    print("_uniprot_dict_of_lists['ChEBI ID'][_uniprot_row_pos] = %s" % str(_uniprot_dict_of_lists['ChEBI ID'][_uniprot_row_pos]))
@@ -1053,7 +1074,7 @@ def main():
                             #    print("_chebi_ids_index=%s, _chebi_row_pos=%s" % (_chebi_ids_index, _chebi_row_pos))
                             #    print("Column names: %s" % str(_chebi_dict_of_lists.keys()))
                             try:
-                                _val = _chebi_dict_of_lists[_column][_chebi_row_pos][_chebi_ids_index] # slice out for ['Substrate ChEBI IDs', 'Intermediate ChEBI IDs', 'Product ChEBI IDs', 'Cofactors ChEBI IDs']
+                                _val = _chebi_dict_of_lists[_column][_chebi_row_pos][_chebi_ids_index] # slice out for ['Substrate ChEBI IDs', 'Product ChEBI IDs', 'Cofactors ChEBI IDs']
                             except IndexError:
                                 _val = _chebi_dict_of_lists[_column][_chebi_row_pos]
                         else:
