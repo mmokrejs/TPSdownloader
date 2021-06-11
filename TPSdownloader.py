@@ -200,16 +200,17 @@ def parse_known_terpenes(filename="terpene_names.uniq.txt"):
     mostly by mistake but line-based approach yields entries starting with double-quote sign.
     """
 
-    _terpenes = []
+    _known_terpenes = []
+    print("Info: Opening %s with known terpenes")
     with open(filename) as _file:
         for _line in _file:
             if _line[0] != '#':
                 if _line[0] != '"':
-                    _terpenes.append(_line[:-1])
+                    _known_terpenes.append(_line[:-1])
                 else:
-                    _terpenes.append(_line[1:-1])
-    if myoptions.debug: print("Debug: terpenes=%s" % str(_terpenes))
-    return _terpenes
+                    _known_terpenes.append(_line[1:-1])
+    if myoptions.debug: print("Debug: terpenes=%s" % str(_known_terpenes))
+    return _known_terpenes
 
 
 def parse_chebi_xml(filename):
@@ -337,7 +338,7 @@ def process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_loca
         _reactions_local = []
 
 
-def parse_uniprot_xml(filename, terpenes, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc):
+def parse_uniprot_xml(filename, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc):
     """Parse a single XML stream (a file pre-fetched into a local cache) from Uniprot.
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -363,7 +364,8 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
             _file = gzip.open(filename)
         else:
             _file = open(filename)
-    etree = ET.iterparse(_file)
+    print("Info: Opened %s for parsing" % filename)
+    etree = ET.iterparse(_file, events=('start', 'end'))
 
 #    try:
 #        etree=ET.parse(filename)
@@ -393,13 +395,12 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
     _reactions_local = []
 
 #    for elem in root:
-    for elem_tuple in etree:
-        print("Debug: elem_tuple=%s" % str(elem_tuple))
-        elem = elem_tuple[1]
-        # print("Debug: elem=%s" % str(elem))
-        if myoptions.debug: print("Level 0: ", elem.tag, ' ', elem.attrib, ' ', elem.text)
+    for event, elem in etree:
+        if myoptions.debug:
+            print("Debug: event=%s, elem=%s" % (str(event), str(elem)))
+            print("Level 0: ", event, elem.tag, ' ', elem.attrib, ' ', elem.text)
         if elem.tag == '{http://uniprot.org/uniprot}entry':
-            if _primary_accession:
+            if event == 'end' and _primary_accession:
                 if myoptions.debug > 1: print("Reached items: %s, returning results parsed so far for %s" % (str(elem.items()), str(_primary_accession)))
                 # process previously parsed data buffers
                 process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _chebi_ids, _rhea_ids, _ec_numbers, _reactions)
@@ -407,6 +408,12 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                 _rhea_ids_local = []
                 _ec_numbers_local = []
                 _reactions_local = []
+
+                if True or myoptions.debug:
+                    print("Info: %s: Yielding a single entry from file %s" % (_primary_accession, str(filename)))
+                    for _var, _varname in zip([_primary_accession, _secondary_accessions, _uniprot_name, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _sequence, _organism, _lineage], ['_primary_accession', '_secondary_accessions', '_uniprot_name', '_recommended_name', '_alternative_names', '_submitted_name', '_feature_descriptions', '_chebi_ids', '_rhea_ids', '_ec_numbers', '_reactions', '_sequence', '_organism', '_lineage']):
+                        print("Info: %s: %s=%s" % (_primary_accession, _varname, _var))
+
                 if not _recommended_name and not _alternative_names and not _submitted_name:
                     # <uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
                     #   <entry created="2011-10-19" dataset="TrEMBL" modified="2021-04-07" version="68">
@@ -416,12 +423,8 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                     #       <submittedName>
                     #         <fullName evidence="4 5">Beta myrcene/limonene synthase</fullName>
                     #       </submittedName>
-                    raise ValueError("No protein descriptions were parsed for _primary_accession=%s, _secondary_accessions=%s" % str(_primary_accession), str(_secondary_accessions))
-                else:
-                    if myoptions.debug:
-                        print("Info: %s: Yielding a single entry from file %s" % (_primary_accession, str(filename)))
-                        for _var, _varname in zip([_primary_accession, _secondary_accessions, _uniprot_name, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _sequence, _organism, _lineage], ['_primary_accession', '_secondary_accessions', '_uniprot_name', '_recommended_name', '_alternative_names', '_submitted_name', '_feature_descriptions', '_chebi_ids', '_rhea_ids', '_ec_numbers', '_reactions', '_sequence', '_organism', '_lineage']):
-                            print("Info: %s: %s=%s" % (_primary_accession, _varname, _var))
+
+                    raise ValueError("No protein descriptions were parsed for _primary_accession=%s, _secondary_accessions=%s" % (str(_primary_accession), str(_secondary_accessions)))
                 check_parsed_list_lengths(_primary_accession, _chebi_ids, _rhea_ids, _ec_numbers, _reactions)
                 yield(_primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence)
             _primary_accession = None
@@ -438,7 +441,7 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
             _sequence = None
             _organism = None
             _lineage = []
-        elif elem.tag == '{http://uniprot.org/uniprot}copyright' and _primary_accession:
+        elif event == 'end' and elem.tag == '{http://uniprot.org/uniprot}copyright' and _primary_accession:
             # process previously parsed data buffers
             process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _chebi_ids, _rhea_ids, _ec_numbers, _reactions)
             _chebi_ids_local = []
@@ -456,17 +459,23 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                 #       <submittedName>
                 #         <fullName evidence="4 5">Beta myrcene/limonene synthase</fullName>
                 #       </submittedName>
-                raise ValueError("No proteins descriptions were parsed for _accessions=%s" % str(_primary_accession))
+                raise ValueError("No proteins descriptions were parsed for _accessions=%s, _secondary_accessions=%s" % (str(_primary_accession), str(_secondary_accessions)))
             else:
                 if myoptions.debug: print("Info: Yielding the very last entry %s from file %s" % (str(_primary_accession), str(filename)))
+
+            if True or myoptions.debug:
+                print("Info: %s: Yielding a single entry from file %s" % (_primary_accession, str(filename)))
+                for _var, _varname in zip([_primary_accession, _secondary_accessions, _uniprot_name, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _sequence, _organism, _lineage], ['_primary_accession', '_secondary_accessions', '_uniprot_name', '_recommended_name', '_alternative_names', '_submitted_name', '_feature_descriptions', '_chebi_ids', '_rhea_ids', '_ec_numbers', '_reactions', '_sequence', '_organism', '_lineage']):
+                    print("Info: %s: %s=%s" % (_primary_accession, _varname, _var))
+
             check_parsed_list_lengths(_primary_accession, _chebi_ids, _rhea_ids, _ec_numbers, _reactions)
             yield(_primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence)
 
         for child in elem:
-            if myoptions.debug > 1: print("Items: ", str(child.items()))
+            if myoptions.debug > 1: print("Child items: ", str(child.items()))
     
             if myoptions.debug > 1: print("Level 1: tag:", child.tag, 'attrib:', child.attrib, 'text:', child.text)
-            if child.tag == '{http://uniprot.org/uniprot}accession':
+            if event == 'end' and child.tag == '{http://uniprot.org/uniprot}accession':
                 if myoptions.debug > 1: print("Info: Came across accession %s" % child.text)
                 if myoptions.debug > 1: print("L1: child.attrib: ", child.attrib, "child.tag: ", child.tag)
                 if not _primary_accession:
@@ -478,37 +487,37 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                         uniprot_pri_acc2aliases[_primary_accession] = [child.text]
                     else:
                         uniprot_pri_acc2aliases[_primary_accession].extend([child.text])
-            elif child.tag == '{http://uniprot.org/uniprot}name':
+            elif event == 'end' and child.tag == '{http://uniprot.org/uniprot}name':
                 _uniprot_name = child.text # "TPSD2_PICSI"
-            elif child.tag == '{http://uniprot.org/uniprot}sequence':
+            elif event == 'end' and child.tag == '{http://uniprot.org/uniprot}sequence':
                 _sequence = child.text
-            if child.tag == '{http://uniprot.org/uniprot}feature':
+            if event == 'end' and child.tag == '{http://uniprot.org/uniprot}feature':
                 if 'type' in child.attrib.keys() and 'description' in child.attrib.keys() and child.attrib['type'] == 'chain':
                     _feature_descriptions.extend([child.attrib['description']]) # A0A2N8PG38, A0A239C551
                 
             for subchild in child:
                 if myoptions.debug > 1: print("Level 2: ", subchild.tag, ' ', subchild.attrib, ' ', subchild.text)
-                if child.tag == '{http://uniprot.org/uniprot}organism':
-                    if subchild.tag == '{http://uniprot.org/uniprot}name' and subchild.attrib['type'] == 'scientific':
+                if event == 'end' and child.tag == '{http://uniprot.org/uniprot}organism':
+                    if event == 'end' and subchild.tag == '{http://uniprot.org/uniprot}name' and subchild.attrib['type'] == 'scientific':
                         _organism = subchild.text
                 for sschild in subchild:
                     tag = {}
                     if myoptions.debug > 1: print("Level 3: ", sschild.tag, ' ', sschild.attrib, ' ', sschild.text)
-                    if subchild.tag == '{http://uniprot.org/uniprot}recommendedName':
+                    if event == 'end' and subchild.tag == '{http://uniprot.org/uniprot}recommendedName':
                         if sschild.tag == '{http://uniprot.org/uniprot}fullName':
                             _recommended_name = sschild.text
-                    elif subchild.tag == '{http://uniprot.org/uniprot}alternativeName':
+                    elif event == 'end' and subchild.tag == '{http://uniprot.org/uniprot}alternativeName':
                         if sschild.tag == '{http://uniprot.org/uniprot}fullName':
                             if not _alternative_names:
                                 _alternative_names = [sschild.text]
                             else:
                                 _alternative_names.extend([sschild.text]) # A0A2N0DJE2
-                    elif child.tag == '{http://uniprot.org/uniprot}protein':
+                    elif event == 'end' and child.tag == '{http://uniprot.org/uniprot}protein':
                         if subchild.tag == '{http://uniprot.org/uniprot}submittedName':
                             if sschild.tag == '{http://uniprot.org/uniprot}fullName':
                                 _submitted_name = sschild.text # G1JUH4
-                    elif child.tag == '{http://uniprot.org/uniprot}comment' and 'type' in child.attrib.keys() and child.attrib['type'] == 'catalytic activity' and subchild.tag == '{http://uniprot.org/uniprot}reaction':
-                        if _leaving_a_reaction_tag:
+                    elif event == 'end' and child.tag == '{http://uniprot.org/uniprot}comment' and 'type' in child.attrib.keys() and child.attrib['type'] == 'catalytic activity' and subchild.tag == '{http://uniprot.org/uniprot}reaction':
+                        if subchild.tag == '{http://uniprot.org/uniprot}reaction':
                             # when hitting a second '<comment type="catalytic activity">' entry or end of file or a new Uniprot entry item, process the previously collected data
                             process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _chebi_ids, _rhea_ids, _ec_numbers, _reactions)
 
@@ -529,7 +538,7 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                         #   </physiologicalReaction>
                         # </comment>
                         
-                        if sschild.tag == '{http://uniprot.org/uniprot}dbReference':
+                        if event == 'end' and sschild.tag == '{http://uniprot.org/uniprot}dbReference':
                             if sschild.attrib['type'] == 'ChEBI':
                                 # do not even fetch unwanted ChEBI Ids
                                 # if sschild.attrib['id'] not in non_terpene_chebi_ids:
@@ -542,11 +551,12 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                             elif sschild.attrib['type'] == 'EC':
                                 # seems only a single EC number exists per reaction
                                 _ec_numbers_local.append(sschild.attrib['id'])
-                        elif sschild.tag == '{http://uniprot.org/uniprot}text':
+                        elif event == 'end' and sschild.tag == '{http://uniprot.org/uniprot}text':
                             _reactions_local.append(sschild.text)
                         else:
                             raise ValueError("Unexpected tag in Uniprot XML stream sschild.tag=%s" % str(sschild.tag))
                             # when leaving "</reaction>" check if we lengths of lists are same if not, fill the missing ones
+
                     # Level 1:  {http://uniprot.org/uniprot}comment   {'type': 'catalytic activity'}   
                     # Level 2:  {http://uniprot.org/uniprot}reaction   {'evidence': '3'}
                     # Level 3:  {http://uniprot.org/uniprot}text   {}   (2E)-geranyl diphosphate = (1S,5S)-alpha-pinene + diphosphate
@@ -556,7 +566,7 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                     # Level 3:  {http://uniprot.org/uniprot}dbReference   {'id': 'CHEBI:58057', 'type': 'ChEBI'}   None
                     # Level 3:  {http://uniprot.org/uniprot}dbReference   {'id': '4.2.3.119', 'type': 'EC'}   None
     
-                    if child.tag == '{http://uniprot.org/uniprot}organism':
+                    if event == 'end' and child.tag == '{http://uniprot.org/uniprot}organism':
                         if subchild.tag == '{http://uniprot.org/uniprot}lineage':
                             if sschild.tag == '{http://uniprot.org/uniprot}taxon':
                                 _lineage += [sschild.text]
@@ -603,7 +613,7 @@ def downloader_wrapper(myid, dbname, cachedir, url):
     """curl cannot fetch https://www.uniprot.org/uniprot/Q5Gj59.xml
     but wget can as it accepts redirect to the primary entry. But we
     do not want to store the primary entry under the filename of the
-    secondary at least. let's hope we get to the primary entry ID via
+    secondary at least. Let's hope we get to the primary entry ID via
     another path.
     """
 
@@ -961,7 +971,7 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
         uniprot_dict_of_lists['Publication (URL)'].append('') # BUG
         already_parsed.append(primary_accession)
     else:
-        print("Info: %s: Accession already kept in uniprot_dict_of_lists" % primary_accession)
+        print("Info: %s: Accession already kept in already_parsed=%s" % (primary_accession, str(already_parsed)))
 
     _l = len(uniprot_dict_of_lists['Uniprot ID'])
     for x in uniprot_dict_of_lists.keys():
@@ -980,7 +990,7 @@ def fetch_ids_from_xlsx(filename, terpenes, uniprot_pri_acc2aliases, uniprot_ali
 
         if len(_sub_i) > 1:
             for _ii in _sub_i:
-                print("Looping over %s from %s, originates from %s" % (_ii, filename, str(i)))
+                print("Info: Looping over %s from %s, originates from %s" % (_ii, filename, str(i)))
                 _id = None
                 # remove redundancies but keep ordering
                 if _ii is not None and _ii not in already_parsed:
@@ -1154,36 +1164,42 @@ def main():
         print("Info: Found multi-entry XML file %s" % '.TPSdownloader_cache/uniprot/multientry/' + _filename)
         if os.path.getsize('.TPSdownloader_cache/uniprot/multientry/' + _filename):
             print("Info: Parsing %s" % '.TPSdownloader_cache/uniprot/multientry/' + _filename)
-            for _primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml('.TPSdownloader_cache/uniprot/multientry/' + _filename, _terpenes, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc):
+            for _primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml('.TPSdownloader_cache/uniprot/multientry/' + _filename, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc):
                 process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _chebi_dict_of_lists, _already_parsed, _primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc)
 
-    if myoptions.debug: print("Info: _all_uniprot_ids=%s" % str(_all_uniprot_ids))
-    if myoptions.debug: print("Info: _all_chebi_ids=%s" % str(_all_chebi_ids))
+    if myoptions.debug:
+        print("Debug: After parsing multi-entry XML files _all_uniprot_ids=%s" % str(_all_uniprot_ids))
+        print("Debug: After parsing multi-entry XML files _all_chebi_ids=%s" % str(_all_chebi_ids))
 
     if myoptions.uniprot_id:
         download_uniprot(myoptions.uniprot_id)
         _ids = (_id)
     elif myoptions.uniprot_ids_from_file and os.path.exists(myoptions.uniprot_ids_from_file):
         # get list of accessions, fetch their single-entry XML files unless already in local cache and parse them
-        _ids = fetch_ids_from_xlsx(myoptions.uniprot_ids_from_file, _terpenes, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _uniprot_dict_of_lists, _already_parsed, _all_uniprot_ids, _all_chebi_ids)
+        _ids = fetch_ids_from_xlsx(myoptions.uniprot_ids_from_file, _known_terpenes, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _uniprot_dict_of_lists, _already_parsed, _all_uniprot_ids, _all_chebi_ids)
     else:
         _ids = []
         raise ValueError("No Uniprot IDs provided to act upon, nothing to do.")
+
+    if myoptions.debug:
+        print("Debug: After parsing UniProt IDs from files _all_uniprot_ids=%s" % str(_all_uniprot_ids))
+        print("Debug: After parsing UniProt IDs from files _all_chebi_ids=%s" % str(_all_chebi_ids))
 
     _aliases = _uniprot_aliases2pri_acc.keys()
     for _id in _ids:
         if _id not in _already_parsed and _id not in _aliases:
             _filename = '.TPSdownloader_cache/uniprot/' + _id + '.xml'
             if os.path.exists(_filename) and os.path.getsize(_filename):
-                for _primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml(_filename, _terpenes, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc):
+                for _primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml(_filename, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc):
                     process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _chebi_dict_of_lists, _already_parsed, _primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc)
             else:
                 print("Info: No such file %s" % str(_filename))
         else:
             print("Info: Skipping %s which is already in _all_uniprot_ids, supposedly a secondary accession" % _id)
 
-    if myoptions.debug: print("Debug: _all_uniprot_ids=%s" % str(_all_uniprot_ids))
-    if myoptions.debug: print("Debug: _all_chebi_ids=%s" % str(_all_chebi_ids))
+    if myoptions.debug:
+        print("Debug: after parsing single-entry XML files _all_uniprot_ids=%s" % str(_all_uniprot_ids))
+        print("Debug: after parsing single-entry XML files _all_chebi_ids=%s" % str(_all_chebi_ids))
 
     print("Info: len(_already_parsed)=%s" % len(_already_parsed))
     #print("AAAAA: len(_uniprot_dict_of_lists)=%d, len(_uniprot_dict_of_lists['Uniprot ID'])=%s, _uniprot_dict_of_lists: %s" % (len(_uniprot_dict_of_lists), len(_uniprot_dict_of_lists['Uniprot ID']), str(_uniprot_dict_of_lists)))
