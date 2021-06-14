@@ -331,7 +331,7 @@ def process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_loca
         else:
             _reactions.append([])
         if myoptions.debug:
-            print("Debug: process_delayed_buffers(): %s: Leaving with _chebi_ids=%s, _rhea_ids=%s, _ec_numbers=%s, _reactions=%s" % (str(_primary_accession), str(_chebi_ids), str(_rhea_ids), str(_ec_numbers), str(_reactions)))
+            print("Debug: process_delayed_buffers(): %s: Re-wrapped data into lists to keep their lengths same: _chebi_ids=%s, _rhea_ids=%s, _ec_numbers=%s, _reactions=%s" % (str(_primary_accession), str(_chebi_ids), str(_rhea_ids), str(_ec_numbers), str(_reactions)))
         _chebi_ids_local = []
         _rhea_ids_local = []
         _ec_numbers_local = []
@@ -380,10 +380,6 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
     _alternative_names = []
     _submitted_name = None
     _feature_descriptions = []
-    _chebi_ids = []
-    _rhea_ids = []
-    _ec_numbers = []
-    _reactions = []
     _sequence = None
     _organism = None
     _lineage = []
@@ -399,19 +395,20 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
         if myoptions.debug:
             print("Debug: event=%s, elem=%s" % (str(event), str(elem)))
             print("Level 0: ", event, elem.tag, ' ', elem.attrib, ' ', elem.text)
+        # data buffers to be processed in a delayed way
+        _chebi_ids_per_entry = []
+        _rhea_ids_per_entry = []
+        _ec_numbers_per_entry = []
+        _reactions_per_entry = []
         if elem.tag == '{http://uniprot.org/uniprot}entry':
             if event == 'end' and _primary_accession:
-                if myoptions.debug > 1: print("Reached items: %s, returning results parsed so far for %s" % (str(elem.items()), str(_primary_accession)))
+                if myoptions.debug > 1: print("Debug: %s: Reached items: %s, returning results parsed so far for %s" % (_primary_accession, str(elem.items()), str(_primary_accession)))
                 # process previously parsed data buffers
-                process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _chebi_ids, _rhea_ids, _ec_numbers, _reactions)
-                _chebi_ids_local = []
-                _rhea_ids_local = []
-                _ec_numbers_local = []
-                _reactions_local = []
+                process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry)
 
                 if True or myoptions.debug:
                     print("Info: %s: Yielding a single entry from file %s" % (_primary_accession, str(filename)))
-                    for _var, _varname in zip([_primary_accession, _secondary_accessions, _uniprot_name, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _sequence, _organism, _lineage], ['_primary_accession', '_secondary_accessions', '_uniprot_name', '_recommended_name', '_alternative_names', '_submitted_name', '_feature_descriptions', '_chebi_ids', '_rhea_ids', '_ec_numbers', '_reactions', '_sequence', '_organism', '_lineage']):
+                    for _var, _varname in zip([_primary_accession, _secondary_accessions, _uniprot_name, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _sequence, _organism, _lineage], ['_primary_accession', '_secondary_accessions', '_uniprot_name', '_recommended_name', '_alternative_names', '_submitted_name', '_feature_descriptions', '_chebi_ids_per_entry', '_rhea_ids_per_entry', '_ec_numbers_per_entry', '_reactions_per_entry', '_sequence', '_organism', '_lineage']):
                         print("Info: %s: %s=%s" % (_primary_accession, _varname, _var))
 
                 if not _recommended_name and not _alternative_names and not _submitted_name:
@@ -425,8 +422,19 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                     #       </submittedName>
 
                     raise ValueError("No protein descriptions were parsed for _primary_accession=%s, _secondary_accessions=%s" % (str(_primary_accession), str(_secondary_accessions)))
-                check_parsed_list_lengths(_primary_accession, _chebi_ids, _rhea_ids, _ec_numbers, _reactions)
-                yield(_primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence)
+                check_parsed_list_lengths(_primary_accession, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry)
+                yield(_primary_accession, _secondary_accessions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence)
+                # clear the values after pushing them out as results
+                _chebi_ids_local = []
+                _rhea_ids_local = []
+                _ec_numbers_local = []
+                _reactions_local = []
+
+                _chebi_ids_per_entry = []
+                _rhea_ids_per_entry = []
+                _ec_numbers_per_entry = []
+                _reactions_per_entry = []
+
             _primary_accession = None
             _secondary_accessions = []
             _uniprot_name = None
@@ -434,22 +442,25 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
             _alternative_names = []
             _submitted_name = None
             _feature_descriptions = []
-            _chebi_ids = []
-            _rhea_ids = []
-            _ec_numbers = []
-            _reactions = []
-            _sequence = None
-            _organism = None
-            _lineage = []
-        elif event == 'end' and elem.tag == '{http://uniprot.org/uniprot}copyright' and _primary_accession:
-            # process previously parsed data buffers
-            process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _chebi_ids, _rhea_ids, _ec_numbers, _reactions)
+
             _chebi_ids_local = []
             _rhea_ids_local = []
             _ec_numbers_local = []
             _reactions_local = []
 
-            if myoptions.debug > 1: print("Reached items: %s, returning results parsed so far for %s" % (str(elem.items()), str(_primary_accession)))
+            _chebi_ids_per_entry = []
+            _rhea_ids_per_entry = []
+            _ec_numbers_per_entry = []
+            _reactions_per_entry = []
+
+            _sequence = None
+            _organism = None
+            _lineage = []
+        elif event == 'end' and elem.tag == '{http://uniprot.org/uniprot}copyright' and _primary_accession:
+            # process previously parsed data buffers
+            process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry)
+
+            if myoptions.debug > 1: print("Debug: %s: Reached items: %s, returning results parsed so far" % (_primary_accession, str(elem.items())))
             if not _recommended_name and not _alternative_names and not _submitted_name:
                 # <uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
                 #   <entry created="2011-10-19" dataset="TrEMBL" modified="2021-04-07" version="68">
@@ -465,16 +476,27 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
 
             if True or myoptions.debug:
                 print("Info: %s: Yielding a single entry from file %s" % (_primary_accession, str(filename)))
-                for _var, _varname in zip([_primary_accession, _secondary_accessions, _uniprot_name, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _sequence, _organism, _lineage], ['_primary_accession', '_secondary_accessions', '_uniprot_name', '_recommended_name', '_alternative_names', '_submitted_name', '_feature_descriptions', '_chebi_ids', '_rhea_ids', '_ec_numbers', '_reactions', '_sequence', '_organism', '_lineage']):
+                for _var, _varname in zip([_primary_accession, _secondary_accessions, _uniprot_name, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _sequence, _organism, _lineage], ['_primary_accession', '_secondary_accessions', '_uniprot_name', '_recommended_name', '_alternative_names', '_submitted_name', '_feature_descriptions', '_chebi_ids_per_entry', '_rhea_ids_per_entry', '_ec_numbers_per_entry', '_reactions_per_entry', '_sequence', '_organism', '_lineage']):
                     print("Info: %s: %s=%s" % (_primary_accession, _varname, _var))
 
-            check_parsed_list_lengths(_primary_accession, _chebi_ids, _rhea_ids, _ec_numbers, _reactions)
-            yield(_primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence)
+            check_parsed_list_lengths(_primary_accession, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry)
+            yield(_primary_accession, _secondary_accessions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence)
+
+            # clear the values after pushing them out as results
+            _chebi_ids_local = []
+            _rhea_ids_local = []
+            _ec_numbers_local = []
+            _reactions_local = []
+
+            _chebi_ids_per_entry = []
+            _rhea_ids_per_entry = []
+            _ec_numbers_per_entry = []
+            _reactions_per_entry = []
 
         for child in elem:
             if myoptions.debug > 1: print("Child items: ", str(child.items()))
     
-            if myoptions.debug > 1: print("Level 1: tag:", child.tag, 'attrib:', child.attrib, 'text:', child.text)
+            if myoptions.debug > 1: print("Level 1:", event, 'tag:', child.tag, 'attrib:', child.attrib, 'text:', child.text)
             if event == 'end' and child.tag == '{http://uniprot.org/uniprot}accession':
                 if myoptions.debug > 1: print("Info: Came across accession %s" % child.text)
                 if myoptions.debug > 1: print("L1: child.attrib: ", child.attrib, "child.tag: ", child.tag)
@@ -496,13 +518,13 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                     _feature_descriptions.extend([child.attrib['description']]) # A0A2N8PG38, A0A239C551
                 
             for subchild in child:
-                if myoptions.debug > 1: print("Level 2: ", subchild.tag, ' ', subchild.attrib, ' ', subchild.text)
+                if myoptions.debug > 1: print("Level 2: ", event, subchild.tag, ' ', subchild.attrib, ' ', subchild.text)
                 if event == 'end' and child.tag == '{http://uniprot.org/uniprot}organism':
-                    if event == 'end' and subchild.tag == '{http://uniprot.org/uniprot}name' and subchild.attrib['type'] == 'scientific':
+                    if subchild.tag == '{http://uniprot.org/uniprot}name' and subchild.attrib['type'] == 'scientific':
                         _organism = subchild.text
                 for sschild in subchild:
                     tag = {}
-                    if myoptions.debug > 1: print("Level 3: ", sschild.tag, ' ', sschild.attrib, ' ', sschild.text)
+                    if myoptions.debug > 1: print("Level 3: ", event, sschild.tag, ' ', sschild.attrib, ' ', sschild.text)
                     if event == 'end' and subchild.tag == '{http://uniprot.org/uniprot}recommendedName':
                         if sschild.tag == '{http://uniprot.org/uniprot}fullName':
                             _recommended_name = sschild.text
@@ -517,10 +539,6 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                             if sschild.tag == '{http://uniprot.org/uniprot}fullName':
                                 _submitted_name = sschild.text # G1JUH4
                     elif event == 'end' and child.tag == '{http://uniprot.org/uniprot}comment' and 'type' in child.attrib.keys() and child.attrib['type'] == 'catalytic activity' and subchild.tag == '{http://uniprot.org/uniprot}reaction':
-                        if subchild.tag == '{http://uniprot.org/uniprot}reaction':
-                            # when hitting a second '<comment type="catalytic activity">' entry or end of file or a new Uniprot entry item, process the previously collected data
-                            process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _chebi_ids, _rhea_ids, _ec_numbers, _reactions)
-
                         # https://www.uniprot.org/uniprot/A0A348B779.xml
                         # <comment type="catalytic activity">
                         #   <reaction evidence="3">
@@ -570,6 +588,17 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                         if subchild.tag == '{http://uniprot.org/uniprot}lineage':
                             if sschild.tag == '{http://uniprot.org/uniprot}taxon':
                                 _lineage += [sschild.text]
+                if event == 'end' and subchild.tag == '{http://uniprot.org/uniprot}reaction':
+                    # when hitting a second '<comment type="catalytic activity">' entry or end of file or a new Uniprot entry item, process the previously collected data
+                    print("Debug: %s: Pushing out the buffer contents after reaching end of reaction tag event=%s, child=%s, subchild=%s" % (_primary_accession, event, str(child), str(subchild)))
+                    process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry)
+
+                    # make sure to empty the buffer for another reaction tag branch
+                    _chebi_ids_local = []
+                    _rhea_ids_local = []
+                    _ec_numbers_local = []
+                    _reactions_local = []
+
 
 
     if not _recommended_name and not _alternative_names and not _submitted_name:
@@ -847,20 +876,27 @@ def translator(extra_colnames, nestedlists, column_pairs, uniprot_dict_of_lists,
     else:
         for _chebi_col, _uniprot_col in column_pairs:
             _res = []
-            print("     nestedlists=%s" % str(nestedlists))
+            if myoptions.debug:
+                print("     nestedlists=%s" % str(nestedlists))
             for _sublist in nestedlists:
-                print("        _sublist=%s" % str(_sublist))
+                if myoptions.debug:
+                    print("        _sublist=%s" % str(_sublist))
                 for _sub_sublist in _sublist:
-                    print("    _sub_sublist=%s" % str(_sub_sublist))
+                    if myoptions.debug:
+                        print("    _sub_sublist=%s" % str(_sub_sublist))
                     for _sub_sub_sublist in _sub_sublist:
-                        print("_sub_sub_sublist=%s" % str(_sub_sub_sublist))
+                        if myoptions.debug:
+                             print("_sub_sub_sublist=%s" % str(_sub_sub_sublist))
                         _indexes = [chebi_dict_of_lists['ChEBI ID'].index(x) for x in _sub_sub_sublist if x]
                         _res.append([chebi_dict_of_lists[_chebi_col][x] for x in _indexes])
-                        print("Debug: translator(): _res=%s" % str(_res))
+                        if myoptions.debug:
+                            print("Debug: translator(): _res=%s" % str(_res))
             uniprot_dict_of_lists[_uniprot_col].append(_res)
-            print("Debug: translator(): uniprot_dict_of_lists[%s][-1]=%s" % (_uniprot_col, str(uniprot_dict_of_lists[_uniprot_col][-1])))
-    print("translator(): Leaving with uniprot_dict_of_lists[%s]=%s" % (_colname, str(uniprot_dict_of_lists[_colname])))
-    print("translator(): Leaving with uniprot_dict_of_lists[%s]=%s" % (_uniprot_col, str(uniprot_dict_of_lists[_uniprot_col])))
+            if myoptions.debug:
+                print("Debug: translator(): uniprot_dict_of_lists[%s][-1]=%s" % (_uniprot_col, str(uniprot_dict_of_lists[_uniprot_col][-1])))
+    if myoptions.debug:
+        print("Debug: translator(): Leaving with uniprot_dict_of_lists[%s]=%s" % (_colname, str(uniprot_dict_of_lists[_colname])))
+        print("Debug: translator(): Leaving with uniprot_dict_of_lists[%s]=%s" % (_uniprot_col, str(uniprot_dict_of_lists[_uniprot_col])))
 
 
 def append_substrates_cofactors_products(uniprot_dict_of_lists, chebi_dict_of_lists, _substrate_ids, _cofactor_ids, _product_ids):
@@ -908,11 +944,6 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
     if myoptions.debug:
         print("Debug: process_parsed_uniprot_values(): primary_accession=%s, reactions=%s, ec_numbers=%s, rhea_ids=%s, chebi_ids=%s" % (str(primary_accession), str(reactions), str(ec_numbers), str(rhea_ids), str(chebi_ids)))
     _substrate_ids, _cofactor_ids, _product_ids = get_cyclic_terpene_synthases(primary_accession, reactions, ec_numbers, rhea_ids, chebi_ids, chebi_dict_of_lists)
-    if not _product_ids: # BUG: this is not correct, we loose here all entries having no product annotated or actually, recognized
-        # too bad, we parsed an XML entry of an enzyme not catalyzing any cyclic terpene synthesizing reaction
-        # make sure we do not re-fetch this entry into a single-entry XML file if this was already fetched in a multi-entry XML file
-        already_parsed.append(primary_accession)
-        return
 
     if primary_accession and primary_accession not in already_parsed:
         # parse values for ChEBI entries mentioned in the UniProt record
@@ -1141,7 +1172,7 @@ def print_dict_lengths(somedict, dictname):
 
 def main():
     create_cache()
-    _terpenes = parse_known_terpenes()
+    _known_terpenes = parse_known_terpenes()
     _uniprot_pri_acc2aliases = {}
     _uniprot_aliases2pri_acc = {}
 
