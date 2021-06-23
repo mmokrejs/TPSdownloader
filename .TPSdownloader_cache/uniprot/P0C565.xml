@@ -1,0 +1,498 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-07-10" modified="2021-06-02" version="45">
+<accession>P0C565</accession>
+<accession>L7RFF8</accession>
+<name>CHRYS_TANCI</name>
+<protein>
+<recommendedName>
+<fullName evidence="10">Bifunctional chrysanthemol synthase, chloroplastic</fullName>
+</recommendedName>
+<alternativeName>
+<fullName evidence="10">Chrysanthemol synthase, chloroplastic</fullName>
+<ecNumber evidence="7">3.7.1.-</ecNumber>
+</alternativeName>
+<alternativeName>
+<fullName evidence="9">Chrysanthemyl diphosphate synthase, chloroplastic</fullName>
+<shortName evidence="9">CPPase</shortName>
+<shortName evidence="10">TcCDS</shortName>
+<ecNumber evidence="5 7">2.5.1.67</ecNumber>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="10">CDS</name>
+</gene>
+<organism>
+<name type="scientific">Tanacetum cinerariifolium</name>
+<name type="common">Dalmatian daisy</name>
+<name type="synonym">Chrysanthemum cinerariifolium</name>
+<dbReference type="NCBI Taxonomy" id="118510"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>campanulids</taxon>
+<taxon>Asterales</taxon>
+<taxon>Asteraceae</taxon>
+<taxon>Asteroideae</taxon>
+<taxon>Anthemideae</taxon>
+<taxon>Anthemidinae</taxon>
+<taxon>Tanacetum</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2001" name="Proc. Natl. Acad. Sci. U.S.A." volume="98" first="4373" last="4378">
+<title>Chrysanthemyl diphosphate synthase: isolation of the gene and characterization of the recombinant non-head-to-tail monoterpene synthase from Chrysanthemum cinerariaefolium.</title>
+<authorList>
+<person name="Rivera S.B."/>
+<person name="Swedlund B.D."/>
+<person name="King G.J."/>
+<person name="Bell R.N."/>
+<person name="Hussey C.E. Jr."/>
+<person name="Shattuck-Eidens D.M."/>
+<person name="Wrobel W.M."/>
+<person name="Peiser G.D."/>
+<person name="Poulter C.D."/>
+</authorList>
+<dbReference type="PubMed" id="11287653"/>
+<dbReference type="DOI" id="10.1073/pnas.071543598"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>PARTIAL PROTEIN SEQUENCE</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>COFACTOR</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2012" name="Plant Cell" volume="24" first="4252" last="4265">
+<title>Bidirectional secretions from glandular trichomes of pyrethrum enable immunization of seedlings.</title>
+<authorList>
+<person name="Ramirez A.M."/>
+<person name="Stoopen G."/>
+<person name="Menzel T.R."/>
+<person name="Gols R."/>
+<person name="Bouwmeester H.J."/>
+<person name="Dicke M."/>
+<person name="Jongsma M.A."/>
+</authorList>
+<dbReference type="PubMed" id="23104830"/>
+<dbReference type="DOI" id="10.1105/tpc.112.105031"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>DEVELOPMENTAL STAGE</scope>
+<source>
+<tissue>Ovary</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2005" name="Phytochemistry" volume="66" first="1529" last="1535">
+<title>Biosynthesis of pyrethrin I in seedlings of Chrysanthemum cinerariaefolium.</title>
+<authorList>
+<person name="Matsuda K."/>
+<person name="Kikuta Y."/>
+<person name="Haba A."/>
+<person name="Nakayama K."/>
+<person name="Katsuda Y."/>
+<person name="Hatanaka A."/>
+<person name="Komai K."/>
+</authorList>
+<dbReference type="PubMed" id="15964038"/>
+<dbReference type="DOI" id="10.1016/j.phytochem.2005.05.005"/>
+</citation>
+<scope>REVIEW</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2014" name="J. Biol. Chem." volume="289" first="36325" last="36335">
+<title>Chrysanthemyl diphosphate synthase operates in planta as a bifunctional enzyme with chrysanthemol synthase activity.</title>
+<authorList>
+<person name="Yang T."/>
+<person name="Gao L."/>
+<person name="Hu H."/>
+<person name="Stoopen G."/>
+<person name="Wang C."/>
+<person name="Jongsma M.A."/>
+</authorList>
+<dbReference type="PubMed" id="25378387"/>
+<dbReference type="DOI" id="10.1074/jbc.m114.623348"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>MUTAGENESIS OF ASN-283</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>PATHWAY</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2018" name="Plant Physiol." volume="176" first="524" last="537">
+<title>Coexpression analysis identifies two oxidoreductases involved in the biosynthesis of the monoterpene acid moiety of natural pyrethrin insecticides in Tanacetum cinerariifolium.</title>
+<authorList>
+<person name="Xu H."/>
+<person name="Moghe G.D."/>
+<person name="Wiegert-Rininger K."/>
+<person name="Schilmiller A.L."/>
+<person name="Barry C.S."/>
+<person name="Last R.L."/>
+<person name="Pichersky E."/>
+</authorList>
+<dbReference type="PubMed" id="29122986"/>
+<dbReference type="DOI" id="10.1104/pp.17.01330"/>
+</citation>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2019" name="Nat. Prod. Rep." volume="36" first="626" last="665">
+<title>Non-volatile natural products in plant glandular trichomes: chemistry, biological activities and biosynthesis.</title>
+<authorList>
+<person name="Liu Y."/>
+<person name="Jing S.-X."/>
+<person name="Luo S.-H."/>
+<person name="Li S.-H."/>
+</authorList>
+<dbReference type="PubMed" id="30468448"/>
+<dbReference type="DOI" id="10.1039/c8np00077h"/>
+</citation>
+<scope>REVIEW</scope>
+</reference>
+<comment type="function">
+<text evidence="5 7 11">Component of the monoterpenoid pyrethrins biosynthesis; pyrethrins are widely used plant-derived pesticide (PubMed:30468448). Catalyzes the condensation of two molecules of dimethylallyl diphosphate to produce chrysanthemyl diphosphate (CPP), a monoterpene with a non-head-to-tail or irregular c1'-2-3 linkage between isoprenoid units (PubMed:11287653, PubMed:25378387). In a second step, hydrolyzes the diphosphate moiety of CPP to form chrysanthemol (PubMed:25378387). With a lower efficiency, can also converts dimethylallyl diphosphate into lavandulyl diphosphate (LPP), and subsequently LPP into lavandulol (PubMed:25378387).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="5 7">
+<text>2 dimethylallyl diphosphate = (R,R)-chrysanthemyl diphosphate + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:14009"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:57623"/>
+<dbReference type="ChEBI" id="CHEBI:58819"/>
+<dbReference type="EC" id="2.5.1.67"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="5 7">
+<dbReference type="Rhea" id="RHEA:14010"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="7">
+<text>(R,R)-chrysanthemyl diphosphate + H2O = (R,R)-chrysanthemol + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:60024"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:58819"/>
+<dbReference type="ChEBI" id="CHEBI:143898"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="7">
+<dbReference type="Rhea" id="RHEA:60025"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="7">
+<text>(R)-lavandulyl diphosphate + H2O = (R)-lavandulol + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:60696"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:50283"/>
+<dbReference type="ChEBI" id="CHEBI:143949"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="7">
+<dbReference type="Rhea" id="RHEA:60697"/>
+</physiologicalReaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="5">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="5">Binds 2 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="5">600 uM for dimethylallyl diphosphate</KM>
+<KM evidence="7">196 uM for chrysanthemyl diphosphate</KM>
+<text evidence="5 7">kcat is 0.5 min(-1) with dimethylallyl diphosphate as substrate (PubMed:11287653). kcat is 0.0033 min(-1) with chrysanthemyl diphosphate as substrate (PubMed:25378387).</text>
+</kinetics>
+<phDependence>
+<text evidence="5">Optimum pH is 6.5-8.</text>
+</phDependence>
+</comment>
+<comment type="pathway" evidence="7">
+<text>Isoprenoid biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="7">Plastid</location>
+<location evidence="7">Chloroplast</location>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="6 8">Restricted to glandular trichomes during achene maturation (PubMed:23104830). Expressed in flowers and in both ray and disk florets (PubMed:29122986).</text>
+</comment>
+<comment type="developmental stage">
+<text evidence="6">Mostly expressed in ovaries of flowers at stages S1 to S7 (bud to overblown), before the first disk florets opening, and prior embryos formation.</text>
+</comment>
+<comment type="similarity">
+<text evidence="12">Belongs to the FPP/GGPP synthase family.</text>
+</comment>
+<dbReference type="EC" id="3.7.1.-" evidence="7"/>
+<dbReference type="EC" id="2.5.1.67" evidence="5 7"/>
+<dbReference type="EMBL" id="I13995">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Unassigned_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="JX913537">
+<property type="protein sequence ID" value="AFZ61535.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="JX913536">
+<property type="protein sequence ID" value="AGC03154.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="P0C565"/>
+<dbReference type="BRENDA" id="2.5.1.67">
+<property type="organism ID" value="8608"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009507">
+<property type="term" value="C:chloroplast"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0033849">
+<property type="term" value="F:chrysanthemyl diphosphate synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016787">
+<property type="term" value="F:hydrolase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008299">
+<property type="term" value="P:isoprenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="CDD" id="cd00685">
+<property type="entry name" value="Trans_IPPS_HT"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR039702">
+<property type="entry name" value="FPS1-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000092">
+<property type="entry name" value="Polyprenyl_synt"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033749">
+<property type="entry name" value="Polyprenyl_synt_CS"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR11525">
+<property type="entry name" value="PTHR11525"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00348">
+<property type="entry name" value="polyprenyl_synt"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00723">
+<property type="entry name" value="POLYPRENYL_SYNTHASE_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0150">Chloroplast</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0414">Isoprene biosynthesis</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0934">Plastid</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0809">Transit peptide</keyword>
+<feature type="transit peptide" description="Chloroplast" evidence="3">
+<location>
+<begin position="1"/>
+<end position="53"/>
+</location>
+</feature>
+<feature type="chain" description="Bifunctional chrysanthemol synthase, chloroplastic" id="PRO_0000293960">
+<location>
+<begin position="54"/>
+<end position="393"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="4">
+<location>
+<begin position="1"/>
+<end position="22"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="144"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="144"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="148"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="148"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate 1" evidence="1">
+<location>
+<position position="99"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate 1" evidence="1">
+<location>
+<position position="102"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate 1" evidence="1">
+<location>
+<position position="137"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate 2" evidence="2">
+<location>
+<position position="153"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate 1" evidence="1">
+<location>
+<position position="154"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate 2" evidence="2">
+<location>
+<position position="241"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate 2" evidence="2">
+<location>
+<position position="280"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate 2" evidence="2">
+<location>
+<position position="287"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate 1" evidence="2">
+<location>
+<position position="297"/>
+</location>
+</feature>
+<feature type="binding site" description="Dimethylallyl diphosphate 2" evidence="2">
+<location>
+<position position="306"/>
+</location>
+</feature>
+<feature type="site" description="Required for catalytic activities" evidence="7">
+<location>
+<position position="283"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolished terpene synthase and prenyltransferase activities leading to lost production of chrysanthemyl diphosphate and chrysanthemol." evidence="7">
+<original>N</original>
+<variation>D</variation>
+<variation>G</variation>
+<location>
+<position position="283"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; I13995." ref="1" evidence="12">
+<original>ACSS</original>
+<variation>SWCLLC</variation>
+<location>
+<begin position="2"/>
+<end position="5"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P14324"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q12051"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11287653"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="23104830"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="25378387"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="29122986"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="11287653"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="25378387"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="30468448"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000305"/>
+<sequence length="393" mass="44995" checksum="EB5744A881B4EEB1" modified="2019-09-18" version="2" precursor="true">MACSSSLSSKWASWGASSRPHPSVQPFVTRKNVVRYHKPTSELSYSPLTTTLSSNLDSQFMQVYETLKSELIHDPSFEFDDDSRQWVERMIDYNVPGGKMVRGYSVVDSYQLLKGEELTEDEAFLACALGWCTEWLQAFILVLDDIMDGSHTRRGQPCWFRLPEVGVVAINDGVLLRNHVHRILKKYFQGKPYYVHLLDLFNETEFQTISGQMIDTICRLAGQKDLSKYTMTLNRRIVQYKGSYYSCYLPIACALLMFGENLEDHVQVKDILVELGMYYQIQNDYLDTFGDPDVFGKTGTDIEECKCSWLIAKALELANEEQKKILSENYGINDPSKVAKVKELYHALDLKGAYEDYETNLYETSMTSIKAHPNIAVQAVLKSCLEKMYKGHK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

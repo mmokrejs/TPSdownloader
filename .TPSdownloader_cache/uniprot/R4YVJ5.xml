@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-07-24" modified="2020-10-07" version="30">
+<accession>R4YVJ5</accession>
+<name>R4YVJ5_COFAR</name>
+<protein>
+<submittedName>
+<fullName evidence="4">Limonene synthase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="4">tps1</name>
+</gene>
+<organism evidence="4">
+<name type="scientific">Coffea arabica</name>
+<name type="common">Arabian coffee</name>
+<dbReference type="NCBI Taxonomy" id="13443"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>lamiids</taxon>
+<taxon>Gentianales</taxon>
+<taxon>Rubiaceae</taxon>
+<taxon>Ixoroideae</taxon>
+<taxon>Gardenieae complex</taxon>
+<taxon>Bertiereae - Coffeeae clade</taxon>
+<taxon>Coffeeae</taxon>
+<taxon>Coffea</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4">
+<citation type="journal article" date="2013" name="Phytochemistry" volume="89" first="6" last="14">
+<title>Functional characterization of three Coffea arabica L. monoterpene synthases: insights into the enzymatic machinery of coffee aroma.</title>
+<authorList>
+<person name="Del Terra L."/>
+<person name="Lonzarich V."/>
+<person name="Asquini E."/>
+<person name="Navarini L."/>
+<person name="Graziosi G."/>
+<person name="Suggi Liverani F."/>
+<person name="Pallavicini A."/>
+</authorList>
+<dbReference type="PubMed" id="23398891"/>
+<dbReference type="DOI" id="10.1016/j.phytochem.2013.01.005"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="HE985292">
+<property type="protein sequence ID" value="CCM43927.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="R4YVJ5"/>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<feature type="domain" description="Terpene_synth" evidence="2">
+<location>
+<begin position="34"/>
+<end position="211"/>
+</location>
+</feature>
+<feature type="domain" description="Terpene_synth_C" evidence="3">
+<location>
+<begin position="242"/>
+<end position="506"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="1">
+<location>
+<begin position="1"/>
+<end position="22"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF01397"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF03936"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CCM43927.1"/>
+</source>
+</evidence>
+<sequence length="566" mass="65760" checksum="C68EE812B114550C" modified="2013-07-24" version="1">MRSATMAAANVREQSGQKQQLINRRSGNYEAPLWEFDYIQSLKNEYAGDIYVSRANELKEQVKMMLDEEDMKLLDCMELVDGLERLGLAYHFEGRINRLLSSDYKAIHEGNHQRNKEDLYAAALEFRIFRQNGFNVPQDIFNDFITEDGEFDESLSEDTMGLLSLYEASFLSLEGEATLDLAREFTTKHLNNYLGKENTDQNLRILVYHALELPLRWRAPRIEARWYIDAYERSPNVNPTLLELAKIDFNIVQAIHQQDLKHVSWWWKNIRIAEKLTFIRDRIVENFFWAIGAVFEPQYGSCRRMLTKVFALITMIDDIYDVYGTLEELELFTDAVDRWDVKAIDQLPDYMRVGYLGFFNSINEMAYDALKEQGVHIVEYLKKVWADLCKAYLQEAKWYYAGYTPTVEEYLENAWVSMSVPVMLMHAYAGVTNPMNKEAMDVLDTHDIVRCSSYLLRFADDLGTSPGEMKRGDVPKLVQCYMKEAGCSEEESREHVWFLLRETWKKMNKDSEWAESPFSKTFVTAAKNFGRVALVMYQYGDGHGLHSNPEAKDRILASLFSPVPPA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

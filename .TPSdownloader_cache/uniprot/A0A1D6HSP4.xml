@@ -1,0 +1,561 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2019-07-03" modified="2021-06-02" version="29">
+<accession>A0A1D6HSP4</accession>
+<accession>B6ST66</accession>
+<name>C92C5_MAIZE</name>
+<protein>
+<recommendedName>
+<fullName evidence="5">Dimethylnonatriene synthase</fullName>
+<ecNumber evidence="4">1.14.14.59</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="9">Cytochrome P-450 19</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="5">Cytochrome P450 92C5</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="5">Trimethyltridecatetraene synthase</fullName>
+<ecNumber evidence="4">1.14.14.58</ecNumber>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="5">CYP92C5</name>
+<name type="ORF" evidence="9">ZEAMMB73_Zm00001d018839</name>
+</gene>
+<organism>
+<name type="scientific">Zea mays</name>
+<name type="common">Maize</name>
+<dbReference type="NCBI Taxonomy" id="4577"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Poales</taxon>
+<taxon>Poaceae</taxon>
+<taxon>PACMAD clade</taxon>
+<taxon>Panicoideae</taxon>
+<taxon>Andropogonodae</taxon>
+<taxon>Andropogoneae</taxon>
+<taxon>Tripsacinae</taxon>
+<taxon>Zea</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2009" name="Science" volume="326" first="1112" last="1115">
+<title>The B73 maize genome: complexity, diversity, and dynamics.</title>
+<authorList>
+<person name="Schnable P.S."/>
+<person name="Ware D."/>
+<person name="Fulton R.S."/>
+<person name="Stein J.C."/>
+<person name="Wei F."/>
+<person name="Pasternak S."/>
+<person name="Liang C."/>
+<person name="Zhang J."/>
+<person name="Fulton L."/>
+<person name="Graves T.A."/>
+<person name="Minx P."/>
+<person name="Reily A.D."/>
+<person name="Courtney L."/>
+<person name="Kruchowski S.S."/>
+<person name="Tomlinson C."/>
+<person name="Strong C."/>
+<person name="Delehaunty K."/>
+<person name="Fronick C."/>
+<person name="Courtney B."/>
+<person name="Rock S.M."/>
+<person name="Belter E."/>
+<person name="Du F."/>
+<person name="Kim K."/>
+<person name="Abbott R.M."/>
+<person name="Cotton M."/>
+<person name="Levy A."/>
+<person name="Marchetto P."/>
+<person name="Ochoa K."/>
+<person name="Jackson S.M."/>
+<person name="Gillam B."/>
+<person name="Chen W."/>
+<person name="Yan L."/>
+<person name="Higginbotham J."/>
+<person name="Cardenas M."/>
+<person name="Waligorski J."/>
+<person name="Applebaum E."/>
+<person name="Phelps L."/>
+<person name="Falcone J."/>
+<person name="Kanchi K."/>
+<person name="Thane T."/>
+<person name="Scimone A."/>
+<person name="Thane N."/>
+<person name="Henke J."/>
+<person name="Wang T."/>
+<person name="Ruppert J."/>
+<person name="Shah N."/>
+<person name="Rotter K."/>
+<person name="Hodges J."/>
+<person name="Ingenthron E."/>
+<person name="Cordes M."/>
+<person name="Kohlberg S."/>
+<person name="Sgro J."/>
+<person name="Delgado B."/>
+<person name="Mead K."/>
+<person name="Chinwalla A."/>
+<person name="Leonard S."/>
+<person name="Crouse K."/>
+<person name="Collura K."/>
+<person name="Kudrna D."/>
+<person name="Currie J."/>
+<person name="He R."/>
+<person name="Angelova A."/>
+<person name="Rajasekar S."/>
+<person name="Mueller T."/>
+<person name="Lomeli R."/>
+<person name="Scara G."/>
+<person name="Ko A."/>
+<person name="Delaney K."/>
+<person name="Wissotski M."/>
+<person name="Lopez G."/>
+<person name="Campos D."/>
+<person name="Braidotti M."/>
+<person name="Ashley E."/>
+<person name="Golser W."/>
+<person name="Kim H."/>
+<person name="Lee S."/>
+<person name="Lin J."/>
+<person name="Dujmic Z."/>
+<person name="Kim W."/>
+<person name="Talag J."/>
+<person name="Zuccolo A."/>
+<person name="Fan C."/>
+<person name="Sebastian A."/>
+<person name="Kramer M."/>
+<person name="Spiegel L."/>
+<person name="Nascimento L."/>
+<person name="Zutavern T."/>
+<person name="Miller B."/>
+<person name="Ambroise C."/>
+<person name="Muller S."/>
+<person name="Spooner W."/>
+<person name="Narechania A."/>
+<person name="Ren L."/>
+<person name="Wei S."/>
+<person name="Kumari S."/>
+<person name="Faga B."/>
+<person name="Levy M.J."/>
+<person name="McMahan L."/>
+<person name="Van Buren P."/>
+<person name="Vaughn M.W."/>
+<person name="Ying K."/>
+<person name="Yeh C.-T."/>
+<person name="Emrich S.J."/>
+<person name="Jia Y."/>
+<person name="Kalyanaraman A."/>
+<person name="Hsia A.-P."/>
+<person name="Barbazuk W.B."/>
+<person name="Baucom R.S."/>
+<person name="Brutnell T.P."/>
+<person name="Carpita N.C."/>
+<person name="Chaparro C."/>
+<person name="Chia J.-M."/>
+<person name="Deragon J.-M."/>
+<person name="Estill J.C."/>
+<person name="Fu Y."/>
+<person name="Jeddeloh J.A."/>
+<person name="Han Y."/>
+<person name="Lee H."/>
+<person name="Li P."/>
+<person name="Lisch D.R."/>
+<person name="Liu S."/>
+<person name="Liu Z."/>
+<person name="Nagel D.H."/>
+<person name="McCann M.C."/>
+<person name="SanMiguel P."/>
+<person name="Myers A.M."/>
+<person name="Nettleton D."/>
+<person name="Nguyen J."/>
+<person name="Penning B.W."/>
+<person name="Ponnala L."/>
+<person name="Schneider K.L."/>
+<person name="Schwartz D.C."/>
+<person name="Sharma A."/>
+<person name="Soderlund C."/>
+<person name="Springer N.M."/>
+<person name="Sun Q."/>
+<person name="Wang H."/>
+<person name="Waterman M."/>
+<person name="Westerman R."/>
+<person name="Wolfgruber T.K."/>
+<person name="Yang L."/>
+<person name="Yu Y."/>
+<person name="Zhang L."/>
+<person name="Zhou S."/>
+<person name="Zhu Q."/>
+<person name="Bennetzen J.L."/>
+<person name="Dawe R.K."/>
+<person name="Jiang J."/>
+<person name="Jiang N."/>
+<person name="Presting G.G."/>
+<person name="Wessler S.R."/>
+<person name="Aluru S."/>
+<person name="Martienssen R.A."/>
+<person name="Clifton S.W."/>
+<person name="McCombie W.R."/>
+<person name="Wing R.A."/>
+<person name="Wilson R.K."/>
+</authorList>
+<dbReference type="PubMed" id="19965430"/>
+<dbReference type="DOI" id="10.1126/science.1178534"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>cv. B73</strain>
+<tissue>Seedling</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2009" name="Plant Mol. Biol." volume="69" first="179" last="194">
+<title>Insights into corn genes derived from large-scale cDNA sequencing.</title>
+<authorList>
+<person name="Alexandrov N.N."/>
+<person name="Brover V.V."/>
+<person name="Freidin S."/>
+<person name="Troukhan M.E."/>
+<person name="Tatarinova T.V."/>
+<person name="Zhang H."/>
+<person name="Swaller T.J."/>
+<person name="Lu Y.-P."/>
+<person name="Bouck J."/>
+<person name="Flavell R.B."/>
+<person name="Feldmann K.A."/>
+</authorList>
+<dbReference type="PubMed" id="18937034"/>
+<dbReference type="DOI" id="10.1007/s11103-008-9415-4"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2016" name="Plant Cell" volume="28" first="2651" last="2665">
+<title>Characterization of biosynthetic pathways for the production of the volatile homoterpenes DMNT and TMTT in Zea mays.</title>
+<authorList>
+<person name="Richter A."/>
+<person name="Schaff C."/>
+<person name="Zhang Z."/>
+<person name="Lipka A.E."/>
+<person name="Tian F."/>
+<person name="Koellner T.G."/>
+<person name="Schnee C."/>
+<person name="Preiss S."/>
+<person name="Irmisch S."/>
+<person name="Jander G."/>
+<person name="Boland W."/>
+<person name="Gershenzon J."/>
+<person name="Buckler E.S."/>
+<person name="Degenhardt J."/>
+</authorList>
+<dbReference type="PubMed" id="27662898"/>
+<dbReference type="DOI" id="10.1105/tpc.15.00919"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>INDUCTION BY HERBIVORES</scope>
+<source>
+<strain>cv. B73</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2019" name="Planta" volume="249" first="21" last="30">
+<title>Biosynthesis and function of terpenoid defense compounds in maize (Zea mays).</title>
+<authorList>
+<person name="Block A.K."/>
+<person name="Vaughan M.M."/>
+<person name="Schmelz E.A."/>
+<person name="Christensen S.A."/>
+</authorList>
+<dbReference type="PubMed" id="30187155"/>
+<dbReference type="DOI" id="10.1007/s00425-018-2999-2"/>
+</citation>
+<scope>PATHWAY</scope>
+<scope>REVIEW</scope>
+</reference>
+<comment type="function">
+<text evidence="2 4 6">Involved in the biosynthesis of homoterpenes, attractants of herbivores parasitoids and predators (e.g. predatory mites and parasitoid wasps) (By similarity). Component of the volatile terpenes biosynthesis pathways (PubMed:30187155). Converts mainly nerolidol to dimethylnonatriene (DMNT) and, to a lower extent, geranyllinalool to trimethyltridecatetraene (TMTT) (PubMed:27662898).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="4">
+<text>(6E,10E)-geranyllinalool + O2 + reduced [NADPH--hemoprotein reductase] = (3E,7E)-4,8,12-trimethyltrideca 1,3,7,11-tetraene + but-3-en-2-one + H(+) + 2 H2O + oxidized [NADPH--hemoprotein reductase]</text>
+<dbReference type="Rhea" id="RHEA:13545"/>
+<dbReference type="Rhea" id="RHEA-COMP:11964"/>
+<dbReference type="Rhea" id="RHEA-COMP:11965"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15379"/>
+<dbReference type="ChEBI" id="CHEBI:48058"/>
+<dbReference type="ChEBI" id="CHEBI:57618"/>
+<dbReference type="ChEBI" id="CHEBI:58210"/>
+<dbReference type="ChEBI" id="CHEBI:74299"/>
+<dbReference type="ChEBI" id="CHEBI:74322"/>
+<dbReference type="EC" id="1.14.14.58"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="4">
+<dbReference type="Rhea" id="RHEA:13546"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="4">
+<text>(3S,6E)-nerolidol + O2 + reduced [NADPH--hemoprotein reductase] = (3E)-4,8-dimethylnona-1,3,7-triene + but-3-en-2-one + H(+) + 2 H2O + oxidized [NADPH--hemoprotein reductase]</text>
+<dbReference type="Rhea" id="RHEA:55424"/>
+<dbReference type="Rhea" id="RHEA-COMP:11964"/>
+<dbReference type="Rhea" id="RHEA-COMP:11965"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15379"/>
+<dbReference type="ChEBI" id="CHEBI:48058"/>
+<dbReference type="ChEBI" id="CHEBI:57618"/>
+<dbReference type="ChEBI" id="CHEBI:58210"/>
+<dbReference type="ChEBI" id="CHEBI:59958"/>
+<dbReference type="ChEBI" id="CHEBI:60158"/>
+<dbReference type="EC" id="1.14.14.59"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="4">
+<dbReference type="Rhea" id="RHEA:55425"/>
+</physiologicalReaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>heme</name>
+<dbReference type="ChEBI" id="CHEBI:30413"/>
+</cofactor>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="4">14.2 uM for (E)-nerolidol</KM>
+<KM evidence="4">5.6 uM for (6E,10E)-geranyllinalool</KM>
+</kinetics>
+</comment>
+<comment type="pathway" evidence="8">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Membrane</location>
+<topology evidence="3">Single-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="induction">
+<text evidence="4">Strongly induced in response to herbivory-mediated wounding.</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="4">Impaired biosynthesis of dimethylnonatriene (DMNT), but abnormal accumulation of (E)-nerolidol (PubMed:27662898). Reduced levels of trimethyltridecatetraene (TMTT) (PubMed:27662898).</text>
+</comment>
+<comment type="similarity">
+<text evidence="7">Belongs to the cytochrome P450 family.</text>
+</comment>
+<dbReference type="EC" id="1.14.14.59" evidence="4"/>
+<dbReference type="EC" id="1.14.14.58" evidence="4"/>
+<dbReference type="EMBL" id="CM007650">
+<property type="protein sequence ID" value="ONM51434.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="EU955931">
+<property type="protein sequence ID" value="ACG28049.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_008652034.1">
+<property type="nucleotide sequence ID" value="XM_008653812.1"/>
+</dbReference>
+<dbReference type="STRING" id="4577.GRMZM2G102079_P01"/>
+<dbReference type="EnsemblPlants" id="Zm00001d018839_T001">
+<property type="protein sequence ID" value="Zm00001d018839_P001"/>
+<property type="gene ID" value="Zm00001d018839"/>
+</dbReference>
+<dbReference type="GeneID" id="103631958"/>
+<dbReference type="Gramene" id="Zm00001d018839_T001">
+<property type="protein sequence ID" value="Zm00001d018839_P001"/>
+<property type="gene ID" value="Zm00001d018839"/>
+</dbReference>
+<dbReference type="KEGG" id="zma:103631958"/>
+<dbReference type="MaizeGDB" id="9035643"/>
+<dbReference type="eggNOG" id="KOG0156">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="OMA" id="ICPAYDL"/>
+<dbReference type="OrthoDB" id="702827at2759"/>
+<dbReference type="BRENDA" id="1.14.14.58">
+<property type="organism ID" value="6752"/>
+</dbReference>
+<dbReference type="BRENDA" id="1.14.14.59">
+<property type="organism ID" value="6752"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="Proteomes" id="UP000007305">
+<property type="component" value="Chromosome 7"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="A0A1D6HSP4">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0097007">
+<property type="term" value="F:4,8,12-trimethyltrideca-1,3,7,11-tetraene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="RHEA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0102171">
+<property type="term" value="F:DMNT synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="RHEA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0020037">
+<property type="term" value="F:heme binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005506">
+<property type="term" value="F:iron ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006952">
+<property type="term" value="P:defense response"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0080027">
+<property type="term" value="P:response to herbivore"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.630.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001128">
+<property type="entry name" value="Cyt_P450"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017972">
+<property type="entry name" value="Cyt_P450_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002401">
+<property type="entry name" value="Cyt_P450_E_grp-I"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036396">
+<property type="entry name" value="Cyt_P450_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00067">
+<property type="entry name" value="p450"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00463">
+<property type="entry name" value="EP450I"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00385">
+<property type="entry name" value="P450"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48264">
+<property type="entry name" value="SSF48264"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00086">
+<property type="entry name" value="CYTOCHROME_P450"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0349">Heme</keyword>
+<keyword id="KW-0408">Iron</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0503">Monooxygenase</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-0611">Plant defense</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Dimethylnonatriene synthase" id="PRO_0000447524">
+<location>
+<begin position="1"/>
+<end position="531"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="6"/>
+<end position="26"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron (heme axial ligand)" evidence="1">
+<location>
+<position position="464"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; ACG28049." ref="2" evidence="7">
+<original>LYSATE</original>
+<variation>F</variation>
+<location>
+<begin position="526"/>
+<end position="531"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q96242"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q9LSF8"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="27662898"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="27662898"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="30187155"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000305"/>
+<evidence key="8" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="30187155"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000312">
+<source>
+<dbReference type="EMBL" id="ONM51434.1"/>
+</source>
+</evidence>
+<sequence length="531" mass="57704" checksum="664F765BA033D783" modified="2016-11-30" version="1">MELASTMSVAMALAAAIFVVLCSVVASARGRREKALKLPPGPRGWPVLGSLGALAGALPPHRALAALAARHGPLMHLRLGSYHTVVASSADAARLVLRTHDSALADRPDTAAGEITSYGYLGIVHTPRGAYWRMARRLCATELFSARRVESFQDVRAQEMRALARGLFGCAAGRRAVAVREHVAGATMRNILRMAVGEKWSGCYGSPEGEAFRRSLDEAFAATGAVSNVGEWVPWLGWLDVQGFKRKMKRLHDLHDHFYEKILVDHEERRRLAQASGGEFVATDLVDVLLQLSEESTKLESESEARLPRDGVKALIQDIIAGGTESSAVTIEWAMAELLRHPEAMAKATDELDRVVGSGRWVAERDLPELHYIDAVVKETLRLHPVGPLLVPHYARERTVVAGYDVPAGARVLVNAWAIARDPASWPDAPDAFQPERFLGAAAAVDVRGAHFELLPFGSGRRICPAYDLAMKLVAAGVANLVHGFAWRLPDGVAAEDVSMEEHVGLSTRRKVPLFAVAEPRLPVHLYSATE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

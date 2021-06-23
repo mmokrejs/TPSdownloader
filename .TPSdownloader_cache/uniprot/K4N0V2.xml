@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-01-09" modified="2021-06-02" version="26">
+<accession>K4N0V2</accession>
+<name>K4N0V2_9LAMI</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Borneol dehydrogenase</fullName>
+</submittedName>
+</protein>
+<organism evidence="1">
+<name type="scientific">Lavandula x intermedia</name>
+<dbReference type="NCBI Taxonomy" id="1196215"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>lamiids</taxon>
+<taxon>Lamiales</taxon>
+<taxon>Lamiaceae</taxon>
+<taxon>Nepetoideae</taxon>
+<taxon>Lavanduleae</taxon>
+<taxon>Lavandula</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1">
+<citation type="journal article" date="2012" name="Arch. Biochem. Biophys.">
+<title>Molecular cloning and functional characterization of borneol dehydrogenase from the glandular trichomes of Lavandula x intermedia.</title>
+<authorList>
+<person name="Sarker L.S."/>
+<person name="Galata M."/>
+<person name="Demissie Z.A."/>
+<person name="Mahmoud S.S."/>
+</authorList>
+<dbReference type="PubMed" id="23058847"/>
+<dbReference type="DOI" id="10.1016/j.abb.2012.09.013"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="JX972167">
+<property type="protein sequence ID" value="AFV30207.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="K4N0V2"/>
+<dbReference type="BRENDA" id="1.1.1.198">
+<property type="organism ID" value="12981"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016491">
+<property type="term" value="F:oxidoreductase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036291">
+<property type="entry name" value="NAD(P)-bd_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002347">
+<property type="entry name" value="SDR_fam"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00081">
+<property type="entry name" value="GDHRDH"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00080">
+<property type="entry name" value="SDRFAMILY"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51735">
+<property type="entry name" value="SSF51735"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AFV30207.1"/>
+</source>
+</evidence>
+<sequence length="259" mass="27270" checksum="A7FC947AAD844714" modified="2013-01-09" version="1">MASTVLRRLEGKVALITGAASGIGESAARLFSRHGAKVVIADIQDELALNICKDLGSTFVHCDVTKEFDVETAVNTAVSTYGKLDIMLNNAGISGAPKYKISNTQLSDFKRVVDVNLVGVFLGTKHAARVMIPNRSGSIISTASAATAAAAGTPYPYICSKHGVVGLTRNAAVEMGGHGIRVNCVSPYYVATPMTRDDDWIQGCFSNLKGAVLTAEDVAEAALYLASDESKYVSGHNLLVDGGVSIMNQGCNMFDLMDS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,510 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1994-06-01" modified="2021-04-07" version="158">
+<accession>P36596</accession>
+<name>FDFT_SCHPO</name>
+<protein>
+<recommendedName>
+<fullName>Squalene synthase</fullName>
+<shortName>SQS</shortName>
+<shortName>SS</shortName>
+<ecNumber>2.5.1.21</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>FPP:FPP farnesyltransferase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Farnesyl-diphosphate farnesyltransferase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">erg9</name>
+<name type="ORF">SPBC646.05c</name>
+</gene>
+<organism>
+<name type="scientific">Schizosaccharomyces pombe (strain 972 / ATCC 24843)</name>
+<name type="common">Fission yeast</name>
+<dbReference type="NCBI Taxonomy" id="284812"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Taphrinomycotina</taxon>
+<taxon>Schizosaccharomycetes</taxon>
+<taxon>Schizosaccharomycetales</taxon>
+<taxon>Schizosaccharomycetaceae</taxon>
+<taxon>Schizosaccharomyces</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1993" name="Mol. Cell. Biol." volume="13" first="2706" last="2717">
+<title>Conservation between human and fungal squalene synthetases: similarities in structure, function, and regulation.</title>
+<authorList>
+<person name="Robinson G.W."/>
+<person name="Tsay Y.H."/>
+<person name="Kienzle B.K."/>
+<person name="Smith-Monroy C.A."/>
+<person name="Bishop R.W."/>
+</authorList>
+<dbReference type="PubMed" id="8474436"/>
+<dbReference type="DOI" id="10.1128/mcb.13.5.2706"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<source>
+<strain>972 / ATCC 24843</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2002" name="Nature" volume="415" first="871" last="880">
+<title>The genome sequence of Schizosaccharomyces pombe.</title>
+<authorList>
+<person name="Wood V."/>
+<person name="Gwilliam R."/>
+<person name="Rajandream M.A."/>
+<person name="Lyne M.H."/>
+<person name="Lyne R."/>
+<person name="Stewart A."/>
+<person name="Sgouros J.G."/>
+<person name="Peat N."/>
+<person name="Hayles J."/>
+<person name="Baker S.G."/>
+<person name="Basham D."/>
+<person name="Bowman S."/>
+<person name="Brooks K."/>
+<person name="Brown D."/>
+<person name="Brown S."/>
+<person name="Chillingworth T."/>
+<person name="Churcher C.M."/>
+<person name="Collins M."/>
+<person name="Connor R."/>
+<person name="Cronin A."/>
+<person name="Davis P."/>
+<person name="Feltwell T."/>
+<person name="Fraser A."/>
+<person name="Gentles S."/>
+<person name="Goble A."/>
+<person name="Hamlin N."/>
+<person name="Harris D.E."/>
+<person name="Hidalgo J."/>
+<person name="Hodgson G."/>
+<person name="Holroyd S."/>
+<person name="Hornsby T."/>
+<person name="Howarth S."/>
+<person name="Huckle E.J."/>
+<person name="Hunt S."/>
+<person name="Jagels K."/>
+<person name="James K.D."/>
+<person name="Jones L."/>
+<person name="Jones M."/>
+<person name="Leather S."/>
+<person name="McDonald S."/>
+<person name="McLean J."/>
+<person name="Mooney P."/>
+<person name="Moule S."/>
+<person name="Mungall K.L."/>
+<person name="Murphy L.D."/>
+<person name="Niblett D."/>
+<person name="Odell C."/>
+<person name="Oliver K."/>
+<person name="O'Neil S."/>
+<person name="Pearson D."/>
+<person name="Quail M.A."/>
+<person name="Rabbinowitsch E."/>
+<person name="Rutherford K.M."/>
+<person name="Rutter S."/>
+<person name="Saunders D."/>
+<person name="Seeger K."/>
+<person name="Sharp S."/>
+<person name="Skelton J."/>
+<person name="Simmonds M.N."/>
+<person name="Squares R."/>
+<person name="Squares S."/>
+<person name="Stevens K."/>
+<person name="Taylor K."/>
+<person name="Taylor R.G."/>
+<person name="Tivey A."/>
+<person name="Walsh S.V."/>
+<person name="Warren T."/>
+<person name="Whitehead S."/>
+<person name="Woodward J.R."/>
+<person name="Volckaert G."/>
+<person name="Aert R."/>
+<person name="Robben J."/>
+<person name="Grymonprez B."/>
+<person name="Weltjens I."/>
+<person name="Vanstreels E."/>
+<person name="Rieger M."/>
+<person name="Schaefer M."/>
+<person name="Mueller-Auer S."/>
+<person name="Gabel C."/>
+<person name="Fuchs M."/>
+<person name="Duesterhoeft A."/>
+<person name="Fritzc C."/>
+<person name="Holzer E."/>
+<person name="Moestl D."/>
+<person name="Hilbert H."/>
+<person name="Borzym K."/>
+<person name="Langer I."/>
+<person name="Beck A."/>
+<person name="Lehrach H."/>
+<person name="Reinhardt R."/>
+<person name="Pohl T.M."/>
+<person name="Eger P."/>
+<person name="Zimmermann W."/>
+<person name="Wedler H."/>
+<person name="Wambutt R."/>
+<person name="Purnelle B."/>
+<person name="Goffeau A."/>
+<person name="Cadieu E."/>
+<person name="Dreano S."/>
+<person name="Gloux S."/>
+<person name="Lelaure V."/>
+<person name="Mottier S."/>
+<person name="Galibert F."/>
+<person name="Aves S.J."/>
+<person name="Xiang Z."/>
+<person name="Hunt C."/>
+<person name="Moore K."/>
+<person name="Hurst S.M."/>
+<person name="Lucas M."/>
+<person name="Rochet M."/>
+<person name="Gaillardin C."/>
+<person name="Tallada V.A."/>
+<person name="Garzon A."/>
+<person name="Thode G."/>
+<person name="Daga R.R."/>
+<person name="Cruzado L."/>
+<person name="Jimenez J."/>
+<person name="Sanchez M."/>
+<person name="del Rey F."/>
+<person name="Benito J."/>
+<person name="Dominguez A."/>
+<person name="Revuelta J.L."/>
+<person name="Moreno S."/>
+<person name="Armstrong J."/>
+<person name="Forsburg S.L."/>
+<person name="Cerutti L."/>
+<person name="Lowe T."/>
+<person name="McCombie W.R."/>
+<person name="Paulsen I."/>
+<person name="Potashkin J."/>
+<person name="Shpakovski G.V."/>
+<person name="Ussery D."/>
+<person name="Barrell B.G."/>
+<person name="Nurse P."/>
+</authorList>
+<dbReference type="PubMed" id="11859360"/>
+<dbReference type="DOI" id="10.1038/nature724"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>972 / ATCC 24843</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="EMBO J." volume="25" first="4547" last="4556">
+<title>Repression of ergosterol level during oxidative stress by fission yeast F-box protein Pof14 independently of SCF.</title>
+<authorList>
+<person name="Tafforeau L."/>
+<person name="Le Blastier S."/>
+<person name="Bamps S."/>
+<person name="Dewez M."/>
+<person name="Vandenhaute J."/>
+<person name="Hermand D."/>
+</authorList>
+<dbReference type="PubMed" id="17016471"/>
+<dbReference type="DOI" id="10.1038/sj.emboj.7601329"/>
+</citation>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>INTERACTION WITH POF14</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2006" name="Nat. Biotechnol." volume="24" first="841" last="847">
+<title>ORFeome cloning and global analysis of protein localization in the fission yeast Schizosaccharomyces pombe.</title>
+<authorList>
+<person name="Matsuyama A."/>
+<person name="Arai R."/>
+<person name="Yashiroda Y."/>
+<person name="Shirai A."/>
+<person name="Kamata A."/>
+<person name="Sekido S."/>
+<person name="Kobayashi Y."/>
+<person name="Hashimoto A."/>
+<person name="Hamamoto M."/>
+<person name="Hiraoka Y."/>
+<person name="Horinouchi S."/>
+<person name="Yoshida M."/>
+</authorList>
+<dbReference type="PubMed" id="16823372"/>
+<dbReference type="DOI" id="10.1038/nbt1222"/>
+</citation>
+<scope>SUBCELLULAR LOCATION [LARGE SCALE ANALYSIS]</scope>
+</reference>
+<comment type="function">
+<text evidence="5">Catalyzes the condensation of 2 two farnesyl pyrophosphate moieties to form squalene. It is the first committed enzyme of the sterol biosynthesis pathway. Required for the biosynthesis of ergosterol.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>2 (2E,6E)-farnesyl diphosphate + H(+) + NADPH = 2 diphosphate + NADP(+) + squalene</text>
+<dbReference type="Rhea" id="RHEA:32295"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15440"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="2.5.1.21"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>2 (2E,6E)-farnesyl diphosphate + H(+) + NADH = 2 diphosphate + NAD(+) + squalene</text>
+<dbReference type="Rhea" id="RHEA:32299"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15440"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="2.5.1.21"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="pathway">
+<text>Terpene metabolism; lanosterol biosynthesis; lanosterol from farnesyl diphosphate: step 1/3.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1 4">Monomer (By similarity). Interacts with pof14.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-1794119">
+<id>P36596</id>
+</interactant>
+<interactant intactId="EBI-1793014">
+<id>Q10223</id>
+<label>pof14</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>5</experiments>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3 4">Endoplasmic reticulum membrane</location>
+<topology evidence="3 4">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the phytoene/squalene synthase family.</text>
+</comment>
+<dbReference type="EC" id="2.5.1.21"/>
+<dbReference type="EMBL" id="L06071">
+<property type="protein sequence ID" value="AAA35343.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CU329671">
+<property type="protein sequence ID" value="CAA22809.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="B48057">
+<property type="entry name" value="B48057"/>
+</dbReference>
+<dbReference type="PIR" id="T40581">
+<property type="entry name" value="T40581"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_595363.1">
+<property type="nucleotide sequence ID" value="NM_001021271.2"/>
+</dbReference>
+<dbReference type="SMR" id="P36596"/>
+<dbReference type="BioGRID" id="277625">
+<property type="interactions" value="6"/>
+</dbReference>
+<dbReference type="IntAct" id="P36596">
+<property type="interactions" value="3"/>
+</dbReference>
+<dbReference type="MINT" id="P36596"/>
+<dbReference type="STRING" id="4896.SPBC646.05c.1"/>
+<dbReference type="iPTMnet" id="P36596"/>
+<dbReference type="MaxQB" id="P36596"/>
+<dbReference type="PaxDb" id="P36596"/>
+<dbReference type="PRIDE" id="P36596"/>
+<dbReference type="EnsemblFungi" id="SPBC646.05c.1">
+<property type="protein sequence ID" value="SPBC646.05c.1:pep"/>
+<property type="gene ID" value="SPBC646.05c"/>
+</dbReference>
+<dbReference type="GeneID" id="2541110"/>
+<dbReference type="KEGG" id="spo:SPBC646.05c"/>
+<dbReference type="PomBase" id="SPBC646.05c">
+<property type="gene designation" value="erg9"/>
+</dbReference>
+<dbReference type="VEuPathDB" id="FungiDB:SPBC646.05c"/>
+<dbReference type="eggNOG" id="KOG1459">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_031981_2_1_1"/>
+<dbReference type="InParanoid" id="P36596"/>
+<dbReference type="OMA" id="NGPNEKD"/>
+<dbReference type="PhylomeDB" id="P36596"/>
+<dbReference type="Reactome" id="R-SPO-191273">
+<property type="pathway name" value="Cholesterol biosynthesis"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00767">
+<property type="reaction ID" value="UER00751"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P36596"/>
+<dbReference type="Proteomes" id="UP000002485">
+<property type="component" value="Chromosome II"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005783">
+<property type="term" value="C:endoplasmic reticulum"/>
+<property type="evidence" value="ECO:0000316"/>
+<property type="project" value="PomBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005789">
+<property type="term" value="C:endoplasmic reticulum membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="PomBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042175">
+<property type="term" value="C:nuclear outer membrane-endoplasmic reticulum membrane network"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="PomBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004310">
+<property type="term" value="F:farnesyl-diphosphate farnesyltransferase activity"/>
+<property type="evidence" value="ECO:0000316"/>
+<property type="project" value="PomBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051996">
+<property type="term" value="F:squalene synthase activity"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="PomBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006696">
+<property type="term" value="P:ergosterol biosynthetic process"/>
+<property type="evidence" value="ECO:0000316"/>
+<property type="project" value="PomBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045338">
+<property type="term" value="P:farnesyl diphosphate metabolic process"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008299">
+<property type="term" value="P:isoprenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="CDD" id="cd00683">
+<property type="entry name" value="Trans_IPPS_HH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002060">
+<property type="entry name" value="Squ/phyt_synthse"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006449">
+<property type="entry name" value="Squal_synth-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR019845">
+<property type="entry name" value="Squalene/phytoene_synthase_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033904">
+<property type="entry name" value="Trans_IPPS_HH"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01018">
+<property type="entry name" value="Squalene/Phytoene_Synthase_Lik"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01559">
+<property type="entry name" value="squal_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01044">
+<property type="entry name" value="SQUALEN_PHYTOEN_SYN_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01045">
+<property type="entry name" value="SQUALEN_PHYTOEN_SYN_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0256">Endoplasmic reticulum</keyword>
+<keyword id="KW-0414">Isoprene biosynthesis</keyword>
+<keyword id="KW-0444">Lipid biosynthesis</keyword>
+<keyword id="KW-0443">Lipid metabolism</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0511">Multifunctional enzyme</keyword>
+<keyword id="KW-0521">NADP</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0752">Steroid biosynthesis</keyword>
+<keyword id="KW-0753">Steroid metabolism</keyword>
+<keyword id="KW-0756">Sterol biosynthesis</keyword>
+<keyword id="KW-1207">Sterol metabolism</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Squalene synthase" id="PRO_0000067451">
+<location>
+<begin position="1"/>
+<end position="460"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="288"/>
+<end position="308"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="425"/>
+<end position="445"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16823372"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="17016471"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8474436"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<sequence length="460" mass="53321" checksum="BAEE7F24B6CE5D25" modified="1994-06-01" version="1">MSLANRIEEIRCLCQYKLWNDLPSYGEDENVPQNIRRCYQLLDMTSRSFAVVIKELPNGIREAVMIFYLVLRGLDTVEDDMTLPLDKKLPILRDFYKTIEVEGWTFNESGPNEKDRQLLVEFDVVIKEYLNLSEGYRNVISNITKEMGDGMAYYASLAEKNDGFSVETIEDFNKYCHYVAGLVGIGLSRLFAQSKLEDPDLAHSQAISNSLGLFLQKVNIIRDYREDFDDNRHFWPREIWSKYTSSFGDLCLPDNSEKALECLSDMTANALTHATDALVYLSQLKTQEIFNFCAIPQVMAIATLAAVFRNPDVFQTNVKIRKGQAVQIILHSVNLKNVCDLFLRYTRDIHYKNTPKDPNFLKISIECGKIEQVSESLFPRRFREMYEKAYVSKLSEQKKGNGTQKAILNDEQKELYRKDLQKLGISILFVFFIILVCLAVIFYVFNIRIHWSDFKELNLF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

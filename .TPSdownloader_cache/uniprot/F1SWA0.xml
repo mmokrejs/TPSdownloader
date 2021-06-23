@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2012-09-05" modified="2020-12-02" version="38">
+<accession>F1SWA0</accession>
+<name>ZERSY_ZINZE</name>
+<protein>
+<recommendedName>
+<fullName>Zerumbone synthase</fullName>
+<ecNumber>1.1.1.326</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">ZSD1</name>
+</gene>
+<organism>
+<name type="scientific">Zingiber zerumbet</name>
+<name type="common">Shampoo ginger</name>
+<name type="synonym">Amomum zerumbet</name>
+<dbReference type="NCBI Taxonomy" id="311405"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Zingiberales</taxon>
+<taxon>Zingiberaceae</taxon>
+<taxon>Zingiber</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2011" name="FEBS J." volume="278" first="2892" last="2900">
+<title>A short-chain dehydrogenase involved in terpene metabolism from Zingiber zerumbet.</title>
+<authorList>
+<person name="Okamoto S."/>
+<person name="Yu F."/>
+<person name="Harada H."/>
+<person name="Okajima T."/>
+<person name="Hattan J."/>
+<person name="Misawa N."/>
+<person name="Utsumi R."/>
+</authorList>
+<dbReference type="PubMed" id="21668645"/>
+<dbReference type="DOI" id="10.1111/j.1742-4658.2011.08211.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>MUTAGENESIS OF SER-142; SER-144; TYR-155 AND LYS-159</scope>
+</reference>
+<comment type="function">
+<text evidence="2">Catalyzes 8-hydroxy-alpha-humulene into zerumbone in presence of NAD. Also converts borneol to camphor in vitro. Zerumbone is a highly promising multi-anticancer agent.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>10-hydroxy-alpha-humulene + NAD(+) = H(+) + NADH + zerumbone</text>
+<dbReference type="Rhea" id="RHEA:32327"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+<dbReference type="ChEBI" id="CHEBI:63892"/>
+<dbReference type="ChEBI" id="CHEBI:63893"/>
+<dbReference type="EC" id="1.1.1.326"/>
+</reaction>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2">27.3 uM for NAD</KM>
+<KM evidence="2">58.5 uM for 8-hydroxy-alpha-humulene</KM>
+<KM evidence="2">22.8 uM for borneol</KM>
+<text>kcat is 3.8 sec(-1) with NAD as substrate. kcat is 1.3 sec(-1) with 8-hydroxy-alpha-humulene as substrate. kcat is 4.1 sec(-1) with borneol as substrate.</text>
+</kinetics>
+</comment>
+<comment type="tissue specificity">
+<text evidence="2">Expressed in leaves, stems and rhizomes.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the short-chain dehydrogenases/reductases (SDR) family.</text>
+</comment>
+<dbReference type="EC" id="1.1.1.326"/>
+<dbReference type="EMBL" id="AB480831">
+<property type="protein sequence ID" value="BAK09296.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="F1SWA0"/>
+<dbReference type="KEGG" id="ag:BAK09296"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-16689"/>
+<dbReference type="BRENDA" id="1.1.1.326">
+<property type="organism ID" value="12510"/>
+</dbReference>
+<dbReference type="GO" id="GO:0102069">
+<property type="term" value="F:zerumbone synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036291">
+<property type="entry name" value="NAD(P)-bd_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002347">
+<property type="entry name" value="SDR_fam"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00081">
+<property type="entry name" value="GDHRDH"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00080">
+<property type="entry name" value="SDRFAMILY"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51735">
+<property type="entry name" value="SSF51735"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0520">NAD</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<feature type="chain" description="Zerumbone synthase" id="PRO_0000418748">
+<location>
+<begin position="1"/>
+<end position="267"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="NAD or NADP" evidence="1">
+<location>
+<begin position="9"/>
+<end position="33"/>
+</location>
+</feature>
+<feature type="active site" description="Proton acceptor" evidence="3">
+<location>
+<position position="155"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="3">
+<location>
+<position position="142"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Strong reduction in oxidoreductase activity toward 8-hydroxy-alpha-humulene and borneol." evidence="2">
+<original>S</original>
+<variation>A</variation>
+<location>
+<position position="142"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Increased oxidoreductase activity toward 8-hydroxy-alpha-humulene and borneol." evidence="2">
+<original>S</original>
+<variation>A</variation>
+<location>
+<position position="144"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Strong reduction in oxidoreductase activity toward 8-hydroxy-alpha-humulene and borneol." evidence="2">
+<original>Y</original>
+<variation>A</variation>
+<location>
+<position position="155"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolishes all oxidoreductase activity." evidence="2">
+<original>K</original>
+<variation>A</variation>
+<location>
+<position position="159"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="21668645"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="267" mass="28670" checksum="0EA735846ED23C46" modified="2011-05-31" version="1">MRLEGKVALVTGGASGIGESIARLFIEHGAKICIVDVQDELGQQVSQRLGGDPHACYFHCDVTVEDDVRRAVDFTAEKYGTIDIMVNNAGITGDKVIDIRDADFNEFKKVFDINVNGVFLGMKHAARIMIPKMKGSIVSLASVSSVIAGAGPHGYTGAKHAVVGLTKSVAAELGRHGIRVNCVSPYAVPTRLSMPYLPESEMQEDALRGFLTFVRSNANLKGVDLMPNDVAEAVLYLATEESKYVSGLNLVIDGGFSIANHTLQVFE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

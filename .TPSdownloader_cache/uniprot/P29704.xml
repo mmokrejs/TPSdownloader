@@ -1,0 +1,519 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2021-06-02" version="185">
+<accession>P29704</accession>
+<accession>D3DLD8</accession>
+<name>FDFT_YEAST</name>
+<protein>
+<recommendedName>
+<fullName>Squalene synthase</fullName>
+<shortName>SQS</shortName>
+<shortName>SS</shortName>
+<ecNumber>2.5.1.21</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>FPP:FPP farnesyltransferase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Farnesyl-diphosphate farnesyltransferase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">ERG9</name>
+<name type="ordered locus">YHR190W</name>
+</gene>
+<organism>
+<name type="scientific">Saccharomyces cerevisiae (strain ATCC 204508 / S288c)</name>
+<name type="common">Baker's yeast</name>
+<dbReference type="NCBI Taxonomy" id="559292"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+<taxon>Saccharomyces</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1991" name="Curr. Genet." volume="20" first="365" last="372">
+<title>Isolation and primary structure of the ERG9 gene of Saccharomyces cerevisiae encoding squalene synthetase.</title>
+<authorList>
+<person name="Fegueur M."/>
+<person name="Richard L."/>
+<person name="Charles A.D."/>
+<person name="Karst F."/>
+</authorList>
+<dbReference type="PubMed" id="1807826"/>
+<dbReference type="DOI" id="10.1007/bf00317063"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>FUNCTION</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1991" name="Proc. Natl. Acad. Sci. U.S.A." volume="88" first="6038" last="6042">
+<title>Molecular cloning and characterization of the yeast gene for squalene synthetase.</title>
+<authorList>
+<person name="Jennings S.M."/>
+<person name="Tsay Y.H."/>
+<person name="Fisch T.M."/>
+<person name="Robinson G.W."/>
+</authorList>
+<dbReference type="PubMed" id="2068081"/>
+<dbReference type="DOI" id="10.1073/pnas.88.14.6038"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>FUNCTION</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1994" name="Science" volume="265" first="2077" last="2082">
+<title>Complete nucleotide sequence of Saccharomyces cerevisiae chromosome VIII.</title>
+<authorList>
+<person name="Johnston M."/>
+<person name="Andrews S."/>
+<person name="Brinkman R."/>
+<person name="Cooper J."/>
+<person name="Ding H."/>
+<person name="Dover J."/>
+<person name="Du Z."/>
+<person name="Favello A."/>
+<person name="Fulton L."/>
+<person name="Gattung S."/>
+<person name="Geisel C."/>
+<person name="Kirsten J."/>
+<person name="Kucaba T."/>
+<person name="Hillier L.W."/>
+<person name="Jier M."/>
+<person name="Johnston L."/>
+<person name="Langston Y."/>
+<person name="Latreille P."/>
+<person name="Louis E.J."/>
+<person name="Macri C."/>
+<person name="Mardis E."/>
+<person name="Menezes S."/>
+<person name="Mouser L."/>
+<person name="Nhan M."/>
+<person name="Rifkin L."/>
+<person name="Riles L."/>
+<person name="St Peter H."/>
+<person name="Trevaskis E."/>
+<person name="Vaughan K."/>
+<person name="Vignati D."/>
+<person name="Wilcox L."/>
+<person name="Wohldman P."/>
+<person name="Waterston R."/>
+<person name="Wilson R."/>
+<person name="Vaudin M."/>
+</authorList>
+<dbReference type="PubMed" id="8091229"/>
+<dbReference type="DOI" id="10.1126/science.8091229"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 204508 / S288c</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2014" name="G3 (Bethesda)" volume="4" first="389" last="398">
+<title>The reference genome sequence of Saccharomyces cerevisiae: Then and now.</title>
+<authorList>
+<person name="Engel S.R."/>
+<person name="Dietrich F.S."/>
+<person name="Fisk D.G."/>
+<person name="Binkley G."/>
+<person name="Balakrishnan R."/>
+<person name="Costanzo M.C."/>
+<person name="Dwight S.S."/>
+<person name="Hitz B.C."/>
+<person name="Karra K."/>
+<person name="Nash R.S."/>
+<person name="Weng S."/>
+<person name="Wong E.D."/>
+<person name="Lloyd P."/>
+<person name="Skrzypek M.S."/>
+<person name="Miyasato S.R."/>
+<person name="Simison M."/>
+<person name="Cherry J.M."/>
+</authorList>
+<dbReference type="PubMed" id="24374639"/>
+<dbReference type="DOI" id="10.1534/g3.113.008995"/>
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain>ATCC 204508 / S288c</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1993" name="Arch. Biochem. Biophys." volume="304" first="133" last="143">
+<title>Yeast squalene synthase: expression, purification, and characterization of soluble recombinant enzyme.</title>
+<authorList>
+<person name="Zhang D."/>
+<person name="Jennings S.M."/>
+<person name="Robinson G.W."/>
+<person name="Poulter C.D."/>
+</authorList>
+<dbReference type="PubMed" id="8323279"/>
+<dbReference type="DOI" id="10.1006/abbi.1993.1331"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>COFACTOR</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2003" name="Nature" volume="425" first="686" last="691">
+<title>Global analysis of protein localization in budding yeast.</title>
+<authorList>
+<person name="Huh W.-K."/>
+<person name="Falvo J.V."/>
+<person name="Gerke L.C."/>
+<person name="Carroll A.S."/>
+<person name="Howson R.W."/>
+<person name="Weissman J.S."/>
+<person name="O'Shea E.K."/>
+</authorList>
+<dbReference type="PubMed" id="14562095"/>
+<dbReference type="DOI" id="10.1038/nature02026"/>
+</citation>
+<scope>SUBCELLULAR LOCATION [LARGE SCALE ANALYSIS]</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2003" name="Nature" volume="425" first="737" last="741">
+<title>Global analysis of protein expression in yeast.</title>
+<authorList>
+<person name="Ghaemmaghami S."/>
+<person name="Huh W.-K."/>
+<person name="Bower K."/>
+<person name="Howson R.W."/>
+<person name="Belle A."/>
+<person name="Dephoure N."/>
+<person name="O'Shea E.K."/>
+<person name="Weissman J.S."/>
+</authorList>
+<dbReference type="PubMed" id="14562106"/>
+<dbReference type="DOI" id="10.1038/nature02046"/>
+</citation>
+<scope>LEVEL OF PROTEIN EXPRESSION [LARGE SCALE ANALYSIS]</scope>
+</reference>
+<comment type="function">
+<text evidence="3 4 5">Catalyzes the condensation of 2 two farnesyl pyrophosphate moieties to form squalene. It is the first committed enzyme of the sterol biosynthesis pathway. Required for the biosynthesis of ergosterol. May also have a regulatory role regulating the flux of isoprene intermediates through the sterol pathway. Squalene synthase is crucial for balancing the incorporation of farnesyl diphosphate (FPP) into sterol and nonsterol isoprene synthesis. ERG9 is also essential for cell growth in yeast.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>2 (2E,6E)-farnesyl diphosphate + H(+) + NADPH = 2 diphosphate + NADP(+) + squalene</text>
+<dbReference type="Rhea" id="RHEA:32295"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15440"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="2.5.1.21"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>2 (2E,6E)-farnesyl diphosphate + H(+) + NADH = 2 diphosphate + NAD(+) + squalene</text>
+<dbReference type="Rhea" id="RHEA:32299"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15440"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="2.5.1.21"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="5">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="pathway">
+<text>Terpene metabolism; lanosterol biosynthesis; lanosterol from farnesyl diphosphate: step 1/3.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Endoplasmic reticulum membrane</location>
+<topology evidence="1">Multi-pass membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="7">Microsome</location>
+</subcellularLocation>
+</comment>
+<comment type="miscellaneous">
+<text evidence="2">Present with 10800 molecules/cell in log phase SD medium.</text>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the phytoene/squalene synthase family.</text>
+</comment>
+<dbReference type="EC" id="2.5.1.21"/>
+<dbReference type="EMBL" id="M63979">
+<property type="protein sequence ID" value="AAA34597.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="X59959">
+<property type="protein sequence ID" value="CAA42583.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00030">
+<property type="protein sequence ID" value="AAB68360.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BK006934">
+<property type="protein sequence ID" value="DAA06882.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S46682">
+<property type="entry name" value="S46682"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_012060.1">
+<property type="nucleotide sequence ID" value="NM_001179321.1"/>
+</dbReference>
+<dbReference type="SMR" id="P29704"/>
+<dbReference type="BioGRID" id="36624">
+<property type="interactions" value="355"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-4576N"/>
+<dbReference type="IntAct" id="P29704">
+<property type="interactions" value="9"/>
+</dbReference>
+<dbReference type="MINT" id="P29704"/>
+<dbReference type="STRING" id="4932.YHR190W"/>
+<dbReference type="ChEMBL" id="CHEMBL3271930"/>
+<dbReference type="iPTMnet" id="P29704"/>
+<dbReference type="MaxQB" id="P29704"/>
+<dbReference type="PaxDb" id="P29704"/>
+<dbReference type="PRIDE" id="P29704"/>
+<dbReference type="EnsemblFungi" id="YHR190W_mRNA">
+<property type="protein sequence ID" value="YHR190W"/>
+<property type="gene ID" value="YHR190W"/>
+</dbReference>
+<dbReference type="GeneID" id="856597"/>
+<dbReference type="KEGG" id="sce:YHR190W"/>
+<dbReference type="SGD" id="S000001233">
+<property type="gene designation" value="ERG9"/>
+</dbReference>
+<dbReference type="VEuPathDB" id="FungiDB:YHR190W"/>
+<dbReference type="eggNOG" id="KOG1459">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000016034"/>
+<dbReference type="HOGENOM" id="CLU_031981_2_1_1"/>
+<dbReference type="InParanoid" id="P29704"/>
+<dbReference type="OMA" id="NGPNEKD"/>
+<dbReference type="BioCyc" id="MetaCyc:YHR190W-MONOMER"/>
+<dbReference type="Reactome" id="R-SCE-191273">
+<property type="pathway name" value="Cholesterol biosynthesis"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00767">
+<property type="reaction ID" value="UER00751"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P29704"/>
+<dbReference type="Proteomes" id="UP000002311">
+<property type="component" value="Chromosome VIII"/>
+</dbReference>
+<dbReference type="RNAct" id="P29704">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005783">
+<property type="term" value="C:endoplasmic reticulum"/>
+<property type="evidence" value="ECO:0007005"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005789">
+<property type="term" value="C:endoplasmic reticulum membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005741">
+<property type="term" value="C:mitochondrial outer membrane"/>
+<property type="evidence" value="ECO:0007005"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005739">
+<property type="term" value="C:mitochondrion"/>
+<property type="evidence" value="ECO:0007005"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004310">
+<property type="term" value="F:farnesyl-diphosphate farnesyltransferase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051996">
+<property type="term" value="F:squalene synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006696">
+<property type="term" value="P:ergosterol biosynthetic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045338">
+<property type="term" value="P:farnesyl diphosphate metabolic process"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008299">
+<property type="term" value="P:isoprenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="CDD" id="cd00683">
+<property type="entry name" value="Trans_IPPS_HH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002060">
+<property type="entry name" value="Squ/phyt_synthse"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006449">
+<property type="entry name" value="Squal_synth-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR019845">
+<property type="entry name" value="Squalene/phytoene_synthase_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033904">
+<property type="entry name" value="Trans_IPPS_HH"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01018">
+<property type="entry name" value="Squalene/Phytoene_Synthase_Lik"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01559">
+<property type="entry name" value="squal_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01044">
+<property type="entry name" value="SQUALEN_PHYTOEN_SYN_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01045">
+<property type="entry name" value="SQUALEN_PHYTOEN_SYN_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0256">Endoplasmic reticulum</keyword>
+<keyword id="KW-0414">Isoprene biosynthesis</keyword>
+<keyword id="KW-0444">Lipid biosynthesis</keyword>
+<keyword id="KW-0443">Lipid metabolism</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0492">Microsome</keyword>
+<keyword id="KW-0511">Multifunctional enzyme</keyword>
+<keyword id="KW-0521">NADP</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0752">Steroid biosynthesis</keyword>
+<keyword id="KW-0753">Steroid metabolism</keyword>
+<keyword id="KW-0756">Sterol biosynthesis</keyword>
+<keyword id="KW-1207">Sterol metabolism</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Squalene synthase" id="PRO_0000067454">
+<location>
+<begin position="1"/>
+<end position="444"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="291"/>
+<end position="311"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="421"/>
+<end position="441"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; CAA42583." ref="1" evidence="6">
+<original>L</original>
+<variation>F</variation>
+<location>
+<position position="48"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAA34597." ref="2" evidence="6">
+<original>G</original>
+<variation>S</variation>
+<location>
+<position position="286"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; CAA42583." ref="1" evidence="6">
+<original>N</original>
+<variation>D</variation>
+<location>
+<position position="320"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; CAA42583." ref="1" evidence="6">
+<original>Y</original>
+<variation>C</variation>
+<location>
+<position position="330"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; CAA42583." ref="1" evidence="6">
+<original>L</original>
+<variation>S</variation>
+<location>
+<position position="429"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="14562106"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="1807826"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="2068081"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8323279"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<evidence key="7" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="2068081"/>
+</source>
+</evidence>
+<sequence length="444" mass="51720" checksum="3DA00295B8DFDB16" modified="1995-02-01" version="2">MGKLLQLALHPVEMKAALKLKFCRTPLFSIYDQSTSPYLLHCFELLNLTSRSFAAVIRELHPELRNCVTLFYLILRALDTIEDDMSIEHDLKIDLLRHFHEKLLLTKWSFDGNAPDVKDRAVLTDFESILIEFHKLKPEYQEVIKEITEKMGNGMADYILDENYNLNGLQTVHDYDVYCHYVAGLVGDGLTRLIVIAKFANESLYSNEQLYESMGLFLQKTNIIRDYNEDLVDGRSFWPKEIWSQYAPQLKDFMKPENEQLGLDCINHLVLNALSHVIDVLTYLAGIHEQSTFQFCAIPQVMAIATLALVFNNREVLHGNVKIRKGTTCYLILKSRTLRGCVEIFDYYLRDIKSKLAVQDPNFLKLNIQISKIEQFMEEMYQDKLPPNVKPNETPIFLKVKERSRYDDELVPTQQEEEYKFNMVLSIILSVLLGFYYIYTLHRA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

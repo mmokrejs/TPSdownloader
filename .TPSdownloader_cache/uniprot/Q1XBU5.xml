@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2019-07-03" modified="2021-06-02" version="92">
+<accession>Q1XBU5</accession>
+<accession>A0A3Q7ERH0</accession>
+<name>TPS5_SOLLC</name>
+<protein>
+<recommendedName>
+<fullName evidence="6">(R)-linalool synthase TPS5, chloroplastic</fullName>
+<ecNumber evidence="3">4.2.3.26</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="4">Monoterpene synthase 1</fullName>
+<shortName evidence="4">LeMTS1</shortName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="5">Terpenoid synthase 5</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="5">TPS5</name>
+<name type="synonym" evidence="4">MTS1</name>
+<name type="ordered locus" evidence="6">Solyc01g105890</name>
+</gene>
+<organism>
+<name type="scientific">Solanum lycopersicum</name>
+<name type="common">Tomato</name>
+<name type="synonym">Lycopersicon esculentum</name>
+<dbReference type="NCBI Taxonomy" id="4081"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>lamiids</taxon>
+<taxon>Solanales</taxon>
+<taxon>Solanaceae</taxon>
+<taxon>Solanoideae</taxon>
+<taxon>Solaneae</taxon>
+<taxon>Solanum</taxon>
+<taxon>Solanum subgen. Lycopersicon</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2007" name="Plant Mol. Biol." volume="64" first="251" last="263">
+<title>Tomato linalool synthase is induced in trichomes by jasmonic acid.</title>
+<authorList>
+<person name="van Schie C.C."/>
+<person name="Haring M.A."/>
+<person name="Schuurink R.C."/>
+</authorList>
+<dbReference type="PubMed" id="17440821"/>
+<dbReference type="DOI" id="10.1007/s11103-007-9149-8"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>INDUCTION</scope>
+<scope>DDXXD MOTIF</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2011" name="Plant Physiol." volume="157" first="770" last="789">
+<title>The tomato terpene synthase gene family.</title>
+<authorList>
+<person name="Falara V."/>
+<person name="Akhtar T.A."/>
+<person name="Nguyen T.T."/>
+<person name="Spyropoulou E.A."/>
+<person name="Bleeker P.M."/>
+<person name="Schauvinhold I."/>
+<person name="Matsuba Y."/>
+<person name="Bonini M.E."/>
+<person name="Schilmiller A.L."/>
+<person name="Last R.L."/>
+<person name="Schuurink R.C."/>
+<person name="Pichersky E."/>
+</authorList>
+<dbReference type="PubMed" id="21813655"/>
+<dbReference type="DOI" id="10.1104/pp.111.179648"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>GENE FAMILY</scope>
+<scope>NOMENCLATURE</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2012" name="Nature" volume="485" first="635" last="641">
+<title>The tomato genome sequence provides insights into fleshy fruit evolution.</title>
+<authorList>
+<consortium name="Tomato Genome Consortium"/>
+</authorList>
+<dbReference type="PubMed" id="22660326"/>
+<dbReference type="DOI" id="10.1038/nature11119"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>cv. Heinz 1706</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="3">Involved in monoterpene (C10) biosynthesis in glandular trichomes (PubMed:17440821). Converts geranyl diphosphate to linalool in glandular trichomes in response to jasmonate (JA) (PubMed:17440821). Can convert farnesyl diphosphate to nerolidol in vitro (PubMed:17440821).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>(2E)-geranyl diphosphate + H2O = (R)-linalool + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:15809"/>
+<dbReference type="ChEBI" id="CHEBI:28"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:58057"/>
+<dbReference type="EC" id="4.2.3.26"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>(2E,6E)-farnesyl diphosphate + H2O = (6E)-nerolidol + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:56984"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:141283"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="pathway" evidence="6">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="2">Plastid</location>
+<location evidence="2">Chloroplast</location>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="3">Highly expressed in young fruits and plant tops (PubMed:17440821). Expressed in flower buds and trichomes of petioles and stems (PubMed:17440821). Expressed at low levels in young leaves, stems, petioles, sepals and petals (PubMed:17440821).</text>
+</comment>
+<comment type="induction">
+<text evidence="3">Induced by spider mite feeding, wounding and jasmonate (JA).</text>
+</comment>
+<comment type="domain">
+<text evidence="6">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the terpene synthase family. Tpsb subfamily.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.26" evidence="3"/>
+<dbReference type="EMBL" id="AY840091">
+<property type="protein sequence ID" value="AAX69063.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="JN408286">
+<property type="protein sequence ID" value="AEM05855.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CM001064">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001233805.1">
+<property type="nucleotide sequence ID" value="NM_001246876.3"/>
+</dbReference>
+<dbReference type="SMR" id="Q1XBU5"/>
+<dbReference type="STRING" id="4081.Solyc01g105890.2.1"/>
+<dbReference type="PaxDb" id="Q1XBU5"/>
+<dbReference type="PRIDE" id="Q1XBU5"/>
+<dbReference type="GeneID" id="778246"/>
+<dbReference type="KEGG" id="sly:778246"/>
+<dbReference type="eggNOG" id="ENOG502QUH3">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_003125_7_1_1"/>
+<dbReference type="OMA" id="RICCAVS"/>
+<dbReference type="OrthoDB" id="401091at2759"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER2OL-32"/>
+<dbReference type="BRENDA" id="4.2.3.26">
+<property type="organism ID" value="3101"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="Proteomes" id="UP000004994">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="Q1XBU5">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009507">
+<property type="term" value="C:chloroplast"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0034008">
+<property type="term" value="F:R-linalool synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0150">Chloroplast</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0464">Manganese</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0934">Plastid</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0809">Transit peptide</keyword>
+<feature type="transit peptide" description="Chloroplast" evidence="2">
+<location>
+<begin position="1"/>
+<end position="42"/>
+</location>
+</feature>
+<feature type="chain" description="(R)-linalool synthase TPS5, chloroplastic" id="PRO_0000447554">
+<location>
+<begin position="43"/>
+<end position="609"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif" evidence="7">
+<location>
+<begin position="362"/>
+<end position="366"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="362"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="362"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="366"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="366"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="506"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="510"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="514"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q40577"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="17440821"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="17440821"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="21813655"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<evidence key="7" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="17440821"/>
+</source>
+</evidence>
+<sequence length="609" mass="70945" checksum="3BEAB8BC9DF30082" modified="2006-05-02" version="1" precursor="true">MVSILSNIGMMVVTFKRPSLFTSLRRRSANNIIITKHSHPISTTRRSGNYKPTMWDFQFIQSLHNPYEGDKYMKRLNKLKKEVKKMMMTVEGSHDEELEKLELIDNLERLGVSYHFKDEIMQIMRSINININIAPPDSLYTTALKFRLLRQHGFHISQDILNDFKDENGNLKQSICKDTKDILNSSKDEHDNLKQSTCNNTKGLLKLYEASFLSIENESFLRNTTKSTLAHLMRYVDQNRCGEEDNMIVELVVHALELPRHWMVPRLETRWYISIYERMSNANPLLLELAKLDFNIVQATHQQDLRILSRWWKNTGLAEKLPFSRDILVENMFWAVGALFEPQHSYFRRLITKVIVFISIIDDIYDVYGTLDELELFTLAIQRWDTKAMEQLPDYMKVCYLALINIINEVAYEVLKNHDINVLPYLTKSWADLCKSYLQEAKWYHNGYKPNLEEYMDNARISIGVPMVLVHSLFLVTNQITKEALDSLTNYPDIIRWSATIFRLNDDLGTSSDELKRGDVSKSIQCYMNEKGASEEEAIEHIEFLIQETWEAMNTAQSKNSPLSETFIEVAKNITKASHFMYLHSDVKSSISKILFEPIIISNVAFALK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

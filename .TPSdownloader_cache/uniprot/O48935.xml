@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2011-09-21" modified="2021-06-02" version="80">
+<accession>O48935</accession>
+<accession>Q5W282</accession>
+<name>TPSBF_MENPI</name>
+<protein>
+<recommendedName>
+<fullName>Beta-farnesene synthase</fullName>
+<ecNumber>4.2.3.47</ecNumber>
+</recommendedName>
+</protein>
+<organism>
+<name type="scientific">Mentha piperita</name>
+<name type="common">Peppermint</name>
+<name type="synonym">Mentha aquatica x Mentha spicata</name>
+<dbReference type="NCBI Taxonomy" id="34256"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>lamiids</taxon>
+<taxon>Lamiales</taxon>
+<taxon>Lamiaceae</taxon>
+<taxon>Nepetoideae</taxon>
+<taxon>Mentheae</taxon>
+<taxon>Mentha</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1997" name="Proc. Natl. Acad. Sci. U.S.A." volume="94" first="12833" last="12838">
+<title>Isolation and bacterial expression of a sesquiterpene synthase cDNA clone from peppermint (Mentha x piperita, L.) that produces the aphid alarm pheromone (E)-beta-farnesene.</title>
+<authorList>
+<person name="Crock J."/>
+<person name="Wildung M."/>
+<person name="Croteau R."/>
+</authorList>
+<dbReference type="PubMed" id="9371761"/>
+<dbReference type="DOI" id="10.1073/pnas.94.24.12833"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>COFACTOR</scope>
+<source>
+<strain>cv. Black Mitcham</strain>
+<tissue>Oil gland</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2006" name="Phytochemistry" volume="67" first="1564" last="1571">
+<title>Cloning and functional characterisation of a cis-muuroladiene synthase from black peppermint (Menthaxpiperita) and direct evidence for a chemotype unable to synthesise farnesene.</title>
+<authorList>
+<person name="Prosser I.M."/>
+<person name="Adams R.J."/>
+<person name="Beale M.H."/>
+<person name="Hawkins N.D."/>
+<person name="Phillips A.L."/>
+<person name="Pickett J.A."/>
+<person name="Field L.M."/>
+</authorList>
+<dbReference type="PubMed" id="16083926"/>
+<dbReference type="DOI" id="10.1016/j.phytochem.2005.06.012"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]</scope>
+<scope>MUTAGENESIS OF LEU-471 AND SER-531</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<source>
+<tissue>Leaf</tissue>
+</source>
+</reference>
+<comment type="function">
+<text evidence="3">Involved in the production of (E)-beta-farnesene, an aphid alarm pheromone. Can use both farnesyl diphosphate and geranyl diphosphate as substrate, but not geranylgeranyl diphosphate. Produces mainly (E)-beta-farnesene, but also smaller amounts of (Z)-beta-farnesene and gamma-cadinene when used with farnesyl diphosphate as substrate. In the presence of geranyl diphosphate, produces limonene, terpinolene and the acyclic monoterpene myrcene along with minor amounts of gamma-terpinene, (Z)-ocimene, (E)-ocimene and sabinene.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2 3">
+<text>(2E,6E)-farnesyl diphosphate = (E)-beta-farnesene + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:27425"/>
+<dbReference type="ChEBI" id="CHEBI:10418"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.47"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="5">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<cofactor evidence="5">
+<name>Mn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29035"/>
+</cofactor>
+<text evidence="5">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2 3">0.6 uM for farnesyl diphosphate</KM>
+<KM evidence="2 3">1.5 uM for geranyl diphosphate</KM>
+<KM evidence="2 3">150 uM for magnesium</KM>
+<KM evidence="2 3">7.0 uM for Manganese</KM>
+</kinetics>
+<phDependence>
+<text evidence="2 3">Optimum pH is 6.75-7.25.</text>
+</phDependence>
+</comment>
+<comment type="pathway">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="4">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="domain">
+<text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="miscellaneous">
+<text>The protein CAH10289 described in PubMed:16083926 is inactive.</text>
+</comment>
+<comment type="miscellaneous">
+<text>Manganese improves the fidelity of the reaction and the products consist of 98% (E)-beta-farnesene and 2% (Z)-beta-farnesene.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.47"/>
+<dbReference type="EMBL" id="AF024615">
+<property type="protein sequence ID" value="AAB95209.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AJ786642">
+<property type="protein sequence ID" value="CAH10289.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="O48935"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-14489"/>
+<dbReference type="SABIO-RK" id="O48935"/>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006952">
+<property type="term" value="P:defense response"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0464">Manganese</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0611">Plant defense</keyword>
+<feature type="chain" description="Beta-farnesene synthase" id="PRO_0000412249">
+<location>
+<begin position="1"/>
+<end position="550"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif">
+<location>
+<begin position="301"/>
+<end position="305"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="301"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="301"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="305"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="305"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="1">
+<location>
+<position position="452"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No effect." evidence="2">
+<original>L</original>
+<variation>I</variation>
+<location>
+<position position="471"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of activity." evidence="2">
+<original>S</original>
+<variation>L</variation>
+<location>
+<position position="531"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; CAH10289." ref="2" evidence="4">
+<original>L</original>
+<variation>I</variation>
+<location>
+<position position="471"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; CAH10289." ref="2" evidence="4">
+<original>S</original>
+<variation>L</variation>
+<location>
+<position position="531"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16083926"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9371761"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<evidence key="5" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="9371761"/>
+</source>
+</evidence>
+<sequence length="550" mass="63830" checksum="6B97434E8B8BDF41" modified="1998-06-01" version="1">MATNGVVISCLREVRPPMTKHAPSMWTDTFSNFSLDDKEQQKCSETIEALKQEARGMLMAATTPLQQMTLIDTLERLGLSFHFETEIEYKIELINAAEDDGFDLFATALRFRLLRQHQRHVSCDVFDKFIDKDGKFEESLSNNVEGLLSLYEAAHVGFREERILQEAVNFTRHHLEGAELDQSPLLIREKVKRALEHPLHRDFPIVYARLFISIYEKDDSRDELLLKLSKVNFKFMQNLYKEELSQLSRWWNTWNLKSKLPYARDRVVEAYVWGVGYHYEPQYSYVRMGLAKGVLICGIMDDTYDNYATLNEAQLFTQVLDKWDRDEAERLPEYMKIVYRFILSIYENYERDAAKLGKSFAAPYFKETVKQLARAFNEEQKWVMERQLPSFQDYVKNSEKTSCIYTMFASIIPGLKSVTQETIDWIKSEPTLATSTAMIGRYWNDTSSQLRESKGGEMLTALDFHMKEYGLTKEEAASKFEGLVEETWKDINKEFIATTNYNVGREIAITFLNYARICEASYSKTDGDAYSDPNVAKANVVALFVDAIVF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

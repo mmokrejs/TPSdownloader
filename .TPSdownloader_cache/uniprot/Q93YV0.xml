@@ -1,0 +1,966 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2011-01-11" modified="2020-12-02" version="113">
+<accession>Q93YV0</accession>
+<accession>O22733</accession>
+<accession>Q84UU3</accession>
+<name>GES_ARATH</name>
+<protein>
+<recommendedName>
+<fullName evidence="10 11">(E,E)-geranyllinalool synthase</fullName>
+<shortName evidence="14">AtGES</shortName>
+<ecNumber evidence="5 7">4.2.3.144</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="9 12 13">Terpenoid synthase 4</fullName>
+<shortName evidence="9 12">AtTPS04</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="11">GES</name>
+<name type="synonym" evidence="10">LIS</name>
+<name type="synonym" evidence="9 12">TPS04</name>
+<name type="synonym" evidence="13">TPS4</name>
+<name type="ordered locus" evidence="16">At1g61120</name>
+<name type="ORF" evidence="17">F11P17.15</name>
+</gene>
+<organism>
+<name type="scientific">Arabidopsis thaliana</name>
+<name type="common">Mouse-ear cress</name>
+<dbReference type="NCBI Taxonomy" id="3702"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>malvids</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+<taxon>Camelineae</taxon>
+<taxon>Arabidopsis</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2003" name="Plant Cell" volume="15" first="481" last="494">
+<title>Biosynthesis and emission of terpenoid volatiles from Arabidopsis flowers.</title>
+<authorList>
+<person name="Chen F."/>
+<person name="Tholl D."/>
+<person name="D'Auria J.C."/>
+<person name="Farooq A."/>
+<person name="Pichersky E."/>
+<person name="Gershenzon J."/>
+</authorList>
+<dbReference type="PubMed" id="12566586"/>
+<dbReference type="DOI" id="10.1105/tpc.007989"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<source>
+<strain>cv. Landsberg erecta</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2000" name="Nature" volume="408" first="816" last="820">
+<title>Sequence and analysis of chromosome 1 of the plant Arabidopsis thaliana.</title>
+<authorList>
+<person name="Theologis A."/>
+<person name="Ecker J.R."/>
+<person name="Palm C.J."/>
+<person name="Federspiel N.A."/>
+<person name="Kaul S."/>
+<person name="White O."/>
+<person name="Alonso J."/>
+<person name="Altafi H."/>
+<person name="Araujo R."/>
+<person name="Bowman C.L."/>
+<person name="Brooks S.Y."/>
+<person name="Buehler E."/>
+<person name="Chan A."/>
+<person name="Chao Q."/>
+<person name="Chen H."/>
+<person name="Cheuk R.F."/>
+<person name="Chin C.W."/>
+<person name="Chung M.K."/>
+<person name="Conn L."/>
+<person name="Conway A.B."/>
+<person name="Conway A.R."/>
+<person name="Creasy T.H."/>
+<person name="Dewar K."/>
+<person name="Dunn P."/>
+<person name="Etgu P."/>
+<person name="Feldblyum T.V."/>
+<person name="Feng J.-D."/>
+<person name="Fong B."/>
+<person name="Fujii C.Y."/>
+<person name="Gill J.E."/>
+<person name="Goldsmith A.D."/>
+<person name="Haas B."/>
+<person name="Hansen N.F."/>
+<person name="Hughes B."/>
+<person name="Huizar L."/>
+<person name="Hunter J.L."/>
+<person name="Jenkins J."/>
+<person name="Johnson-Hopson C."/>
+<person name="Khan S."/>
+<person name="Khaykin E."/>
+<person name="Kim C.J."/>
+<person name="Koo H.L."/>
+<person name="Kremenetskaia I."/>
+<person name="Kurtz D.B."/>
+<person name="Kwan A."/>
+<person name="Lam B."/>
+<person name="Langin-Hooper S."/>
+<person name="Lee A."/>
+<person name="Lee J.M."/>
+<person name="Lenz C.A."/>
+<person name="Li J.H."/>
+<person name="Li Y.-P."/>
+<person name="Lin X."/>
+<person name="Liu S.X."/>
+<person name="Liu Z.A."/>
+<person name="Luros J.S."/>
+<person name="Maiti R."/>
+<person name="Marziali A."/>
+<person name="Militscher J."/>
+<person name="Miranda M."/>
+<person name="Nguyen M."/>
+<person name="Nierman W.C."/>
+<person name="Osborne B.I."/>
+<person name="Pai G."/>
+<person name="Peterson J."/>
+<person name="Pham P.K."/>
+<person name="Rizzo M."/>
+<person name="Rooney T."/>
+<person name="Rowley D."/>
+<person name="Sakano H."/>
+<person name="Salzberg S.L."/>
+<person name="Schwartz J.R."/>
+<person name="Shinn P."/>
+<person name="Southwick A.M."/>
+<person name="Sun H."/>
+<person name="Tallon L.J."/>
+<person name="Tambunga G."/>
+<person name="Toriumi M.J."/>
+<person name="Town C.D."/>
+<person name="Utterback T."/>
+<person name="Van Aken S."/>
+<person name="Vaysberg M."/>
+<person name="Vysotskaia V.S."/>
+<person name="Walker M."/>
+<person name="Wu D."/>
+<person name="Yu G."/>
+<person name="Fraser C.M."/>
+<person name="Venter J.C."/>
+<person name="Davis R.W."/>
+</authorList>
+<dbReference type="PubMed" id="11130712"/>
+<dbReference type="DOI" id="10.1038/35048500"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>cv. Columbia</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2017" name="Plant J." volume="89" first="789" last="804">
+<title>Araport11: a complete reannotation of the Arabidopsis thaliana reference genome.</title>
+<authorList>
+<person name="Cheng C.Y."/>
+<person name="Krishnakumar V."/>
+<person name="Chan A.P."/>
+<person name="Thibaud-Nissen F."/>
+<person name="Schobel S."/>
+<person name="Town C.D."/>
+</authorList>
+<dbReference type="PubMed" id="27862469"/>
+<dbReference type="DOI" id="10.1111/tpj.13415"/>
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain>cv. Columbia</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2003" name="Science" volume="302" first="842" last="846">
+<title>Empirical analysis of transcriptional activity in the Arabidopsis genome.</title>
+<authorList>
+<person name="Yamada K."/>
+<person name="Lim J."/>
+<person name="Dale J.M."/>
+<person name="Chen H."/>
+<person name="Shinn P."/>
+<person name="Palm C.J."/>
+<person name="Southwick A.M."/>
+<person name="Wu H.C."/>
+<person name="Kim C.J."/>
+<person name="Nguyen M."/>
+<person name="Pham P.K."/>
+<person name="Cheuk R.F."/>
+<person name="Karlin-Newmann G."/>
+<person name="Liu S.X."/>
+<person name="Lam B."/>
+<person name="Sakano H."/>
+<person name="Wu T."/>
+<person name="Yu G."/>
+<person name="Miranda M."/>
+<person name="Quach H.L."/>
+<person name="Tripp M."/>
+<person name="Chang C.H."/>
+<person name="Lee J.M."/>
+<person name="Toriumi M.J."/>
+<person name="Chan M.M."/>
+<person name="Tang C.C."/>
+<person name="Onodera C.S."/>
+<person name="Deng J.M."/>
+<person name="Akiyama K."/>
+<person name="Ansari Y."/>
+<person name="Arakawa T."/>
+<person name="Banh J."/>
+<person name="Banno F."/>
+<person name="Bowser L."/>
+<person name="Brooks S.Y."/>
+<person name="Carninci P."/>
+<person name="Chao Q."/>
+<person name="Choy N."/>
+<person name="Enju A."/>
+<person name="Goldsmith A.D."/>
+<person name="Gurjal M."/>
+<person name="Hansen N.F."/>
+<person name="Hayashizaki Y."/>
+<person name="Johnson-Hopson C."/>
+<person name="Hsuan V.W."/>
+<person name="Iida K."/>
+<person name="Karnes M."/>
+<person name="Khan S."/>
+<person name="Koesema E."/>
+<person name="Ishida J."/>
+<person name="Jiang P.X."/>
+<person name="Jones T."/>
+<person name="Kawai J."/>
+<person name="Kamiya A."/>
+<person name="Meyers C."/>
+<person name="Nakajima M."/>
+<person name="Narusaka M."/>
+<person name="Seki M."/>
+<person name="Sakurai T."/>
+<person name="Satou M."/>
+<person name="Tamse R."/>
+<person name="Vaysberg M."/>
+<person name="Wallender E.K."/>
+<person name="Wong C."/>
+<person name="Yamamura Y."/>
+<person name="Yuan S."/>
+<person name="Shinozaki K."/>
+<person name="Davis R.W."/>
+<person name="Theologis A."/>
+<person name="Ecker J.R."/>
+</authorList>
+<dbReference type="PubMed" id="14593172"/>
+<dbReference type="DOI" id="10.1126/science.1088305"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<strain>cv. Columbia</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1998" name="Mol. Biol. Evol." volume="15" first="1491" last="1498">
+<title>Structure and evolution of linalool synthase.</title>
+<authorList>
+<person name="Cseke L."/>
+<person name="Dudareva N."/>
+<person name="Pichersky E."/>
+</authorList>
+<dbReference type="PubMed" id="12572612"/>
+<dbReference type="DOI" id="10.1093/oxfordjournals.molbev.a025876"/>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2002" name="Mol. Genet. Genomics" volume="267" first="730" last="745">
+<title>Genomic analysis of the terpenoid synthase (AtTPS) gene family of Arabidopsis thaliana.</title>
+<authorList>
+<person name="Aubourg S."/>
+<person name="Lecharny A."/>
+<person name="Bohlmann J."/>
+</authorList>
+<dbReference type="PubMed" id="12207221"/>
+<dbReference type="DOI" id="10.1007/s00438-002-0709-y"/>
+</citation>
+<scope>GENE FAMILY</scope>
+<scope>NOMENCLATURE</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2003" name="Plant Mol. Biol." volume="51" first="925" last="948">
+<title>Genome organization in Arabidopsis thaliana: a survey for genes involved in isoprenoid and chlorophyll metabolism.</title>
+<authorList>
+<person name="Lange B.M."/>
+<person name="Ghassemian M."/>
+</authorList>
+<dbReference type="PubMed" id="12777052"/>
+<dbReference type="DOI" id="10.1023/a:1023005504702"/>
+</citation>
+<scope>GENE FAMILY</scope>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2005" name="Plant Mol. Biol." volume="58" first="497" last="513">
+<title>Expression profiling reveals COI1 to be a key regulator of genes involved in wound- and methyl jasmonate-induced secondary metabolism, defence, and hormone interactions.</title>
+<authorList>
+<person name="Devoto A."/>
+<person name="Ellis C."/>
+<person name="Magusin A."/>
+<person name="Chang H.-S."/>
+<person name="Chilcott C."/>
+<person name="Zhu T."/>
+<person name="Turner J.G."/>
+</authorList>
+<dbReference type="PubMed" id="16021335"/>
+<dbReference type="DOI" id="10.1007/s11103-005-7306-5"/>
+</citation>
+<scope>INDUCTION BY METHYL JASMONATE</scope>
+</reference>
+<reference key="9">
+<citation type="journal article" date="2008" name="BMC Genomics" volume="9" first="154" last="154">
+<title>Comparative transcriptome analysis of Arabidopsis thaliana infested by diamond back moth (Plutella xylostella) larvae reveals signatures of stress response, secondary metabolism, and signalling.</title>
+<authorList>
+<person name="Ehlting J."/>
+<person name="Chowrira S.G."/>
+<person name="Mattheus N."/>
+<person name="Aeschliman D.S."/>
+<person name="Arimura G."/>
+<person name="Bohlmann J."/>
+</authorList>
+<dbReference type="PubMed" id="18400103"/>
+<dbReference type="DOI" id="10.1186/1471-2164-9-154"/>
+</citation>
+<scope>INDUCTION BY HERBIVORY</scope>
+</reference>
+<reference key="10">
+<citation type="journal article" date="2008" name="Mol. Plant Microbe Interact." volume="21" first="1482" last="1497">
+<title>Pseudomonas syringae elicits emission of the terpenoid (E,E)-4,8,12-trimethyl-1,3,7,11-tridecatetraene in Arabidopsis leaves via jasmonate signaling and expression of the terpene synthase TPS4.</title>
+<authorList>
+<person name="Attaran E."/>
+<person name="Rostas M."/>
+<person name="Zeier J."/>
+</authorList>
+<dbReference type="PubMed" id="18842097"/>
+<dbReference type="DOI" id="10.1094/mpmi-21-11-1482"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+<scope>INDUCTION</scope>
+<scope>PATHWAY</scope>
+</reference>
+<reference key="11">
+<citation type="journal article" date="2008" name="Plant Cell" volume="20" first="1152" last="1168">
+<title>Identification and regulation of TPS04/GES, an Arabidopsis geranyllinalool synthase catalyzing the first step in the formation of the insect-induced volatile C16-homoterpene TMTT.</title>
+<authorList>
+<person name="Herde M."/>
+<person name="Gaertner K."/>
+<person name="Koellner T.G."/>
+<person name="Fode B."/>
+<person name="Boland W."/>
+<person name="Gershenzon J."/>
+<person name="Gatz C."/>
+<person name="Tholl D."/>
+</authorList>
+<dbReference type="PubMed" id="18398052"/>
+<dbReference type="DOI" id="10.1105/tpc.106.049478"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>INDUCTION</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>PATHWAY</scope>
+</reference>
+<reference key="12">
+<citation type="journal article" date="2010" name="Proc. Natl. Acad. Sci. U.S.A." volume="107" first="21205" last="21210">
+<title>Herbivore-induced and floral homoterpene volatiles are biosynthesized by a single P450 enzyme (CYP82G1) in Arabidopsis.</title>
+<authorList>
+<person name="Lee S."/>
+<person name="Badieyan S."/>
+<person name="Bevan D.R."/>
+<person name="Herde M."/>
+<person name="Gatz C."/>
+<person name="Tholl D."/>
+</authorList>
+<dbReference type="PubMed" id="21088219"/>
+<dbReference type="DOI" id="10.1073/pnas.1009975107"/>
+</citation>
+<scope>INDUCTION BY ALAMETHICIN</scope>
+</reference>
+<reference key="13">
+<citation type="journal article" date="2011" name="Phytochemistry" volume="72" first="1635" last="1646">
+<title>The biochemistry of homoterpenes--common constituents of floral and herbivore-induced plant volatile bouquets.</title>
+<authorList>
+<person name="Tholl D."/>
+<person name="Sohrabi R."/>
+<person name="Huh J.-H."/>
+<person name="Lee S."/>
+</authorList>
+<dbReference type="PubMed" id="21334702"/>
+<dbReference type="DOI" id="10.1016/j.phytochem.2011.01.019"/>
+</citation>
+<scope>REVIEW</scope>
+</reference>
+<comment type="function">
+<text evidence="5 7 14">Involved in the biosynthesis of homoterpenes, attractants of herbivores parasitoids and predators (e.g. predatory mites and parasitoid wasps) (PubMed:21334702). Involved in diterpene (C20) biosynthesis (PubMed:18398052, PubMed:18842097). Catalyzes the conversion of geranylgeranyl diphosphate to (E,E)-geranyllinalool, the precursor of the insect-induced volatile C16-homoterpene TMTT (PubMed:18398052, PubMed:18842097).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="5 7">
+<text>(2E,6E,10E)-geranylgeranyl diphosphate + H2O = (6E,10E)-geranyllinalool + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:38155"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:58756"/>
+<dbReference type="ChEBI" id="CHEBI:74299"/>
+<dbReference type="EC" id="4.2.3.144"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<cofactor evidence="1">
+<name>Mn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29035"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
+</comment>
+<comment type="pathway" evidence="5 7">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="5">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="3 5">Expressed in leaves and flowers.</text>
+</comment>
+<comment type="induction">
+<text evidence="4 5 6 7 8">By methyl jasmonate, coronalon, alamethicin and in response to the caterpillar P.xylostella feeding. Induced by infection of avirulent and virulent bacterial pathogen P.syringae.</text>
+</comment>
+<comment type="domain">
+<text evidence="15">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="5 7">No formation of (E,E)-geranyllinalool and TMMTT detected.</text>
+</comment>
+<comment type="similarity">
+<text evidence="15">Belongs to the terpene synthase family. Tpsf subfamily.</text>
+</comment>
+<comment type="sequence caution" evidence="15">
+<conflict type="erroneous gene model prediction">
+<sequence resource="EMBL-CDS" id="AAB71482" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EC" id="4.2.3.144" evidence="5 7"/>
+<dbReference type="EMBL" id="AF497492">
+<property type="protein sequence ID" value="AAO85540.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AC002294">
+<property type="protein sequence ID" value="AAB71482.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CP002684">
+<property type="protein sequence ID" value="AEE33784.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY059757">
+<property type="protein sequence ID" value="AAL24105.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BT001960">
+<property type="protein sequence ID" value="AAN71959.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="PIR" id="A96637">
+<property type="entry name" value="A96637"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_564772.1">
+<property type="nucleotide sequence ID" value="NM_104793.3"/>
+</dbReference>
+<dbReference type="SMR" id="Q93YV0"/>
+<dbReference type="STRING" id="3702.AT1G61120.1"/>
+<dbReference type="PaxDb" id="Q93YV0"/>
+<dbReference type="PRIDE" id="Q93YV0"/>
+<dbReference type="ProteomicsDB" id="220733"/>
+<dbReference type="EnsemblPlants" id="AT1G61120.1">
+<property type="protein sequence ID" value="AT1G61120.1"/>
+<property type="gene ID" value="AT1G61120"/>
+</dbReference>
+<dbReference type="GeneID" id="842405"/>
+<dbReference type="Gramene" id="AT1G61120.1">
+<property type="protein sequence ID" value="AT1G61120.1"/>
+<property type="gene ID" value="AT1G61120"/>
+</dbReference>
+<dbReference type="KEGG" id="ath:AT1G61120"/>
+<dbReference type="Araport" id="AT1G61120"/>
+<dbReference type="TAIR" id="locus:2008485">
+<property type="gene designation" value="AT1G61120"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG502REU3">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_003125_2_0_1"/>
+<dbReference type="InParanoid" id="Q93YV0"/>
+<dbReference type="OMA" id="YKINQGS"/>
+<dbReference type="OrthoDB" id="160028at2759"/>
+<dbReference type="PhylomeDB" id="Q93YV0"/>
+<dbReference type="BioCyc" id="ARA:AT1G61120-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:AT1G61120-MONOMER"/>
+<dbReference type="BRENDA" id="4.2.3.144">
+<property type="organism ID" value="399"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="PRO" id="PR:Q93YV0"/>
+<dbReference type="Proteomes" id="UP000006548">
+<property type="component" value="Chromosome 1"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="Q93YV0">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q93YV0">
+<property type="organism ID" value="AT"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0080013">
+<property type="term" value="F:(E,E)-geranyllinalool synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="TAIR"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016102">
+<property type="term" value="P:diterpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="TAIR"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009617">
+<property type="term" value="P:response to bacterium"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0080027">
+<property type="term" value="P:response to herbivore"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009753">
+<property type="term" value="P:response to jasmonic acid"/>
+<property type="evidence" value="ECO:0000316"/>
+<property type="project" value="TAIR"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000304">
+<property type="term" value="P:response to singlet oxygen"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="TAIR"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009611">
+<property type="term" value="P:response to wounding"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="TAIR"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0464">Manganese</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="(E,E)-geranyllinalool synthase" id="PRO_0000403700">
+<location>
+<begin position="1"/>
+<end position="877"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif" evidence="15">
+<location>
+<begin position="540"/>
+<end position="544"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="540"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="540"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="544"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="544"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="2">
+<location>
+<position position="680"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="2">
+<location>
+<position position="684"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="2">
+<location>
+<position position="688"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="540"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="544"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="677"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="680"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>A</original>
+<variation>T</variation>
+<location>
+<position position="14"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>G</original>
+<variation>R</variation>
+<location>
+<position position="21"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>E</original>
+<variation>Q</variation>
+<location>
+<position position="51"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>Y</original>
+<variation>YT</variation>
+<location>
+<position position="88"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>R</original>
+<variation>G</variation>
+<location>
+<position position="95"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>KDMCILT</original>
+<variation>EDMYILI</variation>
+<location>
+<begin position="101"/>
+<end position="107"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>I</original>
+<variation>A</variation>
+<location>
+<position position="145"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>A</original>
+<variation>V</variation>
+<location>
+<position position="156"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>Q</original>
+<variation>E</variation>
+<location>
+<position position="195"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>H</original>
+<variation>D</variation>
+<location>
+<position position="201"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>K</original>
+<variation>I</variation>
+<location>
+<position position="206"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>D</original>
+<variation>N</variation>
+<location>
+<position position="236"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>F</original>
+<variation>L</variation>
+<location>
+<position position="300"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>S</original>
+<variation>R</variation>
+<location>
+<position position="314"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>E</original>
+<variation>K</variation>
+<location>
+<position position="363"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>S</original>
+<variation>C</variation>
+<location>
+<position position="374"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>L</original>
+<variation>P</variation>
+<location>
+<position position="388"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>QEARE</original>
+<variation>EEARK</variation>
+<location>
+<begin position="397"/>
+<end position="401"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>K</original>
+<variation>N</variation>
+<location>
+<position position="414"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>M</original>
+<variation>I</variation>
+<location>
+<position position="449"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>T</original>
+<variation>C</variation>
+<location>
+<position position="532"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>G</original>
+<variation>A</variation>
+<location>
+<position position="554"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>N</original>
+<variation>K</variation>
+<location>
+<position position="572"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>M</original>
+<variation>I</variation>
+<location>
+<position position="694"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAO85540." ref="1" evidence="15">
+<original>M</original>
+<variation>T</variation>
+<location>
+<position position="748"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="A0A1C9J6A7"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q40577"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12566586"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16021335"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18398052"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18400103"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18842097"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="21088219"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="12207221"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="12572612"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="18398052"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="18400103"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="18842097"/>
+</source>
+</evidence>
+<evidence key="14" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="21334702"/>
+</source>
+</evidence>
+<evidence key="15" type="ECO:0000305"/>
+<evidence key="16" type="ECO:0000312">
+<source>
+<dbReference type="Araport" id="AT1G61120"/>
+</source>
+</evidence>
+<evidence key="17" type="ECO:0000312">
+<source>
+<dbReference type="EMBL" id="AAB71482.1"/>
+</source>
+</evidence>
+<sequence length="877" mass="101895" checksum="E48C8C4F20FEC610" modified="2001-12-01" version="1">MKSSYGSSSNDLHAFVNEIKGEIQLSNINLDPYSFVSPSAYDTAWLSMIEEDINVDDNELKPMFQGCLDWIMCNQNAREGFWMNSTSYTTVADGRDEDGEKDMCILTSTLACVVALQKWNIGCFHLHKGTRYIERNTEMIIGKYINEEGSYPRWFAIKFTGILELAQKLGLHFVFSSRCIEMIKGMFYQRQEIIQREKLVHDCNYKPLLAYLEVLPSKLYVTNQEDIIVKSLDSMDGSLFQSPSATASAFMLTRNTKCLAYLQNLVQKCPNGVPQKYPLNEDLIKLSMVNLIESTGLGEFFGIEIEHVLEQVYSRYEEKDFERMPMSYLADQLHKDSLAFRMLRMHGRDVSPRSFCWFLNDQETRNHLERNIDSFLLVILSVYRATDLMFPGEHDLQEAREYTRNLLEKRRSIKEKMIMHELSTPWIARLKHLDHRMWIEDKNSNVLSMEKASFLRLHSSYSDKLTHLAARNFEFQQAKYCRELEELTMWVKKWGLSDIGFGREKTTYCYFATVTSLPYEYAIKFGKLAAKTAILITIADDFFDEKGSFNDLEGLTKAVLRWEGEELKSYGNIIFRALDDIVRETANTCRTHHKTDIIVHLRNIWGETFESWLREAEWSKKGHTSSMDEYIRNGMISIAAHTIALSISCLMEPCFPHNKLKPGNYDSITTLLMIIPRLLNDLQSYQKEQEQGKMNSVLLHMKNHPGLEIEDSIAHIEKIIDSKRKEFLEHVLVDGLSDLPKPCKEIHMSCCKVFEMFFNKKNRYDSNTEMLHDIKKALYDPINVYELSEMEPMPLMAHGDEYMILPLLLNSLPNILEFKRKDGYGAMKTSMCFGRSYRVNKRVMASQLDDQHKPLKIVASQRKPVPMMQSIFAPCFY</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

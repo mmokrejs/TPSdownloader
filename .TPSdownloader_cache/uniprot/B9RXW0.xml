@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2013-05-01" modified="2021-06-02" version="53">
+<accession>B9RXW0</accession>
+<accession>G5CT99</accession>
+<name>TPS7_RICCO</name>
+<protein>
+<recommendedName>
+<fullName>Alpha-farnesene synthase</fullName>
+<ecNumber>4.2.3.46</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>(E,E)-alpha-farnesene synthase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Terpene synthase 7</fullName>
+<shortName>RcSeTPS7</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">TPS7</name>
+<name type="ORF">RCOM_0906600</name>
+</gene>
+<organism>
+<name type="scientific">Ricinus communis</name>
+<name type="common">Castor bean</name>
+<dbReference type="NCBI Taxonomy" id="3988"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>fabids</taxon>
+<taxon>Malpighiales</taxon>
+<taxon>Euphorbiaceae</taxon>
+<taxon>Acalyphoideae</taxon>
+<taxon>Acalypheae</taxon>
+<taxon>Ricinus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2012" name="Phytochemistry" volume="78" first="20" last="28">
+<title>Functional characterization of four sesquiterpene synthases from Ricinus communis (castor bean).</title>
+<authorList>
+<person name="Xie X."/>
+<person name="Kirby J."/>
+<person name="Keasling J.D."/>
+</authorList>
+<dbReference type="PubMed" id="22459969"/>
+<dbReference type="DOI" id="10.1016/j.phytochem.2012.02.022"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2010" name="Nat. Biotechnol." volume="28" first="951" last="956">
+<title>Draft genome sequence of the oilseed species Ricinus communis.</title>
+<authorList>
+<person name="Chan A.P."/>
+<person name="Crabtree J."/>
+<person name="Zhao Q."/>
+<person name="Lorenzi H."/>
+<person name="Orvis J."/>
+<person name="Puiu D."/>
+<person name="Melake-Berhan A."/>
+<person name="Jones K.M."/>
+<person name="Redman J."/>
+<person name="Chen G."/>
+<person name="Cahoon E.B."/>
+<person name="Gedil M."/>
+<person name="Stanke M."/>
+<person name="Haas B.J."/>
+<person name="Wortman J.R."/>
+<person name="Fraser-Liggett C.M."/>
+<person name="Ravel J."/>
+<person name="Rabinowicz P.D."/>
+</authorList>
+<dbReference type="PubMed" id="20729833"/>
+<dbReference type="DOI" id="10.1038/nbt.1674"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>cv. Hale</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2">Catalyzes the cyclization of farnesyl diphosphate to (E,E)-alpha-farnesene.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate = (3E,6E)-alpha-farnesene + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:27421"/>
+<dbReference type="ChEBI" id="CHEBI:10280"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.46"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="1">Binds 3 Mg(2+) ions per subunit.</text>
+</comment>
+<comment type="domain">
+<text evidence="1">The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the terpene synthase family.</text>
+</comment>
+<comment type="sequence caution" evidence="3">
+<conflict type="erroneous gene model prediction">
+<sequence resource="EMBL-CDS" id="EEF43966" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EC" id="4.2.3.46"/>
+<dbReference type="EMBL" id="JN315866">
+<property type="protein sequence ID" value="AEQ27768.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="EQ973828">
+<property type="protein sequence ID" value="EEF43966.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001310649.1">
+<property type="nucleotide sequence ID" value="NM_001323720.1"/>
+</dbReference>
+<dbReference type="SMR" id="B9RXW0"/>
+<dbReference type="STRING" id="3988.XP_002518579.1"/>
+<dbReference type="PRIDE" id="B9RXW0"/>
+<dbReference type="GeneID" id="8267421"/>
+<dbReference type="KEGG" id="rcu:8267421"/>
+<dbReference type="eggNOG" id="ENOG502QUXA">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="InParanoid" id="B9RXW0"/>
+<dbReference type="OrthoDB" id="401091at2759"/>
+<dbReference type="BRENDA" id="4.2.3.46">
+<property type="organism ID" value="1204"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000008311">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052578">
+<property type="term" value="F:alpha-farnesene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="RHEA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010334">
+<property type="term" value="F:sesquiterpene synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051762">
+<property type="term" value="P:sesquiterpene biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Alpha-farnesene synthase" id="PRO_0000422205">
+<location>
+<begin position="1"/>
+<end position="564"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif">
+<location>
+<begin position="313"/>
+<end position="317"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="313"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="313"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="1">
+<location>
+<position position="317"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="1">
+<location>
+<position position="317"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="1">
+<location>
+<position position="468"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AEQ27768." ref="1" evidence="3">
+<original>AKK</original>
+<variation>DVF</variation>
+<location>
+<begin position="136"/>
+<end position="138"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AEQ27768." ref="1" evidence="3">
+<original>R</original>
+<variation>Q</variation>
+<location>
+<position position="389"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="22459969"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="564" mass="65793" checksum="F170BA3620A583C8" modified="2013-05-01" version="2">MKVGQPVLQCQTNSEAFGMMQERRSGNYKPNIWKYDFLQSLSSKYDEEKYKTQAERLKEDAKHLFIEAVDLQGKLELVDCIIKVGLASHFKDEIKKALDTIASSIKNDKSDAIKNRYVTALCFRLLRQHGYEVSQAKKSDFLDENGTFLKAKSMDVKGVLELFEASYLALESENILDDAKAFSTTILKDINSATTESNLYKQVVHALELPFHWRVRWFDVKWHIKTFQKDKSINKTLLDLAKVNFNVVQATLQNDLKEISRWWRNLGLIENLKFSRDRLVESFLCTVGLVFEPQYSSFRRWLTKVVIMILVIDDVYDIYGSLEELQHFTNAINRWDTAELEQLPEYMKICFKTLHTITGETAHEMQREKRWDQEQTETHLKKVWADFCRALFVEAKWFNKGYTPSVQEYLKTACISSSGSLLSVHSFFLIMNEGTREMLHFLEKNQEMFYNISLIIRLCNDLGTSVAEQERGDAASSIVCHMREMEVLEEEARSYLKGIIGNYWKKVNEKCFTQSPEMQLFININVNMARVVHNLYQNRDGFGVQDHQNKKQILSLLVHPFKLD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

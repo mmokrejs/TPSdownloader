@@ -1,0 +1,689 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2019-05-08" modified="2020-06-17" version="72">
+<accession>O48666</accession>
+<accession>A0A1P7Y098</accession>
+<accession>B1PX80</accession>
+<name>SQS1_PANGI</name>
+<protein>
+<recommendedName>
+<fullName evidence="14 19">Squalene synthase 1</fullName>
+<shortName evidence="15">PgSS</shortName>
+<shortName evidence="14 19">PgSS1</shortName>
+<shortName evidence="21">PgssA</shortName>
+<shortName evidence="23">SQS 1</shortName>
+<shortName evidence="17 22">SQS 4</shortName>
+<ecNumber evidence="1">2.5.1.21</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="23">FPP:FPP farnesyltransferase SS1</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="23">Farnesyl-diphosphate farnesyltransferase SS1</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="14 19">SS1</name>
+<name type="synonym" evidence="15">GSS</name>
+<name type="synonym" evidence="14">PSS</name>
+<name type="synonym" evidence="16">SQS</name>
+<name type="synonym" evidence="20 22">SS</name>
+<name type="synonym" evidence="17">SS4</name>
+<name type="synonym" evidence="21">ssA</name>
+</gene>
+<organism>
+<name type="scientific">Panax ginseng</name>
+<name type="common">Korean ginseng</name>
+<dbReference type="NCBI Taxonomy" id="4054"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>campanulids</taxon>
+<taxon>Apiales</taxon>
+<taxon>Araliaceae</taxon>
+<taxon>Panax</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="1998-01" db="EMBL/GenBank/DDBJ databases">
+<title>Isolation and characterization of a cDNA encoding the squalene synthase from Panax ginseng.</title>
+<authorList>
+<person name="Suzuki H."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2004" name="Plant Cell Physiol." volume="45" first="976" last="984">
+<title>Enhanced triterpene and phytosterol biosynthesis in Panax ginseng overexpressing squalene synthase gene.</title>
+<authorList>
+<person name="Lee M.-H."/>
+<person name="Jeong J.-H."/>
+<person name="Seo J.-W."/>
+<person name="Shin C.-G."/>
+<person name="Kim Y.-S."/>
+<person name="In J.-G."/>
+<person name="Yang D.-C."/>
+<person name="Yi J.-S."/>
+<person name="Choi Y.-E."/>
+</authorList>
+<dbReference type="PubMed" id="15356323"/>
+<dbReference type="DOI" id="10.1093/pcp/pch126"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+<scope>FUNCTION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>INDUCTION BY METYL JASMONATE</scope>
+<source>
+<strain>cv. Chunpoong</strain>
+<tissue>Leaf</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="submission" date="2008-02" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Zhao L."/>
+<person name="Fu Q."/>
+<person name="Wang L.S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+<source>
+<tissue>Leaf</tissue>
+</source>
+</reference>
+<reference key="4">
+<citation type="submission" date="2014-06" db="EMBL/GenBank/DDBJ databases">
+<title>Cloning and expression analysis of HMGR, SS, SE, DS, and bAS genes in Panax ginseng.</title>
+<authorList>
+<person name="Hou S."/>
+<person name="Han M."/>
+<person name="Liu C."/>
+<person name="Yang L."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2015" name="Int. J. Mol. Sci." volume="16" first="3035" last="3057">
+<title>Transcriptome analysis of methyl jasmonate-elicited Panax ginseng adventitious roots to discover putative ginsenoside biosynthesis and transport genes.</title>
+<authorList>
+<person name="Cao H."/>
+<person name="Nuruzzaman M."/>
+<person name="Xiu H."/>
+<person name="Huang J."/>
+<person name="Wu K."/>
+<person name="Chen X."/>
+<person name="Li J."/>
+<person name="Wang L."/>
+<person name="Jeong J.-H."/>
+<person name="Park S.-J."/>
+<person name="Yang F."/>
+<person name="Luo J."/>
+<person name="Luo Z."/>
+</authorList>
+<dbReference type="PubMed" id="25642758"/>
+<dbReference type="DOI" id="10.3390/ijms16023035"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2)</scope>
+<scope>INDUCTION BY METYL JASMONATE</scope>
+<source>
+<strain>cv. Damaya</strain>
+</source>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2003" name="Physiol. Plantarum" volume="118" first="414" last="421">
+<title>Hydrogen peroxide and jasmonic acid mediate oligogalacturonic acid-induced saponin accumulation in suspension-cultured cells of Panax ginseng.</title>
+<authorList>
+<person name="Hu X."/>
+<person name="Neill S."/>
+<person name="Cai W."/>
+<person name="Tang Z."/>
+</authorList>
+<dbReference type="DOI" id="10.1034/j.1399-3054.2003.00124.x"/>
+</citation>
+<scope>INDUCTION BY OLIGOGALACTURONIC ACID; HYDROGEN PEROXIDE AND JASMONIC ACID</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2004" name="Sci. China, Ser. C, Life Sci." volume="47" first="303" last="312">
+<title>Mitogen-activated protein kinases mediate the oxidative burst and saponin synthesis induced by chitosan in cell cultures of Panax ginseng.</title>
+<authorList>
+<person name="Hu X."/>
+<person name="Neill S.J."/>
+<person name="Fang J."/>
+<person name="Cai W."/>
+<person name="Tang Z."/>
+</authorList>
+<dbReference type="PubMed" id="15493471"/>
+<dbReference type="DOI" id="10.1360/03yc0074"/>
+</citation>
+<scope>INDUCTION BY CHITOSAN</scope>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2005" name="Plant Cell Physiol." volume="46" first="947" last="954">
+<title>Fungal elicitor induces singlet oxygen generation, ethylene release and saponin synthesis in cultured cells of Panax ginseng C. A. Meyer.</title>
+<authorList>
+<person name="Xu X."/>
+<person name="Hu X."/>
+<person name="Neill S.J."/>
+<person name="Fang J."/>
+<person name="Cai W."/>
+</authorList>
+<dbReference type="PubMed" id="15821288"/>
+<dbReference type="DOI" id="10.1093/pcp/pci103"/>
+</citation>
+<scope>INDUCTION BY CLE; ETHYLENE; ROSE BENGAL; NITRIC OXIDE AND HYDROGEN PEROXIDE</scope>
+</reference>
+<reference key="9">
+<citation type="journal article" date="2005" name="Plant Cell Rep." volume="23" first="557" last="566">
+<title>Analysis of transcripts in methyl jasmonate-treated ginseng hairy roots to identify genes involved in the biosynthesis of ginsenosides and other secondary metabolites.</title>
+<authorList>
+<person name="Choi D.-W."/>
+<person name="Jung J."/>
+<person name="Ha Y.I."/>
+<person name="Park H.-W."/>
+<person name="In D.S."/>
+<person name="Chung H.-J."/>
+<person name="Liu J.R."/>
+</authorList>
+<dbReference type="PubMed" id="15538577"/>
+<dbReference type="DOI" id="10.1007/s00299-004-0845-4"/>
+</citation>
+<scope>INDUCTION BY METHYL JASMONATE</scope>
+</reference>
+<reference key="10">
+<citation type="journal article" date="2009" name="Plant Cell Tissue Organ Cult." volume="98" first="25" last="33">
+<title>Upregulation of ginsenoside and gene expression related to triterpene biosynthesis in ginseng hairy root cultures elicited by methyl jasmonate.</title>
+<authorList>
+<person name="Kim O.T."/>
+<person name="Bang K.H."/>
+<person name="Kim Y.C."/>
+<person name="Hyun D.Y."/>
+<person name="Kim M.Y."/>
+<person name="Cha S.W."/>
+</authorList>
+<dbReference type="DOI" id="10.1007/s11240-009-9535-9"/>
+</citation>
+<scope>INDUCTION BY METHYL JASMONATE</scope>
+</reference>
+<reference key="11">
+<citation type="journal article" date="2013" name="J. Biotechnol." volume="165" first="30" last="36">
+<title>Enhancement of ginsenoside biosynthesis in cell cultures of Panax ginseng by N,N'-dicyclohexylcarbodiimide elicitation.</title>
+<authorList>
+<person name="Huang C."/>
+<person name="Qian Z.-G."/>
+<person name="Zhong J.-J."/>
+</authorList>
+<dbReference type="PubMed" id="23467002"/>
+<dbReference type="DOI" id="10.1016/j.jbiotec.2013.02.012"/>
+</citation>
+<scope>INDUCTION BY DCCD</scope>
+</reference>
+<reference key="12">
+<citation type="journal article" date="2013" name="Process Biochem." volume="48" first="1227" last="1234">
+<title>Elicitation of ginsenoside biosynthesis in cell cultures of Panax ginseng by vanadate.</title>
+<authorList>
+<person name="Huang C."/>
+<person name="Zhong J.-J."/>
+</authorList>
+<dbReference type="DOI" id="10.1016/j.procbio.2013.05.019"/>
+</citation>
+<scope>INDUCTION BY VANADATE</scope>
+</reference>
+<reference key="13">
+<citation type="journal article" date="2016" name="J. Biotechnol." volume="239" first="106" last="114">
+<title>Fungal elicitors enhance ginsenosides biosynthesis, expression of functional genes as well as signal molecules accumulation in adventitious roots of Panax ginseng C. A. Mey.</title>
+<authorList>
+<person name="Li J."/>
+<person name="Liu S."/>
+<person name="Wang J."/>
+<person name="Li J."/>
+<person name="Liu D."/>
+<person name="Li J."/>
+<person name="Gao W."/>
+</authorList>
+<dbReference type="PubMed" id="27746309"/>
+<dbReference type="DOI" id="10.1016/j.jbiotec.2016.10.011"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>INDUCTION BY ASPERGILLUS NIGER</scope>
+</reference>
+<reference key="14">
+<citation type="journal article" date="2018" name="Biotechnol. Appl. Biochem." volume="65" first="514" last="522">
+<title>Advances in ginsenoside biosynthesis and metabolic regulation.</title>
+<authorList>
+<person name="Lu J."/>
+<person name="Li J."/>
+<person name="Wang S."/>
+<person name="Yao L."/>
+<person name="Liang W."/>
+<person name="Wang J."/>
+<person name="Gao W."/>
+</authorList>
+<dbReference type="PubMed" id="29378087"/>
+<dbReference type="DOI" id="10.1002/bab.1649"/>
+</citation>
+<scope>REVIEW</scope>
+</reference>
+<reference key="15">
+<citation type="journal article" date="2018" name="Molecules" volume="23">
+<title>Progress on the studies of the key enzymes of ginsenoside biosynthesis.</title>
+<authorList>
+<person name="Yang J.-L."/>
+<person name="Hu Z.-F."/>
+<person name="Zhang T.-T."/>
+<person name="Gu A.-D."/>
+<person name="Gong T."/>
+<person name="Zhu P."/>
+</authorList>
+<dbReference type="PubMed" id="29509695"/>
+<dbReference type="DOI" id="10.3390/molecules23030589"/>
+</citation>
+<scope>REVIEW</scope>
+<scope>NOMENCLATURE</scope>
+</reference>
+<reference key="16">
+<citation type="journal article" date="2018" name="Molecules" volume="24">
+<title>The effects of environmental factors on ginsenoside biosynthetic enzyme gene expression and saponin abundance.</title>
+<authorList>
+<person name="Zhang T."/>
+<person name="Han M."/>
+<person name="Yang L."/>
+<person name="Han Z."/>
+<person name="Cheng L."/>
+<person name="Sun Z."/>
+<person name="Yang L."/>
+</authorList>
+<dbReference type="PubMed" id="30577538"/>
+<dbReference type="DOI" id="10.3390/molecules24010014"/>
+</citation>
+<scope>DEVELOPMENTAL STAGE</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>INDUCTION BY ABIOTIC FACTORS</scope>
+</reference>
+<comment type="function">
+<text evidence="3 9 18">Component of the triterpene saponins (e.g. ginsenosides or panaxosides) and phytosterols biosynthetic pathways (PubMed:15356323, PubMed:27746309, PubMed:29378087). Catalyzes the biosynthesis of squalene (PubMed:15356323).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1">
+<text>2 (2E,6E)-farnesyl diphosphate + H(+) + NADH = 2 diphosphate + NAD(+) + squalene</text>
+<dbReference type="Rhea" id="RHEA:32299"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15440"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="2.5.1.21"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="19">
+<dbReference type="Rhea" id="RHEA:32300"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1">
+<text>2 (2E,6E)-farnesyl diphosphate + H(+) + NADPH = 2 diphosphate + NADP(+) + squalene</text>
+<dbReference type="Rhea" id="RHEA:32295"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15440"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="2.5.1.21"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="19">
+<dbReference type="Rhea" id="RHEA:32296"/>
+</physiologicalReaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<cofactor evidence="1">
+<name>Mn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29035"/>
+</cofactor>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Terpene metabolism; lanosterol biosynthesis; lanosterol from farnesyl diphosphate: step 1/3.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Endoplasmic reticulum membrane</location>
+<topology evidence="2">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>O48666-1</id>
+<name>1</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>O48666-2</id>
+<name>2</name>
+<sequence type="described" ref="VSP_060120"/>
+</isoform>
+</comment>
+<comment type="tissue specificity">
+<text evidence="3 10">Mostly expressed in the shoot apex (buds) and roots, and, to a lower extent, in stems, leaves, flowers and seeds.</text>
+</comment>
+<comment type="developmental stage">
+<text evidence="10">Rapid decrease in leaves from the leaf opened to the green fruit stage (PubMed:30577538). At the leaf opened stage, accumulates mostly in leaves (PubMed:30577538).</text>
+</comment>
+<comment type="induction">
+<text evidence="3 4 5 6 7 8 9 10 11 12 13">Induced by jasmonic acid (JA) and metyl jasmonate (MeJA) in adventitious roots (PubMed:15356323, PubMed:25642758, Ref.6, PubMed:15538577, Ref.10). Induced by chitosan (CHN) (PubMed:15493471). Accumulates upon Cle-mediated signaling, an elicitor derived from fungal cell walls of C.lagenarium, thus inducing the accumulation of saponins (PubMed:15821288). Triggered by ethylene (ACC), rose bengal (RB), nitric oxide (NO) (PubMed:15821288). Accumulates in response to hydrogen peroxide (H(2)O(2)) (PubMed:15821288, Ref.6). Induced by N,N'-dicyclohexylcarbodiimide (DCCD) in a nitric oxide (NO) dependent manner thus leading to increased ginsenosides accumulation (PubMed:23467002). Induced by A.niger mycelium-derived elicitor, thus improving ginsenosides production in adventitious roots culture (PubMed:27746309). Triggered by vanadate (Ref.12). Stimulated by the plant cell wall-derived elicitor oligogalacturonic acid (Ref.6). Influenced in roots by photosynthetically active radiation (PAR), and in leaves by relative humidity (PubMed:30577538).</text>
+</comment>
+<comment type="similarity">
+<text evidence="23">Belongs to the phytoene/squalene synthase family.</text>
+</comment>
+<dbReference type="EC" id="2.5.1.21" evidence="1"/>
+<dbReference type="EMBL" id="AB010148">
+<property type="protein sequence ID" value="BAA24289.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB115496">
+<property type="protein sequence ID" value="BAD08242.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="EU502717">
+<property type="protein sequence ID" value="ACA66014.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="KJ939264">
+<property type="protein sequence ID" value="AJV26445.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="KP689314">
+<property type="protein sequence ID" value="AJK30626.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="O48666"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-13442"/>
+<dbReference type="BRENDA" id="2.5.1.21">
+<property type="organism ID" value="7895"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00767">
+<property type="reaction ID" value="UER00751"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005789">
+<property type="term" value="C:endoplasmic reticulum membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004310">
+<property type="term" value="F:farnesyl-diphosphate farnesyltransferase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051996">
+<property type="term" value="F:squalene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009723">
+<property type="term" value="P:response to ethylene"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042542">
+<property type="term" value="P:response to hydrogen peroxide"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009753">
+<property type="term" value="P:response to jasmonic acid"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002238">
+<property type="term" value="P:response to molecule of fungal origin"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071731">
+<property type="term" value="P:response to nitric oxide"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009751">
+<property type="term" value="P:response to salicylic acid"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:1902438">
+<property type="term" value="P:response to vanadate(3-)"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016135">
+<property type="term" value="P:saponin biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016104">
+<property type="term" value="P:triterpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="CDD" id="cd00683">
+<property type="entry name" value="Trans_IPPS_HH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002060">
+<property type="entry name" value="Squ/phyt_synthse"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006449">
+<property type="entry name" value="Squal_synth-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR019845">
+<property type="entry name" value="Squalene/phytoene_synthase_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033904">
+<property type="entry name" value="Trans_IPPS_HH"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01018">
+<property type="entry name" value="Squalene/Phytoene_Synthase_Lik"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01559">
+<property type="entry name" value="squal_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01044">
+<property type="entry name" value="SQUALEN_PHYTOEN_SYN_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01045">
+<property type="entry name" value="SQUALEN_PHYTOEN_SYN_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-0256">Endoplasmic reticulum</keyword>
+<keyword id="KW-0414">Isoprene biosynthesis</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0511">Multifunctional enzyme</keyword>
+<keyword id="KW-0521">NADP</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Squalene synthase 1" id="PRO_0000446952">
+<location>
+<begin position="1"/>
+<end position="415"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="281"/>
+<end position="301"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="391"/>
+<end position="411"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2." id="VSP_060120" evidence="23">
+<original>LLLNKQ</original>
+<variation>LPNSL</variation>
+<location>
+<begin position="410"/>
+<end position="415"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 5; AJK30626." ref="5" evidence="23">
+<original>K</original>
+<variation>N</variation>
+<location>
+<position position="104"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 3; ACA66014." ref="3" evidence="23">
+<original>S</original>
+<variation>P</variation>
+<location>
+<position position="196"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 3; ACA66014." ref="3" evidence="23">
+<original>I</original>
+<variation>V</variation>
+<location>
+<position position="282"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P53799"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15356323"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15493471"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15538577"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15821288"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="23467002"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="25642758"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="27746309"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="30577538"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000269">
+<source ref="10"/>
+</evidence>
+<evidence key="12" type="ECO:0000269">
+<source ref="12"/>
+</evidence>
+<evidence key="13" type="ECO:0000269">
+<source ref="6"/>
+</evidence>
+<evidence key="14" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="15356323"/>
+</source>
+</evidence>
+<evidence key="15" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="15493471"/>
+</source>
+</evidence>
+<evidence key="16" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="15821288"/>
+</source>
+</evidence>
+<evidence key="17" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="25642758"/>
+</source>
+</evidence>
+<evidence key="18" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="29378087"/>
+</source>
+</evidence>
+<evidence key="19" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="29509695"/>
+</source>
+</evidence>
+<evidence key="20" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="30577538"/>
+</source>
+</evidence>
+<evidence key="21" type="ECO:0000303">
+<source ref="3"/>
+</evidence>
+<evidence key="22" type="ECO:0000303">
+<source ref="4"/>
+</evidence>
+<evidence key="23" type="ECO:0000305"/>
+<sequence length="415" mass="47056" checksum="2576E2F0DDCE51F7" modified="1998-06-01" version="1">MGSLGAILKHPEDFYPLLKLKFAARHAEKQIPPEPHWAFCYSMLHKVSRSFGLVIQQLGPQLRDAVCIFYLVLRALDTVEDDTSIPTEVKVPILMAFHRHIYDKDWHFSCGTKEYKVLMDEFHHVSNAFLELGSGYQEAIEDITMRMGAGMAKFICKEVETINDYDEYCHYVAGLVGLGLSKLFHASGAEDLATDSLSNSMGLFLQKTNIIRDYLEDINEIPKSRMFWPRQIWSKYVDKLEDLKYEENSAKAVQCLNDMVTDALVHAEDCLKYMSDLRGPAIFRFCAIPQIMAIGTLALCFNNTQVFRGVVKMRRGLTAKVIDQTKTMSDVYGAFFDFSCLLKSKVDNNDPNATKTLSRLEAIQKTCKESGTLSKRKSYIIESESGHNSALIAIIFIILAILYAYLSSNLLLNKQ</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

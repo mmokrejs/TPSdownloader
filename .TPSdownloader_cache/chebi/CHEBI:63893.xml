@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:63893</ID>
+<NAME>8-hydroxy-alpha-humulene</NAME>
+<DEFINITION>A sesquiterpenoid that is (1E,4E,8E)-α-humulene which is substituted by a hydroxy group at the carbon atom attached to two double bonds (position 8).</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>zerumbol</SYNONYM>
+<SYNONYM>10-hydroxy-alpha-humulene</SYNONYM>
+<IUPAC_NAME>(2E,6E,10E)-2,6,9,9-tetramethylcycloundeca-2,6,10-trien-1-ol</IUPAC_NAME>
+<FORMULA>C15H24O</FORMULA>
+<MASS>220.35050</MASS>
+<MONOISOTOPIC_MASS>220.18272</MONOISOTOPIC_MASS>
+<CHARGE>0</CHARGE>
+<SMILES>C\C1=C/CC(C)(C)\C=C\C(O)\C(C)=C\CC1</SMILES>
+<INCHI>InChI=1S/C15H24O/c1-12-6-5-7-13(2)14(16)9-11-15(3,4)10-8-12/h7-9,11,14,16H,5-6,10H2,1-4H3/b11-9+,12-8+,13-7+</INCHI>
+<INCHIKEY>NLCQRJBYGGWZRQ-SKTNYSRSSA-N</INCHIKEY>
+<REAXYS_REGISTRY_NUMBER>2262343</REAXYS_REGISTRY_NUMBER>
+<PUBMED_CITATION>21668645</PUBMED_CITATION>
+</ENTRY>
+</TABLE>

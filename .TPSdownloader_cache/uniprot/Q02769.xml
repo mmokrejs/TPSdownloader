@@ -1,0 +1,587 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-07-01" modified="2021-06-02" version="148">
+<accession>Q02769</accession>
+<name>FDFT_RAT</name>
+<protein>
+<recommendedName>
+<fullName>Squalene synthase</fullName>
+<shortName>SQS</shortName>
+<shortName>SS</shortName>
+<ecNumber evidence="5">2.5.1.21</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>FPP:FPP farnesyltransferase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Farnesyl-diphosphate farnesyltransferase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">Fdft1</name>
+</gene>
+<organism>
+<name type="scientific">Rattus norvegicus</name>
+<name type="common">Rat</name>
+<dbReference type="NCBI Taxonomy" id="10116"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Myomorpha</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Rattus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1992" name="J. Biol. Chem." volume="267" first="8628" last="8635">
+<title>Solubilization, purification, and characterization of a truncated form of rat hepatic squalene synthetase.</title>
+<authorList>
+<person name="Shechter I."/>
+<person name="Klinger E."/>
+<person name="Rucker M.L."/>
+<person name="Engstrom R.G."/>
+<person name="Spirito J.A."/>
+<person name="Islam M.A."/>
+<person name="Boettcher B.R."/>
+<person name="Wienstein D.B."/>
+</authorList>
+<dbReference type="PubMed" id="1569107"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1992" name="J. Biol. Chem." volume="267" first="21368" last="21374">
+<title>Molecular cloning, expression, and characterization of the cDNA for the rat hepatic squalene synthase.</title>
+<authorList>
+<person name="McKenzie T.L."/>
+<person name="Jiang G."/>
+<person name="Straubhaar J.R."/>
+<person name="Conrad D.G."/>
+<person name="Shechter I."/>
+</authorList>
+<dbReference type="PubMed" id="1400448"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<tissue>Heart</tissue>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1993" name="J. Biol. Chem." volume="268" first="12825" last="12836">
+<title>Subcellular localization of squalene synthase in rat hepatic cells. Biochemical and immunochemical evidence.</title>
+<authorList>
+<person name="Stamellos K.D."/>
+<person name="Shackelford J.E."/>
+<person name="Schechter I."/>
+<person name="Jiang G."/>
+<person name="Conrad D.G."/>
+<person name="Keller G.-A."/>
+<person name="Krisans S.K."/>
+</authorList>
+<dbReference type="PubMed" id="8509416"/>
+</citation>
+<scope>SUBCELLULAR LOCATION</scope>
+<source>
+<tissue>Liver</tissue>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1998" name="J. Biol. Chem." volume="273" first="12515" last="12525">
+<title>Function-structure studies and identification of three enzyme domains involved in the catalytic activity in rat hepatic squalene synthase.</title>
+<authorList>
+<person name="Gu P."/>
+<person name="Ishii Y."/>
+<person name="Spencer T.A."/>
+<person name="Shechter I."/>
+</authorList>
+<dbReference type="PubMed" id="9575210"/>
+<dbReference type="DOI" id="10.1074/jbc.273.20.12515"/>
+</citation>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>FUNCTION</scope>
+<scope>MUTAGENESIS OF TYR-171; TYR-174; ARG-185; GLN-283; PHE-286; PHE-288 AND GLN-293</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2006" name="J. Clin. Invest." volume="116" first="395" last="404">
+<title>Lanosterol synthase mutations cause cholesterol deficiency-associated cataracts in the Shumiya cataract rat.</title>
+<authorList>
+<person name="Mori M."/>
+<person name="Li G."/>
+<person name="Abe I."/>
+<person name="Nakayama J."/>
+<person name="Guo Z."/>
+<person name="Sawashita J."/>
+<person name="Ugawa T."/>
+<person name="Nishizono S."/>
+<person name="Serikawa T."/>
+<person name="Higuchi K."/>
+<person name="Shumiya S."/>
+</authorList>
+<dbReference type="PubMed" id="16440058"/>
+<dbReference type="DOI" id="10.1172/jci20797"/>
+</citation>
+<scope>DISEASE</scope>
+</reference>
+<comment type="function">
+<text evidence="1 5">Catalyzes the condensation of 2 farnesyl pyrophosphate (FPP) moieties to form squalene (PubMed:9575210). Proceeds in two distinct steps. In the first half-reaction, two molecules of FPP react to form the stable presqualene diphosphate intermediate (PSQPP), with concomitant release of a proton and a molecule of inorganic diphosphate. In the second half-reaction, PSQPP undergoes heterolysis, isomerization, and reduction with NADPH or NADH to form squalene. It is the first committed enzyme of the sterol biosynthesis pathway (By similarity).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="5">
+<text>2 (2E,6E)-farnesyl diphosphate + H(+) + NADPH = 2 diphosphate + NADP(+) + squalene</text>
+<dbReference type="Rhea" id="RHEA:32295"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15440"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="2.5.1.21"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="5">
+<dbReference type="Rhea" id="RHEA:32296"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1">
+<text>2 (2E,6E)-farnesyl diphosphate + H(+) + NADH = 2 diphosphate + NAD(+) + squalene</text>
+<dbReference type="Rhea" id="RHEA:32299"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15440"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="2.5.1.21"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="1">
+<dbReference type="Rhea" id="RHEA:32300"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1">
+<text>H(+) + NADH + presqualene diphosphate = diphosphate + NAD(+) + squalene</text>
+<dbReference type="Rhea" id="RHEA:22228"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15440"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:57310"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="1">
+<dbReference type="Rhea" id="RHEA:22229"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="5">
+<text>H(+) + NADPH + presqualene diphosphate = diphosphate + NADP(+) + squalene</text>
+<dbReference type="Rhea" id="RHEA:22232"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15440"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:57310"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="5">
+<dbReference type="Rhea" id="RHEA:22233"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1">
+<text>2 (2E,6E)-farnesyl diphosphate = diphosphate + presqualene diphosphate</text>
+<dbReference type="Rhea" id="RHEA:22672"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:57310"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="1">
+<dbReference type="Rhea" id="RHEA:22673"/>
+</physiologicalReaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="pathway" evidence="6">
+<text>Terpene metabolism; lanosterol biosynthesis; lanosterol from farnesyl diphosphate: step 1/3.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="4">Endoplasmic reticulum membrane</location>
+<topology evidence="2">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="disease">
+<text evidence="3">Defects in Lss and Fdft1 are the cause of Shumiya cataract rat (SCR). This strain develop mature cataracts at around 11 weeks of age, exhibiting opacity from the perinuclear zone to the cortical intermediate layer. Cholesterol levels in cataractous lenses decreased to about 57% of normal. Cholesterol insufficiency may cause the deficient proliferation of lens epithelial cells in Shumiya cataract rats, resulting in the loss of homeostatic epithelial cell control of the underlying fiber cells and ultimately cataractogenesis.</text>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the phytoene/squalene synthase family.</text>
+</comment>
+<dbReference type="EC" id="2.5.1.21" evidence="5"/>
+<dbReference type="EMBL" id="M95591">
+<property type="protein sequence ID" value="AAA42179.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC081810">
+<property type="protein sequence ID" value="AAH81810.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="PIR" id="A45105">
+<property type="entry name" value="A45105"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_062111.1">
+<property type="nucleotide sequence ID" value="NM_019238.2"/>
+</dbReference>
+<dbReference type="SMR" id="Q02769"/>
+<dbReference type="STRING" id="10116.ENSRNOP00000029808"/>
+<dbReference type="BindingDB" id="Q02769"/>
+<dbReference type="ChEMBL" id="CHEMBL3815"/>
+<dbReference type="DrugCentral" id="Q02769"/>
+<dbReference type="GuidetoPHARMACOLOGY" id="645"/>
+<dbReference type="jPOST" id="Q02769"/>
+<dbReference type="PaxDb" id="Q02769"/>
+<dbReference type="PRIDE" id="Q02769"/>
+<dbReference type="Ensembl" id="ENSRNOT00000032089">
+<property type="protein sequence ID" value="ENSRNOP00000029808"/>
+<property type="gene ID" value="ENSRNOG00000021314"/>
+</dbReference>
+<dbReference type="GeneID" id="29580"/>
+<dbReference type="KEGG" id="rno:29580"/>
+<dbReference type="UCSC" id="RGD:61834">
+<property type="organism name" value="rat"/>
+</dbReference>
+<dbReference type="CTD" id="2222"/>
+<dbReference type="RGD" id="61834">
+<property type="gene designation" value="Fdft1"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG1459">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000016034"/>
+<dbReference type="HOGENOM" id="CLU_031981_0_2_1"/>
+<dbReference type="InParanoid" id="Q02769"/>
+<dbReference type="OMA" id="NGPNEKD"/>
+<dbReference type="OrthoDB" id="563702at2759"/>
+<dbReference type="PhylomeDB" id="Q02769"/>
+<dbReference type="TreeFam" id="TF105316"/>
+<dbReference type="Reactome" id="R-RNO-191273">
+<property type="pathway name" value="Cholesterol biosynthesis"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00767">
+<property type="reaction ID" value="UER00751"/>
+</dbReference>
+<dbReference type="PRO" id="PR:Q02769"/>
+<dbReference type="Proteomes" id="UP000002494">
+<property type="component" value="Chromosome 15"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSRNOG00000021314">
+<property type="expression patterns" value="Expressed in liver and 22 other tissues"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q02769">
+<property type="organism ID" value="RN"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005789">
+<property type="term" value="C:endoplasmic reticulum membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043231">
+<property type="term" value="C:intracellular membrane-bounded organelle"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004310">
+<property type="term" value="F:farnesyl-diphosphate farnesyltransferase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051996">
+<property type="term" value="F:squalene synthase activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006695">
+<property type="term" value="P:cholesterol biosynthetic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045338">
+<property type="term" value="P:farnesyl diphosphate metabolic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008299">
+<property type="term" value="P:isoprenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="CDD" id="cd00683">
+<property type="entry name" value="Trans_IPPS_HH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002060">
+<property type="entry name" value="Squ/phyt_synthse"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006449">
+<property type="entry name" value="Squal_synth-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR019845">
+<property type="entry name" value="Squalene/phytoene_synthase_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033904">
+<property type="entry name" value="Trans_IPPS_HH"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01018">
+<property type="entry name" value="Squalene/Phytoene_Synthase_Lik"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01559">
+<property type="entry name" value="squal_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01044">
+<property type="entry name" value="SQUALEN_PHYTOEN_SYN_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01045">
+<property type="entry name" value="SQUALEN_PHYTOEN_SYN_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0152">Cholesterol biosynthesis</keyword>
+<keyword id="KW-0153">Cholesterol metabolism</keyword>
+<keyword id="KW-0225">Disease variant</keyword>
+<keyword id="KW-0256">Endoplasmic reticulum</keyword>
+<keyword id="KW-0414">Isoprene biosynthesis</keyword>
+<keyword id="KW-0444">Lipid biosynthesis</keyword>
+<keyword id="KW-0443">Lipid metabolism</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0511">Multifunctional enzyme</keyword>
+<keyword id="KW-0520">NAD</keyword>
+<keyword id="KW-0521">NADP</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0752">Steroid biosynthesis</keyword>
+<keyword id="KW-0753">Steroid metabolism</keyword>
+<keyword id="KW-0756">Sterol biosynthesis</keyword>
+<keyword id="KW-1207">Sterol metabolism</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Squalene synthase" id="PRO_0000067445">
+<location>
+<begin position="1"/>
+<end position="416"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="284"/>
+<end position="304"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="384"/>
+<end position="404"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="80"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="83"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="1">
+<location>
+<position position="84"/>
+</location>
+</feature>
+<feature type="binding site" description="NADP" evidence="1">
+<location>
+<position position="52"/>
+</location>
+</feature>
+<feature type="binding site" description="NADP" evidence="1">
+<location>
+<position position="77"/>
+</location>
+</feature>
+<feature type="binding site" description="NADP" evidence="1">
+<location>
+<position position="218"/>
+</location>
+</feature>
+<feature type="binding site" description="NADP" evidence="1">
+<location>
+<position position="315"/>
+</location>
+</feature>
+<feature type="binding site" description="NADP" evidence="1">
+<location>
+<position position="317"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Completely abolishes formation of PSPP or squalene from FPP." evidence="5">
+<original>Y</original>
+<variation>F</variation>
+<variation>S</variation>
+<variation>W</variation>
+<location>
+<position position="171"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Has little effect on the total squalene synthase activity." evidence="5">
+<original>Y</original>
+<variation>F</variation>
+<variation>S</variation>
+<variation>W</variation>
+<location>
+<position position="174"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Does not affect squalene synthase activity." evidence="5">
+<original>R</original>
+<variation>G</variation>
+<location>
+<position position="185"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Retains partial activity of the first reaction. Retains partial activity of the second reaction." evidence="5">
+<original>Q</original>
+<variation>E</variation>
+<variation>N</variation>
+<location>
+<position position="283"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Completely eliminates the activities of both the first and the second reactions." evidence="5">
+<original>F</original>
+<variation>D</variation>
+<variation>R</variation>
+<location>
+<position position="286"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Retains partial activity of the first reaction. Retains partial activity of the second reaction." evidence="5">
+<original>F</original>
+<variation>Y</variation>
+<variation>W</variation>
+<variation>L</variation>
+<location>
+<position position="286"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Completely eliminates the activities of both the first and the second reactions." evidence="5">
+<original>F</original>
+<variation>D</variation>
+<variation>R</variation>
+<location>
+<position position="288"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Retains partial activity of the first reaction. Completely eliminates the activity of the second rection." evidence="5">
+<original>F</original>
+<variation>L</variation>
+<location>
+<position position="288"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Retains partial activity of the first reaction. Retains partial activity of the second reaction." evidence="5">
+<original>F</original>
+<variation>Y</variation>
+<variation>W</variation>
+<variation>L</variation>
+<location>
+<position position="288"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Retains partial activity of the first reaction. Retains partial activity of the second reaction." evidence="5">
+<original>Q</original>
+<variation>N</variation>
+<variation>E</variation>
+<location>
+<position position="293"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P37268"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16440058"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8509416"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9575210"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<sequence length="416" mass="48106" checksum="F4BC4D09C9F72169" modified="1993-07-01" version="1">MEFVKCLGHPEEFYNLLRFRMGGRRNFIPKMDRNSLSNSLKTCYKYLDQTSRSFAAVIQALDGDIRHAVCVFYLILRAMDTVEDDMAISVEKKIPLLRNFHTFLYEPEWRFTESKEKHRVVLEDFPTISLEFRNLAEKYQTVIADICHRMGCGMAEFLNKDVTSKQDWDKYCHYVAGLVGIGLSRLFSASEFEDPIVGEDTECANSMGLFLQKTNIIRDYLEDQQEGRQFWPQEVWGKYVKKLEDFVKPENVDVAVKCLNELITNALQHIPDVITYLSRLRNQSVFNFCAIPQVMAIATLAACYNNHQVFKGVVKIRKGQAVTLMMDATNMPAVKAIIYQYIEEIYHRVPNSDPSASKAKQLISNIRTQSLPNCQLISRSHYSPIYLSFIMLLAALSWQYLSTLSQVTEDYVQREH</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

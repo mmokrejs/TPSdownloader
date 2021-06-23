@@ -1,0 +1,637 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2012-09-05" modified="2021-06-02" version="118">
+<accession>Q9K498</accession>
+<name>EIZFM_STRCO</name>
+<protein>
+<recommendedName>
+<fullName>Epi-isozizaene 5-monooxygenase/(E)-beta-farnesene synthase</fullName>
+<ecNumber>1.14.13.106</ecNumber>
+<ecNumber>4.2.3.47</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Cytochrome P450 170A1</fullName>
+<shortName>CYP170A1</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="ordered locus">SCO5223</name>
+</gene>
+<organism>
+<name type="scientific">Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145)</name>
+<dbReference type="NCBI Taxonomy" id="100226"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Streptomycetales</taxon>
+<taxon>Streptomycetaceae</taxon>
+<taxon>Streptomyces</taxon>
+<taxon>Streptomyces albidoflavus group</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2002" name="Nature" volume="417" first="141" last="147">
+<title>Complete genome sequence of the model actinomycete Streptomyces coelicolor A3(2).</title>
+<authorList>
+<person name="Bentley S.D."/>
+<person name="Chater K.F."/>
+<person name="Cerdeno-Tarraga A.-M."/>
+<person name="Challis G.L."/>
+<person name="Thomson N.R."/>
+<person name="James K.D."/>
+<person name="Harris D.E."/>
+<person name="Quail M.A."/>
+<person name="Kieser H."/>
+<person name="Harper D."/>
+<person name="Bateman A."/>
+<person name="Brown S."/>
+<person name="Chandra G."/>
+<person name="Chen C.W."/>
+<person name="Collins M."/>
+<person name="Cronin A."/>
+<person name="Fraser A."/>
+<person name="Goble A."/>
+<person name="Hidalgo J."/>
+<person name="Hornsby T."/>
+<person name="Howarth S."/>
+<person name="Huang C.-H."/>
+<person name="Kieser T."/>
+<person name="Larke L."/>
+<person name="Murphy L.D."/>
+<person name="Oliver K."/>
+<person name="O'Neil S."/>
+<person name="Rabbinowitsch E."/>
+<person name="Rajandream M.A."/>
+<person name="Rutherford K.M."/>
+<person name="Rutter S."/>
+<person name="Seeger K."/>
+<person name="Saunders D."/>
+<person name="Sharp S."/>
+<person name="Squares R."/>
+<person name="Squares S."/>
+<person name="Taylor K."/>
+<person name="Warren T."/>
+<person name="Wietzorrek A."/>
+<person name="Woodward J.R."/>
+<person name="Barrell B.G."/>
+<person name="Parkhill J."/>
+<person name="Hopwood D.A."/>
+</authorList>
+<dbReference type="PubMed" id="12000953"/>
+<dbReference type="DOI" id="10.1038/417141a"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC BAA-471 / A3(2) / M145</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2008" name="J. Biol. Chem." volume="283" first="8183" last="8189">
+<title>Biosynthesis of the sesquiterpene antibiotic albaflavenone in Streptomyces coelicolor A3(2).</title>
+<authorList>
+<person name="Zhao B."/>
+<person name="Lin X."/>
+<person name="Lei L."/>
+<person name="Lamb D.C."/>
+<person name="Kelly S.L."/>
+<person name="Waterman M.R."/>
+<person name="Cane D.E."/>
+</authorList>
+<dbReference type="PubMed" id="18234666"/>
+<dbReference type="DOI" id="10.1074/jbc.m710421200"/>
+</citation>
+<scope>FUNCTION AS AN EPIISOZIZAENE MONOOXYGENASE AND IN THE ALBAFLAVENONE BIOSYNTHESIS</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+</reference>
+<reference key="3" evidence="5 6">
+<citation type="journal article" date="2009" name="J. Biol. Chem." volume="284" first="36711" last="36719">
+<title>Crystal structure of albaflavenone monooxygenase containing a moonlighting terpene synthase active site.</title>
+<authorList>
+<person name="Zhao B."/>
+<person name="Lei L."/>
+<person name="Vassylyev D.G."/>
+<person name="Lin X."/>
+<person name="Cane D.E."/>
+<person name="Kelly S.L."/>
+<person name="Yuan H."/>
+<person name="Lamb D.C."/>
+<person name="Waterman M.R."/>
+</authorList>
+<dbReference type="PubMed" id="19858213"/>
+<dbReference type="DOI" id="10.1074/jbc.m109.064683"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.60 ANGSTROMS) IN COMPLEX WITH HEME AND SUBSTRATE</scope>
+<scope>FUNCTION AS AN EPIISOZIZAENE MONOOXYGENASE AND AS BETA-FARNESENE SYNTHASE</scope>
+<scope>MUTAGENESIS OF ASP-253; ASP-254 AND ASP-257</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>COFACTOR</scope>
+<scope>SUBUNIT</scope>
+</reference>
+<comment type="function">
+<text evidence="2 3">Involved in the biosynthesis of the sesquiterpenoid antibiotic albaflavenone. Catalyzes the two-step allylic oxidation of epi-isozizaene to albaflavenone. First carries out a non-stereo-specific oxidation of epi-isozizaene to give a mixture of the albaflavenol epimers ((5R)-albaflavenol and (5S)-albaflavenol), each of which can serve as substrate for the second oxidation to yield albaflavenone. This is quite different from most other P450s which catalyze regio- and stereospecific oxidation. Displays also a farnesene synthase activity with farnesyl diphosphate (FPP) as substrate.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(+)-epi-isozizaene + 2 H(+) + 2 NADPH + 2 O2 = albaflavenone + 3 H2O + 2 NADP(+)</text>
+<dbReference type="Rhea" id="RHEA:32439"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15379"/>
+<dbReference type="ChEBI" id="CHEBI:51458"/>
+<dbReference type="ChEBI" id="CHEBI:51460"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+<dbReference type="EC" id="1.14.13.106"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>(2E,6E)-farnesyl diphosphate = (E)-beta-farnesene + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:27425"/>
+<dbReference type="ChEBI" id="CHEBI:10418"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.47"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="3">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<cofactor evidence="3">
+<name>Ca(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29108"/>
+</cofactor>
+<cofactor evidence="3">
+<name>Mn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29035"/>
+</cofactor>
+<text evidence="3">Divalent metal cations. Mg(2+), Ca(2+) or Mn(2+) ions for farnesene synthase activity.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="3">
+<name>heme</name>
+<dbReference type="ChEBI" id="CHEBI:30413"/>
+</cofactor>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="3">16.8 uM for FPP (in the presence of magnesium ions at 30 degrees Celsius and at pH 5.5)</KM>
+<text>kcat is 0.019 sec(-1) with farnesyl diphosphate (FPP) as substrate (in the presence of magnesium ions at 30 degrees Celsius and at pH 5.5).</text>
+</kinetics>
+<phDependence>
+<text evidence="3">Optimum pH is between 7 and 8.2 for monooxygenase activity and between 5.5 and 6.5 for farnesene synthase activity.</text>
+</phDependence>
+</comment>
+<comment type="subunit">
+<text evidence="3">Homodimer.</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="2">Disruption abolishes biosynthesis of both albaflavenone and the albaflavenols, but not epi-isozizaene.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the cytochrome P450 family.</text>
+</comment>
+<dbReference type="EC" id="1.14.13.106"/>
+<dbReference type="EC" id="4.2.3.47"/>
+<dbReference type="EMBL" id="AL939123">
+<property type="protein sequence ID" value="CAB94608.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_629370.1">
+<property type="nucleotide sequence ID" value="NC_003888.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_011030120.1">
+<property type="nucleotide sequence ID" value="NZ_VNID01000008.1"/>
+</dbReference>
+<dbReference type="PDB" id="3DBG">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.60 A"/>
+<property type="chains" value="A/B=1-461"/>
+</dbReference>
+<dbReference type="PDB" id="3EL3">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="3.30 A"/>
+<property type="chains" value="A/B=1-461"/>
+</dbReference>
+<dbReference type="PDBsum" id="3DBG"/>
+<dbReference type="PDBsum" id="3EL3"/>
+<dbReference type="SMR" id="Q9K498"/>
+<dbReference type="STRING" id="100226.SCO5223"/>
+<dbReference type="MoonProt" id="Q9K498"/>
+<dbReference type="GeneID" id="1100664"/>
+<dbReference type="KEGG" id="sco:SCO5223"/>
+<dbReference type="PATRIC" id="fig|100226.15.peg.5307"/>
+<dbReference type="eggNOG" id="COG2124">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_001570_5_1_11"/>
+<dbReference type="InParanoid" id="Q9K498"/>
+<dbReference type="OMA" id="IQPAFRL"/>
+<dbReference type="PhylomeDB" id="Q9K498"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-13905"/>
+<dbReference type="BRENDA" id="4.2.3.37">
+<property type="organism ID" value="5998"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="Q9K498"/>
+<dbReference type="Proteomes" id="UP000001973">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="CAFA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0020037">
+<property type="term" value="F:heme binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005506">
+<property type="term" value="F:iron ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004497">
+<property type="term" value="F:monooxygenase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016705">
+<property type="term" value="F:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010334">
+<property type="term" value="F:sesquiterpene synthase activity"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="CAFA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0017000">
+<property type="term" value="P:antibiotic biosynthetic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="CAFA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042181">
+<property type="term" value="P:ketone biosynthetic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="CAFA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051762">
+<property type="term" value="P:sesquiterpene biosynthetic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="CAFA"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.630.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001128">
+<property type="entry name" value="Cyt_P450"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002401">
+<property type="entry name" value="Cyt_P450_E_grp-I"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036396">
+<property type="entry name" value="Cyt_P450_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00067">
+<property type="entry name" value="p450"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00463">
+<property type="entry name" value="EP450I"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00385">
+<property type="entry name" value="P450"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48264">
+<property type="entry name" value="SSF48264"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0349">Heme</keyword>
+<keyword id="KW-0408">Iron</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0503">Monooxygenase</keyword>
+<keyword id="KW-0521">NADP</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Epi-isozizaene 5-monooxygenase/(E)-beta-farnesene synthase" id="PRO_0000418620">
+<location>
+<begin position="1"/>
+<end position="461"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="1">
+<location>
+<begin position="1"/>
+<end position="28"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron (heme axial ligand)" evidence="3">
+<location>
+<position position="410"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of any farnesene synthase activity, whereas the P450 monooxygenase activity is retained." evidence="3">
+<original>D</original>
+<variation>A</variation>
+<location>
+<position position="253"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of any farnesene synthase activity, whereas the P450 monooxygenase activity is retained." evidence="3">
+<original>D</original>
+<variation>A</variation>
+<location>
+<position position="254"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of any farnesene synthase activity, whereas the P450 monooxygenase activity is retained." evidence="3">
+<original>D</original>
+<variation>A</variation>
+<location>
+<position position="257"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="35"/>
+<end position="42"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="44"/>
+<end position="51"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="52"/>
+<end position="54"/>
+</location>
+</feature>
+<feature type="strand" evidence="7">
+<location>
+<begin position="56"/>
+<end position="62"/>
+</location>
+</feature>
+<feature type="strand" evidence="7">
+<location>
+<begin position="65"/>
+<end position="70"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="73"/>
+<end position="81"/>
+</location>
+</feature>
+<feature type="strand" evidence="8">
+<location>
+<begin position="85"/>
+<end position="87"/>
+</location>
+</feature>
+<feature type="turn" evidence="8">
+<location>
+<begin position="89"/>
+<end position="92"/>
+</location>
+</feature>
+<feature type="helix" evidence="8">
+<location>
+<begin position="93"/>
+<end position="96"/>
+</location>
+</feature>
+<feature type="turn" evidence="8">
+<location>
+<begin position="97"/>
+<end position="101"/>
+</location>
+</feature>
+<feature type="strand" evidence="8">
+<location>
+<begin position="102"/>
+<end position="104"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="117"/>
+<end position="119"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="120"/>
+<end position="123"/>
+</location>
+</feature>
+<feature type="turn" evidence="7">
+<location>
+<begin position="125"/>
+<end position="127"/>
+</location>
+</feature>
+<feature type="turn" evidence="7">
+<location>
+<begin position="129"/>
+<end position="131"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="132"/>
+<end position="145"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="154"/>
+<end position="170"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="177"/>
+<end position="192"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="220"/>
+<end position="234"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="244"/>
+<end position="248"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="261"/>
+<end position="292"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="294"/>
+<end position="308"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="315"/>
+<end position="318"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="322"/>
+<end position="334"/>
+</location>
+</feature>
+<feature type="strand" evidence="7">
+<location>
+<begin position="341"/>
+<end position="344"/>
+</location>
+</feature>
+<feature type="strand" evidence="7">
+<location>
+<begin position="349"/>
+<end position="351"/>
+</location>
+</feature>
+<feature type="strand" evidence="7">
+<location>
+<begin position="354"/>
+<end position="356"/>
+</location>
+</feature>
+<feature type="strand" evidence="7">
+<location>
+<begin position="361"/>
+<end position="364"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="366"/>
+<end position="370"/>
+</location>
+</feature>
+<feature type="turn" evidence="7">
+<location>
+<begin position="373"/>
+<end position="375"/>
+</location>
+</feature>
+<feature type="turn" evidence="7">
+<location>
+<begin position="377"/>
+<end position="380"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="384"/>
+<end position="387"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="389"/>
+<end position="392"/>
+</location>
+</feature>
+<feature type="strand" evidence="7">
+<location>
+<begin position="405"/>
+<end position="409"/>
+</location>
+</feature>
+<feature type="helix" evidence="7">
+<location>
+<begin position="413"/>
+<end position="430"/>
+</location>
+</feature>
+<feature type="strand" evidence="7">
+<location>
+<begin position="431"/>
+<end position="435"/>
+</location>
+</feature>
+<feature type="strand" evidence="7">
+<location>
+<begin position="440"/>
+<end position="453"/>
+</location>
+</feature>
+<feature type="strand" evidence="7">
+<location>
+<begin position="455"/>
+<end position="460"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18234666"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19858213"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<evidence key="5" type="ECO:0007744">
+<source>
+<dbReference type="PDB" id="3DBG"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0007744">
+<source>
+<dbReference type="PDB" id="3EL3"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0007829">
+<source>
+<dbReference type="PDB" id="3DBG"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0007829">
+<source>
+<dbReference type="PDB" id="3EL3"/>
+</source>
+</evidence>
+<sequence length="461" mass="50938" checksum="10282E36A405B57E" modified="2000-10-01" version="1">MTVESVNPETRAPAAPGAPELREPPVAGGGVPLLGHGWRLARDPLAFMSQLRDHGDVVRIKLGPKTVYAVTNPELTGALALNPDYHIAGPLWESLEGLLGKEGVATANGPLHRRQRRTIQPAFRLDAIPAYGPIMEEEAHALTERWQPGKTVDATSESFRVAVRVAARCLLRGQYMDERAERLCVALATVFRGMYRRMVVPLGPLYRLPLPANRRFNDALADLHLLVDEIIAERRASGQKPDDLLTALLEAKDDNGDPIGEQEIHDQVVAILTPGSETIASTIMWLLQALADHPEHADRIRDEVEAVTGGRPVAFEDVRKLRHTGNVIVEAMRLRPAVWVLTRRAVAESELGGYRIPAGADIIYSPYAIQRDPKSYDDNLEFDPDRWLPERAANVPKYAMKPFSAGKRKCPSDHFSMAQLTLITAALATKYRFEQVAGSNDAVRVGITLRPHDLLVRPVAR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

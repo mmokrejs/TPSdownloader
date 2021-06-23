@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:58057</ID>
+<NAME>geranyl diphosphate(3-)</NAME>
+<DEFINITION>Trianion of geranyl diphosphate arising from deprotonation of the three OH groups of the diphosphate; major species at pH 7.3.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>geranyl pyrophosphate</SYNONYM>
+<SYNONYM>geranyl diphosphate</SYNONYM>
+<SYNONYM>(2E)-geranyl diphosphate</SYNONYM>
+<IUPAC_NAME>(2E)-3,7-dimethylocta-2,6-dien-1-yl diphosphate</IUPAC_NAME>
+<FORMULA>C10H17O7P2</FORMULA>
+<MASS>311.18530</MASS>
+<MONOISOTOPIC_MASS>311.04660</MONOISOTOPIC_MASS>
+<CHARGE>-3</CHARGE>
+<SMILES>CC(C)=CCC\C(C)=C\COP([O-])(=O)OP([O-])([O-])=O</SMILES>
+<INCHI>InChI=1S/C10H20O7P2/c1-9(2)5-4-6-10(3)7-8-16-19(14,15)17-18(11,12)13/h5,7H,4,6,8H2,1-3H3,(H,14,15)(H2,11,12,13)/p-3/b10-7+</INCHI>
+<INCHIKEY>GVVPGTZRZFNKDS-JXMROGBWSA-K</INCHIKEY>
+<BEILSTEIN_REGISTRY_NUMBER>4549979</BEILSTEIN_REGISTRY_NUMBER>
+</ENTRY>
+</TABLE>

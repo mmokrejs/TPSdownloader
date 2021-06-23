@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2007-07-10" modified="2021-04-07" version="69">
+<accession>A5YZT7</accession>
+<name>A5YZT7_MAIZE</name>
+<protein>
+<submittedName>
+<fullName evidence="9">Monoterpene synthase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="9">tps26</name>
+</gene>
+<organism evidence="9">
+<name type="scientific">Zea mays</name>
+<name type="common">Maize</name>
+<dbReference type="NCBI Taxonomy" id="4577"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Poales</taxon>
+<taxon>Poaceae</taxon>
+<taxon>PACMAD clade</taxon>
+<taxon>Panicoideae</taxon>
+<taxon>Andropogonodae</taxon>
+<taxon>Andropogoneae</taxon>
+<taxon>Tripsacinae</taxon>
+<taxon>Zea</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="9">
+<citation type="journal article" date="2008" name="Plant Physiol." volume="146" first="940" last="951">
+<title>Characterization of the monoterpene synthase gene tps26, the ortholog of a gene induced by insect herbivory in maize.</title>
+<authorList>
+<person name="Lin C."/>
+<person name="Shen B."/>
+<person name="Xu Z."/>
+<person name="Kollner T.G."/>
+<person name="Degenhardt J."/>
+<person name="Dooner H.K."/>
+</authorList>
+<dbReference type="PubMed" id="18218975"/>
+<dbReference type="DOI" id="10.1104/pp.107.109553"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="pathway" evidence="2">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EMBL" id="EF599331">
+<property type="protein sequence ID" value="ABR09290.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="EF599332">
+<property type="protein sequence ID" value="ABR09291.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="OMA" id="IWGDTFL"/>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="ExpressionAtlas" id="A5YZT7">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0175" evidence="5">Coiled coil</keyword>
+<keyword id="KW-0479" evidence="4">Metal-binding</keyword>
+<feature type="domain" description="Terpene_synth" evidence="7">
+<location>
+<begin position="89"/>
+<end position="264"/>
+</location>
+</feature>
+<feature type="domain" description="Terpene_synth_C" evidence="8">
+<location>
+<begin position="295"/>
+<end position="561"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="6">
+<location>
+<begin position="49"/>
+<end position="83"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="5">
+<location>
+<begin position="108"/>
+<end position="128"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="5">
+<location>
+<begin position="290"/>
+<end position="310"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00001946"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00004721"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00006333"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022723"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF01397"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF03936"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ABR09290.1"/>
+</source>
+</evidence>
+<sequence length="621" mass="70468" checksum="6FD73BC1F73E9E14" modified="2007-07-10" version="1">MAGITGGTYASVLPMNMKLAARPSSGRHSRGCRPAVGPSAGKQMLLVRRHPPGSASWPTRAAAAASSGQAKEEEEDRASRNTSSFEPSIWGDFFLTYSSPLATSSAQKARMVHRAEQLKEQVAKLIAASGACSLYHRIHLVDALERLCLDYLFEDEINDMMTQIHNVDVSGCDLQTVAMWFYLLRNHGYRVSSDVVFAKFRDEQGGFAANNPRDLLNLYNAACLRTHGETILDEAASFTSKCLKSLAPYTYMEASLASEIKRALEIPLPRSVRIYAAKSRIAEYGKQTEANELVLELAKLNYNLVQLQHQEELKIITRWWNDLELQTRLSFARDRVVECYFWMVGVYFEPSYSRARVILSKVLAIVSLLDDTYDVYGTSQECELFTKCIESWDPAATGGRLPGNMKFIFAKILDTCQSFEDELAPDEKYRMHYLKTFIIDLVRAYNEEVKWREQGYVPATVEEHLQVSARSGGCHLLSCTSFVGMGDVADQEAFEWVRGVPKIVKALCIILRLSDDLKSYEREKMSSHVASTMESCMKEHQVPLEVARVKIQETIDETWKDFNEEWLNLNTNNHLSRELLERIFNLTRTMVYIYQQDDAYTNCHVIKDTINSLFVEPVSIT</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

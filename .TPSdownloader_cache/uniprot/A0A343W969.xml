@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2018-11-07" modified="2020-10-07" version="8">
+<accession>A0A343W969</accession>
+<name>A0A343W969_9HEMI</name>
+<protein>
+<submittedName>
+<fullName evidence="4">Terpene synthase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="4">TPS</name>
+</gene>
+<organism evidence="4">
+<name type="scientific">Murgantia histrionica</name>
+<dbReference type="NCBI Taxonomy" id="460024"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Paraneoptera</taxon>
+<taxon>Hemiptera</taxon>
+<taxon>Heteroptera</taxon>
+<taxon>Panheteroptera</taxon>
+<taxon>Pentatomomorpha</taxon>
+<taxon>Pentatomoidea</taxon>
+<taxon>Pentatomidae</taxon>
+<taxon>Pentatominae</taxon>
+<taxon>Murgantia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4">
+<citation type="submission" date="2017-12" db="EMBL/GenBank/DDBJ databases">
+<title>Terpene synthases in stink bugs: De novo formation of an aggregation pheromone precursor in the harlequin bug Murgantia histrionica.</title>
+<authorList>
+<person name="Lancaster J."/>
+<person name="Khrimian A."/>
+<person name="Young S."/>
+<person name="Luck K."/>
+<person name="Lehner B."/>
+<person name="Marek P."/>
+<person name="Wallingford A."/>
+<person name="Ghosh S."/>
+<person name="Zerbe P."/>
+<person name="Sparks M."/>
+<person name="Tittiger C."/>
+<person name="Kollner T."/>
+<person name="Weber D."/>
+<person name="Gundersen-Rindal D.E."/>
+<person name="Kuhar T."/>
+<person name="Tholl D."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the FPP/GGPP synthase family.</text>
+</comment>
+<dbReference type="EMBL" id="MG662378">
+<property type="protein sequence ID" value="AVZ23977.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="A0A343W969"/>
+<dbReference type="GO" id="GO:0016765">
+<property type="term" value="F:transferase activity, transferring alkyl or aryl (other than methyl) groups"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008299">
+<property type="term" value="P:isoprenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR039702">
+<property type="entry name" value="FPS1-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000092">
+<property type="entry name" value="Polyprenyl_synt"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR11525">
+<property type="entry name" value="PTHR11525"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00348">
+<property type="entry name" value="polyprenyl_synt"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0414" evidence="2">Isoprene biosynthesis</keyword>
+<keyword id="KW-0808" evidence="3">Transferase</keyword>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00001946"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00023229"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU004466"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AVZ23977.1"/>
+</source>
+</evidence>
+<sequence length="385" mass="44303" checksum="A7C394E2DAD3C40D" modified="2018-11-07" version="1">MVSIAAKSLPKLSGAVFGQFSRRKQLIQRHWLDTRTDQYYDVLRRIVVPECKNIASDVPEYPERIEKLLYYTNPAFSDAWNFTTELIYRTVADESHQTEENITKMYLIRATMDLLFTMSAVLDDISDRSEFRKGKKGWHMICQGGESTALYDGTQMGLFPLYLLKQYFKNDPGYSRLLETVVMTYIKLTIGQTIDVLGQFKKSPSMAEYKRINYYKAGQFVAAGSELAVIHAGITSQDLIDKTVEIFTIAGQIIQTWDDFNDYYSSSEQNGKLSCDFMNAGTTWVSAKAMEVFTPSQAVKFMECYGSDDQSKMKTVQELYDEIDMPKLYTEYVLENYNRCETLIKELPHDRLREACSSYMEWLVVRETPDEDSEHKVALCLNISG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

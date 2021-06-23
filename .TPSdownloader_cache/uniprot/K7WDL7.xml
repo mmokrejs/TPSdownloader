@@ -1,0 +1,720 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2013-05-29" modified="2021-06-02" version="29">
+<accession>K7WDL7</accession>
+<name>IRIS_CATRO</name>
+<protein>
+<recommendedName>
+<fullName evidence="7">(S)-8-oxocitronellyl enol synthase</fullName>
+<ecNumber evidence="1 2 3 4">1.3.1.122</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="6">Iridoid synthase</fullName>
+<shortName evidence="6">ISY</shortName>
+</alternativeName>
+</protein>
+<organism>
+<name type="scientific">Catharanthus roseus</name>
+<name type="common">Madagascar periwinkle</name>
+<name type="synonym">Vinca rosea</name>
+<dbReference type="NCBI Taxonomy" id="4058"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>asterids</taxon>
+<taxon>lamiids</taxon>
+<taxon>Gentianales</taxon>
+<taxon>Apocynaceae</taxon>
+<taxon>Rauvolfioideae</taxon>
+<taxon>Vinceae</taxon>
+<taxon>Catharanthinae</taxon>
+<taxon>Catharanthus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2012" name="Nature" volume="492" first="138" last="142">
+<title>An alternative route to cyclic terpenes by reductive cyclization in iridoid biosynthesis.</title>
+<authorList>
+<person name="Geu-Flores F."/>
+<person name="Sherden N.H."/>
+<person name="Courdavault V."/>
+<person name="Burlat V."/>
+<person name="Glenn W.S."/>
+<person name="Wu C."/>
+<person name="Nims E."/>
+<person name="Cui Y."/>
+<person name="O'Connor S.E."/>
+</authorList>
+<dbReference type="PubMed" id="23172143"/>
+<dbReference type="DOI" id="10.1038/nature11692"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>SUBUNIT</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2019" name="Nat. Chem. Biol." volume="15" first="71" last="79">
+<title>Uncoupled activation and cyclization in catmint reductive terpenoid biosynthesis.</title>
+<authorList>
+<person name="Lichman B.R."/>
+<person name="Kamileen M.O."/>
+<person name="Titchiner G.R."/>
+<person name="Saalbach G."/>
+<person name="Stevenson C.E.M."/>
+<person name="Lawson D.M."/>
+<person name="O'Connor S.E."/>
+</authorList>
+<dbReference type="PubMed" id="30531909"/>
+<dbReference type="DOI" id="10.1038/s41589-018-0185-2"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2015" name="Angew. Chem. Int. Ed. Engl." volume="54" first="15478" last="15482">
+<title>Structures of iridoid synthase from Cantharanthus roseus with bound NAD(+), NADPH, or NAD(+)/10-oxogeranial: reaction mechanisms.</title>
+<authorList>
+<person name="Hu Y."/>
+<person name="Liu W."/>
+<person name="Malwal S.R."/>
+<person name="Zheng Y."/>
+<person name="Feng X."/>
+<person name="Ko T.P."/>
+<person name="Chen C.C."/>
+<person name="Xu Z."/>
+<person name="Liu M."/>
+<person name="Han X."/>
+<person name="Gao J."/>
+<person name="Oldfield E."/>
+<person name="Guo R.T."/>
+</authorList>
+<dbReference type="PubMed" id="26768532"/>
+<dbReference type="DOI" id="10.1002/anie.201508310"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.95 ANGSTROMS) OF 26-388 IN COMPLEX WITH NADP AND SUBSTRATE</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>ACTIVE SITES</scope>
+<scope>MUTAGENESIS OF LYS-146; PHE-149; TYR-178; PHE-342; ALA-346 AND SER-349</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2016" name="J. Struct. Biol." volume="194" first="224" last="230">
+<title>Structure of iridoid synthase in complex with NADP(+)/8-oxogeranial reveals the structural basis of its substrate specificity.</title>
+<authorList>
+<person name="Qin L."/>
+<person name="Zhu Y."/>
+<person name="Ding Z."/>
+<person name="Zhang X."/>
+<person name="Ye S."/>
+<person name="Zhang R."/>
+</authorList>
+<dbReference type="PubMed" id="26868105"/>
+<dbReference type="DOI" id="10.1016/j.jsb.2016.02.010"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.20 ANGSTROMS) OF 26-388 IN COMPLEX WITH NADP AND SUBSTRATE</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>SUBUNIT</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2016" name="Nat. Chem. Biol." volume="12" first="6" last="8">
+<title>Structural determinants of reductive terpene cyclization in iridoid biosynthesis.</title>
+<authorList>
+<person name="Kries H."/>
+<person name="Caputi L."/>
+<person name="Stevenson C.E.M."/>
+<person name="Kamileen M.O."/>
+<person name="Sherden N.H."/>
+<person name="Geu-Flores F."/>
+<person name="Lawson D.M."/>
+<person name="O'Connor S.E."/>
+</authorList>
+<dbReference type="PubMed" id="26551396"/>
+<dbReference type="DOI" id="10.1038/nchembio.1955"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.40 ANGSTROMS) OF 23-388 IN COMPLEX WITH NADP</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>SUBUNIT</scope>
+</reference>
+<comment type="function">
+<text evidence="1 5">Iridoid synthase that catalyzes the first step in generation of the iridoid ring scaffold using the linear monoterpene (6E)-8-oxogeranial as substrate. Iridoids comprise a large family of distinctive bicyclic monoterpenes that possess a wide range of pharmacological activities, including anticancer, anti-inflammatory, antifungal and antibacterial activities.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1 3 4 5">
+<text>(S)-8-oxocitronellyl enol + NADP(+) = (6E)-8-oxogeranial + H(+) + NADPH</text>
+<dbReference type="Rhea" id="RHEA:62592"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+<dbReference type="ChEBI" id="CHEBI:64239"/>
+<dbReference type="ChEBI" id="CHEBI:144481"/>
+<dbReference type="EC" id="1.3.1.122"/>
+</reaction>
+<physiologicalReaction direction="right-to-left" evidence="1 3 4 5">
+<dbReference type="Rhea" id="RHEA:62594"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1 3 4 5">
+<text>(S)-8-oxocitronellyl enol + NAD(+) = (6E)-8-oxogeranial + H(+) + NADH</text>
+<dbReference type="Rhea" id="RHEA:62596"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+<dbReference type="ChEBI" id="CHEBI:64239"/>
+<dbReference type="ChEBI" id="CHEBI:144481"/>
+<dbReference type="EC" id="1.3.1.122"/>
+</reaction>
+<physiologicalReaction direction="right-to-left" evidence="1 3 4 5">
+<dbReference type="Rhea" id="RHEA:62598"/>
+</physiologicalReaction>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="1">4.5 uM for (6E)-8-oxogeranial</KM>
+<KM evidence="4">10.6 uM for (6E)-8-oxogeranial</KM>
+<KM evidence="1">4.7 uM for NADPH</KM>
+<text>kcat is 1.6 sec(-1) with (6E)-8-oxogeranial. kcat is 2.2 sec(-1) with NADPH.</text>
+</kinetics>
+</comment>
+<comment type="subunit">
+<text evidence="1 2 3 4">Homodimer.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-16184393">
+<id>K7WDL7</id>
+</interactant>
+<interactant intactId="EBI-16184393">
+<id>K7WDL7</id>
+<label>-</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>2</experiments>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+<location evidence="1">Cytosol</location>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="1">Expressed in internal phloem-associated parenchyma (IPAP) cells.</text>
+</comment>
+<comment type="similarity">
+<text evidence="7">Belongs to the short-chain dehydrogenases/reductases (SDR) family. Highly divergent.</text>
+</comment>
+<comment type="caution">
+<text evidence="5 8">Was originally thought to catalyze the entire reaction from (6E)-8-oxogeranial to nepetalactol including a cyclase step (PubMed:23172143). New results have shown that the cyclase is a different enzyme and this enzyme exclusively catalyzes a reduction step (PubMed:30531909).</text>
+</comment>
+<dbReference type="EC" id="1.3.1.122" evidence="1 2 3 4"/>
+<dbReference type="EMBL" id="JX974564">
+<property type="protein sequence ID" value="AFW98981.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="PDB" id="5COA">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.20 A"/>
+<property type="chains" value="A/B=26-388"/>
+</dbReference>
+<dbReference type="PDB" id="5COB">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.65 A"/>
+<property type="chains" value="A/B/C/D=26-388"/>
+</dbReference>
+<dbReference type="PDB" id="5DBF">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.00 A"/>
+<property type="chains" value="A/B=26-388"/>
+</dbReference>
+<dbReference type="PDB" id="5DBG">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.95 A"/>
+<property type="chains" value="A/B=26-388"/>
+</dbReference>
+<dbReference type="PDB" id="5DBI">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.20 A"/>
+<property type="chains" value="A/B=26-388"/>
+</dbReference>
+<dbReference type="PDB" id="5DCU">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.40 A"/>
+<property type="chains" value="A/B=23-388"/>
+</dbReference>
+<dbReference type="PDB" id="5DCW">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.90 A"/>
+<property type="chains" value="A=23-388"/>
+</dbReference>
+<dbReference type="PDB" id="5DCY">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.45 A"/>
+<property type="chains" value="A/B=23-388"/>
+</dbReference>
+<dbReference type="PDB" id="5DF1">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.75 A"/>
+<property type="chains" value="A/B=23-388"/>
+</dbReference>
+<dbReference type="PDB" id="5EMH">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.10 A"/>
+<property type="chains" value="A=21-388"/>
+</dbReference>
+<dbReference type="PDBsum" id="5COA"/>
+<dbReference type="PDBsum" id="5COB"/>
+<dbReference type="PDBsum" id="5DBF"/>
+<dbReference type="PDBsum" id="5DBG"/>
+<dbReference type="PDBsum" id="5DBI"/>
+<dbReference type="PDBsum" id="5DCU"/>
+<dbReference type="PDBsum" id="5DCW"/>
+<dbReference type="PDBsum" id="5DCY"/>
+<dbReference type="PDBsum" id="5DF1"/>
+<dbReference type="PDBsum" id="5EMH"/>
+<dbReference type="SMR" id="K7WDL7"/>
+<dbReference type="DIP" id="DIP-62000N"/>
+<dbReference type="PRIDE" id="K7WDL7"/>
+<dbReference type="KEGG" id="ag:AFW98981"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-20521"/>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042802">
+<property type="term" value="F:identical protein binding"/>
+<property type="evidence" value="ECO:0000353"/>
+<property type="project" value="IntAct"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016628">
+<property type="term" value="F:oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042803">
+<property type="term" value="F:protein homodimerization activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016099">
+<property type="term" value="P:monoterpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036291">
+<property type="entry name" value="NAD(P)-bd_dom_sf"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51735">
+<property type="entry name" value="SSF51735"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0520">NAD</keyword>
+<keyword id="KW-0521">NADP</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<feature type="chain" description="(S)-8-oxocitronellyl enol synthase" id="PRO_0000422594">
+<location>
+<begin position="1"/>
+<end position="388"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="NADP" evidence="2 3 4 9 10 12">
+<location>
+<begin position="38"/>
+<end position="40"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="NADP" evidence="2 3 4 9 10 12">
+<location>
+<begin position="66"/>
+<end position="67"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="NADP" evidence="2 3 4 9 10 12">
+<location>
+<begin position="84"/>
+<end position="85"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="NADP" evidence="2 3 4 9 10 12">
+<location>
+<begin position="108"/>
+<end position="109"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="NADP" evidence="2 3 4 9 10 12">
+<location>
+<begin position="211"/>
+<end position="213"/>
+</location>
+</feature>
+<feature type="active site" evidence="3">
+<location>
+<position position="146"/>
+</location>
+</feature>
+<feature type="active site" evidence="3">
+<location>
+<position position="178"/>
+</location>
+</feature>
+<feature type="binding site" description="NADP" evidence="2 3 4 9 10 12">
+<location>
+<position position="142"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="3 11">
+<location>
+<position position="146"/>
+</location>
+</feature>
+<feature type="binding site" description="NADP" evidence="2 3 4 9 10 12">
+<location>
+<position position="178"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="3 4 9 11">
+<location>
+<position position="178"/>
+</location>
+</feature>
+<feature type="binding site" description="NADP; via amide nitrogen" evidence="2 3 4 9 10 12">
+<location>
+<position position="204"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="3 4 9">
+<location>
+<position position="349"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Reduces enzymatic activity 6-fold." evidence="3">
+<original>K</original>
+<variation>A</variation>
+<location>
+<position position="146"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Slightly reduces enzymatic activity." evidence="3">
+<original>F</original>
+<variation>M</variation>
+<location>
+<position position="149"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolishes enzymatic activity." evidence="3">
+<original>Y</original>
+<variation>A</variation>
+<variation>F</variation>
+<location>
+<position position="178"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolishes enzymatic activity." evidence="3">
+<original>F</original>
+<variation>A</variation>
+<location>
+<position position="342"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No effect on enzymatic activity." evidence="3">
+<original>A</original>
+<variation>I</variation>
+<location>
+<position position="346"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No effect on enzymatic activity." evidence="3">
+<original>S</original>
+<variation>F</variation>
+<location>
+<position position="349"/>
+</location>
+</feature>
+<feature type="strand" evidence="15">
+<location>
+<begin position="29"/>
+<end position="36"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="42"/>
+<end position="48"/>
+</location>
+</feature>
+<feature type="strand" evidence="14">
+<location>
+<begin position="51"/>
+<end position="54"/>
+</location>
+</feature>
+<feature type="strand" evidence="15">
+<location>
+<begin position="58"/>
+<end position="67"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="71"/>
+<end position="74"/>
+</location>
+</feature>
+<feature type="strand" evidence="15">
+<location>
+<begin position="79"/>
+<end position="82"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="88"/>
+<end position="95"/>
+</location>
+</feature>
+<feature type="strand" evidence="15">
+<location>
+<begin position="103"/>
+<end position="106"/>
+</location>
+</feature>
+<feature type="strand" evidence="13">
+<location>
+<begin position="111"/>
+<end position="113"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="115"/>
+<end position="129"/>
+</location>
+</feature>
+<feature type="turn" evidence="15">
+<location>
+<begin position="130"/>
+<end position="132"/>
+</location>
+</feature>
+<feature type="strand" evidence="15">
+<location>
+<begin position="138"/>
+<end position="142"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="146"/>
+<end position="149"/>
+</location>
+</feature>
+<feature type="turn" evidence="16">
+<location>
+<begin position="153"/>
+<end position="156"/>
+</location>
+</feature>
+<feature type="strand" evidence="15">
+<location>
+<begin position="163"/>
+<end position="165"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="177"/>
+<end position="191"/>
+</location>
+</feature>
+<feature type="strand" evidence="15">
+<location>
+<begin position="195"/>
+<end position="201"/>
+</location>
+</feature>
+<feature type="strand" evidence="15">
+<location>
+<begin position="203"/>
+<end position="205"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="215"/>
+<end position="228"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="239"/>
+<end position="243"/>
+</location>
+</feature>
+<feature type="strand" evidence="17">
+<location>
+<begin position="248"/>
+<end position="250"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="251"/>
+<end position="263"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="265"/>
+<end position="267"/>
+</location>
+</feature>
+<feature type="strand" evidence="15">
+<location>
+<begin position="270"/>
+<end position="274"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="282"/>
+<end position="293"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="309"/>
+<end position="313"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="317"/>
+<end position="327"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="334"/>
+<end position="337"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="340"/>
+<end position="346"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="357"/>
+<end position="361"/>
+</location>
+</feature>
+<feature type="helix" evidence="15">
+<location>
+<begin position="370"/>
+<end position="383"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="23172143"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="26551396"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="26768532"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="26868105"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="30531909"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="30531909"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000305"/>
+<evidence key="8" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="23172143"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0007744">
+<source>
+<dbReference type="PDB" id="5COB"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0007744">
+<source>
+<dbReference type="PDB" id="5DBF"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0007744">
+<source>
+<dbReference type="PDB" id="5DBI"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0007744">
+<source>
+<dbReference type="PDB" id="5DF1"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0007829">
+<source>
+<dbReference type="PDB" id="5COA"/>
+</source>
+</evidence>
+<evidence key="14" type="ECO:0007829">
+<source>
+<dbReference type="PDB" id="5COB"/>
+</source>
+</evidence>
+<evidence key="15" type="ECO:0007829">
+<source>
+<dbReference type="PDB" id="5DCU"/>
+</source>
+</evidence>
+<evidence key="16" type="ECO:0007829">
+<source>
+<dbReference type="PDB" id="5DCY"/>
+</source>
+</evidence>
+<evidence key="17" type="ECO:0007829">
+<source>
+<dbReference type="PDB" id="5DF1"/>
+</source>
+</evidence>
+<sequence length="388" mass="43850" checksum="906C11AD93A04E76" modified="2013-02-06" version="1">MSWWWKRSIGAGKNLPNQNKENGVCKSYKSVALVVGVTGIVGSSLAEVLKLPDTPGGPWKVYGVARRPCPVWLAKKPVEYIQCDVSDNQETISKLSPLKDITHIFYVSWIGSEDCQTNATMFKNILNSVIPNASNLQHVCLQTGIKHYFGIFEEGSKVVPHDSPFTEDLPRLNVPNFYHDLEDILYEETGKNNLTWSVHRPALVFGFSPCSMMNIVSTLCVYATICKHENKALVYPGSKNSWNCYADAVDADLVAEHEIWAAVDPKAKNQVLNCNNGDVFKWKHIWKKLAEEFGIEMVGYVEGKEQVSLAELMKDKDQVWDEIVKKNNLVPTKLKEIAAFWFADIAFCSENLISSMNKSKELGFLGFRNSMKSFVSCIDKMRDYRFIP</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

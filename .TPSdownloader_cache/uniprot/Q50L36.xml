@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2010-10-05" modified="2020-12-02" version="51">
+<accession>Q50L36</accession>
+<name>ISPS_POPAL</name>
+<protein>
+<recommendedName>
+<fullName>Isoprene synthase, chloroplastic</fullName>
+<shortName>PaIspS</shortName>
+<ecNumber>4.2.3.27</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">ISPS</name>
+</gene>
+<organism>
+<name type="scientific">Populus alba</name>
+<name type="common">White poplar</name>
+<dbReference type="NCBI Taxonomy" id="43335"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>fabids</taxon>
+<taxon>Malpighiales</taxon>
+<taxon>Salicaceae</taxon>
+<taxon>Saliceae</taxon>
+<taxon>Populus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2005" name="FEBS Lett." volume="579" first="2514" last="2518">
+<title>Gene expression and characterization of isoprene synthase from Populus alba.</title>
+<authorList>
+<person name="Sasaki K."/>
+<person name="Ohara K."/>
+<person name="Yazaki K."/>
+</authorList>
+<dbReference type="PubMed" id="15848197"/>
+<dbReference type="DOI" id="10.1016/j.febslet.2005.03.066"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>INDUCTION BY LIGHT AND HEAT</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>COFACTOR</scope>
+</reference>
+<comment type="function">
+<text>Lyase that catalyzes the formation of isoprene from dimethylallyl diphosphate, but not from isopentenyl diphosphate or geranyl diphosphate.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>dimethylallyl diphosphate = diphosphate + isoprene</text>
+<dbReference type="Rhea" id="RHEA:13369"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:35194"/>
+<dbReference type="ChEBI" id="CHEBI:57623"/>
+<dbReference type="EC" id="4.2.3.27"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="3">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="3">Magnesium. Can also use other divalent metal cations, except copper and calcium.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="3">8.7 mM for dimethylallyl diphosphate</KM>
+</kinetics>
+<phDependence>
+<text evidence="3">Optimum pH is 8.0. Active from pH 6.5 to 9.5.</text>
+</phDependence>
+<temperatureDependence>
+<text evidence="3">Optimum temperature is 40 degrees Celsius.</text>
+</temperatureDependence>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Plastid</location>
+<location evidence="3">Chloroplast</location>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="3">Predominantly expressed in leaves.</text>
+</comment>
+<comment type="induction">
+<text evidence="3">Up-regulated by heat stress and continuous light. Down-regulated by continuous dark and cold stress. Not induced by pathogens or treatment with methyl jasmonate or methyl salicylate.</text>
+</comment>
+<comment type="domain">
+<text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family. Tpsb subfamily.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.27"/>
+<dbReference type="EMBL" id="AB198180">
+<property type="protein sequence ID" value="BAD98243.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="Q50L36"/>
+<dbReference type="KEGG" id="ag:BAD98243"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-14888"/>
+<dbReference type="BRENDA" id="4.2.3.27">
+<property type="organism ID" value="4969"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009507">
+<property type="term" value="C:chloroplast"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0034009">
+<property type="term" value="F:isoprene synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071485">
+<property type="term" value="P:cellular response to absence of light"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071482">
+<property type="term" value="P:cellular response to light stimulus"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050993">
+<property type="term" value="P:dimethylallyl diphosphate metabolic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043612">
+<property type="term" value="P:isoprene biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009409">
+<property type="term" value="P:response to cold"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009408">
+<property type="term" value="P:response to heat"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0150">Chloroplast</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0934">Plastid</keyword>
+<keyword id="KW-0809">Transit peptide</keyword>
+<feature type="transit peptide" description="Chloroplast" evidence="2">
+<location>
+<begin position="1"/>
+<end position="37"/>
+</location>
+</feature>
+<feature type="chain" description="Isoprene synthase, chloroplastic" id="PRO_0000398179">
+<location>
+<begin position="38"/>
+<end position="595"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif">
+<location>
+<begin position="345"/>
+<end position="349"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="345"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="345"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 1" evidence="1">
+<location>
+<position position="349"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 2" evidence="1">
+<location>
+<position position="349"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="1">
+<location>
+<position position="489"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="1">
+<location>
+<position position="493"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium or manganese 3" evidence="1">
+<location>
+<position position="497"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15848197"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="595" mass="68371" checksum="B19375046A2C176C" modified="2005-06-07" version="1" precursor="true">MATELLCLHRPISLTHKLFRNPLPKVIQATPLTLKLRCSVSTENVSFTETETEARRSANYEPNSWDYDYLLSSDTDESIEVYKDKAKKLEAEVRREINNEKAEFLTLLELIDNVQRLGLGYRFESDIRGALDRFVSSGGFDAVTKTSLHGTALSFRLLRQHGFEVSQEAFSGFKDQNGNFLENLKEDIKAILSLYEASFLALEGENILDEAKVFAISHLKELSEEKIGKELAEQVNHALELPLHRRTQRLEAVWSIEAYRKKEDANQVLLELAILDYNMIQSVYQRDLRETSRWWRRVGLATKLHFARDRLIESFYWAVGVAFEPQYSDCRNSVAKMFSFVTIIDDIYDVYGTLDELELFTDAVERWDVNAINDLPDYMKLCFLALYNTINEIAYDNLKDKGENILPYLTKAWADLCNAFLQEAKWLYNKSTPTFDDYFGNAWKSSSGPLQLVFAYFAVVQNIKKEEIENLQKYHDTISRPSHIFRLCNDLASASAEIARGETANSVSCYMRTKGISEELATESVMNLIDETWKKMNKEKLGGSLFAKPFVETAINLARQSHCTYHNGDAHTSPDELTRKRVLSVITEPILPFER</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

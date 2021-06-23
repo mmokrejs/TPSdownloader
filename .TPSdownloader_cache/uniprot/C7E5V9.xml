@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2010-11-30" modified="2021-06-02" version="35">
+<accession>C7E5V9</accession>
+<name>FARS_ZEADI</name>
+<protein>
+<recommendedName>
+<fullName>(E)-beta-farnesene synthase</fullName>
+<ecNumber>4.2.3.47</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Terpene synthase 10</fullName>
+</alternativeName>
+</protein>
+<organism>
+<name type="scientific">Zea diploperennis</name>
+<name type="common">Diploperennial teosinte</name>
+<dbReference type="NCBI Taxonomy" id="4576"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Poales</taxon>
+<taxon>Poaceae</taxon>
+<taxon>PACMAD clade</taxon>
+<taxon>Panicoideae</taxon>
+<taxon>Andropogonodae</taxon>
+<taxon>Andropogoneae</taxon>
+<taxon>Tripsacinae</taxon>
+<taxon>Zea</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2009" name="Phytochemistry" volume="70" first="1139" last="1145">
+<title>Molecular and biochemical evolution of maize terpene synthase 10, an enzyme of indirect defense.</title>
+<authorList>
+<person name="Koellner T.G."/>
+<person name="Gershenzon J."/>
+<person name="Degenhardt J."/>
+</authorList>
+<dbReference type="PubMed" id="19646721"/>
+<dbReference type="DOI" id="10.1016/j.phytochem.2009.06.011"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>MUTAGENESIS OF PHE-356</scope>
+</reference>
+<comment type="function">
+<text evidence="3">Sesquiterpene cyclase catalyzing the production of sixfold more beta-farnesene than alpha-bergamotene from farnesyl diphosphate. Involved in indirect defense by producing volatile signals attracting natural enemies of herbivores.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>(2E,6E)-farnesyl diphosphate = (E)-beta-farnesene + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:27425"/>
+<dbReference type="ChEBI" id="CHEBI:10418"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:175763"/>
+<dbReference type="EC" id="4.2.3.47"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<cofactor evidence="1">
+<name>Co(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:48828"/>
+</cofactor>
+<cofactor evidence="1">
+<name>Mn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29035"/>
+</cofactor>
+</comment>
+<comment type="pathway">
+<text>Secondary metabolite biosynthesis; terpenoid biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="4">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="domain">
+<text>The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the catalytic activity, presumably through binding to Mg(2+).</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the terpene synthase family.</text>
+</comment>
+<dbReference type="EC" id="4.2.3.47"/>
+<dbReference type="EMBL" id="GQ253106">
+<property type="protein sequence ID" value="ACT37405.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="SMR" id="C7E5V9"/>
+<dbReference type="BRENDA" id="4.2.3.47">
+<property type="organism ID" value="6750"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00213"/>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010333">
+<property type="term" value="F:terpene synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006952">
+<property type="term" value="P:defense response"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016114">
+<property type="term" value="P:terpenoid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.600.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.50.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008949">
+<property type="entry name" value="Isoprenoid_synthase_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034741">
+<property type="entry name" value="Terpene_cyclase-like_1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001906">
+<property type="entry name" value="Terpene_synth_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036965">
+<property type="entry name" value="Terpene_synth_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005630">
+<property type="entry name" value="Terpene_synthase_metal-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008930">
+<property type="entry name" value="Terpenoid_cyclase/PrenylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01397">
+<property type="entry name" value="Terpene_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03936">
+<property type="entry name" value="Terpene_synth_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01019">
+<property type="entry name" value="Terpene_Cyclase_Like_1_C_Termi"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48239">
+<property type="entry name" value="SSF48239"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48576">
+<property type="entry name" value="SSF48576"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0464">Manganese</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0611">Plant defense</keyword>
+<feature type="chain" description="(E)-beta-farnesene synthase" id="PRO_0000402132">
+<location>
+<begin position="1"/>
+<end position="533"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DDXXD motif">
+<location>
+<begin position="286"/>
+<end position="290"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="2">
+<location>
+<position position="286"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="2">
+<location>
+<position position="286"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1" evidence="2">
+<location>
+<position position="290"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2" evidence="2">
+<location>
+<position position="290"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="2">
+<location>
+<position position="430"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="2">
+<location>
+<position position="434"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 3" evidence="2">
+<location>
+<position position="438"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Decreased production of beta-farnesene and increased production of alpha-bergamotene." evidence="3">
+<original>F</original>
+<variation>L</variation>
+<location>
+<position position="356"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q40577"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19646721"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="533" mass="61532" checksum="9B7CD1BFDC850BF4" modified="2009-09-22" version="1">MDATAFHPSLWGDFFVKYKPPTAPKRGHMTQRAELLKEEVRKTLKAAANQIKNALDLIITLQRLGLDHHYENEISELLRFVYSSSDYDDKDLYVVSLRFYLLRKHGHCVSSDVFTSFKDEEGNFVVDDTKCLLSLYNAAYLRTHGEKVLDEAITFTRRQLEALLLDSLEPALADEVHLTLQTPLFRRLRILEAVNYIPIYGKEAGRNEAILELAKLNFNLAQLIYCEELKEITLWWKQLNVETNLSFIRDRIVECHFWMTGACCEPQYSLSRVIATKMTALITVLDDMMDTYSTTEEAMLLAEAIYRWEESAAELLPGYMKDFYLYLLKTIDSCGDELGPNRSFRTFYLKEMLKVFVRGSSQEIKWRNENYVPKTISEHLEHSGPTVGAFQVACSSFVGMGDNITKESFEWLLTYPELVKSLMNIARLLNDTASTKREQNAGHHVSTVQCYMLKHGTTMDEACDKIKELTEDSWKDMMELYLTPTEHPKLIAQTIVDFARTADYMYKETDGFTFSHTIKDMIAKLFVDPISLF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

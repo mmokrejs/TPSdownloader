@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:58819</ID>
+<NAME>(R,R)-chrysanthemyl diphosphate(3-)</NAME>
+<DEFINITION>Trianion of (R,R)-chrysanthemyl diphosphate.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>({[(1R,3R)-2,2-dimethyl-3-(2-methylprop-1-en-1-yl)cyclopropyl]methyl phosphonato}oxy)phosphonate</SYNONYM>
+<SYNONYM>(R,R)-chrysanthemyl diphosphate</SYNONYM>
+<IUPAC_NAME>[(1R,3R)-2,2-dimethyl-3-(2-methylprop-1-en-1-yl)cyclopropyl]methyl diphosphate</IUPAC_NAME>
+<FORMULA>C10H17O7P2</FORMULA>
+<MASS>311.18530</MASS>
+<MONOISOTOPIC_MASS>311.04660</MONOISOTOPIC_MASS>
+<CHARGE>-3</CHARGE>
+<SMILES>CC(C)=C[C@@H]1[C@@H](COP([O-])(=O)OP([O-])([O-])=O)C1(C)C</SMILES>
+<INCHI>InChI=1S/C10H20O7P2/c1-7(2)5-8-9(10(8,3)4)6-16-19(14,15)17-18(11,12)13/h5,8-9H,6H2,1-4H3,(H,14,15)(H2,11,12,13)/p-3/t8-,9-/m1/s1</INCHI>
+<INCHIKEY>AORLUAKWVIEOLL-RKDXNWHRSA-K</INCHIKEY>
+</ENTRY>
+</TABLE>

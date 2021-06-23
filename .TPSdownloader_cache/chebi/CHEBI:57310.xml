@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:57310</ID>
+<NAME>presqualene diphosphate(3-)</NAME>
+<DEFINITION>A triply-charged organophosphate oxoanion obtained by deprotonation of the phosphate OH groups of presqualene diphosphate.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>presqualene diphosphate</SYNONYM>
+<IUPAC_NAME>{(1R,2R,3R)-2-[(3E)-4,8-dimethylnona-3,7-dien-1-yl]-2-methyl-3-[(2E,6E)-2,6,10-trimethylundeca-1,5,9-trien-1-yl]cyclopropan-1-yl}methyl diphosphate</IUPAC_NAME>
+<FORMULA>C30H49O7P2</FORMULA>
+<MASS>583.65340</MASS>
+<MONOISOTOPIC_MASS>583.29700</MONOISOTOPIC_MASS>
+<CHARGE>-3</CHARGE>
+<SMILES>CC(C)=CCC\C(C)=C\CC\C(C)=C\[C@H]1[C@H](COP([O-])(=O)OP([O-])([O-])=O)[C@@]1(C)CC\C=C(/C)CCC=C(C)C</SMILES>
+<INCHI>InChI=1S/C30H52O7P2/c1-23(2)13-9-15-25(5)17-11-18-27(7)21-28-29(22-36-39(34,35)37-38(31,32)33)30(28,8)20-12-19-26(6)16-10-14-24(3)4/h13-14,17,19,21,28-29H,9-12,15-16,18,20,22H2,1-8H3,(H,34,35)(H2,31,32,33)/p-3/b25-17+,26-19+,27-21+/t28-,29-,30-/m0/s1</INCHI>
+<INCHIKEY>ATZKAUGGNMSCCY-VYCBRMPGSA-K</INCHIKEY>
+</ENTRY>
+</TABLE>

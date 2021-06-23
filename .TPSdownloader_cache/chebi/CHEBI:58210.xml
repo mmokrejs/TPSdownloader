@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<TABLE>
+<ENTRY>
+<ID>CHEBI:58210</ID>
+<NAME>FMN(3-)</NAME>
+<DEFINITION>The trianion arising from deprotonation of the diphosphate hydroxy groups and the imide nitrogen of flavin mononucleotide (FMN). Major species at pH 7.3.</DEFINITION>
+<STAR>3</STAR>
+<SYNONYM>riboflavin 5'-phosphate(3-)</SYNONYM>
+<SYNONYM>riboflavin 5'-phosphate trianion</SYNONYM>
+<SYNONYM>riboflavin 5'-monophosphate(3-)</SYNONYM>
+<SYNONYM>riboflavin 5'-monophosphate trianion</SYNONYM>
+<SYNONYM>FMN trianion</SYNONYM>
+<SYNONYM>FMN</SYNONYM>
+<SYNONYM>flavin mononucleotide(3-)</SYNONYM>
+<SYNONYM>flavin mononucleotide trianion</SYNONYM>
+<SYNONYM>7,8-dimethyl-2,4-dioxo-10-[(2S,3S,4R)-2,3,4-trihydroxy-5-(phosphonatooxy)pentyl]-2H,3H,4H,10H-benzo[g]pteridin-3-ide</SYNONYM>
+<IUPAC_NAME>1-deoxy-1-(7,8-dimethyl-2,4-dioxo-2H-benzo[g]pteridin-3-id-10(4H)-yl)-5-O-phosphonato-D-ribitol</IUPAC_NAME>
+<FORMULA>C17H18N4O9P</FORMULA>
+<MASS>453.325</MASS>
+<MONOISOTOPIC_MASS>453.08279</MONOISOTOPIC_MASS>
+<CHARGE>-3</CHARGE>
+<SMILES>C12=NC([N-]C(C1=NC=3C(N2C[C@@H]([C@@H]([C@@H](COP(=O)([O-])[O-])O)O)O)=CC(=C(C3)C)C)=O)=O</SMILES>
+<INCHI>InChI=1S/C17H21N4O9P/c1-7-3-9-10(4-8(7)2)21(15-13(18-9)16(25)20-17(26)19-15)5-11(22)14(24)12(23)6-30-31(27,28)29/h3-4,11-12,14,22-24H,5-6H2,1-2H3,(H3,20,25,26,27,28,29)/p-3/t11-,12+,14-/m0/s1</INCHI>
+<INCHIKEY>ANKZYBDXHMZBDK-SCRDCRAPSA-K</INCHIKEY>
+</ENTRY>
+</TABLE>
