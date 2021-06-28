@@ -16,7 +16,7 @@ import copy
 from itertools import chain
 import gzip
 
-version = "20210623"
+version = "20210627"
 myparser = OptionParser(version="%s version %s" % ('%prog', version))
 myparser.add_option("--uniprot-ids-from-file", action="store", type="string", dest="uniprot_ids_from_file", default='',
     help="Obtain a list of Uniprot IDs from column 'Uniprot ID' in 'Sheet1'.")
@@ -42,7 +42,7 @@ extra_substrate_colnames = ['Substrate (including stereochemistry)', 'Substrate 
 extra_cofactor_colnames = ['Cofactors', 'Cofactors compound description', 'Chemical formula of cofactor', 'SMILES of cofactor (including stereochemistry)']
 # extra_intermediate_colnames = ['Name of intermediate', 'Intermediate compound description', 'Chemical formula of intermediate', 'SMILES of intermediate (including stereochemistry)']
 
-substrates = set(['CHEBI:17211', 'CHEBI:14299', 'CHEBI:5332', 'CHEBI:42877', 'CHEBI:24223', 'CHEBI:58635', 'CHEBI:30939', 'CHEBI:10760', 'CHEBI:29558', 'CHEBI:57907', 'CHEBI:58756', 'CHEBI:58057', 'CHEBI:162247', 'CHEBI:60374', 'CHEBI:138307', 'CHEBI:61984', 'CHEBI:64801', 'CHEBI:15441', 'CHEBI:18728', 'CHEBI:11026', 'CHEBI:11072', 'CHEBI:372', 'CHEBI:58206', 'CHEBI:138223', 'CHEBI:58553', 'CHEBI:57533', 'CHEBI:7525', 'CHEBI:138305', 'CHEBI:15440', 'CHEBI:10843', 'CHEBI:9245', 'CHEBI:10795', 'CHEBI:15104', 'CHEBI:26746', 'CHEBI:175763', 'CHEBI:17407', 'CHEBI:12874', 'CHEBI:11491', 'CHEBI:42496', 'CHEBI:10700', 'CHEBI:11488', 'CHEBI:12854', 'CHEBI:19789', 'CHEBI:138890', 'CHEBI:138232'])
+substrates = set(['CHEBI:17211', 'CHEBI:14299', 'CHEBI:5332', 'CHEBI:42877', 'CHEBI:24223', 'CHEBI:58635', 'CHEBI:30939', 'CHEBI:10760', 'CHEBI:29558', 'CHEBI:57907', 'CHEBI:58756', 'CHEBI:58057', 'CHEBI:162247', 'CHEBI:60374', 'CHEBI:138307', 'CHEBI:61984', 'CHEBI:64801', 'CHEBI:15441', 'CHEBI:18728', 'CHEBI:11026', 'CHEBI:11072', 'CHEBI:372', 'CHEBI:58206', 'CHEBI:138223', 'CHEBI:138807', 'CHEBI:58553', 'CHEBI:57533', 'CHEBI:7525', 'CHEBI:138305', 'CHEBI:15440', 'CHEBI:10843', 'CHEBI:9245', 'CHEBI:10795', 'CHEBI:15104', 'CHEBI:26746', 'CHEBI:175763', 'CHEBI:17407', 'CHEBI:12874', 'CHEBI:11491', 'CHEBI:42496', 'CHEBI:10700', 'CHEBI:11488', 'CHEBI:12854', 'CHEBI:19789', 'CHEBI:138890', 'CHEBI:138232'])
 # CHEBI:17211 CHEBI:14299, CHEBI:5332, CHEBI:42877, CHEBI:24223 GPP
 # CHEBI:58635 nebo CHEBI:30939 CHEBI:10760, CHEBI:29558 (+)-copalyl diphosphate, actually an intermediate of H8ZM70
 # CHEBI:57907 (2E,6E,10E,14E)-GFPP
@@ -56,6 +56,7 @@ substrates = set(['CHEBI:17211', 'CHEBI:14299', 'CHEBI:5332', 'CHEBI:42877', 'CH
 # CHEBI:15441 CHEBI:18728, CHEBI:11026, CHEBI:11072, CHEBI:372 (S)-2,3-epoxysqualene
 # CHEBI:58206 all-trans-heptaprenyl PP
 # CHEBI:138223 ent-copal-8-ol diphosphate(3−)
+# CHEBI:138807 ent-copal-8-ol diphosphate
 # CHEBI:58553 ent-copalyl diphosphate
 # CHEBI:57533 GGPP aka geranylgeranyl diphosphate(3−)
 # CHEBI:7525 NPP
@@ -95,11 +96,12 @@ cofactors = set(['CHEBI:18420', 'CHEBI:15377', 'CHEBI:29035'])
 # CHEBI:58553 ent-copalyl diphosphate
 # CHEBI:64283 copal-8-ol diphosphate(3−) aka 8-hydroxycopalyl diphosphate
 # CHEBI:58635 CHEBI:30939 CHEBI:10760, CHEBI:29558 (+)-copalyl diphosphate, see e.g. H8ZM70
+# CHEBI:138305 (21S)-21,22-epoxypolypoda-8(26)-13,17-trien-3β-ol aka pre-alpha-onocerin
 
 # blacklist of IDs of reaction substrates or non-cyclic terpenes, etc., but *also* including β-farnesene CHEBI:10418
 # these IDs are not downloaded into the cache, unless they already were downloaded before addition to this list
 # IDs appearing in this list also do not get output into the output list of terpenes
-non_terpene_and_acyclic_terpene_chebi_ids = set(['CHEBI:35194', 'CHEBI:33019', 'CHEBI:128769', 'CHEBI:10418', 'CHEBI:10280', 'CHEBI:58756', 'CHEBI:15441', 'CHEBI:57665', 'CHEBI:15440', 'CHEBI:138223', 'CHEBI:57907', 'CHEBI:61984', 'CHEBI:58206', 'CHEBI:15347', 'CHEBI:162247', 'CHEBI:17221', 'CHEBI:60374', 'CHEBI:61746', 'CHEBI:98', 'CHEBI:46702', 'CHEBI:16240', 'CHEBI:35757', 'CHEBI:3407', 'CHEBI:13657', 'CHEBI:25382', 'CHEBI:43474', 'CHEBI:43470', 'CHEBI:29139', 'CHEBI:28938', 'CHEBI:83628', 'CHEBI:24646', 'CHEBI:134188', 'CHEBI:22534', 'CHEBI:49783', 'CHEBI:7435', 'CHEBI:139521', 'CHEBI:15379', 'CHEBI:44742', 'CHEBI:7860', 'CHEBI:10745', 'CHEBI:13416', 'CHEBI:23833', 'CHEBI:25366', 'CHEBI:29097', 'CHEBI:30491', 'CHEBI:139520', 'CHEBI:132124', 'CHEBI:57540', 'CHEBI:58340', 'CHEBI:128753', 'CHEBI:33384', 'CHEBI:17268', 'CHEBI:57288', 'CHEBI:33738', 'CHEBI:33737', 'CHEBI:58720', 'CHEBI:57783', 'CHEBI:57287', 'CHEBI:15378', 'CHEBI:57623', 'CHEBI:57945', 'CHEBI:58349', 'CHEBI:29452', 'CHEBI:17447', 'CHEBI:61746', 'CHEBI:10359', 'CHEBI:48058', 'CHEBI:35194']) - substrates - cofactors
+non_terpene_and_acyclic_terpene_chebi_ids = set(['CHEBI:35194', 'CHEBI:33019', 'CHEBI:128769', 'CHEBI:10418', 'CHEBI:10280', 'CHEBI:58756', 'CHEBI:15441', 'CHEBI:57665', 'CHEBI:15440', 'CHEBI:57907', 'CHEBI:61984', 'CHEBI:58206', 'CHEBI:15347', 'CHEBI:162247', 'CHEBI:17221', 'CHEBI:60374', 'CHEBI:98', 'CHEBI:46702', 'CHEBI:16240', 'CHEBI:35757', 'CHEBI:3407', 'CHEBI:13657', 'CHEBI:25382', 'CHEBI:43474', 'CHEBI:43470', 'CHEBI:29139', 'CHEBI:28938', 'CHEBI:83628', 'CHEBI:24646', 'CHEBI:134188', 'CHEBI:22534', 'CHEBI:49783', 'CHEBI:7435', 'CHEBI:139521', 'CHEBI:15379', 'CHEBI:44742', 'CHEBI:7860', 'CHEBI:10745', 'CHEBI:13416', 'CHEBI:23833', 'CHEBI:25366', 'CHEBI:29097', 'CHEBI:30491', 'CHEBI:139520', 'CHEBI:132124', 'CHEBI:57540', 'CHEBI:58340', 'CHEBI:128753', 'CHEBI:33384', 'CHEBI:17268', 'CHEBI:57288', 'CHEBI:33738', 'CHEBI:33737', 'CHEBI:58720', 'CHEBI:57783', 'CHEBI:57287', 'CHEBI:15378', 'CHEBI:57623', 'CHEBI:57945', 'CHEBI:58349', 'CHEBI:29452', 'CHEBI:17447', 'CHEBI:48058', 'CHEBI:35194']) - substrates - cofactors
 # CHEBI:35194 - isoprene
 # CHEBI:33019 - diphosphate(3−)
 # CHEBI:57623 - prenyl diphosphate(3-)
@@ -401,7 +403,7 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
             print("Debug: event=%s, elem=%s" % (str(event), str(elem)))
             print("Level 0: ", event, elem.tag, ' ', elem.attrib, ' ', elem.text)
         if elem.tag == '{http://uniprot.org/uniprot}entry':
-            if event == 'end' and _primary_accession and _primary_accession not in already_parsed:
+            if event == 'start' and _primary_accession and _primary_accession not in already_parsed:
                 if myoptions.debug > 1: print("Debug: %s: Reached items: %s in %s,returning results parsed so far for %s" % (_primary_accession, filename, str(elem.items()), str(_primary_accession)))
                 # process previously parsed data buffers
                 process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry)
@@ -474,7 +476,7 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
             else:
                 if myoptions.debug: print("Info: Yielding the very last entry %s from file %s" % (str(_primary_accession), str(filename)))
 
-            if True or myoptions.debug:
+            if myoptions.debug:
                 for _var, _varname in zip([_primary_accession, _secondary_accessions, _uniprot_name, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _sequence, _organism, _lineage], ['_primary_accession', '_secondary_accessions', '_uniprot_name', '_recommended_name', '_alternative_names', '_submitted_name', '_feature_descriptions', '_chebi_ids_per_entry', '_rhea_ids_per_entry', '_ec_numbers_per_entry', '_reactions_per_entry', '_sequence', '_organism', '_lineage']):
                     print("Info: %s: %s=%s" % (_primary_accession, _varname, _var))
 
@@ -590,7 +592,8 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                                     _lineage += [sschild.text]
                     if event == 'end' and subchild.tag == '{http://uniprot.org/uniprot}reaction':
                         # when hitting a second '<comment type="catalytic activity">' entry or end of file or a new Uniprot entry item, process the previously collected data
-                        print("Debug: %s: Pushing out the buffer contents after reaching end of reaction tag event=%s, child=%s, subchild=%s" % (_primary_accession, event, str(child), str(subchild)))
+                        if myoptions.debug:
+                            print("Debug: %s: Pushing out the buffer contents after reaching end of reaction tag event=%s, child=%s, subchild=%s" % (_primary_accession, event, str(child), str(subchild)))
                         process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry)
     
                         # make sure to empty the buffer for another reaction tag branch
@@ -800,7 +803,7 @@ def print_df(df):
         print(f'content: {content}', sep='\n')
 
 
-def write_csv_and_xls(df):
+def write_csv_and_xls(df, suffix=''):
     """Write CSV output, per one Uniprot ID A0A2K9RFZ2 output even
     multiple lines if there are multiple reactions catalyzed
 
@@ -809,9 +812,9 @@ def write_csv_and_xls(df):
     """
     
     _datetime = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
-    df.to_csv("TPSdownloader_" + _datetime + ".csv", index=False)
-    df.to_excel("TPSdownloader_" + _datetime + ".xls", sheet_name="Sheet1", index=False)
-    print("Info: Wrote TPSdownloader_" + _datetime + ".csv and TPSdownloader_" + _datetime + ".xls files.")
+    df.to_csv("TPSdownloader_" + suffix + _datetime + ".csv", index=False)
+    # df.to_excel("TPSdownloader_" + _datetime + ".xls", sheet_name="Sheet1", index=False)
+    print("Info: Wrote TPSdownloader_" + suffix + _datetime + ".csv file.")
 
 
 def sanitize_input_text_values(i):
@@ -912,6 +915,11 @@ def translator(extra_colnames, nestedlists, column_pairs, uniprot_dict_of_lists,
 
 
 def append_substrates_cofactors_products(uniprot_dict_of_lists, chebi_dict_of_lists, _substrate_ids, _cofactor_ids, _product_ids):
+    """Put the ChEBI-derived data into variables dedicated to substrate, product or cofactor.
+    The variables contain same datatypes but to get the final table we triplicate the output
+    table columns. The ChEBI IDs were already written by upstream code.
+    """
+
     if not _product_ids:
         for _colname in extra_product_colnames:
             uniprot_dict_of_lists[_colname].append('')
@@ -939,9 +947,11 @@ def get_cyclic_terpene_synthases(primary_accession, reactions, ec_numbers, rhea_
 
     # now iterate over all reactions and process (reactions, ec_numbers, rhea_ids, chebi_ids) simultaneously
     for _reaction, _ec_number, _rhea_id, _chebi_id in zip(reactions, ec_numbers, rhea_ids, chebi_ids):
-        print("Debug: get_cyclic_terpene_synthases(): %s: unzipped values from (reactions=%s, ec_numbers=%s, rhea_ids=%s, chebi_ids=%s)" % (primary_accession, str(_reaction), str(_ec_number), str(_rhea_id), str(_chebi_id)))
+        if myoptions.debug:
+            print("Debug: get_cyclic_terpene_synthases(): %s: unzipped values from (reactions=%s, ec_numbers=%s, rhea_ids=%s, chebi_ids=%s)" % (primary_accession, str(_reaction), str(_ec_number), str(_rhea_id), str(_chebi_id)))
         split_chebi_data_into_substrates_and_products_wrapper(primary_accession, chebi_dict_of_lists, _chebi_id, _substrate_ids, _cofactor_ids, _product_ids)
-    print("Debug: get_cyclic_terpene_synthases(): %s: resulting in _substrate_ids=%s, _cofactor_ids=%s, _product_ids=%s" % (primary_accession, str(_substrate_ids), str(_cofactor_ids), str(_product_ids)))
+    if myoptions.debug:
+        print("Debug: get_cyclic_terpene_synthases(): %s: resulting in _substrate_ids=%s, _cofactor_ids=%s, _product_ids=%s" % (primary_accession, str(_substrate_ids), str(_cofactor_ids), str(_product_ids)))
     return _substrate_ids, _cofactor_ids, _product_ids
 
 
@@ -983,7 +993,7 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
         uniprot_dict_of_lists['Reactions'].append(reactions) # uniprot_dict_of_lists[Reactions][-1]=['(2E,6E)-farnesyl diphosphate = (1S,8aR)-delta-cadinene + diphosphate']
 
         # When we parse a non-terpene-cyclase reaction we end up with a single reaction annotated but none of the ChEBI IDs gets assigned to a product
-        # In such scenarios dowstream len() checks fail because len(uniprot_dict_of_lists['Product ChEBI IDs'][uniprot_id]) == 0 whereas len(uniprot_dict_of_lists['Reactions'][uniprot_id]) != 0
+        # In such scenarios downstream len() checks fail because len(uniprot_dict_of_lists['Product ChEBI IDs'][uniprot_id]) == 0 whereas len(uniprot_dict_of_lists['Reactions'][uniprot_id]) != 0
         # for example Q50L36
         uniprot_dict_of_lists['Substrate ChEBI IDs'].append(_substrate_ids) # uniprot_dict_of_lists[Substrate ChEBI IDs][-1]=[['CHEBI:175763']]
         uniprot_dict_of_lists['Cofactors ChEBI IDs'].append(_cofactor_ids) # uniprot_dict_of_lists[Cofactors ChEBI IDs][-1]=[[]]
@@ -1208,6 +1218,10 @@ def main():
     _all_uniprot_ids = set()
     _all_chebi_ids = set()
 
+    _all_product_chebi_ids = set()
+    _all_ec_numbers = set()
+    _all_rhea_ids = set()
+
     if myoptions.uniprot_ids_from_file and not os.path.exists(myoptions.uniprot_ids_from_file):
         raise ValueError("File %s does not exist." % str(myoptions.uniprot_ids_from_file))
 
@@ -1240,6 +1254,12 @@ def main():
     elif myoptions.uniprot_ids_from_file and os.path.exists(myoptions.uniprot_ids_from_file):
         # get list of accessions, fetch their single-entry XML files unless already in local cache and parse them
         _ids = fetch_ids_from_xlsx(myoptions.uniprot_ids_from_file, _known_terpenes, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _uniprot_dict_of_lists, _already_parsed, _all_uniprot_ids, _all_chebi_ids)
+    elif myoptions.uniprot_idfile:
+        if os.path.exists(myoptions.uniprot_idfile):
+            _ids = []
+            with open(myoptions.uniprot_idfile) as _tsv_file:
+                for _line in _tsv_file:
+                    _ids.append(_line[:-1])
     else:
         _ids = []
         raise ValueError("No Uniprot IDs provided to act upon, nothing to do. Either specify input ids via --uniprot-id-file or provide an input XLSX file via --uniprot-ids-from-file with a column 'Uniprot ID' in 'Sheet1'")
@@ -1277,6 +1297,14 @@ def main():
         _reactions = _uniprot_dict_of_lists['Reactions'][_uniprot_row_pos]
         _product_ids = _uniprot_dict_of_lists['Product ChEBI IDs'][_uniprot_row_pos]
 
+        for _myval in _uniprot_dict_of_lists['Rhea IDs'][_uniprot_row_pos]:
+            _all_rhea_ids.update(_myval)
+        for _myval in _uniprot_dict_of_lists['EC numbers'][_uniprot_row_pos]:
+            _all_ec_numbers.update(_myval)
+        for _myval in _uniprot_dict_of_lists['Product ChEBI IDs'][_uniprot_row_pos]:
+            _all_product_chebi_ids.update(_myval)
+
+
         # for each CHEBI item in _nested_chebi_ids, output a dedicated line in the output
         if len(_output_dict_of_lists['ChEBI ID']) != len(_output_dict_of_lists['Uniprot ID']):
             print_dict_lengths(_uniprot_dict_of_lists, '_uniprot_dict_of_lists')
@@ -1284,9 +1312,10 @@ def main():
             print_dict_lengths(_output_dict_of_lists, '_output_dict_of_lists')
             raise ValueError("Error: %s: Sizes do not match,\n_output_dict_of_lists: %s\n" % (_uniprot_id, str(_output_dict_of_lists)))
 
-        if _reactions and _reactions[0]: # BUG: this asks for a trouble. It may happen no reaction is annotated but ChEBI and Rhea ID are defined, we want to copy them over
-            print("_reactions=%s" % str(_reactions))
-            print("_product_ids=%s" % str(_product_ids))
+        if _reactions and _reactions[0]: # BUG: this asks for a trouble. It may happen no reaction is annotated but ChEBI and Rhea ID are defined, we want to copy them over too
+            if myoptions.debug:
+                print("Debug: _reactions=%s" % str(_reactions))
+                print("Debug: _product_ids=%s" % str(_product_ids))
             if len(_reactions) != len(_product_ids):
                 raise ValueError("Error: %s: Sizes do not match: len(_reactions)=%s, len(_product_ids)=%s, _reactions=%s, _product_ids=%s" % (_uniprot_id, len(_reactions), len(_product_ids), str(_reactions), str(_product_ids)))
             for _i, _reaction in enumerate(_reactions):
@@ -1306,7 +1335,7 @@ def main():
                     # <dbReference type="ChEBI" id="CHEBI:175763"/>
                     # <dbReference type="EC" id="2.5.1.29"/>
                     # </reaction>
-                    print("Debug: %s: No cyclic terpene ChEBI ID found for a product of reaction=%s" % (_uniprot_id, str(_reaction)))
+                    print("Info: %s: No cyclic terpene ChEBI ID found for a product of reaction=%s" % (_uniprot_id, str(_reaction)))
                     _product_chebi_id = None 
                 for _column in _uniprot_dict_of_lists.keys():
                     _val = _uniprot_dict_of_lists[_column][_uniprot_row_pos]
@@ -1349,10 +1378,40 @@ def main():
     print_dict_lengths(_chebi_dict_of_lists, '_chebi_dict_of_lists')
     print_dict_lengths(_output_dict_of_lists, '_output_dict_of_lists')
 
+    print("Info: _all_chebi_ids=%s" % str(_all_chebi_ids))
+
+    print("Info: %d entries in _all_product_chebi_ids=%s" % (len(_all_product_chebi_ids), str(_all_product_chebi_ids)))
+    print("Info: %d entries in _all_ec_numbers=%s" % (len(_all_ec_numbers), str(_all_ec_numbers)))
+    print("Info: %d entries in _all_rhea_ids=%s" % (len(_all_rhea_ids), str(_all_rhea_ids)))
+
     # move dictionary of lists into Pandas dataframe at once
-    df = pd.DataFrame(_output_dict_of_lists)
-    if myoptions.debug: print_df(df)
-    write_csv_and_xls(df)
+    _df = pd.DataFrame(_output_dict_of_lists)
+    _df_all_product_chebi_ids = pd.DataFrame(_all_product_chebi_ids)
+    _df_all_ec_numbers = pd.DataFrame(_all_ec_numbers)
+    _df_all_rhea_ids = pd.DataFrame(_all_rhea_ids)
+
+    if myoptions.debug:
+        print_df(_df)
+        print_df(_df_all_product_chebi_ids)
+        print_df(_df_all_ec_numbers)
+        print_df(_df_all_rhea_ids)
+
+    _datetime = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+
+    writer = pd.ExcelWriter("TPSdownloader_" + _datetime + ".xlsx", engine='xlsxwriter')
+    frames = {'Sheet1': _df, 'All Product ChEBI IDs': _df_all_product_chebi_ids, 'All EC numbers': _df_all_ec_numbers, 'All Rhead IDs': _df_all_rhea_ids}
+    #now loop thru and put each on a specific sheet
+    for sheet, frame in frames.items(): # .use .items for python 3.X
+        frame.to_excel(writer, sheet_name = sheet, index = False)
+    #critical last step
+    writer.save()
+    print("Info: Wrote TPSdownloader_" + _datetime + ".xlsx file.")
+
+    write_csv_and_xls(_df)
+    write_csv_and_xls(_df_all_product_chebi_ids, suffix="product_ChEBI_IDs_")
+    write_csv_and_xls(_df_all_ec_numbers, suffix="EC_numbers_")
+    write_csv_and_xls(_df_all_rhea_ids, suffix="Rhea_IDs_")
+
     #if myoptions.outfmt == "csv":
     #    df.to_csv("TPSdownloader.csv", index=False, sep='\t')
     #elif myoptions.outfmt == "xls":
