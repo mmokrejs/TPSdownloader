@@ -803,7 +803,7 @@ def print_df(df):
         print(f'content: {content}', sep='\n')
 
 
-def write_csv_and_xls(df, suffix=''):
+def write_csv_and_xls(df, suffix='', datetime=None):
     """Write CSV output, per one Uniprot ID A0A2K9RFZ2 output even
     multiple lines if there are multiple reactions catalyzed
 
@@ -811,7 +811,8 @@ def write_csv_and_xls(df, suffix=''):
     https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:58622
     """
     
-    _datetime = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+    if not datetime:
+        _datetime = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     df.to_csv("TPSdownloader_" + suffix + _datetime + ".csv", index=False)
     # df.to_excel("TPSdownloader_" + _datetime + ".xls", sheet_name="Sheet1", index=False)
     print("Info: Wrote TPSdownloader_" + suffix + _datetime + ".csv file.")
@@ -1407,10 +1408,10 @@ def main():
     writer.save()
     print("Info: Wrote TPSdownloader_" + _datetime + ".xlsx file.")
 
-    write_csv_and_xls(_df)
-    write_csv_and_xls(_df_all_product_chebi_ids, suffix="product_ChEBI_IDs_")
-    write_csv_and_xls(_df_all_ec_numbers, suffix="EC_numbers_")
-    write_csv_and_xls(_df_all_rhea_ids, suffix="Rhea_IDs_")
+    write_csv_and_xls(_df, datetime=_datetime)
+    write_csv_and_xls(_df_all_product_chebi_ids, suffix="product_ChEBI_IDs_", datetime=_datetime)
+    write_csv_and_xls(_df_all_ec_numbers, suffix="EC_numbers_", datetime=_datetime)
+    write_csv_and_xls(_df_all_rhea_ids, suffix="Rhea_IDs_", datetime=_datetime)
 
     #if myoptions.outfmt == "csv":
     #    df.to_csv("TPSdownloader.csv", index=False, sep='\t')
