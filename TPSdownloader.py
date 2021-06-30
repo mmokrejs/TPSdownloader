@@ -39,7 +39,6 @@ myparser.add_option("--debug", action="store", type="int", dest="debug", default
 
 extra_product_colnames = ['Name of product', 'Product compound description', 'Chemical formula of product', 'SMILES of product (including stereochemistry)']
 extra_substrate_colnames = ['Substrate (including stereochemistry)', 'Substrate compound description', 'Chemical formula of substrate', 'SMILES of substrate (including stereochemistry)']
-extra_cofactor_colnames = ['Cofactors', 'Cofactors compound description', 'Chemical formula of cofactor', 'SMILES of cofactor (including stereochemistry)']
 # extra_intermediate_colnames = ['Name of intermediate', 'Intermediate compound description', 'Chemical formula of intermediate', 'SMILES of intermediate (including stereochemistry)']
 
 substrates = set(['CHEBI:17211', 'CHEBI:14299', 'CHEBI:5332', 'CHEBI:42877', 'CHEBI:24223', 'CHEBI:58635', 'CHEBI:30939', 'CHEBI:10760', 'CHEBI:29558', 'CHEBI:57907', 'CHEBI:58756', 'CHEBI:58057', 'CHEBI:162247', 'CHEBI:60374', 'CHEBI:138307', 'CHEBI:61984', 'CHEBI:64801', 'CHEBI:15441', 'CHEBI:18728', 'CHEBI:11026', 'CHEBI:11072', 'CHEBI:372', 'CHEBI:58206', 'CHEBI:138223', 'CHEBI:138807', 'CHEBI:58553', 'CHEBI:57533', 'CHEBI:7525', 'CHEBI:138305', 'CHEBI:15440', 'CHEBI:10843', 'CHEBI:9245', 'CHEBI:10795', 'CHEBI:15104', 'CHEBI:26746', 'CHEBI:175763', 'CHEBI:17407', 'CHEBI:12874', 'CHEBI:11491', 'CHEBI:42496', 'CHEBI:10700', 'CHEBI:11488', 'CHEBI:12854', 'CHEBI:19789', 'CHEBI:138890', 'CHEBI:138232'])
@@ -83,10 +82,22 @@ substrates = set(['CHEBI:17211', 'CHEBI:14299', 'CHEBI:5332', 'CHEBI:42877', 'CH
 #   </cofactor>
 #   <text evidence="4">Binds 3 Mg(2+) or Mn(2+) ions per subunit.</text>
 # </comment>
-cofactors = set(['CHEBI:18420', 'CHEBI:15377', 'CHEBI:29035'])
+possible_cofactors = set(['CHEBI:18420', 'CHEBI:15377', 'CHEBI:29035', 'CHEBI:48828'])
 # CHEBI:18420 Mg2+
 # CHEBI:29035 Mn2+
+# CHEBI:48828 Co2+
 # CHEBI:15377 H2O
+# CHEBI:30413 heme
+# CHEBI:60344 heme b
+# CHEBI:29103 K+
+# CHEBI:29034 Fe(3+)
+# CHEBI:49786 Ni(2+)
+# CHEBI:29108 Ca(2+)
+# CHEBI:58210 FMN
+# CHEBI:57783 NADPH
+# CHEBI:24875 Fe cation
+# CHEBI:60240 a divalent metal cation
+# CHEBI:49883 [4Fe-4S] cluster
 
 # disabling intermediates altogether, they should be treated as products
 # intermediates = ['CHEBI:63190', 'CHEBI:58622', 'CHEBI:49263', 'CHEBI:58553', 'CHEBI:64283', 'CHEBI:58635', 'CHEBI:30939', 'CHEBI:10760', 'CHEBI:29558']
@@ -101,7 +112,7 @@ cofactors = set(['CHEBI:18420', 'CHEBI:15377', 'CHEBI:29035'])
 # blacklist of IDs of reaction substrates or non-cyclic terpenes, etc., but *also* including β-farnesene CHEBI:10418
 # these IDs are not downloaded into the cache, unless they already were downloaded before addition to this list
 # IDs appearing in this list also do not get output into the output list of terpenes
-non_terpene_and_acyclic_terpene_chebi_ids = set(['CHEBI:35194', 'CHEBI:33019', 'CHEBI:128769', 'CHEBI:10418', 'CHEBI:10280', 'CHEBI:58756', 'CHEBI:15441', 'CHEBI:57665', 'CHEBI:15440', 'CHEBI:57907', 'CHEBI:61984', 'CHEBI:58206', 'CHEBI:15347', 'CHEBI:162247', 'CHEBI:17221', 'CHEBI:60374', 'CHEBI:98', 'CHEBI:46702', 'CHEBI:16240', 'CHEBI:35757', 'CHEBI:3407', 'CHEBI:13657', 'CHEBI:25382', 'CHEBI:43474', 'CHEBI:43470', 'CHEBI:29139', 'CHEBI:28938', 'CHEBI:83628', 'CHEBI:24646', 'CHEBI:134188', 'CHEBI:22534', 'CHEBI:49783', 'CHEBI:7435', 'CHEBI:139521', 'CHEBI:15379', 'CHEBI:44742', 'CHEBI:7860', 'CHEBI:10745', 'CHEBI:13416', 'CHEBI:23833', 'CHEBI:25366', 'CHEBI:29097', 'CHEBI:30491', 'CHEBI:139520', 'CHEBI:132124', 'CHEBI:57540', 'CHEBI:58340', 'CHEBI:128753', 'CHEBI:33384', 'CHEBI:17268', 'CHEBI:57288', 'CHEBI:33738', 'CHEBI:33737', 'CHEBI:58720', 'CHEBI:57783', 'CHEBI:57287', 'CHEBI:15378', 'CHEBI:57623', 'CHEBI:57945', 'CHEBI:58349', 'CHEBI:29452', 'CHEBI:17447', 'CHEBI:48058', 'CHEBI:35194']) - substrates - cofactors
+non_terpene_and_acyclic_terpene_chebi_ids = set(['CHEBI:35194', 'CHEBI:33019', 'CHEBI:128769', 'CHEBI:10418', 'CHEBI:10280', 'CHEBI:58756', 'CHEBI:15441', 'CHEBI:57665', 'CHEBI:15440', 'CHEBI:57907', 'CHEBI:61984', 'CHEBI:58206', 'CHEBI:15347', 'CHEBI:162247', 'CHEBI:17221', 'CHEBI:60374', 'CHEBI:98', 'CHEBI:46702', 'CHEBI:16240', 'CHEBI:35757', 'CHEBI:3407', 'CHEBI:13657', 'CHEBI:25382', 'CHEBI:43474', 'CHEBI:43470', 'CHEBI:29139', 'CHEBI:28938', 'CHEBI:83628', 'CHEBI:24646', 'CHEBI:134188', 'CHEBI:22534', 'CHEBI:49783', 'CHEBI:7435', 'CHEBI:139521', 'CHEBI:15379', 'CHEBI:44742', 'CHEBI:7860', 'CHEBI:10745', 'CHEBI:13416', 'CHEBI:23833', 'CHEBI:25366', 'CHEBI:29097', 'CHEBI:30491', 'CHEBI:139520', 'CHEBI:132124', 'CHEBI:57540', 'CHEBI:58340', 'CHEBI:128753', 'CHEBI:33384', 'CHEBI:17268', 'CHEBI:57288', 'CHEBI:33738', 'CHEBI:33737', 'CHEBI:58720', 'CHEBI:57783', 'CHEBI:57287', 'CHEBI:15378', 'CHEBI:57623', 'CHEBI:57945', 'CHEBI:58349', 'CHEBI:29452', 'CHEBI:17447', 'CHEBI:48058', 'CHEBI:35194']) - substrates - possible_cofactors
 # CHEBI:35194 - isoprene
 # CHEBI:33019 - diphosphate(3−)
 # CHEBI:57623 - prenyl diphosphate(3-)
@@ -280,7 +291,7 @@ def parse_chebi_xml(filename):
     return(_chebi_id, list(_names), _definition, _formula, _smiles)
 
 
-def check_parsed_list_lengths(_primary_accession, _chebi_ids, _rhea_ids, _ec_numbers, _reactions):
+def check_parsed_list_lengths(_primary_accession, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _cofactor_ids, _cofactors):
     """The Uniprot annotation is inconsistent. Some entries have annotated reactions,
     have assigned ChEBI IDs to each reactant, have RHEA IDs assigned and there is
     one EC number per reaction annotated.
@@ -294,11 +305,11 @@ def check_parsed_list_lengths(_primary_accession, _chebi_ids, _rhea_ids, _ec_num
     ongoing.
     """
 
-    _min = min([len(x) for x in [_chebi_ids, _rhea_ids, _ec_numbers, _reactions]])
-    _max = max([len(x) for x in [_chebi_ids, _rhea_ids, _ec_numbers, _reactions]])
-    _listnames = ['_chebi_ids', '_rhea_ids', '_ec_numbers', '_reactions']
+    _min = min([len(x) for x in [_chebi_ids, _rhea_ids, _ec_numbers, _reactions, _cofactor_ids, _cofactors]])
+    _max = max([len(x) for x in [_chebi_ids, _rhea_ids, _ec_numbers, _reactions, _cofactor_ids, _cofactors]])
+    _listnames = ['_chebi_ids', '_rhea_ids', '_ec_numbers', '_reactions', '_cofactor_ids', '_cofactors']
     if _min != _max:
-        for _list, _listname in zip([_chebi_ids, _rhea_ids, _ec_numbers, _reactions], _listnames):
+        for _list, _listname in zip([_chebi_ids, _rhea_ids, _ec_numbers, _reactions, _cofactor_ids, _cofactors], _listnames):
             if len(_list) < _max:
                 sys.stderr.write("Error: %s: Names are %s, their lengths are %s\n" % (str(_primary_accession), str(_listnames), str([len(x) for x in [_chebi_ids, _rhea_ids, _ec_numbers, _reactions]])))
                 if _listname == '_chebi_ids':
@@ -312,7 +323,7 @@ def check_parsed_list_lengths(_primary_accession, _chebi_ids, _rhea_ids, _ec_num
         raise
 
 
-def process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry):
+def process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _cofactor_ids_local, _cofactors_local, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry):
     # when hitting a second '<comment type="catalytic activity">' entry or end of file or a new Uniprot entry item, process the previously collected data
     if myoptions.debug:
         print("Debug: process_delayed_buffers(): %s: Received _chebi_ids_local=%s, _rhea_ids_local=%s, _ec_numbers_local=%s, _reactions_local=%s" % (str(_primary_accession), str(_chebi_ids_local), str(_rhea_ids_local), str(_ec_numbers_local), str(_reactions_local)))
@@ -334,14 +345,25 @@ def process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_loca
             _reactions_per_entry.append(copy.deepcopy(_reactions_local))
         else:
             _reactions_per_entry.append([])
+        if _cofactor_ids_local:
+            _cofactor_ids_per_entry.append(copy.deepcopy(_cofactor_ids_local))
+        else:
+            _cofactor_ids_per_entry.append([])
+        if _cofactors_local:
+            _cofactors_per_entry.append(copy.deepcopy(_cofactors_local))
+        else:
+            _cofactors_per_entry.append([])
+
         if myoptions.debug:
-            print("Debug: process_delayed_buffers(): %s: Re-wrapped data into lists to keep their lengths same: _chebi_ids_per_entry=%s, _rhea_ids_per_entry=%s, _ec_numbers_per_entry=%s, _reactions_per_entry=%s" % (str(_primary_accession), str(_chebi_ids_per_entry), str(_rhea_ids_per_entry), str(_ec_numbers_per_entry), str(_reactions_per_entry)))
+            print("Debug: process_delayed_buffers(): %s: Re-wrapped data into lists to keep their lengths same: _chebi_ids_per_entry=%s, _rhea_ids_per_entry=%s, _ec_numbers_per_entry=%s, _reactions_per_entry=%s, _cofactor_ids_per_entry=%s, _cofactors_per_entry=%s" % (str(_primary_accession), str(_chebi_ids_per_entry), str(_rhea_ids_per_entry), str(_ec_numbers_per_entry), str(_reactions_per_entry), str(_cofactor_ids_per_entry), str(_cofactors_per_entry)))
         _chebi_ids_local = []
         _rhea_ids_local = []
         _ec_numbers_local = []
         _reactions_local = []
+        _cofactor_ids_local = []
+        _cofactors_local = []
     if myoptions.debug:
-        print("Debug: process_delayed_buffers(): %s: Leaving with _chebi_ids_per_entry=%s, _rhea_ids_per_entry=%s, _ec_numbers_per_entry=%s, _reactions_per_entry=%s" % (str(_primary_accession), str(_chebi_ids_per_entry), str(_rhea_ids_per_entry), str(_ec_numbers_per_entry), str(_reactions_per_entry)))
+        print("Debug: process_delayed_buffers(): %s: Leaving with _chebi_ids_per_entry=%s, _rhea_ids_per_entry=%s, _ec_numbers_per_entry=%s, _reactions_per_entry=%s, _cofactor_ids_per_entry=%s, _cofactors_per_entry=%s" % (str(_primary_accession), str(_chebi_ids_per_entry), str(_rhea_ids_per_entry), str(_ec_numbers_per_entry), str(_reactions_per_entry), str(_cofactor_ids_per_entry), str(_cofactors_per_entry)))
 
 
 def parse_uniprot_xml(filename, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc, already_parsed):
@@ -396,6 +418,8 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
     _rhea_ids_local = []
     _ec_numbers_local = []
     _reactions_local = []
+    _cofactor_ids_local = []
+    _cofactors_local = []
 
 #    for elem in root:
     for event, elem in etree:
@@ -404,13 +428,12 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
             print("Level 0: ", event, elem.tag, ' ', elem.attrib, ' ', elem.text)
         if elem.tag == '{http://uniprot.org/uniprot}entry':
             if event == 'start' and _primary_accession and _primary_accession not in already_parsed:
-                if myoptions.debug > 1: print("Debug: %s: Reached items: %s in %s,returning results parsed so far for %s" % (_primary_accession, filename, str(elem.items()), str(_primary_accession)))
+                if myoptions.debug > 1: print("Debug: %s: Reached start tag of a new entry section: %s in %s, returning results parsed so far for %s" % (_primary_accession, filename, str(elem.items()), str(_primary_accession)))
                 # process previously parsed data buffers
-                process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry)
-
+                process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _cofactor_ids_local, _cofactors_local, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry)
                 if True or myoptions.debug:
                     print("Info: %s: Yielding a single entry from file %s" % (_primary_accession, str(filename)))
-                    for _var, _varname in zip([_primary_accession, _secondary_accessions, _uniprot_name, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _sequence, _organism, _lineage], ['_primary_accession', '_secondary_accessions', '_uniprot_name', '_recommended_name', '_alternative_names', '_submitted_name', '_feature_descriptions', '_chebi_ids_per_entry', '_rhea_ids_per_entry', '_ec_numbers_per_entry', '_reactions_per_entry', '_sequence', '_organism', '_lineage']):
+                    for _var, _varname in zip([_primary_accession, _secondary_accessions, _uniprot_name, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry, _sequence, _organism, _lineage], ['_primary_accession', '_secondary_accessions', '_uniprot_name', '_recommended_name', '_alternative_names', '_submitted_name', '_feature_descriptions', '_chebi_ids_per_entry', '_rhea_ids_per_entry', '_ec_numbers_per_entry', '_reactions_per_entry', '_cofactor_ids_per_entry', '_cofactors_per_entry', '_sequence', '_organism', '_lineage']):
                         print("Info: %s: %s=%s" % (_primary_accession, _varname, _var))
 
                 if not _recommended_name and not _alternative_names and not _submitted_name:
@@ -424,18 +447,23 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                     #       </submittedName>
 
                     raise ValueError("No protein descriptions were parsed for _primary_accession=%s, _secondary_accessions=%s from %s" % (str(_primary_accession), str(_secondary_accessions), filename))
-                check_parsed_list_lengths(_primary_accession, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry)
-                yield(_primary_accession, _secondary_accessions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence)
+                check_parsed_list_lengths(_primary_accession, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry)
+                yield(_primary_accession, _secondary_accessions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence)
                 # clear the values after pushing them out as results
                 _chebi_ids_local = []
                 _rhea_ids_local = []
                 _ec_numbers_local = []
                 _reactions_local = []
+                _cofactor_ids_local = []
+                _cofactors_local = []
 
                 _chebi_ids_per_entry = []
                 _rhea_ids_per_entry = []
                 _ec_numbers_per_entry = []
                 _reactions_per_entry = []
+                _cofactor_ids_per_entry = []
+                _cofactors_per_entry = []
+
 
             _primary_accession = None
             _secondary_accessions = []
@@ -449,18 +477,22 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
             _rhea_ids_local = []
             _ec_numbers_local = []
             _reactions_local = []
+            _cofactor_ids_local = []
+            _cofactors_local = []
 
             _chebi_ids_per_entry = []
             _rhea_ids_per_entry = []
             _ec_numbers_per_entry = []
             _reactions_per_entry = []
+            _cofactor_ids_per_entry = []
+            _cofactors_per_entry = []
 
             _sequence = None
             _organism = None
             _lineage = []
         elif event == 'end' and elem.tag == '{http://uniprot.org/uniprot}copyright' and _primary_accession and _primary_accession and _primary_accession not in already_parsed:
             # process previously parsed data buffers
-            process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry)
+            process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _cofactor_ids_local, _cofactors_local, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry)
 
             if myoptions.debug > 1: print("Debug: %s: Reached items %s in %s, returning results parsed so far" % (_primary_accession, str(elem.items()), filename))
             if not _recommended_name and not _alternative_names and not _submitted_name:
@@ -477,22 +509,26 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                 if myoptions.debug: print("Info: Yielding the very last entry %s from file %s" % (str(_primary_accession), str(filename)))
 
             if myoptions.debug:
-                for _var, _varname in zip([_primary_accession, _secondary_accessions, _uniprot_name, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _sequence, _organism, _lineage], ['_primary_accession', '_secondary_accessions', '_uniprot_name', '_recommended_name', '_alternative_names', '_submitted_name', '_feature_descriptions', '_chebi_ids_per_entry', '_rhea_ids_per_entry', '_ec_numbers_per_entry', '_reactions_per_entry', '_sequence', '_organism', '_lineage']):
+                for _var, _varname in zip([_primary_accession, _secondary_accessions, _uniprot_name, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry, _sequence, _organism, _lineage], ['_primary_accession', '_secondary_accessions', '_uniprot_name', '_recommended_name', '_alternative_names', '_submitted_name', '_feature_descriptions', '_chebi_ids_per_entry', '_rhea_ids_per_entry', '_ec_numbers_per_entry', '_reactions_per_entry', '_cofactor_ids_per_entry', '_cofactors_per_entry', '_sequence', '_organism', '_lineage']):
                     print("Info: %s: %s=%s" % (_primary_accession, _varname, _var))
 
-            check_parsed_list_lengths(_primary_accession, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry)
-            yield(_primary_accession, _secondary_accessions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence)
+            check_parsed_list_lengths(_primary_accession, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry)
+            yield(_primary_accession, _secondary_accessions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence)
 
             # clear the values after pushing them out as results
             _chebi_ids_local = []
             _rhea_ids_local = []
             _ec_numbers_local = []
             _reactions_local = []
+            _cofactor_ids_local = []
+            _cofactors_local = []
 
             _chebi_ids_per_entry = []
             _rhea_ids_per_entry = []
             _ec_numbers_per_entry = []
             _reactions_per_entry = []
+            _cofactor_ids_per_entry = []
+            _cofactors_per_entry = []
 
         for child in elem:
             if myoptions.debug > 1: print("Child items: ", str(child.items()))
@@ -576,6 +612,13 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                             else:
                                 raise ValueError("Unexpected tag in Uniprot XML stream sschild.tag=%s" % str(sschild.tag))
                                 # when leaving "</reaction>" check if we lengths of lists are same if not, fill the missing ones
+                        elif event == 'end' and child.tag == '{http://uniprot.org/uniprot}comment' and 'type' in child.attrib.keys() and child.attrib['type'] == 'cofactor' and subchild.tag == '{http://uniprot.org/uniprot}cofactor':
+                            # A3KI17
+                            if event == 'end' and sschild.tag == '{http://uniprot.org/uniprot}dbReference':
+                                if sschild.attrib['type'] == 'ChEBI':
+                                    _cofactor_ids_local.append(sschild.attrib['id'])
+                            if event == 'end' and sschild.tag == '{http://uniprot.org/uniprot}name':
+                                _cofactors_local.append(sschild.text)
 
                     # Level 1:  {http://uniprot.org/uniprot}comment   {'type': 'catalytic activity'}   
                     # Level 2:  {http://uniprot.org/uniprot}reaction   {'evidence': '3'}
@@ -590,19 +633,21 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                             if subchild.tag == '{http://uniprot.org/uniprot}lineage':
                                 if sschild.tag == '{http://uniprot.org/uniprot}taxon':
                                     _lineage += [sschild.text]
-                    if event == 'end' and subchild.tag == '{http://uniprot.org/uniprot}reaction':
-                        # when hitting a second '<comment type="catalytic activity">' entry or end of file or a new Uniprot entry item, process the previously collected data
-                        if myoptions.debug:
-                            print("Debug: %s: Pushing out the buffer contents after reaching end of reaction tag event=%s, child=%s, subchild=%s" % (_primary_accession, event, str(child), str(subchild)))
-                        process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry)
-    
-                        # make sure to empty the buffer for another reaction tag branch
-                        _chebi_ids_local = []
-                        _rhea_ids_local = []
-                        _ec_numbers_local = []
-                        _reactions_local = []
 
-
+#                    if event == 'end' and subchild.tag == '{http://uniprot.org/uniprot}reaction':
+#                        # this pushes te caches too early before the cofactor annotation is parsed
+#                        # when hitting a second '<comment type="catalytic activity">' entry or end of file or a new Uniprot entry item, process the previously collected data
+#                        if myoptions.debug:
+#                            print("Debug: %s: Pushing out the buffer contents after reaching end of reaction tag event=%s, child=%s, subchild=%s" % (_primary_accession, event, str(child), str(subchild)))
+#                        process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _cofactor_ids_local, _cofactors_local, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry)
+#    
+#                        # make sure to empty the buffer for another reaction tag branch
+#                        _chebi_ids_local = []
+#                        _rhea_ids_local = []
+#                        _ec_numbers_local = []
+#                        _reactions_local = []
+#                        _cofactor_ids_local = []
+#                        _cofactors_local = []
 
         if _primary_accession and not _recommended_name and not _alternative_names and not _submitted_name:
         # <uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
@@ -813,6 +858,8 @@ def write_csv_and_xls(df, suffix='', datetime=None):
     
     if not datetime:
         _datetime = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+    else:
+        _datetime = datetime
     df.to_csv("TPSdownloader_" + suffix + _datetime + ".csv", index=False)
     # df.to_excel("TPSdownloader_" + _datetime + ".xls", sheet_name="Sheet1", index=False)
     print("Info: Wrote TPSdownloader_" + suffix + _datetime + ".csv file.")
@@ -860,7 +907,7 @@ def parse_storage(filename):
 
     _uniprot_dict_of_lists, _chebi_dict_of_lists, _copy_without_chebi_id, _empty_template_dict_of_lists = initialize_data_structures()
     _storage_df = pd.read_excel(filename, 'Sheet1', index_col=None, na_values=["NA"])
-    for _colname in ['Uniprot ID', 'Uniprot secondary ID', 'ChEBI ID', 'Name', 'Alternative names', 'Submitted name', 'Description', 'Species', 'Taxonomy', 'Amino acid sequence', 'Kingdom (plant, fungi, bacteria)', 'Notes', 'Publication (URL)', 'Substrate ChEBI IDs', 'Product ChEBI IDs', 'Cofactors ChEBI IDs'] + extra_product_colnames + extra_substrate_colnames + extra_cofactor_colnames:
+    for _colname in ['Uniprot ID', 'Uniprot secondary ID', 'ChEBI ID', 'Name', 'Alternative names', 'Submitted name', 'Description', 'Species', 'Taxonomy', 'Amino acid sequence', 'Kingdom (plant, fungi, bacteria)', 'Notes', 'Publication (URL)', 'Substrate ChEBI IDs', 'Product ChEBI IDs', 'Cofactor ChEBI IDs', 'Cofactors'] + extra_product_colnames + extra_substrate_colnames:
         for _val in _storage_df[_colname]:
             _uniprot_dict_of_lists[_colname].append(sanitize_input_text_values(_val))
 
@@ -915,7 +962,7 @@ def translator(extra_colnames, nestedlists, column_pairs, uniprot_dict_of_lists,
                 print("Debug: translator(): uniprot_dict_of_lists[%s][-1]=%s, _chebi_col=%s, _uniprot_col=%s" % (_uniprot_col, str(uniprot_dict_of_lists[_uniprot_col][-1]), str(_chebi_col), str(_uniprot_col)))
 
 
-def append_substrates_cofactors_products(uniprot_dict_of_lists, chebi_dict_of_lists, _substrate_ids, _cofactor_ids, _product_ids):
+def append_substrates_and_products(uniprot_dict_of_lists, chebi_dict_of_lists, _substrate_ids, _product_ids):
     """Put the ChEBI-derived data into variables dedicated to substrate, product or cofactor.
     The variables contain same datatypes but to get the final table we triplicate the output
     table columns. The ChEBI IDs were already written by upstream code.
@@ -933,15 +980,26 @@ def append_substrates_cofactors_products(uniprot_dict_of_lists, chebi_dict_of_li
     else:
         translator(extra_substrate_colnames, _substrate_ids, [['Compound name', 'Substrate (including stereochemistry)'], ['Compound description', 'Substrate compound description'], ['Formula', 'Chemical formula of substrate'], ['SMILES', 'SMILES of substrate (including stereochemistry)']], uniprot_dict_of_lists, chebi_dict_of_lists)
 
-    if not _cofactor_ids:
-        for _colname in extra_cofactor_colnames:
-            uniprot_dict_of_lists[_colname].append('')
-    else:
-        translator(extra_cofactor_colnames, _cofactor_ids, [['Compound name', 'Cofactors'], ['Compound description', 'Cofactors compound description'], ['Formula', 'Chemical formula of cofactor'], ['SMILES', 'SMILES of cofactor (including stereochemistry)']], uniprot_dict_of_lists, chebi_dict_of_lists)
-
 
 def get_cyclic_terpene_synthases(primary_accession, reactions, ec_numbers, rhea_ids, chebi_ids, chebi_dict_of_lists):
-    # parse values for ChEBI entries mentioned in the UniProt record
+    """Parse ChEBI ID values mentioned in the UniProt record under
+      <comment type="catalytic activity">
+      </comment>
+    tag. From there we parse out practically only ChEBI IDs for water,
+    the ions are not annotated there.
+
+    Cofactors are annotated under
+      <comment type="cofactor">
+        <cofactor evidence="1">
+        <name>Mg(2+)</name>
+        <dbReference type="ChEBI" id="CHEBI:18420"/>
+        </cofactor>
+      </comment>
+    tag.
+
+    We should either merge them together or just use only the latter.
+    """
+
     _substrate_ids = []
     _product_ids = []
     _cofactor_ids = []
@@ -950,19 +1008,19 @@ def get_cyclic_terpene_synthases(primary_accession, reactions, ec_numbers, rhea_
     for _reaction, _ec_number, _rhea_id, _chebi_id in zip(reactions, ec_numbers, rhea_ids, chebi_ids):
         if myoptions.debug:
             print("Debug: get_cyclic_terpene_synthases(): %s: unzipped values from (reactions=%s, ec_numbers=%s, rhea_ids=%s, chebi_ids=%s)" % (primary_accession, str(_reaction), str(_ec_number), str(_rhea_id), str(_chebi_id)))
-        split_chebi_data_into_substrates_and_products_wrapper(primary_accession, chebi_dict_of_lists, _chebi_id, _substrate_ids, _cofactor_ids, _product_ids)
+        split_chebi_data_into_substrates_and_products_wrapper(primary_accession, chebi_dict_of_lists, _chebi_id, _substrate_ids, _product_ids)
     if myoptions.debug:
         print("Debug: get_cyclic_terpene_synthases(): %s: resulting in _substrate_ids=%s, _cofactor_ids=%s, _product_ids=%s" % (primary_accession, str(_substrate_ids), str(_cofactor_ids), str(_product_ids)))
-    return _substrate_ids, _cofactor_ids, _product_ids
+    return _substrate_ids, _product_ids
 
 
-def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_of_lists, chebi_dict_of_lists, already_parsed, primary_accession, secondary_accessions, chebi_ids, rhea_ids, ec_numbers, reactions, recommended_name, alternative_names, submitted_name, feature_descriptions, organism, lineage, sequence, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc):
+def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_of_lists, chebi_dict_of_lists, already_parsed, primary_accession, secondary_accessions, chebi_ids, rhea_ids, ec_numbers, reactions, cofactor_ids, cofactors, recommended_name, alternative_names, submitted_name, feature_descriptions, organism, lineage, sequence, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc):
     """Process a single Uniprot entry along with getting data from ChEBI-dictlist.
     """
 
     if myoptions.debug:
         print("Debug: process_parsed_uniprot_values(): primary_accession=%s, reactions=%s, ec_numbers=%s, rhea_ids=%s, chebi_ids=%s, len(chebi_dict_of_lists['ChEBI ID'])=%s" % (str(primary_accession), str(reactions), str(ec_numbers), str(rhea_ids), str(chebi_ids), len(chebi_dict_of_lists['ChEBI ID'])))
-    _substrate_ids, _cofactor_ids, _product_ids = get_cyclic_terpene_synthases(primary_accession, reactions, ec_numbers, rhea_ids, chebi_ids, chebi_dict_of_lists)
+    _substrate_ids, _product_ids = get_cyclic_terpene_synthases(primary_accession, reactions, ec_numbers, rhea_ids, chebi_ids, chebi_dict_of_lists)
 
     if primary_accession and primary_accession not in already_parsed:
         # parse values for ChEBI entries mentioned in the UniProt record
@@ -997,9 +1055,10 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
         # In such scenarios downstream len() checks fail because len(uniprot_dict_of_lists['Product ChEBI IDs'][uniprot_id]) == 0 whereas len(uniprot_dict_of_lists['Reactions'][uniprot_id]) != 0
         # for example Q50L36
         uniprot_dict_of_lists['Substrate ChEBI IDs'].append(_substrate_ids) # uniprot_dict_of_lists[Substrate ChEBI IDs][-1]=[['CHEBI:175763']]
-        uniprot_dict_of_lists['Cofactors ChEBI IDs'].append(_cofactor_ids) # uniprot_dict_of_lists[Cofactors ChEBI IDs][-1]=[[]]
+        uniprot_dict_of_lists['Cofactor ChEBI IDs'].append(cofactor_ids) # uniprot_dict_of_lists[Cofactor ChEBI IDs][-1]=[[]]
+        uniprot_dict_of_lists['Cofactors'].append(cofactors)
         uniprot_dict_of_lists['Product ChEBI IDs'].append(_product_ids) # uniprot_dict_of_lists[Product ChEBI IDs][-1]=[['CHEBI:15385']]
-        append_substrates_cofactors_products(uniprot_dict_of_lists, chebi_dict_of_lists, _substrate_ids, _cofactor_ids, _product_ids) # decode the IDs and fill-in names, SMILES, etc.
+        append_substrates_and_products(uniprot_dict_of_lists, chebi_dict_of_lists, _substrate_ids, _product_ids)
 
         uniprot_dict_of_lists['Name'].append(recommended_name) # For compatibility with Adela I stick here to 'Name' column name
         uniprot_dict_of_lists['Alternative names'].append(alternative_names)
@@ -1039,7 +1098,7 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
             raise ValueError("len(uniprot_dict_of_lists['Uniprot ID'])=%d != len(uniprot_dict_of_lists[%s])=%d" % (len(uniprot_dict_of_lists['Uniprot ID']), x, len(uniprot_dict_of_lists[x])))
 
 
-def fetch_ids_from_xlsx(filename, terpenes, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc, uniprot_dict_of_lists, already_parsed, all_uniprot_ids, all_chebi_ids):
+def fetch_ids_from_xlsx(filename, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc, uniprot_dict_of_lists, already_parsed, all_uniprot_ids, all_chebi_ids):
     _ids = []
     _df = pd.read_excel(filename, 'Sheet1', index_col=None, na_values=["NA"])
     for i in _df['Uniprot ID']:
@@ -1126,11 +1185,11 @@ def classify_terpene(formula):
 
 
 def initialize_data_structures():
-    _uniprot_dict_of_lists = {'Uniprot ID': [], 'Uniprot secondary ID': [], 'Name': [], 'Alternative names': [], 'Submitted name': [], 'Description': [], 'Species': [], 'Taxonomy': [], 'Amino acid sequence': [], 'Kingdom (plant, fungi, bacteria)': [], 'ChEBI ID': [], 'EC numbers': [], 'Rhea IDs':[], 'Reactions': [], 'Substrate ChEBI IDs': [], 'Product ChEBI IDs': [], 'Cofactors ChEBI IDs': [], 'Notes': [], 'Publication (URL)': []}
+    _uniprot_dict_of_lists = {'Uniprot ID': [], 'Uniprot secondary ID': [], 'Name': [], 'Alternative names': [], 'Submitted name': [], 'Description': [], 'Species': [], 'Taxonomy': [], 'Amino acid sequence': [], 'Kingdom (plant, fungi, bacteria)': [], 'ChEBI ID': [], 'EC numbers': [], 'Rhea IDs':[], 'Reactions': [], 'Substrate ChEBI IDs': [], 'Product ChEBI IDs': [], 'Cofactor ChEBI IDs': [], 'Cofactors': [], 'Notes': [], 'Publication (URL)': []}
 
     _chebi_dict_of_lists = {'ChEBI ID': [], 'Compound name': [], 'Compound description': [], 'Formula': [], 'SMILES': [], 'Type (mono, sesq, di, …)': []}
 
-    for _colname in extra_product_colnames + extra_substrate_colnames + extra_cofactor_colnames:
+    for _colname in extra_product_colnames + extra_substrate_colnames:
         _uniprot_dict_of_lists[_colname] = []
 
     _copy_without_chebi_id = copy.deepcopy(_chebi_dict_of_lists)
@@ -1140,25 +1199,23 @@ def initialize_data_structures():
     return _uniprot_dict_of_lists, _chebi_dict_of_lists, _copy_without_chebi_id, _empty_template_dict_of_lists
 
 
-def split_chebi_data_into_substrates_and_products_wrapper(primary_accession, chebi_dict_of_lists, chebi_ids, substrate_ids, cofactor_ids, product_ids):
+def split_chebi_data_into_substrates_and_products_wrapper(primary_accession, chebi_dict_of_lists, chebi_ids, substrate_ids, product_ids):
     """Split ChEBI IDs obtained for a single reaction into relevant categories.
     If that fails, return an empty list for each to keep lengths same.
 
     This function needs reworking to simultaneously split into all groups.
     """
 
-    print("Info: %s: Received: chebi_ids=%s, chebi_dict_of_lists=%s, substrate_ids=%s, cofactor_ids=%s, product_ids=%s" % (primary_accession, str(chebi_ids), str(chebi_dict_of_lists), str(substrate_ids), str(cofactor_ids), str(product_ids)))
-    _substrate_ids, _cofactor_ids, _product_ids = split_chebi_data_into_substrates_and_products(primary_accession, chebi_ids, chebi_dict_of_lists)
-    if _substrate_ids or _cofactor_ids or _product_ids:
+    print("Info: %s: Received: chebi_ids=%s, chebi_dict_of_lists=%s, substrate_ids=%s, product_ids=%s" % (primary_accession, str(chebi_ids), str(chebi_dict_of_lists), str(substrate_ids), str(product_ids)))
+    _substrate_ids, _product_ids = split_chebi_data_into_substrates_and_products(primary_accession, chebi_ids, chebi_dict_of_lists)
+    if _substrate_ids or _product_ids:
         substrate_ids.append(_substrate_ids)
-        cofactor_ids.append(_cofactor_ids)
         product_ids.append(_product_ids)
     else:
         # append empty lists so that len(_reactions) and e.g. len(_product_ids) are equal even if the
-        # _substrate_ids or _cofactor_ids or _product_ids are all empty because all ChEBI IDs were discarded as acyclic terpenes and no known substrates
+        # _substrate_ids or _product_ids are all empty because all ChEBI IDs were discarded as acyclic terpenes and no known substrates
         # Q50L36: dimethylallyl diphosphate = diphosphate + isoprene
         substrate_ids.append([])
-        cofactor_ids.append([])
         product_ids.append([])
 
 
@@ -1172,7 +1229,7 @@ def split_chebi_data_into_substrates_and_products(primary_accession, chebi_ids, 
             _terpene_type = process_chebi(_chebi_id, chebi_dict_of_lists) # parse ChEBI XML files and fill chebi_dict_of_lists
             if _chebi_id in substrates:
                 _substrate_ids.append(_chebi_id)
-            elif _chebi_id in cofactors:
+            elif _chebi_id in possible_cofactors:
                 _cofactor_ids.append(_chebi_id)
             #elif _chebi_id in intermediates:
             #    # CHEBI:63190 (+)-β-caryophyllene aka (S)-β-bisabolene
@@ -1200,9 +1257,9 @@ def split_chebi_data_into_substrates_and_products(primary_accession, chebi_ids, 
         # Q50L36: dimethylallyl diphosphate = diphosphate + isoprene
         print("Info: %s: Failed to find a cyclic terpene product in any of these: %s" % (primary_accession, str(chebi_ids))) # CHEBI:15385 (+)-δ-cadinene
 
-    print("Debug: split_chebi_data_into_substrates_and_products(): Returning _substrate_ids=%s, _cofactor_ids=%s, _product_ids=%s" % (str(_substrate_ids), str(_cofactor_ids), str(_product_ids)))
+    print("Debug: split_chebi_data_into_substrates_and_products(): Returning _substrate_ids=%s, _product_ids=%s" % (str(_substrate_ids), str(_product_ids)))
 
-    return _substrate_ids, _cofactor_ids, _product_ids
+    return _substrate_ids, _product_ids
 
 
 def print_dict_lengths(somedict, dictname):
@@ -1242,8 +1299,8 @@ def main():
         print("Info: Found multi-entry XML file %s" % '.TPSdownloader_cache/uniprot/multientry/' + _filename)
         if os.path.getsize('.TPSdownloader_cache/uniprot/multientry/' + _filename):
             print("Info: Parsing %s" % '.TPSdownloader_cache/uniprot/multientry/' + _filename)
-            for _primary_accession, _secondary_accessions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml('.TPSdownloader_cache/uniprot/multientry/' + _filename, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _already_parsed):
-                process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _chebi_dict_of_lists, _already_parsed, _primary_accession, _secondary_accessions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc)
+            for _primary_accession, _secondary_accessions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml('.TPSdownloader_cache/uniprot/multientry/' + _filename, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _already_parsed):
+                process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _chebi_dict_of_lists, _already_parsed, _primary_accession, _secondary_accessions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc)
 
     if myoptions.debug:
         print("Debug: After parsing multi-entry XML files _all_uniprot_ids=%s" % str(_all_uniprot_ids))
@@ -1254,7 +1311,7 @@ def main():
         _ids = (_id)
     elif myoptions.uniprot_ids_from_file and os.path.exists(myoptions.uniprot_ids_from_file):
         # get list of accessions, fetch their single-entry XML files unless already in local cache and parse them
-        _ids = fetch_ids_from_xlsx(myoptions.uniprot_ids_from_file, _known_terpenes, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _uniprot_dict_of_lists, _already_parsed, _all_uniprot_ids, _all_chebi_ids)
+        _ids = fetch_ids_from_xlsx(myoptions.uniprot_ids_from_file, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _uniprot_dict_of_lists, _already_parsed, _all_uniprot_ids, _all_chebi_ids)
     elif myoptions.uniprot_idfile:
         if os.path.exists(myoptions.uniprot_idfile):
             _ids = []
@@ -1274,8 +1331,8 @@ def main():
         if _id not in _already_parsed and _id not in _aliases:
             _filename = '.TPSdownloader_cache/uniprot/' + _id + '.xml'
             if os.path.exists(_filename) and os.path.getsize(_filename):
-                for _primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml(_filename, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _already_parsed):
-                    process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _chebi_dict_of_lists, _already_parsed, _primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc)
+                for _primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _cofactor_ids_per_entry, _cofactors_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml(_filename, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _already_parsed):
+                    process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _chebi_dict_of_lists, _already_parsed, _primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _cofactor_ids_per_entry, _cofactors_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc)
             else:
                 print("Info: No such file %s" % str(_filename))
         else:
