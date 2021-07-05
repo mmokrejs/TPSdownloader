@@ -832,8 +832,6 @@ def process_chebi(chebi_id, chebi_dict_of_lists):
             chebi_dict_of_lists['Type (mono, sesq, di, …)'].append('')
         if _cyclic:
             chebi_dict_of_lists['cyclic/acyclic'].append('cyclic')
-        elif _smiles:
-            chebi_dict_of_lists['cyclic/acyclic'].append('acyclic')
         else:
             chebi_dict_of_lists['cyclic/acyclic'].append('')
 
@@ -1452,9 +1450,13 @@ def main():
     print_dict_lengths(_chebi_dict_of_lists, '_chebi_dict_of_lists')
     print_dict_lengths(_output_dict_of_lists, '_output_dict_of_lists')
 
-    print("Info: _all_chebi_ids=%s" % str(_all_chebi_ids))
+    _all_chebi_ids = natsorted(list(_all_chebi_ids))
+    _all_product_chebi_ids = natsorted(list(_all_product_chebi_ids))
+    _all_ec_numbers = natsorted(list(_all_ec_numbers))
+    _all_rhea_ids = natsorted(list(_all_rhea_ids))
 
-    print("Info: %d entries in _all_product_chebi_ids=%s" % (len(_all_product_chebi_ids), str(natsorted(_all_product_chebi_ids))))
+    print("Info: %d entries in _all_chebi_ids=%s" % (len(_all_chebi_ids), str(_all_chebi_ids)))
+    print("Info: %d entries in _all_product_chebi_ids=%s" % (len(_all_product_chebi_ids), str(_all_product_chebi_ids)))
     print("Info: %d entries in _all_ec_numbers=%s" % (len(_all_ec_numbers), str(natsorted(_all_ec_numbers))))
     print("Info: %d entries in _all_rhea_ids=%s" % (len(_all_rhea_ids), str(natsorted(_all_rhea_ids))))
 
