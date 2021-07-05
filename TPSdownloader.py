@@ -15,6 +15,12 @@ import re
 import copy
 from itertools import chain
 import gzip
+from natsort import natsorted
+
+try:
+    from rdkit import Chem # not available (yet) in Gentoo
+except ImportError:
+    Chem = None
 
 version = "20210627"
 myparser = OptionParser(version="%s version %s" % ('%prog', version))
@@ -166,7 +172,6 @@ non_terpene_and_acyclic_terpene_chebi_ids = set(['CHEBI:35194', 'CHEBI:33019', '
 # CHEBI:17447 - geraniol
 # CHEBI:35194 - isoprene
 
-
 def parse_list_or_set_line(line):
     _strlist = line.split(':')[1][1:-1]
     return filter(lambda x: x != 'None' and x is not None, parse_list_or_set(_strlist))
@@ -240,7 +245,7 @@ def parse_chebi_xml(filename):
 
     _chebi_id = None
     _definition = []
-    _names = set()
+    _names = [] # do not use list to keep ordering, the first name is teh official IUPAC name, then synonyms are appended
     _formula = None
     _smiles = None
 
@@ -265,7 +270,8 @@ def parse_chebi_xml(filename):
                 # ['beta-phellandren', 'beta-phellandrene', '3-isopropyl-6-methylene-1-cyclohexene', '2-p-menthadiene', '3-methylene-6-(1-methylethyl)cyclohexene', '4-isopropyl-1-methylene-2-cyclohexene']
                 # ['ophiobolin F', 'ophiobolene']
                 # ['(+)-vkiteagnusin d', 'viteagnusin d'] # typo in ChEBI
-                _names.update([child.text])
+                if child.text not in _names:
+                    _names.extend([child.text])
             if child.tag == 'DEFINITION':
                 if not _definition:
                     _definition = [child.text]
@@ -275,20 +281,19 @@ def parse_chebi_xml(filename):
                 if not _formula:
                     _formula = [child.text] # TODO: to keep in sync with other values wrap this unnecessarily with a list, which is inefficient, downstream code in recursive_translator() splits them into single letters mistakenly
             if child.tag == 'SYNONYM':
-                _names.update([child.text])
+                if child.text not in _names:
+                    # remove duplicates because the SYNONYMS listing re-includes the official IUPAC name
+                    # https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15415
+                    _names.extend([child.text])
             if child.tag == 'SMILES':
                 if not _smiles:
                     _smiles = [child.text] # TODO: to keep in sync with other values wrap this unnecessarily with a list, which is inefficient, downstream code in recursive_translator() splits them into single letters mistakenly
             #if child.tag == 'INCHI':
             #    if not _inchi:
             #        _inchi = child.text
-    if not _names:
-        _names = []
-    else:
-        _names = list(_names)
 
     if myoptions.debug: print("Info: IDs: %s, names: %s, definition: %s, formula: %s, smiles: %s" % (str(_chebi_id), str(_names), str(_definition), str(_formula), str(_smiles)))
-    return(_chebi_id, list(_names), _definition, _formula, _smiles)
+    return(_chebi_id, _names, _definition, _formula, _smiles)
 
 
 def check_parsed_list_lengths(_primary_accession, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _cofactor_ids, _cofactors):
@@ -810,6 +815,11 @@ def process_chebi(chebi_id, chebi_dict_of_lists):
     else:
         _terpene_type = None
 
+    if _smiles and Chem: # make sure rdkit was imported at all
+        _cyclic = is_cyclic(_smiles)
+    else:
+        _cyclic = None
+
     if _chebi_id2 and _chebi_id2 not in chebi_dict_of_lists['ChEBI ID']:
         chebi_dict_of_lists['ChEBI ID'].append(_chebi_id2)
         chebi_dict_of_lists['Compound name'].append(_names)
@@ -820,21 +830,15 @@ def process_chebi(chebi_id, chebi_dict_of_lists):
             chebi_dict_of_lists['Type (mono, sesq, di, …)'].append(_terpene_type)
         else:
             chebi_dict_of_lists['Type (mono, sesq, di, …)'].append('')
+        if _cyclic:
+            chebi_dict_of_lists['cyclic/acyclic'].append('cyclic')
+        elif _smiles:
+            chebi_dict_of_lists['cyclic/acyclic'].append('acyclic')
+        else:
+            chebi_dict_of_lists['cyclic/acyclic'].append('')
 
     if myoptions.debug: print("Debug: %s: process_chebi(): _terpene_type=%s" % (chebi_id, str(_terpene_type)))
     return _terpene_type
-
-
-def substance_of_interest():
-    """Evaluate structure of chemical substances involved in a chemcical
-    reaction. If they are not water, GGPP, FFPP, return True so we can output
-    them.
-
-    Try just checking if the substance contains more than 5 carbon atoms.
-    Currently we get around this by blacklisting some ChEBI Id's we do not need.
-    """
-
-    pass
 
 
 def print_df(df):
@@ -1011,7 +1015,7 @@ def get_cyclic_terpene_synthases(primary_accession, reactions, ec_numbers, rhea_
         split_chebi_data_into_substrates_and_products_wrapper(primary_accession, chebi_dict_of_lists, _chebi_id, _substrate_ids, _product_ids)
     if myoptions.debug:
         print("Debug: get_cyclic_terpene_synthases(): %s: resulting in _substrate_ids=%s, _cofactor_ids=%s, _product_ids=%s" % (primary_accession, str(_substrate_ids), str(_cofactor_ids), str(_product_ids)))
-    return _substrate_ids, _product_ids
+    return natsorted(_substrate_ids), natsorted(_product_ids)
 
 
 def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_of_lists, chebi_dict_of_lists, already_parsed, primary_accession, secondary_accessions, chebi_ids, rhea_ids, ec_numbers, reactions, cofactor_ids, cofactors, recommended_name, alternative_names, submitted_name, feature_descriptions, organism, lineage, sequence, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc):
@@ -1184,10 +1188,22 @@ def classify_terpene(formula):
     return _terpene_type
 
 
+def is_cyclic(smiles):
+    m = Chem.MolFromSmiles(smiles)
+    ri = m.GetRingInfo()
+    n_rings = ri.NumRings()
+    if n_rings > 0:
+        #print('cyclic')
+        return True
+    else:
+        #print('non-cyclic')
+        return False
+
+
 def initialize_data_structures():
     _uniprot_dict_of_lists = {'Uniprot ID': [], 'Uniprot secondary ID': [], 'Name': [], 'Alternative names': [], 'Submitted name': [], 'Description': [], 'Species': [], 'Taxonomy': [], 'Amino acid sequence': [], 'Kingdom (plant, fungi, bacteria)': [], 'ChEBI ID': [], 'EC numbers': [], 'Rhea IDs':[], 'Reactions': [], 'Substrate ChEBI IDs': [], 'Product ChEBI IDs': [], 'Cofactor ChEBI IDs': [], 'Cofactors': [], 'Notes': [], 'Publication (URL)': []}
 
-    _chebi_dict_of_lists = {'ChEBI ID': [], 'Compound name': [], 'Compound description': [], 'Formula': [], 'SMILES': [], 'Type (mono, sesq, di, …)': []}
+    _chebi_dict_of_lists = {'ChEBI ID': [], 'Compound name': [], 'Compound description': [], 'Formula': [], 'SMILES': [], 'Type (mono, sesq, di, …)': [], 'cyclic/acyclic': []}
 
     for _colname in extra_product_colnames + extra_substrate_colnames:
         _uniprot_dict_of_lists[_colname] = []
@@ -1259,7 +1275,7 @@ def split_chebi_data_into_substrates_and_products(primary_accession, chebi_ids, 
 
     print("Debug: split_chebi_data_into_substrates_and_products(): Returning _substrate_ids=%s, _product_ids=%s" % (str(_substrate_ids), str(_product_ids)))
 
-    return _substrate_ids, _product_ids
+    return natsorted(_substrate_ids), natsorted(_product_ids)
 
 
 def print_dict_lengths(somedict, dictname):
@@ -1327,7 +1343,7 @@ def main():
         print("Debug: After parsing UniProt IDs from files _all_chebi_ids=%s" % str(_all_chebi_ids))
 
     _aliases = _uniprot_aliases2pri_acc.keys()
-    for _id in _ids:
+    for _id in _ids: # it is probably better to keep original ordering and just omitting duplictaed IDs
         if _id not in _already_parsed and _id not in _aliases:
             _filename = '.TPSdownloader_cache/uniprot/' + _id + '.xml'
             if os.path.exists(_filename) and os.path.getsize(_filename):
@@ -1438,9 +1454,9 @@ def main():
 
     print("Info: _all_chebi_ids=%s" % str(_all_chebi_ids))
 
-    print("Info: %d entries in _all_product_chebi_ids=%s" % (len(_all_product_chebi_ids), str(_all_product_chebi_ids)))
-    print("Info: %d entries in _all_ec_numbers=%s" % (len(_all_ec_numbers), str(_all_ec_numbers)))
-    print("Info: %d entries in _all_rhea_ids=%s" % (len(_all_rhea_ids), str(_all_rhea_ids)))
+    print("Info: %d entries in _all_product_chebi_ids=%s" % (len(_all_product_chebi_ids), str(natsorted(_all_product_chebi_ids))))
+    print("Info: %d entries in _all_ec_numbers=%s" % (len(_all_ec_numbers), str(natsorted(_all_ec_numbers))))
+    print("Info: %d entries in _all_rhea_ids=%s" % (len(_all_rhea_ids), str(natsorted(_all_rhea_ids))))
 
     # move dictionary of lists into Pandas dataframe at once
     _df = pd.DataFrame(_output_dict_of_lists)
@@ -1458,7 +1474,7 @@ def main():
 
     writer = pd.ExcelWriter("TPSdownloader_" + _datetime + ".xlsx", engine='xlsxwriter')
     frames = {'Sheet1': _df, 'All Product ChEBI IDs': _df_all_product_chebi_ids, 'All EC numbers': _df_all_ec_numbers, 'All Rhead IDs': _df_all_rhea_ids}
-    #now loop thru and put each on a specific sheet
+    #now loop through and put each on a specific sheet
     for sheet, frame in frames.items(): # .use .items for python 3.X
         frame.to_excel(writer, sheet_name = sheet, index = False)
     #critical last step
