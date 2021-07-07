@@ -18,7 +18,9 @@ import gzip
 from natsort import natsorted
 
 try:
-    from rdkit import Chem # not available (yet) in Gentoo
+    from rdkit import Chem
+    # not available (yet) in Gentoo
+    # https://rdkit.readthedocs.io/en/latest/Install.html
 except ImportError:
     Chem = None
 
@@ -815,8 +817,12 @@ def process_chebi(chebi_id, chebi_dict_of_lists):
     else:
         _terpene_type = None
 
-    if _smiles and Chem: # make sure rdkit was imported at all
-        _cyclic = is_cyclic(_smiles)
+    if _smiles:
+        try:
+            # make sure rdkit was imported at all
+            _cyclic = is_cyclic(_smiles)
+        except ImportError:
+            _cyclic = None
     else:
         _cyclic = None
 
@@ -1187,15 +1193,18 @@ def classify_terpene(formula):
 
 
 def is_cyclic(smiles):
-    m = Chem.MolFromSmiles(smiles)
-    ri = m.GetRingInfo()
-    n_rings = ri.NumRings()
-    if n_rings > 0:
-        #print('cyclic')
-        return True
+    if smiles and Chem:
+        m = Chem.MolFromSmiles(smiles)
+        ri = m.GetRingInfo()
+        n_rings = ri.NumRings()
+        if n_rings > 0:
+            #print('cyclic')
+            return True
+        else:
+            #print('non-cyclic')
+            return False
     else:
-        #print('non-cyclic')
-        return False
+        return None
 
 
 def initialize_data_structures():
@@ -1209,7 +1218,7 @@ def initialize_data_structures():
     _copy_without_chebi_id = copy.deepcopy(_chebi_dict_of_lists)
     _copy_without_chebi_id.pop('ChEBI ID')
     _empty_template_dict_of_lists = copy.deepcopy(_uniprot_dict_of_lists)
-    _empty_template_dict_of_lists.update({'Type (mono, sesq, di, …)': []})
+    _empty_template_dict_of_lists.update({'Type (mono, sesq, di, …)': [], 'cyclic/acyclic': []})
     return _uniprot_dict_of_lists, _chebi_dict_of_lists, _copy_without_chebi_id, _empty_template_dict_of_lists
 
 
@@ -1418,14 +1427,14 @@ def main():
 
                 if _product_chebi_id:
                     _chebi_row_pos = _chebi_dict_of_lists['ChEBI ID'].index(_product_chebi_id)
-                    for _column in ['Type (mono, sesq, di, …)']:
+                    for _column in ['Type (mono, sesq, di, …)', 'cyclic/acyclic']:
                         _val = _chebi_dict_of_lists[_column][_chebi_row_pos]
                         if _val:
                             _output_dict_of_lists[_column].append(_val)
                         else:
                             _output_dict_of_lists[_column].append('')
                 else:
-                    for _column in ['Type (mono, sesq, di, …)']:
+                    for _column in ['Type (mono, sesq, di, …)', 'cyclic/acyclic']:
                         _output_dict_of_lists[_column].append('')
         else:
             # re-copy just the Uniprot-originating data
@@ -1443,7 +1452,7 @@ def main():
             # fill-in the missing ChEBI data placeholders
             # for _column in _chebi_dict_of_lists.keys():
             #     _output_dict_of_lists[_column].append('')
-            for _column in ['Type (mono, sesq, di, …)']:
+            for _column in ['Type (mono, sesq, di, …)', 'cyclic/acyclic']:
                 _output_dict_of_lists[_column].append('')
 
     print_dict_lengths(_uniprot_dict_of_lists, '_uniprot_dict_of_lists')
