@@ -15,6 +15,15 @@ like water, some ions, etc. If they get fetched from ChEBI, the get cached in a 
 file but then, nevertheless, are not used further.
 
 
+Requirements
+
+pandas
+natsort
+xlsxwriter
+conda
+rdkit
+
+
 Mass-download from Uniprot
 
 Currently, I manually downloaded the entries from UniProt as `xml.gz` files.
