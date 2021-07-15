@@ -1,6 +1,5 @@
 abieta-7,13-diene
 abieta-8(14),12-diene
-abieta-8(14),12-diene 
 achilleol B
 allo-aromadendrene
 alpha-bisabolol
@@ -50,6 +49,7 @@ elemol
 (+)-endo-β-bergamotene
 ent-cassa-12,15-diene
 ent-copalyl diphosphate
+ent-copal-8-ol diphosphate
 ent-copal-8-ol diphosphate(3−)
 ent-isokaurene
 (-)-ent-kaurene
@@ -64,7 +64,6 @@ epi-cedrol
 (+)-epi-α-bisabolol
 (+)-eremophilene
 (E,R)-α-bisabolene
-(−)-exo-α-bergamotene
 (−)-exo-α-bergamotene
 (E)-2-epi-β-caryophyllene
 (E)-α-bisabolene
@@ -93,12 +92,13 @@ hop-22(29)-ene
 (+)-isoafricanol
 isomultiflorenol
 isopimara-7,15-diene
-isopimara-7,15-diene
 Isopimara-7,15-diene
 koidzumiol
 (+)-kolavenyl diphosphate
 (−)-kolavenyl diphosphate
 (+)-kolavenyl diphosphate(3−)
+koraiol
+korayol
 kunzeaol
 labda-13-en-8-ol diphosphate
 labd-13(16),14-diene-9-ol
@@ -122,6 +122,7 @@ peregrinol diphosphate(3−)
 phomopsene
 phyllocladan-16α-ol
 pimara-8(14),15-diene
+pre-alpha-onocerin
 premnaspirodiene
 premutilin
 presilphiperfolan-8β-ol
@@ -219,6 +220,8 @@ zingiberene
 (−)-5-epi-eremophilene
 5-epi-α-selinene
 5-hydroxy-α-gurjunene
+5β,9α,10α-labda-8(20),13-dien-15-yl diphosphate
+5β,9α,10α-labda-8(20),13-dien-15-yl diphosphate(3−)
 7-epi-ent-eudesmane-5,11-diol
 7-epi-sesquithujene
 7-epi-α-eudesmol
@@ -227,6 +230,7 @@ zingiberene
 9,13(R)-epoxylabd-14-ene
 9α-copalyl diphosphate
 9β-pimara-7,15-diene
+(−)-α-acorenol
 (−)-α-amorphene
 α-amyrin
 (+)-α-barbatene
@@ -258,7 +262,6 @@ zingiberene
 α-thujene
 β-acoradiene
 β-amyrin
-β-amyrin
 β-bisabolene
 β-cadinene
 (+)-β-caryophyllene
@@ -272,6 +275,8 @@ zingiberene
 β-gurjunene
 β-himachalene
 (+)-β-chamigrene
+(−)-β-chamigrene
+β-chamigrene
 (−)-β-phellandrene
 β-phellandrene
 (−)-β-pinene
@@ -300,12 +305,3 @@ zingiberene
 δ-selinene
 Δ6-protoilludene
 τ-cadinol
-(−)-β-chamigrene
-β-chamigrene
-ent-copal-8-ol diphosphate
-5β,9α,10α-labda-8(20),13-dien-15-yl diphosphate(3−)
-5β,9α,10α-labda-8(20),13-dien-15-yl diphosphate 
-pre-alpha-onocerin
-koraiol
-korayol
-(−)-α-acorenol
