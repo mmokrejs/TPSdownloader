@@ -1422,6 +1422,21 @@ def parse_idfile(infile):
                         sys.stderr.write("Warning: Duplicated Uniprot ID %s requested in %s file, ignoring it.\n" % (_id, infile))
     return _ids
 
+
+def write_fasta_file(sequence2_uniprot_pri_accs, datetime, accessions=[]):
+    if not accessions:
+        _filename = 'TPSdownloader_' + datetime + '.fasta'
+    else:
+        _filename = 'TPSdownloader_to_be_added_new_proteins__' + datetime + '.fasta'
+    _i = 0
+    with open(_filename, 'w') as _outfile:
+        for _myseq, _accession_ids in sequence2_uniprot_pri_accs.items():
+            if not accessions or not [x for x in _accession_ids if x not in accessions]:
+                _outfile.write(">%s%s%s%s" % (' '.join(_accession_ids), os.linesep, _myseq, os.linesep))
+                _i += 1
+    print("Info: Wrote %s file with %d protein sequences" % (_filename, _i))
+
+
 def main():
     create_cache()
     _known_terpenes = parse_known_terpenes()
@@ -1683,7 +1698,6 @@ def main():
                 # https://stackoverflow.com/questions/42483959/copy-some-rows-from-existing-pandas-dataframe-to-a-new-one
     _df_newly_annotated = pd.DataFrame(_newly_annotated_dict_of_lists)
 
-
     print("Info: %d entries in _all_chebi_ids=%s" % (len(_all_chebi_ids), str(_all_chebi_ids)))
     print("Info: %d entries in _all_product_chebi_ids=%s" % (len(_all_product_chebi_ids), str(_all_product_chebi_ids)))
     print("Info: %d entries in _all_ec_numbers=%s" % (len(_all_ec_numbers), str(natsorted(_all_ec_numbers))))
@@ -1718,6 +1732,9 @@ def main():
     write_csv_and_xls(_df_all_product_chebi_ids, suffix="product_ChEBI_IDs_", datetime=_datetime)
     write_csv_and_xls(_df_all_ec_numbers, suffix="EC_numbers_", datetime=_datetime)
     write_csv_and_xls(_df_all_rhea_ids, suffix="Rhea_IDs_", datetime=_datetime)
+
+    write_fasta_file(_sequence2_uniprot_pri_accs, datetime=_datetime, accessions=[])
+    write_fasta_file(_sequence2_uniprot_pri_accs, datetime=_datetime, accessions=_newly_annotated_dict_of_lists['Uniprot ID'])
 
     #if myoptions.outfmt == "csv":
     #    df.to_csv("TPSdownloader.csv", index=False, sep='\t')
