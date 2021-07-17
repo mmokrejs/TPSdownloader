@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2021-06-02" modified="2021-06-02" version="1">
+<accession>A0A7S5GI44</accession>
+<name>A0A7S5GI44_TRIWF</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Sesquiterpene synthase 1-2</fullName>
+</submittedName>
+</protein>
+<organism evidence="1">
+<name type="scientific">Tripterygium wilfordii</name>
+<name type="common">Thunder God vine</name>
+<dbReference type="NCBI Taxonomy" id="458696"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>fabids</taxon>
+<taxon>Celastrales</taxon>
+<taxon>Celastraceae</taxon>
+<taxon>Tripterygium</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1">
+<citation type="submission" date="2018-11" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Tong Y."/>
+<person name="Hu T."/>
+<person name="Huang L."/>
+<person name="Gao W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="MK204587">
+<property type="protein sequence ID" value="QGX02122.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="QGX02122.1"/>
+</source>
+</evidence>
+<sequence length="556" mass="64076" checksum="1DA693F64CF20DFE" modified="2021-06-02" version="1">MAAQQLLQCKLKSRASDPFQQRRSANYKPNIWSHEFLQSLSNNYDEEQYRSQFGELKEHVKRLFIDADDLLSKLELIDSIKKLGLANHFREEIKEALDNIASKNQSTEADLYSTALRFKVLRQNGYEVFQDVFSVFVDEEGTFGGKISCDDDTKGIIELFEASHLALEADNILDEAKAFSTRILETRSSRTESSINKQVIHALELPCHWRVQWFDVKWYIEGHDHQKEKDSLLELAKLNFNVVQNTLQKDLRELSGWWKNLGLIENLSFARNRLVECFMCTAAFAYEPHHNNLRKWLTKVLIMIAIIDDVYDVYGSLEELHHFTIAVDRWNSSKIQQLPECMKLCFQALTGITNEVAREMQTENNWSHQVLPHLKKVWADFCKALFVEAKWHKTGHMPSLKEYMNNAWITSSGSLISVHLLFSTLHEDTKEILETNEDLVYNLSLVIRLCNDLGTSAAELQRGDAPSSILCYRRENNVPEAIAREHIKGLINETMKKMNAECFGQSALELQPFTNIIMNVARMVHNLYLHGDGFGVQDGETRRQIASVLVEPFSLV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

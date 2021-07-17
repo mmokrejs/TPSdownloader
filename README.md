@@ -14,8 +14,14 @@ it fetches them too. It does not download some entries already placed on a black
 like water, some ions, etc. If they get fetched from ChEBI, the get cached in a local
 file but then, nevertheless, are not used further.
 
+Uniprot has obsoleted lots of duplicated protein in 2015 originating
+from closely related proteomes. Therefore, some proteins has been
+withdrawn from Uniprot. Such Uniprot IDs not fetched&processed are
+listed at the end of the run as obsoleted protein IDs. For more info
+please refer to https://www.uniprot.org/help/proteome_redundancy
 
-Requirements
+
+*Requirements*
 
 pandas
 natsort
@@ -24,9 +30,81 @@ conda
 rdkit
 
 
-Mass-download from Uniprot
+*Usage*
 
-Currently, I manually downloaded the entries from UniProt as `xml.gz` files.
+The program can be run in several ways. It always outputs several files, e.g.:
+```
+Info: Wrote TPSdownloader_20210717172721.xlsx file.
+Info: Wrote TPSdownloader_20210717172721.csv file.
+Info: Wrote TPSdownloader_product_ChEBI_IDs_20210717172721.csv file.
+Info: Wrote TPSdownloader_EC_numbers_20210717172721.csv file.
+Info: Wrote TPSdownloader_Rhea_IDs_20210717172721.csv file.
+```
+
+It also outputs a list of ChEBI IDs (substrates, products, cofactors, junk), a list product ChEBI IDs, a list of associated EC and Rhea numbers.
+
+1.
+
+It can fetch IDs from network, parse them.
+
+`python TPSdownloader.py --uniprot-id-file=Uniprot-Uniparc_domain-hits-to-terpene_synth_domains.txt`
+
+
+2.
+
+It can also mix the fetched data with XLSX data already annotated
+(while this does NOT preserve all the manual data).
+
+`python TPSdownloader.py --uniprot-id-file=Uniprot-Uniparc_domain-hits-to-terpene_synth_domains.txt --xls-storage=TPS-database_20210717.xlsx`
+
+The above approach will detect only 72 new proteins in the parsed data which we still lack in a manually curated table, of those 7 are annotated in Uniprot with ChEBI/Rhea IDs or EC numbers or description of the reaction at least. It outputs 25161 rows in the main table, multiple lines per single Uniprot ID, while preeserving such multiplicated input rows (if substrates and products were different).
+
+
+3.
+
+It can also parse already fetched XML files, parse it, process a list
+of Uniprot IDs to be transferred from the parsed data into resulting files.
+Optionally, it can take as an input a list of Uniprot IDs we have already
+curated and although the proteins will appear in the output table, their
+proteins will NOT appear in the list of distinct proteins available in parsed
+data (see XLSX sheet `New proteins to be curated`). The new two command are
+practically doing the same. The first-one grabs Uniprot IDs from such column
+in the XLSX file, the second using a simple TXT file with the Uniprot IDs.
+
+`python TPSdownloader.py --uniprot-ids-from-file=TPS-database_20210717.xlsx --already-curated-id-from-file=Uniprot_IDs_manually_curated.txt`
+`python TPSdownloader.py --uniprot-id-file=Uniprot-Uniparc_domain-hits-to-terpene_synth_domains.txt --already-curated-id-from-file=Uniprot_IDs_manually_curated.txt`
+
+
+*Bugs*
+
+For an unknown reason the command
+
+`python TPSdownloader.py --uniprot-ids-from-file=TPSdownloader_20210717135125.xlsx --already-curated-id-from-file=Uniprot_IDs_manually_curated.txt`
+
+results in 160 new proteins in the parsed data which we still lack in a manually curated table, of those 12 are annotated in Uniprot with ChEBI/Rhea IDs or EC numbers or description of the reaction at least. It outputs 24799 rows in the main table, only.
+
+For example, the entry `H8ZM70` appears on a single row although it should be split across 4 rows as it catalyzes 4 reactions:
+```
+[['(2E,6E,10E)-geranylgeranyl diphosphate = (+)-copalyl diphosphate',
+  '(+)-copalyl diphosphate = abieta-7,13-diene + diphosphate',
+  '(+)-copalyl diphosphate = diphosphate + neoabietadiene',
+  '(+)-copalyl diphosphate = abieta-8(14),12-diene + diphosphate']]
+```
+
+In the manually curated table we have all these 4 reactions recorded.
+
+Improving parsing the `--xls-storage` contents would need a lot of changes.
+
+
+
+*Mass-download from Uniprot*
+
+Currently, I manually downloaded the entries from UniProt as `xml.gz` files,
+the parser was able to use *.xml.gz files but after switching from
+`elementtree.parse()` to to a iterable parser `elementtree.iterparse()` we
+lost the ability to act of decompressed gzip stream as the decompressed file
+object lacks some properties. So the files must be uncompressed as of now.
+
 `split --lines 4000 --numeric-suffixes=0 Uniprot_ID_od_Terezy.tsv queries.batch.`
 
 
