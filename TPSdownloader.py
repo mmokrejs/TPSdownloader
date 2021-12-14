@@ -1424,7 +1424,7 @@ def convert_to_primary_ids(ids, primaries, aliases, ids_parsed_from_xls_storage,
             else:
                 print("Debug: Discarded %s from _ids" % _x)
         elif _x in aliases:
-            _xx = _uniprot_aliases2pri_acc[_x]
+            _xx = uniprot_aliases2pri_acc[_x]
             if _xx not in _requested_primary_ids and _xx not in ids_parsed_from_xls_storage:
                 _requested_primary_ids.append(_xx)
             else:
@@ -1514,7 +1514,7 @@ def main():
     # get list of Uniprot IDs to obtain
     if myoptions.uniprot_id:
         download_uniprot(myoptions.uniprot_id)
-        _ids = (_id)
+        _ids = (myoptions.uniprot_id)
     elif myoptions.uniprot_ids_from_file and os.path.exists(myoptions.uniprot_ids_from_file):
         # get list of accessions, fetch their single-entry XML files unless already in local cache and parse them
         _ids = fetch_ids_from_xlsx(myoptions.uniprot_ids_from_file, _primaries, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _uniprot_dict_of_lists, _already_parsed, _all_uniprot_ids, _all_chebi_ids)
