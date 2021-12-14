@@ -36,8 +36,8 @@ myparser.add_option("--uniprot-id", action="store", type="string", dest="uniprot
     help="List of Uniprot IDs, is mutually exclusive with --chebi-id.")
 myparser.add_option("--chebi-id", action="store", type="string", dest="chebi_id", default=None,
     help="List of ChEBI IDs, is mutually exclusive with --uniprot-id.")
-myparser.add_option("--run-mode", action="store", type="string", dest="run_mode", default=None,
-    help="Run type mode: [terpene_synthases, CYPs].")
+myparser.add_option("--run-mode", action="store", type="string", dest="run_mode", default='terpene_synthases',
+    help="Run type mode: [terpene_synthases, CYPs] (default: terpene_synthases).")
 myparser.add_option("--xls-storage", action="store", type="string", dest="xls_storage", default="TPSdownloader.xls",
     help="Use this file to parse input data and also as an output file with new results appended to it. Use None to disable the default. Default is TPSdownloader.xls.")
 myparser.add_option("--already-curated-id-from-file", action="store", type="string", dest="already_curated_idfile", default=None,
@@ -1186,13 +1186,16 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
         uniprot_dict_of_lists['Species'].append(organism)
         uniprot_dict_of_lists['Taxonomy'].append(lineage)
         uniprot_dict_of_lists['Amino acid sequence'].append(sequence)
+        _taxlen = len(lineage)
         if not lineage:
             _kingdom = ''
         elif 'Bacteria' == lineage[0]: # some taxons are only assigned as ['Bacteria'], without further specs
             _kingdom = 'Bacteria'
-        elif 'Viridiplantae' == lineage[1]:
+        elif 'Archaea' == lineage[0]: # some taxons are only assigned as ['Archaea'], without further specs
+            _kingdom = 'Archaea'
+        elif _taxlen > 1 and 'Viridiplantae' == lineage[1]:
             _kingdom = 'Plantae'
-        elif 'Fungi' == lineage[1]:
+        elif _taxlen > 1 and 'Fungi' == lineage[1]:
             _kingdom = 'Fungi'
         elif 'Homo sapiens' in lineage:
             _kingdom = 'Human'
