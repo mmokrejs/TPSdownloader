@@ -36,12 +36,16 @@ myparser.add_option("--uniprot-id", action="store", type="string", dest="uniprot
     help="List of Uniprot IDs, is mutually exclusive with --chebi-id.")
 myparser.add_option("--chebi-id", action="store", type="string", dest="chebi_id", default=None,
     help="List of ChEBI IDs, is mutually exclusive with --uniprot-id.")
+myparser.add_option("--run-mode", action="store", type="string", dest="run_mode", default=None,
+    help="Run type mode: [terpene_synthases, CYPs].")
 myparser.add_option("--xls-storage", action="store", type="string", dest="xls_storage", default="TPSdownloader.xls",
     help="Use this file to parse input data and also as an output file with new results appended to it. Use None to disable the default. Default is TPSdownloader.xls.")
 myparser.add_option("--already-curated-id-from-file", action="store", type="string", dest="already_curated_idfile", default=None,
-    help="Obtain list of already curated Uniprot IDs from a single-column text file or STDIN, default None. These IDs will not appear in the list of newly annotated proteins still to be added to our manuallycurated table.")
+    help="Obtain list of already curated Uniprot IDs from a single-column text file or STDIN, default None. These IDs will not appear in the list of newly annotated proteins still to be added to our manually curated table.")
 myparser.add_option("--outfmt", action="store", type="string", dest="outfmt", default="xls",
     help="Format of output file. It is used to preserve data between restarts too. CSV or XLSX (default)")
+myparser.add_option("--verbose", action="store", type="int", dest="verbose", default=0,
+    help="Set verbosity to some value default is zero")
 myparser.add_option("--debug", action="store", type="int", dest="debug", default=0,
     help="Set debug to some value")
 (myoptions, myargs) = myparser.parse_args()
@@ -814,14 +818,14 @@ def process_chebi(chebi_id, chebi_dict_of_lists):
     _filename = ".TPSdownloader_cache" + os.path.sep + 'chebi' + os.path.sep + chebi_id + '.xml'
     if os.path.exists(_filename) and os.path.getsize(_filename):
         _chebi_id2, _names, _definition, _formula, _smiles = parse_chebi_xml(_filename)
-        if _formula:
+        if _formula and myoptions.run_mode == 'terpene_synthases':
             _terpene_type = classify_terpene(_formula[0]) # TODO: adjust to the inefficient hack and get rid of the unnecessary list wrapping the single value
         else:
             _terpene_type = None
     else:
         _terpene_type = None
 
-    if _smiles:
+    if _smiles and myoptions.run_mode == 'terpene_synthases':
         try:
             # make sure rdkit was imported at all
             _cyclic = is_cyclic(_smiles)
@@ -1017,12 +1021,28 @@ def recursive_translator(mylist, chebi_col, uniprot_col, uniprot_dict_of_lists, 
     _res = []
     if mylist and isinstance(mylist, list):
         for x in mylist:
+            if myoptions.debug: print("Debug: recursive_translator(): chebi_col=%s, x=%s" % (str(chebi_col), str(x)))
             if isinstance(x, list):
                 _res.extend(recursive_translator(x, chebi_col, uniprot_col, uniprot_dict_of_lists, chebi_dict_of_lists))
             elif x:
                 if x in chebi_dict_of_lists['ChEBI ID']:
                     _index = chebi_dict_of_lists['ChEBI ID'].index(x)
-                    _res.extend(chebi_dict_of_lists[chebi_col][_index])
+                    if myoptions.debug: print("Debug: recursive_translator(): _index=%s" % str(_index))
+                    if _index is None:
+                        raise ValueError("Error: _index=%s, chebi_col=%s" % (str(_index), str(chebi_col)))
+                    if chebi_col is None:
+                        raise ValueError("Error: _index=%s, chebi_col=%s" % (str(_index), str(chebi_col)))
+                    if chebi_dict_of_lists is None:
+                        raise ValueError("Error: chebi_dict_of_lists is None, _index=%s, chebi_col=%s" % (str(_index), str(chebi_col)))
+
+                    if myoptions.debug: print("Debug: recursive_translator(): chebi_dict_of_lists[chebi_col]=%s" % str(chebi_dict_of_lists[chebi_col]))
+                    _some_res = chebi_dict_of_lists[chebi_col][_index]
+                    if _some_res:
+                        _res.extend(chebi_dict_of_lists[chebi_col][_index])
+                    else:
+                        # CHEBI:59720 - HPETE anion
+                        #  contains no SMILES and other fields at all
+                        sys.stderr.write("Warning: %s: The column '%s' contains '%s'\n" % (str(x), str(chebi_col), str(chebi_dict_of_lists[chebi_col][_index])))
                 else:
                     if myoptions.debug:
                         print("Debug: recursive_translator(): x=%s is not in chebi_dict_of_lists['ChEBI ID'], why?" % str(x))
@@ -1194,11 +1214,13 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
 
     _l = len(uniprot_dict_of_lists['Uniprot ID'])
     for x in uniprot_dict_of_lists.keys():
-        print("Info: %s: uniprot_dict_of_lists['%s'] has length %d" % (primary_accession, x, len(uniprot_dict_of_lists[x])))
+        if myoptions.verbose:
+            print("Info: %s: uniprot_dict_of_lists['%s'] has length %d" % (primary_accession, x, len(uniprot_dict_of_lists[x])))
         if myoptions.debug:
             print("Debug: process_parsed_uniprot_values(): %s: uniprot_dict_of_lists['%s'][-1]=%s" % (primary_accession, x, str(uniprot_dict_of_lists[x][-1])))
         if _l != len(uniprot_dict_of_lists[x]):
-            print("Debug: process_parsed_uniprot_values(): %s: uniprot_dict_of_lists['%s']=%s" % (primary_accession, x, str(uniprot_dict_of_lists[x])))
+            if myoptions.debug:
+                print("Debug: process_parsed_uniprot_values(): %s: uniprot_dict_of_lists['%s']=%s" % (primary_accession, x, str(uniprot_dict_of_lists[x])))
             raise ValueError("len(uniprot_dict_of_lists['Uniprot ID'])=%d != len(uniprot_dict_of_lists['%s'])=%d" % (len(uniprot_dict_of_lists['Uniprot ID']), x, len(uniprot_dict_of_lists[x])))
 
 
@@ -1372,7 +1394,7 @@ def split_chebi_data_into_substrates_and_products(primary_accession, chebi_ids, 
                 print("Debug: %s: split_chebi_data_into_substrates_and_products(): Skipping this non-terpene ChEBI ID" % _chebi_id)
             elif _terpene_type:
                 _product_ids.append(_chebi_id)
-            else:
+            elif myoptions.run_mode == 'terpene_synthases':
                 print("Warning: %s: Unexpected compound %s or a good candidate for non_terpene_and_acyclic_terpene_chebi_ids blacklist" % (_chebi_id, str(_terpene_type)))
 
     if not _product_ids:
@@ -1678,7 +1700,6 @@ def main():
     _newly_annotated_dict_of_lists = copy.deepcopy(_empty_template_dict_of_lists)
     for _id in _requested_primary_ids:
         if _id not in _merged_ids_manually_collected:
-            # copy dict items to a new dict, feed it into Pandas dataframe again
             try:
                 _uniprot_row_pos = _output_dict_of_lists['Uniprot ID'].index(_id)
             except ValueError:
@@ -1688,14 +1709,18 @@ def main():
                     raise ValueError("Cannot find Uniprot ID %s in _requested_primary_ids" % _id)
             _myseq = _uniprot_dict_of_lists['Amino acid sequence'][_uniprot_row_pos]
             if _myseq not in _already_curated_sequences:
+                # the first entry with a unique sequence for a cluster of entries will win, no matter if is annotated or not
                 for _column in _output_dict_of_lists.keys():
                     _val = _output_dict_of_lists[_column][_uniprot_row_pos]
                     if _val:
                         _newly_annotated_dict_of_lists[_column].append(_val)
                     else:
                         _newly_annotated_dict_of_lists[_column].append('')
-                # or maybe better do it in Pandas?
-                # https://stackoverflow.com/questions/42483959/copy-some-rows-from-existing-pandas-dataframe-to-a-new-one
+            else:
+                # TODO: maybe check if the current entry is annotated in more detail?
+                pass
+            # or maybe better do it in Pandas?
+            # https://stackoverflow.com/questions/42483959/copy-some-rows-from-existing-pandas-dataframe-to-a-new-one
     _df_newly_annotated = pd.DataFrame(_newly_annotated_dict_of_lists)
 
     print("Info: %d entries in _all_chebi_ids=%s" % (len(_all_chebi_ids), str(_all_chebi_ids)))
