@@ -1370,7 +1370,7 @@ def split_chebi_data_into_substrates_and_products_wrapper(primary_accession, che
     This function needs reworking to simultaneously split into all groups.
     """
 
-    print("Info: %s: Received: chebi_ids=%s, chebi_dict_of_lists=%s, substrate_ids=%s, product_ids=%s" % (primary_accession, str(chebi_ids), str(chebi_dict_of_lists), str(substrate_ids), str(product_ids)))
+    if myoptions.verbose: print("Info: %s: Received: chebi_ids=%s, chebi_dict_of_lists=%s, substrate_ids=%s, product_ids=%s" % (primary_accession, str(chebi_ids), str(chebi_dict_of_lists), str(substrate_ids), str(product_ids)))
     _substrate_ids, _product_ids = split_chebi_data_into_substrates_and_products(primary_accession, chebi_ids, chebi_dict_of_lists)
     if _substrate_ids or _product_ids:
         substrate_ids.append(_substrate_ids)
