@@ -1666,7 +1666,8 @@ def main():
                         # <dbReference type="ChEBI" id="CHEBI:175763"/>
                         # <dbReference type="EC" id="2.5.1.29"/>
                         # </reaction>
-                        print("Info: %s: No cyclic terpene ChEBI ID found for a product of reaction=%s" % (_uniprot_id, str(_reaction)))
+                        if myoptions.run_mode == 'terpene_synthases':
+                            print("Info: %s: No cyclic terpene ChEBI ID found for a product of reaction=%s" % (_uniprot_id, str(_reaction)))
                         _product_chebi_id = None 
                     for _column in _uniprot_dict_of_lists.keys():
                         _val = _uniprot_dict_of_lists[_column][_uniprot_row_pos]
