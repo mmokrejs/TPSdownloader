@@ -248,14 +248,22 @@ def parse_chebi_xml(filename):
     ChEBI keeps substance names in two places, <NAME> and <SYNONYM> tags.
     """
 
-    etree=ET.parse(filename)
-    root=etree.getroot()
-
     _chebi_id = None
     _definition = []
     _names = [] # do not use list to keep ordering, the first name is teh official IUPAC name, then synonyms are appended
     _formula = None
     _smiles = None
+
+    try:
+        # https://github.com/ebi-chebi/ChEBI/issues/4182
+        etree=ET.parse(filename)
+    except:
+        try:
+            os.rename(filename, filename + ".bad")
+        except FileNotFoundError as e:
+            sys.stderr.write("Error: Failed to rename a file %s: %s\n" % (str(filename), str(e.with_traceback)))
+            return(_chebi_id, _names, _definition, _formula, _smiles)
+    root=etree.getroot()
 
     for elem in root:
         if myoptions.debug: print("Level 0: ", elem.tag, ' ', elem.attrib, ' ', elem.text)
@@ -817,7 +825,13 @@ def process_chebi(chebi_id, chebi_dict_of_lists):
     download_chebi(chebi_id)
     _filename = ".TPSdownloader_cache" + os.path.sep + 'chebi' + os.path.sep + chebi_id + '.xml'
     if os.path.exists(_filename) and os.path.getsize(_filename):
-        _chebi_id2, _names, _definition, _formula, _smiles = parse_chebi_xml(_filename)
+        try:
+            _chebi_id2, _names, _definition, _formula, _smiles = parse_chebi_xml(_filename)
+        except RuntimeError as e:
+            if not os.path.exists(_filename) and os.path.exists(_filename + ".bad"):
+                sys.stderr.write("Warning: Failed to parse file %s , will re-fetch after 600 sec delay. Error was: %s\n" % (str(_filename), str(e.with_traceback)))
+                time.sleep(600)
+                _chebi_id2, _names, _definition, _formula, _smiles = parse_chebi_xml(_filename)
         if _formula and myoptions.run_mode == 'terpene_synthases':
             _terpene_type = classify_terpene(_formula[0]) # TODO: adjust to the inefficient hack and get rid of the unnecessary list wrapping the single value
         else:
@@ -1054,7 +1068,7 @@ def recursive_translator(mylist, chebi_col, uniprot_col, uniprot_dict_of_lists, 
             _res.extend(chebi_dict_of_lists[chebi_col][_index])
         else:
             if myoptions.debug:
-                print("Debug: recursive_translator(): x=%s is not in chebi_dict_of_lists['ChEBI ID'], why?" % str(mylist))
+                print("Debug: recursive_translator(): x=%s is not in chebi_dict_of_lists['ChEBI ID'], why??" % str(mylist))
     return _res
 
 
@@ -1378,6 +1392,8 @@ def split_chebi_data_into_substrates_and_products(primary_accession, chebi_ids, 
                 _substrate_ids.append(_chebi_id)
             elif _chebi_id in possible_cofactors:
                 _cofactor_ids.append(_chebi_id)
+            elif myoptions.run_mode == 'CYPs':
+                _product_ids.append(_chebi_id) # probably should also come up with a blacklist of radicals, oxygen, etc., like for the 'terpene_synthases' run_mode
             #elif _chebi_id in intermediates:
             #    # CHEBI:63190 (+)-β-caryophyllene aka (S)-β-bisabolene
             #    # CHEBI:58622 9α-copalyl diphosphate
