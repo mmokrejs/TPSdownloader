@@ -226,6 +226,8 @@ def parse_list_or_set(_strlist):
 def parse_known_terpenes(filename="terpene_names.uniq.txt"):
     """Multi-line strings are wrapped by double-quotes. Such entries appear in the XLSX files
     mostly by mistake but line-based approach yields entries starting with double-quote sign.
+
+    This is unused code at the moment.
     """
 
     _known_terpenes = []
@@ -1034,13 +1036,13 @@ def parse_storage(filename):
     return _uniprot_dict_of_lists, _chebi_dict_of_lists, _copy_without_chebi_id, _empty_template_dict_of_lists
 
 
-def recursive_translator(mylist, chebi_col, uniprot_col, uniprot_dict_of_lists, chebi_dict_of_lists):
+def recursive_translator(mylist, chebi_col, uniprot_col, uniprot_dict_of_lists, chebi_dict_of_lists, warn_once_per_chebi_entry):
     _res = []
     if mylist and isinstance(mylist, list):
         for x in mylist:
             if myoptions.debug: print("Debug: recursive_translator(): chebi_col=%s, x=%s" % (str(chebi_col), str(x)))
             if isinstance(x, list):
-                _res.extend(recursive_translator(x, chebi_col, uniprot_col, uniprot_dict_of_lists, chebi_dict_of_lists))
+                _res.extend(recursive_translator(x, chebi_col, uniprot_col, uniprot_dict_of_lists, chebi_dict_of_lists, warn_once_per_chebi_entry))
             elif x:
                 if x in chebi_dict_of_lists['ChEBI ID']:
                     _index = chebi_dict_of_lists['ChEBI ID'].index(x)
@@ -1055,11 +1057,18 @@ def recursive_translator(mylist, chebi_col, uniprot_col, uniprot_dict_of_lists, 
                     if myoptions.debug: print("Debug: recursive_translator(): chebi_dict_of_lists[chebi_col]=%s" % str(chebi_dict_of_lists[chebi_col]))
                     _some_res = chebi_dict_of_lists[chebi_col][_index]
                     if _some_res:
-                        _res.extend(chebi_dict_of_lists[chebi_col][_index])
+                        _res.extend(_some_res)
                     else:
                         # CHEBI:59720 - HPETE anion
                         #  contains no SMILES and other fields at all
-                        sys.stderr.write("Warning: %s: The column '%s' contains '%s'\n" % (str(x), str(chebi_col), str(chebi_dict_of_lists[chebi_col][_index])))
+                        if x not in warn_once_per_chebi_entry:
+                            # raise this warning just once per substance, makes no sense to have zillions of warning about
+                            #       CHEBI:15379: The column 'Compound description' contains '[]'
+                            #       Unfortunately this should be per ChEBI ID + chebi_col pair or, TODO:, be postponed to upper code,
+                            #       e.g. append_substrates_and_products() to append the x value to the list later after all warnings are issued,
+                            #       otherwise only one warning is issued for such ChEBI entry although more columns are problematic/empty
+                            sys.stderr.write("Warning: %s: The column '%s' contains '%s'\n" % (str(x), str(chebi_col), str(_some_res)))
+                            warn_once_per_chebi_entry.append(x)
                 else:
                     if myoptions.debug:
                         print("Debug: recursive_translator(): x=%s is not in chebi_dict_of_lists['ChEBI ID'], why?" % str(x))
@@ -1075,7 +1084,7 @@ def recursive_translator(mylist, chebi_col, uniprot_col, uniprot_dict_of_lists, 
     return _res
 
 
-def translator(extra_colnames, nestedlists, column_pairs, uniprot_dict_of_lists, chebi_dict_of_lists):
+def translator(extra_colnames, nestedlists, column_pairs, uniprot_dict_of_lists, chebi_dict_of_lists, warn_once_per_chebi_entry):
     "Push the data for _product_ids, _substrate_ids, _cofactor_ids into uniprot_dict_of_lists"
 
     if not nestedlists:
@@ -1086,14 +1095,14 @@ def translator(extra_colnames, nestedlists, column_pairs, uniprot_dict_of_lists,
             if myoptions.debug:
                 print("     nestedlists=%s" % str(nestedlists))
 
-            _res = recursive_translator(nestedlists, _chebi_col, _uniprot_col, uniprot_dict_of_lists, chebi_dict_of_lists)
+            _res = recursive_translator(nestedlists, _chebi_col, _uniprot_col, uniprot_dict_of_lists, chebi_dict_of_lists, warn_once_per_chebi_entry)
             uniprot_dict_of_lists[_uniprot_col].append(_res)
 
             if myoptions.debug:
                 print("Debug: translator(): uniprot_dict_of_lists[%s][-1]=%s, _chebi_col=%s, _uniprot_col=%s" % (_uniprot_col, str(uniprot_dict_of_lists[_uniprot_col][-1]), str(_chebi_col), str(_uniprot_col)))
 
 
-def append_substrates_and_products(uniprot_dict_of_lists, chebi_dict_of_lists, _substrate_ids, _product_ids):
+def append_substrates_and_products(uniprot_dict_of_lists, chebi_dict_of_lists, _substrate_ids, _product_ids, warn_once_per_chebi_entry):
     """Put the ChEBI-derived data into variables dedicated to substrate, product or cofactor.
     The variables contain same datatypes but to get the final table we triplicate the output
     table columns. The ChEBI IDs were already written by upstream code.
@@ -1103,13 +1112,13 @@ def append_substrates_and_products(uniprot_dict_of_lists, chebi_dict_of_lists, _
         for _colname in extra_product_colnames:
             uniprot_dict_of_lists[_colname].append('')
     else:
-        translator(extra_product_colnames, _product_ids, [['Compound name', 'Name of product'], ['Compound description', 'Product compound description'], ['Formula', 'Chemical formula of product'], ['SMILES', 'SMILES of product (including stereochemistry)']], uniprot_dict_of_lists, chebi_dict_of_lists)
+        translator(extra_product_colnames, _product_ids, [['Compound name', 'Name of product'], ['Compound description', 'Product compound description'], ['Formula', 'Chemical formula of product'], ['SMILES', 'SMILES of product (including stereochemistry)']], uniprot_dict_of_lists, chebi_dict_of_lists, warn_once_per_chebi_entry)
 
     if not _substrate_ids:
         for _colname in extra_substrate_colnames:
             uniprot_dict_of_lists[_colname].append('')
     else:
-        translator(extra_substrate_colnames, _substrate_ids, [['Compound name', 'Substrate (including stereochemistry)'], ['Compound description', 'Substrate compound description'], ['Formula', 'Chemical formula of substrate'], ['SMILES', 'SMILES of substrate (including stereochemistry)']], uniprot_dict_of_lists, chebi_dict_of_lists)
+        translator(extra_substrate_colnames, _substrate_ids, [['Compound name', 'Substrate (including stereochemistry)'], ['Compound description', 'Substrate compound description'], ['Formula', 'Chemical formula of substrate'], ['SMILES', 'SMILES of substrate (including stereochemistry)']], uniprot_dict_of_lists, chebi_dict_of_lists, warn_once_per_chebi_entry)
 
 
 def get_cyclic_terpene_synthases(primary_accession, reactions, ec_numbers, rhea_ids, chebi_ids, chebi_dict_of_lists):
@@ -1145,7 +1154,7 @@ def get_cyclic_terpene_synthases(primary_accession, reactions, ec_numbers, rhea_
     return natsorted(_substrate_ids), natsorted(_product_ids)
 
 
-def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_of_lists, chebi_dict_of_lists, already_parsed, primary_accession, secondary_accessions, chebi_ids, rhea_ids, ec_numbers, reactions, cofactor_ids, cofactors, recommended_name, alternative_names, submitted_name, feature_descriptions, organism, lineage, sequence, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc, primaries):
+def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_of_lists, chebi_dict_of_lists, already_parsed, primary_accession, secondary_accessions, chebi_ids, rhea_ids, ec_numbers, reactions, cofactor_ids, cofactors, recommended_name, alternative_names, submitted_name, feature_descriptions, organism, lineage, sequence, uniprot_pri_acc2aliases, uniprot_aliases2pri_acc, primaries, warn_once_per_chebi_entry):
     """Process a single Uniprot entry along with getting data from ChEBI-dictlist.
     """
 
@@ -1194,7 +1203,7 @@ def process_parsed_uniprot_values(all_uniprot_ids, all_chebi_ids, uniprot_dict_o
         uniprot_dict_of_lists['Cofactor ChEBI IDs'].append(cofactor_ids) # uniprot_dict_of_lists[Cofactor ChEBI IDs][-1]=[[]]
         uniprot_dict_of_lists['Cofactors'].append(cofactors)
         uniprot_dict_of_lists['Product ChEBI IDs'].append(_product_ids) # uniprot_dict_of_lists[Product ChEBI IDs][-1]=[['CHEBI:15385']]
-        append_substrates_and_products(uniprot_dict_of_lists, chebi_dict_of_lists, _substrate_ids, _product_ids)
+        append_substrates_and_products(uniprot_dict_of_lists, chebi_dict_of_lists, _substrate_ids, _product_ids, warn_once_per_chebi_entry)
 
         uniprot_dict_of_lists['Name'].append(recommended_name) # For compatibility with Adela I stick here to 'Name' column name
         uniprot_dict_of_lists['Alternative names'].append(alternative_names)
@@ -1483,7 +1492,9 @@ def write_fasta_file(sequence2_uniprot_pri_accs, datetime, accessions=[]):
 
 def main():
     create_cache()
-    _known_terpenes = parse_known_terpenes()
+
+    # unused code
+    # _known_terpenes = parse_known_terpenes()
     _uniprot_pri_acc2aliases = {}
     _uniprot_aliases2pri_acc = {}
 
@@ -1518,13 +1529,16 @@ def main():
     _ids_parsed_from_xls_storage = list(_already_parsed)
     _primaries = []
 
+    # when working with same substance ID, issue eventual warning just once per ChEBI ID
+    _warn_once_per_chebi_entry = []
+
     #  parse previously obtained multi-entry XML data, if any
     for _filename in os.listdir('.TPSdownloader_cache/uniprot/multientry/'):
         print("Info: Found multi-entry XML file %s" % '.TPSdownloader_cache/uniprot/multientry/' + _filename)
         if os.path.getsize('.TPSdownloader_cache/uniprot/multientry/' + _filename):
             print("Info: Parsing %s" % '.TPSdownloader_cache/uniprot/multientry/' + _filename)
             for _primary_accession, _secondary_accessions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml('.TPSdownloader_cache/uniprot/multientry/' + _filename, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _already_parsed):
-                process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _chebi_dict_of_lists, _already_parsed, _primary_accession, _secondary_accessions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _primaries)
+                process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _chebi_dict_of_lists, _already_parsed, _primary_accession, _secondary_accessions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _primaries, _warn_once_per_chebi_entry)
 
     if myoptions.debug:
         print("Debug: After parsing multi-entry XML files _all_uniprot_ids=%s" % str(_all_uniprot_ids))
@@ -1567,7 +1581,7 @@ def main():
             _filename = '.TPSdownloader_cache/uniprot/' + _id + '.xml'
             if os.path.exists(_filename) and os.path.getsize(_filename):
                 for _primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _cofactor_ids_per_entry, _cofactors_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence in parse_uniprot_xml(_filename, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _already_parsed):
-                    process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _chebi_dict_of_lists, _already_parsed, _primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _cofactor_ids_per_entry, _cofactors_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _primaries)
+                    process_parsed_uniprot_values(_all_uniprot_ids, _all_chebi_ids, _uniprot_dict_of_lists, _chebi_dict_of_lists, _already_parsed, _primary_accession, _secondary_accessions, _chebi_ids, _rhea_ids, _ec_numbers, _reactions, _cofactor_ids_per_entry, _cofactors_per_entry, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _organism, _lineage, _sequence, _uniprot_pri_acc2aliases, _uniprot_aliases2pri_acc, _primaries, _warn_once_per_chebi_entry)
             elif _id not in _primaries and _id not in _uniprot_aliases2pri_acc:
                 # This entry is obsolete
                 # A0A1C4NU45, A0A1C4QLD8, A0A6H2TAF2, A0A6M0EDU3, A0A6M0EJ23, A0A6M0E6U2, A0A6N9WZ95, A0A6N9XB68, A0A6N9XHS1, A0A7H5IRS5, A0A7H5ITL2, A0A7H5JDR3, A0A7H5JHP0
