@@ -262,7 +262,7 @@ def parse_chebi_xml(filename):
             os.rename(filename, filename + ".bad")
         except FileNotFoundError as e:
             sys.stderr.write("Error: Failed to rename a file %s: %s\n" % (str(filename), str(e.with_traceback)))
-            return(_chebi_id, _names, _definition, _formula, _smiles)
+        return(_chebi_id, _names, _definition, _formula, _smiles)
     root=etree.getroot()
 
     for elem in root:
