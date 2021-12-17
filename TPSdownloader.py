@@ -442,6 +442,8 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
     _cofactor_ids_local = []
     _cofactors_local = []
 
+    _item_counter = 0
+
 #    for elem in root:
     for event, elem in etree:
         if myoptions.debug:
@@ -453,7 +455,7 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
                 # process previously parsed data buffers
                 process_delayed_buffers(_primary_accession, _chebi_ids_local, _rhea_ids_local, _ec_numbers_local, _reactions_local, _cofactor_ids_local, _cofactors_local, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry)
                 if True or myoptions.debug:
-                    print("Info: %s: Yielding a single entry from file %s" % (_primary_accession, str(filename)))
+                    print("Info: %s: Yielding a single entry %d from file %s" % (_primary_accession, _item_counter, str(filename)))
                     for _var, _varname in zip([_primary_accession, _secondary_accessions, _uniprot_name, _recommended_name, _alternative_names, _submitted_name, _feature_descriptions, _chebi_ids_per_entry, _rhea_ids_per_entry, _ec_numbers_per_entry, _reactions_per_entry, _cofactor_ids_per_entry, _cofactors_per_entry, _sequence, _organism, _lineage], ['_primary_accession', '_secondary_accessions', '_uniprot_name', '_recommended_name', '_alternative_names', '_submitted_name', '_feature_descriptions', '_chebi_ids_per_entry', '_rhea_ids_per_entry', '_ec_numbers_per_entry', '_reactions_per_entry', '_cofactor_ids_per_entry', '_cofactors_per_entry', '_sequence', '_organism', '_lineage']):
                         print("Info: %s: %s=%s" % (_primary_accession, _varname, _var))
 
@@ -679,7 +681,8 @@ Distributed under the Creative Commons Attribution (CC BY 4.0) License
         #       <submittedName>
         #         <fullName evidence="4 5">Beta myrcene/limonene synthase</fullName>
         #       </submittedName>
-            raise ValueError("No proteins descriptions were parsed for _primary_accession=%s from %s" % (str(_primary_accession), filename))
+            raise ValueError("No protein descriptions were parsed for _primary_accession=%s which is %d-th entry from %s" % (str(_primary_accession), _item_counter, filename))
+        _item_counter += 1
 
 
 def create_cache(cachedir=".TPSdownloader_cache"):
