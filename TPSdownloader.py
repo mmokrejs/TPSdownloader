@@ -1423,7 +1423,7 @@ def split_chebi_data_into_substrates_and_products(primary_accession, chebi_ids, 
         # Q50L36: dimethylallyl diphosphate = diphosphate + isoprene
         print("Info: %s: Failed to find a cyclic terpene product in any of these: %s" % (primary_accession, str(chebi_ids))) # CHEBI:15385 (+)-δ-cadinene
 
-    print("Debug: split_chebi_data_into_substrates_and_products(): Returning _substrate_ids=%s, _product_ids=%s" % (str(_substrate_ids), str(_product_ids)))
+    if myoptions.debug: print("Debug: split_chebi_data_into_substrates_and_products(): Returning _substrate_ids=%s, _product_ids=%s" % (str(_substrate_ids), str(_product_ids)))
 
     return natsorted(_substrate_ids), natsorted(_product_ids)
 
