@@ -1419,7 +1419,7 @@ def split_chebi_data_into_substrates_and_products(primary_accession, chebi_ids, 
             elif myoptions.run_mode == 'terpene_synthases':
                 print("Warning: %s: Unexpected compound %s or a good candidate for non_terpene_and_acyclic_terpene_chebi_ids blacklist" % (_chebi_id, str(_terpene_type)))
 
-    if not _product_ids:
+    if not _product_ids and myoptions.run_mode == 'terpene_synthases':
         # Q50L36: dimethylallyl diphosphate = diphosphate + isoprene
         print("Info: %s: Failed to find a cyclic terpene product in any of these: %s" % (primary_accession, str(chebi_ids))) # CHEBI:15385 (+)-δ-cadinene
 
