@@ -1450,13 +1450,13 @@ def convert_to_primary_ids(ids, primaries, aliases, ids_parsed_from_xls_storage,
             if _x not in _requested_primary_ids and _x not in ids_parsed_from_xls_storage:
                 _requested_primary_ids.append(_x)
             else:
-                print("Debug: Discarded %s from _ids" % _x)
+                if myoptions.debug: print("Debug: Discarded %s from _ids" % _x)
         elif _x in aliases:
             _xx = uniprot_aliases2pri_acc[_x]
             if _xx not in _requested_primary_ids and _xx not in ids_parsed_from_xls_storage:
                 _requested_primary_ids.append(_xx)
             else:
-                print("Debug: Discarded %s from _ids" % _xx)
+                if myoptions.debug: print("Debug: Discarded %s from _ids" % _xx)
         else:
             _requested_primary_ids.append(_x.upper()) # cannot say if it is primary or secondary, just keep it
     return _requested_primary_ids
